@@ -595,3 +595,214 @@
 [2023-06-20 00:56:42] INFO root fetch - processPackages [pin]: Remove: archive file [/home/abi/fetcher/tmp/pin-2.6.4-1-cp39-cp39-manylinux_2_24_x86_64.whl.zip]
 [2023-06-20 00:56:42] INFO root fetch - main [MainThread]: End processing [pin]: success
 [2023-06-20 00:56:42] INFO root fetch - main [MainThread]: Store serial: [18566207]
+[2023-06-20 01:02:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566207]
+[2023-06-20 01:02:11] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-20 01:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cppython-core
+[2023-06-20 01:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pillar1
+[2023-06-20 01:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfish
+[2023-06-20 01:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyensign
+[2023-06-20 01:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parsl
+[2023-06-20 01:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quantconnect-stubs
+[2023-06-20 01:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyensign
+[2023-06-20 01:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libretrofuzz
+[2023-06-20 01:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PlexLabExchange
+[2023-06-20 01:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lollms
+[2023-06-20 01:02:11] INFO root fetch - processPackages [pyensign]: New version: [0.7b0] Old Version: [0.7.1b0]
+[2023-06-20 01:02:11] INFO root fetch - processPackages [kfish]: New version: [99.0.202306192255] Old Version: [99.0.202306192252]
+[2023-06-20 01:02:11] INFO root fetch - processPackages [pillar1]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-20 01:02:11] INFO root fetch - processPackages [lollms]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-20 01:02:11] INFO root fetch - processPackages [cppython-core]: New version: [0.7.0] Old Version: [0.6.1.dev9]
+[2023-06-20 01:02:11] INFO root fetch - processPackages [pyensign]: New version: [0.7b0] Old Version: [0.7.1b0]
+[2023-06-20 01:02:11] INFO root fetch - processPackages [parsl]: New version: [2023.6.5] Old Version: [2023.6.19]
+[2023-06-20 01:02:11] INFO root fetch - processPackages [libretrofuzz]: New version: [3.2.4] Old Version: [3.2.3]
+[2023-06-20 01:02:11] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-06-20 01:02:11] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/0a/d7/9a9371ce1d129955fbd70fecc02198b70fe85eeb9e073d27d4608fbe5d57/lollms-1.2.8.tar.gz
+[2023-06-20 01:02:11] WARNING root fetch - processPackages [PlexLabExchange]: Skipping, unable to determine old version
+[2023-06-20 01:02:11] INFO root fetch - processPackages [PlexLabExchange]: Start processing: rhdndat
+[2023-06-20 01:02:11] INFO root fetch - main [MainThread]: End processing [PlexLabExchange] error
+[2023-06-20 01:02:11] INFO root fetch - processPackages [pyensign]: Downloading https://files.pythonhosted.org/packages/46/05/d06bc9d6e098a970dd4ced039972e733ca547da4f01aca2e67d7cad9a534/pyensign-0.7.1b0.tar.gz
+[2023-06-20 01:02:11] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31321967>=10485760
+[2023-06-20 01:02:11] INFO root fetch - processPackages [lollms]: Start processing: libretro-scummvm-playlist
+[2023-06-20 01:02:11] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-20 01:02:11] INFO root fetch - processPackages [pyensign]: Downloading https://files.pythonhosted.org/packages/46/05/d06bc9d6e098a970dd4ced039972e733ca547da4f01aca2e67d7cad9a534/pyensign-0.7.1b0.tar.gz
+[2023-06-20 01:02:11] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/93/4d/11d48386379b726b6574382b9ea87bc11a8e780abfb8696450c893e10594/parsl-2023.6.19.tar.gz
+[2023-06-20 01:02:11] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/a5/57/c9b9e363eb29a50f26b5215f4b717b374768c4558263f407972c46afaa34/kfish-99.0.202306192252-py3-none-any.whl
+[2023-06-20 01:02:11] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/95/84/ea056bb900afc938c6600beda13b4a4726c00ae50a154f7815b6b845287a/pillar1-0.1.2.tar.gz
+[2023-06-20 01:02:11] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/99/79/f6281f95a587b71f02afc43ce91f2fef61fc0e2bf0351f7ac98d4c1681d3/libretrofuzz-3.2.3.tar.gz
+[2023-06-20 01:02:11] INFO root fetch - processPackages [libretro-scummvm-playlist]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-06-20 01:02:11] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-06-20 01:02:11] INFO root fetch - processPackages [rhdndat]: New version: [2.6.8] Old Version: [2.6.7]
+[2023-06-20 01:02:11] INFO root fetch - processPackages [cppython-core]: Downloading https://files.pythonhosted.org/packages/2c/30/d3dfc3c84283d381ae73e9935fd3cf8eab1824805986be1e011f6f514766/cppython-core-0.6.1.dev9.tar.gz
+[2023-06-20 01:02:11] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c0/6a/72737a8de238984124988121e9920753aa3abce74d3d9291e39f5037b0c0/kfish-99.0.202306192255-py3-none-any.whl
+[2023-06-20 01:02:11] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/01/e2/abe3baf54e73d0dfd6ad9e21daad14a75cd767df82ec0a8f8840e187fe43/pillar1-0.1.3.tar.gz
+[2023-06-20 01:02:11] INFO root fetch - processPackages [libretro-scummvm-playlist]: Downloading https://files.pythonhosted.org/packages/42/f2/de5c62a1aaaa5cd40bcb31d399b1ad7feca8021a050e7d36df357179986f/libretro_scummvm_playlist-2.4.0.tar.gz
+[2023-06-20 01:02:11] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/38/83/17847e1f1f6a2c7fcabf5f2438004df559ee716ebc308fe5ccb489dfac1f/parsl-2023.6.5.tar.gz
+[2023-06-20 01:02:11] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-20 01:02:11] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306192252-py3-none-any.whl.zip tmp/kfish-99.0.202306192255-py3-none-any.whl.zip --markdown 20230620/k/kfish/99.0.202306192252-99.0.202306192255/diff.md --exclude *.pyd
+[2023-06-20 01:02:11] INFO root fetch - processPackages [pyensign]: Downloading https://files.pythonhosted.org/packages/d1/98/0bde46336df6cadda78fd80e50e1b3d5318882450e2e688c6c6df87d8357/pyensign-0.7b0.tar.gz
+[2023-06-20 01:02:11] INFO root fetch - processPackages [pyensign]: Downloading https://files.pythonhosted.org/packages/d1/98/0bde46336df6cadda78fd80e50e1b3d5318882450e2e688c6c6df87d8357/pyensign-0.7b0.tar.gz
+[2023-06-20 01:02:11] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-20 01:02:11] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.2.tar.gz tmp/pillar1-0.1.3.tar.gz --markdown 20230620/p/pillar1/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-20 01:02:11] INFO root fetch - processPackages [cppython-core]: Downloading https://files.pythonhosted.org/packages/59/9d/cc4dfc428a02f0c1e4de24e97dcb234e371a8c4769b78ffd42ba5a4cdb3f/cppython-core-0.7.0.tar.gz
+[2023-06-20 01:02:11] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/3d/eb/abac72aca5f3114a767778754f6768584cc3d513893de58973cfeb7be1bd/libretrofuzz-3.2.4.tar.gz
+[2023-06-20 01:02:11] INFO root fetch - processPackages [cppython-core]: executing diffoscope
+[2023-06-20 01:02:11] INFO root fetch - processPackages [cppython-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cppython-core-0.6.1.dev9.tar.gz tmp/cppython-core-0.7.0.tar.gz --markdown 20230620/c/cppython-core/0.6.1.dev9-0.7.0/diff.md --exclude *.pyd
+[2023-06-20 01:02:11] INFO root fetch - processPackages [libretrofuzz]: executing diffoscope
+[2023-06-20 01:02:11] INFO root fetch - processPackages [libretrofuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretrofuzz-3.2.3.tar.gz tmp/libretrofuzz-3.2.4.tar.gz --markdown 20230620/l/libretrofuzz/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2023-06-20 01:02:11] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2023-06-20 01:02:11] INFO root fetch - processPackages [pyensign]: executing diffoscope
+[2023-06-20 01:02:11] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2023.6.19.tar.gz tmp/parsl-2023.6.5.tar.gz --markdown 20230620/p/parsl/2023.6.19-2023.6.5/diff.md --exclude *.pyd
+[2023-06-20 01:02:11] INFO root fetch - processPackages [pyensign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyensign-0.7.1b0.tar.gz tmp/pyensign-0.7b0.tar.gz --markdown 20230620/p/pyensign/0.7.1b0-0.7b0/diff.md --exclude *.pyd
+[2023-06-20 01:02:11] INFO root fetch - processPackages [pyensign]: executing diffoscope
+[2023-06-20 01:02:11] INFO root fetch - processPackages [pyensign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyensign-0.7.1b0.tar.gz tmp/pyensign-0.7b0.tar.gz --markdown 20230620/p/pyensign/0.7.1b0-0.7b0/diff.md --exclude *.pyd
+[2023-06-20 01:02:11] INFO root fetch - processPackages [rhdndat]: Downloading https://files.pythonhosted.org/packages/9c/4a/45167499eda371720bfb2b9c136feee97dd60794d81ba37ceac53710f9d1/rhdndat-2.6.7.tar.gz
+[2023-06-20 01:02:12] INFO root fetch - processPackages [libretro-scummvm-playlist]: Downloading https://files.pythonhosted.org/packages/32/70/71baa6333065a44d6c25a4aa9bb9f4fe3dd7ccc1c7c80fc88da36a6457fd/libretro_scummvm_playlist-2.4.1.tar.gz
+[2023-06-20 01:02:12] INFO root fetch - processPackages [libretro-scummvm-playlist]: executing diffoscope
+[2023-06-20 01:02:12] INFO root fetch - processPackages [libretro-scummvm-playlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretro_scummvm_playlist-2.4.0.tar.gz tmp/libretro_scummvm_playlist-2.4.1.tar.gz --markdown 20230620/l/libretro-scummvm-playlist/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-06-20 01:02:12] INFO root fetch - processPackages [rhdndat]: Downloading https://files.pythonhosted.org/packages/89/66/66ac025b6be0e3d3abb450307456b8b35ece12db9bbbe5c8143d19d4a709/rhdndat-2.6.8.tar.gz
+[2023-06-20 01:02:12] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-06-20 01:02:12] INFO root fetch - processPackages [rhdndat]: executing diffoscope
+[2023-06-20 01:02:12] INFO root fetch - processPackages [rhdndat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhdndat-2.6.7.tar.gz tmp/rhdndat-2.6.8.tar.gz --markdown 20230620/r/rhdndat/2.6.7-2.6.8/diff.md --exclude *.pyd
+[2023-06-20 01:02:12] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-06-20 01:02:12] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230620/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-06-20 01:02:12] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306192252-py3-none-any.whl.zip]
+[2023-06-20 01:02:12] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306192255-py3-none-any.whl.zip]
+[2023-06-20 01:02:12] INFO root fetch - processPackages [kfish]: Start processing: pillar1
+[2023-06-20 01:02:12] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-20 01:02:13] INFO root fetch - processPackages [pillar1]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-20 01:02:13] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.2.tar.gz]
+[2023-06-20 01:02:13] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.3.tar.gz]
+[2023-06-20 01:02:13] INFO root fetch - processPackages [pillar1]: Start processing: pillar1
+[2023-06-20 01:02:13] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-20 01:02:13] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/f7/54/4d89541da8fcb095a31a4505686e05c2efcced17ab70672c70fc97cf4a05/pillar1-0.1.4.tar.gz
+[2023-06-20 01:02:13] INFO root fetch - processPackages [pillar1]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-20 01:02:13] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.2.3.tar.gz]
+[2023-06-20 01:02:13] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.2.4.tar.gz]
+[2023-06-20 01:02:13] INFO root fetch - processPackages [libretrofuzz]: Start processing: tmnt-cu101
+[2023-06-20 01:02:13] INFO root fetch - main [MainThread]: End processing [libretrofuzz]: success
+[2023-06-20 01:02:13] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/f7/54/4d89541da8fcb095a31a4505686e05c2efcced17ab70672c70fc97cf4a05/pillar1-0.1.4.tar.gz
+[2023-06-20 01:02:13] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230618] Old Version: [0.7.0b20230617]
+[2023-06-20 01:02:13] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/79/35/4cc2454444b74140d3f0b7d591b8b43d2ec06e194d0bc6c95a850420b4ee/tmnt-cu101-0.7.0b20230617.tar.gz
+[2023-06-20 01:02:13] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/ab/8a/22a75e3ff44e9820dace4907b422f534d5cef561675f678203f1330ed716/pillar1-0.1.5.tar.gz
+[2023-06-20 01:02:13] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/c3/a2/b72e4d077862b9153feaeffbdca94bf5117d80e7978c933e0034059bfd7b/tmnt-cu101-0.7.0b20230618.tar.gz
+[2023-06-20 01:02:13] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/ab/8a/22a75e3ff44e9820dace4907b422f534d5cef561675f678203f1330ed716/pillar1-0.1.5.tar.gz
+[2023-06-20 01:02:13] INFO root fetch - processPackages [pyensign]: Remove: archive file [/home/abi/fetcher/tmp/pyensign-0.7.1b0.tar.gz]
+[2023-06-20 01:02:13] INFO root fetch - processPackages [pyensign]: Remove: archive file [/home/abi/fetcher/tmp/pyensign-0.7b0.tar.gz]
+[2023-06-20 01:02:13] INFO root fetch - main [MainThread]: End processing [pyensign]: success
+[2023-06-20 01:02:13] INFO root fetch - processPackages [libretro-scummvm-playlist]: Remove: archive file [/home/abi/fetcher/tmp/libretro_scummvm_playlist-2.4.0.tar.gz]
+[2023-06-20 01:02:13] INFO root fetch - processPackages [libretro-scummvm-playlist]: Remove: archive file [/home/abi/fetcher/tmp/libretro_scummvm_playlist-2.4.1.tar.gz]
+[2023-06-20 01:02:13] INFO root fetch - main [MainThread]: End processing [libretro-scummvm-playlist]: success
+[2023-06-20 01:02:13] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-20 01:02:13] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230617.tar.gz tmp/tmnt-cu101-0.7.0b20230618.tar.gz --markdown 20230620/t/tmnt-cu101/0.7.0b20230617-0.7.0b20230618/diff.md --exclude *.pyd
+[2023-06-20 01:02:13] INFO root fetch - processPackages [cppython-core]: Remove: archive file [/home/abi/fetcher/tmp/cppython-core-0.6.1.dev9.tar.gz]
+[2023-06-20 01:02:13] INFO root fetch - processPackages [cppython-core]: Remove: archive file [/home/abi/fetcher/tmp/cppython-core-0.7.0.tar.gz]
+[2023-06-20 01:02:13] INFO root fetch - main [MainThread]: End processing [cppython-core]: success
+[2023-06-20 01:02:13] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-20 01:02:13] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.4.tar.gz tmp/pillar1-0.1.5.tar.gz --markdown 20230620/p/pillar1/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-20 01:02:13] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-20 01:02:13] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.4.tar.gz tmp/pillar1-0.1.5.tar.gz --markdown 20230620/p/pillar1/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-20 01:02:13] ERROR root fetch - processPackages [pyensign]: Diffoscope failed: gzip: tmp/pyensign-0.7b0.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/pyensign-0.7b0.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-20 01:02:13] INFO root fetch - main [MainThread]: End processing [pyensign] error
+[2023-06-20 01:02:13] INFO root fetch - processPackages [rhdndat]: Remove: archive file [/home/abi/fetcher/tmp/rhdndat-2.6.7.tar.gz]
+[2023-06-20 01:02:13] INFO root fetch - processPackages [rhdndat]: Remove: archive file [/home/abi/fetcher/tmp/rhdndat-2.6.8.tar.gz]
+[2023-06-20 01:02:13] INFO root fetch - main [MainThread]: End processing [rhdndat]: success
+[2023-06-20 01:02:14] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230617.tar.gz]
+[2023-06-20 01:02:14] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230618.tar.gz]
+[2023-06-20 01:02:14] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-20 01:02:14] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.4.tar.gz]
+[2023-06-20 01:02:14] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.5.tar.gz]
+[2023-06-20 01:02:14] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-20 01:02:14] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-20 01:02:17] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.6.19.tar.gz]
+[2023-06-20 01:02:17] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.6.5.tar.gz]
+[2023-06-20 01:02:17] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2023-06-20 01:02:19] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2023-06-20 01:02:19] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2023-06-20 01:02:19] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-06-20 01:02:19] INFO root fetch - main [MainThread]: Store serial: [18566265]
