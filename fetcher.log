@@ -281,3 +281,61 @@
 [2023-06-20 00:31:56] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
 [2023-06-20 00:31:56] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
 [2023-06-20 00:31:56] INFO root fetch - main [MainThread]: Store serial: [18566060]
+[2023-06-20 00:37:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566060]
+[2023-06-20 00:37:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-20 00:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shaho
+[2023-06-20 00:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbtopy
+[2023-06-20 00:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyyeti
+[2023-06-20 00:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: csdmpy
+[2023-06-20 00:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pillar1
+[2023-06-20 00:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cppython-core
+[2023-06-20 00:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pillar1
+[2023-06-20 00:37:05] INFO root fetch - processPackages [pyyeti]: New version: [1.2.8] Old Version: [1.2.6]
+[2023-06-20 00:37:05] INFO root fetch - processPackages [nbtopy]: New version: [1.1] Old Version: [1.0]
+[2023-06-20 00:37:05] WARNING root fetch - processPackages [shaho]: Skipping, unable to determine old version
+[2023-06-20 00:37:05] INFO root fetch - main [MainThread]: End processing [shaho] error
+[2023-06-20 00:37:05] INFO root fetch - processPackages [csdmpy]: New version: [0.6.dev2] Old Version: [0.5]
+[2023-06-20 00:37:05] INFO root fetch - processPackages [pillar1]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-20 00:37:05] INFO root fetch - processPackages [pillar1]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-20 00:37:05] INFO root fetch - processPackages [cppython-core]: New version: [0.6.1.dev9] Old Version: [0.6.1.dev71]
+[2023-06-20 00:37:05] INFO root fetch - processPackages [pyyeti]: Downloading https://files.pythonhosted.org/packages/62/81/aa5702805bbc7a03e09745d6f93d9a91c8edbd0ed1806ede67ab7c84b1f4/pyyeti-1.2.6.tar.gz
+[2023-06-20 00:37:05] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/23/6d/a62646ec85ef7fed77d17bf064fc5c1351706a88be76b3970734d0fb5e70/pillar1-0.1.1.tar.gz
+[2023-06-20 00:37:05] INFO root fetch - processPackages [csdmpy]: Downloading https://files.pythonhosted.org/packages/fb/0b/3fb267e9131aa261ffb25133397d0297ac278e577d709be4effd86520162/csdmpy-0.5.tar.gz
+[2023-06-20 00:37:05] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/23/6d/a62646ec85ef7fed77d17bf064fc5c1351706a88be76b3970734d0fb5e70/pillar1-0.1.1.tar.gz
+[2023-06-20 00:37:05] INFO root fetch - processPackages [cppython-core]: Downloading https://files.pythonhosted.org/packages/a9/1c/b62d3d516f5b3a9184c7f52b9d120ae6dc599fb6449e45fde9d4e06b70a7/cppython-core-0.6.1.dev71.tar.gz
+[2023-06-20 00:37:05] INFO root fetch - processPackages [nbtopy]: Downloading https://files.pythonhosted.org/packages/87/bb/e3bbe5e38ae60c05f6a76168d5ee1e49039f8e79a50ffd526f243dbef714/nbtopy-1.0.tar.gz
+[2023-06-20 00:37:05] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/95/84/ea056bb900afc938c6600beda13b4a4726c00ae50a154f7815b6b845287a/pillar1-0.1.2.tar.gz
+[2023-06-20 00:37:05] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/95/84/ea056bb900afc938c6600beda13b4a4726c00ae50a154f7815b6b845287a/pillar1-0.1.2.tar.gz
+[2023-06-20 00:37:05] INFO root fetch - processPackages [pyyeti]: Downloading https://files.pythonhosted.org/packages/b5/fe/3f52d148b243808d4ee287b4291c2c54fd7554dbe74f1ba4b7388da7f249/pyyeti-1.2.8.tar.gz
+[2023-06-20 00:37:05] INFO root fetch - processPackages [cppython-core]: Downloading https://files.pythonhosted.org/packages/2c/30/d3dfc3c84283d381ae73e9935fd3cf8eab1824805986be1e011f6f514766/cppython-core-0.6.1.dev9.tar.gz
+[2023-06-20 00:37:05] INFO root fetch - processPackages [csdmpy]: Downloading https://files.pythonhosted.org/packages/7f/0d/f91de3d48c99743d34ad4db9a1d661cf9c31dc29454348eea2919b4195b7/csdmpy-0.6.dev2.tar.gz
+[2023-06-20 00:37:05] INFO root fetch - processPackages [cppython-core]: executing diffoscope
+[2023-06-20 00:37:05] INFO root fetch - processPackages [cppython-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cppython-core-0.6.1.dev71.tar.gz tmp/cppython-core-0.6.1.dev9.tar.gz --markdown 20230620/c/cppython-core/0.6.1.dev71-0.6.1.dev9/diff.md --exclude *.pyd
+[2023-06-20 00:37:05] INFO root fetch - processPackages [pyyeti]: executing diffoscope
+[2023-06-20 00:37:05] INFO root fetch - processPackages [pyyeti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyyeti-1.2.6.tar.gz tmp/pyyeti-1.2.8.tar.gz --markdown 20230620/p/pyyeti/1.2.6-1.2.8/diff.md --exclude *.pyd
+[2023-06-20 00:37:05] INFO root fetch - processPackages [csdmpy]: executing diffoscope
+[2023-06-20 00:37:05] INFO root fetch - processPackages [csdmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csdmpy-0.5.tar.gz tmp/csdmpy-0.6.dev2.tar.gz --markdown 20230620/c/csdmpy/0.5-0.6.dev2/diff.md --exclude *.pyd
+[2023-06-20 00:37:05] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-20 00:37:05] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.1.tar.gz tmp/pillar1-0.1.2.tar.gz --markdown 20230620/p/pillar1/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-20 00:37:05] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-20 00:37:05] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.1.tar.gz tmp/pillar1-0.1.2.tar.gz --markdown 20230620/p/pillar1/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-20 00:37:05] INFO root fetch - processPackages [nbtopy]: Downloading https://files.pythonhosted.org/packages/05/98/b391b9a9da9643b51e2c71304a9c9f7c0afbe50b55caa21c55eeefe341f7/nbtopy-1.1.tar.gz
+[2023-06-20 00:37:05] INFO root fetch - processPackages [nbtopy]: executing diffoscope
+[2023-06-20 00:37:05] INFO root fetch - processPackages [nbtopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbtopy-1.0.tar.gz tmp/nbtopy-1.1.tar.gz --markdown 20230620/n/nbtopy/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-20 00:37:07] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.1.tar.gz]
+[2023-06-20 00:37:07] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.2.tar.gz]
+[2023-06-20 00:37:07] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-20 00:37:07] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-20 00:37:07] INFO root fetch - processPackages [nbtopy]: Remove: archive file [/home/abi/fetcher/tmp/nbtopy-1.0.tar.gz]
+[2023-06-20 00:37:07] INFO root fetch - processPackages [nbtopy]: Remove: archive file [/home/abi/fetcher/tmp/nbtopy-1.1.tar.gz]
+[2023-06-20 00:37:07] INFO root fetch - main [MainThread]: End processing [nbtopy]: success
+[2023-06-20 00:37:07] INFO root fetch - processPackages [cppython-core]: Remove: archive file [/home/abi/fetcher/tmp/cppython-core-0.6.1.dev71.tar.gz]
+[2023-06-20 00:37:07] INFO root fetch - processPackages [cppython-core]: Remove: archive file [/home/abi/fetcher/tmp/cppython-core-0.6.1.dev9.tar.gz]
+[2023-06-20 00:37:07] INFO root fetch - main [MainThread]: End processing [cppython-core]: success
+[2023-06-20 00:37:07] INFO root fetch - processPackages [pyyeti]: Remove: archive file [/home/abi/fetcher/tmp/pyyeti-1.2.6.tar.gz]
+[2023-06-20 00:37:07] INFO root fetch - processPackages [pyyeti]: Remove: archive file [/home/abi/fetcher/tmp/pyyeti-1.2.8.tar.gz]
+[2023-06-20 00:37:07] INFO root fetch - main [MainThread]: End processing [pyyeti]: success
+[2023-06-20 00:37:08] INFO root fetch - processPackages [csdmpy]: Remove: archive file [/home/abi/fetcher/tmp/csdmpy-0.5.tar.gz]
+[2023-06-20 00:37:08] INFO root fetch - processPackages [csdmpy]: Remove: archive file [/home/abi/fetcher/tmp/csdmpy-0.6.dev2.tar.gz]
+[2023-06-20 00:37:08] INFO root fetch - main [MainThread]: End processing [csdmpy]: success
+[2023-06-20 00:37:08] INFO root fetch - main [MainThread]: Store serial: [18566082]
