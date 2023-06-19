@@ -70,3 +70,90 @@
 [2023-06-20 00:10:14] INFO root fetch - processPackages [sys-call]: Remove: archive file [/home/abi/fetcher/tmp/sys-call-0.0.3.tar.gz]
 [2023-06-20 00:10:14] INFO root fetch - main [MainThread]: End processing [sys-call]: success
 [2023-06-20 00:10:14] INFO root fetch - main [MainThread]: Store serial: [18565981]
+[2023-06-20 00:15:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18565981]
+[2023-06-20 00:15:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-20 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: niondata
+[2023-06-20 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-20 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vcorelib
+[2023-06-20 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyasic
+[2023-06-20 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flake8-unused-globals
+[2023-06-20 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flake8-has-docstring
+[2023-06-20 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flake8-pydantic-fields
+[2023-06-20 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lbrlabs-pulumi-scaleway
+[2023-06-20 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multiocr
+[2023-06-20 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certbot-dns-azure
+[2023-06-20 00:15:23] INFO root fetch - processPackages [niondata]: New version: [0.15.4] Old Version: [0.15.3]
+[2023-06-20 00:15:23] INFO root fetch - processPackages [flake8-unused-globals]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 00:15:23] INFO root fetch - processPackages [flake8-has-docstring]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-20 00:15:23] INFO root fetch - processPackages [pyasic]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-20 00:15:23] INFO root fetch - processPackages [vcorelib]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-06-20 00:15:23] INFO root fetch - processPackages [flake8-pydantic-fields]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 00:15:23] WARNING root fetch - processPackages [multiocr]: Skipping, unable to determine old version
+[2023-06-20 00:15:23] INFO root fetch - main [MainThread]: End processing [multiocr] error
+[2023-06-20 00:15:23] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: New version: [1.9.0a1687207630] Old Version: [1.9.0a1681291877]
+[2023-06-20 00:15:23] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-20 00:15:23] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: Downloading https://files.pythonhosted.org/packages/ec/89/14e4684e3661747998014e4e5deedfe1569b0713798ab43cad85d8715f43/lbrlabs_pulumi_scaleway-1.9.0a1681291877.tar.gz
+[2023-06-20 00:15:23] INFO root fetch - processPackages [certbot-dns-azure]: New version: [2.3.0] Old Version: [2.2.0b0]
+[2023-06-20 00:15:23] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/89/4e/067a468312e159636bca6c962c97c384666226207058c1a9780495652a53/vcorelib-1.6.8.tar.gz
+[2023-06-20 00:15:23] INFO root fetch - processPackages [flake8-unused-globals]: Downloading https://files.pythonhosted.org/packages/02/eb/926a2badab1912cb60321f826368b0768b2f1c0d225afa9180a494310f1e/flake8-unused-globals-0.1.8.tar.gz
+[2023-06-20 00:15:23] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/8b/cb/6d4cd3f342cc1eda735f322c923e89b06fb809652bccc8f7ba41b10189f2/pyasic-0.9.3.tar.gz
+[2023-06-20 00:15:23] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-20 00:15:23] INFO root fetch - processPackages [niondata]: Downloading https://files.pythonhosted.org/packages/1c/67/b11ae492f56f7cb31b7eb72cb1f2dfa517468fe6baa415e1062e5d5e3eee/niondata-0.15.3.tar.gz
+[2023-06-20 00:15:23] INFO root fetch - processPackages [flake8-has-docstring]: Downloading https://files.pythonhosted.org/packages/73/98/be6b81ee7da8644256c006870407b5087b86a3c290537ddbc2e05227c5f9/flake8-has-docstring-0.1.6.tar.gz
+[2023-06-20 00:15:23] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: Downloading https://files.pythonhosted.org/packages/bd/a6/6aa4a1cb1f745faaad77bf484b29be6117a2956a32e9ff045c9f7b276a6f/lbrlabs_pulumi_scaleway-1.9.0a1687207630.tar.gz
+[2023-06-20 00:15:23] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: executing diffoscope
+[2023-06-20 00:15:23] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_scaleway-1.9.0a1681291877.tar.gz tmp/lbrlabs_pulumi_scaleway-1.9.0a1687207630.tar.gz --markdown 20230620/l/lbrlabs-pulumi-scaleway/1.9.0a1681291877-1.9.0a1687207630/diff.md --exclude *.pyd
+[2023-06-20 00:15:23] INFO root fetch - processPackages [certbot-dns-azure]: Downloading https://files.pythonhosted.org/packages/0f/6b/0a43200b1f8bd4ca46a992b1b9adf860b866f688dc03eddae08d234524df/certbot-dns-azure-2.2.0b0.tar.gz
+[2023-06-20 00:15:23] INFO root fetch - processPackages [flake8-pydantic-fields]: Downloading https://files.pythonhosted.org/packages/b6/88/e9d349194acdea05fb75a0047f074764a22e25bc28f49e677dc42192e50e/flake8-pydantic-fields-0.1.8.tar.gz
+[2023-06-20 00:15:23] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/26/6c/c7cd517073dbe853133bea34046998a94a7a8c5f89c4d5abd05d52a4e6eb/vcorelib-1.6.9.tar.gz
+[2023-06-20 00:15:23] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-20 00:15:23] INFO root fetch - processPackages [vcorelib]: executing diffoscope
+[2023-06-20 00:15:23] INFO root fetch - processPackages [vcorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcorelib-1.6.8.tar.gz tmp/vcorelib-1.6.9.tar.gz --markdown 20230620/v/vcorelib/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-06-20 00:15:23] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-20 00:15:23] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230620/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 00:15:23] INFO root fetch - processPackages [flake8-has-docstring]: Downloading https://files.pythonhosted.org/packages/b9/ed/3529adf6da61b374f8a63bfed03c90b97cc59833b45b746d6bbee1169e99/flake8-has-docstring-0.1.7.tar.gz
+[2023-06-20 00:15:23] INFO root fetch - processPackages [niondata]: Downloading https://files.pythonhosted.org/packages/56/51/212e88e181078c120331d6c7f54f185820145d33aa48eb35af464a20330b/niondata-0.15.4.tar.gz
+[2023-06-20 00:15:23] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/70/30/6c8b77c23f901b5c8b406344a29a98220a0b5212116530bd177635c4430d/pyasic-0.9.4.tar.gz
+[2023-06-20 00:15:23] INFO root fetch - processPackages [flake8-has-docstring]: executing diffoscope
+[2023-06-20 00:15:23] INFO root fetch - processPackages [flake8-has-docstring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-has-docstring-0.1.6.tar.gz tmp/flake8-has-docstring-0.1.7.tar.gz --markdown 20230620/f/flake8-has-docstring/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-20 00:15:23] INFO root fetch - processPackages [flake8-unused-globals]: Downloading https://files.pythonhosted.org/packages/f1/9b/a03391417f0c62d2ed78a3b1175dfc99f65a014f2269db33181aa8019855/flake8-unused-globals-0.1.9.tar.gz
+[2023-06-20 00:15:23] INFO root fetch - processPackages [niondata]: executing diffoscope
+[2023-06-20 00:15:23] INFO root fetch - processPackages [niondata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niondata-0.15.3.tar.gz tmp/niondata-0.15.4.tar.gz --markdown 20230620/n/niondata/0.15.3-0.15.4/diff.md --exclude *.pyd
+[2023-06-20 00:15:23] INFO root fetch - processPackages [certbot-dns-azure]: Downloading https://files.pythonhosted.org/packages/2c/4b/66e265b10fecdfbaa08e43d0126aca91d5ba05025494954c7f88930f4f30/certbot-dns-azure-2.3.0.tar.gz
+[2023-06-20 00:15:23] INFO root fetch - processPackages [flake8-pydantic-fields]: Downloading https://files.pythonhosted.org/packages/b7/d4/9b6f05b3dda2e5b15fc0ffff86d2368f8086626f783cb9fcc086e421e46e/flake8-pydantic-fields-0.1.9.tar.gz
+[2023-06-20 00:15:24] INFO root fetch - processPackages [pyasic]: executing diffoscope
+[2023-06-20 00:15:24] INFO root fetch - processPackages [pyasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasic-0.9.3.tar.gz tmp/pyasic-0.9.4.tar.gz --markdown 20230620/p/pyasic/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-20 00:15:24] INFO root fetch - processPackages [flake8-unused-globals]: executing diffoscope
+[2023-06-20 00:15:24] INFO root fetch - processPackages [flake8-unused-globals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-unused-globals-0.1.8.tar.gz tmp/flake8-unused-globals-0.1.9.tar.gz --markdown 20230620/f/flake8-unused-globals/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 00:15:24] INFO root fetch - processPackages [certbot-dns-azure]: executing diffoscope
+[2023-06-20 00:15:24] INFO root fetch - processPackages [certbot-dns-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-azure-2.2.0b0.tar.gz tmp/certbot-dns-azure-2.3.0.tar.gz --markdown 20230620/c/certbot-dns-azure/2.2.0b0-2.3.0/diff.md --exclude *.pyd
+[2023-06-20 00:15:24] INFO root fetch - processPackages [flake8-pydantic-fields]: executing diffoscope
+[2023-06-20 00:15:24] INFO root fetch - processPackages [flake8-pydantic-fields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-pydantic-fields-0.1.8.tar.gz tmp/flake8-pydantic-fields-0.1.9.tar.gz --markdown 20230620/f/flake8-pydantic-fields/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 00:15:25] INFO root fetch - processPackages [flake8-has-docstring]: Remove: archive file [/home/abi/fetcher/tmp/flake8-has-docstring-0.1.6.tar.gz]
+[2023-06-20 00:15:25] INFO root fetch - processPackages [flake8-has-docstring]: Remove: archive file [/home/abi/fetcher/tmp/flake8-has-docstring-0.1.7.tar.gz]
+[2023-06-20 00:15:25] INFO root fetch - main [MainThread]: End processing [flake8-has-docstring]: success
+[2023-06-20 00:15:25] INFO root fetch - processPackages [flake8-unused-globals]: Remove: archive file [/home/abi/fetcher/tmp/flake8-unused-globals-0.1.8.tar.gz]
+[2023-06-20 00:15:25] INFO root fetch - processPackages [flake8-unused-globals]: Remove: archive file [/home/abi/fetcher/tmp/flake8-unused-globals-0.1.9.tar.gz]
+[2023-06-20 00:15:25] INFO root fetch - main [MainThread]: End processing [flake8-unused-globals]: success
+[2023-06-20 00:15:25] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-1.6.8.tar.gz]
+[2023-06-20 00:15:25] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-1.6.9.tar.gz]
+[2023-06-20 00:15:25] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
+[2023-06-20 00:15:25] INFO root fetch - processPackages [niondata]: Remove: archive file [/home/abi/fetcher/tmp/niondata-0.15.3.tar.gz]
+[2023-06-20 00:15:25] INFO root fetch - processPackages [niondata]: Remove: archive file [/home/abi/fetcher/tmp/niondata-0.15.4.tar.gz]
+[2023-06-20 00:15:25] INFO root fetch - main [MainThread]: End processing [niondata]: success
+[2023-06-20 00:15:25] INFO root fetch - processPackages [flake8-pydantic-fields]: Remove: archive file [/home/abi/fetcher/tmp/flake8-pydantic-fields-0.1.8.tar.gz]
+[2023-06-20 00:15:25] INFO root fetch - processPackages [flake8-pydantic-fields]: Remove: archive file [/home/abi/fetcher/tmp/flake8-pydantic-fields-0.1.9.tar.gz]
+[2023-06-20 00:15:25] INFO root fetch - main [MainThread]: End processing [flake8-pydantic-fields]: success
+[2023-06-20 00:15:26] INFO root fetch - processPackages [certbot-dns-azure]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-azure-2.2.0b0.tar.gz]
+[2023-06-20 00:15:26] INFO root fetch - processPackages [certbot-dns-azure]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-azure-2.3.0.tar.gz]
+[2023-06-20 00:15:26] INFO root fetch - main [MainThread]: End processing [certbot-dns-azure]: success
+[2023-06-20 00:15:32] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_scaleway-1.9.0a1681291877.tar.gz]
+[2023-06-20 00:15:32] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_scaleway-1.9.0a1687207630.tar.gz]
+[2023-06-20 00:15:32] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-scaleway]: success
+[2023-06-20 00:16:19] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.3.tar.gz]
+[2023-06-20 00:16:19] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.4.tar.gz]
+[2023-06-20 00:16:19] INFO root fetch - main [MainThread]: End processing [pyasic]: success
+[2023-06-20 00:16:20] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-20 00:16:20] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-20 00:16:20] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-20 00:16:20] INFO root fetch - main [MainThread]: Store serial: [18566008]
