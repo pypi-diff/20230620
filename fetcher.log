@@ -204,3 +204,51 @@
 [2023-06-20 00:21:32] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.2.9.tar.gz]
 [2023-06-20 00:21:32] INFO root fetch - main [MainThread]: End processing [kappadata]: success
 [2023-06-20 00:21:32] INFO root fetch - main [MainThread]: Store serial: [18566026]
+[2023-06-20 00:26:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566026]
+[2023-06-20 00:26:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-20 00:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-extensions
+[2023-06-20 00:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bs-common-fastapi
+[2023-06-20 00:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: murkrow
+[2023-06-20 00:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: severino
+[2023-06-20 00:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flake8-pydantic-fields
+[2023-06-20 00:26:41] INFO root fetch - processPackages [cdk-extensions]: New version: [0.0.79] Old Version: [0.0.78]
+[2023-06-20 00:26:41] INFO root fetch - processPackages [severino]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-20 00:26:41] INFO root fetch - processPackages [murkrow]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-20 00:26:41] INFO root fetch - processPackages [flake8-pydantic-fields]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 00:26:41] INFO root fetch - processPackages [bs-common-fastapi]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-20 00:26:41] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/f0/3a/efad37d6757d7262859a276a17aeb638737ef0a62fc8381edf6db061f5e9/cdk-extensions-0.0.78.tar.gz
+[2023-06-20 00:26:41] INFO root fetch - processPackages [murkrow]: Downloading https://files.pythonhosted.org/packages/0a/01/acdedc9526ef3a7d75eb04dc74e69660e28ff3c6920da598fe4e1b6456ac/murkrow-0.8.0.tar.gz
+[2023-06-20 00:26:41] INFO root fetch - processPackages [flake8-pydantic-fields]: Downloading https://files.pythonhosted.org/packages/b6/88/e9d349194acdea05fb75a0047f074764a22e25bc28f49e677dc42192e50e/flake8-pydantic-fields-0.1.8.tar.gz
+[2023-06-20 00:26:41] INFO root fetch - processPackages [flake8-pydantic-fields]: Downloading https://files.pythonhosted.org/packages/b7/d4/9b6f05b3dda2e5b15fc0ffff86d2368f8086626f783cb9fcc086e421e46e/flake8-pydantic-fields-0.1.9.tar.gz
+[2023-06-20 00:26:41] INFO root fetch - processPackages [severino]: Downloading https://files.pythonhosted.org/packages/6c/aa/6a70719f712ff4ca4e30b97eafeede54802dfbbc40e56643eb109ed7c79c/severino-0.9.1.tar.gz
+[2023-06-20 00:26:41] INFO root fetch - processPackages [murkrow]: Downloading https://files.pythonhosted.org/packages/a4/e9/84dc9a4bc1643f3d51e61a87dc738301cc044acf02216d65e0840e05aeba/murkrow-0.9.0.tar.gz
+[2023-06-20 00:26:41] INFO root fetch - processPackages [flake8-pydantic-fields]: executing diffoscope
+[2023-06-20 00:26:41] INFO root fetch - processPackages [flake8-pydantic-fields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-pydantic-fields-0.1.8.tar.gz tmp/flake8-pydantic-fields-0.1.9.tar.gz --markdown 20230620/f/flake8-pydantic-fields/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 00:26:41] INFO root fetch - processPackages [murkrow]: executing diffoscope
+[2023-06-20 00:26:41] INFO root fetch - processPackages [murkrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murkrow-0.8.0.tar.gz tmp/murkrow-0.9.0.tar.gz --markdown 20230620/m/murkrow/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-20 00:26:41] INFO root fetch - processPackages [bs-common-fastapi]: Downloading https://files.pythonhosted.org/packages/1d/8f/b5ff0859f068624c77d052e91b33a268b36a8660ca9af4956b2e1a877b8a/bs_common_fastapi-0.1.0.tar.gz
+[2023-06-20 00:26:41] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/f4/a0/b23dc11ece91ab82bf1f676cac9ef7d87e3f6b509e252184c13927955f20/cdk-extensions-0.0.79.tar.gz
+[2023-06-20 00:26:41] INFO root fetch - processPackages [severino]: Downloading https://files.pythonhosted.org/packages/ca/20/f42da22cc1d8f35a5db322ad7a1ded42277a44697bbd01681e8470054468/severino-0.9.2.tar.gz
+[2023-06-20 00:26:41] INFO root fetch - processPackages [severino]: executing diffoscope
+[2023-06-20 00:26:41] INFO root fetch - processPackages [severino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/severino-0.9.1.tar.gz tmp/severino-0.9.2.tar.gz --markdown 20230620/s/severino/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-20 00:26:41] INFO root fetch - processPackages [bs-common-fastapi]: Downloading https://files.pythonhosted.org/packages/33/eb/d56a0a6292dadcb2fd62bd01767285db544eb13e32f440df73ce39d25bcd/bs_common_fastapi-0.2.0.tar.gz
+[2023-06-20 00:26:41] INFO root fetch - processPackages [cdk-extensions]: executing diffoscope
+[2023-06-20 00:26:41] INFO root fetch - processPackages [cdk-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-extensions-0.0.78.tar.gz tmp/cdk-extensions-0.0.79.tar.gz --markdown 20230620/c/cdk-extensions/0.0.78-0.0.79/diff.md --exclude *.pyd
+[2023-06-20 00:26:41] INFO root fetch - processPackages [bs-common-fastapi]: executing diffoscope
+[2023-06-20 00:26:41] INFO root fetch - processPackages [bs-common-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_common_fastapi-0.1.0.tar.gz tmp/bs_common_fastapi-0.2.0.tar.gz --markdown 20230620/b/bs-common-fastapi/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-20 00:26:42] INFO root fetch - processPackages [flake8-pydantic-fields]: Remove: archive file [/home/abi/fetcher/tmp/flake8-pydantic-fields-0.1.8.tar.gz]
+[2023-06-20 00:26:42] INFO root fetch - processPackages [flake8-pydantic-fields]: Remove: archive file [/home/abi/fetcher/tmp/flake8-pydantic-fields-0.1.9.tar.gz]
+[2023-06-20 00:26:42] INFO root fetch - main [MainThread]: End processing [flake8-pydantic-fields]: success
+[2023-06-20 00:26:42] INFO root fetch - processPackages [murkrow]: Remove: archive file [/home/abi/fetcher/tmp/murkrow-0.8.0.tar.gz]
+[2023-06-20 00:26:42] INFO root fetch - processPackages [murkrow]: Remove: archive file [/home/abi/fetcher/tmp/murkrow-0.9.0.tar.gz]
+[2023-06-20 00:26:42] INFO root fetch - main [MainThread]: End processing [murkrow]: success
+[2023-06-20 00:26:42] INFO root fetch - processPackages [severino]: Remove: archive file [/home/abi/fetcher/tmp/severino-0.9.1.tar.gz]
+[2023-06-20 00:26:42] INFO root fetch - processPackages [severino]: Remove: archive file [/home/abi/fetcher/tmp/severino-0.9.2.tar.gz]
+[2023-06-20 00:26:42] INFO root fetch - main [MainThread]: End processing [severino]: success
+[2023-06-20 00:26:42] INFO root fetch - processPackages [bs-common-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/bs_common_fastapi-0.1.0.tar.gz]
+[2023-06-20 00:26:42] INFO root fetch - processPackages [bs-common-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/bs_common_fastapi-0.2.0.tar.gz]
+[2023-06-20 00:26:42] INFO root fetch - main [MainThread]: End processing [bs-common-fastapi]: success
+[2023-06-20 00:26:45] INFO root fetch - processPackages [cdk-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-extensions-0.0.78.tar.gz]
+[2023-06-20 00:26:45] INFO root fetch - processPackages [cdk-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-extensions-0.0.79.tar.gz]
+[2023-06-20 00:26:45] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
+[2023-06-20 00:26:45] INFO root fetch - main [MainThread]: Store serial: [18566043]
