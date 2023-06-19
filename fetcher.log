@@ -941,3 +941,71 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 01:12:53] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306192309-py3-none-any.whl.zip]
 [2023-06-20 01:12:53] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-20 01:12:53] INFO root fetch - main [MainThread]: Store serial: [18566307]
+[2023-06-20 01:17:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566307]
+[2023-06-20 01:18:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-20 01:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydeequ
+[2023-06-20 01:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anyon
+[2023-06-20 01:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: playlisterUtil
+[2023-06-20 01:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmkit
+[2023-06-20 01:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prefecto
+[2023-06-20 01:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rhdndat
+[2023-06-20 01:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlalchemy-easy-softdelete
+[2023-06-20 01:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plexlabexchange
+[2023-06-20 01:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: responsibleai-tabular-automl
+[2023-06-20 01:18:01] INFO root fetch - processPackages [pydeequ]: New version: [1.1.0rc0] Old Version: [1.0.1]
+[2023-06-20 01:18:02] WARNING root fetch - processPackages [playlisterUtil]: Skipping, unable to determine old version
+[2023-06-20 01:18:02] INFO root fetch - main [MainThread]: End processing [playlisterUtil] error
+[2023-06-20 01:18:02] WARNING root fetch - processPackages [tmkit]: Skipping, unable to determine old version
+[2023-06-20 01:18:02] INFO root fetch - main [MainThread]: End processing [tmkit] error
+[2023-06-20 01:18:02] INFO root fetch - processPackages [plexlabexchange]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-20 01:18:02] INFO root fetch - processPackages [anyon]: New version: [3.4.5] Old Version: [3.4.3]
+[2023-06-20 01:18:02] INFO root fetch - processPackages [prefecto]: New version: [0.0.2] Old Version: [0.0.1.post0]
+[2023-06-20 01:18:02] INFO root fetch - processPackages [rhdndat]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-06-20 01:18:02] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-20 01:18:02] INFO root fetch - processPackages [rhdndat]: Downloading https://files.pythonhosted.org/packages/89/66/66ac025b6be0e3d3abb450307456b8b35ece12db9bbbe5c8143d19d4a709/rhdndat-2.6.8.tar.gz
+[2023-06-20 01:18:02] INFO root fetch - processPackages [responsibleai-tabular-automl]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-20 01:18:02] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: Downloading https://files.pythonhosted.org/packages/64/ab/2bc2ce69c8748807279db9d8336048863875c0fb7fd6ab7ce8ad957c22cc/sqlalchemy_easy_softdelete-0.8.0.tar.gz
+[2023-06-20 01:18:02] INFO root fetch - processPackages [pydeequ]: Downloading https://files.pythonhosted.org/packages/4e/80/904c35897312359b1f4119234de5979cd3772ed7e2a01bc9b5b059b68425/pydeequ-1.0.1.tar.gz
+[2023-06-20 01:18:02] INFO root fetch - processPackages [prefecto]: Downloading https://files.pythonhosted.org/packages/47/8f/e57dbf777835d1a442563b27509253516e0cb62c45adc451287f6ec6f753/prefecto-0.0.1.post0.tar.gz
+[2023-06-20 01:18:02] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/d6/5f/09ad6a9618b88017068ed0cbb6a78af8a1c6679b5a6803786207a822c55e/anyon-3.4.3-cp311-cp311-win_amd64.whl
+[2023-06-20 01:18:02] INFO root fetch - processPackages [plexlabexchange]: Downloading https://files.pythonhosted.org/packages/04/3d/c66160c12c028535b03a461ba2b25b3ae9f1f7632cae7cb7a77079448048/PlexLabExchange-0.8.0-py3-none-any.whl
+[2023-06-20 01:18:02] WARNING root fetch - processPackages [plexlabexchange]: Skipping package: exceeds size limit 48148508>=10485760
+[2023-06-20 01:18:02] INFO root fetch - main [MainThread]: End processing [plexlabexchange] error
+[2023-06-20 01:18:02] INFO root fetch - processPackages [responsibleai-tabular-automl]: Downloading https://files.pythonhosted.org/packages/63/a0/9d4facba91dad5f7752ee364999c24ce1c08fa942be45eddc92e3a8452f4/responsibleai_tabular_automl-0.3.0.tar.gz
+[2023-06-20 01:18:02] INFO root fetch - processPackages [rhdndat]: Downloading https://files.pythonhosted.org/packages/e3/3b/d8b58b146d38a0c4161709022586adbd09c37ab31ffd96cd2ba24fb2eeae/rhdndat-2.6.9.tar.gz
+[2023-06-20 01:18:02] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: Downloading https://files.pythonhosted.org/packages/51/2f/9893eb1a7899f7eb392983a51839bb91e2d20259239ee266b7f3016252bf/sqlalchemy_easy_softdelete-0.8.1.tar.gz
+[2023-06-20 01:18:02] INFO root fetch - processPackages [prefecto]: Downloading https://files.pythonhosted.org/packages/34/52/a5a05fc41e66f47db4849a82bdb12466cd71a3e2dbb6e8182080f3350857/prefecto-0.0.2.tar.gz
+[2023-06-20 01:18:02] INFO root fetch - processPackages [rhdndat]: executing diffoscope
+[2023-06-20 01:18:02] INFO root fetch - processPackages [rhdndat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhdndat-2.6.8.tar.gz tmp/rhdndat-2.6.9.tar.gz --markdown 20230620/r/rhdndat/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-06-20 01:18:02] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/b5/d3/31393267c6257fab697ae2dbb1cb656a2959647e9c9f6d3453fe17a90137/anyon-3.4.5-cp311-none-macosx_10_9_universal2.whl
+[2023-06-20 01:18:02] INFO root fetch - processPackages [pydeequ]: Downloading https://files.pythonhosted.org/packages/85/e1/78f64dd0986b4a3cb938e95f246616c714e77abd0527093ce5e09bab54dd/pydeequ-1.1.0rc0.tar.gz
+[2023-06-20 01:18:02] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-06-20 01:18:02] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.4.3-cp311-cp311-win_amd64.whl.zip tmp/anyon-3.4.5-cp311-none-macosx_10_9_universal2.whl.zip --markdown 20230620/a/anyon/3.4.3-3.4.5/diff.md --exclude *.pyd
+[2023-06-20 01:18:02] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: executing diffoscope
+[2023-06-20 01:18:02] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_easy_softdelete-0.8.0.tar.gz tmp/sqlalchemy_easy_softdelete-0.8.1.tar.gz --markdown 20230620/s/sqlalchemy-easy-softdelete/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-20 01:18:02] INFO root fetch - processPackages [prefecto]: executing diffoscope
+[2023-06-20 01:18:02] INFO root fetch - processPackages [prefecto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefecto-0.0.1.post0.tar.gz tmp/prefecto-0.0.2.tar.gz --markdown 20230620/p/prefecto/0.0.1.post0-0.0.2/diff.md --exclude *.pyd
+[2023-06-20 01:18:02] INFO root fetch - processPackages [responsibleai-tabular-automl]: Downloading https://files.pythonhosted.org/packages/a8/0d/b0288fea7b07470a66ffb980bce7a973bafbeb9526f0955b55b959dc21fd/responsibleai_tabular_automl-0.4.0.tar.gz
+[2023-06-20 01:18:02] INFO root fetch - processPackages [pydeequ]: executing diffoscope
+[2023-06-20 01:18:02] INFO root fetch - processPackages [pydeequ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydeequ-1.0.1.tar.gz tmp/pydeequ-1.1.0rc0.tar.gz --markdown 20230620/p/pydeequ/1.0.1-1.1.0rc0/diff.md --exclude *.pyd
+[2023-06-20 01:18:02] INFO root fetch - processPackages [responsibleai-tabular-automl]: executing diffoscope
+[2023-06-20 01:18:02] INFO root fetch - processPackages [responsibleai-tabular-automl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/responsibleai_tabular_automl-0.3.0.tar.gz tmp/responsibleai_tabular_automl-0.4.0.tar.gz --markdown 20230620/r/responsibleai-tabular-automl/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-20 01:18:03] INFO root fetch - processPackages [rhdndat]: Remove: archive file [/home/abi/fetcher/tmp/rhdndat-2.6.8.tar.gz]
+[2023-06-20 01:18:03] INFO root fetch - processPackages [rhdndat]: Remove: archive file [/home/abi/fetcher/tmp/rhdndat-2.6.9.tar.gz]
+[2023-06-20 01:18:03] INFO root fetch - main [MainThread]: End processing [rhdndat]: success
+[2023-06-20 01:18:03] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.4.3-cp311-cp311-win_amd64.whl.zip]
+[2023-06-20 01:18:03] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.4.5-cp311-none-macosx_10_9_universal2.whl.zip]
+[2023-06-20 01:18:03] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-06-20 01:18:03] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_easy_softdelete-0.8.0.tar.gz]
+[2023-06-20 01:18:03] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_easy_softdelete-0.8.1.tar.gz]
+[2023-06-20 01:18:03] INFO root fetch - main [MainThread]: End processing [sqlalchemy-easy-softdelete]: success
+[2023-06-20 01:18:04] INFO root fetch - processPackages [prefecto]: Remove: archive file [/home/abi/fetcher/tmp/prefecto-0.0.1.post0.tar.gz]
+[2023-06-20 01:18:04] INFO root fetch - processPackages [prefecto]: Remove: archive file [/home/abi/fetcher/tmp/prefecto-0.0.2.tar.gz]
+[2023-06-20 01:18:04] INFO root fetch - main [MainThread]: End processing [prefecto]: success
+[2023-06-20 01:18:59] INFO root fetch - processPackages [pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/pydeequ-1.0.1.tar.gz]
+[2023-06-20 01:18:59] INFO root fetch - processPackages [pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/pydeequ-1.1.0rc0.tar.gz]
+[2023-06-20 01:18:59] INFO root fetch - main [MainThread]: End processing [pydeequ]: success
+[2023-06-20 01:19:00] INFO root fetch - processPackages [responsibleai-tabular-automl]: Remove: archive file [/home/abi/fetcher/tmp/responsibleai_tabular_automl-0.3.0.tar.gz]
+[2023-06-20 01:19:00] INFO root fetch - processPackages [responsibleai-tabular-automl]: Remove: archive file [/home/abi/fetcher/tmp/responsibleai_tabular_automl-0.4.0.tar.gz]
+[2023-06-20 01:19:00] INFO root fetch - main [MainThread]: End processing [responsibleai-tabular-automl]: success
+[2023-06-20 01:19:00] INFO root fetch - main [MainThread]: Store serial: [18566339]
