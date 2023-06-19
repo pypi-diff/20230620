@@ -1350,3 +1350,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 01:50:15] INFO root fetch - processPackages [pygwb]: Remove: archive file [/home/abi/fetcher/tmp/pygwb-1.3.0.tar.gz]
 [2023-06-20 01:50:15] INFO root fetch - main [MainThread]: End processing [pygwb]: success
 [2023-06-20 01:50:15] INFO root fetch - main [MainThread]: Store serial: [18566465]
+[2023-06-20 01:55:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566465]
+[2023-06-20 01:55:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-20 01:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: circular-dict
+[2023-06-20 01:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlitopencvplayer
+[2023-06-20 01:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipen-board
+[2023-06-20 01:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anyon
+[2023-06-20 01:55:24] INFO root fetch - processPackages [circular-dict]: New version: [1.4] Old Version: [1.3]
+[2023-06-20 01:55:24] INFO root fetch - processPackages [pipen-board]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-20 01:55:24] INFO root fetch - processPackages [anyon]: New version: [3.4.6] Old Version: [3.4.3]
+[2023-06-20 01:55:24] INFO root fetch - processPackages [streamlitopencvplayer]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-06-20 01:55:24] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/24/67/988a0c1a716f3bc09c28e4ea0bc6dfc1afcc8a25c705408087772130e75b/pipen_board-0.6.1.tar.gz
+[2023-06-20 01:55:24] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/88/ce/5e75dc5232a5cf54c57fbe82ecedb41d63f0b6c5deec89f73d7b1aadc11a/streamlitopencvplayer-1.2.5.tar.gz
+[2023-06-20 01:55:24] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/d6/5f/09ad6a9618b88017068ed0cbb6a78af8a1c6679b5a6803786207a822c55e/anyon-3.4.3-cp311-cp311-win_amd64.whl
+[2023-06-20 01:55:24] INFO root fetch - processPackages [circular-dict]: Downloading https://files.pythonhosted.org/packages/f6/f4/19ce77c2dc770bb9b26e5bc2b56c706da1dc18838b43ab7fafa8b2dd12f2/circular-dict-1.3.tar.gz
+[2023-06-20 01:55:24] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/d5/ad/e5306f13cb376f4430783b4f699d3d82300ecd68fd270260a83f320fb8b6/pipen_board-0.6.2.tar.gz
+[2023-06-20 01:55:24] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/0a/3a/39082b2827301c3ed706755ad08149ec7c8beeeced813d2918f3a035c119/streamlitopencvplayer-1.2.6.tar.gz
+[2023-06-20 01:55:24] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/68/8b/14130d3cbbdee4adbecd6751a63ae57d655ba700651f613d536216e0936b/anyon-3.4.6-cp311-none-macosx_10_9_universal2.whl
+[2023-06-20 01:55:24] INFO root fetch - processPackages [streamlitopencvplayer]: executing diffoscope
+[2023-06-20 01:55:24] INFO root fetch - processPackages [streamlitopencvplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitopencvplayer-1.2.5.tar.gz tmp/streamlitopencvplayer-1.2.6.tar.gz --markdown 20230620/s/streamlitopencvplayer/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-06-20 01:55:24] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-06-20 01:55:24] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.6.1.tar.gz tmp/pipen_board-0.6.2.tar.gz --markdown 20230620/p/pipen-board/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-20 01:55:24] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-06-20 01:55:24] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.4.3-cp311-cp311-win_amd64.whl.zip tmp/anyon-3.4.6-cp311-none-macosx_10_9_universal2.whl.zip --markdown 20230620/a/anyon/3.4.3-3.4.6/diff.md --exclude *.pyd
+[2023-06-20 01:55:24] INFO root fetch - processPackages [circular-dict]: Downloading https://files.pythonhosted.org/packages/1c/38/5b31485c6a583d37e5278ca5b1a08ade7e526cf4f547d1aa2bb356678fe1/circular-dict-1.4.tar.gz
+[2023-06-20 01:55:24] INFO root fetch - processPackages [circular-dict]: executing diffoscope
+[2023-06-20 01:55:24] INFO root fetch - processPackages [circular-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circular-dict-1.3.tar.gz tmp/circular-dict-1.4.tar.gz --markdown 20230620/c/circular-dict/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-20 01:55:25] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.2.5.tar.gz]
+[2023-06-20 01:55:25] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.2.6.tar.gz]
+[2023-06-20 01:55:25] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer]: success
+[2023-06-20 01:55:25] INFO root fetch - processPackages [circular-dict]: Remove: archive file [/home/abi/fetcher/tmp/circular-dict-1.3.tar.gz]
+[2023-06-20 01:55:25] INFO root fetch - processPackages [circular-dict]: Remove: archive file [/home/abi/fetcher/tmp/circular-dict-1.4.tar.gz]
+[2023-06-20 01:55:25] INFO root fetch - main [MainThread]: End processing [circular-dict]: success
+[2023-06-20 01:55:33] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.6.1.tar.gz]
+[2023-06-20 01:55:33] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.6.2.tar.gz]
+[2023-06-20 01:55:33] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-06-20 01:56:18] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.4.3-cp311-cp311-win_amd64.whl.zip]
+[2023-06-20 01:56:18] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.4.6-cp311-none-macosx_10_9_universal2.whl.zip]
+[2023-06-20 01:56:18] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-06-20 01:56:18] INFO root fetch - main [MainThread]: Store serial: [18566478]
