@@ -339,3 +339,36 @@
 [2023-06-20 00:37:08] INFO root fetch - processPackages [csdmpy]: Remove: archive file [/home/abi/fetcher/tmp/csdmpy-0.6.dev2.tar.gz]
 [2023-06-20 00:37:08] INFO root fetch - main [MainThread]: End processing [csdmpy]: success
 [2023-06-20 00:37:08] INFO root fetch - main [MainThread]: Store serial: [18566082]
+[2023-06-20 00:42:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566082]
+[2023-06-20 00:42:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-20 00:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandoc-codeblock-include
+[2023-06-20 00:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-20 00:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: textual-textarea
+[2023-06-20 00:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grammars
+[2023-06-20 00:42:16] INFO root fetch - processPackages [pandoc-codeblock-include]: New version: [1.0.1.2] Old Version: [1.0.1.1]
+[2023-06-20 00:42:16] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.368] Old Version: [0.3.367]
+[2023-06-20 00:42:16] INFO root fetch - processPackages [textual-textarea]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-20 00:42:16] WARNING root fetch - processPackages [grammars]: Skipping, unable to determine old version
+[2023-06-20 00:42:16] INFO root fetch - main [MainThread]: End processing [grammars] error
+[2023-06-20 00:42:16] INFO root fetch - processPackages [pandoc-codeblock-include]: Downloading https://files.pythonhosted.org/packages/ca/73/8028dbcd3fdd963b18d8ec9fe8cde3d2717d70dfa63bc5b08c4c6a11646b/pandoc_codeblock_include-1.0.1.1.tar.gz
+[2023-06-20 00:42:17] INFO root fetch - processPackages [textual-textarea]: Downloading https://files.pythonhosted.org/packages/7e/b0/dddf6c79ce5387fe5416a29f1373287d1673faf647fff934d2b56c2fc115/textual_textarea-0.2.2.tar.gz
+[2023-06-20 00:42:17] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/b8/13/65748028b1bc85832bbc534aae51d6df57e62c431828c92c71aa363aef85/pepperize.cdk-ses-smtp-credentials-0.3.367.tar.gz
+[2023-06-20 00:42:17] INFO root fetch - processPackages [pandoc-codeblock-include]: Downloading https://files.pythonhosted.org/packages/56/3c/d7406b18f1881b52e857b1b5ff3ff816a393f8648dede5acebd3d3ddaaa8/pandoc_codeblock_include-1.0.1.2.tar.gz
+[2023-06-20 00:42:17] INFO root fetch - processPackages [textual-textarea]: Downloading https://files.pythonhosted.org/packages/18/78/5d683eb0c578ea9fee573c2628b5fb87f1102c7a31aa401d41ebb6cf6675/textual_textarea-0.3.0.tar.gz
+[2023-06-20 00:42:17] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/b3/47/dc3f7a47ee71a6450915a1329f7f8f6df835fa82185cb87d4c9ad842473f/pepperize.cdk-ses-smtp-credentials-0.3.368.tar.gz
+[2023-06-20 00:42:17] INFO root fetch - processPackages [textual-textarea]: executing diffoscope
+[2023-06-20 00:42:17] INFO root fetch - processPackages [textual-textarea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual_textarea-0.2.2.tar.gz tmp/textual_textarea-0.3.0.tar.gz --markdown 20230620/t/textual-textarea/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-20 00:42:17] INFO root fetch - processPackages [pandoc-codeblock-include]: executing diffoscope
+[2023-06-20 00:42:17] INFO root fetch - processPackages [pandoc-codeblock-include]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc_codeblock_include-1.0.1.1.tar.gz tmp/pandoc_codeblock_include-1.0.1.2.tar.gz --markdown 20230620/p/pandoc-codeblock-include/1.0.1.1-1.0.1.2/diff.md --exclude *.pyd
+[2023-06-20 00:42:17] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-20 00:42:17] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.367.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.368.tar.gz --markdown 20230620/p/pepperize.cdk-ses-smtp-credentials/0.3.367-0.3.368/diff.md --exclude *.pyd
+[2023-06-20 00:42:18] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.367.tar.gz]
+[2023-06-20 00:42:18] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.368.tar.gz]
+[2023-06-20 00:42:18] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-20 00:42:18] INFO root fetch - processPackages [textual-textarea]: Remove: archive file [/home/abi/fetcher/tmp/textual_textarea-0.2.2.tar.gz]
+[2023-06-20 00:42:18] INFO root fetch - processPackages [textual-textarea]: Remove: archive file [/home/abi/fetcher/tmp/textual_textarea-0.3.0.tar.gz]
+[2023-06-20 00:42:18] INFO root fetch - main [MainThread]: End processing [textual-textarea]: success
+[2023-06-20 00:42:18] INFO root fetch - processPackages [pandoc-codeblock-include]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_codeblock_include-1.0.1.1.tar.gz]
+[2023-06-20 00:42:18] INFO root fetch - processPackages [pandoc-codeblock-include]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_codeblock_include-1.0.1.2.tar.gz]
+[2023-06-20 00:42:18] INFO root fetch - main [MainThread]: End processing [pandoc-codeblock-include]: success
+[2023-06-20 00:42:18] INFO root fetch - main [MainThread]: Store serial: [18566097]
