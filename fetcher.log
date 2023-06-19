@@ -1205,3 +1205,58 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 01:39:51] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2023-06-20 01:39:51] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-06-20 01:39:51] INFO root fetch - main [MainThread]: Store serial: [18566415]
+[2023-06-20 01:44:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566415]
+[2023-06-20 01:45:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-20 01:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: d20-orm
+[2023-06-20 01:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: murkrow
+[2023-06-20 01:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlitopencvplayer
+[2023-06-20 01:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: d20-orm
+[2023-06-20 01:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: playlisterUtil
+[2023-06-20 01:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gnuplotlib
+[2023-06-20 01:45:00] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-20 01:45:00] INFO root fetch - processPackages [murkrow]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-20 01:45:00] INFO root fetch - processPackages [gnuplotlib]: New version: [0.9] Old Version: [0.8]
+[2023-06-20 01:45:00] INFO root fetch - processPackages [playlisterUtil]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-20 01:45:00] INFO root fetch - processPackages [streamlitopencvplayer]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-20 01:45:00] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-20 01:45:00] INFO root fetch - processPackages [murkrow]: Downloading https://files.pythonhosted.org/packages/0a/01/acdedc9526ef3a7d75eb04dc74e69660e28ff3c6920da598fe4e1b6456ac/murkrow-0.8.0.tar.gz
+[2023-06-20 01:45:00] INFO root fetch - processPackages [gnuplotlib]: Downloading https://files.pythonhosted.org/packages/f6/01/242197dcd6af148a69688bdb770a1e3c1be391329131b72e864c9e62a6f5/gnuplotlib-0.8.tar.gz
+[2023-06-20 01:45:00] INFO root fetch - processPackages [murkrow]: Downloading https://files.pythonhosted.org/packages/a4/e9/84dc9a4bc1643f3d51e61a87dc738301cc044acf02216d65e0840e05aeba/murkrow-0.9.0.tar.gz
+[2023-06-20 01:45:00] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-20 01:45:00] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-20 01:45:01] INFO root fetch - processPackages [playlisterUtil]: Downloading https://files.pythonhosted.org/packages/8f/25/ec252d1cd891a3c7b4c4facd4392e0d9b3b836a5ec0ae4a7a7e0df6404fd/playlisterUtil-2.0.0.tar.gz
+[2023-06-20 01:45:01] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/c9/4d/ba4bf04e397b5b6edec866104f6fb99302f42dcde48527e4c27bcb944c16/streamlitopencvplayer-1.2.4.tar.gz
+[2023-06-20 01:45:01] INFO root fetch - processPackages [murkrow]: executing diffoscope
+[2023-06-20 01:45:01] INFO root fetch - processPackages [murkrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murkrow-0.8.0.tar.gz tmp/murkrow-0.9.0.tar.gz --markdown 20230620/m/murkrow/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-20 01:45:01] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/88/ce/5e75dc5232a5cf54c57fbe82ecedb41d63f0b6c5deec89f73d7b1aadc11a/streamlitopencvplayer-1.2.5.tar.gz
+[2023-06-20 01:45:01] INFO root fetch - processPackages [playlisterUtil]: Downloading https://files.pythonhosted.org/packages/b7/22/a222980219e3b1e69d4371d23bd24c2d09018a1fe3266956812d233b0907/playlisterUtil-2.0.1.tar.gz
+[2023-06-20 01:45:01] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-20 01:45:01] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-20 01:45:01] INFO root fetch - processPackages [gnuplotlib]: Downloading https://files.pythonhosted.org/packages/5c/0e/1723c91ae00a89d909fd42db60df4fddf1e8cb425beebb355f57c175d76c/gnuplotlib-0.9.tar.gz
+[2023-06-20 01:45:01] INFO root fetch - processPackages [streamlitopencvplayer]: executing diffoscope
+[2023-06-20 01:45:01] INFO root fetch - processPackages [streamlitopencvplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitopencvplayer-1.2.4.tar.gz tmp/streamlitopencvplayer-1.2.5.tar.gz --markdown 20230620/s/streamlitopencvplayer/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-20 01:45:01] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-20 01:45:01] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230620/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-20 01:45:01] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-20 01:45:01] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230620/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-20 01:45:01] INFO root fetch - processPackages [playlisterUtil]: executing diffoscope
+[2023-06-20 01:45:01] INFO root fetch - processPackages [playlisterUtil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playlisterUtil-2.0.0.tar.gz tmp/playlisterUtil-2.0.1.tar.gz --markdown 20230620/p/playlisterUtil/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-20 01:45:01] INFO root fetch - processPackages [gnuplotlib]: executing diffoscope
+[2023-06-20 01:45:01] INFO root fetch - processPackages [gnuplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnuplotlib-0.8.tar.gz tmp/gnuplotlib-0.9.tar.gz --markdown 20230620/g/gnuplotlib/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-20 01:45:02] INFO root fetch - processPackages [murkrow]: Remove: archive file [/home/abi/fetcher/tmp/murkrow-0.8.0.tar.gz]
+[2023-06-20 01:45:02] INFO root fetch - processPackages [murkrow]: Remove: archive file [/home/abi/fetcher/tmp/murkrow-0.9.0.tar.gz]
+[2023-06-20 01:45:02] INFO root fetch - main [MainThread]: End processing [murkrow]: success
+[2023-06-20 01:45:02] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.2.4.tar.gz]
+[2023-06-20 01:45:02] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.2.5.tar.gz]
+[2023-06-20 01:45:02] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer]: success
+[2023-06-20 01:45:02] INFO root fetch - processPackages [playlisterUtil]: Remove: archive file [/home/abi/fetcher/tmp/playlisterUtil-2.0.0.tar.gz]
+[2023-06-20 01:45:02] INFO root fetch - processPackages [playlisterUtil]: Remove: archive file [/home/abi/fetcher/tmp/playlisterUtil-2.0.1.tar.gz]
+[2023-06-20 01:45:02] INFO root fetch - main [MainThread]: End processing [playlisterUtil]: success
+[2023-06-20 01:45:02] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-06-20 01:45:02] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-06-20 01:45:02] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-20 01:45:02] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-20 01:45:02] INFO root fetch - processPackages [gnuplotlib]: Remove: archive file [/home/abi/fetcher/tmp/gnuplotlib-0.8.tar.gz]
+[2023-06-20 01:45:02] INFO root fetch - processPackages [gnuplotlib]: Remove: archive file [/home/abi/fetcher/tmp/gnuplotlib-0.9.tar.gz]
+[2023-06-20 01:45:02] INFO root fetch - main [MainThread]: End processing [gnuplotlib]: success
+[2023-06-20 01:45:02] INFO root fetch - main [MainThread]: Store serial: [18566431]
