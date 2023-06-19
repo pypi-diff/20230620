@@ -1,0 +1,60 @@
+[2023-06-20 00:04:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18565943]
+[2023-06-20 00:05:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-20 00:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asset-extraction-framework
+[2023-06-20 00:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dolbyio-rest-apis
+[2023-06-20 00:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pttp
+[2023-06-20 00:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymap
+[2023-06-20 00:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multigenai
+[2023-06-20 00:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ganok
+[2023-06-20 00:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: beaker-py
+[2023-06-20 00:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: heaserver
+[2023-06-20 00:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: custom-diffusion
+[2023-06-20 00:05:00] WARNING root fetch - processPackages [asset-extraction-framework]: Skipping, unable to determine old version
+[2023-06-20 00:05:00] INFO root fetch - main [MainThread]: End processing [asset-extraction-framework] error
+[2023-06-20 00:05:00] INFO root fetch - processPackages [dolbyio-rest-apis]: New version: [3.7.1] Old Version: [3.7.0]
+[2023-06-20 00:05:00] WARNING root fetch - processPackages [multigenai]: Skipping, unable to determine old version
+[2023-06-20 00:05:00] INFO root fetch - main [MainThread]: End processing [multigenai] error
+[2023-06-20 00:05:00] INFO root fetch - processPackages [beaker-py]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-20 00:05:00] INFO root fetch - processPackages [custom-diffusion]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-20 00:05:00] WARNING root fetch - processPackages [pttp]: Skipping, unable to determine old version
+[2023-06-20 00:05:00] WARNING root fetch - processPackages [ganok]: Skipping, unable to determine old version
+[2023-06-20 00:05:00] INFO root fetch - main [MainThread]: End processing [pttp] error
+[2023-06-20 00:05:00] INFO root fetch - main [MainThread]: End processing [ganok] error
+[2023-06-20 00:05:00] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-06-20 00:05:00] INFO root fetch - processPackages [pymap]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-20 00:05:00] INFO root fetch - processPackages [custom-diffusion]: Downloading https://files.pythonhosted.org/packages/44/a2/167953a9134520f373d787665a6fe7156a192a4a5eb7236529836b8145df/custom_diffusion-0.1.6.tar.gz
+[2023-06-20 00:05:00] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/23/5c/e8b5b2171b84de0317a19800ea1e6e1c13fd3fc36ae7789702ed1007a678/heaserver-1.0.0a98.tar.gz
+[2023-06-20 00:05:01] INFO root fetch - processPackages [dolbyio-rest-apis]: Downloading https://files.pythonhosted.org/packages/98/5a/cb66f878898d7c2b64a39d915006f6a19c4cc1286d091225ce08e0b915b9/dolbyio-rest-apis-3.7.0.tar.gz
+[2023-06-20 00:05:01] INFO root fetch - processPackages [pymap]: Downloading https://files.pythonhosted.org/packages/2a/5a/5f6cd5528d334cc9d4bef58ab2008b92d3ea2677f433cc2750f52df784c3/pymap-0.9.6.tar.gz
+[2023-06-20 00:05:01] INFO root fetch - processPackages [beaker-py]: Downloading https://files.pythonhosted.org/packages/1e/03/bd1b0b6d77693846240ec0ebd1d73dacd011695f5a0f3118ca23b8545c53/beaker-py-1.9.1.tar.gz
+[2023-06-20 00:05:01] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/24/ac/07794906521a70363db00bf9e1720b5c8addbaa7a84831912dfb3035fbfd/heaserver-1.0.0a99.tar.gz
+[2023-06-20 00:05:01] INFO root fetch - processPackages [custom-diffusion]: Downloading https://files.pythonhosted.org/packages/1d/e5/82770e2a7189bc6600d25fbb15f6c9b286e4695e826c519e86ab4ea72546/custom_diffusion-0.1.7.tar.gz
+[2023-06-20 00:05:01] INFO root fetch - processPackages [custom-diffusion]: executing diffoscope
+[2023-06-20 00:05:01] INFO root fetch - processPackages [custom-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_diffusion-0.1.6.tar.gz tmp/custom_diffusion-0.1.7.tar.gz --markdown 20230620/c/custom-diffusion/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-20 00:05:01] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-06-20 00:05:01] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230620/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-06-20 00:05:01] INFO root fetch - processPackages [dolbyio-rest-apis]: Downloading https://files.pythonhosted.org/packages/53/77/aa072bed83b1868186b4c867576cd211b4418400d5b00c12e53d67859a2e/dolbyio-rest-apis-3.7.1.tar.gz
+[2023-06-20 00:05:01] INFO root fetch - processPackages [pymap]: Downloading https://files.pythonhosted.org/packages/99/7c/f35c4b4960d80c3cf6279248e6d0b2ab6874188d4f955c4089d7905c8e31/pymap-0.9.7.tar.gz
+[2023-06-20 00:05:01] INFO root fetch - processPackages [dolbyio-rest-apis]: executing diffoscope
+[2023-06-20 00:05:01] INFO root fetch - processPackages [dolbyio-rest-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolbyio-rest-apis-3.7.0.tar.gz tmp/dolbyio-rest-apis-3.7.1.tar.gz --markdown 20230620/d/dolbyio-rest-apis/3.7.0-3.7.1/diff.md --exclude *.pyd
+[2023-06-20 00:05:01] INFO root fetch - processPackages [beaker-py]: Downloading https://files.pythonhosted.org/packages/0c/fc/715bf075aa3cd4e6a75dc7581bbba27a337add27bc93465c1719ad25ab7c/beaker-py-1.9.2.tar.gz
+[2023-06-20 00:05:01] INFO root fetch - processPackages [pymap]: executing diffoscope
+[2023-06-20 00:05:01] INFO root fetch - processPackages [pymap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymap-0.9.6.tar.gz tmp/pymap-0.9.7.tar.gz --markdown 20230620/p/pymap/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-20 00:05:01] INFO root fetch - processPackages [beaker-py]: executing diffoscope
+[2023-06-20 00:05:01] INFO root fetch - processPackages [beaker-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beaker-py-1.9.1.tar.gz tmp/beaker-py-1.9.2.tar.gz --markdown 20230620/b/beaker-py/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-20 00:05:02] INFO root fetch - processPackages [custom-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/custom_diffusion-0.1.6.tar.gz]
+[2023-06-20 00:05:02] INFO root fetch - processPackages [custom-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/custom_diffusion-0.1.7.tar.gz]
+[2023-06-20 00:05:02] INFO root fetch - main [MainThread]: End processing [custom-diffusion]: success
+[2023-06-20 00:05:03] INFO root fetch - processPackages [beaker-py]: Remove: archive file [/home/abi/fetcher/tmp/beaker-py-1.9.1.tar.gz]
+[2023-06-20 00:05:03] INFO root fetch - processPackages [beaker-py]: Remove: archive file [/home/abi/fetcher/tmp/beaker-py-1.9.2.tar.gz]
+[2023-06-20 00:05:03] INFO root fetch - main [MainThread]: End processing [beaker-py]: success
+[2023-06-20 00:05:03] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a98.tar.gz]
+[2023-06-20 00:05:03] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
+[2023-06-20 00:05:03] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-06-20 00:05:03] INFO root fetch - processPackages [pymap]: Remove: archive file [/home/abi/fetcher/tmp/pymap-0.9.6.tar.gz]
+[2023-06-20 00:05:03] INFO root fetch - processPackages [pymap]: Remove: archive file [/home/abi/fetcher/tmp/pymap-0.9.7.tar.gz]
+[2023-06-20 00:05:03] INFO root fetch - main [MainThread]: End processing [pymap]: success
+[2023-06-20 00:05:03] INFO root fetch - processPackages [dolbyio-rest-apis]: Remove: archive file [/home/abi/fetcher/tmp/dolbyio-rest-apis-3.7.0.tar.gz]
+[2023-06-20 00:05:03] INFO root fetch - processPackages [dolbyio-rest-apis]: Remove: archive file [/home/abi/fetcher/tmp/dolbyio-rest-apis-3.7.1.tar.gz]
+[2023-06-20 00:05:03] INFO root fetch - main [MainThread]: End processing [dolbyio-rest-apis]: success
+[2023-06-20 00:05:03] INFO root fetch - main [MainThread]: Store serial: [18565978]
