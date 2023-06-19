@@ -427,3 +427,171 @@
 [2023-06-20 00:49:37] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.9.0.tar.gz]
 [2023-06-20 00:49:37] INFO root fetch - main [MainThread]: End processing [retro-data-structures]: success
 [2023-06-20 00:49:37] INFO root fetch - main [MainThread]: Store serial: [18566114]
+[2023-06-20 00:54:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566114]
+[2023-06-20 00:54:46] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-20 00:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grammars
+[2023-06-20 00:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reflex
+[2023-06-20 00:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kraken-build
+[2023-06-20 00:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kraken-common
+[2023-06-20 00:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kraken-core
+[2023-06-20 00:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kraken-wrapper
+[2023-06-20 00:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kraken-std
+[2023-06-20 00:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pin
+[2023-06-20 00:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pandoc-latex-tip
+[2023-06-20 00:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: grammars
+[2023-06-20 00:54:46] INFO root fetch - processPackages [reflex]: New version: [0.1.34a1] Old Version: [0.1]
+[2023-06-20 00:54:46] INFO root fetch - processPackages [grammars]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-20 00:54:46] INFO root fetch - processPackages [kraken-build]: New version: [0.26.0] Old Version: [0.25.0]
+[2023-06-20 00:54:46] INFO root fetch - processPackages [kraken-wrapper]: New version: [0.26.0] Old Version: [0.25.0]
+[2023-06-20 00:54:46] INFO root fetch - processPackages [grammars]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-20 00:54:46] INFO root fetch - processPackages [kraken-core]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-20 00:54:46] INFO root fetch - processPackages [kraken-common]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-20 00:54:46] INFO root fetch - processPackages [pandoc-latex-tip]: New version: [2.3.0.0] Old Version: [2.2.0]
+[2023-06-20 00:54:46] INFO root fetch - processPackages [kraken-std]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-20 00:54:46] INFO root fetch - processPackages [pin]: New version: [2.6.4] Old Version: [2.6.3]
+[2023-06-20 00:54:46] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/8e/e3/c325e16e335ab2760194c951d0a4289f6ed70f54529753a43618e24a02fa/reflex-0.1.tar.gz
+[2023-06-20 00:54:46] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/97/12/340038665f54d69c0f0bb9c6e7647ae5593487a496529545b183cf5c0be9/kraken_wrapper-0.25.0.tar.gz
+[2023-06-20 00:54:46] INFO root fetch - processPackages [grammars]: Downloading https://files.pythonhosted.org/packages/a8/48/af14f14015b20fb74b110d6de2a11560d1daf7e6cec603c99d5d480efcb1/grammars-0.0.2.tar.gz
+[2023-06-20 00:54:46] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/c6/4c/480e3d597162031534e0e300b1d98eeec0838406875f691703142326e36a/kraken-core-0.9.5.tar.gz
+[2023-06-20 00:54:46] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/60/92/50a7ca7206a026539fc495e2cabebeef58e3710d8e16995a6791a80b9916/kraken_build-0.25.0.tar.gz
+[2023-06-20 00:54:47] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/88/b6/970ad5d730a7c28f02ecce40246458941d521ab7049074d0c03bc6304f7c/kraken_common-0.5.3.tar.gz
+[2023-06-20 00:54:47] INFO root fetch - processPackages [grammars]: Downloading https://files.pythonhosted.org/packages/a8/48/af14f14015b20fb74b110d6de2a11560d1daf7e6cec603c99d5d480efcb1/grammars-0.0.2.tar.gz
+[2023-06-20 00:54:47] INFO root fetch - processPackages [pandoc-latex-tip]: Downloading https://files.pythonhosted.org/packages/69/60/87c33a6356aa16bedc0ec2b0eb713fa14691a38f081ba81d315c40dbc36a/pandoc-latex-tip-2.2.0.tar.gz
+[2023-06-20 00:54:47] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/d2/93/fc7a0d5c20d6a3d551ef23ed605451eef6aa6cb35c9cf7b3366ffe5cc5e0/kraken_std-0.8.8.tar.gz
+[2023-06-20 00:54:47] INFO root fetch - processPackages [pin]: Downloading https://files.pythonhosted.org/packages/29/c1/7c8ce8b0325cc8790f8f18401c2f852986334a2d6d65a928b51634cd2de8/pin-2.6.3-2-cp39-cp39-manylinux_2_24_x86_64.whl
+[2023-06-20 00:54:47] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/b7/21/41df383623a0ef5d124cd6d6b291d7e20a9b3765c855493b30e187b1219e/reflex-0.1.34a1.tar.gz
+[2023-06-20 00:54:47] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/47/12/3c95fab8d4572da7811c02976e445e98b72480be1ac2ae520f85867d6d1b/kraken_wrapper-0.26.0.tar.gz
+[2023-06-20 00:54:47] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/b6/f4/2ddff1c25849833594115f69989cc831a594882af04a874bbb728e402668/kraken-core-0.9.6.tar.gz
+[2023-06-20 00:54:47] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/f3/d9/a1e0ffb1cf08930a327b694c9e07eb9bc2e6a7f23dcfcda2c75bb5ca1d60/kraken_build-0.26.0.tar.gz
+[2023-06-20 00:54:47] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/28/6b/40996d0e584f418f756a443a993b2ef5a68d9d934839d39b791b65917fc9/kraken_common-0.5.4.tar.gz
+[2023-06-20 00:54:47] INFO root fetch - processPackages [grammars]: Downloading https://files.pythonhosted.org/packages/32/e3/1481b833e35a93549ce9518c1df1b399c7144a1e94d4263d4c2d34464c5a/grammars-0.0.3.tar.gz
+[2023-06-20 00:54:47] INFO root fetch - processPackages [grammars]: Downloading https://files.pythonhosted.org/packages/32/e3/1481b833e35a93549ce9518c1df1b399c7144a1e94d4263d4c2d34464c5a/grammars-0.0.3.tar.gz
+[2023-06-20 00:54:47] INFO root fetch - processPackages [kraken-core]: executing diffoscope
+[2023-06-20 00:54:47] INFO root fetch - processPackages [kraken-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken-core-0.9.5.tar.gz tmp/kraken-core-0.9.6.tar.gz --markdown 20230620/k/kraken-core/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-20 00:54:47] INFO root fetch - processPackages [kraken-common]: executing diffoscope
+[2023-06-20 00:54:47] INFO root fetch - processPackages [kraken-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_common-0.5.3.tar.gz tmp/kraken_common-0.5.4.tar.gz --markdown 20230620/k/kraken-common/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-20 00:54:47] INFO root fetch - processPackages [kraken-wrapper]: executing diffoscope
+[2023-06-20 00:54:47] INFO root fetch - processPackages [kraken-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_wrapper-0.25.0.tar.gz tmp/kraken_wrapper-0.26.0.tar.gz --markdown 20230620/k/kraken-wrapper/0.25.0-0.26.0/diff.md --exclude *.pyd
+[2023-06-20 00:54:47] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2023-06-20 00:54:47] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.1.tar.gz tmp/reflex-0.1.34a1.tar.gz --markdown 20230620/r/reflex/0.1-0.1.34a1/diff.md --exclude *.pyd
+[2023-06-20 00:54:47] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/a6/a8/8a0c122aadc67da4627c416b4669ed0c677b7b474f97ddb283c496a82a37/kraken_std-0.8.9.tar.gz
+[2023-06-20 00:54:47] INFO root fetch - processPackages [kraken-build]: executing diffoscope
+[2023-06-20 00:54:47] INFO root fetch - processPackages [kraken-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_build-0.25.0.tar.gz tmp/kraken_build-0.26.0.tar.gz --markdown 20230620/k/kraken-build/0.25.0-0.26.0/diff.md --exclude *.pyd
+[2023-06-20 00:54:47] INFO root fetch - processPackages [grammars]: executing diffoscope
+[2023-06-20 00:54:47] INFO root fetch - processPackages [grammars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grammars-0.0.2.tar.gz tmp/grammars-0.0.3.tar.gz --markdown 20230620/g/grammars/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-20 00:54:47] INFO root fetch - processPackages [pandoc-latex-tip]: Downloading https://files.pythonhosted.org/packages/f9/80/e1ba5f2931b34390b703b9943a06415f47bae6043cf3bbfba7e44d814c51/pandoc_latex_tip-2.3.0.0-py3-none-any.whl
+[2023-06-20 00:54:47] INFO root fetch - processPackages [grammars]: executing diffoscope
+[2023-06-20 00:54:47] INFO root fetch - processPackages [grammars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grammars-0.0.2.tar.gz tmp/grammars-0.0.3.tar.gz --markdown 20230620/g/grammars/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-20 00:54:47] INFO root fetch - processPackages [kraken-std]: executing diffoscope
+[2023-06-20 00:54:47] INFO root fetch - processPackages [kraken-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_std-0.8.8.tar.gz tmp/kraken_std-0.8.9.tar.gz --markdown 20230620/k/kraken-std/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-20 00:54:48] INFO root fetch - processPackages [pandoc-latex-tip]: executing diffoscope
+[2023-06-20 00:54:48] INFO root fetch - processPackages [pandoc-latex-tip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc-latex-tip-2.2.0.tar.gz tmp/pandoc_latex_tip-2.3.0.0-py3-none-any.whl.zip --markdown 20230620/p/pandoc-latex-tip/2.2.0-2.3.0.0/diff.md --exclude *.pyd
+[2023-06-20 00:54:48] INFO root fetch - processPackages [pin]: Downloading https://files.pythonhosted.org/packages/77/8c/65e121770e9a9b05f14af81bc01865324d61be7593d94093d705f7680ddb/pin-2.6.4-1-cp39-cp39-manylinux_2_24_x86_64.whl
+[2023-06-20 00:54:48] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.25.0.tar.gz]
+[2023-06-20 00:54:48] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.26.0.tar.gz]
+[2023-06-20 00:54:48] INFO root fetch - processPackages [kraken-build]: Start processing: kcli
+[2023-06-20 00:54:48] INFO root fetch - main [MainThread]: End processing [kraken-build]: success
+[2023-06-20 00:54:48] INFO root fetch - processPackages [kcli]: New version: [99.0.202306192250] Old Version: [99.0.202306191757]
+[2023-06-20 00:54:48] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ad/14/294a09c41429777be69d8775641ae3454cb54222bff3827930b776ca8b03/kcli-99.0.202306191757-py3-none-any.whl
+[2023-06-20 00:54:48] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.3.tar.gz]
+[2023-06-20 00:54:48] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.4.tar.gz]
+[2023-06-20 00:54:48] INFO root fetch - processPackages [kraken-common]: Start processing: pynecone
+[2023-06-20 00:54:48] INFO root fetch - main [MainThread]: End processing [kraken-common]: success
+[2023-06-20 00:54:48] INFO root fetch - processPackages [grammars]: Remove: archive file [/home/abi/fetcher/tmp/grammars-0.0.2.tar.gz]
+[2023-06-20 00:54:48] INFO root fetch - processPackages [grammars]: Remove: archive file [/home/abi/fetcher/tmp/grammars-0.0.3.tar.gz]
+[2023-06-20 00:54:48] INFO root fetch - processPackages [grammars]: Start processing: cshelph
+[2023-06-20 00:54:48] INFO root fetch - main [MainThread]: End processing [grammars]: success
+[2023-06-20 00:54:48] INFO root fetch - processPackages [pynecone]: New version: [0.1.34a1] Old Version: [0.1.34a0]
+[2023-06-20 00:54:48] INFO root fetch - processPackages [cshelph]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.5.tar.gz]
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.6.tar.gz]
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kraken-core]: Start processing: kfish
+[2023-06-20 00:54:49] INFO root fetch - main [MainThread]: End processing [kraken-core]: success
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kfish]: New version: [99.0.202306192252] Old Version: [99.0.202306191800]
+[2023-06-20 00:54:49] INFO root fetch - processPackages [cshelph]: Downloading https://files.pythonhosted.org/packages/6d/ed/60a03b1c141333017fcfdbb6ed888285dfafd7457e357fddf94dcdc3f669/cshelph-2.8.0.tar.gz
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.25.0.tar.gz]
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.26.0.tar.gz]
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kraken-wrapper]: Start processing: biobear
+[2023-06-20 00:54:49] INFO root fetch - main [MainThread]: End processing [kraken-wrapper]: success
+[2023-06-20 00:54:49] INFO root fetch - processPackages [pynecone]: Downloading https://files.pythonhosted.org/packages/81/34/9ec9322a361d7035bfd4e1fc21150f958ab8d9cebc0bf64666ac5909a93e/pynecone-0.1.34a0.tar.gz
+[2023-06-20 00:54:49] INFO root fetch - processPackages [biobear]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-20 00:54:49] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.1.tar.gz]
+[2023-06-20 00:54:49] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.1.34a1.tar.gz]
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/45/92/cc58ac14b3f5d1dab35d27eebc449c04991d8ccc862e4360e6da8ff29853/kcli-99.0.202306192250-py3-none-any.whl
+[2023-06-20 00:54:49] INFO root fetch - processPackages [reflex]: Start processing: grammars
+[2023-06-20 00:54:49] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2023-06-20 00:54:49] INFO root fetch - processPackages [grammars]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.8.tar.gz]
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.9.tar.gz]
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kraken-std]: Start processing: kcli
+[2023-06-20 00:54:49] INFO root fetch - main [MainThread]: End processing [kraken-std]: success
+[2023-06-20 00:54:49] INFO root fetch - processPackages [grammars]: Start processing: open-prime-rando
+[2023-06-20 00:54:49] INFO root fetch - main [MainThread]: End processing [grammars]: success
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kcli]: New version: [99.0.202306192253] Old Version: [99.0.202306192250]
+[2023-06-20 00:54:49] INFO root fetch - processPackages [grammars]: Downloading https://files.pythonhosted.org/packages/32/e3/1481b833e35a93549ce9518c1df1b399c7144a1e94d4263d4c2d34464c5a/grammars-0.0.3.tar.gz
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/fe/37/c56b68ff84528396bdbd419f8864621a0e9cd25954426483c297d52669c1/kfish-99.0.202306191800-py3-none-any.whl
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/45/92/cc58ac14b3f5d1dab35d27eebc449c04991d8ccc862e4360e6da8ff29853/kcli-99.0.202306192250-py3-none-any.whl
+[2023-06-20 00:54:49] INFO root fetch - processPackages [open-prime-rando]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-06-20 00:54:49] INFO root fetch - processPackages [pynecone]: Downloading https://files.pythonhosted.org/packages/44/49/d2949e2a35129228878eef0050fcb0ec5a3508ab95288f7b43b67b7a8a79/pynecone-0.1.34a1.tar.gz
+[2023-06-20 00:54:49] INFO root fetch - processPackages [biobear]: Downloading https://files.pythonhosted.org/packages/4c/c3/4dd60432a9e6ca7c394658919b1c55337670e8756930292e93a68d545ee4/biobear-0.6.0.tar.gz
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306191757-py3-none-any.whl.zip tmp/kcli-99.0.202306192250-py3-none-any.whl.zip --markdown 20230620/k/kcli/99.0.202306191757-99.0.202306192250/diff.md --exclude *.pyd
+[2023-06-20 00:54:49] INFO root fetch - processPackages [cshelph]: Downloading https://files.pythonhosted.org/packages/d7/1c/aa4fde77992f5fb0c16df24243e9296f43808ba5d9832fb733d6c196ec89/cshelph-2.9.0.tar.gz
+[2023-06-20 00:54:49] INFO root fetch - processPackages [grammars]: Downloading https://files.pythonhosted.org/packages/dd/0c/467bfa9dfeca9e6b61d28c052ef97411c8d7c587dc4e28ceb5ece16cde41/grammars-0.0.4.tar.gz
+[2023-06-20 00:54:49] INFO root fetch - processPackages [pynecone]: executing diffoscope
+[2023-06-20 00:54:49] INFO root fetch - processPackages [pynecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynecone-0.1.34a0.tar.gz tmp/pynecone-0.1.34a1.tar.gz --markdown 20230620/p/pynecone/0.1.34a0-0.1.34a1/diff.md --exclude *.pyd
+[2023-06-20 00:54:49] INFO root fetch - processPackages [open-prime-rando]: Downloading https://files.pythonhosted.org/packages/c6/3c/1da17010f07b78281f98c0a8fede4737226b8b4fc0cfaa5379796a0307cb/open-prime-rando-0.4.2.tar.gz
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e6/c4/8dfc6bb0770b25cb6da6fca3dbbce84eb8aa6f4c23f716e868d36e9406fe/kcli-99.0.202306192253-py3-none-any.whl
+[2023-06-20 00:54:49] INFO root fetch - processPackages [cshelph]: executing diffoscope
+[2023-06-20 00:54:49] INFO root fetch - processPackages [cshelph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cshelph-2.8.0.tar.gz tmp/cshelph-2.9.0.tar.gz --markdown 20230620/c/cshelph/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/a5/57/c9b9e363eb29a50f26b5215f4b717b374768c4558263f407972c46afaa34/kfish-99.0.202306192252-py3-none-any.whl
+[2023-06-20 00:54:49] INFO root fetch - processPackages [grammars]: executing diffoscope
+[2023-06-20 00:54:49] INFO root fetch - processPackages [grammars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grammars-0.0.3.tar.gz tmp/grammars-0.0.4.tar.gz --markdown 20230620/g/grammars/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-20 00:54:49] INFO root fetch - processPackages [biobear]: Downloading https://files.pythonhosted.org/packages/0a/86/67781df1716b9f91514ffb4de4a77afa2745f4a93913c2af940a409fa2b7/biobear-0.6.1-cp39-none-win_amd64.whl
+[2023-06-20 00:54:49] INFO root fetch - processPackages [pin]: executing diffoscope
+[2023-06-20 00:54:49] INFO root fetch - processPackages [pin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pin-2.6.3-2-cp39-cp39-manylinux_2_24_x86_64.whl.zip tmp/pin-2.6.4-1-cp39-cp39-manylinux_2_24_x86_64.whl.zip --markdown 20230620/p/pin/2.6.3-2.6.4/diff.md --exclude *.pyd
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306191800-py3-none-any.whl.zip tmp/kfish-99.0.202306192252-py3-none-any.whl.zip --markdown 20230620/k/kfish/99.0.202306191800-99.0.202306192252/diff.md --exclude *.pyd
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-20 00:54:49] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306192250-py3-none-any.whl.zip tmp/kcli-99.0.202306192253-py3-none-any.whl.zip --markdown 20230620/k/kcli/99.0.202306192250-99.0.202306192253/diff.md --exclude *.pyd
+[2023-06-20 00:54:49] INFO root fetch - processPackages [open-prime-rando]: Downloading https://files.pythonhosted.org/packages/12/86/7799371f39447806a139026dc6dcd14d71f83e54c51f1442b6dedb7797ad/open-prime-rando-0.5.0.tar.gz
+[2023-06-20 00:54:49] WARNING root fetch - processPackages [biobear]: Skipping package: exceeds size limit 15222576>=10485760
+[2023-06-20 00:54:49] INFO root fetch - processPackages [biobear]: Start processing: pk4adi
+[2023-06-20 00:54:49] INFO root fetch - main [MainThread]: End processing [biobear] error
+[2023-06-20 00:54:50] INFO root fetch - processPackages [pk4adi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-20 00:54:50] INFO root fetch - processPackages [pk4adi]: Downloading https://files.pythonhosted.org/packages/9c/0b/11787b330fc3c4a03e07a3c5e9406cbc5c522ddd2943d451e9d936d00117/pk4adi-0.1.1.tar.gz
+[2023-06-20 00:54:50] INFO root fetch - processPackages [open-prime-rando]: executing diffoscope
+[2023-06-20 00:54:50] INFO root fetch - processPackages [open-prime-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-prime-rando-0.4.2.tar.gz tmp/open-prime-rando-0.5.0.tar.gz --markdown 20230620/o/open-prime-rando/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-06-20 00:54:50] INFO root fetch - processPackages [pk4adi]: Downloading https://files.pythonhosted.org/packages/f2/0b/8152cde956b598922f5a053422e0c0d7e80744e814d2ee29331e87586a56/pk4adi-0.1.2.tar.gz
+[2023-06-20 00:54:50] INFO root fetch - processPackages [pk4adi]: executing diffoscope
+[2023-06-20 00:54:50] INFO root fetch - processPackages [pk4adi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pk4adi-0.1.1.tar.gz tmp/pk4adi-0.1.2.tar.gz --markdown 20230620/p/pk4adi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-20 00:54:50] INFO root fetch - processPackages [pandoc-latex-tip]: Remove: archive file [/home/abi/fetcher/tmp/pandoc-latex-tip-2.2.0.tar.gz]
+[2023-06-20 00:54:50] INFO root fetch - processPackages [pandoc-latex-tip]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_latex_tip-2.3.0.0-py3-none-any.whl.zip]
+[2023-06-20 00:54:50] INFO root fetch - main [MainThread]: End processing [pandoc-latex-tip]: success
+[2023-06-20 00:54:51] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306191800-py3-none-any.whl.zip]
+[2023-06-20 00:54:51] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306192252-py3-none-any.whl.zip]
+[2023-06-20 00:54:51] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-20 00:54:51] INFO root fetch - processPackages [cshelph]: Remove: archive file [/home/abi/fetcher/tmp/cshelph-2.8.0.tar.gz]
+[2023-06-20 00:54:51] INFO root fetch - processPackages [cshelph]: Remove: archive file [/home/abi/fetcher/tmp/cshelph-2.9.0.tar.gz]
+[2023-06-20 00:54:51] INFO root fetch - main [MainThread]: End processing [cshelph]: success
+[2023-06-20 00:54:51] INFO root fetch - processPackages [grammars]: Remove: archive file [/home/abi/fetcher/tmp/grammars-0.0.3.tar.gz]
+[2023-06-20 00:54:51] INFO root fetch - processPackages [grammars]: Remove: archive file [/home/abi/fetcher/tmp/grammars-0.0.4.tar.gz]
+[2023-06-20 00:54:51] INFO root fetch - main [MainThread]: End processing [grammars]: success
+[2023-06-20 00:54:51] INFO root fetch - processPackages [pk4adi]: Remove: archive file [/home/abi/fetcher/tmp/pk4adi-0.1.1.tar.gz]
+[2023-06-20 00:54:51] INFO root fetch - processPackages [pk4adi]: Remove: archive file [/home/abi/fetcher/tmp/pk4adi-0.1.2.tar.gz]
+[2023-06-20 00:54:51] INFO root fetch - main [MainThread]: End processing [pk4adi]: success
+[2023-06-20 00:54:51] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.4.2.tar.gz]
+[2023-06-20 00:54:51] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.5.0.tar.gz]
+[2023-06-20 00:54:51] INFO root fetch - main [MainThread]: End processing [open-prime-rando]: success
+[2023-06-20 00:54:54] INFO root fetch - processPackages [pynecone]: Remove: archive file [/home/abi/fetcher/tmp/pynecone-0.1.34a0.tar.gz]
+[2023-06-20 00:54:54] INFO root fetch - processPackages [pynecone]: Remove: archive file [/home/abi/fetcher/tmp/pynecone-0.1.34a1.tar.gz]
+[2023-06-20 00:54:54] INFO root fetch - main [MainThread]: End processing [pynecone]: success
+[2023-06-20 00:54:57] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306191757-py3-none-any.whl.zip]
+[2023-06-20 00:54:57] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306192250-py3-none-any.whl.zip]
+[2023-06-20 00:54:57] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-20 00:54:57] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306192253-py3-none-any.whl.zip]
+[2023-06-20 00:54:57] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-20 00:56:42] INFO root fetch - processPackages [pin]: Remove: archive file [/home/abi/fetcher/tmp/pin-2.6.3-2-cp39-cp39-manylinux_2_24_x86_64.whl.zip]
+[2023-06-20 00:56:42] INFO root fetch - processPackages [pin]: Remove: archive file [/home/abi/fetcher/tmp/pin-2.6.4-1-cp39-cp39-manylinux_2_24_x86_64.whl.zip]
+[2023-06-20 00:56:42] INFO root fetch - main [MainThread]: End processing [pin]: success
+[2023-06-20 00:56:42] INFO root fetch - main [MainThread]: Store serial: [18566207]
