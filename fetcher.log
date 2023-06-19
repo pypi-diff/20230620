@@ -1009,3 +1009,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 01:19:00] INFO root fetch - processPackages [responsibleai-tabular-automl]: Remove: archive file [/home/abi/fetcher/tmp/responsibleai_tabular_automl-0.4.0.tar.gz]
 [2023-06-20 01:19:00] INFO root fetch - main [MainThread]: End processing [responsibleai-tabular-automl]: success
 [2023-06-20 01:19:00] INFO root fetch - main [MainThread]: Store serial: [18566339]
+[2023-06-20 01:24:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566339]
+[2023-06-20 01:24:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-20 01:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmkit
+[2023-06-20 01:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: networkcalculator
+[2023-06-20 01:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: supervisely
+[2023-06-20 01:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micropython-sht4x
+[2023-06-20 01:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: d20-orm
+[2023-06-20 01:24:08] INFO root fetch - processPackages [tmkit]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-06-20 01:24:08] INFO root fetch - processPackages [networkcalculator]: New version: [1.0.4] Old Version: [1.0.0]
+[2023-06-20 01:24:08] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-06-20 01:24:08] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-20 01:24:08] WARNING root fetch - processPackages [micropython-sht4x]: Skipping, unable to determine old version
+[2023-06-20 01:24:08] INFO root fetch - main [MainThread]: End processing [micropython-sht4x] error
+[2023-06-20 01:24:08] INFO root fetch - processPackages [networkcalculator]: Downloading https://files.pythonhosted.org/packages/50/12/18e65f38149492e8fffdd88f74242906be4b572d09daf79b5f1b589970e1/networkcalculator-1.0.0.tar.gz
+[2023-06-20 01:24:09] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-06-20 01:24:09] INFO root fetch - processPackages [tmkit]: Downloading https://files.pythonhosted.org/packages/8d/e1/852206283668df1fa41bf4b2fde871294fb7f7c0ab96003a2e57c44f2f96/tmkit-0.0.0.1.tar.gz
+[2023-06-20 01:24:09] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-06-20 01:24:09] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-20 01:24:09] INFO root fetch - processPackages [networkcalculator]: Downloading https://files.pythonhosted.org/packages/58/50/fc52c66d1a81cda23c1ab4059779599fcb4fdd7911a6e6c788e855b0e510/networkcalculator-1.0.4.tar.gz
+[2023-06-20 01:24:09] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-06-20 01:24:09] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230620/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-06-20 01:24:09] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-20 01:24:09] INFO root fetch - processPackages [networkcalculator]: executing diffoscope
+[2023-06-20 01:24:09] INFO root fetch - processPackages [networkcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networkcalculator-1.0.0.tar.gz tmp/networkcalculator-1.0.4.tar.gz --markdown 20230620/n/networkcalculator/1.0.0-1.0.4/diff.md --exclude *.pyd
+[2023-06-20 01:24:09] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-20 01:24:09] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230620/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-20 01:24:09] INFO root fetch - processPackages [tmkit]: Downloading https://files.pythonhosted.org/packages/e8/b5/c614baeefa3355b746c9a45dca41220164c7699f2b25e29ef9b8b7974f63/tmkit-0.0.0.2.tar.gz
+[2023-06-20 01:24:09] INFO root fetch - processPackages [tmkit]: executing diffoscope
+[2023-06-20 01:24:09] INFO root fetch - processPackages [tmkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmkit-0.0.0.1.tar.gz tmp/tmkit-0.0.0.2.tar.gz --markdown 20230620/t/tmkit/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-06-20 01:24:10] INFO root fetch - processPackages [networkcalculator]: Remove: archive file [/home/abi/fetcher/tmp/networkcalculator-1.0.0.tar.gz]
+[2023-06-20 01:24:10] INFO root fetch - processPackages [networkcalculator]: Remove: archive file [/home/abi/fetcher/tmp/networkcalculator-1.0.4.tar.gz]
+[2023-06-20 01:24:10] INFO root fetch - main [MainThread]: End processing [networkcalculator]: success
+[2023-06-20 01:24:10] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-06-20 01:24:10] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-06-20 01:24:10] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-20 01:24:11] INFO root fetch - processPackages [tmkit]: Remove: archive file [/home/abi/fetcher/tmp/tmkit-0.0.0.1.tar.gz]
+[2023-06-20 01:24:11] INFO root fetch - processPackages [tmkit]: Remove: archive file [/home/abi/fetcher/tmp/tmkit-0.0.0.2.tar.gz]
+[2023-06-20 01:24:11] INFO root fetch - main [MainThread]: End processing [tmkit]: success
+[2023-06-20 01:24:11] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-06-20 01:24:11] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-06-20 01:24:11] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-06-20 01:24:11] INFO root fetch - main [MainThread]: Store serial: [18566355]
