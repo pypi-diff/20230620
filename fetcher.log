@@ -372,3 +372,58 @@
 [2023-06-20 00:42:18] INFO root fetch - processPackages [pandoc-codeblock-include]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_codeblock_include-1.0.1.2.tar.gz]
 [2023-06-20 00:42:18] INFO root fetch - main [MainThread]: End processing [pandoc-codeblock-include]: success
 [2023-06-20 00:42:18] INFO root fetch - main [MainThread]: Store serial: [18566097]
+[2023-06-20 00:47:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566097]
+[2023-06-20 00:47:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-20 00:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-reconciliation-widget
+[2023-06-20 00:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skmetpy
+[2023-06-20 00:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slap-cli
+[2023-06-20 00:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reasoner-validator
+[2023-06-20 00:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skmetpy
+[2023-06-20 00:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: retro-data-structures
+[2023-06-20 00:47:28] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: New version: [15.0.1.2.8] Old Version: [15.0.1.2.7]
+[2023-06-20 00:47:28] INFO root fetch - processPackages [retro-data-structures]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-20 00:47:28] INFO root fetch - processPackages [skmetpy]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-20 00:47:28] INFO root fetch - processPackages [skmetpy]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-20 00:47:28] INFO root fetch - processPackages [slap-cli]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-20 00:47:28] INFO root fetch - processPackages [reasoner-validator]: New version: [3.6.0] Old Version: [3.5.9]
+[2023-06-20 00:47:28] INFO root fetch - processPackages [retro-data-structures]: Downloading https://files.pythonhosted.org/packages/14/c8/fb99fe2074a617dd0f0d6145736aabd55c62863f640e03e31eecb6c1bc89/retro-data-structures-0.8.0.tar.gz
+[2023-06-20 00:47:28] INFO root fetch - processPackages [slap-cli]: Downloading https://files.pythonhosted.org/packages/4c/b3/64d1feff7152a2f08371005566fdf0da6353fc3f592b975d21a2416a6963/slap_cli-1.9.5.tar.gz
+[2023-06-20 00:47:28] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/44/75/1552a0f9db1f24f442e763b9590e74d543296f889a257dbb93f7592dbdc8/odoo_addon_account_reconciliation_widget-15.0.1.2.7-py3-none-any.whl
+[2023-06-20 00:47:28] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/8a/3c/9840b8f92b117fb720e9766928c177723d7beb53a8459671f5421e8cef7d/skmetpy-0.1.9.tar.gz
+[2023-06-20 00:47:28] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/8a/3c/9840b8f92b117fb720e9766928c177723d7beb53a8459671f5421e8cef7d/skmetpy-0.1.9.tar.gz
+[2023-06-20 00:47:28] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/fa/b9/e69dd29ab69970d89dd38884491c20a8e9221ab2acf98d0c9453344a77e3/reasoner_validator-3.5.9.tar.gz
+[2023-06-20 00:47:28] INFO root fetch - processPackages [retro-data-structures]: Downloading https://files.pythonhosted.org/packages/95/99/3fc33634a4abebfc4c59c9a4a2274b5672a2f14c64b176626a92a4ddf88b/retro-data-structures-0.9.0.tar.gz
+[2023-06-20 00:47:28] INFO root fetch - processPackages [slap-cli]: Downloading https://files.pythonhosted.org/packages/33/13/87a5b453bb27e2b0a6584738eb9be7dbdded66ee3a768fe1f14f14ca59df/slap_cli-1.9.6.tar.gz
+[2023-06-20 00:47:28] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/da/45/ee1674434c927e53028133d514a15611d6964c5cdd7a6e1cd9da89fdd875/skmetpy-0.2.0.tar.gz
+[2023-06-20 00:47:28] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/da/45/ee1674434c927e53028133d514a15611d6964c5cdd7a6e1cd9da89fdd875/skmetpy-0.2.0.tar.gz
+[2023-06-20 00:47:28] INFO root fetch - processPackages [skmetpy]: executing diffoscope
+[2023-06-20 00:47:28] INFO root fetch - processPackages [skmetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skmetpy-0.1.9.tar.gz tmp/skmetpy-0.2.0.tar.gz --markdown 20230620/s/skmetpy/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-20 00:47:28] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/2e/df/034c1991fb1240c8af1f4242e53303e2125653ea1f551a6697f29d80aa3c/reasoner_validator-3.6.0.tar.gz
+[2023-06-20 00:47:28] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/bb/5d/21d2df5e3a0d9b29902f447acf3278cf57d7a490851fa585d9f3e0d696a2/odoo_addon_account_reconciliation_widget-15.0.1.2.8-py3-none-any.whl
+[2023-06-20 00:47:28] INFO root fetch - processPackages [skmetpy]: executing diffoscope
+[2023-06-20 00:47:28] INFO root fetch - processPackages [skmetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skmetpy-0.1.9.tar.gz tmp/skmetpy-0.2.0.tar.gz --markdown 20230620/s/skmetpy/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-20 00:47:28] INFO root fetch - processPackages [slap-cli]: executing diffoscope
+[2023-06-20 00:47:28] INFO root fetch - processPackages [slap-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slap_cli-1.9.5.tar.gz tmp/slap_cli-1.9.6.tar.gz --markdown 20230620/s/slap-cli/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-20 00:47:28] INFO root fetch - processPackages [retro-data-structures]: executing diffoscope
+[2023-06-20 00:47:28] INFO root fetch - processPackages [retro-data-structures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retro-data-structures-0.8.0.tar.gz tmp/retro-data-structures-0.9.0.tar.gz --markdown 20230620/r/retro-data-structures/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-20 00:47:28] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2023-06-20 00:47:28] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-3.5.9.tar.gz tmp/reasoner_validator-3.6.0.tar.gz --markdown 20230620/r/reasoner-validator/3.5.9-3.6.0/diff.md --exclude *.pyd
+[2023-06-20 00:47:29] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: executing diffoscope
+[2023-06-20 00:47:29] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.7-py3-none-any.whl.zip tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.8-py3-none-any.whl.zip --markdown 20230620/o/odoo-addon-account-reconciliation-widget/15.0.1.2.7-15.0.1.2.8/diff.md --exclude *.pyd
+[2023-06-20 00:47:30] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.1.9.tar.gz]
+[2023-06-20 00:47:30] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.2.0.tar.gz]
+[2023-06-20 00:47:30] INFO root fetch - main [MainThread]: End processing [skmetpy]: success
+[2023-06-20 00:47:30] INFO root fetch - main [MainThread]: End processing [skmetpy]: success
+[2023-06-20 00:47:30] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.7-py3-none-any.whl.zip]
+[2023-06-20 00:47:30] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.8-py3-none-any.whl.zip]
+[2023-06-20 00:47:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconciliation-widget]: success
+[2023-06-20 00:47:30] INFO root fetch - processPackages [slap-cli]: Remove: archive file [/home/abi/fetcher/tmp/slap_cli-1.9.5.tar.gz]
+[2023-06-20 00:47:30] INFO root fetch - processPackages [slap-cli]: Remove: archive file [/home/abi/fetcher/tmp/slap_cli-1.9.6.tar.gz]
+[2023-06-20 00:47:30] INFO root fetch - main [MainThread]: End processing [slap-cli]: success
+[2023-06-20 00:47:30] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.5.9.tar.gz]
+[2023-06-20 00:47:30] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.6.0.tar.gz]
+[2023-06-20 00:47:30] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2023-06-20 00:49:37] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.8.0.tar.gz]
+[2023-06-20 00:49:37] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.9.0.tar.gz]
+[2023-06-20 00:49:37] INFO root fetch - main [MainThread]: End processing [retro-data-structures]: success
+[2023-06-20 00:49:37] INFO root fetch - main [MainThread]: Store serial: [18566114]
