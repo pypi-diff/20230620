@@ -252,3 +252,32 @@
 [2023-06-20 00:26:45] INFO root fetch - processPackages [cdk-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-extensions-0.0.79.tar.gz]
 [2023-06-20 00:26:45] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
 [2023-06-20 00:26:45] INFO root fetch - main [MainThread]: Store serial: [18566043]
+[2023-06-20 00:31:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566043]
+[2023-06-20 00:31:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-20 00:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pillar1
+[2023-06-20 00:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vollseg
+[2023-06-20 00:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parsita
+[2023-06-20 00:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-20 00:31:54] WARNING root fetch - processPackages [pillar1]: Skipping, unable to determine old version
+[2023-06-20 00:31:54] INFO root fetch - main [MainThread]: End processing [pillar1] error
+[2023-06-20 00:31:54] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-20 00:31:54] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-20 00:31:54] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-20 00:31:54] INFO root fetch - processPackages [parsita]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-06-20 00:31:54] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-20 00:31:54] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-20 00:31:54] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-20 00:31:54] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-20 00:31:54] INFO root fetch - processPackages [parsita]: Downloading https://files.pythonhosted.org/packages/38/f1/82d813223579337cfc13eca0281e638aab74305e70b9bb29e6707a52ecf8/parsita-2.0.0b1.tar.gz
+[2023-06-20 00:31:54] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-20 00:31:54] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230620/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 00:31:55] INFO root fetch - processPackages [parsita]: Downloading https://files.pythonhosted.org/packages/da/ae/333200f57f0fa394ea6be80269ec9ebc42438aa38e245e9b4983c2c87cc6/parsita-2.0.0b2.tar.gz
+[2023-06-20 00:31:55] INFO root fetch - processPackages [parsita]: executing diffoscope
+[2023-06-20 00:31:55] INFO root fetch - processPackages [parsita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsita-2.0.0b1.tar.gz tmp/parsita-2.0.0b2.tar.gz --markdown 20230620/p/parsita/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-06-20 00:31:56] INFO root fetch - processPackages [parsita]: Remove: archive file [/home/abi/fetcher/tmp/parsita-2.0.0b1.tar.gz]
+[2023-06-20 00:31:56] INFO root fetch - processPackages [parsita]: Remove: archive file [/home/abi/fetcher/tmp/parsita-2.0.0b2.tar.gz]
+[2023-06-20 00:31:56] INFO root fetch - main [MainThread]: End processing [parsita]: success
+[2023-06-20 00:31:56] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-20 00:31:56] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-20 00:31:56] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-20 00:31:56] INFO root fetch - main [MainThread]: Store serial: [18566060]
