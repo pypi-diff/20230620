@@ -1051,3 +1051,30 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 01:24:11] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
 [2023-06-20 01:24:11] INFO root fetch - main [MainThread]: End processing [supervisely]: success
 [2023-06-20 01:24:11] INFO root fetch - main [MainThread]: Store serial: [18566355]
+[2023-06-20 01:29:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566355]
+[2023-06-20 01:29:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-20 01:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shaidata
+[2023-06-20 01:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funconfthree
+[2023-06-20 01:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlalchemy-easy-softdelete
+[2023-06-20 01:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygwb
+[2023-06-20 01:29:21] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-20 01:29:21] WARNING root fetch - processPackages [shaidata]: Skipping, unable to determine old version
+[2023-06-20 01:29:21] INFO root fetch - main [MainThread]: End processing [shaidata] error
+[2023-06-20 01:29:21] WARNING root fetch - processPackages [funconfthree]: Skipping, unable to determine old version
+[2023-06-20 01:29:21] INFO root fetch - main [MainThread]: End processing [funconfthree] error
+[2023-06-20 01:29:21] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: Downloading https://files.pythonhosted.org/packages/51/2f/9893eb1a7899f7eb392983a51839bb91e2d20259239ee266b7f3016252bf/sqlalchemy_easy_softdelete-0.8.1.tar.gz
+[2023-06-20 01:29:21] INFO root fetch - processPackages [pygwb]: New version: [1.4.dev0] Old Version: [1.0.0]
+[2023-06-20 01:29:22] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: Downloading https://files.pythonhosted.org/packages/dc/e9/b03df6fffb595b96f8a39ad90a076365ab92620f8c15282afa6d266d9e5d/sqlalchemy_easy_softdelete-0.8.2.tar.gz
+[2023-06-20 01:29:22] INFO root fetch - processPackages [pygwb]: Downloading https://files.pythonhosted.org/packages/69/d1/89aeaf684f840bf6bb7ffe12c3d5392046fe2aa04b813de8377ee08c0448/pygwb-1.0.0.tar.gz
+[2023-06-20 01:29:22] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: executing diffoscope
+[2023-06-20 01:29:22] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_easy_softdelete-0.8.1.tar.gz tmp/sqlalchemy_easy_softdelete-0.8.2.tar.gz --markdown 20230620/s/sqlalchemy-easy-softdelete/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-20 01:29:22] INFO root fetch - processPackages [pygwb]: Downloading https://files.pythonhosted.org/packages/d6/45/e7313c9dee2e4464db7b8f342fb648aed29b94353d97b4611b1d257e4efb/pygwb-1.4.dev0-py3-none-any.whl
+[2023-06-20 01:29:22] INFO root fetch - processPackages [pygwb]: executing diffoscope
+[2023-06-20 01:29:22] INFO root fetch - processPackages [pygwb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwb-1.0.0.tar.gz tmp/pygwb-1.4.dev0-py3-none-any.whl.zip --markdown 20230620/p/pygwb/1.0.0-1.4.dev0/diff.md --exclude *.pyd
+[2023-06-20 01:29:23] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_easy_softdelete-0.8.1.tar.gz]
+[2023-06-20 01:29:23] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_easy_softdelete-0.8.2.tar.gz]
+[2023-06-20 01:29:23] INFO root fetch - main [MainThread]: End processing [sqlalchemy-easy-softdelete]: success
+[2023-06-20 01:29:23] INFO root fetch - processPackages [pygwb]: Remove: archive file [/home/abi/fetcher/tmp/pygwb-1.0.0.tar.gz]
+[2023-06-20 01:29:23] INFO root fetch - processPackages [pygwb]: Remove: archive file [/home/abi/fetcher/tmp/pygwb-1.4.dev0-py3-none-any.whl.zip]
+[2023-06-20 01:29:23] INFO root fetch - main [MainThread]: End processing [pygwb]: success
+[2023-06-20 01:29:23] INFO root fetch - main [MainThread]: Store serial: [18566367]
