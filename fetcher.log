@@ -872,3 +872,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 01:07:32] INFO root fetch - processPackages [dagworks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dagworks-sdk-0.0.7.tar.gz]
 [2023-06-20 01:07:32] INFO root fetch - main [MainThread]: End processing [dagworks-sdk]: success
 [2023-06-20 01:07:32] INFO root fetch - main [MainThread]: Store serial: [18566287]
+[2023-06-20 01:12:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566287]
+[2023-06-20 01:12:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-20 01:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: axion
+[2023-06-20 01:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: playlister-utility
+[2023-06-20 01:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2023-06-20 01:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlalchemy-easy-softdelete
+[2023-06-20 01:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-20 01:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2023-06-20 01:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gitmopy
+[2023-06-20 01:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydeequ
+[2023-06-20 01:12:42] WARNING root fetch - processPackages [playlister-utility]: Skipping, unable to determine old version
+[2023-06-20 01:12:42] INFO root fetch - main [MainThread]: End processing [playlister-utility] error
+[2023-06-20 01:12:42] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-06-20 01:12:42] INFO root fetch - processPackages [kfish]: New version: [99.0.202306192311] Old Version: [99.0.202306192255]
+[2023-06-20 01:12:42] INFO root fetch - processPackages [axion]: New version: [3.4.5] Old Version: [3.4.4]
+[2023-06-20 01:12:42] INFO root fetch - processPackages [gitmopy]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-20 01:12:42] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.370] Old Version: [0.3.369]
+[2023-06-20 01:12:42] INFO root fetch - processPackages [kcli]: New version: [99.0.202306192309] Old Version: [99.0.202306192253]
+[2023-06-20 01:12:42] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c0/6a/72737a8de238984124988121e9920753aa3abce74d3d9291e39f5037b0c0/kfish-99.0.202306192255-py3-none-any.whl
+[2023-06-20 01:12:42] INFO root fetch - processPackages [pydeequ]: New version: [1.1.0rc0] Old Version: [1.0.1]
+[2023-06-20 01:12:42] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e6/c4/8dfc6bb0770b25cb6da6fca3dbbce84eb8aa6f4c23f716e868d36e9406fe/kcli-99.0.202306192253-py3-none-any.whl
+[2023-06-20 01:12:42] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: Downloading https://files.pythonhosted.org/packages/9c/26/6264409993d2783bb81e21d9baefabdd467eb4b1e544fbafc97b7080d7bf/sqlalchemy_easy_softdelete-0.7.2.tar.gz
+[2023-06-20 01:12:42] INFO root fetch - processPackages [pydeequ]: Downloading https://files.pythonhosted.org/packages/4e/80/904c35897312359b1f4119234de5979cd3772ed7e2a01bc9b5b059b68425/pydeequ-1.0.1.tar.gz
+[2023-06-20 01:12:42] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/c0/c2/40e04844653e2649541146cbd6ddb2c11233de47e1b99a301d2e1305c62f/pepperize.cdk-ses-smtp-credentials-0.3.369.tar.gz
+[2023-06-20 01:12:42] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/d2/a2/596265263f47f70de6cd874242f9f6b68c897855ec58480c39652911b7a8/axion-3.4.4-cp311-cp311-win_amd64.whl
+[2023-06-20 01:12:42] INFO root fetch - processPackages [gitmopy]: Downloading https://files.pythonhosted.org/packages/fd/9e/dd814b0fb83859c92e5de4451e0403d661b2e390912004a8ad266c39a003/gitmopy-0.3.2.tar.gz
+[2023-06-20 01:12:42] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/3a/89/aa7cf9030707de5a73149ba854af72e3804fd57902cc1a5b600a3d422add/kfish-99.0.202306192311-py3-none-any.whl
+[2023-06-20 01:12:42] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/1a/58/e4f94db59d0d9d7c08f35c55090502630e02f0478a495926675ea3c20922/kcli-99.0.202306192309-py3-none-any.whl
+[2023-06-20 01:12:43] INFO root fetch - processPackages [pydeequ]: Downloading https://files.pythonhosted.org/packages/85/e1/78f64dd0986b4a3cb938e95f246616c714e77abd0527093ce5e09bab54dd/pydeequ-1.1.0rc0.tar.gz
+[2023-06-20 01:12:43] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/74/f0/ceefb7d07dcfc2f4621d088b8dbd63915bd67960a4fd9d2eba2b311ee2a4/axion-3.4.5-cp311-none-macosx_10_9_universal2.whl
+[2023-06-20 01:12:43] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-20 01:12:43] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306192255-py3-none-any.whl.zip tmp/kfish-99.0.202306192311-py3-none-any.whl.zip --markdown 20230620/k/kfish/99.0.202306192255-99.0.202306192311/diff.md --exclude *.pyd
+[2023-06-20 01:12:43] INFO root fetch - processPackages [gitmopy]: Downloading https://files.pythonhosted.org/packages/04/30/23bb7775a554e37446b9d6f8985e406e665346517832a585edddf1cbd152/gitmopy-0.3.3.tar.gz
+[2023-06-20 01:12:43] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: Downloading https://files.pythonhosted.org/packages/64/ab/2bc2ce69c8748807279db9d8336048863875c0fb7fd6ab7ce8ad957c22cc/sqlalchemy_easy_softdelete-0.8.0.tar.gz
+[2023-06-20 01:12:43] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/dc/9b/60664ca62508bfe72668b8ece5fde49d168c23c633d7ffb01d736b298b7d/pepperize.cdk-ses-smtp-credentials-0.3.370.tar.gz
+[2023-06-20 01:12:43] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: executing diffoscope
+[2023-06-20 01:12:43] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_easy_softdelete-0.7.2.tar.gz tmp/sqlalchemy_easy_softdelete-0.8.0.tar.gz --markdown 20230620/s/sqlalchemy-easy-softdelete/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-06-20 01:12:43] INFO root fetch - processPackages [gitmopy]: executing diffoscope
+[2023-06-20 01:12:43] INFO root fetch - processPackages [gitmopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitmopy-0.3.2.tar.gz tmp/gitmopy-0.3.3.tar.gz --markdown 20230620/g/gitmopy/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-20 01:12:43] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-20 01:12:43] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.369.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.370.tar.gz --markdown 20230620/p/pepperize.cdk-ses-smtp-credentials/0.3.369-0.3.370/diff.md --exclude *.pyd
+[2023-06-20 01:12:43] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-20 01:12:43] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306192253-py3-none-any.whl.zip tmp/kcli-99.0.202306192309-py3-none-any.whl.zip --markdown 20230620/k/kcli/99.0.202306192253-99.0.202306192309/diff.md --exclude *.pyd
+[2023-06-20 01:12:43] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-06-20 01:12:43] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.4.4-cp311-cp311-win_amd64.whl.zip tmp/axion-3.4.5-cp311-none-macosx_10_9_universal2.whl.zip --markdown 20230620/a/axion/3.4.4-3.4.5/diff.md --exclude *.pyd
+[2023-06-20 01:12:43] INFO root fetch - processPackages [pydeequ]: executing diffoscope
+[2023-06-20 01:12:43] INFO root fetch - processPackages [pydeequ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydeequ-1.0.1.tar.gz tmp/pydeequ-1.1.0rc0.tar.gz --markdown 20230620/p/pydeequ/1.0.1-1.1.0rc0/diff.md --exclude *.pyd
+[2023-06-20 01:12:44] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306192255-py3-none-any.whl.zip]
+[2023-06-20 01:12:44] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306192311-py3-none-any.whl.zip]
+[2023-06-20 01:12:44] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-20 01:12:44] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.369.tar.gz]
+[2023-06-20 01:12:44] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.370.tar.gz]
+[2023-06-20 01:12:44] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-20 01:12:44] INFO root fetch - processPackages [gitmopy]: Remove: archive file [/home/abi/fetcher/tmp/gitmopy-0.3.2.tar.gz]
+[2023-06-20 01:12:44] INFO root fetch - processPackages [gitmopy]: Remove: archive file [/home/abi/fetcher/tmp/gitmopy-0.3.3.tar.gz]
+[2023-06-20 01:12:44] INFO root fetch - main [MainThread]: End processing [gitmopy]: success
+[2023-06-20 01:12:44] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_easy_softdelete-0.7.2.tar.gz]
+[2023-06-20 01:12:44] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_easy_softdelete-0.8.0.tar.gz]
+[2023-06-20 01:12:44] INFO root fetch - main [MainThread]: End processing [sqlalchemy-easy-softdelete]: success
+[2023-06-20 01:12:44] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.4.4-cp311-cp311-win_amd64.whl.zip]
+[2023-06-20 01:12:44] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.4.5-cp311-none-macosx_10_9_universal2.whl.zip]
+[2023-06-20 01:12:44] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-06-20 01:12:44] INFO root fetch - processPackages [pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/pydeequ-1.0.1.tar.gz]
+[2023-06-20 01:12:44] INFO root fetch - processPackages [pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/pydeequ-1.1.0rc0.tar.gz]
+[2023-06-20 01:12:44] INFO root fetch - main [MainThread]: End processing [pydeequ]: success
+[2023-06-20 01:12:53] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306192253-py3-none-any.whl.zip]
+[2023-06-20 01:12:53] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306192309-py3-none-any.whl.zip]
+[2023-06-20 01:12:53] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-20 01:12:53] INFO root fetch - main [MainThread]: Store serial: [18566307]
