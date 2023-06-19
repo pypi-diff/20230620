@@ -806,3 +806,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 01:02:19] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2023-06-20 01:02:19] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-06-20 01:02:19] INFO root fetch - main [MainThread]: Store serial: [18566265]
+[2023-06-20 01:07:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566265]
+[2023-06-20 01:07:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-20 01:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mbox2m365
+[2023-06-20 01:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chronus
+[2023-06-20 01:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt
+[2023-06-20 01:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flwr-nightly
+[2023-06-20 01:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dagworks-sdk
+[2023-06-20 01:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-20 01:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyPulseHeatPipe
+[2023-06-20 01:07:28] INFO root fetch - processPackages [dagworks-sdk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-20 01:07:28] INFO root fetch - processPackages [chronus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-20 01:07:28] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.368] Old Version: [0.3.367]
+[2023-06-20 01:07:28] INFO root fetch - processPackages [dagworks-sdk]: Downloading https://files.pythonhosted.org/packages/88/46/96a2dca94b1a22443d2e71b73b72aaea8a58cfccedc7acb49a48c7fbf7ce/dagworks-sdk-0.0.6.tar.gz
+[2023-06-20 01:07:28] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/b8/13/65748028b1bc85832bbc534aae51d6df57e62c431828c92c71aa363aef85/pepperize.cdk-ses-smtp-credentials-0.3.367.tar.gz
+[2023-06-20 01:07:28] INFO root fetch - processPackages [chronus]: Downloading https://files.pythonhosted.org/packages/13/b5/f78eff395cbc9f56b9e9418250fb4fdeab57c9c20a47bdc871762c75d46c/chronus-0.3.8.tar.gz
+[2023-06-20 01:07:28] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230619] Old Version: [1.5.0.dev20230616]
+[2023-06-20 01:07:28] INFO root fetch - processPackages [PyPulseHeatPipe]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-20 01:07:28] INFO root fetch - processPackages [mbox2m365]: New version: [3.2.0] Old Version: [3.0.8]
+[2023-06-20 01:07:28] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230619] Old Version: [0.7.0b20230618]
+[2023-06-20 01:07:29] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/5c/af/12ce21f4c0de8ec1a7241dc579c63f2326a2a7d612b7009b09760a8d281d/tmnt-0.7.0b20230618.tar.gz
+[2023-06-20 01:07:29] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/b3/47/dc3f7a47ee71a6450915a1329f7f8f6df835fa82185cb87d4c9ad842473f/pepperize.cdk-ses-smtp-credentials-0.3.368.tar.gz
+[2023-06-20 01:07:29] INFO root fetch - processPackages [dagworks-sdk]: Downloading https://files.pythonhosted.org/packages/db/4e/64248e966c547f627a83b7cae8dc085e7ab767d4cd906e284fcf84359d5c/dagworks-sdk-0.0.7.tar.gz
+[2023-06-20 01:07:29] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/61/db/374cdd73cfd94a76e1e790afe796260fecf210ee789452cba06f319b53d2/flwr_nightly-1.5.0.dev20230616.tar.gz
+[2023-06-20 01:07:29] INFO root fetch - processPackages [PyPulseHeatPipe]: Downloading https://files.pythonhosted.org/packages/5c/0c/e3a1ee98e1aa7fb0a6fa9053096759c268e46c1973746072f37ab0d14bfd/PyPulseHeatPipe-1.0.2.tar.gz
+[2023-06-20 01:07:29] INFO root fetch - processPackages [chronus]: Downloading https://files.pythonhosted.org/packages/50/13/67225d9dbe3fee8c1f2bb35f039262d5f5da5550d7d23290bc4a4e2182ba/chronus-0.3.9.tar.gz
+[2023-06-20 01:07:29] INFO root fetch - processPackages [mbox2m365]: Downloading https://files.pythonhosted.org/packages/93/dd/07f5465ee90fb81b7f6df237ecb0abefefecf0c984adef70730493503804/mbox2m365-3.0.8.tar.gz
+[2023-06-20 01:07:29] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-20 01:07:29] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.367.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.368.tar.gz --markdown 20230620/p/pepperize.cdk-ses-smtp-credentials/0.3.367-0.3.368/diff.md --exclude *.pyd
+[2023-06-20 01:07:29] INFO root fetch - processPackages [dagworks-sdk]: executing diffoscope
+[2023-06-20 01:07:29] INFO root fetch - processPackages [dagworks-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagworks-sdk-0.0.6.tar.gz tmp/dagworks-sdk-0.0.7.tar.gz --markdown 20230620/d/dagworks-sdk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-20 01:07:29] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/84/86/62d56b5f2909a29a5377ab9afdb8962dfa1b7590f0339d9c384152fbd46c/tmnt-0.7.0b20230619.tar.gz
+[2023-06-20 01:07:29] INFO root fetch - processPackages [chronus]: executing diffoscope
+[2023-06-20 01:07:29] INFO root fetch - processPackages [chronus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chronus-0.3.8.tar.gz tmp/chronus-0.3.9.tar.gz --markdown 20230620/c/chronus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-20 01:07:29] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/62/68/1f5f2ee1f44ad682db520a6a6e521953c35c18c0c7a1e410490a84daa563/flwr_nightly-1.5.0.dev20230619.tar.gz
+[2023-06-20 01:07:29] INFO root fetch - processPackages [PyPulseHeatPipe]: Downloading https://files.pythonhosted.org/packages/01/dc/757cfcfef2cd1ac52558aa0cbb82f69dd37c34dc783354e224420121b4ef/PyPulseHeatPipe-1.0.3.tar.gz
+[2023-06-20 01:07:29] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-06-20 01:07:29] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230616.tar.gz tmp/flwr_nightly-1.5.0.dev20230619.tar.gz --markdown 20230620/f/flwr-nightly/1.5.0.dev20230616-1.5.0.dev20230619/diff.md --exclude *.pyd
+[2023-06-20 01:07:29] INFO root fetch - processPackages [mbox2m365]: Downloading https://files.pythonhosted.org/packages/45/69/737b97ff918c42a5455925b30d09ef252a748326e6922bf78e381a52caea/mbox2m365-3.2.0.tar.gz
+[2023-06-20 01:07:29] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-20 01:07:29] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230618.tar.gz tmp/tmnt-0.7.0b20230619.tar.gz --markdown 20230620/t/tmnt/0.7.0b20230618-0.7.0b20230619/diff.md --exclude *.pyd
+[2023-06-20 01:07:29] INFO root fetch - processPackages [PyPulseHeatPipe]: executing diffoscope
+[2023-06-20 01:07:29] INFO root fetch - processPackages [PyPulseHeatPipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPulseHeatPipe-1.0.2.tar.gz tmp/PyPulseHeatPipe-1.0.3.tar.gz --markdown 20230620/P/PyPulseHeatPipe/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-20 01:07:29] INFO root fetch - processPackages [mbox2m365]: executing diffoscope
+[2023-06-20 01:07:29] INFO root fetch - processPackages [mbox2m365]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbox2m365-3.0.8.tar.gz tmp/mbox2m365-3.2.0.tar.gz --markdown 20230620/m/mbox2m365/3.0.8-3.2.0/diff.md --exclude *.pyd
+[2023-06-20 01:07:30] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.367.tar.gz]
+[2023-06-20 01:07:30] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.368.tar.gz]
+[2023-06-20 01:07:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-20 01:07:30] INFO root fetch - processPackages [chronus]: Remove: archive file [/home/abi/fetcher/tmp/chronus-0.3.8.tar.gz]
+[2023-06-20 01:07:30] INFO root fetch - processPackages [chronus]: Remove: archive file [/home/abi/fetcher/tmp/chronus-0.3.9.tar.gz]
+[2023-06-20 01:07:30] INFO root fetch - main [MainThread]: End processing [chronus]: success
+[2023-06-20 01:07:30] INFO root fetch - processPackages [PyPulseHeatPipe]: Remove: archive file [/home/abi/fetcher/tmp/PyPulseHeatPipe-1.0.2.tar.gz]
+[2023-06-20 01:07:30] INFO root fetch - processPackages [PyPulseHeatPipe]: Remove: archive file [/home/abi/fetcher/tmp/PyPulseHeatPipe-1.0.3.tar.gz]
+[2023-06-20 01:07:30] INFO root fetch - main [MainThread]: End processing [PyPulseHeatPipe]: success
+[2023-06-20 01:07:30] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230618.tar.gz]
+[2023-06-20 01:07:30] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230619.tar.gz]
+[2023-06-20 01:07:30] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-20 01:07:30] INFO root fetch - processPackages [mbox2m365]: Remove: archive file [/home/abi/fetcher/tmp/mbox2m365-3.0.8.tar.gz]
+[2023-06-20 01:07:30] INFO root fetch - processPackages [mbox2m365]: Remove: archive file [/home/abi/fetcher/tmp/mbox2m365-3.2.0.tar.gz]
+[2023-06-20 01:07:30] INFO root fetch - main [MainThread]: End processing [mbox2m365]: success
+[2023-06-20 01:07:31] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230616.tar.gz]
+[2023-06-20 01:07:31] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230619.tar.gz]
+[2023-06-20 01:07:31] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-06-20 01:07:32] INFO root fetch - processPackages [dagworks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dagworks-sdk-0.0.6.tar.gz]
+[2023-06-20 01:07:32] INFO root fetch - processPackages [dagworks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dagworks-sdk-0.0.7.tar.gz]
+[2023-06-20 01:07:32] INFO root fetch - main [MainThread]: End processing [dagworks-sdk]: success
+[2023-06-20 01:07:32] INFO root fetch - main [MainThread]: Store serial: [18566287]
