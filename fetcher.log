@@ -1260,3 +1260,93 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 01:45:02] INFO root fetch - processPackages [gnuplotlib]: Remove: archive file [/home/abi/fetcher/tmp/gnuplotlib-0.9.tar.gz]
 [2023-06-20 01:45:02] INFO root fetch - main [MainThread]: End processing [gnuplotlib]: success
 [2023-06-20 01:45:02] INFO root fetch - main [MainThread]: Store serial: [18566431]
+[2023-06-20 01:50:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566431]
+[2023-06-20 01:50:11] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-20 01:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NikChat
+[2023-06-20 01:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandasai
+[2023-06-20 01:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: salesgpt
+[2023-06-20 01:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sommelier
+[2023-06-20 01:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dea-tools
+[2023-06-20 01:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: picogo
+[2023-06-20 01:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: maadstml
+[2023-06-20 01:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GD-utils
+[2023-06-20 01:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pygwb
+[2023-06-20 01:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bs-common-fastapi
+[2023-06-20 01:50:11] INFO root fetch - processPackages [pandasai]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-20 01:50:11] INFO root fetch - processPackages [NikChat]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-06-20 01:50:11] WARNING root fetch - processPackages [salesgpt]: Skipping, unable to determine old version
+[2023-06-20 01:50:11] INFO root fetch - processPackages [sommelier]: New version: [1.2.26] Old Version: [1.2.25]
+[2023-06-20 01:50:11] INFO root fetch - processPackages [salesgpt]: Start processing: namlab-analysis
+[2023-06-20 01:50:11] INFO root fetch - main [MainThread]: End processing [salesgpt] error
+[2023-06-20 01:50:11] INFO root fetch - processPackages [GD-utils]: New version: [0.2.0.9] Old Version: [0.2.0.8]
+[2023-06-20 01:50:11] INFO root fetch - processPackages [bs-common-fastapi]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-20 01:50:11] INFO root fetch - processPackages [picogo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 01:50:11] INFO root fetch - processPackages [pygwb]: New version: [1.3.0] Old Version: [1.0.0]
+[2023-06-20 01:50:11] INFO root fetch - processPackages [dea-tools]: New version: [0.2.8.dev97] Old Version: [0.2.8.dev96]
+[2023-06-20 01:50:12] INFO root fetch - processPackages [maadstml]: New version: [3.37] Old Version: [3.36]
+[2023-06-20 01:50:12] INFO root fetch - processPackages [pygwb]: Downloading https://files.pythonhosted.org/packages/69/d1/89aeaf684f840bf6bb7ffe12c3d5392046fe2aa04b813de8377ee08c0448/pygwb-1.0.0.tar.gz
+[2023-06-20 01:50:12] INFO root fetch - processPackages [bs-common-fastapi]: Downloading https://files.pythonhosted.org/packages/33/eb/d56a0a6292dadcb2fd62bd01767285db544eb13e32f440df73ce39d25bcd/bs_common_fastapi-0.2.0.tar.gz
+[2023-06-20 01:50:12] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/a8/1f/7e6b9e1c222582476aeb1b42ec281e5d66df244f8c65af27f7f42cb88601/maadstml-3.36.tar.gz
+[2023-06-20 01:50:12] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/e0/c6/77373684ea1f516996aac52ca016925d0213e38509750abc53603201b2ca/picogo-0.0.8.tar.gz
+[2023-06-20 01:50:12] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/27/2c/a38cdfa44d92cc10ef2af9ab81e124c44a2ffdfada92a19ae24b6c77fa72/pandasai-0.6.1.tar.gz
+[2023-06-20 01:50:12] WARNING root fetch - processPackages [namlab-analysis]: Skipping, unable to determine old version
+[2023-06-20 01:50:12] INFO root fetch - main [MainThread]: End processing [namlab-analysis] error
+[2023-06-20 01:50:12] INFO root fetch - processPackages [NikChat]: Downloading https://files.pythonhosted.org/packages/ff/54/c26d8364a0466215ca756ed6e3eb4b5dae348cfbde53a3164e1c83948d8a/NikChat-2.3.1.tar.gz
+[2023-06-20 01:50:12] INFO root fetch - processPackages [sommelier]: Downloading https://files.pythonhosted.org/packages/59/e1/f763bfdce81ed22135614e6f68e4417dae53042b151a07b27bab8bf71d3e/sommelier-1.2.25-py3-none-any.whl
+[2023-06-20 01:50:12] INFO root fetch - processPackages [GD-utils]: Downloading https://files.pythonhosted.org/packages/76/da/d52151dd4ccbc9408beb62f6ffaf5b2fe937a5bfd1f9759aef71c1632633/GD_utils-0.2.0.8-py3-none-any.whl
+[2023-06-20 01:50:12] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/8e/0e/15b62bee1afe22a0f2411879a5c23ffe6e8cdfc8228a677dc7ce8e6bcfef/picogo-0.0.9.tar.gz
+[2023-06-20 01:50:12] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/a5/8f/e6c38c4a30e34e27c73d390677fb69b536831fdf18ceac5323ec7e5952f2/dea-tools-0.2.8.dev96.tar.gz
+[2023-06-20 01:50:12] INFO root fetch - processPackages [pygwb]: Downloading https://files.pythonhosted.org/packages/57/f7/423bfa0896959d2099e831bc01a60f966cf66fb47b5aa9f2b59fd0bb1ebb/pygwb-1.3.0.tar.gz
+[2023-06-20 01:50:12] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/cf/47/0f3c68988b84d117dab0a7ee2dd7567ff07eaf7b981cd49ab21140ca5fa0/pandasai-0.6.2.tar.gz
+[2023-06-20 01:50:12] INFO root fetch - processPackages [picogo]: executing diffoscope
+[2023-06-20 01:50:12] INFO root fetch - processPackages [picogo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picogo-0.0.8.tar.gz tmp/picogo-0.0.9.tar.gz --markdown 20230620/p/picogo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 01:50:12] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/4d/85/0aef643a2d190274ec02e1af8d524039127bcf2d7906265135356f29af22/maadstml-3.37.tar.gz
+[2023-06-20 01:50:12] INFO root fetch - processPackages [pygwb]: executing diffoscope
+[2023-06-20 01:50:12] INFO root fetch - processPackages [pygwb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwb-1.0.0.tar.gz tmp/pygwb-1.3.0.tar.gz --markdown 20230620/p/pygwb/1.0.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-20 01:50:12] INFO root fetch - processPackages [bs-common-fastapi]: Downloading https://files.pythonhosted.org/packages/c7/cb/b07a1bd05953e0496c0e8708e4060dcb32929ee2dd0e30cfee73c893c030/bs_common_fastapi-0.3.0.tar.gz
+[2023-06-20 01:50:12] INFO root fetch - processPackages [maadstml]: executing diffoscope
+[2023-06-20 01:50:12] INFO root fetch - processPackages [maadstml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maadstml-3.36.tar.gz tmp/maadstml-3.37.tar.gz --markdown 20230620/m/maadstml/3.36-3.37/diff.md --exclude *.pyd
+[2023-06-20 01:50:12] INFO root fetch - processPackages [NikChat]: Downloading https://files.pythonhosted.org/packages/0b/9e/3811ba0588a3961d99e0de17e922ba5bc4f2f4513326e0f45b77db133f22/NikChat-2.3.2.tar.gz
+[2023-06-20 01:50:12] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-06-20 01:50:12] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.6.1.tar.gz tmp/pandasai-0.6.2.tar.gz --markdown 20230620/p/pandasai/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-20 01:50:12] INFO root fetch - processPackages [bs-common-fastapi]: executing diffoscope
+[2023-06-20 01:50:12] INFO root fetch - processPackages [bs-common-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_common_fastapi-0.2.0.tar.gz tmp/bs_common_fastapi-0.3.0.tar.gz --markdown 20230620/b/bs-common-fastapi/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-20 01:50:12] INFO root fetch - processPackages [GD-utils]: Downloading https://files.pythonhosted.org/packages/0e/7c/38cb98bd1559ae89cf8fa3761097b0f0a4ec10dabdb2cc2ff5556b0c1e4f/GD_utils-0.2.0.9-py3-none-any.whl
+[2023-06-20 01:50:12] INFO root fetch - processPackages [sommelier]: Downloading https://files.pythonhosted.org/packages/64/66/21ffcc1174d767b688c6cd785ca22813f845a8b1f832a2cefe14605d8f9e/sommelier-1.2.26-py3-none-any.whl
+[2023-06-20 01:50:12] INFO root fetch - processPackages [GD-utils]: executing diffoscope
+[2023-06-20 01:50:12] INFO root fetch - processPackages [GD-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GD_utils-0.2.0.8-py3-none-any.whl.zip tmp/GD_utils-0.2.0.9-py3-none-any.whl.zip --markdown 20230620/G/GD-utils/0.2.0.8-0.2.0.9/diff.md --exclude *.pyd
+[2023-06-20 01:50:12] INFO root fetch - processPackages [NikChat]: executing diffoscope
+[2023-06-20 01:50:12] INFO root fetch - processPackages [NikChat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikChat-2.3.1.tar.gz tmp/NikChat-2.3.2.tar.gz --markdown 20230620/N/NikChat/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-06-20 01:50:12] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/6c/a2/54f9080291998aff375fbdeae573a4329cd884f655a27302bbcdf010cc6d/dea-tools-0.2.8.dev97.tar.gz
+[2023-06-20 01:50:12] INFO root fetch - processPackages [sommelier]: executing diffoscope
+[2023-06-20 01:50:12] INFO root fetch - processPackages [sommelier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sommelier-1.2.25-py3-none-any.whl.zip tmp/sommelier-1.2.26-py3-none-any.whl.zip --markdown 20230620/s/sommelier/1.2.25-1.2.26/diff.md --exclude *.pyd
+[2023-06-20 01:50:12] INFO root fetch - processPackages [dea-tools]: executing diffoscope
+[2023-06-20 01:50:12] INFO root fetch - processPackages [dea-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dea-tools-0.2.8.dev96.tar.gz tmp/dea-tools-0.2.8.dev97.tar.gz --markdown 20230620/d/dea-tools/0.2.8.dev96-0.2.8.dev97/diff.md --exclude *.pyd
+[2023-06-20 01:50:13] INFO root fetch - processPackages [bs-common-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/bs_common_fastapi-0.2.0.tar.gz]
+[2023-06-20 01:50:13] INFO root fetch - processPackages [bs-common-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/bs_common_fastapi-0.3.0.tar.gz]
+[2023-06-20 01:50:13] INFO root fetch - main [MainThread]: End processing [bs-common-fastapi]: success
+[2023-06-20 01:50:13] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.36.tar.gz]
+[2023-06-20 01:50:13] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.37.tar.gz]
+[2023-06-20 01:50:13] INFO root fetch - main [MainThread]: End processing [maadstml]: success
+[2023-06-20 01:50:14] INFO root fetch - processPackages [GD-utils]: Remove: archive file [/home/abi/fetcher/tmp/GD_utils-0.2.0.8-py3-none-any.whl.zip]
+[2023-06-20 01:50:14] INFO root fetch - processPackages [GD-utils]: Remove: archive file [/home/abi/fetcher/tmp/GD_utils-0.2.0.9-py3-none-any.whl.zip]
+[2023-06-20 01:50:14] INFO root fetch - main [MainThread]: End processing [GD-utils]: success
+[2023-06-20 01:50:14] INFO root fetch - processPackages [NikChat]: Remove: archive file [/home/abi/fetcher/tmp/NikChat-2.3.1.tar.gz]
+[2023-06-20 01:50:14] INFO root fetch - processPackages [NikChat]: Remove: archive file [/home/abi/fetcher/tmp/NikChat-2.3.2.tar.gz]
+[2023-06-20 01:50:14] INFO root fetch - main [MainThread]: End processing [NikChat]: success
+[2023-06-20 01:50:14] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.1.tar.gz]
+[2023-06-20 01:50:14] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.2.tar.gz]
+[2023-06-20 01:50:14] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-06-20 01:50:14] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.8.tar.gz]
+[2023-06-20 01:50:14] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.9.tar.gz]
+[2023-06-20 01:50:14] INFO root fetch - main [MainThread]: End processing [picogo]: success
+[2023-06-20 01:50:14] INFO root fetch - processPackages [dea-tools]: Remove: archive file [/home/abi/fetcher/tmp/dea-tools-0.2.8.dev96.tar.gz]
+[2023-06-20 01:50:14] INFO root fetch - processPackages [dea-tools]: Remove: archive file [/home/abi/fetcher/tmp/dea-tools-0.2.8.dev97.tar.gz]
+[2023-06-20 01:50:14] INFO root fetch - main [MainThread]: End processing [dea-tools]: success
+[2023-06-20 01:50:14] INFO root fetch - processPackages [sommelier]: Remove: archive file [/home/abi/fetcher/tmp/sommelier-1.2.25-py3-none-any.whl.zip]
+[2023-06-20 01:50:14] INFO root fetch - processPackages [sommelier]: Remove: archive file [/home/abi/fetcher/tmp/sommelier-1.2.26-py3-none-any.whl.zip]
+[2023-06-20 01:50:14] INFO root fetch - main [MainThread]: End processing [sommelier]: success
+[2023-06-20 01:50:15] INFO root fetch - processPackages [pygwb]: Remove: archive file [/home/abi/fetcher/tmp/pygwb-1.0.0.tar.gz]
+[2023-06-20 01:50:15] INFO root fetch - processPackages [pygwb]: Remove: archive file [/home/abi/fetcher/tmp/pygwb-1.3.0.tar.gz]
+[2023-06-20 01:50:15] INFO root fetch - main [MainThread]: End processing [pygwb]: success
+[2023-06-20 01:50:15] INFO root fetch - main [MainThread]: Store serial: [18566465]
