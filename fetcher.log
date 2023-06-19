@@ -58,3 +58,15 @@
 [2023-06-20 00:05:03] INFO root fetch - processPackages [dolbyio-rest-apis]: Remove: archive file [/home/abi/fetcher/tmp/dolbyio-rest-apis-3.7.1.tar.gz]
 [2023-06-20 00:05:03] INFO root fetch - main [MainThread]: End processing [dolbyio-rest-apis]: success
 [2023-06-20 00:05:03] INFO root fetch - main [MainThread]: Store serial: [18565978]
+[2023-06-20 00:10:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18565978]
+[2023-06-20 00:10:12] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-20 00:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sys-call
+[2023-06-20 00:10:12] INFO root fetch - processPackages [sys-call]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-20 00:10:12] INFO root fetch - processPackages [sys-call]: Downloading https://files.pythonhosted.org/packages/70/5f/faebe86c2c63f6a6d580daed26f9a6f00fb3a493a2dc9857620c9f41b0c5/sys-call-0.0.2.tar.gz
+[2023-06-20 00:10:13] INFO root fetch - processPackages [sys-call]: Downloading https://files.pythonhosted.org/packages/66/ae/87c1fcaddba8219de1fb4f721eda72bd4696a06542868ac5fc5ba05680cf/sys-call-0.0.3.tar.gz
+[2023-06-20 00:10:13] INFO root fetch - processPackages [sys-call]: executing diffoscope
+[2023-06-20 00:10:13] INFO root fetch - processPackages [sys-call]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sys-call-0.0.2.tar.gz tmp/sys-call-0.0.3.tar.gz --markdown 20230620/s/sys-call/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-20 00:10:14] INFO root fetch - processPackages [sys-call]: Remove: archive file [/home/abi/fetcher/tmp/sys-call-0.0.2.tar.gz]
+[2023-06-20 00:10:14] INFO root fetch - processPackages [sys-call]: Remove: archive file [/home/abi/fetcher/tmp/sys-call-0.0.3.tar.gz]
+[2023-06-20 00:10:14] INFO root fetch - main [MainThread]: End processing [sys-call]: success
+[2023-06-20 00:10:14] INFO root fetch - main [MainThread]: Store serial: [18565981]
