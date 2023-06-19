@@ -157,3 +157,50 @@
 [2023-06-20 00:16:20] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
 [2023-06-20 00:16:20] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
 [2023-06-20 00:16:20] INFO root fetch - main [MainThread]: Store serial: [18566008]
+[2023-06-20 00:21:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566008]
+[2023-06-20 00:21:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-20 00:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: usu
+[2023-06-20 00:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kappadata
+[2023-06-20 00:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: satori-playbook-validator
+[2023-06-20 00:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EduDraw
+[2023-06-20 00:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kolibri-explore-plugin
+[2023-06-20 00:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finsim
+[2023-06-20 00:21:29] WARNING root fetch - processPackages [usu]: Skipping, unable to determine old version
+[2023-06-20 00:21:29] INFO root fetch - main [MainThread]: End processing [usu] error
+[2023-06-20 00:21:29] INFO root fetch - processPackages [EduDraw]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-20 00:21:29] INFO root fetch - processPackages [satori-playbook-validator]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-06-20 00:21:30] INFO root fetch - processPackages [kappadata]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-20 00:21:30] INFO root fetch - processPackages [kolibri-explore-plugin]: New version: [6.9.0] Old Version: [6.8.0]
+[2023-06-20 00:21:30] INFO root fetch - processPackages [finsim]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-20 00:21:30] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/9b/29/0a2b25d99521be9d59a5e5deec31421b3764adf269afd5d1bfddcda80688/satori_playbook_validator-2.1.2.tar.gz
+[2023-06-20 00:21:30] INFO root fetch - processPackages [EduDraw]: Downloading https://files.pythonhosted.org/packages/52/19/dc281eab9f7b89531e1d1cd2ef18a0eabfb4797ced37994673e19ac5e3a0/edudraw-1.4.0.tar.gz
+[2023-06-20 00:21:30] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/c5/80/77c18d6fe20c85e84690c356497f237d348af2b7558ce01b14c460db59e9/kappadata-1.2.8.tar.gz
+[2023-06-20 00:21:30] INFO root fetch - processPackages [kolibri-explore-plugin]: Downloading https://files.pythonhosted.org/packages/ce/f9/31b5cbfd9a83d09f22e7a4a1bcfe80aa5ac42dcb7177d812abc4159b1f22/kolibri_explore_plugin-6.8.0-py2.py3-none-any.whl
+[2023-06-20 00:21:30] INFO root fetch - processPackages [finsim]: Downloading https://files.pythonhosted.org/packages/47/ed/145b2464be72824ef01b2e8e09fca4c98382e0bde923889a313be98d306e/finsim-0.9.1.tar.gz
+[2023-06-20 00:21:30] WARNING root fetch - processPackages [kolibri-explore-plugin]: Skipping package: exceeds size limit 17418137>=10485760
+[2023-06-20 00:21:30] INFO root fetch - main [MainThread]: End processing [kolibri-explore-plugin] error
+[2023-06-20 00:21:30] INFO root fetch - processPackages [EduDraw]: Downloading https://files.pythonhosted.org/packages/75/05/981206c618504988d2ff354f84f84f918fff1279d98af8cbf03c4a5486df/edudraw-1.4.1.tar.gz
+[2023-06-20 00:21:30] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/6e/51/33a9c96e2041fc8e5d717a0d3a6bc75c56360427a7cc626644b5ff9cdcf8/satori_playbook_validator-2.2.0.tar.gz
+[2023-06-20 00:21:30] INFO root fetch - processPackages [EduDraw]: executing diffoscope
+[2023-06-20 00:21:30] INFO root fetch - processPackages [EduDraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edudraw-1.4.0.tar.gz tmp/edudraw-1.4.1.tar.gz --markdown 20230620/E/EduDraw/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-20 00:21:30] INFO root fetch - processPackages [satori-playbook-validator]: executing diffoscope
+[2023-06-20 00:21:30] INFO root fetch - processPackages [satori-playbook-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_playbook_validator-2.1.2.tar.gz tmp/satori_playbook_validator-2.2.0.tar.gz --markdown 20230620/s/satori-playbook-validator/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-06-20 00:21:30] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/6b/25/ceb4f83c59a4447b0c7e6db154402e4159e2a5dd958e4428d855e0248515/kappadata-1.2.9.tar.gz
+[2023-06-20 00:21:30] INFO root fetch - processPackages [finsim]: Downloading https://files.pythonhosted.org/packages/fe/01/9f69a7c4f5d53a7b35331fcc4aa4217f382bf74e09c70ac83aa045c9732b/finsim-0.9.2.tar.gz
+[2023-06-20 00:21:30] INFO root fetch - processPackages [finsim]: executing diffoscope
+[2023-06-20 00:21:30] INFO root fetch - processPackages [finsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finsim-0.9.1.tar.gz tmp/finsim-0.9.2.tar.gz --markdown 20230620/f/finsim/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-20 00:21:30] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-06-20 00:21:30] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.2.8.tar.gz tmp/kappadata-1.2.9.tar.gz --markdown 20230620/k/kappadata/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-20 00:21:31] INFO root fetch - processPackages [satori-playbook-validator]: Remove: archive file [/home/abi/fetcher/tmp/satori_playbook_validator-2.1.2.tar.gz]
+[2023-06-20 00:21:31] INFO root fetch - processPackages [satori-playbook-validator]: Remove: archive file [/home/abi/fetcher/tmp/satori_playbook_validator-2.2.0.tar.gz]
+[2023-06-20 00:21:31] INFO root fetch - main [MainThread]: End processing [satori-playbook-validator]: success
+[2023-06-20 00:21:31] INFO root fetch - processPackages [EduDraw]: Remove: archive file [/home/abi/fetcher/tmp/edudraw-1.4.0.tar.gz]
+[2023-06-20 00:21:31] INFO root fetch - processPackages [EduDraw]: Remove: archive file [/home/abi/fetcher/tmp/edudraw-1.4.1.tar.gz]
+[2023-06-20 00:21:31] INFO root fetch - main [MainThread]: End processing [EduDraw]: success
+[2023-06-20 00:21:32] INFO root fetch - processPackages [finsim]: Remove: archive file [/home/abi/fetcher/tmp/finsim-0.9.1.tar.gz]
+[2023-06-20 00:21:32] INFO root fetch - processPackages [finsim]: Remove: archive file [/home/abi/fetcher/tmp/finsim-0.9.2.tar.gz]
+[2023-06-20 00:21:32] INFO root fetch - main [MainThread]: End processing [finsim]: success
+[2023-06-20 00:21:32] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.2.8.tar.gz]
+[2023-06-20 00:21:32] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.2.9.tar.gz]
+[2023-06-20 00:21:32] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-06-20 00:21:32] INFO root fetch - main [MainThread]: Store serial: [18566026]
