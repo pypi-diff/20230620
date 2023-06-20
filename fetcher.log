@@ -11949,3 +11949,111 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 07:04:49] INFO root fetch - processPackages [Djblets]: Remove: archive file [/home/abi/fetcher/tmp/Djblets-3.3.tar.gz]
 [2023-06-20 07:04:49] INFO root fetch - main [MainThread]: End processing [Djblets]: success
 [2023-06-20 07:04:49] INFO root fetch - main [MainThread]: Store serial: [18570130]
+[2023-06-20 07:09:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570130]
+[2023-06-20 07:09:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-20 07:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ahoy-dtu-webthing
+[2023-06-20 07:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapid-pe
+[2023-06-20 07:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multi-model-server
+[2023-06-20 07:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: addon-tvg-karjakak
+[2023-06-20 07:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tflite-model-maker-nightly
+[2023-06-20 07:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepchem
+[2023-06-20 07:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-b23
+[2023-06-20 07:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hotpot-zzy
+[2023-06-20 07:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dask-cuda
+[2023-06-20 07:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: samna
+[2023-06-20 07:09:58] INFO root fetch - processPackages [hotpot-zzy]: New version: [0.3.0.1] Old Version: [0.3.0.0]
+[2023-06-20 07:09:58] INFO root fetch - processPackages [nonebot-plugin-b23]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-20 07:09:58] INFO root fetch - processPackages [addon-tvg-karjakak]: New version: [0.2.4rc1] Old Version: [0.2.3rc2]
+[2023-06-20 07:09:58] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230620] Old Version: [0.1.1.dev20230619]
+[2023-06-20 07:09:58] INFO root fetch - processPackages [ahoy-dtu-webthing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 07:09:58] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.9]
+[2023-06-20 07:09:58] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230620050706] Old Version: [2.7.2.dev20230619171202]
+[2023-06-20 07:09:59] INFO root fetch - processPackages [nonebot-plugin-b23]: Downloading https://files.pythonhosted.org/packages/bb/0d/3fe233f7b6d2429c9ad84d8d01bebe4c37ceb4f8437e96c8f02e30856372/nonebot-plugin-b23-0.0.9.tar.gz
+[2023-06-20 07:09:59] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-06-20 07:09:59] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306190509] Old Version: [0.4.3.dev202306180508]
+[2023-06-20 07:09:59] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/03/7d/14dc72fd7bab06382a7229c5e5c6d0fc2b4242455ca64310ee1059ba7d47/hotpot-zzy-0.3.0.0.tar.gz
+[2023-06-20 07:09:59] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/41/55/523a62283bed7b20e434c235c29ba116dbd3de61844120a07f61b72ca923/rapid_pe-0.1.1.dev20230619.tar.gz
+[2023-06-20 07:09:59] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230620] Old Version: [23.8.0a230619]
+[2023-06-20 07:09:59] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/b8/e7/68a898243aaae432310bd959e65820f8ecc14822e71d4b3d600fb6e52c06/deepchem-2.7.2.dev20230619171202.tar.gz
+[2023-06-20 07:09:59] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-20 07:09:59] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.9-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230620/m/multi-model-server/1.1.9-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-20 07:09:59] INFO root fetch - processPackages [addon-tvg-karjakak]: Downloading https://files.pythonhosted.org/packages/1c/27/a8170696013c8aad37999c81ef5528e069793f194954ee789d54475944bc/addon_tvg-karjakak-0.2.3rc2.tar.gz
+[2023-06-20 07:09:59] INFO root fetch - processPackages [ahoy-dtu-webthing]: Downloading https://files.pythonhosted.org/packages/80/54/2e5ff8e3d767e8b376bd24c9b6ae7c06e3727aa9b6ec0661fd4cd8431b38/ahoy_dtu_webthing-0.0.8.tar.gz
+[2023-06-20 07:09:59] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/7c/6b/afac717c930d7abc96f231772adcdfa4de8e498a32d70b6dd983589836a5/hotpot-zzy-0.3.0.1.tar.gz
+[2023-06-20 07:09:59] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/ac/49/8e22575b9ef0f797dd5332cff83b9f2288c02887aeff0cb8048a960a2edb/samna-0.9.38.0-py3-none-any.whl
+[2023-06-20 07:09:59] INFO root fetch - processPackages [nonebot-plugin-b23]: Downloading https://files.pythonhosted.org/packages/ee/8a/acfab3cda8a04e4856f84031d8fb465ec4b887c44d8d0df27a8937e1bccf/nonebot-plugin-b23-0.1.0.tar.gz
+[2023-06-20 07:09:59] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/6b/c3/324b94a9c00d5a49eed153ff3d46a569f9e34fa7ab7b2c3b4fa6c66e9583/rapid_pe-0.1.1.dev20230620.tar.gz
+[2023-06-20 07:09:59] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/91/c5/633e7478fe7aa53e37bb2a1a384b6f4b5b9b75880143a4c8c0d1ab82c07e/dask-cuda-23.8.0a230619.tar.gz
+[2023-06-20 07:09:59] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/31/a3/d922bfbdd24713561af6c6c1f0e3990e65e9f169e52ab37230f38df55d17/deepchem-2.7.2.dev20230620050706.tar.gz
+[2023-06-20 07:09:59] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/f8/cf/ff6437bcd26e8e573b41f09aad688dbc6a7cf1ba605878b3ba08b3d4ea0b/tflite-model-maker-nightly-0.4.3.dev202306180508.tar.gz
+[2023-06-20 07:09:59] INFO root fetch - processPackages [nonebot-plugin-b23]: executing diffoscope
+[2023-06-20 07:09:59] INFO root fetch - processPackages [nonebot-plugin-b23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-b23-0.0.9.tar.gz tmp/nonebot-plugin-b23-0.1.0.tar.gz --markdown 20230620/n/nonebot-plugin-b23/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-20 07:09:59] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-20 07:09:59] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230619.tar.gz tmp/rapid_pe-0.1.1.dev20230620.tar.gz --markdown 20230620/r/rapid-pe/0.1.1.dev20230619-0.1.1.dev20230620/diff.md --exclude *.pyd
+[2023-06-20 07:09:59] INFO root fetch - processPackages [hotpot-zzy]: executing diffoscope
+[2023-06-20 07:09:59] INFO root fetch - processPackages [hotpot-zzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotpot-zzy-0.3.0.0.tar.gz tmp/hotpot-zzy-0.3.0.1.tar.gz --markdown 20230620/h/hotpot-zzy/0.3.0.0-0.3.0.1/diff.md --exclude *.pyd
+[2023-06-20 07:09:59] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-06-20 07:09:59] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230619171202.tar.gz tmp/deepchem-2.7.2.dev20230620050706.tar.gz --markdown 20230620/d/deepchem/2.7.2.dev20230619171202-2.7.2.dev20230620050706/diff.md --exclude *.pyd
+[2023-06-20 07:09:59] INFO root fetch - processPackages [ahoy-dtu-webthing]: Downloading https://files.pythonhosted.org/packages/63/7c/6bf2d1367f715c75322425c8402ee044b85d6a04e1d1970512c487d15226/ahoy_dtu_webthing-0.0.9.tar.gz
+[2023-06-20 07:09:59] INFO root fetch - processPackages [addon-tvg-karjakak]: Downloading https://files.pythonhosted.org/packages/ae/33/d4e7ddf4cbc0820e9d4ba63b4f9a3de3d44bb75fe1cbbb04bcf9d15ef97c/addon_tvg-karjakak-0.2.4rc1.tar.gz
+[2023-06-20 07:09:59] INFO root fetch - processPackages [ahoy-dtu-webthing]: executing diffoscope
+[2023-06-20 07:09:59] INFO root fetch - processPackages [ahoy-dtu-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahoy_dtu_webthing-0.0.8.tar.gz tmp/ahoy_dtu_webthing-0.0.9.tar.gz --markdown 20230620/a/ahoy-dtu-webthing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 07:09:59] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/74/61/6f77262434512fdf2331031a0b5e8114c074a017f8da18b618a71649ee91/dask-cuda-23.8.0a230620.tar.gz
+[2023-06-20 07:09:59] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/aa/eb/d88240f6d2c6d1ad4e5e2da24660133825efb34c1ea55e341fea6217568e/tflite-model-maker-nightly-0.4.3.dev202306190509.tar.gz
+[2023-06-20 07:09:59] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/00/d4/3de54a6c91f47d5c29700e274166c999cadaf0ba26c263d4a4b8a40342e2/samna-0.9.39.0-py3-none-any.whl
+[2023-06-20 07:09:59] INFO root fetch - processPackages [addon-tvg-karjakak]: executing diffoscope
+[2023-06-20 07:09:59] INFO root fetch - processPackages [addon-tvg-karjakak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/addon_tvg-karjakak-0.2.3rc2.tar.gz tmp/addon_tvg-karjakak-0.2.4rc1.tar.gz --markdown 20230620/a/addon-tvg-karjakak/0.2.3rc2-0.2.4rc1/diff.md --exclude *.pyd
+[2023-06-20 07:09:59] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-20 07:09:59] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306180508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306190509.tar.gz --markdown 20230620/t/tflite-model-maker-nightly/0.4.3.dev202306180508-0.4.3.dev202306190509/diff.md --exclude *.pyd
+[2023-06-20 07:09:59] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-20 07:09:59] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230619.tar.gz tmp/dask-cuda-23.8.0a230620.tar.gz --markdown 20230620/d/dask-cuda/23.8.0a230619-23.8.0a230620/diff.md --exclude *.pyd
+[2023-06-20 07:09:59] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-06-20 07:09:59] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230620/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-06-20 07:10:00] INFO root fetch - processPackages [nonebot-plugin-b23]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-b23-0.0.9.tar.gz]
+[2023-06-20 07:10:00] INFO root fetch - processPackages [nonebot-plugin-b23]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-b23-0.1.0.tar.gz]
+[2023-06-20 07:10:00] INFO root fetch - processPackages [nonebot-plugin-b23]: Start processing: malwoverview
+[2023-06-20 07:10:00] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-b23]: success
+[2023-06-20 07:10:00] INFO root fetch - processPackages [malwoverview]: New version: [5.2] Old Version: [5.1.1]
+[2023-06-20 07:10:00] INFO root fetch - processPackages [malwoverview]: Downloading https://files.pythonhosted.org/packages/79/d0/f5ac7635749be056de88b7f3c782f15595e7c221c2cbca25afdfcc1b5af4/malwoverview-5.1.1.tar.gz
+[2023-06-20 07:10:01] INFO root fetch - processPackages [ahoy-dtu-webthing]: Remove: archive file [/home/abi/fetcher/tmp/ahoy_dtu_webthing-0.0.8.tar.gz]
+[2023-06-20 07:10:01] INFO root fetch - processPackages [ahoy-dtu-webthing]: Remove: archive file [/home/abi/fetcher/tmp/ahoy_dtu_webthing-0.0.9.tar.gz]
+[2023-06-20 07:10:01] INFO root fetch - processPackages [ahoy-dtu-webthing]: Start processing: tflite-runtime-nightly
+[2023-06-20 07:10:01] INFO root fetch - main [MainThread]: End processing [ahoy-dtu-webthing]: success
+[2023-06-20 07:10:01] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230618] Old Version: [2.14.0.dev20230617]
+[2023-06-20 07:10:01] INFO root fetch - processPackages [addon-tvg-karjakak]: Remove: archive file [/home/abi/fetcher/tmp/addon_tvg-karjakak-0.2.3rc2.tar.gz]
+[2023-06-20 07:10:01] INFO root fetch - processPackages [addon-tvg-karjakak]: Remove: archive file [/home/abi/fetcher/tmp/addon_tvg-karjakak-0.2.4rc1.tar.gz]
+[2023-06-20 07:10:01] INFO root fetch - main [MainThread]: End processing [addon-tvg-karjakak]: success
+[2023-06-20 07:10:01] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/c5/9a/4eb8682b52757e7f82032e208c302ded033535a15dd20c09c46c76c50471/tflite_runtime_nightly-2.14.0.dev20230617-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-20 07:10:01] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.38.0-py3-none-any.whl.zip]
+[2023-06-20 07:10:01] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.39.0-py3-none-any.whl.zip]
+[2023-06-20 07:10:01] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-06-20 07:10:01] INFO root fetch - processPackages [malwoverview]: Downloading https://files.pythonhosted.org/packages/69/ed/fda2ff26e43b87cdbebc5528bbff4d2ec0745f42bbbc6bc3d90ef3c734c2/malwoverview-5.2.tar.gz
+[2023-06-20 07:10:01] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/11/e9/08d52aa3cac0756218b51e3329882f54d7c4575eec9669d02436ec0ae1f5/tflite_runtime_nightly-2.14.0.dev20230618-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-20 07:10:01] INFO root fetch - processPackages [malwoverview]: executing diffoscope
+[2023-06-20 07:10:01] INFO root fetch - processPackages [malwoverview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malwoverview-5.1.1.tar.gz tmp/malwoverview-5.2.tar.gz --markdown 20230620/m/malwoverview/5.1.1-5.2/diff.md --exclude *.pyd
+[2023-06-20 07:10:01] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-06-20 07:10:01] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230617-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230618-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230620/t/tflite-runtime-nightly/2.14.0.dev20230617-2.14.0.dev20230618/diff.md --exclude *.pyd
+[2023-06-20 07:10:01] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.3.0.0.tar.gz]
+[2023-06-20 07:10:01] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.3.0.1.tar.gz]
+[2023-06-20 07:10:01] INFO root fetch - main [MainThread]: End processing [hotpot-zzy]: success
+[2023-06-20 07:10:01] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230619.tar.gz]
+[2023-06-20 07:10:01] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230620.tar.gz]
+[2023-06-20 07:10:01] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-20 07:10:02] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230617-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-20 07:10:02] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230618-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-20 07:10:02] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-06-20 07:10:02] INFO root fetch - processPackages [malwoverview]: Remove: archive file [/home/abi/fetcher/tmp/malwoverview-5.1.1.tar.gz]
+[2023-06-20 07:10:02] INFO root fetch - processPackages [malwoverview]: Remove: archive file [/home/abi/fetcher/tmp/malwoverview-5.2.tar.gz]
+[2023-06-20 07:10:02] INFO root fetch - main [MainThread]: End processing [malwoverview]: success
+[2023-06-20 07:10:02] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230619.tar.gz]
+[2023-06-20 07:10:02] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230620.tar.gz]
+[2023-06-20 07:10:02] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-20 07:10:03] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306180508.tar.gz]
+[2023-06-20 07:10:03] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306190509.tar.gz]
+[2023-06-20 07:10:03] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-20 07:10:05] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230619171202.tar.gz]
+[2023-06-20 07:10:05] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230620050706.tar.gz]
+[2023-06-20 07:10:05] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-06-20 07:12:59] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-20 07:12:59] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-20 07:12:59] INFO root fetch - main [MainThread]: Store serial: [18570165]
