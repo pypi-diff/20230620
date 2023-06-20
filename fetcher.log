@@ -14021,3 +14021,144 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 09:22:11] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
 [2023-06-20 09:22:11] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-06-20 09:22:11] INFO root fetch - main [MainThread]: Store serial: [18571127]
+[2023-06-20 09:27:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18571127]
+[2023-06-20 09:27:19] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-20 09:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kuflow-temporal-common
+[2023-06-20 09:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kuflow-temporal-activity-kuflow
+[2023-06-20 09:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kuflow-temporal-activity-robotframework
+[2023-06-20 09:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hello2
+[2023-06-20 09:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: web-foundation
+[2023-06-20 09:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: latch
+[2023-06-20 09:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spaceone-repository
+[2023-06-20 09:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: piwaterflow
+[2023-06-20 09:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: memory-maze
+[2023-06-20 09:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spaceone-secret
+[2023-06-20 09:27:20] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-20 09:27:20] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-20 09:27:20] INFO root fetch - processPackages [kuflow-temporal-common]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-20 09:27:20] INFO root fetch - processPackages [spaceone-repository]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-20 09:27:20] INFO root fetch - processPackages [hello2]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-20 09:27:20] INFO root fetch - processPackages [web-foundation]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-20 09:27:20] INFO root fetch - processPackages [piwaterflow]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-06-20 09:27:20] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-06-20 09:27:20] INFO root fetch - processPackages [memory-maze]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-20 09:27:20] INFO root fetch - processPackages [spaceone-secret]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-20 09:27:20] INFO root fetch - processPackages [kuflow-temporal-common]: Downloading https://files.pythonhosted.org/packages/6d/54/a87c0c127e03d6822816adcb62dd1dbe8a9f6d3b8c4acfbd39f5227cd896/kuflow_temporal_common-0.7.0.tar.gz
+[2023-06-20 09:27:20] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/c5/45/78ac464cb371d7ed2db579b6ff2bfad9f070c63c778c21e191fe80e291df/hello2-2.0.1.tar.gz
+[2023-06-20 09:27:20] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-06-20 09:27:20] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Downloading https://files.pythonhosted.org/packages/ce/92/8af5bc8f6f61d5cdd74186c9ecd4cda127cbb1384985fb59eedaa4806f64/kuflow_temporal_activity_kuflow-0.7.0.tar.gz
+[2023-06-20 09:27:20] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Downloading https://files.pythonhosted.org/packages/86/84/a93e07b2f60f1bc0b5feb9be38a121dac00d5e32d75b14c06de64cd5a27f/kuflow_temporal_activity_robotframework-0.7.0.tar.gz
+[2023-06-20 09:27:20] INFO root fetch - processPackages [spaceone-repository]: Downloading https://files.pythonhosted.org/packages/0c/5b/3ef4abc3acb2fefb7705a1bb9afca1085b0b831ddaf9156ca2a8be0c2e87/spaceone_repository-1.9.7.1-py3-none-any.whl
+[2023-06-20 09:27:20] INFO root fetch - processPackages [piwaterflow]: Downloading https://files.pythonhosted.org/packages/82/51/517c4aa51b97a44fef6bad6a62754225b3145ea1eedb4aee131daf72ea1f/piwaterflow-0.5.9.tar.gz
+[2023-06-20 09:27:20] INFO root fetch - processPackages [memory-maze]: Downloading https://files.pythonhosted.org/packages/fc/ca/2da68c7cdd1873a7053e4d81e474935c48f64d1a0679fd371f4c4a26fcb7/memory-maze-1.0.2.tar.gz
+[2023-06-20 09:27:20] INFO root fetch - processPackages [spaceone-secret]: Downloading https://files.pythonhosted.org/packages/f9/0a/b0db39cfa927121fe0322281b733f6c509647d8bd40c54b566a8f3ebb08f/spaceone_secret-1.9.7.1-py3-none-any.whl
+[2023-06-20 09:27:20] INFO root fetch - processPackages [web-foundation]: Downloading https://files.pythonhosted.org/packages/be/ef/14a65394fccddd615648ec894ff0f9225750bb726002e33786e3efa1db69/web_foundation-3.0.8.tar.gz
+[2023-06-20 09:27:20] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-06-20 09:27:20] INFO root fetch - processPackages [kuflow-temporal-common]: Downloading https://files.pythonhosted.org/packages/6a/fd/2a2ad6a93d06eb3651a78b23c1f080d2ff30401a455d6af8e36fa814e3ed/kuflow_temporal_common-0.7.1.tar.gz
+[2023-06-20 09:27:20] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/eb/e0/4a6f2a3af053b8ce8a5e6784655061cfa0963def375a743fe58d3110bdd0/hello2-2.0.2.tar.gz
+[2023-06-20 09:27:20] INFO root fetch - processPackages [kuflow-temporal-common]: executing diffoscope
+[2023-06-20 09:27:20] INFO root fetch - processPackages [kuflow-temporal-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_common-0.7.0.tar.gz tmp/kuflow_temporal_common-0.7.1.tar.gz --markdown 20230620/k/kuflow-temporal-common/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-20 09:27:20] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-06-20 09:27:20] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230620/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-06-20 09:27:20] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-06-20 09:27:20] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-2.0.1.tar.gz tmp/hello2-2.0.2.tar.gz --markdown 20230620/h/hello2/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-20 09:27:20] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Downloading https://files.pythonhosted.org/packages/64/15/a8d54c2d0bd121a6fc8176adfada70b3bf3977d536d399710d19eabac371/kuflow_temporal_activity_kuflow-0.7.1.tar.gz
+[2023-06-20 09:27:20] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Downloading https://files.pythonhosted.org/packages/a3/0d/68c6b58b51eb5ef70299afcd9a80c2e5ff0b80fd27302c678b6e2efc28aa/kuflow_temporal_activity_robotframework-0.7.1.tar.gz
+[2023-06-20 09:27:20] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: executing diffoscope
+[2023-06-20 09:27:20] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_activity_kuflow-0.7.0.tar.gz tmp/kuflow_temporal_activity_kuflow-0.7.1.tar.gz --markdown 20230620/k/kuflow-temporal-activity-kuflow/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-20 09:27:20] INFO root fetch - processPackages [piwaterflow]: Downloading https://files.pythonhosted.org/packages/fc/ed/56c250bf46f1d11cd2d3102af6258b2bb09dbc8135f4397cd873b00a9426/piwaterflow-0.6.0.tar.gz
+[2023-06-20 09:27:20] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: executing diffoscope
+[2023-06-20 09:27:20] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_activity_robotframework-0.7.0.tar.gz tmp/kuflow_temporal_activity_robotframework-0.7.1.tar.gz --markdown 20230620/k/kuflow-temporal-activity-robotframework/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-20 09:27:20] INFO root fetch - processPackages [memory-maze]: Downloading https://files.pythonhosted.org/packages/0f/12/fb8fea8d6ed33dbff3a8688b2e88c51ebd19c54563b3428d1d8037e0ae2c/memory-maze-1.0.3.tar.gz
+[2023-06-20 09:27:20] INFO root fetch - processPackages [spaceone-repository]: Downloading https://files.pythonhosted.org/packages/15/4a/2de661da258ab7143f3a7e26a6226f76f03b84a178b745fcf9f33209acc3/spaceone_repository-1.9.7rc1-py3-none-any.whl
+[2023-06-20 09:27:20] INFO root fetch - processPackages [spaceone-secret]: Downloading https://files.pythonhosted.org/packages/75/44/b92d2532a1c1a1ec9c13a58d77760d51c0bc17b65ca3f67bf0944c9476db/spaceone_secret-1.9.7rc1-py3-none-any.whl
+[2023-06-20 09:27:20] INFO root fetch - processPackages [web-foundation]: Downloading https://files.pythonhosted.org/packages/ab/fb/758bc9f32ce37a5c419b0ece1a88cb80c1130eda68f96e786b3dd9f2700a/web_foundation-3.0.9.tar.gz
+[2023-06-20 09:27:20] INFO root fetch - processPackages [piwaterflow]: executing diffoscope
+[2023-06-20 09:27:20] INFO root fetch - processPackages [piwaterflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwaterflow-0.5.9.tar.gz tmp/piwaterflow-0.6.0.tar.gz --markdown 20230620/p/piwaterflow/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-06-20 09:27:20] INFO root fetch - processPackages [memory-maze]: executing diffoscope
+[2023-06-20 09:27:20] INFO root fetch - processPackages [memory-maze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memory-maze-1.0.2.tar.gz tmp/memory-maze-1.0.3.tar.gz --markdown 20230620/m/memory-maze/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-20 09:27:20] INFO root fetch - processPackages [web-foundation]: executing diffoscope
+[2023-06-20 09:27:20] INFO root fetch - processPackages [web-foundation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_foundation-3.0.8.tar.gz tmp/web_foundation-3.0.9.tar.gz --markdown 20230620/w/web-foundation/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-20 09:27:20] INFO root fetch - processPackages [spaceone-secret]: executing diffoscope
+[2023-06-20 09:27:20] INFO root fetch - processPackages [spaceone-secret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_secret-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_secret-1.9.7rc1-py3-none-any.whl.zip --markdown 20230620/s/spaceone-secret/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-20 09:27:20] INFO root fetch - processPackages [spaceone-repository]: executing diffoscope
+[2023-06-20 09:27:20] INFO root fetch - processPackages [spaceone-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_repository-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_repository-1.9.7rc1-py3-none-any.whl.zip --markdown 20230620/s/spaceone-repository/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-20 09:27:22] INFO root fetch - processPackages [kuflow-temporal-common]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_common-0.7.0.tar.gz]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [kuflow-temporal-common]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_common-0.7.1.tar.gz]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [kuflow-temporal-common]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-20 09:27:22] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-common]: success
+[2023-06-20 09:27:22] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-20 09:27:22] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-20 09:27:22] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_kuflow-0.7.0.tar.gz]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_kuflow-0.7.1.tar.gz]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Start processing: spaceone-statistics
+[2023-06-20 09:27:22] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-activity-kuflow]: success
+[2023-06-20 09:27:22] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-20 09:27:22] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230620/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-20 09:27:22] INFO root fetch - processPackages [spaceone-statistics]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [piwaterflow]: Remove: archive file [/home/abi/fetcher/tmp/piwaterflow-0.5.9.tar.gz]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [piwaterflow]: Remove: archive file [/home/abi/fetcher/tmp/piwaterflow-0.6.0.tar.gz]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [piwaterflow]: Start processing: esr-sdk
+[2023-06-20 09:27:22] INFO root fetch - main [MainThread]: End processing [piwaterflow]: success
+[2023-06-20 09:27:22] WARNING root fetch - processPackages [esr-sdk]: Skipping, unable to determine old version
+[2023-06-20 09:27:22] INFO root fetch - processPackages [esr-sdk]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-20 09:27:22] INFO root fetch - main [MainThread]: End processing [esr-sdk] error
+[2023-06-20 09:27:22] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_robotframework-0.7.0.tar.gz]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_robotframework-0.7.1.tar.gz]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Start processing: Nuitka
+[2023-06-20 09:27:22] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-activity-robotframework]: success
+[2023-06-20 09:27:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [Nuitka]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [spaceone-statistics]: Downloading https://files.pythonhosted.org/packages/c4/cd/89cbaa5162f9dcaf485930e348ccbab424a9547c14941e7949b917ba2397/spaceone_statistics-1.9.7.1-py3-none-any.whl
+[2023-06-20 09:27:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-20 09:27:22] INFO root fetch - processPackages [spaceone-secret]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_secret-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [spaceone-secret]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_secret-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [spaceone-secret]: Start processing: git-batch
+[2023-06-20 09:27:22] INFO root fetch - main [MainThread]: End processing [spaceone-secret]: success
+[2023-06-20 09:27:22] INFO root fetch - processPackages [memory-maze]: Remove: archive file [/home/abi/fetcher/tmp/memory-maze-1.0.2.tar.gz]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [memory-maze]: Remove: archive file [/home/abi/fetcher/tmp/memory-maze-1.0.3.tar.gz]
+[2023-06-20 09:27:22] INFO root fetch - main [MainThread]: End processing [memory-maze]: success
+[2023-06-20 09:27:22] INFO root fetch - processPackages [git-batch]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/83/7f/f900020cc97d7ca16442cff602922341e54dc9f766c7cbf4bbaa852f03b0/Nuitka-1.6.3.tar.gz
+[2023-06-20 09:27:22] INFO root fetch - processPackages [spaceone-repository]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_repository-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [spaceone-repository]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_repository-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-20 09:27:22] INFO root fetch - main [MainThread]: End processing [spaceone-repository]: success
+[2023-06-20 09:27:22] INFO root fetch - processPackages [git-batch]: Downloading https://files.pythonhosted.org/packages/80/59/2c67bd9c90ba1f8933a9e01e0c36ef8624448b06286d8688849a27e03253/git_batch-2.0.8.tar.gz
+[2023-06-20 09:27:22] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2023-06-20 09:27:22] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-06-20 09:27:22] INFO root fetch - processPackages [web-foundation]: Remove: archive file [/home/abi/fetcher/tmp/web_foundation-3.0.8.tar.gz]
+[2023-06-20 09:27:22] INFO root fetch - processPackages [web-foundation]: Remove: archive file [/home/abi/fetcher/tmp/web_foundation-3.0.9.tar.gz]
+[2023-06-20 09:27:22] INFO root fetch - main [MainThread]: End processing [web-foundation]: success
+[2023-06-20 09:27:23] INFO root fetch - processPackages [spaceone-statistics]: Downloading https://files.pythonhosted.org/packages/d8/90/c82400b8d58297dc11095bbdb405ef1da35645a64f284e3f7024b4234ff6/spaceone_statistics-1.9.7rc1-py3-none-any.whl
+[2023-06-20 09:27:23] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/ff/19/37767052fe1eeee227de6288742ecdc391bae50a6c7ec530153d31178114/Nuitka-1.6.4.tar.gz
+[2023-06-20 09:27:23] INFO root fetch - processPackages [git-batch]: Downloading https://files.pythonhosted.org/packages/0d/9a/2d5689bead957415cbbf9e884809859fbfc35f386c265ec32cddc3a81714/git_batch-2.0.9.tar.gz
+[2023-06-20 09:27:23] INFO root fetch - processPackages [spaceone-statistics]: executing diffoscope
+[2023-06-20 09:27:23] INFO root fetch - processPackages [spaceone-statistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_statistics-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_statistics-1.9.7rc1-py3-none-any.whl.zip --markdown 20230620/s/spaceone-statistics/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-20 09:27:23] INFO root fetch - processPackages [git-batch]: executing diffoscope
+[2023-06-20 09:27:23] INFO root fetch - processPackages [git-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_batch-2.0.8.tar.gz tmp/git_batch-2.0.9.tar.gz --markdown 20230620/g/git-batch/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-20 09:27:23] INFO root fetch - processPackages [Nuitka]: executing diffoscope
+[2023-06-20 09:27:23] INFO root fetch - processPackages [Nuitka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-1.6.3.tar.gz tmp/Nuitka-1.6.4.tar.gz --markdown 20230620/N/Nuitka/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-06-20 09:27:23] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-20 09:27:24] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-20 09:27:24] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-20 09:27:24] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-20 09:27:24] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-20 09:27:24] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230620/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 09:27:24] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-2.0.1.tar.gz]
+[2023-06-20 09:27:24] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-2.0.2.tar.gz]
+[2023-06-20 09:27:24] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-06-20 09:27:24] INFO root fetch - processPackages [spaceone-statistics]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_statistics-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-20 09:27:24] INFO root fetch - processPackages [spaceone-statistics]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_statistics-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-20 09:27:24] INFO root fetch - main [MainThread]: End processing [spaceone-statistics]: success
+[2023-06-20 09:27:24] INFO root fetch - processPackages [git-batch]: Remove: archive file [/home/abi/fetcher/tmp/git_batch-2.0.8.tar.gz]
+[2023-06-20 09:27:24] INFO root fetch - processPackages [git-batch]: Remove: archive file [/home/abi/fetcher/tmp/git_batch-2.0.9.tar.gz]
+[2023-06-20 09:27:24] INFO root fetch - main [MainThread]: End processing [git-batch]: success
+[2023-06-20 09:27:25] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-20 09:27:25] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-20 09:27:25] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-20 09:27:51] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.6.3.tar.gz]
+[2023-06-20 09:27:51] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.6.4.tar.gz]
+[2023-06-20 09:27:51] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
+[2023-06-20 09:27:51] INFO root fetch - main [MainThread]: Store serial: [18571176]
