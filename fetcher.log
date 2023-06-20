@@ -22901,3 +22901,97 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 14:38:43] INFO root fetch - processPackages [intel-sgx-ra]: Remove: archive file [/home/abi/fetcher/tmp/intel_sgx_ra-2.0a9-cp38-cp38-manylinux_2_34_x86_64.whl.zip]
 [2023-06-20 14:38:43] INFO root fetch - main [MainThread]: End processing [intel-sgx-ra]: success
 [2023-06-20 14:38:43] INFO root fetch - main [MainThread]: Store serial: [18574808]
+[2023-06-20 14:43:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18574808]
+[2023-06-20 14:43:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-20 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: interactivenet
+[2023-06-20 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whispercppy
+[2023-06-20 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kalm
+[2023-06-20 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: 009.butt
+[2023-06-20 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rdfizer
+[2023-06-20 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DKCloudCommand
+[2023-06-20 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kalm
+[2023-06-20 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: garpix-user
+[2023-06-20 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: emmett-sentry
+[2023-06-20 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: canvasrobot
+[2023-06-20 14:43:56] INFO root fetch - processPackages [kalm]: New version: [0.7.3] Old Version: [0.7.1]
+[2023-06-20 14:43:56] INFO root fetch - processPackages [whispercppy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-20 14:43:56] ERROR root fetch - processPackages [009.butt]: Unable to get metadata: No such project '009.butt'
+[2023-06-20 14:43:56] INFO root fetch - processPackages [009.butt]: Start processing: extended-json-schema-validator
+[2023-06-20 14:43:56] INFO root fetch - main [MainThread]: End processing [009.butt] error
+[2023-06-20 14:43:56] INFO root fetch - processPackages [interactivenet]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-20 14:43:56] INFO root fetch - processPackages [garpix-user]: New version: [3.7.0] Old Version: [3.6.1]
+[2023-06-20 14:43:56] INFO root fetch - processPackages [kalm]: New version: [0.7.3] Old Version: [0.7.1]
+[2023-06-20 14:43:56] INFO root fetch - processPackages [emmett-sentry]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-20 14:43:56] INFO root fetch - processPackages [canvasrobot]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-20 14:43:56] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-06-20 14:43:56] INFO root fetch - processPackages [DKCloudCommand]: New version: [1.1.275rc1] Old Version: [1.1.274rc1]
+[2023-06-20 14:43:56] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/9c/69/f926f79050903d7181f6dd0e91e494af7ba43c4c9369205e9332f4a4db3f/rdfizer-4.7.dev1682603874.tar.gz
+[2023-06-20 14:43:56] INFO root fetch - processPackages [canvasrobot]: Downloading https://files.pythonhosted.org/packages/2b/3b/3602bc6aa7df694dd5cd7e95d351683284334dccdd60ca49e7b5a5006583/canvasrobot-0.7.0.tar.gz
+[2023-06-20 14:43:56] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/5a/60/74a597cb40b41bae78bb46d812a1e4a613d6626e72238fa254f22ef7d552/kalm-0.7.1.tar.gz
+[2023-06-20 14:43:56] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/5a/60/74a597cb40b41bae78bb46d812a1e4a613d6626e72238fa254f22ef7d552/kalm-0.7.1.tar.gz
+[2023-06-20 14:43:56] INFO root fetch - processPackages [garpix-user]: Downloading https://files.pythonhosted.org/packages/c5/7e/993de6efb03ba5b9a0d293320da889a2a38151c619fbe74d13247086fa02/garpix_user-3.6.1.tar.gz
+[2023-06-20 14:43:56] INFO root fetch - processPackages [interactivenet]: Downloading https://files.pythonhosted.org/packages/ad/c3/f40d93a37bb2cb3660716cd48f6c12514602b9147a78f2731a04c5897323/interactivenet-0.1.0.tar.gz
+[2023-06-20 14:43:56] INFO root fetch - processPackages [extended-json-schema-validator]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-20 14:43:56] INFO root fetch - processPackages [DKCloudCommand]: Downloading https://files.pythonhosted.org/packages/cc/94/274e582bdc6db19569e0990666b72bf60dfc50c7c0b1e82165846370913c/DKCloudCommand-1.1.274rc1-py2.py3-none-any.whl
+[2023-06-20 14:43:56] INFO root fetch - processPackages [whispercppy]: Downloading https://files.pythonhosted.org/packages/97/b7/8889407ee52f75ad041dad41ee1898fcd013e51f213752c6c964410e79e4/whispercppy-0.0.2.tar.gz
+[2023-06-20 14:43:56] INFO root fetch - processPackages [emmett-sentry]: Downloading https://files.pythonhosted.org/packages/17/d7/a2f1e5d53e74d2cd76827bcd888ffe031c980f265c7f2cda280e2738bcd9/emmett_sentry-0.4.1.tar.gz
+[2023-06-20 14:43:56] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/70/cd/8dd4da328815d460b588f71a1270cf043ce0d2cae360ce0b321d3d1255b6/rdfizer-4.7.dev1682603926.tar.gz
+[2023-06-20 14:43:56] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-06-20 14:43:56] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230620/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-06-20 14:43:56] INFO root fetch - processPackages [canvasrobot]: Downloading https://files.pythonhosted.org/packages/da/4a/5163cc7d3891e06a1cf733eab39120a81297de2c8c1e8d6058b94d8b8f9a/canvasrobot-0.7.1.tar.gz
+[2023-06-20 14:43:56] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/c3/c1/92a1e18de55e11157457faf461d4781b2ea956dc6a55954a0b59ae66e16c/kalm-0.7.3.tar.gz
+[2023-06-20 14:43:56] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/c3/c1/92a1e18de55e11157457faf461d4781b2ea956dc6a55954a0b59ae66e16c/kalm-0.7.3.tar.gz
+[2023-06-20 14:43:56] INFO root fetch - processPackages [extended-json-schema-validator]: Downloading https://files.pythonhosted.org/packages/19/f6/8d7fbd30c3f0713427a5eee4294b211a70c4a3ae176b733b2f2a2d6f99d7/extended_json_schema_validator-0.9.8.tar.gz
+[2023-06-20 14:43:56] INFO root fetch - processPackages [interactivenet]: Downloading https://files.pythonhosted.org/packages/25/22/b1d043a25d0a63aa5004e7ff1071f78667e36f3af94dcd79e9ec425bd7bf/interactivenet-0.2.0.tar.gz
+[2023-06-20 14:43:56] INFO root fetch - processPackages [DKCloudCommand]: Downloading https://files.pythonhosted.org/packages/a5/b2/f3f9c7f1c6dd2b9e2f95e3b5273edd902a5ef3eb87ea8cf752d47657b5af/DKCloudCommand-1.1.275rc1-py2.py3-none-any.whl
+[2023-06-20 14:43:56] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-20 14:43:56] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.1.tar.gz tmp/kalm-0.7.3.tar.gz --markdown 20230620/k/kalm/0.7.1-0.7.3/diff.md --exclude *.pyd
+[2023-06-20 14:43:56] INFO root fetch - processPackages [interactivenet]: executing diffoscope
+[2023-06-20 14:43:56] INFO root fetch - processPackages [interactivenet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interactivenet-0.1.0.tar.gz tmp/interactivenet-0.2.0.tar.gz --markdown 20230620/i/interactivenet/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-20 14:43:56] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-20 14:43:56] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.1.tar.gz tmp/kalm-0.7.3.tar.gz --markdown 20230620/k/kalm/0.7.1-0.7.3/diff.md --exclude *.pyd
+[2023-06-20 14:43:56] INFO root fetch - processPackages [canvasrobot]: executing diffoscope
+[2023-06-20 14:43:56] INFO root fetch - processPackages [canvasrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canvasrobot-0.7.0.tar.gz tmp/canvasrobot-0.7.1.tar.gz --markdown 20230620/c/canvasrobot/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-20 14:43:56] INFO root fetch - processPackages [emmett-sentry]: Downloading https://files.pythonhosted.org/packages/23/69/2b4e25fca25bd5f721d3397bb7137a4d2f40119e6f7320f9bef1462fcee3/emmett_sentry-0.5.0.tar.gz
+[2023-06-20 14:43:56] INFO root fetch - processPackages [DKCloudCommand]: executing diffoscope
+[2023-06-20 14:43:56] INFO root fetch - processPackages [DKCloudCommand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DKCloudCommand-1.1.274rc1-py2.py3-none-any.whl.zip tmp/DKCloudCommand-1.1.275rc1-py2.py3-none-any.whl.zip --markdown 20230620/D/DKCloudCommand/1.1.274rc1-1.1.275rc1/diff.md --exclude *.pyd
+[2023-06-20 14:43:56] INFO root fetch - processPackages [garpix-user]: Downloading https://files.pythonhosted.org/packages/ba/a5/16e6681c4c634c7fa21d8a96473ca7020d6f79ed1b1ca34ce6b1fb421ef6/garpix_user-3.7.0.tar.gz
+[2023-06-20 14:43:56] INFO root fetch - processPackages [whispercppy]: Downloading https://files.pythonhosted.org/packages/03/0f/35e02c9fd42861ca79b88435101064d5e4baa18c7120dd907e4860768f1f/whispercppy-0.0.3.tar.gz
+[2023-06-20 14:43:56] INFO root fetch - processPackages [garpix-user]: executing diffoscope
+[2023-06-20 14:43:56] INFO root fetch - processPackages [garpix-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_user-3.6.1.tar.gz tmp/garpix_user-3.7.0.tar.gz --markdown 20230620/g/garpix-user/3.6.1-3.7.0/diff.md --exclude *.pyd
+[2023-06-20 14:43:56] INFO root fetch - processPackages [whispercppy]: executing diffoscope
+[2023-06-20 14:43:56] INFO root fetch - processPackages [whispercppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whispercppy-0.0.2.tar.gz tmp/whispercppy-0.0.3.tar.gz --markdown 20230620/w/whispercppy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-20 14:43:56] INFO root fetch - processPackages [extended-json-schema-validator]: Downloading https://files.pythonhosted.org/packages/86/b6/8ee34aeb63898e274bf584b708c63ec81e58590c59d606a4c9535f07b9d3/extended_json_schema_validator-0.9.9.tar.gz
+[2023-06-20 14:43:56] INFO root fetch - processPackages [emmett-sentry]: executing diffoscope
+[2023-06-20 14:43:56] INFO root fetch - processPackages [emmett-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmett_sentry-0.4.1.tar.gz tmp/emmett_sentry-0.5.0.tar.gz --markdown 20230620/e/emmett-sentry/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-20 14:43:57] INFO root fetch - processPackages [extended-json-schema-validator]: executing diffoscope
+[2023-06-20 14:43:57] INFO root fetch - processPackages [extended-json-schema-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extended_json_schema_validator-0.9.8.tar.gz tmp/extended_json_schema_validator-0.9.9.tar.gz --markdown 20230620/e/extended-json-schema-validator/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-20 14:43:58] INFO root fetch - processPackages [rdfizer]: Remove: archive file [/home/abi/fetcher/tmp/rdfizer-4.7.dev1682603874.tar.gz]
+[2023-06-20 14:43:58] INFO root fetch - processPackages [rdfizer]: Remove: archive file [/home/abi/fetcher/tmp/rdfizer-4.7.dev1682603926.tar.gz]
+[2023-06-20 14:43:58] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-06-20 14:43:58] INFO root fetch - processPackages [canvasrobot]: Remove: archive file [/home/abi/fetcher/tmp/canvasrobot-0.7.0.tar.gz]
+[2023-06-20 14:43:58] INFO root fetch - processPackages [canvasrobot]: Remove: archive file [/home/abi/fetcher/tmp/canvasrobot-0.7.1.tar.gz]
+[2023-06-20 14:43:58] INFO root fetch - main [MainThread]: End processing [canvasrobot]: success
+[2023-06-20 14:43:58] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.1.tar.gz]
+[2023-06-20 14:43:58] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.3.tar.gz]
+[2023-06-20 14:43:58] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-20 14:43:58] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-20 14:43:58] INFO root fetch - processPackages [emmett-sentry]: Remove: archive file [/home/abi/fetcher/tmp/emmett_sentry-0.4.1.tar.gz]
+[2023-06-20 14:43:58] INFO root fetch - processPackages [emmett-sentry]: Remove: archive file [/home/abi/fetcher/tmp/emmett_sentry-0.5.0.tar.gz]
+[2023-06-20 14:43:58] INFO root fetch - main [MainThread]: End processing [emmett-sentry]: success
+[2023-06-20 14:43:58] INFO root fetch - processPackages [interactivenet]: Remove: archive file [/home/abi/fetcher/tmp/interactivenet-0.1.0.tar.gz]
+[2023-06-20 14:43:58] INFO root fetch - processPackages [interactivenet]: Remove: archive file [/home/abi/fetcher/tmp/interactivenet-0.2.0.tar.gz]
+[2023-06-20 14:43:58] INFO root fetch - main [MainThread]: End processing [interactivenet]: success
+[2023-06-20 14:43:58] INFO root fetch - processPackages [DKCloudCommand]: Remove: archive file [/home/abi/fetcher/tmp/DKCloudCommand-1.1.274rc1-py2.py3-none-any.whl.zip]
+[2023-06-20 14:43:58] INFO root fetch - processPackages [DKCloudCommand]: Remove: archive file [/home/abi/fetcher/tmp/DKCloudCommand-1.1.275rc1-py2.py3-none-any.whl.zip]
+[2023-06-20 14:43:58] INFO root fetch - main [MainThread]: End processing [DKCloudCommand]: success
+[2023-06-20 14:43:58] INFO root fetch - processPackages [extended-json-schema-validator]: Remove: archive file [/home/abi/fetcher/tmp/extended_json_schema_validator-0.9.8.tar.gz]
+[2023-06-20 14:43:58] INFO root fetch - processPackages [extended-json-schema-validator]: Remove: archive file [/home/abi/fetcher/tmp/extended_json_schema_validator-0.9.9.tar.gz]
+[2023-06-20 14:43:58] INFO root fetch - main [MainThread]: End processing [extended-json-schema-validator]: success
+[2023-06-20 14:44:00] INFO root fetch - processPackages [garpix-user]: Remove: archive file [/home/abi/fetcher/tmp/garpix_user-3.6.1.tar.gz]
+[2023-06-20 14:44:00] INFO root fetch - processPackages [garpix-user]: Remove: archive file [/home/abi/fetcher/tmp/garpix_user-3.7.0.tar.gz]
+[2023-06-20 14:44:00] INFO root fetch - main [MainThread]: End processing [garpix-user]: success
+[2023-06-20 14:44:01] INFO root fetch - processPackages [whispercppy]: Remove: archive file [/home/abi/fetcher/tmp/whispercppy-0.0.2.tar.gz]
+[2023-06-20 14:44:01] INFO root fetch - processPackages [whispercppy]: Remove: archive file [/home/abi/fetcher/tmp/whispercppy-0.0.3.tar.gz]
+[2023-06-20 14:44:01] INFO root fetch - main [MainThread]: End processing [whispercppy]: success
+[2023-06-20 14:44:01] INFO root fetch - main [MainThread]: Store serial: [18574855]
