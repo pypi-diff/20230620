@@ -12205,3 +12205,59 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 07:28:35] INFO root fetch - processPackages [ical]: Remove: archive file [/home/abi/fetcher/tmp/ical-4.5.4.tar.gz]
 [2023-06-20 07:28:35] INFO root fetch - main [MainThread]: End processing [ical]: success
 [2023-06-20 07:28:35] INFO root fetch - main [MainThread]: Store serial: [18570233]
+[2023-06-20 07:33:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570233]
+[2023-06-20 07:33:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-20 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Riskfolio-Lib
+[2023-06-20 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crazy-thursday
+[2023-06-20 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypara
+[2023-06-20 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reytool
+[2023-06-20 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: intasend-python
+[2023-06-20 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vois
+[2023-06-20 07:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unibox
+[2023-06-20 07:33:45] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.9.1] Old Version: [2023.6.9.0]
+[2023-06-20 07:33:45] INFO root fetch - processPackages [pypara]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-20 07:33:45] INFO root fetch - processPackages [intasend-python]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-20 07:33:45] INFO root fetch - processPackages [Riskfolio-Lib]: New version: [4.4.0] Old Version: [4.3.0]
+[2023-06-20 07:33:45] INFO root fetch - processPackages [vois]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-20 07:33:45] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-06-20 07:33:45] WARNING root fetch - processPackages [unibox]: Skipping, unable to determine old version
+[2023-06-20 07:33:45] INFO root fetch - main [MainThread]: End processing [unibox] error
+[2023-06-20 07:33:45] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/b1/40/5829ec135b8688f4278ad96c53701edc59c7542d244da7fff625e9bf0586/crazy-thursday-2023.6.9.0.tar.gz
+[2023-06-20 07:33:45] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-06-20 07:33:45] INFO root fetch - processPackages [Riskfolio-Lib]: Downloading https://files.pythonhosted.org/packages/9d/4a/ae9f545b0b000bab1a2077621566e95b3b4131ff4310660c156980514ba5/Riskfolio-Lib-4.3.0.tar.gz
+[2023-06-20 07:33:46] INFO root fetch - processPackages [pypara]: Downloading https://files.pythonhosted.org/packages/f6/54/8ea23dff149867e64c6f1730bfc7c8e1b58a1bb7c5f6c7286bd0cc4a9379/pypara-0.0.9.tar.gz
+[2023-06-20 07:33:46] INFO root fetch - processPackages [intasend-python]: Downloading https://files.pythonhosted.org/packages/2a/50/97d4d236a2bfb862785f377e94eb0aedb5a15156e7496483b6f327ecae62/intasend_python-1.0.7-py3-none-any.whl
+[2023-06-20 07:33:46] INFO root fetch - processPackages [vois]: Downloading https://files.pythonhosted.org/packages/c0/1f/b99969e43ebfb586a10db1de6783b6eeb4c39333f419131f2e68c0f5bb7a/vois-1.0.7.tar.gz
+[2023-06-20 07:33:46] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/5e/9d/4da02a3a3f23da194e2e84c3736bb6b6dddf3afa5ff453187cab26459381/crazy-thursday-2023.6.9.1.tar.gz
+[2023-06-20 07:33:46] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-06-20 07:33:46] WARNING root fetch - processPackages [Riskfolio-Lib]: Skipping package: exceeds size limit 12938330>=10485760
+[2023-06-20 07:33:46] INFO root fetch - main [MainThread]: End processing [Riskfolio-Lib] error
+[2023-06-20 07:33:46] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-20 07:33:46] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.9.0.tar.gz tmp/crazy-thursday-2023.6.9.1.tar.gz --markdown 20230620/c/crazy-thursday/2023.6.9.0-2023.6.9.1/diff.md --exclude *.pyd
+[2023-06-20 07:33:46] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-06-20 07:33:46] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230620/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-06-20 07:33:46] INFO root fetch - processPackages [intasend-python]: Downloading https://files.pythonhosted.org/packages/d5/81/84304e8f4223fed6d481dd5af57210fcd0f6303f169ec8f4aeec5dedea5d/intasend_python-1.0.8-py3-none-any.whl
+[2023-06-20 07:33:46] INFO root fetch - processPackages [vois]: Downloading https://files.pythonhosted.org/packages/09/46/d0b76d00aa8def2675541a996097f6dfafe7963d1646cbef9da4727ff8b7/vois-1.0.8.tar.gz
+[2023-06-20 07:33:46] INFO root fetch - processPackages [intasend-python]: executing diffoscope
+[2023-06-20 07:33:46] INFO root fetch - processPackages [intasend-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intasend_python-1.0.7-py3-none-any.whl.zip tmp/intasend_python-1.0.8-py3-none-any.whl.zip --markdown 20230620/i/intasend-python/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-20 07:33:46] INFO root fetch - processPackages [pypara]: Downloading https://files.pythonhosted.org/packages/ff/b5/10067a0e1f435edbb2539437342f9d5de2a89b9061464ded38efc30d530f/pypara-0.1.0.tar.gz
+[2023-06-20 07:33:46] INFO root fetch - processPackages [pypara]: executing diffoscope
+[2023-06-20 07:33:46] INFO root fetch - processPackages [pypara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypara-0.0.9.tar.gz tmp/pypara-0.1.0.tar.gz --markdown 20230620/p/pypara/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-20 07:33:46] INFO root fetch - processPackages [vois]: executing diffoscope
+[2023-06-20 07:33:46] INFO root fetch - processPackages [vois]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vois-1.0.7.tar.gz tmp/vois-1.0.8.tar.gz --markdown 20230620/v/vois/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-20 07:33:47] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.0.tar.gz]
+[2023-06-20 07:33:47] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.1.tar.gz]
+[2023-06-20 07:33:47] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-20 07:33:47] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-06-20 07:33:47] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-06-20 07:33:47] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-06-20 07:33:47] INFO root fetch - processPackages [intasend-python]: Remove: archive file [/home/abi/fetcher/tmp/intasend_python-1.0.7-py3-none-any.whl.zip]
+[2023-06-20 07:33:47] INFO root fetch - processPackages [intasend-python]: Remove: archive file [/home/abi/fetcher/tmp/intasend_python-1.0.8-py3-none-any.whl.zip]
+[2023-06-20 07:33:47] INFO root fetch - main [MainThread]: End processing [intasend-python]: success
+[2023-06-20 07:33:47] INFO root fetch - processPackages [pypara]: Remove: archive file [/home/abi/fetcher/tmp/pypara-0.0.9.tar.gz]
+[2023-06-20 07:33:47] INFO root fetch - processPackages [pypara]: Remove: archive file [/home/abi/fetcher/tmp/pypara-0.1.0.tar.gz]
+[2023-06-20 07:33:47] INFO root fetch - main [MainThread]: End processing [pypara]: success
+[2023-06-20 07:33:48] INFO root fetch - processPackages [vois]: Remove: archive file [/home/abi/fetcher/tmp/vois-1.0.7.tar.gz]
+[2023-06-20 07:33:48] INFO root fetch - processPackages [vois]: Remove: archive file [/home/abi/fetcher/tmp/vois-1.0.8.tar.gz]
+[2023-06-20 07:33:48] INFO root fetch - main [MainThread]: End processing [vois]: success
+[2023-06-20 07:33:48] INFO root fetch - main [MainThread]: Store serial: [18570273]
