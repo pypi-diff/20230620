@@ -15258,3 +15258,171 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 10:10:57] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
 [2023-06-20 10:10:57] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
 [2023-06-20 10:10:57] INFO root fetch - main [MainThread]: Store serial: [18571623]
+[2023-06-20 10:16:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18571623]
+[2023-06-20 10:16:06] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-20 10:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudforet-console-api-v2
+[2023-06-20 10:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emailalert
+[2023-06-20 10:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NCPNet
+[2023-06-20 10:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kong-pdk
+[2023-06-20 10:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rabbitmq-spider
+[2023-06-20 10:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: commitizen
+[2023-06-20 10:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RiboMetric
+[2023-06-20 10:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: henhoe2vec
+[2023-06-20 10:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: henhoe2vec
+[2023-06-20 10:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: data-engineering-pulumi-components
+[2023-06-20 10:16:06] WARNING root fetch - processPackages [NCPNet]: Skipping, unable to determine old version
+[2023-06-20 10:16:06] INFO root fetch - processPackages [NCPNet]: Start processing: timeseriesflattener
+[2023-06-20 10:16:06] INFO root fetch - main [MainThread]: End processing [NCPNet] error
+[2023-06-20 10:16:06] INFO root fetch - processPackages [emailalert]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-06-20 10:16:06] WARNING root fetch - processPackages [rabbitmq-spider]: Skipping, unable to determine old version
+[2023-06-20 10:16:06] INFO root fetch - processPackages [rabbitmq-spider]: Start processing: 000modbut
+[2023-06-20 10:16:06] INFO root fetch - main [MainThread]: End processing [rabbitmq-spider] error
+[2023-06-20 10:16:06] INFO root fetch - processPackages [kong-pdk]: New version: [0.34] Old Version: [0.33]
+[2023-06-20 10:16:06] INFO root fetch - processPackages [timeseriesflattener]: New version: [1.2.0] Old Version: [1.0.0]
+[2023-06-20 10:16:06] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/90/40/fccc9dcebeb7c7c9e66020411648c4c95b75e71f31d72c817a568e172ac6/emailalert-1.3.2.tar.gz
+[2023-06-20 10:16:06] INFO root fetch - processPackages [kong-pdk]: Downloading https://files.pythonhosted.org/packages/51/29/37b5bb57582609e49b8a83f5b83ce5ce4404be207d47af7c4fb3c2ff4c58/kong_pdk-0.33.tar.gz
+[2023-06-20 10:16:06] INFO root fetch - processPackages [cloudforet-console-api-v2]: New version: [1.12.dev6] Old Version: [1.12.dev5]
+[2023-06-20 10:16:06] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/26/36/1e1cc1f1eae740e7017dd3fe8ec6f3c7ffb9bd37cf0670c3af2c47223abc/timeseriesflattener-1.0.0.tar.gz
+[2023-06-20 10:16:06] INFO root fetch - processPackages [henhoe2vec]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-20 10:16:06] INFO root fetch - processPackages [data-engineering-pulumi-components]: New version: [0.4.1.dev7] Old Version: [0.4.1.dev6]
+[2023-06-20 10:16:06] INFO root fetch - processPackages [henhoe2vec]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-20 10:16:06] INFO root fetch - processPackages [RiboMetric]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-20 10:16:06] WARNING root fetch - processPackages [000modbut]: Skipping, unable to determine old version
+[2023-06-20 10:16:06] INFO root fetch - processPackages [000modbut]: Start processing: addereq
+[2023-06-20 10:16:06] INFO root fetch - main [MainThread]: End processing [000modbut] error
+[2023-06-20 10:16:06] INFO root fetch - processPackages [commitizen]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-06-20 10:16:07] INFO root fetch - processPackages [kong-pdk]: Downloading https://files.pythonhosted.org/packages/d4/76/ad14a6b26f36dea1df5894d346e4673323a21128bb997c8d0a3d97d80ca5/kong_pdk-0.34.tar.gz
+[2023-06-20 10:16:07] INFO root fetch - processPackages [data-engineering-pulumi-components]: Downloading https://files.pythonhosted.org/packages/14/06/305be1ee829edb9af712a657d8e45e51744e8c9027ea92116b31bcbf75a8/data-engineering-pulumi-components-0.4.1.dev6.tar.gz
+[2023-06-20 10:16:07] INFO root fetch - processPackages [henhoe2vec]: Downloading https://files.pythonhosted.org/packages/9e/16/3ac96b7ccbd31821514f4175e187f162820ebb515cd3b5b812989a1be5f4/henhoe2vec-0.0.1.tar.gz
+[2023-06-20 10:16:07] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/d7/59/565e3ef01efe0ce60fa435b09b3234c234a2d140e01fcaaba532250fbe2c/emailalert-1.3.3.tar.gz
+[2023-06-20 10:16:07] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/fd/26/238263de7aacafab72bae12ffb651281e8e8f70581cfdbb04945b47deb0a/commitizen-3.3.0.tar.gz
+[2023-06-20 10:16:07] INFO root fetch - processPackages [henhoe2vec]: Downloading https://files.pythonhosted.org/packages/9e/16/3ac96b7ccbd31821514f4175e187f162820ebb515cd3b5b812989a1be5f4/henhoe2vec-0.0.1.tar.gz
+[2023-06-20 10:16:07] INFO root fetch - processPackages [RiboMetric]: Downloading https://files.pythonhosted.org/packages/a2/51/d14b98bef19e01cb87aa0691d2c273a55fccc05ca7bf2bb40598ac338d35/RiboMetric-0.1.6.tar.gz
+[2023-06-20 10:16:07] INFO root fetch - processPackages [addereq]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-20 10:16:07] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/5c/72/dfef8d73453f90382b874c509b26070fdd98fbc491677af6230e027f37c2/cloudforet-console-api-v2-1.12.dev5.tar.gz
+[2023-06-20 10:16:07] INFO root fetch - processPackages [kong-pdk]: executing diffoscope
+[2023-06-20 10:16:07] INFO root fetch - processPackages [kong-pdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kong_pdk-0.33.tar.gz tmp/kong_pdk-0.34.tar.gz --markdown 20230620/k/kong-pdk/0.33-0.34/diff.md --exclude *.pyd
+[2023-06-20 10:16:07] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-20 10:16:07] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.3.2.tar.gz tmp/emailalert-1.3.3.tar.gz --markdown 20230620/e/emailalert/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-06-20 10:16:07] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/4b/9d/1fdf5dd5ce39b608541c5667fa63981816e9442cdafbb0460042d4a84d83/timeseriesflattener-1.2.0.tar.gz
+[2023-06-20 10:16:07] WARNING root fetch - processPackages [RiboMetric]: Skipping package: exceeds size limit 27183945>=10485760
+[2023-06-20 10:16:07] INFO root fetch - processPackages [RiboMetric]: Start processing: pkgbuild-language-server
+[2023-06-20 10:16:07] INFO root fetch - main [MainThread]: End processing [RiboMetric] error
+[2023-06-20 10:16:07] INFO root fetch - processPackages [addereq]: Downloading https://files.pythonhosted.org/packages/9e/3f/94a3faafd522cdbe31188ddf00cc5399110289a88ebcb909d800f2a17edb/addereq-1.0.5-cp39-cp39-win_amd64.whl
+[2023-06-20 10:16:07] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/bb/27/55b27df533170f2f9bc677ff2ab801730df87e282bd10b60953a0595706f/commitizen-3.4.0.tar.gz
+[2023-06-20 10:16:07] INFO root fetch - processPackages [henhoe2vec]: Downloading https://files.pythonhosted.org/packages/1f/df/d3cc078119b51d7d36e1a5309c00ee2b630a9622a84e178b00268fa9fbe2/henhoe2vec-1.0.0.tar.gz
+[2023-06-20 10:16:07] INFO root fetch - processPackages [timeseriesflattener]: executing diffoscope
+[2023-06-20 10:16:07] INFO root fetch - processPackages [timeseriesflattener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeseriesflattener-1.0.0.tar.gz tmp/timeseriesflattener-1.2.0.tar.gz --markdown 20230620/t/timeseriesflattener/1.0.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-20 10:16:07] INFO root fetch - processPackages [henhoe2vec]: Downloading https://files.pythonhosted.org/packages/1f/df/d3cc078119b51d7d36e1a5309c00ee2b630a9622a84e178b00268fa9fbe2/henhoe2vec-1.0.0.tar.gz
+[2023-06-20 10:16:07] INFO root fetch - processPackages [pkgbuild-language-server]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-20 10:16:07] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/70/ea/d7617bfe2814e12630a32143c76102bbd918ccc21dc3b4ad7e53e7cdfd2c/cloudforet-console-api-v2-1.12.dev6.tar.gz
+[2023-06-20 10:16:07] INFO root fetch - processPackages [commitizen]: executing diffoscope
+[2023-06-20 10:16:07] INFO root fetch - processPackages [commitizen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commitizen-3.3.0.tar.gz tmp/commitizen-3.4.0.tar.gz --markdown 20230620/c/commitizen/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-06-20 10:16:07] INFO root fetch - processPackages [henhoe2vec]: executing diffoscope
+[2023-06-20 10:16:07] INFO root fetch - processPackages [henhoe2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/henhoe2vec-0.0.1.tar.gz tmp/henhoe2vec-1.0.0.tar.gz --markdown 20230620/h/henhoe2vec/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-20 10:16:07] INFO root fetch - processPackages [henhoe2vec]: executing diffoscope
+[2023-06-20 10:16:07] INFO root fetch - processPackages [henhoe2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/henhoe2vec-0.0.1.tar.gz tmp/henhoe2vec-1.0.0.tar.gz --markdown 20230620/h/henhoe2vec/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-20 10:16:07] INFO root fetch - processPackages [pkgbuild-language-server]: Downloading https://files.pythonhosted.org/packages/85/be/cf9fb25a4822ef59d94bdb5ed072c89d59d49f211f302f90d0b727338932/pkgbuild-language-server-0.0.1.tar.gz
+[2023-06-20 10:16:07] INFO root fetch - processPackages [cloudforet-console-api-v2]: executing diffoscope
+[2023-06-20 10:16:07] INFO root fetch - processPackages [cloudforet-console-api-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudforet-console-api-v2-1.12.dev5.tar.gz tmp/cloudforet-console-api-v2-1.12.dev6.tar.gz --markdown 20230620/c/cloudforet-console-api-v2/1.12.dev5-1.12.dev6/diff.md --exclude *.pyd
+[2023-06-20 10:16:07] INFO root fetch - processPackages [addereq]: Downloading https://files.pythonhosted.org/packages/ec/e8/d7bfc3bc5c131fb13f66bb9d4293138daa9cde4c4d30b40f3162892cfca3/addereq-1.0.6-cp38-cp38-macosx_11_0_x86_64.whl
+[2023-06-20 10:16:07] INFO root fetch - processPackages [pkgbuild-language-server]: Downloading https://files.pythonhosted.org/packages/fb/a2/4e024dd0eff9eb3e42940a245b609ca10c2b799363046ed65f737af33d8e/pkgbuild-language-server-0.0.2.tar.gz
+[2023-06-20 10:16:08] INFO root fetch - processPackages [addereq]: executing diffoscope
+[2023-06-20 10:16:08] INFO root fetch - processPackages [addereq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/addereq-1.0.5-cp39-cp39-win_amd64.whl.zip tmp/addereq-1.0.6-cp38-cp38-macosx_11_0_x86_64.whl.zip --markdown 20230620/a/addereq/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-20 10:16:08] INFO root fetch - processPackages [pkgbuild-language-server]: executing diffoscope
+[2023-06-20 10:16:08] INFO root fetch - processPackages [pkgbuild-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgbuild-language-server-0.0.1.tar.gz tmp/pkgbuild-language-server-0.0.2.tar.gz --markdown 20230620/p/pkgbuild-language-server/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-20 10:16:08] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.3.2.tar.gz]
+[2023-06-20 10:16:08] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.3.3.tar.gz]
+[2023-06-20 10:16:08] INFO root fetch - processPackages [emailalert]: Start processing: hcai-datasets-nightly
+[2023-06-20 10:16:08] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-20 10:16:08] INFO root fetch - processPackages [hcai-datasets-nightly]: New version: [0.1.9.dev202306061220] Old Version: [0.1.9.dev202306021222]
+[2023-06-20 10:16:08] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/58/82/873eb312c837dd44bf46ea961e3f3c0f39ffc5d2f1be7226ebed41d2cc42/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz
+[2023-06-20 10:16:09] INFO root fetch - processPackages [henhoe2vec]: Remove: archive file [/home/abi/fetcher/tmp/henhoe2vec-0.0.1.tar.gz]
+[2023-06-20 10:16:09] INFO root fetch - processPackages [henhoe2vec]: Remove: archive file [/home/abi/fetcher/tmp/henhoe2vec-1.0.0.tar.gz]
+[2023-06-20 10:16:09] INFO root fetch - processPackages [henhoe2vec]: Start processing: vantage6-common
+[2023-06-20 10:16:09] INFO root fetch - main [MainThread]: End processing [henhoe2vec]: success
+[2023-06-20 10:16:09] INFO root fetch - processPackages [vantage6-common]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-20 10:16:09] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/04/98/abda7369242fa6c3acba2926ec79b399130654bee32e327caf5a0dadd8c3/vantage6-common-3.9.0rc2.tar.gz
+[2023-06-20 10:16:09] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.3.0.tar.gz]
+[2023-06-20 10:16:09] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.4.0.tar.gz]
+[2023-06-20 10:16:09] INFO root fetch - processPackages [commitizen]: Start processing: vantage6-client
+[2023-06-20 10:16:09] INFO root fetch - main [MainThread]: End processing [commitizen]: success
+[2023-06-20 10:16:09] INFO root fetch - processPackages [vantage6-client]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-20 10:16:09] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/cc/8a/7abb292e0070d775645f93a42c4c2021a36654aa36658a826b16e872bac6/vantage6-client-3.9.0rc2.tar.gz
+[2023-06-20 10:16:09] INFO root fetch - processPackages [data-engineering-pulumi-components]: Downloading https://files.pythonhosted.org/packages/e8/ee/a6dfcd17c8a1f4bed3781cf6f66ac1b46a52fee1c1505bb2365d662ae762/data-engineering-pulumi-components-0.4.1.dev7.tar.gz
+[2023-06-20 10:16:09] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/de/cb/1239e1a102d86e002b1436632871ff11e42cf788874d124ddb97ab106a25/vantage6-common-3.9.0rc4.tar.gz
+[2023-06-20 10:16:09] INFO root fetch - processPackages [henhoe2vec]: Start processing: vantage6
+[2023-06-20 10:16:09] INFO root fetch - main [MainThread]: End processing [henhoe2vec]: success
+[2023-06-20 10:16:09] INFO root fetch - processPackages [vantage6-common]: executing diffoscope
+[2023-06-20 10:16:09] INFO root fetch - processPackages [vantage6-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-common-3.9.0rc2.tar.gz tmp/vantage6-common-3.9.0rc4.tar.gz --markdown 20230620/v/vantage6-common/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-20 10:16:09] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/83/b1/52552994d80009402a91a34427a0306326f0781eaaefc933c31d687d9ae4/vantage6-client-3.9.0rc4.tar.gz
+[2023-06-20 10:16:09] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/8b/35/91665ab569b1c47ffa8dcc22829612c695da8975c35a4fc66a5d00795e6a/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz
+[2023-06-20 10:16:09] INFO root fetch - processPackages [vantage6-client]: executing diffoscope
+[2023-06-20 10:16:09] INFO root fetch - processPackages [vantage6-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-client-3.9.0rc2.tar.gz tmp/vantage6-client-3.9.0rc4.tar.gz --markdown 20230620/v/vantage6-client/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-20 10:16:09] INFO root fetch - processPackages [vantage6]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-20 10:16:09] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/79/28/e84e0e783a03637496f2b5fd1c5d7b203696fd490d45d44eebad6876491d/vantage6-3.9.0rc2.tar.gz
+[2023-06-20 10:16:09] INFO root fetch - processPackages [pkgbuild-language-server]: Remove: archive file [/home/abi/fetcher/tmp/pkgbuild-language-server-0.0.1.tar.gz]
+[2023-06-20 10:16:09] INFO root fetch - processPackages [pkgbuild-language-server]: Remove: archive file [/home/abi/fetcher/tmp/pkgbuild-language-server-0.0.2.tar.gz]
+[2023-06-20 10:16:09] INFO root fetch - processPackages [pkgbuild-language-server]: Start processing: vantage6-node
+[2023-06-20 10:16:09] INFO root fetch - main [MainThread]: End processing [pkgbuild-language-server]: success
+[2023-06-20 10:16:09] INFO root fetch - processPackages [vantage6-node]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-20 10:16:09] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-1.12.dev5.tar.gz]
+[2023-06-20 10:16:09] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-1.12.dev6.tar.gz]
+[2023-06-20 10:16:09] INFO root fetch - processPackages [cloudforet-console-api-v2]: Start processing: vantage6-server
+[2023-06-20 10:16:09] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
+[2023-06-20 10:16:09] INFO root fetch - processPackages [addereq]: Remove: archive file [/home/abi/fetcher/tmp/addereq-1.0.5-cp39-cp39-win_amd64.whl.zip]
+[2023-06-20 10:16:09] INFO root fetch - processPackages [addereq]: Remove: archive file [/home/abi/fetcher/tmp/addereq-1.0.6-cp38-cp38-macosx_11_0_x86_64.whl.zip]
+[2023-06-20 10:16:09] INFO root fetch - processPackages [addereq]: Start processing: circular-dict
+[2023-06-20 10:16:09] INFO root fetch - main [MainThread]: End processing [addereq]: success
+[2023-06-20 10:16:09] INFO root fetch - processPackages [vantage6-server]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-20 10:16:10] INFO root fetch - processPackages [circular-dict]: New version: [1.5] Old Version: [1.4]
+[2023-06-20 10:16:10] INFO root fetch - processPackages [kong-pdk]: Remove: archive file [/home/abi/fetcher/tmp/kong_pdk-0.33.tar.gz]
+[2023-06-20 10:16:10] INFO root fetch - processPackages [kong-pdk]: Remove: archive file [/home/abi/fetcher/tmp/kong_pdk-0.34.tar.gz]
+[2023-06-20 10:16:10] INFO root fetch - main [MainThread]: End processing [kong-pdk]: success
+[2023-06-20 10:16:10] INFO root fetch - processPackages [circular-dict]: Downloading https://files.pythonhosted.org/packages/1c/38/5b31485c6a583d37e5278ca5b1a08ade7e526cf4f547d1aa2bb356678fe1/circular-dict-1.4.tar.gz
+[2023-06-20 10:16:10] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/90/d2/2f29a2ff10348e0426f2c1ddfdf2bd721cdf127d749f7854c12f28ba1a15/vantage6-node-3.9.0rc2.tar.gz
+[2023-06-20 10:16:10] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/03/fa/166d5752a0abe58f0390806f65013f110f78bbde0405ad929520e326893b/vantage6-3.9.0rc4.tar.gz
+[2023-06-20 10:16:10] INFO root fetch - processPackages [vantage6]: executing diffoscope
+[2023-06-20 10:16:10] INFO root fetch - processPackages [vantage6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-3.9.0rc2.tar.gz tmp/vantage6-3.9.0rc4.tar.gz --markdown 20230620/v/vantage6/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-20 10:16:10] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/93/a4/4faa09e9d314fa4e9ae0ddfc4677720ec30f7b78ec12b20c1174cb4e9e1a/vantage6-server-3.9.0rc2.tar.gz
+[2023-06-20 10:16:10] INFO root fetch - processPackages [hcai-datasets-nightly]: executing diffoscope
+[2023-06-20 10:16:10] INFO root fetch - processPackages [hcai-datasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz tmp/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz --markdown 20230620/h/hcai-datasets-nightly/0.1.9.dev202306021222-0.1.9.dev202306061220/diff.md --exclude *.pyd
+[2023-06-20 10:16:10] INFO root fetch - processPackages [circular-dict]: Downloading https://files.pythonhosted.org/packages/fa/f6/6534f492bf60fc8467e9817036a9b19afc1481b9cbcaca3eb5420c062b83/circular-dict-1.5.tar.gz
+[2023-06-20 10:16:10] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/b4/71/a610fd6c37265434474f5572b44b27ff8f5f39318b8c77af5c69bc70b067/vantage6-node-3.9.0rc4.tar.gz
+[2023-06-20 10:16:10] INFO root fetch - processPackages [vantage6-node]: executing diffoscope
+[2023-06-20 10:16:10] INFO root fetch - processPackages [vantage6-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-node-3.9.0rc2.tar.gz tmp/vantage6-node-3.9.0rc4.tar.gz --markdown 20230620/v/vantage6-node/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-20 10:16:10] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/b6/05/772b7c5cd3ce82d8fdf717f8697d700fae68bbe7fd79eafb5692d1a39613/vantage6-server-3.9.0rc4.tar.gz
+[2023-06-20 10:16:10] INFO root fetch - processPackages [circular-dict]: executing diffoscope
+[2023-06-20 10:16:10] INFO root fetch - processPackages [circular-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circular-dict-1.4.tar.gz tmp/circular-dict-1.5.tar.gz --markdown 20230620/c/circular-dict/1.4-1.5/diff.md --exclude *.pyd
+[2023-06-20 10:16:10] INFO root fetch - processPackages [vantage6-server]: executing diffoscope
+[2023-06-20 10:16:10] INFO root fetch - processPackages [vantage6-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-server-3.9.0rc2.tar.gz tmp/vantage6-server-3.9.0rc4.tar.gz --markdown 20230620/v/vantage6-server/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-20 10:16:11] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-3.9.0rc2.tar.gz]
+[2023-06-20 10:16:11] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-3.9.0rc4.tar.gz]
+[2023-06-20 10:16:11] INFO root fetch - main [MainThread]: End processing [vantage6-client]: success
+[2023-06-20 10:16:11] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-3.9.0rc2.tar.gz]
+[2023-06-20 10:16:11] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-3.9.0rc4.tar.gz]
+[2023-06-20 10:16:11] INFO root fetch - main [MainThread]: End processing [vantage6-common]: success
+[2023-06-20 10:16:11] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-1.0.0.tar.gz]
+[2023-06-20 10:16:11] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-1.2.0.tar.gz]
+[2023-06-20 10:16:11] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
+[2023-06-20 10:16:11] INFO root fetch - processPackages [circular-dict]: Remove: archive file [/home/abi/fetcher/tmp/circular-dict-1.4.tar.gz]
+[2023-06-20 10:16:11] INFO root fetch - processPackages [circular-dict]: Remove: archive file [/home/abi/fetcher/tmp/circular-dict-1.5.tar.gz]
+[2023-06-20 10:16:11] INFO root fetch - main [MainThread]: End processing [circular-dict]: success
+[2023-06-20 10:16:12] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-3.9.0rc2.tar.gz]
+[2023-06-20 10:16:12] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-3.9.0rc4.tar.gz]
+[2023-06-20 10:16:12] INFO root fetch - main [MainThread]: End processing [vantage6]: success
+[2023-06-20 10:16:12] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-3.9.0rc2.tar.gz]
+[2023-06-20 10:16:12] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-3.9.0rc4.tar.gz]
+[2023-06-20 10:16:12] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
+[2023-06-20 10:16:12] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-3.9.0rc2.tar.gz]
+[2023-06-20 10:16:12] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-3.9.0rc4.tar.gz]
+[2023-06-20 10:16:12] INFO root fetch - main [MainThread]: End processing [vantage6-node]: success
+[2023-06-20 10:16:12] INFO root fetch - processPackages [data-engineering-pulumi-components]: executing diffoscope
+[2023-06-20 10:16:12] INFO root fetch - processPackages [data-engineering-pulumi-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-engineering-pulumi-components-0.4.1.dev6.tar.gz tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz --markdown 20230620/d/data-engineering-pulumi-components/0.4.1.dev6-0.4.1.dev7/diff.md --exclude *.pyd
+[2023-06-20 10:16:13] INFO root fetch - processPackages [hcai-datasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz]
+[2023-06-20 10:16:13] INFO root fetch - processPackages [hcai-datasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz]
+[2023-06-20 10:16:13] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
+[2023-06-20 10:16:14] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev6.tar.gz]
+[2023-06-20 10:16:14] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz]
+[2023-06-20 10:16:14] INFO root fetch - main [MainThread]: End processing [data-engineering-pulumi-components]: success
+[2023-06-20 10:16:14] INFO root fetch - main [MainThread]: Store serial: [18571697]
