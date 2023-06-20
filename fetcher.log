@@ -10887,3 +10887,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 05:38:49] INFO root fetch - processPackages [hatch-project]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project-0.1.2.tar.gz]
 [2023-06-20 05:38:49] INFO root fetch - main [MainThread]: End processing [hatch-project]: success
 [2023-06-20 05:38:49] INFO root fetch - main [MainThread]: Store serial: [18569740]
+[2023-06-20 05:43:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18569740]
+[2023-06-20 05:43:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-20 05:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sc2image
+[2023-06-20 05:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentential
+[2023-06-20 05:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dea-tools
+[2023-06-20 05:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: d20-securityLayer
+[2023-06-20 05:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cetl
+[2023-06-20 05:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: text2text
+[2023-06-20 05:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MouseTracks-Generate
+[2023-06-20 05:43:58] INFO root fetch - processPackages [sentential]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-20 05:43:58] INFO root fetch - processPackages [sc2image]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-20 05:43:58] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-06-20 05:43:58] INFO root fetch - processPackages [dea-tools]: New version: [0.2.8.dev97] Old Version: [0.2.8.dev96]
+[2023-06-20 05:43:58] INFO root fetch - processPackages [text2text]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-20 05:43:58] WARNING root fetch - processPackages [MouseTracks-Generate]: Skipping, unable to determine old version
+[2023-06-20 05:43:58] INFO root fetch - main [MainThread]: End processing [MouseTracks-Generate] error
+[2023-06-20 05:43:58] INFO root fetch - processPackages [cetl]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-20 05:43:58] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/b5/7f/086f837981170217116052b05373bbf9ede287aa375d582b42e31e612cf5/d20-securityLayer-2.0.0a8.tar.gz
+[2023-06-20 05:43:58] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/60/95/b0a0a46abc62db79cdb6726c229a2cf668c6239c540baec498a5406bddf2/text2text-1.0.4.tar.gz
+[2023-06-20 05:43:58] INFO root fetch - processPackages [sentential]: Downloading https://files.pythonhosted.org/packages/79/c6/e663af6fc8bfe559fe5b9297d4252184bd7a0a91ebf9e8f25713dd88d3d5/sentential-0.9.0.tar.gz
+[2023-06-20 05:43:58] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/a5/8f/e6c38c4a30e34e27c73d390677fb69b536831fdf18ceac5323ec7e5952f2/dea-tools-0.2.8.dev96.tar.gz
+[2023-06-20 05:43:58] INFO root fetch - processPackages [sc2image]: Downloading https://files.pythonhosted.org/packages/ef/4d/f7006bfb9040fc8d550118d68ee29b3d3b885ee66b4becaf3eba15d3a1d7/sc2image-1.0.3.tar.gz
+[2023-06-20 05:43:58] INFO root fetch - processPackages [cetl]: Downloading https://files.pythonhosted.org/packages/d3/bf/2cb2272d23697b6569cf16ffceb4111f725acd23ea1374891f23415604fb/cetl-0.2.8.tar.gz
+[2023-06-20 05:43:58] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/56/46/f3ba1d8980a81e7e0579b812ea29d2c68be9c442ea0e7168a51afcd8c79e/d20-securityLayer-2.0.0a9.tar.gz
+[2023-06-20 05:43:58] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/96/f9/ca1d523c7694b9b0ecf5bf8466d1e7887fae66060af0f9d768c3165574d3/text2text-1.0.5.tar.gz
+[2023-06-20 05:43:58] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-06-20 05:43:58] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.0.4.tar.gz tmp/text2text-1.0.5.tar.gz --markdown 20230620/t/text2text/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-20 05:43:58] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-06-20 05:43:58] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a8.tar.gz tmp/d20-securityLayer-2.0.0a9.tar.gz --markdown 20230620/d/d20-securityLayer/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-20 05:43:58] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/6c/a2/54f9080291998aff375fbdeae573a4329cd884f655a27302bbcdf010cc6d/dea-tools-0.2.8.dev97.tar.gz
+[2023-06-20 05:43:58] INFO root fetch - processPackages [sentential]: Downloading https://files.pythonhosted.org/packages/f9/28/ab7d3bd681223a210e72b1af4c9448c7e6806a1b78555919c0c9ec281945/sentential-0.9.1.tar.gz
+[2023-06-20 05:43:58] INFO root fetch - processPackages [dea-tools]: executing diffoscope
+[2023-06-20 05:43:59] INFO root fetch - processPackages [sc2image]: Downloading https://files.pythonhosted.org/packages/80/f3/7dba2c6a06e5d9570698f091f32f0aa6dbe5ebdfed06ab7ffb9f40b8312e/sc2image-1.0.4.tar.gz
+[2023-06-20 05:43:59] INFO root fetch - processPackages [dea-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dea-tools-0.2.8.dev96.tar.gz tmp/dea-tools-0.2.8.dev97.tar.gz --markdown 20230620/d/dea-tools/0.2.8.dev96-0.2.8.dev97/diff.md --exclude *.pyd
+[2023-06-20 05:43:59] INFO root fetch - processPackages [cetl]: Downloading https://files.pythonhosted.org/packages/e4/db/e536547f76541f77818cfc8e4ac51d6a4bc7668273db52e0f7219d3f1463/cetl-0.2.9.tar.gz
+[2023-06-20 05:43:59] INFO root fetch - processPackages [sc2image]: executing diffoscope
+[2023-06-20 05:43:59] INFO root fetch - processPackages [sc2image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc2image-1.0.3.tar.gz tmp/sc2image-1.0.4.tar.gz --markdown 20230620/s/sc2image/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-20 05:43:59] INFO root fetch - processPackages [cetl]: executing diffoscope
+[2023-06-20 05:43:59] INFO root fetch - processPackages [cetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cetl-0.2.8.tar.gz tmp/cetl-0.2.9.tar.gz --markdown 20230620/c/cetl/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-20 05:43:59] INFO root fetch - processPackages [sentential]: executing diffoscope
+[2023-06-20 05:43:59] INFO root fetch - processPackages [sentential]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentential-0.9.0.tar.gz tmp/sentential-0.9.1.tar.gz --markdown 20230620/s/sentential/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-20 05:44:00] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a8.tar.gz]
+[2023-06-20 05:44:00] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a9.tar.gz]
+[2023-06-20 05:44:00] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-06-20 05:44:00] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.0.4.tar.gz]
+[2023-06-20 05:44:00] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.0.5.tar.gz]
+[2023-06-20 05:44:00] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-06-20 05:44:00] INFO root fetch - processPackages [sc2image]: Remove: archive file [/home/abi/fetcher/tmp/sc2image-1.0.3.tar.gz]
+[2023-06-20 05:44:00] INFO root fetch - processPackages [sc2image]: Remove: archive file [/home/abi/fetcher/tmp/sc2image-1.0.4.tar.gz]
+[2023-06-20 05:44:00] INFO root fetch - main [MainThread]: End processing [sc2image]: success
+[2023-06-20 05:44:00] INFO root fetch - processPackages [dea-tools]: Remove: archive file [/home/abi/fetcher/tmp/dea-tools-0.2.8.dev96.tar.gz]
+[2023-06-20 05:44:00] INFO root fetch - processPackages [dea-tools]: Remove: archive file [/home/abi/fetcher/tmp/dea-tools-0.2.8.dev97.tar.gz]
+[2023-06-20 05:44:00] INFO root fetch - main [MainThread]: End processing [dea-tools]: success
+[2023-06-20 05:44:00] INFO root fetch - processPackages [sentential]: Remove: archive file [/home/abi/fetcher/tmp/sentential-0.9.0.tar.gz]
+[2023-06-20 05:44:00] INFO root fetch - processPackages [sentential]: Remove: archive file [/home/abi/fetcher/tmp/sentential-0.9.1.tar.gz]
+[2023-06-20 05:44:00] INFO root fetch - main [MainThread]: End processing [sentential]: success
+[2023-06-20 05:44:00] INFO root fetch - processPackages [cetl]: Remove: archive file [/home/abi/fetcher/tmp/cetl-0.2.8.tar.gz]
+[2023-06-20 05:44:00] INFO root fetch - processPackages [cetl]: Remove: archive file [/home/abi/fetcher/tmp/cetl-0.2.9.tar.gz]
+[2023-06-20 05:44:00] INFO root fetch - main [MainThread]: End processing [cetl]: success
+[2023-06-20 05:44:00] INFO root fetch - main [MainThread]: Store serial: [18569764]
