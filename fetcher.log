@@ -17985,3 +17985,129 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 11:46:39] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.7.tar.gz]
 [2023-06-20 11:46:39] INFO root fetch - main [MainThread]: End processing [smartchart]: success
 [2023-06-20 11:46:39] INFO root fetch - main [MainThread]: Store serial: [18572728]
+[2023-06-20 11:51:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18572728]
+[2023-06-20 11:51:50] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-20 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aspose-words-cloud
+[2023-06-20 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genepierre
+[2023-06-20 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recon-lw
+[2023-06-20 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: web3-ethereum-defi
+[2023-06-20 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: genepierre
+[2023-06-20 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcm-processor
+[2023-06-20 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-hordak
+[2023-06-20 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: showroom-recorder
+[2023-06-20 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hdcms
+[2023-06-20 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: turing-demo-lib
+[2023-06-20 11:51:50] INFO root fetch - processPackages [genepierre]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-20 11:51:50] INFO root fetch - processPackages [hdcms]: New version: [0.1.9] Old Version: [0.1.22]
+[2023-06-20 11:51:50] WARNING root fetch - processPackages [turing-demo-lib]: Skipping, unable to determine old version
+[2023-06-20 11:51:50] INFO root fetch - processPackages [genepierre]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-20 11:51:50] INFO root fetch - processPackages [turing-demo-lib]: Start processing: cg
+[2023-06-20 11:51:50] INFO root fetch - main [MainThread]: End processing [turing-demo-lib] error
+[2023-06-20 11:51:50] INFO root fetch - processPackages [web3-ethereum-defi]: New version: [0.9] Old Version: [0.8]
+[2023-06-20 11:51:50] INFO root fetch - processPackages [aspose-words-cloud]: New version: [23.5.0] Old Version: [23.4.0]
+[2023-06-20 11:51:50] INFO root fetch - processPackages [showroom-recorder]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-20 11:51:50] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5321044174] Old Version: [2.0.0.dev5320627957]
+[2023-06-20 11:51:50] INFO root fetch - processPackages [django-hordak]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-06-20 11:51:50] INFO root fetch - processPackages [dcm-processor]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-20 11:51:50] INFO root fetch - processPackages [cg]: New version: [36.4.1] Old Version: [36.4.0]
+[2023-06-20 11:51:50] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/7c/46/8b1960690cd40fcac1c6cc15c6475457d15564155719f23ba39d9584d6d9/recon_lw-2.0.0.dev5320627957.tar.gz
+[2023-06-20 11:51:50] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/21/34/4e575c5c69c12a261ed88c38d89f3fef34b66a121bf450db2de705ff9bb5/genepierre-0.1.4.tar.gz
+[2023-06-20 11:51:50] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/21/34/4e575c5c69c12a261ed88c38d89f3fef34b66a121bf450db2de705ff9bb5/genepierre-0.1.4.tar.gz
+[2023-06-20 11:51:50] INFO root fetch - processPackages [hdcms]: Downloading https://files.pythonhosted.org/packages/df/27/6d5f389c1dce8842f99cf312bce4eed87c84f29d540a08603c497ff348ab/hdcms-0.1.22.tar.gz
+[2023-06-20 11:51:50] INFO root fetch - processPackages [showroom-recorder]: Downloading https://files.pythonhosted.org/packages/74/5b/620131dd32b4b9587a0a8c42f85984a229e0b4fba5a4b266f60d5d4507e0/showroom-recorder-0.4.0.tar.gz
+[2023-06-20 11:51:50] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6e/b2/55d62c78e1aa4a218f0a70d7af0679b6ccbf2422ae9bdc6a2270aae08e2c/cg-36.4.0.tar.gz
+[2023-06-20 11:51:50] INFO root fetch - processPackages [aspose-words-cloud]: Downloading https://files.pythonhosted.org/packages/41/fd/77ed3c836b097eb6c9f7447d5573af4b870222220af83700abf697786942/aspose-words-cloud-23.4.0.tar.gz
+[2023-06-20 11:51:50] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/f7/34/bc567b2d884ed84729cca7ee7fa158347e0f72fc19d964b3721fd4ad740b/web3-ethereum-defi-0.8.tar.gz
+[2023-06-20 11:51:50] INFO root fetch - processPackages [dcm-processor]: Downloading https://files.pythonhosted.org/packages/f8/80/41165d23c9cbb3b87168a00c298b0d32872203d0d7fa607bbb6c77cb0644/dcm-processor-1.1.1.tar.gz
+[2023-06-20 11:51:50] INFO root fetch - processPackages [django-hordak]: Downloading https://files.pythonhosted.org/packages/fe/77/7ef1b2dc45046ec9a8f557e7fc066dec8c85d53eec86320a1c829e941cf4/django-hordak-1.8.3.tar.gz
+[2023-06-20 11:51:50] WARNING root fetch - processPackages [django-hordak]: Skipping package: exceeds size limit 12269557>=10485760
+[2023-06-20 11:51:50] INFO root fetch - processPackages [django-hordak]: Start processing: jaaql-middleware-python
+[2023-06-20 11:51:50] INFO root fetch - main [MainThread]: End processing [django-hordak] error
+[2023-06-20 11:51:50] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/20/c9/1840ab8fecd74be51d891c058d1f07cc37155869f7f2b7bb7ec0bc738b07/genepierre-0.1.5.tar.gz
+[2023-06-20 11:51:50] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/20/c9/1840ab8fecd74be51d891c058d1f07cc37155869f7f2b7bb7ec0bc738b07/genepierre-0.1.5.tar.gz
+[2023-06-20 11:51:50] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/56/fa/7e2664031bf3eff4d06fdee04ad2d0194a7350bf2382faf47b19bd380476/recon_lw-2.0.0.dev5321044174.tar.gz
+[2023-06-20 11:51:50] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-20 11:51:50] INFO root fetch - processPackages [showroom-recorder]: Downloading https://files.pythonhosted.org/packages/a6/3a/172d27f7e631462155bb34dc6f02ba665764b41a8176df58f16797cb22a9/showroom-recorder-0.4.1.tar.gz
+[2023-06-20 11:51:50] INFO root fetch - processPackages [genepierre]: executing diffoscope
+[2023-06-20 11:51:50] INFO root fetch - processPackages [genepierre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genepierre-0.1.4.tar.gz tmp/genepierre-0.1.5.tar.gz --markdown 20230620/g/genepierre/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-20 11:51:50] INFO root fetch - processPackages [genepierre]: executing diffoscope
+[2023-06-20 11:51:50] INFO root fetch - processPackages [genepierre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genepierre-0.1.4.tar.gz tmp/genepierre-0.1.5.tar.gz --markdown 20230620/g/genepierre/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-20 11:51:50] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/7f/41/8ea50a5c11da09e05451c166633f5911e742267a9fb1ea874d26abe85b37/cg-36.4.1.tar.gz
+[2023-06-20 11:51:50] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-06-20 11:51:50] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5320627957.tar.gz tmp/recon_lw-2.0.0.dev5321044174.tar.gz --markdown 20230620/r/recon-lw/2.0.0.dev5320627957-2.0.0.dev5321044174/diff.md --exclude *.pyd
+[2023-06-20 11:51:50] INFO root fetch - processPackages [aspose-words-cloud]: Downloading https://files.pythonhosted.org/packages/95/95/1b4ce508af87929dfc2249684c512d0a08099a0653c8083be05938faedaa/aspose-words-cloud-23.5.0.tar.gz
+[2023-06-20 11:51:50] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/02/9e/0b69309d6f37b54cc726ee3588483bd2d6bd07282539b30d2a04e48b82cd/web3-ethereum-defi-0.9.tar.gz
+[2023-06-20 11:51:50] INFO root fetch - processPackages [showroom-recorder]: executing diffoscope
+[2023-06-20 11:51:50] INFO root fetch - processPackages [showroom-recorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/showroom-recorder-0.4.0.tar.gz tmp/showroom-recorder-0.4.1.tar.gz --markdown 20230620/s/showroom-recorder/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-20 11:51:50] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/5c/29/6cb85a71537e8f30aa90f242c02eea2d3ca361001bc4860bdcac60ef21b3/jaaql-middleware-python-4.9.0.tar.gz
+[2023-06-20 11:51:51] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-20 11:51:51] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-36.4.0.tar.gz tmp/cg-36.4.1.tar.gz --markdown 20230620/c/cg/36.4.0-36.4.1/diff.md --exclude *.pyd
+[2023-06-20 11:51:51] INFO root fetch - processPackages [aspose-words-cloud]: executing diffoscope
+[2023-06-20 11:51:51] INFO root fetch - processPackages [aspose-words-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspose-words-cloud-23.4.0.tar.gz tmp/aspose-words-cloud-23.5.0.tar.gz --markdown 20230620/a/aspose-words-cloud/23.4.0-23.5.0/diff.md --exclude *.pyd
+[2023-06-20 11:51:51] INFO root fetch - processPackages [web3-ethereum-defi]: executing diffoscope
+[2023-06-20 11:51:51] INFO root fetch - processPackages [web3-ethereum-defi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3-ethereum-defi-0.8.tar.gz tmp/web3-ethereum-defi-0.9.tar.gz --markdown 20230620/w/web3-ethereum-defi/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-20 11:51:51] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/1c/9b/c594efdb4d5a8a8eb6e0876f48857da40e24c3018095e5e6276aad18d78d/jaaql-middleware-python-4.9.1.tar.gz
+[2023-06-20 11:51:51] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-06-20 11:51:51] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230620/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-20 11:51:51] INFO root fetch - processPackages [hdcms]: Downloading https://files.pythonhosted.org/packages/51/34/34ec56614830dd108a14b9d8f0c47d25fafb9b28d6da054418f54c5aadf2/hdcms-0.1.9.tar.gz
+[2023-06-20 11:51:51] INFO root fetch - processPackages [hdcms]: executing diffoscope
+[2023-06-20 11:51:51] INFO root fetch - processPackages [hdcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdcms-0.1.22.tar.gz tmp/hdcms-0.1.9.tar.gz --markdown 20230620/h/hdcms/0.1.22-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 11:51:51] INFO root fetch - processPackages [dcm-processor]: Downloading https://files.pythonhosted.org/packages/f0/0b/91e53e5914b8bee2a18c092bcd8717024b71915d5b1b5a800db55a828775/dcm-processor-1.1.2.tar.gz
+[2023-06-20 11:51:52] INFO root fetch - processPackages [showroom-recorder]: Remove: archive file [/home/abi/fetcher/tmp/showroom-recorder-0.4.0.tar.gz]
+[2023-06-20 11:51:52] INFO root fetch - processPackages [showroom-recorder]: Remove: archive file [/home/abi/fetcher/tmp/showroom-recorder-0.4.1.tar.gz]
+[2023-06-20 11:51:52] INFO root fetch - processPackages [showroom-recorder]: Start processing: python-selenium-ctrl-package
+[2023-06-20 11:51:52] INFO root fetch - main [MainThread]: End processing [showroom-recorder]: success
+[2023-06-20 11:51:52] INFO root fetch - processPackages [python-selenium-ctrl-package]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-20 11:51:52] INFO root fetch - processPackages [genepierre]: Remove: archive file [/home/abi/fetcher/tmp/genepierre-0.1.4.tar.gz]
+[2023-06-20 11:51:52] INFO root fetch - processPackages [genepierre]: Remove: archive file [/home/abi/fetcher/tmp/genepierre-0.1.5.tar.gz]
+[2023-06-20 11:51:52] INFO root fetch - processPackages [genepierre]: Start processing: whiffle-client
+[2023-06-20 11:51:52] INFO root fetch - main [MainThread]: End processing [genepierre]: success
+[2023-06-20 11:51:52] INFO root fetch - processPackages [python-selenium-ctrl-package]: Downloading https://files.pythonhosted.org/packages/90/94/0529f91b7cea9383eac1c51b125e64fa1c81b8d426d0f59a11b514d8002c/python_selenium_ctrl_package-0.0.98.tar.gz
+[2023-06-20 11:51:52] INFO root fetch - processPackages [whiffle-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-20 11:51:52] INFO root fetch - processPackages [dcm-processor]: executing diffoscope
+[2023-06-20 11:51:52] INFO root fetch - processPackages [dcm-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcm-processor-1.1.1.tar.gz tmp/dcm-processor-1.1.2.tar.gz --markdown 20230620/d/dcm-processor/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-20 11:51:52] INFO root fetch - processPackages [python-selenium-ctrl-package]: Downloading https://files.pythonhosted.org/packages/17/bd/a72156bf8bda13c88a0737151e6ac45509dc454537576bdcc97c761ce4de/python_selenium_ctrl_package-0.0.99.tar.gz
+[2023-06-20 11:51:52] INFO root fetch - processPackages [whiffle-client]: Downloading https://files.pythonhosted.org/packages/8b/c6/dbddf08379129c15e673b27f718d346fe3d841260df33ef530eb3ed46f01/whiffle_client-0.1.0.tar.gz
+[2023-06-20 11:51:52] INFO root fetch - processPackages [genepierre]: Start processing: locatieserver
+[2023-06-20 11:51:52] INFO root fetch - main [MainThread]: End processing [genepierre]: success
+[2023-06-20 11:51:52] INFO root fetch - processPackages [locatieserver]: New version: [0.5.2] Old Version: [0.5.0]
+[2023-06-20 11:51:52] INFO root fetch - processPackages [python-selenium-ctrl-package]: executing diffoscope
+[2023-06-20 11:51:52] INFO root fetch - processPackages [python-selenium-ctrl-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_selenium_ctrl_package-0.0.98.tar.gz tmp/python_selenium_ctrl_package-0.0.99.tar.gz --markdown 20230620/p/python-selenium-ctrl-package/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 11:51:52] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5320627957.tar.gz]
+[2023-06-20 11:51:52] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5321044174.tar.gz]
+[2023-06-20 11:51:52] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-06-20 11:51:52] INFO root fetch - processPackages [locatieserver]: Downloading https://files.pythonhosted.org/packages/6f/8b/77b0c9a60d0949fb4cc238a7e8f6d2e23be33583078d83ecba43fd0169b1/locatieserver-0.5.0.tar.gz
+[2023-06-20 11:51:52] INFO root fetch - processPackages [whiffle-client]: Downloading https://files.pythonhosted.org/packages/2f/48/b7edef76dd58c7f0a786a27c51103874deeaf13a9f382637a419d1712c3c/whiffle_client-0.1.1.tar.gz
+[2023-06-20 11:51:52] INFO root fetch - processPackages [whiffle-client]: executing diffoscope
+[2023-06-20 11:51:52] INFO root fetch - processPackages [whiffle-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whiffle_client-0.1.0.tar.gz tmp/whiffle_client-0.1.1.tar.gz --markdown 20230620/w/whiffle-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-20 11:51:53] INFO root fetch - processPackages [locatieserver]: Downloading https://files.pythonhosted.org/packages/be/80/72b37b94f6770c8f43315657b7c03e1f690fd5b83a1399e883a91e734671/locatieserver-0.5.2.tar.gz
+[2023-06-20 11:51:53] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.0.tar.gz]
+[2023-06-20 11:51:53] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.1.tar.gz]
+[2023-06-20 11:51:53] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-06-20 11:51:53] INFO root fetch - processPackages [locatieserver]: executing diffoscope
+[2023-06-20 11:51:53] INFO root fetch - processPackages [locatieserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locatieserver-0.5.0.tar.gz tmp/locatieserver-0.5.2.tar.gz --markdown 20230620/l/locatieserver/0.5.0-0.5.2/diff.md --exclude *.pyd
+[2023-06-20 11:51:54] INFO root fetch - processPackages [whiffle-client]: Remove: archive file [/home/abi/fetcher/tmp/whiffle_client-0.1.0.tar.gz]
+[2023-06-20 11:51:54] INFO root fetch - processPackages [whiffle-client]: Remove: archive file [/home/abi/fetcher/tmp/whiffle_client-0.1.1.tar.gz]
+[2023-06-20 11:51:54] INFO root fetch - main [MainThread]: End processing [whiffle-client]: success
+[2023-06-20 11:51:54] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.8.tar.gz]
+[2023-06-20 11:51:54] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.9.tar.gz]
+[2023-06-20 11:51:54] INFO root fetch - main [MainThread]: End processing [web3-ethereum-defi]: success
+[2023-06-20 11:51:54] INFO root fetch - processPackages [dcm-processor]: Remove: archive file [/home/abi/fetcher/tmp/dcm-processor-1.1.1.tar.gz]
+[2023-06-20 11:51:54] INFO root fetch - processPackages [dcm-processor]: Remove: archive file [/home/abi/fetcher/tmp/dcm-processor-1.1.2.tar.gz]
+[2023-06-20 11:51:54] INFO root fetch - main [MainThread]: End processing [dcm-processor]: success
+[2023-06-20 11:51:54] INFO root fetch - processPackages [locatieserver]: Remove: archive file [/home/abi/fetcher/tmp/locatieserver-0.5.0.tar.gz]
+[2023-06-20 11:51:54] INFO root fetch - processPackages [locatieserver]: Remove: archive file [/home/abi/fetcher/tmp/locatieserver-0.5.2.tar.gz]
+[2023-06-20 11:51:54] INFO root fetch - main [MainThread]: End processing [locatieserver]: success
+[2023-06-20 11:51:55] INFO root fetch - processPackages [python-selenium-ctrl-package]: Remove: archive file [/home/abi/fetcher/tmp/python_selenium_ctrl_package-0.0.98.tar.gz]
+[2023-06-20 11:51:55] INFO root fetch - processPackages [python-selenium-ctrl-package]: Remove: archive file [/home/abi/fetcher/tmp/python_selenium_ctrl_package-0.0.99.tar.gz]
+[2023-06-20 11:51:55] INFO root fetch - main [MainThread]: End processing [python-selenium-ctrl-package]: success
+[2023-06-20 11:51:59] INFO root fetch - processPackages [hdcms]: Remove: archive file [/home/abi/fetcher/tmp/hdcms-0.1.22.tar.gz]
+[2023-06-20 11:51:59] INFO root fetch - processPackages [hdcms]: Remove: archive file [/home/abi/fetcher/tmp/hdcms-0.1.9.tar.gz]
+[2023-06-20 11:51:59] INFO root fetch - main [MainThread]: End processing [hdcms]: success
+[2023-06-20 11:52:00] INFO root fetch - processPackages [aspose-words-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose-words-cloud-23.4.0.tar.gz]
+[2023-06-20 11:52:00] INFO root fetch - processPackages [aspose-words-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose-words-cloud-23.5.0.tar.gz]
+[2023-06-20 11:52:00] INFO root fetch - main [MainThread]: End processing [aspose-words-cloud]: success
+[2023-06-20 11:52:02] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.4.0.tar.gz]
+[2023-06-20 11:52:02] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.4.1.tar.gz]
+[2023-06-20 11:52:02] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-20 11:52:02] INFO root fetch - main [MainThread]: Store serial: [18572776]
