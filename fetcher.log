@@ -2487,3 +2487,86 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 02:43:47] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a9.tar.gz]
 [2023-06-20 02:43:47] INFO root fetch - main [MainThread]: End processing [headless]: success
 [2023-06-20 02:43:47] INFO root fetch - main [MainThread]: Store serial: [18566912]
+[2023-06-20 02:48:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566912]
+[2023-06-20 02:48:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-20 02:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: murkrow
+[2023-06-20 02:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cryptofusepy
+[2023-06-20 02:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfds-nightly
+[2023-06-20 02:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pillar1
+[2023-06-20 02:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: litenai
+[2023-06-20 02:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kubric-nightly
+[2023-06-20 02:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-comprehend-s3olap
+[2023-06-20 02:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: WIDscript
+[2023-06-20 02:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: heaserver-folders-aws-s3
+[2023-06-20 02:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vitruvi-sdk
+[2023-06-20 02:48:56] INFO root fetch - processPackages [pillar1]: New version: [0.1.5.6] Old Version: [0.1.5.5]
+[2023-06-20 02:48:56] WARNING root fetch - processPackages [litenai]: Skipping, unable to determine old version
+[2023-06-20 02:48:56] INFO root fetch - processPackages [litenai]: Start processing: cdktf-proxmox
+[2023-06-20 02:48:56] INFO root fetch - main [MainThread]: End processing [litenai] error
+[2023-06-20 02:48:56] INFO root fetch - processPackages [murkrow]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-20 02:48:56] WARNING root fetch - processPackages [WIDscript]: Skipping, unable to determine old version
+[2023-06-20 02:48:56] WARNING root fetch - processPackages [cryptofusepy]: Skipping, unable to determine old version
+[2023-06-20 02:48:56] INFO root fetch - processPackages [WIDscript]: Start processing: metaphor-connectors
+[2023-06-20 02:48:56] INFO root fetch - main [MainThread]: End processing [WIDscript] error
+[2023-06-20 02:48:56] INFO root fetch - processPackages [heaserver-folders-aws-s3]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-20 02:48:56] INFO root fetch - main [MainThread]: End processing [cryptofusepy] error
+[2023-06-20 02:48:56] WARNING root fetch - processPackages [vitruvi-sdk]: Skipping, unable to determine old version
+[2023-06-20 02:48:56] INFO root fetch - main [MainThread]: End processing [vitruvi-sdk] error
+[2023-06-20 02:48:56] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-20 02:48:56] INFO root fetch - processPackages [cdktf-proxmox]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-20 02:48:56] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-20 02:48:56] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306190045] Old Version: [4.9.2.dev202306180045]
+[2023-06-20 02:48:56] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Downloading https://files.pythonhosted.org/packages/f8/10/3a86463ed5a3cada680e1678f42cfdf2a07f27f8cdb90c8d0c3f57f9ab82/heaserver-folders-aws-s3-1.0.0a8.tar.gz
+[2023-06-20 02:48:56] INFO root fetch - processPackages [murkrow]: Downloading https://files.pythonhosted.org/packages/0a/01/acdedc9526ef3a7d75eb04dc74e69660e28ff3c6920da598fe4e1b6456ac/murkrow-0.8.0.tar.gz
+[2023-06-20 02:48:56] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/43/c7/e0909e684d97baf594485ffa7aa4e87419c74a041018f48e0ff25bf15d05/pillar1-0.1.5.5.tar.gz
+[2023-06-20 02:48:56] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-06-20 02:48:56] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-06-20 02:48:56] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/c2/c9/402204a97f2add09b1bb83771f5b6919237c9ab3339074ae83b39e9cec05/tfds-nightly-4.9.2.dev202306180045.tar.gz
+[2023-06-20 02:48:56] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-20 02:48:56] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-06-20 02:48:56] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-06-20 02:48:56] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Downloading https://files.pythonhosted.org/packages/f0/b0/dda81eace819afe1df5d783a040e576f769b7f6834886d20e39ca1737454/heaserver-folders-aws-s3-1.0.0a9.tar.gz
+[2023-06-20 02:48:56] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/d9/ee/7220413f67291e445284d014e3e51e97a33ce5125383f30b4756c598d8d8/cdktf-proxmox-0.0.98.tar.gz
+[2023-06-20 02:48:56] INFO root fetch - processPackages [murkrow]: Downloading https://files.pythonhosted.org/packages/a4/e9/84dc9a4bc1643f3d51e61a87dc738301cc044acf02216d65e0840e05aeba/murkrow-0.9.0.tar.gz
+[2023-06-20 02:48:56] INFO root fetch - processPackages [heaserver-folders-aws-s3]: executing diffoscope
+[2023-06-20 02:48:56] INFO root fetch - processPackages [heaserver-folders-aws-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-folders-aws-s3-1.0.0a8.tar.gz tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz --markdown 20230620/h/heaserver-folders-aws-s3/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-20 02:48:56] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-06-20 02:48:56] INFO root fetch - processPackages [murkrow]: executing diffoscope
+[2023-06-20 02:48:56] INFO root fetch - processPackages [murkrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murkrow-0.8.0.tar.gz tmp/murkrow-0.9.0.tar.gz --markdown 20230620/m/murkrow/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-20 02:48:56] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/e8/72/1d44870f357bb521e8e20acdc1f437696d43be4015081a949fa8ebad75a9/pillar1-0.1.5.6.tar.gz
+[2023-06-20 02:48:56] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2023-06-20 02:48:56] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/1e/23/cd7f1ea60c01a76bbc916d203826b8754956c2ba1cf22162661cc6758866/tfds-nightly-4.9.2.dev202306190045.tar.gz
+[2023-06-20 02:48:56] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-20 02:48:56] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.8.tar.gz tmp/kubric-nightly-2023.6.9.tar.gz --markdown 20230620/k/kubric-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-20 02:48:56] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-20 02:48:56] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.5.5.tar.gz tmp/pillar1-0.1.5.6.tar.gz --markdown 20230620/p/pillar1/0.1.5.5-0.1.5.6/diff.md --exclude *.pyd
+[2023-06-20 02:48:56] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/ae/43/6d62460a5f0e800acb4dffd0cf8c675fbd2916d3287669415148cb96adfe/cdktf-proxmox-0.0.99.tar.gz
+[2023-06-20 02:48:56] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2023-06-20 02:48:56] INFO root fetch - processPackages [cdktf-proxmox]: executing diffoscope
+[2023-06-20 02:48:56] INFO root fetch - processPackages [cdktf-proxmox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-proxmox-0.0.98.tar.gz tmp/cdktf-proxmox-0.0.99.tar.gz --markdown 20230620/c/cdktf-proxmox/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 02:48:56] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-20 02:48:56] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306180045.tar.gz tmp/tfds-nightly-4.9.2.dev202306190045.tar.gz --markdown 20230620/t/tfds-nightly/4.9.2.dev202306180045-4.9.2.dev202306190045/diff.md --exclude *.pyd
+[2023-06-20 02:48:57] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-06-20 02:48:57] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230620/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-20 02:48:57] INFO root fetch - processPackages [murkrow]: Remove: archive file [/home/abi/fetcher/tmp/murkrow-0.8.0.tar.gz]
+[2023-06-20 02:48:57] INFO root fetch - processPackages [murkrow]: Remove: archive file [/home/abi/fetcher/tmp/murkrow-0.9.0.tar.gz]
+[2023-06-20 02:48:57] INFO root fetch - main [MainThread]: End processing [murkrow]: success
+[2023-06-20 02:48:57] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.5.5.tar.gz]
+[2023-06-20 02:48:57] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.5.6.tar.gz]
+[2023-06-20 02:48:57] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-20 02:48:58] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.98.tar.gz]
+[2023-06-20 02:48:58] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.99.tar.gz]
+[2023-06-20 02:48:58] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
+[2023-06-20 02:48:58] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-folders-aws-s3-1.0.0a8.tar.gz]
+[2023-06-20 02:48:58] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz]
+[2023-06-20 02:48:58] INFO root fetch - main [MainThread]: End processing [heaserver-folders-aws-s3]: success
+[2023-06-20 02:48:58] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2023-06-20 02:48:58] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2023-06-20 02:48:58] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-06-20 02:48:58] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-06-20 02:48:58] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-06-20 02:48:58] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-20 02:49:07] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306180045.tar.gz]
+[2023-06-20 02:49:07] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306190045.tar.gz]
+[2023-06-20 02:49:07] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-20 02:49:07] INFO root fetch - main [MainThread]: Store serial: [18566959]
