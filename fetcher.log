@@ -12057,3 +12057,86 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 07:12:59] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
 [2023-06-20 07:12:59] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
 [2023-06-20 07:12:59] INFO root fetch - main [MainThread]: Store serial: [18570165]
+[2023-06-20 07:18:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570165]
+[2023-06-20 07:18:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-20 07:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stock-downloader
+[2023-06-20 07:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-bili-push
+[2023-06-20 07:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shapes-recognition
+[2023-06-20 07:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fedfind
+[2023-06-20 07:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tflite-support-nightly
+[2023-06-20 07:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keymap-drawer
+[2023-06-20 07:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geodata-harvester
+[2023-06-20 07:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: revChatGPT
+[2023-06-20 07:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tear-pages
+[2023-06-20 07:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hot-fair-utilities
+[2023-06-20 07:18:07] WARNING root fetch - processPackages [stock-downloader]: Skipping, unable to determine old version
+[2023-06-20 07:18:07] INFO root fetch - main [MainThread]: End processing [stock-downloader] error
+[2023-06-20 07:18:07] INFO root fetch - processPackages [shapes-recognition]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-06-20 07:18:07] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 07:18:08] INFO root fetch - processPackages [fedfind]: New version: [5.1.1] Old Version: [5.1.0]
+[2023-06-20 07:18:08] INFO root fetch - processPackages [geodata-harvester]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-20 07:18:08] INFO root fetch - processPackages [keymap-drawer]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-20 07:18:08] INFO root fetch - processPackages [tflite-support-nightly]: New version: [0.4.4.dev20230619] Old Version: [0.4.4.dev20230618]
+[2023-06-20 07:18:08] INFO root fetch - processPackages [tear-pages]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-20 07:18:08] INFO root fetch - processPackages [hot-fair-utilities]: New version: [1.0.52] Old Version: [1.0.51]
+[2023-06-20 07:18:08] INFO root fetch - processPackages [revChatGPT]: New version: [6.4.0] Old Version: [6.3.4]
+[2023-06-20 07:18:08] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/d1/c4/38f645bdfab9c895c4083c3e46463553734b3ca6472765f11dd5e50cea50/shapes_recognition-2.2.3.tar.gz
+[2023-06-20 07:18:08] INFO root fetch - processPackages [geodata-harvester]: Downloading https://files.pythonhosted.org/packages/95/8e/23be9d85d691620165e467d76a1156516f05e7e48292bfc13de60c4c43b0/geodata-harvester-1.0.1.tar.gz
+[2023-06-20 07:18:08] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/39/39/d1e974268ffd67486d5d2a3a5517b88f829cee0f9b36e9c892d5af45dbf8/nonebot_plugin_bili_push-0.1.8.tar.gz
+[2023-06-20 07:18:08] INFO root fetch - processPackages [fedfind]: Downloading https://files.pythonhosted.org/packages/41/0d/e4cbf0d02510862d636f4dde4db5c0308ba280f0c975589996f4fee8d28c/fedfind-5.1.0.tar.gz
+[2023-06-20 07:18:08] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/10/3f/bc61cbbf2f90409b9195217c3e4fb14b0b1d1f39853d35662e2973ff96fe/revChatGPT-6.3.4.tar.gz
+[2023-06-20 07:18:08] INFO root fetch - processPackages [keymap-drawer]: Downloading https://files.pythonhosted.org/packages/80/f0/5dc1f3e2b9c4784418afaf551acc73238ae7739da0a68f7b3ad172f42cb3/keymap_drawer-0.7.1-py3-none-any.whl
+[2023-06-20 07:18:08] INFO root fetch - processPackages [tflite-support-nightly]: Downloading https://files.pythonhosted.org/packages/b8/72/b393cb7e8c15ad5238bc43930c215be39e86b6885309cf7e483d23a8af1d/tflite_support_nightly-0.4.4.dev20230618-cp39-cp39-macosx_10_11_x86_64.whl
+[2023-06-20 07:18:08] INFO root fetch - processPackages [hot-fair-utilities]: Downloading https://files.pythonhosted.org/packages/8b/eb/5f64ce5d90c336d3b74c2be89dccb1dea6640ef472f457151738ae64e07f/hot-fair-utilities-1.0.51.tar.gz
+[2023-06-20 07:18:08] INFO root fetch - processPackages [tear-pages]: Downloading https://files.pythonhosted.org/packages/ba/79/022bc49ad73d06edd9614909e45627a674241985a6c9523da0a0eb6ee2e2/tear-pages-0.4.0.tar.gz
+[2023-06-20 07:18:08] WARNING root fetch - processPackages [tflite-support-nightly]: Skipping package: exceeds size limit 58314510>=10485760
+[2023-06-20 07:18:08] INFO root fetch - main [MainThread]: End processing [tflite-support-nightly] error
+[2023-06-20 07:18:08] INFO root fetch - processPackages [fedfind]: Downloading https://files.pythonhosted.org/packages/c2/1d/699b08ec3ed23208a1cafce168a3cf57e6d28819feab684f31bc316e37e3/fedfind-5.1.1.tar.gz
+[2023-06-20 07:18:08] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/20/52/50ce59811821c69feeeb933b61c05e50e64753adf5dca60df72587e03b65/shapes_recognition-2.2.4.tar.gz
+[2023-06-20 07:18:08] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/98/80/14fc0360d144b25fe162f1ae5aac987c98d54ffb8e47b8adc3bb74b4b28a/revChatGPT-6.4.0.tar.gz
+[2023-06-20 07:18:08] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/7a/de/eb6aaa4df9bfca89e16091310ba9209ee5026d1ad5eaaaa17aa8e4121daf/nonebot_plugin_bili_push-0.1.9.tar.gz
+[2023-06-20 07:18:08] INFO root fetch - processPackages [geodata-harvester]: Downloading https://files.pythonhosted.org/packages/29/63/782d691e68d07d47227f2f1a8ddda807d3e8b61473d261dfc011ba005844/geodata-harvester-1.1.0.tar.gz
+[2023-06-20 07:18:08] INFO root fetch - processPackages [geodata-harvester]: executing diffoscope
+[2023-06-20 07:18:08] INFO root fetch - processPackages [geodata-harvester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodata-harvester-1.0.1.tar.gz tmp/geodata-harvester-1.1.0.tar.gz --markdown 20230620/g/geodata-harvester/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-20 07:18:08] INFO root fetch - processPackages [fedfind]: executing diffoscope
+[2023-06-20 07:18:08] INFO root fetch - processPackages [fedfind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedfind-5.1.0.tar.gz tmp/fedfind-5.1.1.tar.gz --markdown 20230620/f/fedfind/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2023-06-20 07:18:08] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-06-20 07:18:08] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.8.tar.gz tmp/nonebot_plugin_bili_push-0.1.9.tar.gz --markdown 20230620/n/nonebot-plugin-bili-push/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 07:18:08] INFO root fetch - processPackages [keymap-drawer]: Downloading https://files.pythonhosted.org/packages/02/c1/342feaefb755c72190f1b94b8460bf874850f06f8f1afe572b15600ce1eb/keymap_drawer-0.8.0-py3-none-any.whl
+[2023-06-20 07:18:08] INFO root fetch - processPackages [tear-pages]: Downloading https://files.pythonhosted.org/packages/d2/17/5506155c5936ca911735c940c4e610940450c04635eb9027c8e5257cc233/tear-pages-0.4.1.tar.gz
+[2023-06-20 07:18:08] INFO root fetch - processPackages [keymap-drawer]: executing diffoscope
+[2023-06-20 07:18:08] INFO root fetch - processPackages [keymap-drawer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keymap_drawer-0.7.1-py3-none-any.whl.zip tmp/keymap_drawer-0.8.0-py3-none-any.whl.zip --markdown 20230620/k/keymap-drawer/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-20 07:18:08] INFO root fetch - processPackages [hot-fair-utilities]: Downloading https://files.pythonhosted.org/packages/dd/92/c6727e2eca8116a4a5d6ce6a92a1ef20be8e63196d8e7307a4749c16ad62/hot-fair-utilities-1.0.52.tar.gz
+[2023-06-20 07:18:08] INFO root fetch - processPackages [shapes-recognition]: executing diffoscope
+[2023-06-20 07:18:08] INFO root fetch - processPackages [shapes-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapes_recognition-2.2.3.tar.gz tmp/shapes_recognition-2.2.4.tar.gz --markdown 20230620/s/shapes-recognition/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-06-20 07:18:08] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-06-20 07:18:08] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.3.4.tar.gz tmp/revChatGPT-6.4.0.tar.gz --markdown 20230620/r/revChatGPT/6.3.4-6.4.0/diff.md --exclude *.pyd
+[2023-06-20 07:18:08] INFO root fetch - processPackages [tear-pages]: executing diffoscope
+[2023-06-20 07:18:08] INFO root fetch - processPackages [tear-pages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tear-pages-0.4.0.tar.gz tmp/tear-pages-0.4.1.tar.gz --markdown 20230620/t/tear-pages/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-20 07:18:08] INFO root fetch - processPackages [hot-fair-utilities]: executing diffoscope
+[2023-06-20 07:18:08] INFO root fetch - processPackages [hot-fair-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hot-fair-utilities-1.0.51.tar.gz tmp/hot-fair-utilities-1.0.52.tar.gz --markdown 20230620/h/hot-fair-utilities/1.0.51-1.0.52/diff.md --exclude *.pyd
+[2023-06-20 07:18:09] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.8.tar.gz]
+[2023-06-20 07:18:09] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.9.tar.gz]
+[2023-06-20 07:18:09] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-06-20 07:18:10] INFO root fetch - processPackages [keymap-drawer]: Remove: archive file [/home/abi/fetcher/tmp/keymap_drawer-0.7.1-py3-none-any.whl.zip]
+[2023-06-20 07:18:10] INFO root fetch - processPackages [keymap-drawer]: Remove: archive file [/home/abi/fetcher/tmp/keymap_drawer-0.8.0-py3-none-any.whl.zip]
+[2023-06-20 07:18:10] INFO root fetch - main [MainThread]: End processing [keymap-drawer]: success
+[2023-06-20 07:18:10] INFO root fetch - processPackages [geodata-harvester]: Remove: archive file [/home/abi/fetcher/tmp/geodata-harvester-1.0.1.tar.gz]
+[2023-06-20 07:18:10] INFO root fetch - processPackages [geodata-harvester]: Remove: archive file [/home/abi/fetcher/tmp/geodata-harvester-1.1.0.tar.gz]
+[2023-06-20 07:18:10] INFO root fetch - main [MainThread]: End processing [geodata-harvester]: success
+[2023-06-20 07:18:10] INFO root fetch - processPackages [tear-pages]: Remove: archive file [/home/abi/fetcher/tmp/tear-pages-0.4.0.tar.gz]
+[2023-06-20 07:18:10] INFO root fetch - processPackages [tear-pages]: Remove: archive file [/home/abi/fetcher/tmp/tear-pages-0.4.1.tar.gz]
+[2023-06-20 07:18:10] INFO root fetch - main [MainThread]: End processing [tear-pages]: success
+[2023-06-20 07:18:10] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.2.3.tar.gz]
+[2023-06-20 07:18:10] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.2.4.tar.gz]
+[2023-06-20 07:18:10] INFO root fetch - main [MainThread]: End processing [shapes-recognition]: success
+[2023-06-20 07:18:10] INFO root fetch - processPackages [fedfind]: Remove: archive file [/home/abi/fetcher/tmp/fedfind-5.1.0.tar.gz]
+[2023-06-20 07:18:10] INFO root fetch - processPackages [fedfind]: Remove: archive file [/home/abi/fetcher/tmp/fedfind-5.1.1.tar.gz]
+[2023-06-20 07:18:10] INFO root fetch - main [MainThread]: End processing [fedfind]: success
+[2023-06-20 07:18:10] INFO root fetch - processPackages [hot-fair-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hot-fair-utilities-1.0.51.tar.gz]
+[2023-06-20 07:18:10] INFO root fetch - processPackages [hot-fair-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hot-fair-utilities-1.0.52.tar.gz]
+[2023-06-20 07:18:10] INFO root fetch - main [MainThread]: End processing [hot-fair-utilities]: success
+[2023-06-20 07:18:11] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.3.4.tar.gz]
+[2023-06-20 07:18:11] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.4.0.tar.gz]
+[2023-06-20 07:18:11] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-06-20 07:18:11] INFO root fetch - main [MainThread]: Store serial: [18570203]
