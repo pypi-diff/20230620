@@ -13156,3 +13156,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 08:29:32] INFO root fetch - processPackages [pylebai]: Remove: archive file [/home/abi/fetcher/tmp/pylebai-1.1.6-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
 [2023-06-20 08:29:32] INFO root fetch - main [MainThread]: End processing [pylebai]: success
 [2023-06-20 08:29:32] INFO root fetch - main [MainThread]: Store serial: [18570656]
+[2023-06-20 08:34:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570656]
+[2023-06-20 08:34:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-20 08:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nyckel
+[2023-06-20 08:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seaborn-analyzer
+[2023-06-20 08:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2023-06-20 08:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ssakz
+[2023-06-20 08:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seven-cloudapp-frame
+[2023-06-20 08:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scrappeycom
+[2023-06-20 08:34:43] INFO root fetch - processPackages [ssakz]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-20 08:34:43] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-06-20 08:34:43] INFO root fetch - processPackages [seaborn-analyzer]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-20 08:34:43] INFO root fetch - processPackages [ssakz]: Downloading https://files.pythonhosted.org/packages/9f/bc/9174d20c8a44f944cdfcb917633da2e07671b7449fe0f0d9acd7105cc2d5/ssakz-0.0.1.tar.gz
+[2023-06-20 08:34:43] WARNING root fetch - processPackages [scrappeycom]: Skipping, unable to determine old version
+[2023-06-20 08:34:43] INFO root fetch - main [MainThread]: End processing [scrappeycom] error
+[2023-06-20 08:34:43] INFO root fetch - processPackages [nyckel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 08:34:43] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-06-20 08:34:43] INFO root fetch - processPackages [cg]: New version: [36.3.1] Old Version: [36.3.0]
+[2023-06-20 08:34:43] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6c/05/68741d974e0cd10678b0fbd46d9153a2b50b65f4ba21eb3a3437b4ab3f24/cg-36.3.0.tar.gz
+[2023-06-20 08:34:43] INFO root fetch - processPackages [ssakz]: Downloading https://files.pythonhosted.org/packages/69/e1/0a44fc8c0d2cf90657fae18491432b8f9ae90447321032770cc389b82493/ssakz-0.1.0.tar.gz
+[2023-06-20 08:34:43] INFO root fetch - processPackages [seaborn-analyzer]: Downloading https://files.pythonhosted.org/packages/70/7b/582f541648073e39941afa4a7c11d05333c66392ec04d52db84e77c9a131/seaborn-analyzer-0.3.0.tar.gz
+[2023-06-20 08:34:43] INFO root fetch - processPackages [ssakz]: executing diffoscope
+[2023-06-20 08:34:43] INFO root fetch - processPackages [ssakz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssakz-0.0.1.tar.gz tmp/ssakz-0.1.0.tar.gz --markdown 20230620/s/ssakz/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-20 08:34:43] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/84/16/921be5721a1bf9aaa52ee17c5a3877a7fb5eee5fffba36999ff2ce374379/nyckel-0.0.8.tar.gz
+[2023-06-20 08:34:43] INFO root fetch - processPackages [seaborn-analyzer]: Downloading https://files.pythonhosted.org/packages/17/0c/e04ec6fdcdc0b5a3f7a89c92c8539729040f3db97fe3c6d4ae005ca91597/seaborn-analyzer-0.3.1.tar.gz
+[2023-06-20 08:34:44] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-06-20 08:34:44] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/24/3c/24330188dbbd483cc404aaf025a063ff7f1012ae45669bf7d9c1adc4764b/cg-36.3.1.tar.gz
+[2023-06-20 08:34:44] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-06-20 08:34:44] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230620/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-06-20 08:34:44] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/44/be/18126ac7e7be3b6db5916e37529641b2aa83b85ad3076f23a737bac70bf7/nyckel-0.0.9.tar.gz
+[2023-06-20 08:34:44] INFO root fetch - processPackages [seaborn-analyzer]: executing diffoscope
+[2023-06-20 08:34:44] INFO root fetch - processPackages [seaborn-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaborn-analyzer-0.3.0.tar.gz tmp/seaborn-analyzer-0.3.1.tar.gz --markdown 20230620/s/seaborn-analyzer/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-20 08:34:44] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2023-06-20 08:34:44] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.0.8.tar.gz tmp/nyckel-0.0.9.tar.gz --markdown 20230620/n/nyckel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 08:34:44] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-20 08:34:44] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-36.3.0.tar.gz tmp/cg-36.3.1.tar.gz --markdown 20230620/c/cg/36.3.0-36.3.1/diff.md --exclude *.pyd
+[2023-06-20 08:34:44] INFO root fetch - processPackages [ssakz]: Remove: archive file [/home/abi/fetcher/tmp/ssakz-0.0.1.tar.gz]
+[2023-06-20 08:34:44] INFO root fetch - processPackages [ssakz]: Remove: archive file [/home/abi/fetcher/tmp/ssakz-0.1.0.tar.gz]
+[2023-06-20 08:34:44] INFO root fetch - main [MainThread]: End processing [ssakz]: success
+[2023-06-20 08:34:45] INFO root fetch - processPackages [seaborn-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/seaborn-analyzer-0.3.0.tar.gz]
+[2023-06-20 08:34:45] INFO root fetch - processPackages [seaborn-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/seaborn-analyzer-0.3.1.tar.gz]
+[2023-06-20 08:34:45] INFO root fetch - main [MainThread]: End processing [seaborn-analyzer]: success
+[2023-06-20 08:34:45] INFO root fetch - processPackages [nyckel]: Remove: archive file [/home/abi/fetcher/tmp/nyckel-0.0.8.tar.gz]
+[2023-06-20 08:34:45] INFO root fetch - processPackages [nyckel]: Remove: archive file [/home/abi/fetcher/tmp/nyckel-0.0.9.tar.gz]
+[2023-06-20 08:34:45] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2023-06-20 08:34:45] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-06-20 08:34:45] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-06-20 08:34:45] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-06-20 08:34:55] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.3.0.tar.gz]
+[2023-06-20 08:34:55] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.3.1.tar.gz]
+[2023-06-20 08:34:55] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-20 08:34:55] INFO root fetch - main [MainThread]: Store serial: [18570679]
