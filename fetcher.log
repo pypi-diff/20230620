@@ -12490,3 +12490,123 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 07:54:54] INFO root fetch - processPackages [handyman]: Remove: archive file [/home/abi/fetcher/tmp/handyman-0.3.6.tar.gz]
 [2023-06-20 07:54:54] INFO root fetch - main [MainThread]: End processing [handyman]: success
 [2023-06-20 07:54:54] INFO root fetch - main [MainThread]: Store serial: [18570387]
+[2023-06-20 07:59:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570387]
+[2023-06-20 08:00:04] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-20 08:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alpha-id-py
+[2023-06-20 08:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: accelbyte-py-sdk
+[2023-06-20 08:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tistory-helper
+[2023-06-20 08:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sciform
+[2023-06-20 08:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypipr
+[2023-06-20 08:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Denoising-Diffusion-Probabilistic-Models
+[2023-06-20 08:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FluidCube2
+[2023-06-20 08:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openAIInsight
+[2023-06-20 08:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shapes-recognition
+[2023-06-20 08:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-admin-atlantis
+[2023-06-20 08:00:04] INFO root fetch - processPackages [accelbyte-py-sdk]: New version: [0.43.0] Old Version: [0.42.0]
+[2023-06-20 08:00:04] INFO root fetch - processPackages [tistory-helper]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-20 08:00:04] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-20 08:00:04] WARNING root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Skipping, unable to determine old version
+[2023-06-20 08:00:04] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Start processing: stim
+[2023-06-20 08:00:04] INFO root fetch - main [MainThread]: End processing [Denoising-Diffusion-Probabilistic-Models] error
+[2023-06-20 08:00:04] WARNING root fetch - processPackages [FluidCube2]: Skipping, unable to determine old version
+[2023-06-20 08:00:04] INFO root fetch - processPackages [FluidCube2]: Start processing: llm-lens
+[2023-06-20 08:00:04] INFO root fetch - processPackages [openAIInsight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 08:00:04] INFO root fetch - main [MainThread]: End processing [FluidCube2] error
+[2023-06-20 08:00:04] WARNING root fetch - processPackages [django-admin-atlantis]: Skipping, unable to determine old version
+[2023-06-20 08:00:04] INFO root fetch - processPackages [django-admin-atlantis]: Start processing: alibabacloud-bpstudio20210931-py2
+[2023-06-20 08:00:04] INFO root fetch - main [MainThread]: End processing [django-admin-atlantis] error
+[2023-06-20 08:00:04] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 08:00:04] INFO root fetch - processPackages [shapes-recognition]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-06-20 08:00:04] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-06-20 08:00:04] WARNING root fetch - processPackages [llm-lens]: Skipping, unable to determine old version
+[2023-06-20 08:00:04] INFO root fetch - processPackages [llm-lens]: Start processing: pgx
+[2023-06-20 08:00:04] INFO root fetch - main [MainThread]: End processing [llm-lens] error
+[2023-06-20 08:00:04] INFO root fetch - processPackages [stim]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-20 08:00:04] WARNING root fetch - processPackages [alpha-id-py]: Skipping, unable to determine old version
+[2023-06-20 08:00:04] INFO root fetch - processPackages [alpha-id-py]: Start processing: stimcirq
+[2023-06-20 08:00:04] INFO root fetch - main [MainThread]: End processing [alpha-id-py] error
+[2023-06-20 08:00:04] INFO root fetch - processPackages [pgx]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-20 08:00:04] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/15/04/d795bcb0193e0a7ac41cf9929d8e4bfb8a89b791c68addd485f4d09b2a89/pypipr-1.0.8.tar.gz
+[2023-06-20 08:00:04] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-20 08:00:04] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: New version: [2.0.0] Old Version: [1.0.3]
+[2023-06-20 08:00:04] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/3c/b5/73354eb92a2d990acfb9c201ee8681aa2f88c6bd8bebf6365b8315ce918f/stim-1.9.dev1656756326.tar.gz
+[2023-06-20 08:00:04] INFO root fetch - processPackages [pgx]: Downloading https://files.pythonhosted.org/packages/a7/e9/bdf551aafc4874059e787a55b1727f2c6e4ae27a4250ff9b07a9f103eec6/pgx-0.8.1.tar.gz
+[2023-06-20 08:00:04] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/ec/fe/38fc995ba6685f64103f3cd62faa49cd869af074b36e401597d9d2b0278d/stimcirq-1.9.dev1656756326.tar.gz
+[2023-06-20 08:00:04] INFO root fetch - processPackages [tistory-helper]: Downloading https://files.pythonhosted.org/packages/bf/55/2a9cf2703b1c8898ef9f52011179b6c44fa39878a0d7c156eaccf25db001/tistory-helper-0.0.1.tar.gz
+[2023-06-20 08:00:04] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2023-06-20 08:00:04] INFO root fetch - processPackages [openAIInsight]: Downloading https://files.pythonhosted.org/packages/ae/06/fa51b5dcb39e8e6a7a8a823499d9504e6c1e9251753ad6524ae82bbb466e/openAIInsight-0.0.8-py3-none-any.whl
+[2023-06-20 08:00:04] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/20/52/50ce59811821c69feeeb933b61c05e50e64753adf5dca60df72587e03b65/shapes_recognition-2.2.4.tar.gz
+[2023-06-20 08:00:05] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-06-20 08:00:05] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: Downloading https://files.pythonhosted.org/packages/d8/63/b3b43c40a36810dab5f896b8e25d0b119c584cdd40ec8d6f1d343a19c602/alibabacloud_bpstudio20210931_py2-1.0.3.tar.gz
+[2023-06-20 08:00:05] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-06-20 08:00:05] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.8.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20230620/p/pypipr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 08:00:05] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/0e/9c/5ba52c312bd56598b3625675b062eed876f9e2248d957e47c58050cad31a/stim-1.9.dev1657429876.tar.gz
+[2023-06-20 08:00:05] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/a2/fe/5fa281db7d139ef59a3c4c47c96940bf9f3fab0d0017ea452412c0cfc8d3/stimcirq-1.9.dev1657429876.tar.gz
+[2023-06-20 08:00:05] INFO root fetch - processPackages [accelbyte-py-sdk]: Downloading https://files.pythonhosted.org/packages/fa/46/d21f8ef99d9fe66aafbd38c4072184f9aa3c4d7b45e61a402b310a5d6b98/accelbyte_py_sdk-0.43.0.tar.gz
+[2023-06-20 08:00:05] INFO root fetch - processPackages [pgx]: Downloading https://files.pythonhosted.org/packages/ce/61/3c5fa4d294a227581046224815f7a4457fd88c9ce9d1c40dc7abde8846ce/pgx-0.9.0.tar.gz
+[2023-06-20 08:00:05] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2023-06-20 08:00:05] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20230620/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-20 08:00:05] INFO root fetch - processPackages [stim]: executing diffoscope
+[2023-06-20 08:00:05] INFO root fetch - processPackages [stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stim-1.9.dev1656756326.tar.gz tmp/stim-1.9.dev1657429876.tar.gz --markdown 20230620/s/stim/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-20 08:00:05] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/50/bc/dc8e865cbe22a3267adf560c8c52cf9c3fdc10a0a6014058f0475c82cb82/shapes_recognition-2.2.5.tar.gz
+[2023-06-20 08:00:05] INFO root fetch - processPackages [pgx]: executing diffoscope
+[2023-06-20 08:00:05] INFO root fetch - processPackages [pgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgx-0.8.1.tar.gz tmp/pgx-0.9.0.tar.gz --markdown 20230620/p/pgx/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-20 08:00:05] INFO root fetch - processPackages [tistory-helper]: Downloading https://files.pythonhosted.org/packages/c4/5b/9cc4e6e69d6eab3c5d3012a286419ec6bfe2ab5b780299b57337d56b141f/tistory-helper-0.0.2.tar.gz
+[2023-06-20 08:00:05] INFO root fetch - processPackages [accelbyte-py-sdk]: executing diffoscope
+[2023-06-20 08:00:05] INFO root fetch - processPackages [accelbyte-py-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte_py_sdk-0.42.0.tar.gz tmp/accelbyte_py_sdk-0.43.0.tar.gz --markdown 20230620/a/accelbyte-py-sdk/0.42.0-0.43.0/diff.md --exclude *.pyd
+[2023-06-20 08:00:05] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-06-20 08:00:05] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230620/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-20 08:00:05] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: Downloading https://files.pythonhosted.org/packages/9a/c3/3e6666ac2a29ac00d0b38d50eb2883de105e8b0687dfd88f56d2af3ebf7e/alibabacloud_bpstudio20210931_py2-2.0.0.tar.gz
+[2023-06-20 08:00:05] INFO root fetch - processPackages [shapes-recognition]: executing diffoscope
+[2023-06-20 08:00:05] INFO root fetch - processPackages [shapes-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapes_recognition-2.2.4.tar.gz tmp/shapes_recognition-2.2.5.tar.gz --markdown 20230620/s/shapes-recognition/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-06-20 08:00:05] INFO root fetch - processPackages [tistory-helper]: executing diffoscope
+[2023-06-20 08:00:05] INFO root fetch - processPackages [tistory-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tistory-helper-0.0.1.tar.gz tmp/tistory-helper-0.0.2.tar.gz --markdown 20230620/t/tistory-helper/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-20 08:00:05] INFO root fetch - processPackages [openAIInsight]: Downloading https://files.pythonhosted.org/packages/1e/33/a70a124292be5c9d2c37167928812a80dc68e36910e94f3ba08cba349c03/openAIInsight-0.0.9-py3-none-any.whl
+[2023-06-20 08:00:05] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: executing diffoscope
+[2023-06-20 08:00:05] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_bpstudio20210931_py2-1.0.3.tar.gz tmp/alibabacloud_bpstudio20210931_py2-2.0.0.tar.gz --markdown 20230620/a/alibabacloud-bpstudio20210931-py2/1.0.3-2.0.0/diff.md --exclude *.pyd
+[2023-06-20 08:00:05] INFO root fetch - processPackages [openAIInsight]: executing diffoscope
+[2023-06-20 08:00:05] INFO root fetch - processPackages [openAIInsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openAIInsight-0.0.8-py3-none-any.whl.zip tmp/openAIInsight-0.0.9-py3-none-any.whl.zip --markdown 20230620/o/openAIInsight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 08:00:06] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.8.tar.gz]
+[2023-06-20 08:00:06] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2023-06-20 08:00:06] INFO root fetch - processPackages [pypipr]: Start processing: AMAS-sb
+[2023-06-20 08:00:06] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-06-20 08:00:06] INFO root fetch - processPackages [AMAS-sb]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-06-20 08:00:06] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2023-06-20 08:00:06] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2023-06-20 08:00:06] INFO root fetch - processPackages [stimcirq]: Start processing: sinter
+[2023-06-20 08:00:06] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2023-06-20 08:00:06] INFO root fetch - processPackages [AMAS-sb]: Downloading https://files.pythonhosted.org/packages/b4/87/aae6732e8feb50e656986622be07919c61c521c329cbbb468c73469d63f1/AMAS-sb-0.2.0.tar.gz
+[2023-06-20 08:00:06] WARNING root fetch - processPackages [AMAS-sb]: Skipping package: exceeds size limit 23342785>=10485760
+[2023-06-20 08:00:06] INFO root fetch - main [MainThread]: End processing [AMAS-sb] error
+[2023-06-20 08:00:07] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.6.1.tar.gz]
+[2023-06-20 08:00:07] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.7.0.tar.gz]
+[2023-06-20 08:00:07] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-06-20 08:00:07] INFO root fetch - processPackages [openAIInsight]: Remove: archive file [/home/abi/fetcher/tmp/openAIInsight-0.0.8-py3-none-any.whl.zip]
+[2023-06-20 08:00:07] INFO root fetch - processPackages [openAIInsight]: Remove: archive file [/home/abi/fetcher/tmp/openAIInsight-0.0.9-py3-none-any.whl.zip]
+[2023-06-20 08:00:07] INFO root fetch - main [MainThread]: End processing [openAIInsight]: success
+[2023-06-20 08:00:07] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-20 08:00:07] INFO root fetch - processPackages [tistory-helper]: Remove: archive file [/home/abi/fetcher/tmp/tistory-helper-0.0.1.tar.gz]
+[2023-06-20 08:00:07] INFO root fetch - processPackages [tistory-helper]: Remove: archive file [/home/abi/fetcher/tmp/tistory-helper-0.0.2.tar.gz]
+[2023-06-20 08:00:07] INFO root fetch - main [MainThread]: End processing [tistory-helper]: success
+[2023-06-20 08:00:07] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/df/c6/cb2622852c76647e7b6ad9a7a7e10f4e2cac9ecdfd523ac68df0bfc130af/sinter-1.9.dev1656756326.tar.gz
+[2023-06-20 08:00:07] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.2.4.tar.gz]
+[2023-06-20 08:00:07] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.2.5.tar.gz]
+[2023-06-20 08:00:07] INFO root fetch - main [MainThread]: End processing [shapes-recognition]: success
+[2023-06-20 08:00:07] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_bpstudio20210931_py2-1.0.3.tar.gz]
+[2023-06-20 08:00:07] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_bpstudio20210931_py2-2.0.0.tar.gz]
+[2023-06-20 08:00:07] INFO root fetch - main [MainThread]: End processing [alibabacloud-bpstudio20210931-py2]: success
+[2023-06-20 08:00:07] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/fd/5e/bd22cf7318b95a6cb630aede242c37ca8e376f51d3c73522d4d3fafd60c3/sinter-1.9.dev1657429876.tar.gz
+[2023-06-20 08:00:07] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2023-06-20 08:00:07] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20230620/s/sinter/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-20 08:00:08] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2023-06-20 08:00:08] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2023-06-20 08:00:08] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2023-06-20 08:00:09] INFO root fetch - processPackages [pgx]: Remove: archive file [/home/abi/fetcher/tmp/pgx-0.8.1.tar.gz]
+[2023-06-20 08:00:09] INFO root fetch - processPackages [pgx]: Remove: archive file [/home/abi/fetcher/tmp/pgx-0.9.0.tar.gz]
+[2023-06-20 08:00:09] INFO root fetch - main [MainThread]: End processing [pgx]: success
+[2023-06-20 08:00:11] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1656756326.tar.gz]
+[2023-06-20 08:00:11] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1657429876.tar.gz]
+[2023-06-20 08:00:11] INFO root fetch - main [MainThread]: End processing [stim]: success
+[2023-06-20 08:03:05] ERROR root fetch - processPackages [accelbyte-py-sdk]: Timeout during execution of pkgdiff
+[2023-06-20 08:03:05] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk] error
+[2023-06-20 08:03:05] INFO root fetch - main [MainThread]: Store serial: [18570468]
