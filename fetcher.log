@@ -2570,3 +2570,91 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 02:49:07] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306190045.tar.gz]
 [2023-06-20 02:49:07] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-20 02:49:07] INFO root fetch - main [MainThread]: Store serial: [18566959]
+[2023-06-20 02:54:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566959]
+[2023-06-20 02:54:16] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-20 02:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-github
+[2023-06-20 02:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chalk-harness
+[2023-06-20 02:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: namlab-analysis
+[2023-06-20 02:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.ecs-codedeploy
+[2023-06-20 02:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: turing-sdk
+[2023-06-20 02:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pythonmc
+[2023-06-20 02:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airbyte
+[2023-06-20 02:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-databrew-cicd
+[2023-06-20 02:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: namlab-analysis
+[2023-06-20 02:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: playlisterUtil
+[2023-06-20 02:54:16] INFO root fetch - processPackages [turing-sdk]: New version: [0.9.1] Old Version: [0.9.0rc1]
+[2023-06-20 02:54:16] INFO root fetch - processPackages [airbyte]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-20 02:54:16] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-20 02:54:16] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-20 02:54:16] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-20 02:54:16] WARNING root fetch - processPackages [pythonmc]: Skipping, unable to determine old version
+[2023-06-20 02:54:16] INFO root fetch - processPackages [namlab-analysis]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-20 02:54:16] INFO root fetch - processPackages [pythonmc]: Start processing: cryptofusepy
+[2023-06-20 02:54:16] INFO root fetch - processPackages [namlab-analysis]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-20 02:54:16] INFO root fetch - main [MainThread]: End processing [pythonmc] error
+[2023-06-20 02:54:16] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-20 02:54:16] WARNING root fetch - processPackages [cryptofusepy]: Skipping, unable to determine old version
+[2023-06-20 02:54:16] INFO root fetch - main [MainThread]: End processing [cryptofusepy] error
+[2023-06-20 02:54:16] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-06-20 02:54:16] INFO root fetch - processPackages [playlisterUtil]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-20 02:54:16] INFO root fetch - processPackages [namlab-analysis]: Downloading https://files.pythonhosted.org/packages/e7/f8/527062b1fdab717dcfc1cdd9a82acec492c9b6ae015d8a47e59ebc06fa53/namlab_analysis-0.1.0.tar.gz
+[2023-06-20 02:54:16] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/8e/3a/1b7bcfd68b3fb7e312a8d5dfe975c73f564cd879a55be62b0791d2c939a7/chalk-harness-0.9.8.tar.gz
+[2023-06-20 02:54:16] INFO root fetch - processPackages [turing-sdk]: Downloading https://files.pythonhosted.org/packages/26/36/2ac15f8049170e515149e0b51fbf0316d875cdb2d73ecbc60270ff767a87/turing-sdk-0.9.0rc1.tar.gz
+[2023-06-20 02:54:16] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/95/09/eea230e893ab55370e867c76f081945c8f60016ebdb0b385d9f077a4fc0c/airbyte-1.9.2.tar.gz
+[2023-06-20 02:54:16] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Downloading https://files.pythonhosted.org/packages/c6/34/cef791c667d067a7923df4169adb57934467590c903d5f58c9e5be5a7759/cdklabs.ecs-codedeploy-0.0.98.tar.gz
+[2023-06-20 02:54:16] INFO root fetch - processPackages [namlab-analysis]: Downloading https://files.pythonhosted.org/packages/e7/f8/527062b1fdab717dcfc1cdd9a82acec492c9b6ae015d8a47e59ebc06fa53/namlab_analysis-0.1.0.tar.gz
+[2023-06-20 02:54:16] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-06-20 02:54:17] INFO root fetch - processPackages [playlisterUtil]: Downloading https://files.pythonhosted.org/packages/5b/d8/0759ef3d9368e0aa0ad5d0c36b2e34364005eb4b8ffe996e319fd46a3366/playlisterUtil-2.0.2.tar.gz
+[2023-06-20 02:54:17] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-06-20 02:54:17] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/5a/a1/ebd94059e71285766b03c097e6d74809a224502f80a4a6bfbcd4279de9d3/chalk-harness-0.9.9.tar.gz
+[2023-06-20 02:54:17] INFO root fetch - processPackages [playlisterUtil]: Downloading https://files.pythonhosted.org/packages/47/6b/ca57d6151e1dea80be2343ee4ee8333994561fb8d36839624e72a9ae991c/playlisterutil-2.0.3.tar.gz
+[2023-06-20 02:54:17] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/c8/0f/877b6add49894978bf75b52f0cac1579d618edd3403e2547fc5a23f4705e/airbyte-1.9.3.tar.gz
+[2023-06-20 02:54:17] INFO root fetch - processPackages [namlab-analysis]: Downloading https://files.pythonhosted.org/packages/a6/12/a39208242c2c380b90a03e95e0bc6a611ff0a61b93a6999f64e08e084f07/namlab_analysis-0.1.1.tar.gz
+[2023-06-20 02:54:17] INFO root fetch - processPackages [namlab-analysis]: Downloading https://files.pythonhosted.org/packages/a6/12/a39208242c2c380b90a03e95e0bc6a611ff0a61b93a6999f64e08e084f07/namlab_analysis-0.1.1.tar.gz
+[2023-06-20 02:54:17] INFO root fetch - processPackages [turing-sdk]: Downloading https://files.pythonhosted.org/packages/2d/ff/d3b618586eb0ac11d36e9027ecbd3201b2a991a6f9504008ee0f7cac19c0/turing-sdk-0.9.1.tar.gz
+[2023-06-20 02:54:17] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-20 02:54:17] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230620/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-20 02:54:17] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-06-20 02:54:17] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Downloading https://files.pythonhosted.org/packages/32/d6/43cc31093e5335204bbb8629fe11154ff7ebd2508f020ee399403b503b2c/cdklabs.ecs-codedeploy-0.0.99.tar.gz
+[2023-06-20 02:54:17] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-06-20 02:54:17] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230620/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-20 02:54:17] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-06-20 02:54:17] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.9.2.tar.gz tmp/airbyte-1.9.3.tar.gz --markdown 20230620/a/airbyte/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-20 02:54:17] INFO root fetch - processPackages [turing-sdk]: executing diffoscope
+[2023-06-20 02:54:17] INFO root fetch - processPackages [turing-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turing-sdk-0.9.0rc1.tar.gz tmp/turing-sdk-0.9.1.tar.gz --markdown 20230620/t/turing-sdk/0.9.0rc1-0.9.1/diff.md --exclude *.pyd
+[2023-06-20 02:54:17] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-06-20 02:54:17] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230620/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 02:54:17] INFO root fetch - processPackages [playlisterUtil]: executing diffoscope
+[2023-06-20 02:54:17] INFO root fetch - processPackages [playlisterUtil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playlisterUtil-2.0.2.tar.gz tmp/playlisterutil-2.0.3.tar.gz --markdown 20230620/p/playlisterUtil/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-20 02:54:17] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: executing diffoscope
+[2023-06-20 02:54:17] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.ecs-codedeploy-0.0.98.tar.gz tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz --markdown 20230620/c/cdklabs.ecs-codedeploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 02:54:17] INFO root fetch - processPackages [namlab-analysis]: executing diffoscope
+[2023-06-20 02:54:17] INFO root fetch - processPackages [namlab-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namlab_analysis-0.1.0.tar.gz tmp/namlab_analysis-0.1.1.tar.gz --markdown 20230620/n/namlab-analysis/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-20 02:54:17] INFO root fetch - processPackages [namlab-analysis]: executing diffoscope
+[2023-06-20 02:54:17] INFO root fetch - processPackages [namlab-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namlab_analysis-0.1.0.tar.gz tmp/namlab_analysis-0.1.1.tar.gz --markdown 20230620/n/namlab-analysis/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-20 02:54:18] INFO root fetch - processPackages [playlisterUtil]: Remove: archive file [/home/abi/fetcher/tmp/playlisterUtil-2.0.2.tar.gz]
+[2023-06-20 02:54:18] INFO root fetch - processPackages [playlisterUtil]: Remove: archive file [/home/abi/fetcher/tmp/playlisterutil-2.0.3.tar.gz]
+[2023-06-20 02:54:18] INFO root fetch - main [MainThread]: End processing [playlisterUtil]: success
+[2023-06-20 02:54:18] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-0.9.8.tar.gz]
+[2023-06-20 02:54:18] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-0.9.9.tar.gz]
+[2023-06-20 02:54:18] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-06-20 02:54:19] INFO root fetch - processPackages [namlab-analysis]: Remove: archive file [/home/abi/fetcher/tmp/namlab_analysis-0.1.0.tar.gz]
+[2023-06-20 02:54:19] INFO root fetch - processPackages [namlab-analysis]: Remove: archive file [/home/abi/fetcher/tmp/namlab_analysis-0.1.1.tar.gz]
+[2023-06-20 02:54:19] INFO root fetch - main [MainThread]: End processing [namlab-analysis]: success
+[2023-06-20 02:54:19] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-06-20 02:54:19] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-06-20 02:54:19] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-06-20 02:54:19] INFO root fetch - main [MainThread]: End processing [namlab-analysis]: success
+[2023-06-20 02:54:20] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-06-20 02:54:20] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-06-20 02:54:20] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-20 02:54:21] INFO root fetch - processPackages [turing-sdk]: Remove: archive file [/home/abi/fetcher/tmp/turing-sdk-0.9.0rc1.tar.gz]
+[2023-06-20 02:54:21] INFO root fetch - processPackages [turing-sdk]: Remove: archive file [/home/abi/fetcher/tmp/turing-sdk-0.9.1.tar.gz]
+[2023-06-20 02:54:21] INFO root fetch - main [MainThread]: End processing [turing-sdk]: success
+[2023-06-20 02:54:23] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.2.tar.gz]
+[2023-06-20 02:54:23] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.3.tar.gz]
+[2023-06-20 02:54:23] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-06-20 02:55:11] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.ecs-codedeploy-0.0.98.tar.gz]
+[2023-06-20 02:55:11] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz]
+[2023-06-20 02:55:11] INFO root fetch - main [MainThread]: End processing [cdklabs.ecs-codedeploy]: success
+[2023-06-20 02:55:11] INFO root fetch - main [MainThread]: Store serial: [18566994]
