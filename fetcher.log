@@ -14741,3 +14741,117 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 09:49:20] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-06-20 09:49:20] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-06-20 09:49:20] INFO root fetch - main [MainThread]: Store serial: [18571416]
+[2023-06-20 09:54:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18571416]
+[2023-06-20 09:54:31] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-20 09:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ftrack-ams
+[2023-06-20 09:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lamineml
+[2023-06-20 09:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dlrnapi-client
+[2023-06-20 09:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognite-sdk-experimental
+[2023-06-20 09:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idem-gcp
+[2023-06-20 09:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: emailalert
+[2023-06-20 09:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hello2
+[2023-06-20 09:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nutils
+[2023-06-20 09:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chemcat
+[2023-06-20 09:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ansys-sherlock-core
+[2023-06-20 09:54:31] INFO root fetch - processPackages [ftrack-ams]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-20 09:54:31] INFO root fetch - processPackages [emailalert]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-20 09:54:31] INFO root fetch - processPackages [dlrnapi-client]: New version: [0.9.1] Old Version: [0.8.1]
+[2023-06-20 09:54:31] INFO root fetch - processPackages [chemcat]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-20 09:54:31] INFO root fetch - processPackages [idem-gcp]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-20 09:54:31] INFO root fetch - processPackages [nutils]: New version: [7.3] Old Version: [7.2]
+[2023-06-20 09:54:31] INFO root fetch - processPackages [cognite-sdk-experimental]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-20 09:54:31] INFO root fetch - processPackages [lamineml]: New version: [0.0.73] Old Version: [0.0.72]
+[2023-06-20 09:54:31] INFO root fetch - processPackages [hello2]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-20 09:54:31] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/04/89/26c9f6825f62c0065d91a7ac4a6282a98c25f62c4f9f2818e013c58add60/emailalert-1.3.0.tar.gz
+[2023-06-20 09:54:31] WARNING root fetch - processPackages [ansys-sherlock-core]: Skipping, unable to determine old version
+[2023-06-20 09:54:31] INFO root fetch - processPackages [ansys-sherlock-core]: Start processing: tf-nightly-cpu
+[2023-06-20 09:54:31] INFO root fetch - main [MainThread]: End processing [ansys-sherlock-core] error
+[2023-06-20 09:54:31] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/3e/11/899afabfb3b2b0e7d087f50cff104986c24f9024fee24baa47efb55a00e5/hello2-2.0.3.tar.gz
+[2023-06-20 09:54:31] INFO root fetch - processPackages [ftrack-ams]: Downloading https://files.pythonhosted.org/packages/0a/f1/88ecdca7a2eb946490f33d967638f4af338c82aa3d988dbcad4a500446b9/ftrack-ams-2.0.8.tar.gz
+[2023-06-20 09:54:31] INFO root fetch - processPackages [nutils]: Downloading https://files.pythonhosted.org/packages/f0/36/d0716f07643e3a036083accab993f525b03bf02dbe3e128101f6c60e2422/nutils-7.2.tar.gz
+[2023-06-20 09:54:31] INFO root fetch - processPackages [cognite-sdk-experimental]: Downloading https://files.pythonhosted.org/packages/38/13/ad0923915b3cbf4fe7c0577fc8cd4195dc7103fba9a2a7dbc603f3129176/cognite-sdk-experimental-0.98.0.tar.gz
+[2023-06-20 09:54:31] INFO root fetch - processPackages [idem-gcp]: Downloading https://files.pythonhosted.org/packages/89/16/023436a520dfbdb08a394e740d1d63c733dde7256753761769c4786c99b3/idem_gcp-1.1.0.tar.gz
+[2023-06-20 09:54:31] INFO root fetch - processPackages [chemcat]: Downloading https://files.pythonhosted.org/packages/de/06/fcd10084ac5d6070395f552cc90faafef00f5d44b4547ea4cd08dcebbb74/chemcat-0.3.5.tar.gz
+[2023-06-20 09:54:31] INFO root fetch - processPackages [dlrnapi-client]: Downloading https://files.pythonhosted.org/packages/54/ad/01274b2aa69df242c6b6ada268b2284b8eae607dc1a533d064adcfcf5a42/dlrnapi_client-0.8.1.tar.gz
+[2023-06-20 09:54:31] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230620] Old Version: [2.14.0.dev20230619]
+[2023-06-20 09:54:31] INFO root fetch - processPackages [lamineml]: Downloading https://files.pythonhosted.org/packages/1e/9e/ae21be4e49f07c7c30bb01c5de0482d015af07f4aebaf035dbc73c985b8a/lamineml-0.0.72.tar.gz
+[2023-06-20 09:54:31] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/f1/1c/84d0897fa130089f2f0e844dc233bd63bd9b7d8fab133b82d9f7a4e3a469/emailalert-1.3.1.tar.gz
+[2023-06-20 09:54:32] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-20 09:54:32] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.3.0.tar.gz tmp/emailalert-1.3.1.tar.gz --markdown 20230620/e/emailalert/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-20 09:54:32] INFO root fetch - processPackages [ftrack-ams]: Downloading https://files.pythonhosted.org/packages/34/ea/861e042065368474af4e1dd5aae5c75b15e4457811a6fd86d4bc977e16fe/ftrack-ams-2.0.9.tar.gz
+[2023-06-20 09:54:32] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/cf/58/ef1b8fde3cadaaced8795fba121f2b30e792bbbf8e2c742780a9110255e2/hello2-2.0.4.tar.gz
+[2023-06-20 09:54:32] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/36/e3/7701fef67e4899749c63324594a1f2d3ecc9147b295be8d9d1605205e74e/tf_nightly_cpu-2.14.0.dev20230619-cp39-cp39-win_amd64.whl
+[2023-06-20 09:54:32] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-06-20 09:54:32] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-2.0.3.tar.gz tmp/hello2-2.0.4.tar.gz --markdown 20230620/h/hello2/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-20 09:54:32] INFO root fetch - processPackages [ftrack-ams]: executing diffoscope
+[2023-06-20 09:54:32] INFO root fetch - processPackages [ftrack-ams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack-ams-2.0.8.tar.gz tmp/ftrack-ams-2.0.9.tar.gz --markdown 20230620/f/ftrack-ams/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-20 09:54:32] INFO root fetch - processPackages [idem-gcp]: Downloading https://files.pythonhosted.org/packages/ad/88/9071ef48035486562a1d7ea9b37d649a00988cec546de10c03075aac086e/idem_gcp-1.2.0.tar.gz
+[2023-06-20 09:54:32] INFO root fetch - processPackages [nutils]: Downloading https://files.pythonhosted.org/packages/67/22/faf10ae9fcfcafd239e75ba4d1b022b0c6d3db899fa2bebf5940081ffbc1/nutils-7.3.tar.gz
+[2023-06-20 09:54:32] INFO root fetch - processPackages [idem-gcp]: executing diffoscope
+[2023-06-20 09:54:32] INFO root fetch - processPackages [idem-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem_gcp-1.1.0.tar.gz tmp/idem_gcp-1.2.0.tar.gz --markdown 20230620/i/idem-gcp/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-20 09:54:32] INFO root fetch - processPackages [lamineml]: Downloading https://files.pythonhosted.org/packages/5e/51/651914dd893eb6ee783a21ec90bad52b95fe6062507701548fdbf2f0d24d/lamineml-0.0.73.tar.gz
+[2023-06-20 09:54:32] INFO root fetch - processPackages [nutils]: executing diffoscope
+[2023-06-20 09:54:32] INFO root fetch - processPackages [nutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutils-7.2.tar.gz tmp/nutils-7.3.tar.gz --markdown 20230620/n/nutils/7.2-7.3/diff.md --exclude *.pyd
+[2023-06-20 09:54:32] INFO root fetch - processPackages [cognite-sdk-experimental]: Downloading https://files.pythonhosted.org/packages/c8/14/a4154ec3c6e7cec5cde322f9be77d7d1ab979ae9f4ad5de8c946c528d0a6/cognite-sdk-experimental-0.99.0.tar.gz
+[2023-06-20 09:54:32] INFO root fetch - processPackages [dlrnapi-client]: Downloading https://files.pythonhosted.org/packages/06/34/176e1dd60b337e8258ac66ca1c1e12b00c54954bdbd121d6270e892578a9/dlrnapi_client-0.9.1.tar.gz
+[2023-06-20 09:54:32] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-06-20 09:54:32] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.0.72.tar.gz tmp/lamineml-0.0.73.tar.gz --markdown 20230620/l/lamineml/0.0.72-0.0.73/diff.md --exclude *.pyd
+[2023-06-20 09:54:32] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/d7/e8/ee86d121d319d8fb91081f1352c1427065b460c7e27e3fbadeaa4f435f6b/tf_nightly_cpu-2.14.0.dev20230620-cp39-cp39-win_amd64.whl
+[2023-06-20 09:54:32] INFO root fetch - processPackages [cognite-sdk-experimental]: executing diffoscope
+[2023-06-20 09:54:32] INFO root fetch - processPackages [cognite-sdk-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite-sdk-experimental-0.98.0.tar.gz tmp/cognite-sdk-experimental-0.99.0.tar.gz --markdown 20230620/c/cognite-sdk-experimental/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-20 09:54:32] INFO root fetch - processPackages [dlrnapi-client]: executing diffoscope
+[2023-06-20 09:54:32] INFO root fetch - processPackages [dlrnapi-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlrnapi_client-0.8.1.tar.gz tmp/dlrnapi_client-0.9.1.tar.gz --markdown 20230620/d/dlrnapi-client/0.8.1-0.9.1/diff.md --exclude *.pyd
+[2023-06-20 09:54:32] INFO root fetch - processPackages [chemcat]: Downloading https://files.pythonhosted.org/packages/d5/1a/55c3d2688c94eae0d15fb1a457ce9d9da2bdc47e99f4bd932d11d2694bf7/chemcat-0.3.6.tar.gz
+[2023-06-20 09:54:32] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-20 09:54:32] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230619-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230620-cp39-cp39-win_amd64.whl.zip --markdown 20230620/t/tf-nightly-cpu/2.14.0.dev20230619-2.14.0.dev20230620/diff.md --exclude *.pyd
+[2023-06-20 09:54:32] INFO root fetch - processPackages [chemcat]: executing diffoscope
+[2023-06-20 09:54:32] INFO root fetch - processPackages [chemcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemcat-0.3.5.tar.gz tmp/chemcat-0.3.6.tar.gz --markdown 20230620/c/chemcat/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-20 09:54:33] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.3.0.tar.gz]
+[2023-06-20 09:54:33] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.3.1.tar.gz]
+[2023-06-20 09:54:33] INFO root fetch - processPackages [emailalert]: Start processing: paytring
+[2023-06-20 09:54:33] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-20 09:54:33] INFO root fetch - processPackages [paytring]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-20 09:54:33] INFO root fetch - processPackages [paytring]: Downloading https://files.pythonhosted.org/packages/9b/7c/54c06030c671006a274b1fe1b16240719bf0b330e566eff0741f8e98f1ec/paytring-1.0.1.tar.gz
+[2023-06-20 09:54:33] INFO root fetch - processPackages [ftrack-ams]: Remove: archive file [/home/abi/fetcher/tmp/ftrack-ams-2.0.8.tar.gz]
+[2023-06-20 09:54:33] INFO root fetch - processPackages [ftrack-ams]: Remove: archive file [/home/abi/fetcher/tmp/ftrack-ams-2.0.9.tar.gz]
+[2023-06-20 09:54:33] INFO root fetch - processPackages [ftrack-ams]: Start processing: dynamicio
+[2023-06-20 09:54:33] INFO root fetch - main [MainThread]: End processing [ftrack-ams]: success
+[2023-06-20 09:54:33] INFO root fetch - processPackages [dynamicio]: New version: [5.0.0rc2] Old Version: [5.0.0rc1]
+[2023-06-20 09:54:33] INFO root fetch - processPackages [paytring]: Downloading https://files.pythonhosted.org/packages/f0/41/aebc246ffa59e6ed5ad6fea28660e7f4c48c49fad374a4135240bc358983/paytring-1.0.2.tar.gz
+[2023-06-20 09:54:33] INFO root fetch - processPackages [dynamicio]: Downloading https://files.pythonhosted.org/packages/43/2a/fb8abe10c4c2d4ae6b54d98e5094d788450f38026839f6fdcb2e26a52c8e/dynamicio-5.0.0rc1.tar.gz
+[2023-06-20 09:54:33] INFO root fetch - processPackages [paytring]: executing diffoscope
+[2023-06-20 09:54:33] INFO root fetch - processPackages [paytring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paytring-1.0.1.tar.gz tmp/paytring-1.0.2.tar.gz --markdown 20230620/p/paytring/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-20 09:54:34] INFO root fetch - processPackages [lamineml]: Remove: archive file [/home/abi/fetcher/tmp/lamineml-0.0.72.tar.gz]
+[2023-06-20 09:54:34] INFO root fetch - processPackages [lamineml]: Remove: archive file [/home/abi/fetcher/tmp/lamineml-0.0.73.tar.gz]
+[2023-06-20 09:54:34] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-06-20 09:54:34] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230619-cp39-cp39-win_amd64.whl.zip]
+[2023-06-20 09:54:34] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230620-cp39-cp39-win_amd64.whl.zip]
+[2023-06-20 09:54:34] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-20 09:54:34] INFO root fetch - processPackages [dynamicio]: Downloading https://files.pythonhosted.org/packages/48/19/e83e7d01135d0656843b30243be7d673a3c8956fced4c16ba3c496ce9d72/dynamicio-5.0.0rc2.tar.gz
+[2023-06-20 09:54:34] INFO root fetch - processPackages [cognite-sdk-experimental]: Remove: archive file [/home/abi/fetcher/tmp/cognite-sdk-experimental-0.98.0.tar.gz]
+[2023-06-20 09:54:34] INFO root fetch - processPackages [cognite-sdk-experimental]: Remove: archive file [/home/abi/fetcher/tmp/cognite-sdk-experimental-0.99.0.tar.gz]
+[2023-06-20 09:54:34] INFO root fetch - main [MainThread]: End processing [cognite-sdk-experimental]: success
+[2023-06-20 09:54:34] INFO root fetch - processPackages [nutils]: Remove: archive file [/home/abi/fetcher/tmp/nutils-7.2.tar.gz]
+[2023-06-20 09:54:34] INFO root fetch - processPackages [nutils]: Remove: archive file [/home/abi/fetcher/tmp/nutils-7.3.tar.gz]
+[2023-06-20 09:54:34] INFO root fetch - main [MainThread]: End processing [nutils]: success
+[2023-06-20 09:54:34] INFO root fetch - processPackages [dynamicio]: executing diffoscope
+[2023-06-20 09:54:34] INFO root fetch - processPackages [dynamicio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamicio-5.0.0rc1.tar.gz tmp/dynamicio-5.0.0rc2.tar.gz --markdown 20230620/d/dynamicio/5.0.0rc1-5.0.0rc2/diff.md --exclude *.pyd
+[2023-06-20 09:54:34] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-2.0.3.tar.gz]
+[2023-06-20 09:54:34] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-2.0.4.tar.gz]
+[2023-06-20 09:54:34] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-06-20 09:54:35] INFO root fetch - processPackages [idem-gcp]: Remove: archive file [/home/abi/fetcher/tmp/idem_gcp-1.1.0.tar.gz]
+[2023-06-20 09:54:35] INFO root fetch - processPackages [idem-gcp]: Remove: archive file [/home/abi/fetcher/tmp/idem_gcp-1.2.0.tar.gz]
+[2023-06-20 09:54:35] INFO root fetch - main [MainThread]: End processing [idem-gcp]: success
+[2023-06-20 09:54:35] INFO root fetch - processPackages [dlrnapi-client]: Remove: archive file [/home/abi/fetcher/tmp/dlrnapi_client-0.8.1.tar.gz]
+[2023-06-20 09:54:35] INFO root fetch - processPackages [dlrnapi-client]: Remove: archive file [/home/abi/fetcher/tmp/dlrnapi_client-0.9.1.tar.gz]
+[2023-06-20 09:54:35] INFO root fetch - main [MainThread]: End processing [dlrnapi-client]: success
+[2023-06-20 09:54:35] INFO root fetch - processPackages [paytring]: Remove: archive file [/home/abi/fetcher/tmp/paytring-1.0.1.tar.gz]
+[2023-06-20 09:54:35] INFO root fetch - processPackages [paytring]: Remove: archive file [/home/abi/fetcher/tmp/paytring-1.0.2.tar.gz]
+[2023-06-20 09:54:35] INFO root fetch - main [MainThread]: End processing [paytring]: success
+[2023-06-20 09:54:35] INFO root fetch - processPackages [dynamicio]: Remove: archive file [/home/abi/fetcher/tmp/dynamicio-5.0.0rc1.tar.gz]
+[2023-06-20 09:54:35] INFO root fetch - processPackages [dynamicio]: Remove: archive file [/home/abi/fetcher/tmp/dynamicio-5.0.0rc2.tar.gz]
+[2023-06-20 09:54:35] INFO root fetch - main [MainThread]: End processing [dynamicio]: success
+[2023-06-20 09:55:06] INFO root fetch - processPackages [chemcat]: Remove: archive file [/home/abi/fetcher/tmp/chemcat-0.3.5.tar.gz]
+[2023-06-20 09:55:06] INFO root fetch - processPackages [chemcat]: Remove: archive file [/home/abi/fetcher/tmp/chemcat-0.3.6.tar.gz]
+[2023-06-20 09:55:06] INFO root fetch - main [MainThread]: End processing [chemcat]: success
+[2023-06-20 09:55:06] INFO root fetch - main [MainThread]: Store serial: [18571460]
