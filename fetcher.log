@@ -17902,3 +17902,86 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 11:41:17] INFO root fetch - processPackages [dearwatson]: Remove: archive file [/home/abi/fetcher/tmp/dearwatson-0.7.8.tar.gz]
 [2023-06-20 11:41:17] INFO root fetch - main [MainThread]: End processing [dearwatson]: success
 [2023-06-20 11:41:17] INFO root fetch - main [MainThread]: Store serial: [18572688]
+[2023-06-20 11:46:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18572688]
+[2023-06-20 11:46:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-20 11:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eoreader
+[2023-06-20 11:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: humlab-penelope
+[2023-06-20 11:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peaqevcore
+[2023-06-20 11:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thunder-ase
+[2023-06-20 11:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartchart
+[2023-06-20 11:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: 0012
+[2023-06-20 11:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkdocs-cu-ab6459
+[2023-06-20 11:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vnpy-binance-pro
+[2023-06-20 11:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abi-ds-utils
+[2023-06-20 11:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hdcms
+[2023-06-20 11:46:28] INFO root fetch - processPackages [hdcms]: New version: [0.1.9] Old Version: [0.1.20]
+[2023-06-20 11:46:28] WARNING root fetch - processPackages [0012]: Skipping, unable to determine old version
+[2023-06-20 11:46:28] INFO root fetch - main [MainThread]: End processing [0012] error
+[2023-06-20 11:46:28] INFO root fetch - processPackages [mkdocs-cu-ab6459]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-20 11:46:28] INFO root fetch - processPackages [eoreader]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-20 11:46:28] INFO root fetch - processPackages [vnpy-binance-pro]: New version: [2023.6.20.1] Old Version: [2023.4.20.2]
+[2023-06-20 11:46:28] INFO root fetch - processPackages [smartchart]: New version: [6.6.7] Old Version: [6.6.6.4]
+[2023-06-20 11:46:28] INFO root fetch - processPackages [abi-ds-utils]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-06-20 11:46:28] INFO root fetch - processPackages [thunder-ase]: New version: [0.4] Old Version: [0.3.1]
+[2023-06-20 11:46:28] INFO root fetch - processPackages [humlab-penelope]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-20 11:46:28] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-06-20 11:46:28] INFO root fetch - processPackages [hdcms]: Downloading https://files.pythonhosted.org/packages/da/f9/b91c24a02cb96f9ea2c1fc727965c7a3d3575116dd31057ecebf9eb46028/hdcms-0.1.20.tar.gz
+[2023-06-20 11:46:28] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-06-20 11:46:29] INFO root fetch - processPackages [humlab-penelope]: Downloading https://files.pythonhosted.org/packages/d8/ca/dedea523957beaa5dab86604ac3a1877a34c4a4036306f5610f37f3eeb10/humlab-penelope-0.7.8.tar.gz
+[2023-06-20 11:46:29] INFO root fetch - processPackages [eoreader]: Downloading https://files.pythonhosted.org/packages/aa/93/2526755e5e5c071b3dd1c998a47aee62dae3ad3909ed36ea6c9b45953cd7/eoreader-0.9.4.tar.gz
+[2023-06-20 11:46:29] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/e6/f3/31b4b2b1bfa397c591b57ed50c010711901c60aa9befd5c770b36efacba8/smartchart-6.6.6.4.tar.gz
+[2023-06-20 11:46:29] INFO root fetch - processPackages [vnpy-binance-pro]: Downloading https://files.pythonhosted.org/packages/c2/6e/12ff446894879d2b53da8641311fcc1553b6001f533da43da893f55e1a61/vnpy_binance_pro-2023.4.20.2.tar.gz
+[2023-06-20 11:46:29] INFO root fetch - processPackages [abi-ds-utils]: Downloading https://files.pythonhosted.org/packages/36/19/7a81ed053210ba5fb52f5b81021979e58286f55f81c5947b4a40fbee16b7/abi_ds_utils-1.0.2.tar.gz
+[2023-06-20 11:46:29] INFO root fetch - processPackages [mkdocs-cu-ab6459]: Downloading https://files.pythonhosted.org/packages/22/c7/1b97a088e6d64a8626f5c8cb492a9c2b275d8e9924dfb8ebcc93d416c270/mkdocs_cu_ab6459-0.0.3.tar.gz
+[2023-06-20 11:46:29] INFO root fetch - processPackages [humlab-penelope]: Downloading https://files.pythonhosted.org/packages/cd/64/b400304bb580cd93a392737813c0281428d325fb97fce6726ec5b53a4fd3/humlab-penelope-0.7.9.tar.gz
+[2023-06-20 11:46:29] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-06-20 11:46:29] INFO root fetch - processPackages [thunder-ase]: Downloading https://files.pythonhosted.org/packages/50/a1/31da37d83e5e9de906208238ef3c0d92104aaf98b64feec3aebcd6b73915/thunder-ase-0.3.1.tar.gz
+[2023-06-20 11:46:29] INFO root fetch - processPackages [humlab-penelope]: executing diffoscope
+[2023-06-20 11:46:29] INFO root fetch - processPackages [humlab-penelope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humlab-penelope-0.7.8.tar.gz tmp/humlab-penelope-0.7.9.tar.gz --markdown 20230620/h/humlab-penelope/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-20 11:46:29] INFO root fetch - processPackages [hdcms]: Downloading https://files.pythonhosted.org/packages/51/34/34ec56614830dd108a14b9d8f0c47d25fafb9b28d6da054418f54c5aadf2/hdcms-0.1.9.tar.gz
+[2023-06-20 11:46:29] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-06-20 11:46:29] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230620/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-06-20 11:46:29] INFO root fetch - processPackages [abi-ds-utils]: Downloading https://files.pythonhosted.org/packages/5f/f4/50e698a943cbf55721c5ecf21700ae8ad98834bb009a1ce8e615514faaf0/abi_ds_utils-1.1.0.tar.gz
+[2023-06-20 11:46:29] INFO root fetch - processPackages [hdcms]: executing diffoscope
+[2023-06-20 11:46:29] INFO root fetch - processPackages [hdcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdcms-0.1.20.tar.gz tmp/hdcms-0.1.9.tar.gz --markdown 20230620/h/hdcms/0.1.20-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 11:46:29] WARNING root fetch - processPackages [eoreader]: Skipping package: exceeds size limit 11498903>=10485760
+[2023-06-20 11:46:29] INFO root fetch - main [MainThread]: End processing [eoreader] error
+[2023-06-20 11:46:29] INFO root fetch - processPackages [vnpy-binance-pro]: Downloading https://files.pythonhosted.org/packages/4c/1a/e3272c7a4b0195202e607df4cf58a40c921b4bb9cda3f335dfdda90dd07a/vnpy_binance_pro-2023.6.20.1.tar.gz
+[2023-06-20 11:46:29] INFO root fetch - processPackages [abi-ds-utils]: executing diffoscope
+[2023-06-20 11:46:29] INFO root fetch - processPackages [abi-ds-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abi_ds_utils-1.0.2.tar.gz tmp/abi_ds_utils-1.1.0.tar.gz --markdown 20230620/a/abi-ds-utils/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-06-20 11:46:29] INFO root fetch - processPackages [thunder-ase]: Downloading https://files.pythonhosted.org/packages/10/83/a9e799dac3d9b1205f309896e0b6ee5d7ae353105532e6c3852b5f255d7c/thunder-ase-0.4.tar.gz
+[2023-06-20 11:46:29] INFO root fetch - processPackages [vnpy-binance-pro]: executing diffoscope
+[2023-06-20 11:46:29] INFO root fetch - processPackages [vnpy-binance-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_binance_pro-2023.4.20.2.tar.gz tmp/vnpy_binance_pro-2023.6.20.1.tar.gz --markdown 20230620/v/vnpy-binance-pro/2023.4.20.2-2023.6.20.1/diff.md --exclude *.pyd
+[2023-06-20 11:46:29] INFO root fetch - processPackages [thunder-ase]: executing diffoscope
+[2023-06-20 11:46:29] INFO root fetch - processPackages [thunder-ase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thunder-ase-0.3.1.tar.gz tmp/thunder-ase-0.4.tar.gz --markdown 20230620/t/thunder-ase/0.3.1-0.4/diff.md --exclude *.pyd
+[2023-06-20 11:46:29] INFO root fetch - processPackages [mkdocs-cu-ab6459]: Downloading https://files.pythonhosted.org/packages/6f/e5/91d0e0478225a5d71e37870258841edf7f744efbe0d09c5bfd22f05114b8/mkdocs_cu_ab6459-0.0.4.tar.gz
+[2023-06-20 11:46:29] INFO root fetch - processPackages [mkdocs-cu-ab6459]: executing diffoscope
+[2023-06-20 11:46:29] INFO root fetch - processPackages [mkdocs-cu-ab6459]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_cu_ab6459-0.0.3.tar.gz tmp/mkdocs_cu_ab6459-0.0.4.tar.gz --markdown 20230620/m/mkdocs-cu-ab6459/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-20 11:46:30] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/da/8a/15e0dccbf46ee36308e97a9624e17495c1e70e42f6b6b76c17c565d75536/smartchart-6.6.7.tar.gz
+[2023-06-20 11:46:30] INFO root fetch - processPackages [smartchart]: executing diffoscope
+[2023-06-20 11:46:30] INFO root fetch - processPackages [smartchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartchart-6.6.6.4.tar.gz tmp/smartchart-6.6.7.tar.gz --markdown 20230620/s/smartchart/6.6.6.4-6.6.7/diff.md --exclude *.pyd
+[2023-06-20 11:46:30] INFO root fetch - processPackages [abi-ds-utils]: Remove: archive file [/home/abi/fetcher/tmp/abi_ds_utils-1.0.2.tar.gz]
+[2023-06-20 11:46:30] INFO root fetch - processPackages [abi-ds-utils]: Remove: archive file [/home/abi/fetcher/tmp/abi_ds_utils-1.1.0.tar.gz]
+[2023-06-20 11:46:30] INFO root fetch - main [MainThread]: End processing [abi-ds-utils]: success
+[2023-06-20 11:46:31] INFO root fetch - processPackages [thunder-ase]: Remove: archive file [/home/abi/fetcher/tmp/thunder-ase-0.3.1.tar.gz]
+[2023-06-20 11:46:31] INFO root fetch - processPackages [thunder-ase]: Remove: archive file [/home/abi/fetcher/tmp/thunder-ase-0.4.tar.gz]
+[2023-06-20 11:46:31] INFO root fetch - main [MainThread]: End processing [thunder-ase]: success
+[2023-06-20 11:46:31] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2023-06-20 11:46:31] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2023-06-20 11:46:31] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-06-20 11:46:31] INFO root fetch - processPackages [vnpy-binance-pro]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_binance_pro-2023.4.20.2.tar.gz]
+[2023-06-20 11:46:31] INFO root fetch - processPackages [vnpy-binance-pro]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_binance_pro-2023.6.20.1.tar.gz]
+[2023-06-20 11:46:31] INFO root fetch - main [MainThread]: End processing [vnpy-binance-pro]: success
+[2023-06-20 11:46:34] INFO root fetch - processPackages [humlab-penelope]: Remove: archive file [/home/abi/fetcher/tmp/humlab-penelope-0.7.8.tar.gz]
+[2023-06-20 11:46:34] INFO root fetch - processPackages [humlab-penelope]: Remove: archive file [/home/abi/fetcher/tmp/humlab-penelope-0.7.9.tar.gz]
+[2023-06-20 11:46:34] INFO root fetch - main [MainThread]: End processing [humlab-penelope]: success
+[2023-06-20 11:46:36] INFO root fetch - processPackages [hdcms]: Remove: archive file [/home/abi/fetcher/tmp/hdcms-0.1.20.tar.gz]
+[2023-06-20 11:46:36] INFO root fetch - processPackages [hdcms]: Remove: archive file [/home/abi/fetcher/tmp/hdcms-0.1.9.tar.gz]
+[2023-06-20 11:46:36] INFO root fetch - main [MainThread]: End processing [hdcms]: success
+[2023-06-20 11:46:38] INFO root fetch - processPackages [mkdocs-cu-ab6459]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_cu_ab6459-0.0.3.tar.gz]
+[2023-06-20 11:46:38] INFO root fetch - processPackages [mkdocs-cu-ab6459]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_cu_ab6459-0.0.4.tar.gz]
+[2023-06-20 11:46:38] INFO root fetch - main [MainThread]: End processing [mkdocs-cu-ab6459]: success
+[2023-06-20 11:46:39] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.6.4.tar.gz]
+[2023-06-20 11:46:39] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.7.tar.gz]
+[2023-06-20 11:46:39] INFO root fetch - main [MainThread]: End processing [smartchart]: success
+[2023-06-20 11:46:39] INFO root fetch - main [MainThread]: Store serial: [18572728]
