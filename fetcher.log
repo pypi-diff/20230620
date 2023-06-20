@@ -6795,3 +6795,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 04:01:40] INFO root fetch - processPackages [ros-cdk-ram]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ram-1.0.9.tar.gz]
 [2023-06-20 04:01:40] INFO root fetch - main [MainThread]: End processing [ros-cdk-ram]: success
 [2023-06-20 04:01:40] INFO root fetch - main [MainThread]: Store serial: [18568372]
+[2023-06-20 04:06:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18568372]
+[2023-06-20 04:06:50] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-rocketmq
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reliableGPT
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nanochain
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-acm
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-actiontrail
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-pvtz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-ess
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-nas
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-fc
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: domain-admin
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-rocketmq]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:06:50] INFO root fetch - processPackages [reliableGPT]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-pvtz]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-fc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:06:50] INFO root fetch - processPackages [nanochain]: New version: [0.3] Old Version: [0.2]
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-actiontrail]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-ess]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-nas]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-acm]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:06:50] INFO root fetch - processPackages [domain-admin]: New version: [1.4.0a0] Old Version: [1.4.0]
+[2023-06-20 04:06:50] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/d2/26/233327f53a3b5bcb50f5c1212853d9030e324a2fc333ea8651121ad3c77c/reliableGPT-0.1.0.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-rocketmq]: Downloading https://files.pythonhosted.org/packages/88/5e/16d18709c1269ddf859c9ccbc945824451982b6c51d066a47d9655547955/ros-cdk-rocketmq-1.0.8.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/66/7a/78c220e04317a6469f79221f5642c8b4c37fc92a265d54b6fb01538e7025/domain-admin-1.4.0.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-fc]: Downloading https://files.pythonhosted.org/packages/61/78/d1c3689c7abecf159bab495320942beb7efda9e9783bb86b6e2602bf46f7/ros-cdk-fc-1.0.8.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-pvtz]: Downloading https://files.pythonhosted.org/packages/cf/df/23722fdce9abbda572dc6789b3c4029b4fb4410d6514ae1d6d24f8c0722a/ros-cdk-pvtz-1.0.8.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [nanochain]: Downloading https://files.pythonhosted.org/packages/a5/46/8b671e23f352c56465b67116dd8a9526f53efa445382f311e8fa8e2f4ff0/nanochain-0.2.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-acm]: Downloading https://files.pythonhosted.org/packages/ea/5f/8cbe48aa14ffdf53240beb1bd6800af41c12992c151cd87090789ab7c03e/ros-cdk-acm-1.0.8.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-ess]: Downloading https://files.pythonhosted.org/packages/c9/2c/5fe7e864a6189f632a70ae24ab968fc0fb7119629ead5dcf263845232cc2/ros-cdk-ess-1.0.8.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-actiontrail]: Downloading https://files.pythonhosted.org/packages/30/82/7724d3535d7d25e8b39331ab68b4e484209347d6ac664637a045b1391b1e/ros-cdk-actiontrail-1.0.8.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-nas]: Downloading https://files.pythonhosted.org/packages/82/0f/51e12fdd559235a6d01da0cf5466cb8c2c894633b792f408fd6c107b5b7b/ros-cdk-nas-1.0.8.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/65/b8/2c23547b7b70bd89b56e988e6336e3c6f8aa3ac05dd05424120bfde8bc49/reliableGPT-0.1.1.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/e7/9f/27bf3cb5541212e8a4d0afd75dd72361e6fe2a109f9a2dff45535bda524b/domain-admin-1.4.0a0.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-rocketmq]: Downloading https://files.pythonhosted.org/packages/61/cd/467d0c00a5d11269809fbd0c9699e7c95b96ce902cc841ac369be1d9272c/ros-cdk-rocketmq-1.0.9.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-06-20 04:06:50] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.1.0.tar.gz tmp/reliableGPT-0.1.1.tar.gz --markdown 20230620/r/reliableGPT/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-20 04:06:50] INFO root fetch - processPackages [nanochain]: Downloading https://files.pythonhosted.org/packages/a1/19/717ce30ab26ae4e098215cdda92ac415d3ad1fea79a60c04bf1fbca8d6b9/nanochain-0.3.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-pvtz]: Downloading https://files.pythonhosted.org/packages/8c/37/af9e6cf0ec86aff85a224718e6883b6dedc00b2184263951a758a79c45e3/ros-cdk-pvtz-1.0.9.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [nanochain]: executing diffoscope
+[2023-06-20 04:06:50] INFO root fetch - processPackages [nanochain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanochain-0.2.tar.gz tmp/nanochain-0.3.tar.gz --markdown 20230620/n/nanochain/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-acm]: Downloading https://files.pythonhosted.org/packages/22/44/33e8b5b470ae56f3ce9380169f2511ad04e752ee6b5d06636c073a29bcb6/ros-cdk-acm-1.0.9.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-actiontrail]: Downloading https://files.pythonhosted.org/packages/7e/65/286642c9eca0d5b22011c7c250c23dbc6a507221717c0f7d80bc4081ce37/ros-cdk-actiontrail-1.0.9.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-fc]: Downloading https://files.pythonhosted.org/packages/fd/27/482ea068c777bfd44a3cbe58f164d37f9252fae637b4de451c550f9dc463/ros-cdk-fc-1.0.9.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-ess]: Downloading https://files.pythonhosted.org/packages/7d/67/698fa9c6818e76a7c32f0b4b16631a78350d3647e5b5f48d6d1f8c221514/ros-cdk-ess-1.0.9.tar.gz
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-rocketmq]: executing diffoscope
+[2023-06-20 04:06:50] INFO root fetch - processPackages [ros-cdk-rocketmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-rocketmq-1.0.8.tar.gz tmp/ros-cdk-rocketmq-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-rocketmq/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:06:51] INFO root fetch - processPackages [ros-cdk-pvtz]: executing diffoscope
+[2023-06-20 04:06:51] INFO root fetch - processPackages [ros-cdk-pvtz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-pvtz-1.0.8.tar.gz tmp/ros-cdk-pvtz-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-pvtz/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:06:51] INFO root fetch - processPackages [ros-cdk-acm]: executing diffoscope
+[2023-06-20 04:06:51] INFO root fetch - processPackages [ros-cdk-acm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-acm-1.0.8.tar.gz tmp/ros-cdk-acm-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-acm/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:06:51] INFO root fetch - processPackages [ros-cdk-ess]: executing diffoscope
+[2023-06-20 04:06:51] INFO root fetch - processPackages [ros-cdk-ess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ess-1.0.8.tar.gz tmp/ros-cdk-ess-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-ess/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:06:51] INFO root fetch - processPackages [ros-cdk-actiontrail]: executing diffoscope
+[2023-06-20 04:06:51] INFO root fetch - processPackages [ros-cdk-actiontrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-actiontrail-1.0.8.tar.gz tmp/ros-cdk-actiontrail-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-actiontrail/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:06:51] INFO root fetch - processPackages [ros-cdk-fc]: executing diffoscope
+[2023-06-20 04:06:51] INFO root fetch - processPackages [ros-cdk-fc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-fc-1.0.8.tar.gz tmp/ros-cdk-fc-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-fc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:06:51] INFO root fetch - processPackages [ros-cdk-nas]: Downloading https://files.pythonhosted.org/packages/df/65/0baa91d3551d59c6ac463425f293aaad4c7f1067a94d70014c2056f5b5a8/ros-cdk-nas-1.0.9.tar.gz
+[2023-06-20 04:06:51] INFO root fetch - processPackages [ros-cdk-nas]: executing diffoscope
+[2023-06-20 04:06:51] INFO root fetch - processPackages [ros-cdk-nas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-nas-1.0.8.tar.gz tmp/ros-cdk-nas-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-nas/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:06:51] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-06-20 04:06:51] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.0.tar.gz tmp/domain-admin-1.4.0a0.tar.gz --markdown 20230620/d/domain-admin/1.4.0-1.4.0a0/diff.md --exclude *.pyd
+[2023-06-20 04:06:52] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.1.0.tar.gz]
+[2023-06-20 04:06:52] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.1.1.tar.gz]
+[2023-06-20 04:06:52] INFO root fetch - processPackages [reliableGPT]: Start processing: ros-cdk-nlpautoml
+[2023-06-20 04:06:52] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-06-20 04:06:52] WARNING root fetch - processPackages [ros-cdk-nlpautoml]: Skipping, unable to determine old version
+[2023-06-20 04:06:52] INFO root fetch - processPackages [ros-cdk-nlpautoml]: Start processing: ros-cdk-imm
+[2023-06-20 04:06:52] INFO root fetch - main [MainThread]: End processing [ros-cdk-nlpautoml] error
+[2023-06-20 04:06:52] INFO root fetch - processPackages [nanochain]: Remove: archive file [/home/abi/fetcher/tmp/nanochain-0.2.tar.gz]
+[2023-06-20 04:06:52] INFO root fetch - processPackages [nanochain]: Remove: archive file [/home/abi/fetcher/tmp/nanochain-0.3.tar.gz]
+[2023-06-20 04:06:52] INFO root fetch - main [MainThread]: End processing [nanochain]: success
+[2023-06-20 04:06:52] INFO root fetch - processPackages [ros-cdk-imm]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:06:52] INFO root fetch - processPackages [ros-cdk-acm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-acm-1.0.8.tar.gz]
+[2023-06-20 04:06:52] INFO root fetch - processPackages [ros-cdk-acm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-acm-1.0.9.tar.gz]
+[2023-06-20 04:06:52] INFO root fetch - main [MainThread]: End processing [ros-cdk-acm]: success
+[2023-06-20 04:06:52] INFO root fetch - processPackages [ros-cdk-imm]: Downloading https://files.pythonhosted.org/packages/98/60/bd0908f28ac8a992612b247c30a1c2d9e54e67ea7234f8db1c9c8244eb97/ros-cdk-imm-1.0.8.tar.gz
+[2023-06-20 04:06:52] INFO root fetch - processPackages [ros-cdk-pvtz]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-pvtz-1.0.8.tar.gz]
+[2023-06-20 04:06:52] INFO root fetch - processPackages [ros-cdk-pvtz]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-pvtz-1.0.9.tar.gz]
+[2023-06-20 04:06:52] INFO root fetch - main [MainThread]: End processing [ros-cdk-pvtz]: success
+[2023-06-20 04:06:52] INFO root fetch - processPackages [ros-cdk-actiontrail]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-actiontrail-1.0.8.tar.gz]
+[2023-06-20 04:06:52] INFO root fetch - processPackages [ros-cdk-actiontrail]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-actiontrail-1.0.9.tar.gz]
+[2023-06-20 04:06:52] INFO root fetch - main [MainThread]: End processing [ros-cdk-actiontrail]: success
+[2023-06-20 04:06:52] INFO root fetch - processPackages [ros-cdk-nas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nas-1.0.8.tar.gz]
+[2023-06-20 04:06:52] INFO root fetch - processPackages [ros-cdk-nas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nas-1.0.9.tar.gz]
+[2023-06-20 04:06:52] INFO root fetch - main [MainThread]: End processing [ros-cdk-nas]: success
+[2023-06-20 04:06:52] INFO root fetch - processPackages [ros-cdk-rocketmq]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rocketmq-1.0.8.tar.gz]
+[2023-06-20 04:06:52] INFO root fetch - processPackages [ros-cdk-rocketmq]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rocketmq-1.0.9.tar.gz]
+[2023-06-20 04:06:52] INFO root fetch - main [MainThread]: End processing [ros-cdk-rocketmq]: success
+[2023-06-20 04:06:52] INFO root fetch - processPackages [ros-cdk-imm]: Downloading https://files.pythonhosted.org/packages/d7/2b/6df354dd4b66c05efea9da7b88905dfc8411c362104ce9cdc595148d29d1/ros-cdk-imm-1.0.9.tar.gz
+[2023-06-20 04:06:52] INFO root fetch - processPackages [ros-cdk-fc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-fc-1.0.8.tar.gz]
+[2023-06-20 04:06:52] INFO root fetch - processPackages [ros-cdk-fc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-fc-1.0.9.tar.gz]
+[2023-06-20 04:06:52] INFO root fetch - main [MainThread]: End processing [ros-cdk-fc]: success
+[2023-06-20 04:06:53] INFO root fetch - processPackages [ros-cdk-imm]: executing diffoscope
+[2023-06-20 04:06:53] INFO root fetch - processPackages [ros-cdk-imm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-imm-1.0.8.tar.gz tmp/ros-cdk-imm-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-imm/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:06:54] INFO root fetch - processPackages [ros-cdk-imm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-imm-1.0.8.tar.gz]
+[2023-06-20 04:06:54] INFO root fetch - processPackages [ros-cdk-imm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-imm-1.0.9.tar.gz]
+[2023-06-20 04:06:54] INFO root fetch - main [MainThread]: End processing [ros-cdk-imm]: success
+[2023-06-20 04:06:54] INFO root fetch - processPackages [ros-cdk-ess]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ess-1.0.8.tar.gz]
+[2023-06-20 04:06:54] INFO root fetch - processPackages [ros-cdk-ess]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ess-1.0.9.tar.gz]
+[2023-06-20 04:06:54] INFO root fetch - main [MainThread]: End processing [ros-cdk-ess]: success
+[2023-06-20 04:07:02] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.0.tar.gz]
+[2023-06-20 04:07:02] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.0a0.tar.gz]
+[2023-06-20 04:07:02] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-06-20 04:07:02] INFO root fetch - main [MainThread]: Store serial: [18568401]
