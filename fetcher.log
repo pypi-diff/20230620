@@ -11581,3 +11581,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 06:27:51] INFO root fetch - processPackages [ebbs]: Remove: archive file [/home/abi/fetcher/tmp/ebbs-2.2.9.tar.gz]
 [2023-06-20 06:27:51] INFO root fetch - main [MainThread]: End processing [ebbs]: success
 [2023-06-20 06:27:51] INFO root fetch - main [MainThread]: Store serial: [18569957]
+[2023-06-20 06:32:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18569957]
+[2023-06-20 06:32:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-20 06:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rlbot-gui
+[2023-06-20 06:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: merlin-sdk
+[2023-06-20 06:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thirdai
+[2023-06-20 06:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acore-server-metadata
+[2023-06-20 06:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linki
+[2023-06-20 06:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mystring
+[2023-06-20 06:32:59] INFO root fetch - processPackages [acore-server-metadata]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-20 06:32:59] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2023-06-20 06:32:59] INFO root fetch - processPackages [rlbot-gui]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-20 06:32:59] INFO root fetch - processPackages [mystring]: New version: [0.0.95] Old Version: [0.0.94]
+[2023-06-20 06:32:59] INFO root fetch - processPackages [linki]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-20 06:32:59] INFO root fetch - processPackages [thirdai]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-06-20 06:32:59] INFO root fetch - processPackages [linki]: Downloading https://files.pythonhosted.org/packages/a3/0b/88444c850af25486ec73a353df6e7bfa90da3e2138f766a8f2234b372aef/linki-0.0.7.tar.gz
+[2023-06-20 06:32:59] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2023-06-20 06:32:59] INFO root fetch - processPackages [acore-server-metadata]: Downloading https://files.pythonhosted.org/packages/05/fa/b0a020f6d2b114072e3e18f1814c556fbd73dae9b82f326a04b4a29d85ca/acore_server_metadata-0.4.3.tar.gz
+[2023-06-20 06:32:59] INFO root fetch - processPackages [rlbot-gui]: Downloading https://files.pythonhosted.org/packages/bd/a0/f36296bee14ea042187e7082074d9eee0903d5092a496e0c91da1139dacc/rlbot_gui-0.0.98.tar.gz
+[2023-06-20 06:33:00] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/67/83/d68fadf46261ea3a1909616c1895c8b6fa30afcf956b7e36343c754ae477/mystring-0.0.94.tar.gz
+[2023-06-20 06:33:00] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/6e/ec/96802b9550950130387a75a822f6c9af641ea505146b9c35266370f09e45/thirdai-0.7.6-cp39-cp39-win_amd64.whl
+[2023-06-20 06:33:00] INFO root fetch - processPackages [linki]: Downloading https://files.pythonhosted.org/packages/1f/85/5cc91e9ba525e91d9979fdf45309b1dc543c1583960a1f3826269d8c2e78/linki-0.0.8.tar.gz
+[2023-06-20 06:33:00] INFO root fetch - processPackages [acore-server-metadata]: Downloading https://files.pythonhosted.org/packages/e5/e0/ff527bbb423ab2bc6497c23b217f1e4a02fe34ae861f1cc2bbe947488eeb/acore_server_metadata-0.4.4.tar.gz
+[2023-06-20 06:33:00] INFO root fetch - processPackages [acore-server-metadata]: executing diffoscope
+[2023-06-20 06:33:00] INFO root fetch - processPackages [acore-server-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acore_server_metadata-0.4.3.tar.gz tmp/acore_server_metadata-0.4.4.tar.gz --markdown 20230620/a/acore-server-metadata/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-20 06:33:00] INFO root fetch - processPackages [linki]: executing diffoscope
+[2023-06-20 06:33:00] INFO root fetch - processPackages [linki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linki-0.0.7.tar.gz tmp/linki-0.0.8.tar.gz --markdown 20230620/l/linki/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-20 06:33:00] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/4b/1a/0c2208c83136ee4ef0700a8d008ac131afb0b1977140f933f087c2799984/mystring-0.0.95.tar.gz
+[2023-06-20 06:33:00] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-06-20 06:33:00] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.94.tar.gz tmp/mystring-0.0.95.tar.gz --markdown 20230620/m/mystring/0.0.94-0.0.95/diff.md --exclude *.pyd
+[2023-06-20 06:33:00] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2023-06-20 06:33:00] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2023-06-20 06:33:00] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20230620/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2023-06-20 06:33:01] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/7f/1d/8bb6d10db1aaf2208c288c452dcabc75894e481890e6a1b8f42bee76b935/thirdai-0.7.7-cp39-cp39-win_amd64.whl
+[2023-06-20 06:33:01] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2023-06-20 06:33:01] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.7.6-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.7.7-cp39-cp39-win_amd64.whl.zip --markdown 20230620/t/thirdai/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-06-20 06:33:01] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.94.tar.gz]
+[2023-06-20 06:33:01] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.95.tar.gz]
+[2023-06-20 06:33:01] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-06-20 06:33:01] INFO root fetch - processPackages [linki]: Remove: archive file [/home/abi/fetcher/tmp/linki-0.0.7.tar.gz]
+[2023-06-20 06:33:01] INFO root fetch - processPackages [linki]: Remove: archive file [/home/abi/fetcher/tmp/linki-0.0.8.tar.gz]
+[2023-06-20 06:33:01] INFO root fetch - main [MainThread]: End processing [linki]: success
+[2023-06-20 06:33:01] INFO root fetch - processPackages [acore-server-metadata]: Remove: archive file [/home/abi/fetcher/tmp/acore_server_metadata-0.4.3.tar.gz]
+[2023-06-20 06:33:01] INFO root fetch - processPackages [acore-server-metadata]: Remove: archive file [/home/abi/fetcher/tmp/acore_server_metadata-0.4.4.tar.gz]
+[2023-06-20 06:33:01] INFO root fetch - main [MainThread]: End processing [acore-server-metadata]: success
+[2023-06-20 06:33:01] INFO root fetch - processPackages [rlbot-gui]: Downloading https://files.pythonhosted.org/packages/70/93/ac6d0514a52601e3960d32b30e26183e6c6bb0489f65cea1fe167a4996ea/rlbot_gui-0.0.99.tar.gz
+[2023-06-20 06:33:02] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.0.dev0.tar.gz]
+[2023-06-20 06:33:02] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
+[2023-06-20 06:33:02] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2023-06-20 06:33:02] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.6-cp39-cp39-win_amd64.whl.zip]
+[2023-06-20 06:33:02] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.7-cp39-cp39-win_amd64.whl.zip]
+[2023-06-20 06:33:02] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2023-06-20 06:33:03] INFO root fetch - processPackages [rlbot-gui]: executing diffoscope
+[2023-06-20 06:33:03] INFO root fetch - processPackages [rlbot-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlbot_gui-0.0.98.tar.gz tmp/rlbot_gui-0.0.99.tar.gz --markdown 20230620/r/rlbot-gui/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 06:33:20] INFO root fetch - processPackages [rlbot-gui]: Remove: archive file [/home/abi/fetcher/tmp/rlbot_gui-0.0.98.tar.gz]
+[2023-06-20 06:33:20] INFO root fetch - processPackages [rlbot-gui]: Remove: archive file [/home/abi/fetcher/tmp/rlbot_gui-0.0.99.tar.gz]
+[2023-06-20 06:33:20] INFO root fetch - main [MainThread]: End processing [rlbot-gui]: success
+[2023-06-20 06:33:20] INFO root fetch - main [MainThread]: Store serial: [18569988]
