@@ -13588,3 +13588,102 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 09:01:11] INFO root fetch - processPackages [longbridge]: Remove: archive file [/home/abi/fetcher/tmp/longbridge-0.2.9.tar.gz]
 [2023-06-20 09:01:11] INFO root fetch - main [MainThread]: End processing [longbridge]: success
 [2023-06-20 09:01:11] INFO root fetch - main [MainThread]: Store serial: [18570852]
+[2023-06-20 09:06:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570852]
+[2023-06-20 09:06:22] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-20 09:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: latch
+[2023-06-20 09:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arkit
+[2023-06-20 09:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ppdiffusers
+[2023-06-20 09:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stock-downloader
+[2023-06-20 09:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-kafka-publisher
+[2023-06-20 09:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seqio-nightly
+[2023-06-20 09:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: huntflow-api-client
+[2023-06-20 09:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: auto-env-config
+[2023-06-20 09:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shioaji
+[2023-06-20 09:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: easymaker
+[2023-06-20 09:06:22] INFO root fetch - processPackages [easymaker]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 09:06:22] INFO root fetch - processPackages [easymaker]: Downloading https://files.pythonhosted.org/packages/98/e1/2ba6df9586cf47689b5175b2a09829447e5312d5dd38eed2c656ddcfa652/easymaker-1.0.8-py3-none-any.whl
+[2023-06-20 09:06:22] INFO root fetch - processPackages [arkit]: New version: [2.0.0] Old Version: [1.1.2]
+[2023-06-20 09:06:22] INFO root fetch - processPackages [auto-env-config]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 09:06:22] INFO root fetch - processPackages [huntflow-api-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 09:06:22] WARNING root fetch - processPackages [stock-downloader]: Skipping, unable to determine old version
+[2023-06-20 09:06:22] INFO root fetch - processPackages [stock-downloader]: Start processing: openi
+[2023-06-20 09:06:22] INFO root fetch - main [MainThread]: End processing [stock-downloader] error
+[2023-06-20 09:06:22] INFO root fetch - processPackages [ppdiffusers]: New version: [0.9.0] Old Version: [0.6.3]
+[2023-06-20 09:06:22] INFO root fetch - processPackages [openi]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-20 09:06:22] WARNING root fetch - processPackages [flask-kafka-publisher]: Skipping, unable to determine old version
+[2023-06-20 09:06:22] INFO root fetch - processPackages [flask-kafka-publisher]: Start processing: design.plone.ioprenoto
+[2023-06-20 09:06:22] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-06-20 09:06:22] INFO root fetch - main [MainThread]: End processing [flask-kafka-publisher] error
+[2023-06-20 09:06:22] INFO root fetch - processPackages [shioaji]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-20 09:06:22] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-20 09:06:22] INFO root fetch - processPackages [easymaker]: Downloading https://files.pythonhosted.org/packages/0b/57/43b3478a8184079a46ab3ee4d683b9500b28c36a9cc3a37c6fce08a27f52/easymaker-1.0.9-py3-none-any.whl
+[2023-06-20 09:06:22] INFO root fetch - processPackages [design.plone.ioprenoto]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 09:06:22] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/eb/18/3a1019e00689d34e9b638ed22ca15c9e8b28fb3a6ed43fc88e53ffd4d11a/openi-1.0.0.tar.gz
+[2023-06-20 09:06:22] INFO root fetch - processPackages [arkit]: Downloading https://files.pythonhosted.org/packages/95/e4/cd52deff3082c018f51cb1a0b63b497de98565c021096ad6f07d6e1dc327/arkit-1.1.2-cp311-cp311-win_amd64.whl
+[2023-06-20 09:06:22] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-06-20 09:06:22] INFO root fetch - processPackages [easymaker]: executing diffoscope
+[2023-06-20 09:06:22] INFO root fetch - processPackages [easymaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easymaker-1.0.8-py3-none-any.whl.zip tmp/easymaker-1.0.9-py3-none-any.whl.zip --markdown 20230620/e/easymaker/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 09:06:22] INFO root fetch - processPackages [auto-env-config]: Downloading https://files.pythonhosted.org/packages/b6/c6/06c1b79879ef7222d1eb37d3c60159f813cfc9ff1653a37606764febd61d/auto-env-config-1.0.8.tar.gz
+[2023-06-20 09:06:22] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/20/ae/1d503f46af98d56f5fb74e3dd81613d2f05393d88b22d969e9cd60b52e13/huntflow_api_client-0.0.8.tar.gz
+[2023-06-20 09:06:22] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-06-20 09:06:22] INFO root fetch - processPackages [ppdiffusers]: Downloading https://files.pythonhosted.org/packages/71/1d/6b25170dbecf412e2e2e0650ef168d6c81954496108ef6d2c30360603c25/ppdiffusers-0.6.3.tar.gz
+[2023-06-20 09:06:22] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/24/ac/ea1fe025da29e034741f951e182f907fdcc063fbf25fe6d31ff9b9adcacf/openi-1.0.1.tar.gz
+[2023-06-20 09:06:22] INFO root fetch - processPackages [shioaji]: Downloading https://files.pythonhosted.org/packages/5f/ac/80786da8f83340de38423cbff90d2e22d334538da4613eb92c53e674df2c/shioaji-1.1.5-cp39-cp39-win_amd64.whl
+[2023-06-20 09:06:22] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-06-20 09:06:22] INFO root fetch - processPackages [design.plone.ioprenoto]: Downloading https://files.pythonhosted.org/packages/46/d2/7518903cf72360094afd21a518c0d8b5ea64ad1f9b379c0740eb1c0646ac/design.plone.ioprenoto-1.0.8.tar.gz
+[2023-06-20 09:06:22] INFO root fetch - processPackages [openi]: executing diffoscope
+[2023-06-20 09:06:22] INFO root fetch - processPackages [openi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-1.0.0.tar.gz tmp/openi-1.0.1.tar.gz --markdown 20230620/o/openi/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-20 09:06:22] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-20 09:06:22] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230620/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-20 09:06:22] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-06-20 09:06:22] INFO root fetch - processPackages [arkit]: Downloading https://files.pythonhosted.org/packages/65/af/680a5f696714472aaadd3869367a1f434da7db33fef53538e8c5993aa577/arkit-2.0.0-cp311-none-win_amd64.whl
+[2023-06-20 09:06:22] INFO root fetch - processPackages [auto-env-config]: Downloading https://files.pythonhosted.org/packages/d5/3b/e6c71cf422f53266b8bde9652f46ad70d7bdc42d66d67c030ae6c034d302/auto-env-config-1.0.9.tar.gz
+[2023-06-20 09:06:22] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-06-20 09:06:22] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230620/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-06-20 09:06:22] INFO root fetch - processPackages [design.plone.ioprenoto]: Downloading https://files.pythonhosted.org/packages/58/99/04783f5c195b7fed5d549fb616fde6c855332034b380b90309f2dacdb2ec/design.plone.ioprenoto-1.0.9.tar.gz
+[2023-06-20 09:06:22] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/9e/6f/642adabc7e91f1ab063d1e21cd5cb785aa60f97f8e7900923faad0bc4f45/huntflow_api_client-0.0.9.tar.gz
+[2023-06-20 09:06:22] INFO root fetch - processPackages [auto-env-config]: executing diffoscope
+[2023-06-20 09:06:22] INFO root fetch - processPackages [auto-env-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-env-config-1.0.8.tar.gz tmp/auto-env-config-1.0.9.tar.gz --markdown 20230620/a/auto-env-config/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 09:06:22] INFO root fetch - processPackages [design.plone.ioprenoto]: executing diffoscope
+[2023-06-20 09:06:22] INFO root fetch - processPackages [design.plone.ioprenoto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.ioprenoto-1.0.8.tar.gz tmp/design.plone.ioprenoto-1.0.9.tar.gz --markdown 20230620/d/design.plone.ioprenoto/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 09:06:22] INFO root fetch - processPackages [ppdiffusers]: Downloading https://files.pythonhosted.org/packages/dd/96/f09614c5bb3ef8092106dfe73c05c10496a65c1ebafa420e8c5b58edb426/ppdiffusers-0.9.0.tar.gz
+[2023-06-20 09:06:22] INFO root fetch - processPackages [arkit]: executing diffoscope
+[2023-06-20 09:06:22] INFO root fetch - processPackages [arkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkit-1.1.2-cp311-cp311-win_amd64.whl.zip tmp/arkit-2.0.0-cp311-none-win_amd64.whl.zip --markdown 20230620/a/arkit/1.1.2-2.0.0/diff.md --exclude *.pyd
+[2023-06-20 09:06:23] INFO root fetch - processPackages [huntflow-api-client]: executing diffoscope
+[2023-06-20 09:06:23] INFO root fetch - processPackages [huntflow-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huntflow_api_client-0.0.8.tar.gz tmp/huntflow_api_client-0.0.9.tar.gz --markdown 20230620/h/huntflow-api-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 09:06:23] INFO root fetch - processPackages [ppdiffusers]: executing diffoscope
+[2023-06-20 09:06:23] INFO root fetch - processPackages [ppdiffusers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppdiffusers-0.6.3.tar.gz tmp/ppdiffusers-0.9.0.tar.gz --markdown 20230620/p/ppdiffusers/0.6.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-20 09:06:23] INFO root fetch - processPackages [shioaji]: Downloading https://files.pythonhosted.org/packages/b2/8f/45482cb375a83f099e2b602f098f9e6df5857f7997b6ea690b6237fcd2bd/shioaji-1.1.6-cp38-cp38-manylinux_2_24_x86_64.whl
+[2023-06-20 09:06:23] INFO root fetch - processPackages [easymaker]: Remove: archive file [/home/abi/fetcher/tmp/easymaker-1.0.8-py3-none-any.whl.zip]
+[2023-06-20 09:06:23] INFO root fetch - processPackages [easymaker]: Remove: archive file [/home/abi/fetcher/tmp/easymaker-1.0.9-py3-none-any.whl.zip]
+[2023-06-20 09:06:23] INFO root fetch - main [MainThread]: End processing [easymaker]: success
+[2023-06-20 09:06:24] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-1.0.0.tar.gz]
+[2023-06-20 09:06:24] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-1.0.1.tar.gz]
+[2023-06-20 09:06:24] INFO root fetch - main [MainThread]: End processing [openi]: success
+[2023-06-20 09:06:24] INFO root fetch - processPackages [arkit]: Remove: archive file [/home/abi/fetcher/tmp/arkit-1.1.2-cp311-cp311-win_amd64.whl.zip]
+[2023-06-20 09:06:24] INFO root fetch - processPackages [arkit]: Remove: archive file [/home/abi/fetcher/tmp/arkit-2.0.0-cp311-none-win_amd64.whl.zip]
+[2023-06-20 09:06:24] INFO root fetch - main [MainThread]: End processing [arkit]: success
+[2023-06-20 09:06:24] INFO root fetch - processPackages [auto-env-config]: Remove: archive file [/home/abi/fetcher/tmp/auto-env-config-1.0.8.tar.gz]
+[2023-06-20 09:06:24] INFO root fetch - processPackages [auto-env-config]: Remove: archive file [/home/abi/fetcher/tmp/auto-env-config-1.0.9.tar.gz]
+[2023-06-20 09:06:24] INFO root fetch - main [MainThread]: End processing [auto-env-config]: success
+[2023-06-20 09:06:24] INFO root fetch - processPackages [design.plone.ioprenoto]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.ioprenoto-1.0.8.tar.gz]
+[2023-06-20 09:06:24] INFO root fetch - processPackages [design.plone.ioprenoto]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.ioprenoto-1.0.9.tar.gz]
+[2023-06-20 09:06:24] INFO root fetch - main [MainThread]: End processing [design.plone.ioprenoto]: success
+[2023-06-20 09:06:24] INFO root fetch - processPackages [huntflow-api-client]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_api_client-0.0.8.tar.gz]
+[2023-06-20 09:06:24] INFO root fetch - processPackages [huntflow-api-client]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_api_client-0.0.9.tar.gz]
+[2023-06-20 09:06:24] INFO root fetch - main [MainThread]: End processing [huntflow-api-client]: success
+[2023-06-20 09:06:25] INFO root fetch - processPackages [shioaji]: executing diffoscope
+[2023-06-20 09:06:25] INFO root fetch - processPackages [shioaji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shioaji-1.1.5-cp39-cp39-win_amd64.whl.zip tmp/shioaji-1.1.6-cp38-cp38-manylinux_2_24_x86_64.whl.zip --markdown 20230620/s/shioaji/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-20 09:06:25] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2023-06-20 09:06:25] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2023-06-20 09:06:25] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-06-20 09:06:26] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-06-20 09:06:26] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-06-20 09:06:26] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-20 09:06:27] INFO root fetch - processPackages [shioaji]: Remove: archive file [/home/abi/fetcher/tmp/shioaji-1.1.5-cp39-cp39-win_amd64.whl.zip]
+[2023-06-20 09:06:27] INFO root fetch - processPackages [shioaji]: Remove: archive file [/home/abi/fetcher/tmp/shioaji-1.1.6-cp38-cp38-manylinux_2_24_x86_64.whl.zip]
+[2023-06-20 09:06:27] INFO root fetch - main [MainThread]: End processing [shioaji]: success
+[2023-06-20 09:06:28] INFO root fetch - processPackages [ppdiffusers]: Remove: archive file [/home/abi/fetcher/tmp/ppdiffusers-0.6.3.tar.gz]
+[2023-06-20 09:06:28] INFO root fetch - processPackages [ppdiffusers]: Remove: archive file [/home/abi/fetcher/tmp/ppdiffusers-0.9.0.tar.gz]
+[2023-06-20 09:06:28] INFO root fetch - main [MainThread]: End processing [ppdiffusers]: success
+[2023-06-20 09:06:28] INFO root fetch - main [MainThread]: Store serial: [18570908]
