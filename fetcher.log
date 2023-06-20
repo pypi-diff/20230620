@@ -23082,3 +23082,260 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 14:49:14] INFO root fetch - processPackages [xtuples]: Remove: archive file [/home/abi/fetcher/tmp/xtuples-0.0.9.tar.gz]
 [2023-06-20 14:49:14] INFO root fetch - main [MainThread]: End processing [xtuples]: success
 [2023-06-20 14:49:14] INFO root fetch - main [MainThread]: Store serial: [18574891]
+[2023-06-20 14:54:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18574891]
+[2023-06-20 14:54:24] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2023-06-20 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypipr
+[2023-06-20 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: voila-vuetify-tuwien
+[2023-06-20 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyttm
+[2023-06-20 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openai-ratelimiter
+[2023-06-20 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-dllib
+[2023-06-20 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gempy
+[2023-06-20 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-orca
+[2023-06-20 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: urpautils
+[2023-06-20 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-friesian
+[2023-06-20 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: naruno
+[2023-06-20 14:54:24] INFO root fetch - processPackages [gempy]: New version: [2.3.0] Old Version: [2.2b10.dev1]
+[2023-06-20 14:54:24] INFO root fetch - processPackages [openai-ratelimiter]: New version: [0.4] Old Version: [0.3]
+[2023-06-20 14:54:24] INFO root fetch - processPackages [voila-vuetify-tuwien]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-20 14:54:24] INFO root fetch - processPackages [pyttm]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-20 14:54:24] INFO root fetch - processPackages [urpautils]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-20 14:54:24] INFO root fetch - processPackages [naruno]: New version: [0.58.1] Old Version: [0.58.0]
+[2023-06-20 14:54:24] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230620] Old Version: [2.4.0b20230619]
+[2023-06-20 14:54:24] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 14:54:24] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230620] Old Version: [2.4.0b20230619]
+[2023-06-20 14:54:24] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230620] Old Version: [2.4.0b20230619]
+[2023-06-20 14:54:24] INFO root fetch - processPackages [voila-vuetify-tuwien]: Downloading https://files.pythonhosted.org/packages/4d/ba/fe0ac9a01dd6cc0c37a1fb3b978f4515d89d2963667549e83a39fef48d03/voila-vuetify-tuwien-0.6.1.tar.gz
+[2023-06-20 14:54:24] INFO root fetch - processPackages [openai-ratelimiter]: Downloading https://files.pythonhosted.org/packages/c1/52/4bb7fd5a73394ae53e3f34ceabcb9002762cf099842e5b4be195c2f6aa8e/openai_ratelimiter-0.3-py3-none-any.whl
+[2023-06-20 14:54:25] INFO root fetch - processPackages [gempy]: Downloading https://files.pythonhosted.org/packages/06/94/7a4f00dc217e68411d7374221f7392eb6f225e4b2b31ca53ff827fb2b0c3/gempy-2.2b10.dev1.tar.gz
+[2023-06-20 14:54:25] INFO root fetch - processPackages [urpautils]: Downloading https://files.pythonhosted.org/packages/a3/ec/81eb4a601bc0e847f6859d386c0175f22666116fbee1aa3fc3a6674a1974/urpautils-0.7.0.tar.gz
+[2023-06-20 14:54:25] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/d4/d9/91918fd31f4a9851d9969eef37185a18caa01be6b8237e68cc9854681c54/bigdl-dllib-2.4.0b20230619.tar.gz
+[2023-06-20 14:54:25] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/ae/12/d6b0b371387af225c9783495eba51e7c3e56b7e041e51033c0803bbeecc1/bigdl_friesian-2.4.0b20230619-py3-none-manylinux1_x86_64.whl
+[2023-06-20 14:54:25] INFO root fetch - processPackages [pyttm]: Downloading https://files.pythonhosted.org/packages/d8/db/89544d957193bca5862b9bc1642010264b5d1925ae45be9c705e54058813/pyttm-0.0.3.tar.gz
+[2023-06-20 14:54:25] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/15/04/d795bcb0193e0a7ac41cf9929d8e4bfb8a89b791c68addd485f4d09b2a89/pypipr-1.0.8.tar.gz
+[2023-06-20 14:54:25] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53637814>=10485760
+[2023-06-20 14:54:25] INFO root fetch - processPackages [bigdl-dllib]: Start processing: naruno-api
+[2023-06-20 14:54:25] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-06-20 14:54:25] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/1c/77/7c88ea40daaf7144545ab7a180a907df7e693d9cd7c0a705fcfc5fc7fbd0/bigdl_orca-2.4.0b20230619-py3-none-manylinux1_x86_64.whl
+[2023-06-20 14:54:25] INFO root fetch - processPackages [naruno-api]: New version: [0.58.1] Old Version: [0.58.0]
+[2023-06-20 14:54:25] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369517>=10485760
+[2023-06-20 14:54:25] INFO root fetch - processPackages [bigdl-orca]: Start processing: naruno-gui
+[2023-06-20 14:54:25] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-06-20 14:54:25] INFO root fetch - processPackages [naruno]: Downloading https://files.pythonhosted.org/packages/1b/74/acb2dd3d43ee0bc7b63862aefb87b05ddd35a0e4c0c8ccb8c6499f5faba6/naruno-0.58.0.tar.gz
+[2023-06-20 14:54:25] INFO root fetch - processPackages [naruno-gui]: New version: [0.58.1] Old Version: [0.58.0]
+[2023-06-20 14:54:25] INFO root fetch - processPackages [openai-ratelimiter]: Downloading https://files.pythonhosted.org/packages/42/c4/7e48ab2d689bd01ee1ca2a8dc5b79cdfc68c6ca9513e65b7794dcdc45537/openai-ratelimiter-0.4.tar.gz
+[2023-06-20 14:54:25] INFO root fetch - processPackages [voila-vuetify-tuwien]: Downloading https://files.pythonhosted.org/packages/b9/15/1869a49ee825b9d83470af728f7046dadb0a276e08f5bb15d9a6932d6463/voila-vuetify-tuwien-0.6.2.tar.gz
+[2023-06-20 14:54:25] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/c6/b3/33b35b4bb0274289bf88cc9407fbb5d8575b79955e4a1d1fb50eedd887a3/bigdl_friesian-2.4.0b20230620-py3-none-manylinux1_x86_64.whl
+[2023-06-20 14:54:25] INFO root fetch - processPackages [urpautils]: Downloading https://files.pythonhosted.org/packages/37/2e/66b03c0f999219f54a77f80a956c78083753d6b0e9e2a03a017b5d21c2a7/urpautils-0.7.1.tar.gz
+[2023-06-20 14:54:25] INFO root fetch - processPackages [naruno-api]: Downloading https://files.pythonhosted.org/packages/ca/05/ff604fe9c843c035ac89c671bcdfe571637ae40d79753f906a2dd0df4178/naruno_api-0.58.0.tar.gz
+[2023-06-20 14:54:25] INFO root fetch - processPackages [pyttm]: Downloading https://files.pythonhosted.org/packages/b9/20/06e8d82def7eb647c2b4952c543af3c05efb2038a88a79a3db126e9c8594/pyttm-0.0.4.tar.gz
+[2023-06-20 14:54:25] INFO root fetch - processPackages [openai-ratelimiter]: executing diffoscope
+[2023-06-20 14:54:25] INFO root fetch - processPackages [openai-ratelimiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_ratelimiter-0.3-py3-none-any.whl.zip tmp/openai-ratelimiter-0.4.tar.gz --markdown 20230620/o/openai-ratelimiter/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-20 14:54:25] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2023-06-20 14:54:25] INFO root fetch - processPackages [voila-vuetify-tuwien]: executing diffoscope
+[2023-06-20 14:54:25] INFO root fetch - processPackages [voila-vuetify-tuwien]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voila-vuetify-tuwien-0.6.1.tar.gz tmp/voila-vuetify-tuwien-0.6.2.tar.gz --markdown 20230620/v/voila-vuetify-tuwien/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-20 14:54:25] INFO root fetch - processPackages [naruno-gui]: Downloading https://files.pythonhosted.org/packages/c9/ae/c61f73077deaa5311f6b166fae2a222ded551a2f4a3d7ba211e2294f1222/naruno_gui-0.58.0.tar.gz
+[2023-06-20 14:54:25] INFO root fetch - processPackages [gempy]: Downloading https://files.pythonhosted.org/packages/8f/87/e19dc3bd3e3f038c6c0fa2c1231dbb9bb30679882dc50bffa9b3c0c9b5d5/gempy-2.3.0.tar.gz
+[2023-06-20 14:54:25] INFO root fetch - processPackages [urpautils]: executing diffoscope
+[2023-06-20 14:54:25] INFO root fetch - processPackages [urpautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urpautils-0.7.0.tar.gz tmp/urpautils-0.7.1.tar.gz --markdown 20230620/u/urpautils/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-20 14:54:25] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-06-20 14:54:25] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230619-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230620-py3-none-manylinux1_x86_64.whl.zip --markdown 20230620/b/bigdl-friesian/2.4.0b20230619-2.4.0b20230620/diff.md --exclude *.pyd
+[2023-06-20 14:54:25] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-06-20 14:54:25] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.8.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20230620/p/pypipr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 14:54:25] INFO root fetch - processPackages [gempy]: executing diffoscope
+[2023-06-20 14:54:25] INFO root fetch - processPackages [gempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gempy-2.2b10.dev1.tar.gz tmp/gempy-2.3.0.tar.gz --markdown 20230620/g/gempy/2.2b10.dev1-2.3.0/diff.md --exclude *.pyd
+[2023-06-20 14:54:25] INFO root fetch - processPackages [pyttm]: executing diffoscope
+[2023-06-20 14:54:25] INFO root fetch - processPackages [pyttm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyttm-0.0.3.tar.gz tmp/pyttm-0.0.4.tar.gz --markdown 20230620/p/pyttm/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-20 14:54:25] INFO root fetch - processPackages [naruno]: Downloading https://files.pythonhosted.org/packages/e3/1d/bab5c28825f15360da70d2e6f77f606acec1173171c5ffdb6ec1b18a72d8/naruno-0.58.1.tar.gz
+[2023-06-20 14:54:25] INFO root fetch - processPackages [naruno-api]: Downloading https://files.pythonhosted.org/packages/de/d0/331b88aa5ca16578142dacb8a7fa3be2c63e6c5734bbdf027859e80b12b2/naruno_api-0.58.1.tar.gz
+[2023-06-20 14:54:25] INFO root fetch - processPackages [naruno-gui]: Downloading https://files.pythonhosted.org/packages/09/3e/adfcc6fa644d46727b9be9dda88cdcf8b304384aac5ea3f0ac2cdfc1e78c/naruno_gui-0.58.1.tar.gz
+[2023-06-20 14:54:25] INFO root fetch - processPackages [naruno]: executing diffoscope
+[2023-06-20 14:54:25] INFO root fetch - processPackages [naruno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno-0.58.0.tar.gz tmp/naruno-0.58.1.tar.gz --markdown 20230620/n/naruno/0.58.0-0.58.1/diff.md --exclude *.pyd
+[2023-06-20 14:54:25] INFO root fetch - processPackages [naruno-api]: executing diffoscope
+[2023-06-20 14:54:25] INFO root fetch - processPackages [naruno-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_api-0.58.0.tar.gz tmp/naruno_api-0.58.1.tar.gz --markdown 20230620/n/naruno-api/0.58.0-0.58.1/diff.md --exclude *.pyd
+[2023-06-20 14:54:25] INFO root fetch - processPackages [naruno-gui]: executing diffoscope
+[2023-06-20 14:54:25] INFO root fetch - processPackages [naruno-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_gui-0.58.0.tar.gz tmp/naruno_gui-0.58.1.tar.gz --markdown 20230620/n/naruno-gui/0.58.0-0.58.1/diff.md --exclude *.pyd
+[2023-06-20 14:54:26] INFO root fetch - processPackages [openai-ratelimiter]: Remove: archive file [/home/abi/fetcher/tmp/openai_ratelimiter-0.3-py3-none-any.whl.zip]
+[2023-06-20 14:54:26] INFO root fetch - processPackages [openai-ratelimiter]: Remove: archive file [/home/abi/fetcher/tmp/openai-ratelimiter-0.4.tar.gz]
+[2023-06-20 14:54:26] INFO root fetch - processPackages [openai-ratelimiter]: Start processing: naruno-remote-app
+[2023-06-20 14:54:26] INFO root fetch - main [MainThread]: End processing [openai-ratelimiter]: success
+[2023-06-20 14:54:26] INFO root fetch - processPackages [naruno-remote-app]: New version: [0.58.1] Old Version: [0.58.0]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [naruno-remote-app]: Downloading https://files.pythonhosted.org/packages/8a/90/d9f3fcab67d0988cd3ee8a238d77657b14b0b1d8c72a625345056e63ff15/naruno_remote_app-0.58.0.tar.gz
+[2023-06-20 14:54:27] INFO root fetch - processPackages [voila-vuetify-tuwien]: Remove: archive file [/home/abi/fetcher/tmp/voila-vuetify-tuwien-0.6.1.tar.gz]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [voila-vuetify-tuwien]: Remove: archive file [/home/abi/fetcher/tmp/voila-vuetify-tuwien-0.6.2.tar.gz]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [voila-vuetify-tuwien]: Start processing: naruno-tests
+[2023-06-20 14:54:27] INFO root fetch - main [MainThread]: End processing [voila-vuetify-tuwien]: success
+[2023-06-20 14:54:27] INFO root fetch - processPackages [pyttm]: Remove: archive file [/home/abi/fetcher/tmp/pyttm-0.0.3.tar.gz]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [pyttm]: Remove: archive file [/home/abi/fetcher/tmp/pyttm-0.0.4.tar.gz]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [pyttm]: Start processing: ostatslib
+[2023-06-20 14:54:27] INFO root fetch - main [MainThread]: End processing [pyttm]: success
+[2023-06-20 14:54:27] INFO root fetch - processPackages [naruno-remote-app]: Downloading https://files.pythonhosted.org/packages/a4/35/c40a96cf39c92d7605bd548711c5480111f6a6518f5a6697db2b7591e58d/naruno_remote_app-0.58.1.tar.gz
+[2023-06-20 14:54:27] INFO root fetch - processPackages [naruno-tests]: New version: [0.58.1] Old Version: [0.58.0]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [ostatslib]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [naruno-gui]: Remove: archive file [/home/abi/fetcher/tmp/naruno_gui-0.58.0.tar.gz]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [naruno-gui]: Remove: archive file [/home/abi/fetcher/tmp/naruno_gui-0.58.1.tar.gz]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [naruno-gui]: Start processing: pytmlib
+[2023-06-20 14:54:27] INFO root fetch - main [MainThread]: End processing [naruno-gui]: success
+[2023-06-20 14:54:27] INFO root fetch - processPackages [naruno-remote-app]: executing diffoscope
+[2023-06-20 14:54:27] INFO root fetch - processPackages [naruno-remote-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_remote_app-0.58.0.tar.gz tmp/naruno_remote_app-0.58.1.tar.gz --markdown 20230620/n/naruno-remote-app/0.58.0-0.58.1/diff.md --exclude *.pyd
+[2023-06-20 14:54:27] INFO root fetch - processPackages [pytmlib]: New version: [1.1.0.dev9] Old Version: [1.1.0.dev8]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [naruno-api]: Remove: archive file [/home/abi/fetcher/tmp/naruno_api-0.58.0.tar.gz]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [naruno-api]: Remove: archive file [/home/abi/fetcher/tmp/naruno_api-0.58.1.tar.gz]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [naruno-api]: Start processing: bigdl
+[2023-06-20 14:54:27] INFO root fetch - main [MainThread]: End processing [naruno-api]: success
+[2023-06-20 14:54:27] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230620] Old Version: [2.4.0b20230619]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [pytmlib]: Downloading https://files.pythonhosted.org/packages/f1/f6/6fbe5902899f1cf58894e65e5dd22831d89dbd78a921f72943eab0090a1b/pytmlib-1.1.0.dev8.tar.gz
+[2023-06-20 14:54:27] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.8.tar.gz]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [pypipr]: Start processing: solo-epd-loader
+[2023-06-20 14:54:27] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-06-20 14:54:27] INFO root fetch - processPackages [ostatslib]: Downloading https://files.pythonhosted.org/packages/90/5a/d8542f07621c63ada9d71abc9ec8e8bd1ccc0db5b5761e5a632caf58a44b/ostatslib-0.5.0.tar.gz
+[2023-06-20 14:54:27] INFO root fetch - processPackages [solo-epd-loader]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [naruno-tests]: Downloading https://files.pythonhosted.org/packages/24/cc/308a9297f4964775df63bd4d00e67d5976e35f6de4f8b64874b96853e80b/naruno_tests-0.58.0.tar.gz
+[2023-06-20 14:54:27] INFO root fetch - processPackages [solo-epd-loader]: Downloading https://files.pythonhosted.org/packages/2b/b8/6be34d7fc509eba6deb5da0d8d8ab44b74eebde441cd9d65394b4f50f6f9/solo_epd_loader-0.2.6.tar.gz
+[2023-06-20 14:54:27] INFO root fetch - processPackages [urpautils]: Remove: archive file [/home/abi/fetcher/tmp/urpautils-0.7.0.tar.gz]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [urpautils]: Remove: archive file [/home/abi/fetcher/tmp/urpautils-0.7.1.tar.gz]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [urpautils]: Start processing: Datargsing
+[2023-06-20 14:54:27] INFO root fetch - main [MainThread]: End processing [urpautils]: success
+[2023-06-20 14:54:27] INFO root fetch - processPackages [Datargsing]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-20 14:54:27] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/95/40/b35e711e9415b4d99689e51c58627b2a4e88636cf1330791aed7533343ff/bigdl-2.4.0b20230619-py3-none-manylinux1_x86_64.whl
+[2023-06-20 14:54:27] INFO root fetch - processPackages [Datargsing]: Downloading https://files.pythonhosted.org/packages/16/2f/666e3a4cb1e28c08973edd5ae527a78af71949c5933651919e36a6e2fcc1/Datargsing-0.2.8-py3-none-any.whl
+[2023-06-20 14:54:27] INFO root fetch - processPackages [pytmlib]: Downloading https://files.pythonhosted.org/packages/94/a3/7356fa2c6c02bc0fcd8088b8d331a8a6ca11beb7ee6659f97e2a79b2c110/pytmlib-1.1.0.dev9.tar.gz
+[2023-06-20 14:54:27] INFO root fetch - processPackages [ostatslib]: Downloading https://files.pythonhosted.org/packages/e8/e3/6f75570ed5356aef350d7ae898a2f8f3715588398421dbde6365531e4bb2/ostatslib-0.5.1.tar.gz
+[2023-06-20 14:54:27] INFO root fetch - processPackages [ostatslib]: executing diffoscope
+[2023-06-20 14:54:27] INFO root fetch - processPackages [ostatslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ostatslib-0.5.0.tar.gz tmp/ostatslib-0.5.1.tar.gz --markdown 20230620/o/ostatslib/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-20 14:54:28] INFO root fetch - processPackages [solo-epd-loader]: Downloading https://files.pythonhosted.org/packages/b6/04/465a58813156f4bce94ebc8a4b6958196348d14d362bcaf99503060fca5b/solo_epd_loader-0.2.7.tar.gz
+[2023-06-20 14:54:28] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/0f/74/d2f3849914517a90dbc3285346f0e0c3fdbe6fdf58fb0aed76ab7d8d9317/bigdl-2.4.0b20230620-py3-none-manylinux1_x86_64.whl
+[2023-06-20 14:54:28] INFO root fetch - processPackages [naruno-tests]: Downloading https://files.pythonhosted.org/packages/c1/9c/ab8a21a3b7b1cfdd6e9f559af2b9d7478a193b284406608dab1830a621eb/naruno_tests-0.58.1.tar.gz
+[2023-06-20 14:54:28] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230619-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-20 14:54:28] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230620-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-20 14:54:28] INFO root fetch - processPackages [bigdl-friesian]: Start processing: semremover
+[2023-06-20 14:54:28] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-06-20 14:54:28] INFO root fetch - processPackages [pytmlib]: executing diffoscope
+[2023-06-20 14:54:28] INFO root fetch - processPackages [pytmlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytmlib-1.1.0.dev8.tar.gz tmp/pytmlib-1.1.0.dev9.tar.gz --markdown 20230620/p/pytmlib/1.1.0.dev8-1.1.0.dev9/diff.md --exclude *.pyd
+[2023-06-20 14:54:28] WARNING root fetch - processPackages [semremover]: Skipping, unable to determine old version
+[2023-06-20 14:54:28] INFO root fetch - processPackages [semremover]: Start processing: bigdl-dllib-spark2
+[2023-06-20 14:54:28] INFO root fetch - processPackages [Datargsing]: Downloading https://files.pythonhosted.org/packages/30/07/6684b97cac3ec2a5cd68ed509e1a8cfa26185bfe55de0d0bfc08cbb6e5e7/Datargsing-0.2.9-py3-none-any.whl
+[2023-06-20 14:54:28] INFO root fetch - main [MainThread]: End processing [semremover] error
+[2023-06-20 14:54:28] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230620] Old Version: [2.4.0b20230619]
+[2023-06-20 14:54:28] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-06-20 14:54:28] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230619-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230620-py3-none-manylinux1_x86_64.whl.zip --markdown 20230620/b/bigdl/2.4.0b20230619-2.4.0b20230620/diff.md --exclude *.pyd
+[2023-06-20 14:54:28] INFO root fetch - processPackages [solo-epd-loader]: executing diffoscope
+[2023-06-20 14:54:28] INFO root fetch - processPackages [naruno-tests]: executing diffoscope
+[2023-06-20 14:54:28] INFO root fetch - processPackages [solo-epd-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solo_epd_loader-0.2.6.tar.gz tmp/solo_epd_loader-0.2.7.tar.gz --markdown 20230620/s/solo-epd-loader/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-20 14:54:28] INFO root fetch - processPackages [naruno-tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_tests-0.58.0.tar.gz tmp/naruno_tests-0.58.1.tar.gz --markdown 20230620/n/naruno-tests/0.58.0-0.58.1/diff.md --exclude *.pyd
+[2023-06-20 14:54:28] INFO root fetch - processPackages [Datargsing]: executing diffoscope
+[2023-06-20 14:54:28] INFO root fetch - processPackages [Datargsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Datargsing-0.2.8-py3-none-any.whl.zip tmp/Datargsing-0.2.9-py3-none-any.whl.zip --markdown 20230620/D/Datargsing/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-20 14:54:28] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/4f/ca/f3981174a191f58c26464a9df518ef04edcc2517891e37a40c7dd2bfacc0/bigdl-dllib-spark2-2.4.0b20230619.tar.gz
+[2023-06-20 14:54:28] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53637832>=10485760
+[2023-06-20 14:54:28] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: 011.butt
+[2023-06-20 14:54:28] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-06-20 14:54:28] WARNING root fetch - processPackages [011.butt]: Skipping, unable to determine old version
+[2023-06-20 14:54:28] INFO root fetch - processPackages [011.butt]: Start processing: obrpy
+[2023-06-20 14:54:28] INFO root fetch - main [MainThread]: End processing [011.butt] error
+[2023-06-20 14:54:28] INFO root fetch - processPackages [obrpy]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-20 14:54:28] INFO root fetch - processPackages [obrpy]: Downloading https://files.pythonhosted.org/packages/cc/7e/f6346192a5ffdc0e7a9a1c79105403e1656d07090c2a41efac016b7247e9/obrpy-0.0.9.tar.gz
+[2023-06-20 14:54:28] INFO root fetch - processPackages [naruno-remote-app]: Remove: archive file [/home/abi/fetcher/tmp/naruno_remote_app-0.58.0.tar.gz]
+[2023-06-20 14:54:28] INFO root fetch - processPackages [naruno-remote-app]: Remove: archive file [/home/abi/fetcher/tmp/naruno_remote_app-0.58.1.tar.gz]
+[2023-06-20 14:54:28] INFO root fetch - processPackages [naruno-remote-app]: Start processing: bigdl-orca-spark2
+[2023-06-20 14:54:28] INFO root fetch - main [MainThread]: End processing [naruno-remote-app]: success
+[2023-06-20 14:54:28] INFO root fetch - processPackages [obrpy]: Downloading https://files.pythonhosted.org/packages/ab/bc/b41460aa3c64a5ea55541917ee9aaa2dd34d93984c4312620c647ae784d9/obrpy-0.1.0.tar.gz
+[2023-06-20 14:54:28] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230620] Old Version: [2.4.0b20230619]
+[2023-06-20 14:54:29] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/bd/2b/e79ca27f39b848ea74a718dc19557fb52e59ddb455c2d579c149169fc5bd/bigdl_orca_spark2-2.4.0b20230619-py3-none-manylinux1_x86_64.whl
+[2023-06-20 14:54:29] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369597>=10485760
+[2023-06-20 14:54:29] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: emmett-sentry
+[2023-06-20 14:54:29] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-06-20 14:54:29] INFO root fetch - processPackages [emmett-sentry]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-20 14:54:29] INFO root fetch - processPackages [emmett-sentry]: Downloading https://files.pythonhosted.org/packages/17/d7/a2f1e5d53e74d2cd76827bcd888ffe031c980f265c7f2cda280e2738bcd9/emmett_sentry-0.4.1.tar.gz
+[2023-06-20 14:54:29] INFO root fetch - processPackages [emmett-sentry]: Downloading https://files.pythonhosted.org/packages/23/69/2b4e25fca25bd5f721d3397bb7137a4d2f40119e6f7320f9bef1462fcee3/emmett_sentry-0.5.0.tar.gz
+[2023-06-20 14:54:29] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230619-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-20 14:54:29] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230620-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-20 14:54:29] INFO root fetch - processPackages [bigdl]: Start processing: bigdl-friesian-spark2
+[2023-06-20 14:54:29] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-06-20 14:54:29] INFO root fetch - processPackages [emmett-sentry]: executing diffoscope
+[2023-06-20 14:54:29] INFO root fetch - processPackages [emmett-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmett_sentry-0.4.1.tar.gz tmp/emmett_sentry-0.5.0.tar.gz --markdown 20230620/e/emmett-sentry/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-20 14:54:29] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230619] Old Version: [2.4.0b20230618]
+[2023-06-20 14:54:29] INFO root fetch - processPackages [naruno]: Remove: archive file [/home/abi/fetcher/tmp/naruno-0.58.0.tar.gz]
+[2023-06-20 14:54:29] INFO root fetch - processPackages [naruno]: Remove: archive file [/home/abi/fetcher/tmp/naruno-0.58.1.tar.gz]
+[2023-06-20 14:54:29] INFO root fetch - processPackages [naruno]: Start processing: fastgenerateapi
+[2023-06-20 14:54:29] INFO root fetch - main [MainThread]: End processing [naruno]: success
+[2023-06-20 14:54:29] INFO root fetch - processPackages [naruno-tests]: Remove: archive file [/home/abi/fetcher/tmp/naruno_tests-0.58.0.tar.gz]
+[2023-06-20 14:54:29] INFO root fetch - processPackages [naruno-tests]: Remove: archive file [/home/abi/fetcher/tmp/naruno_tests-0.58.1.tar.gz]
+[2023-06-20 14:54:29] INFO root fetch - processPackages [naruno-tests]: Start processing: absl-extra
+[2023-06-20 14:54:29] INFO root fetch - main [MainThread]: End processing [naruno-tests]: success
+[2023-06-20 14:54:29] INFO root fetch - processPackages [Datargsing]: Remove: archive file [/home/abi/fetcher/tmp/Datargsing-0.2.8-py3-none-any.whl.zip]
+[2023-06-20 14:54:29] INFO root fetch - processPackages [Datargsing]: Remove: archive file [/home/abi/fetcher/tmp/Datargsing-0.2.9-py3-none-any.whl.zip]
+[2023-06-20 14:54:29] INFO root fetch - processPackages [Datargsing]: Start processing: tensorcircuit-nightly
+[2023-06-20 14:54:29] INFO root fetch - main [MainThread]: End processing [Datargsing]: success
+[2023-06-20 14:54:29] INFO root fetch - processPackages [absl-extra]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 14:54:29] INFO root fetch - processPackages [fastgenerateapi]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-20 14:54:29] INFO root fetch - processPackages [pytmlib]: Remove: archive file [/home/abi/fetcher/tmp/pytmlib-1.1.0.dev8.tar.gz]
+[2023-06-20 14:54:29] INFO root fetch - processPackages [pytmlib]: Remove: archive file [/home/abi/fetcher/tmp/pytmlib-1.1.0.dev9.tar.gz]
+[2023-06-20 14:54:29] INFO root fetch - processPackages [pytmlib]: Start processing: bigdl-chronos-spark2
+[2023-06-20 14:54:29] INFO root fetch - main [MainThread]: End processing [pytmlib]: success
+[2023-06-20 14:54:29] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-06-20 14:54:29] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/ec/b6/c3e3fdd14d55c218f90588b199137a7b7447efaa57221c37eab0bec33ef1/bigdl_friesian_spark2-2.4.0b20230618-py3-none-manylinux1_x86_64.whl
+[2023-06-20 14:54:30] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230620] Old Version: [2.4.0b20230619]
+[2023-06-20 14:54:30] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/7f/91/a405456acd3b77c270c049a322420d06af1f82de5a3e7eef455613f9c791/fastgenerateapi-0.0.6.tar.gz
+[2023-06-20 14:54:30] INFO root fetch - processPackages [obrpy]: executing diffoscope
+[2023-06-20 14:54:30] INFO root fetch - processPackages [obrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obrpy-0.0.9.tar.gz tmp/obrpy-0.1.0.tar.gz --markdown 20230620/o/obrpy/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-20 14:54:30] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/29/c2/2963a9d6af04f01e35537596dae79293de441ce549712ff30add2367a97e/absl_extra-0.0.8.tar.gz
+[2023-06-20 14:54:30] INFO root fetch - processPackages [gempy]: Remove: archive file [/home/abi/fetcher/tmp/gempy-2.2b10.dev1.tar.gz]
+[2023-06-20 14:54:30] INFO root fetch - processPackages [gempy]: Remove: archive file [/home/abi/fetcher/tmp/gempy-2.3.0.tar.gz]
+[2023-06-20 14:54:30] INFO root fetch - processPackages [gempy]: Start processing: bigdl-spark2
+[2023-06-20 14:54:30] INFO root fetch - main [MainThread]: End processing [gempy]: success
+[2023-06-20 14:54:30] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-06-20 14:54:30] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230619] Old Version: [2.4.0b20230618]
+[2023-06-20 14:54:30] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/b9/0e/6a403b69f9378bb837821f8efaccc1b394b90b72e24970ab249000d07668/bigdl_chronos_spark2-2.4.0b20230619-py3-none-manylinux1_x86_64.whl
+[2023-06-20 14:54:30] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/a2/bc/58203530402aed20f37e19843fb5589baae711298fdc7e06cb00576cec01/bigdl_friesian_spark2-2.4.0b20230619-py3-none-manylinux1_x86_64.whl
+[2023-06-20 14:54:30] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/83/6d/2cc828965a510fdfcf565bbee0529b755e68f8a9e0de2e06584bd1f6b9fb/fastgenerateapi-0.0.7.tar.gz
+[2023-06-20 14:54:30] INFO root fetch - processPackages [ostatslib]: Remove: archive file [/home/abi/fetcher/tmp/ostatslib-0.5.0.tar.gz]
+[2023-06-20 14:54:30] INFO root fetch - processPackages [ostatslib]: Remove: archive file [/home/abi/fetcher/tmp/ostatslib-0.5.1.tar.gz]
+[2023-06-20 14:54:30] INFO root fetch - processPackages [ostatslib]: Start processing: PyTimbrRestAPI
+[2023-06-20 14:54:30] INFO root fetch - main [MainThread]: End processing [ostatslib]: success
+[2023-06-20 14:54:30] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/50/42/0f92d2e78a4579daa659eba9843293d82022f08d5b382e8255c3599bde83/bigdl_spark2-2.4.0b20230618-py3-none-manylinux1_x86_64.whl
+[2023-06-20 14:54:30] INFO root fetch - processPackages [fastgenerateapi]: executing diffoscope
+[2023-06-20 14:54:30] INFO root fetch - processPackages [fastgenerateapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastgenerateapi-0.0.6.tar.gz tmp/fastgenerateapi-0.0.7.tar.gz --markdown 20230620/f/fastgenerateapi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-20 14:54:30] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-06-20 14:54:30] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230618-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230619-py3-none-manylinux1_x86_64.whl.zip --markdown 20230620/b/bigdl-friesian-spark2/2.4.0b20230618-2.4.0b20230619/diff.md --exclude *.pyd
+[2023-06-20 14:54:30] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/77/5e/479618372d66392b53074e5ea5029923827042b97d6e1bea363d3ab81d91/absl_extra-0.0.9.tar.gz
+[2023-06-20 14:54:30] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-06-20 14:54:30] WARNING root fetch - processPackages [PyTimbrRestAPI]: Skipping, unable to determine old version
+[2023-06-20 14:54:30] INFO root fetch - main [MainThread]: End processing [PyTimbrRestAPI] error
+[2023-06-20 14:54:30] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/01/93/3d2460971fbd7f5bc416393412d365d1a03dc9811841593a05483dbf6840/bigdl_chronos_spark2-2.4.0b20230620-py3-none-manylinux1_x86_64.whl
+[2023-06-20 14:54:30] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-06-20 14:54:30] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.8.tar.gz tmp/absl_extra-0.0.9.tar.gz --markdown 20230620/a/absl-extra/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 14:54:30] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-06-20 14:54:30] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230620/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-06-20 14:54:30] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/c0/48/a5b0c717920f9ee0694f4a1785219d03d3d033d741b50bde1846734b61a1/bigdl_spark2-2.4.0b20230619-py3-none-manylinux1_x86_64.whl
+[2023-06-20 14:54:30] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-06-20 14:54:30] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230619-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230620-py3-none-manylinux1_x86_64.whl.zip --markdown 20230620/b/bigdl-chronos-spark2/2.4.0b20230619-2.4.0b20230620/diff.md --exclude *.pyd
+[2023-06-20 14:54:30] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-06-20 14:54:30] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230618-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230619-py3-none-manylinux1_x86_64.whl.zip --markdown 20230620/b/bigdl-spark2/2.4.0b20230618-2.4.0b20230619/diff.md --exclude *.pyd
+[2023-06-20 14:54:30] INFO root fetch - processPackages [emmett-sentry]: Remove: archive file [/home/abi/fetcher/tmp/emmett_sentry-0.4.1.tar.gz]
+[2023-06-20 14:54:30] INFO root fetch - processPackages [emmett-sentry]: Remove: archive file [/home/abi/fetcher/tmp/emmett_sentry-0.5.0.tar.gz]
+[2023-06-20 14:54:30] INFO root fetch - main [MainThread]: End processing [emmett-sentry]: success
+[2023-06-20 14:54:31] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.8.tar.gz]
+[2023-06-20 14:54:31] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.9.tar.gz]
+[2023-06-20 14:54:31] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-06-20 14:54:32] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230618-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-20 14:54:32] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230619-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-20 14:54:32] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-06-20 14:54:32] INFO root fetch - processPackages [solo-epd-loader]: Remove: archive file [/home/abi/fetcher/tmp/solo_epd_loader-0.2.6.tar.gz]
+[2023-06-20 14:54:32] INFO root fetch - processPackages [solo-epd-loader]: Remove: archive file [/home/abi/fetcher/tmp/solo_epd_loader-0.2.7.tar.gz]
+[2023-06-20 14:54:32] INFO root fetch - main [MainThread]: End processing [solo-epd-loader]: success
+[2023-06-20 14:54:32] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-06-20 14:54:32] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-06-20 14:54:32] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-06-20 14:54:32] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.6.tar.gz]
+[2023-06-20 14:54:32] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.7.tar.gz]
+[2023-06-20 14:54:32] INFO root fetch - main [MainThread]: End processing [fastgenerateapi]: success
+[2023-06-20 14:54:32] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230619-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-20 14:54:32] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230620-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-20 14:54:32] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-06-20 14:54:33] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230618-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-20 14:54:33] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230619-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-20 14:54:33] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-06-20 14:54:34] INFO root fetch - processPackages [obrpy]: Remove: archive file [/home/abi/fetcher/tmp/obrpy-0.0.9.tar.gz]
+[2023-06-20 14:54:34] INFO root fetch - processPackages [obrpy]: Remove: archive file [/home/abi/fetcher/tmp/obrpy-0.1.0.tar.gz]
+[2023-06-20 14:54:34] INFO root fetch - main [MainThread]: End processing [obrpy]: success
+[2023-06-20 14:54:34] INFO root fetch - main [MainThread]: Store serial: [18574982]
