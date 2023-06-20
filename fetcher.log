@@ -12300,3 +12300,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 07:38:59] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.9.tar.gz]
 [2023-06-20 07:38:59] INFO root fetch - main [MainThread]: End processing [dartrig]: success
 [2023-06-20 07:38:59] INFO root fetch - main [MainThread]: Store serial: [18570288]
+[2023-06-20 07:44:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570288]
+[2023-06-20 07:44:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-20 07:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: justMulti
+[2023-06-20 07:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xenoslib
+[2023-06-20 07:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tistory-helper
+[2023-06-20 07:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wtrobot
+[2023-06-20 07:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cashooo
+[2023-06-20 07:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yapf
+[2023-06-20 07:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vstutils
+[2023-06-20 07:44:09] INFO root fetch - processPackages [yapf]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-20 07:44:09] INFO root fetch - processPackages [justMulti]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-20 07:44:09] INFO root fetch - processPackages [cashooo]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-20 07:44:09] WARNING root fetch - processPackages [tistory-helper]: Skipping, unable to determine old version
+[2023-06-20 07:44:09] INFO root fetch - main [MainThread]: End processing [tistory-helper] error
+[2023-06-20 07:44:09] WARNING root fetch - processPackages [wtrobot]: Skipping, unable to determine old version
+[2023-06-20 07:44:09] INFO root fetch - main [MainThread]: End processing [wtrobot] error
+[2023-06-20 07:44:09] INFO root fetch - processPackages [xenoslib]: New version: [0.1.29.2] Old Version: [0.1.29.1]
+[2023-06-20 07:44:09] INFO root fetch - processPackages [vstutils]: New version: [5.5.0a1] Old Version: [5.5.0]
+[2023-06-20 07:44:09] INFO root fetch - processPackages [xenoslib]: Downloading https://files.pythonhosted.org/packages/49/85/d3558f65ad926d27eb69a38f390e64a25b75ce49188603b1a59440684fb3/xenoslib-0.1.29.1.tar.gz
+[2023-06-20 07:44:09] INFO root fetch - processPackages [cashooo]: Downloading https://files.pythonhosted.org/packages/75/fa/015ff01dd2871a6624aa5131b2e560c2a67053b51e52e67e68b4f266b287/Cashooo-1.1.1.tar.gz
+[2023-06-20 07:44:09] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/5f/6c/9d232a41c693ec9b1a4aa540ecbcddc66aa822c2572a978d61a5c3c18cf4/vstutils-5.5.0.tar.gz
+[2023-06-20 07:44:09] INFO root fetch - processPackages [yapf]: Downloading https://files.pythonhosted.org/packages/3f/a4/101ce9c5e4ec00050536afc310df5c602d9b3bfd7a54de16721a7ff3c97e/yapf-0.8.2.tar.gz
+[2023-06-20 07:44:09] INFO root fetch - processPackages [justMulti]: Downloading https://files.pythonhosted.org/packages/f9/b0/1e86f740734630aa5e5c9736f57b73cb70e21c8c180369ced510faff1621/justMulti-0.0.1.tar.gz
+[2023-06-20 07:44:09] INFO root fetch - processPackages [xenoslib]: Downloading https://files.pythonhosted.org/packages/87/d3/9f5128c7527d74873a8009dc7bbb89aab71f0d350a24a20a2ba358267ded/xenoslib-0.1.29.2.tar.gz
+[2023-06-20 07:44:09] INFO root fetch - processPackages [justMulti]: Downloading https://files.pythonhosted.org/packages/4e/ab/6eced8bc182f7fc8b2b9759389f3532f116eee42221c14b7d19fa232ef7a/justMulti-0.0.2.tar.gz
+[2023-06-20 07:44:09] INFO root fetch - processPackages [xenoslib]: executing diffoscope
+[2023-06-20 07:44:09] INFO root fetch - processPackages [xenoslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xenoslib-0.1.29.1.tar.gz tmp/xenoslib-0.1.29.2.tar.gz --markdown 20230620/x/xenoslib/0.1.29.1-0.1.29.2/diff.md --exclude *.pyd
+[2023-06-20 07:44:10] INFO root fetch - processPackages [cashooo]: Downloading https://files.pythonhosted.org/packages/e6/d3/f4a1958d14fa9792137d99fe3bcab146dd3729d735d9d7c114200adf6aef/cashooo-1.1.2.tar.gz
+[2023-06-20 07:44:10] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/c8/2c/e79b626ff2d31587c8a0fcc1327110ebfe6bdd8e20d4dc59e1bd56877aea/vstutils-5.5.0a1.tar.gz
+[2023-06-20 07:44:10] INFO root fetch - processPackages [justMulti]: executing diffoscope
+[2023-06-20 07:44:10] INFO root fetch - processPackages [justMulti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justMulti-0.0.1.tar.gz tmp/justMulti-0.0.2.tar.gz --markdown 20230620/j/justMulti/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-20 07:44:10] INFO root fetch - processPackages [cashooo]: executing diffoscope
+[2023-06-20 07:44:10] INFO root fetch - processPackages [cashooo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Cashooo-1.1.1.tar.gz tmp/cashooo-1.1.2.tar.gz --markdown 20230620/c/cashooo/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-20 07:44:10] INFO root fetch - processPackages [yapf]: Downloading https://files.pythonhosted.org/packages/8e/c3/0fe7c604c2d2bb2578809abdf6aedaaf219c523adee74d468a462278641f/yapf-0.9.0.tar.gz
+[2023-06-20 07:44:10] INFO root fetch - processPackages [yapf]: executing diffoscope
+[2023-06-20 07:44:10] INFO root fetch - processPackages [yapf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yapf-0.8.2.tar.gz tmp/yapf-0.9.0.tar.gz --markdown 20230620/y/yapf/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-20 07:44:10] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-06-20 07:44:10] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.5.0.tar.gz tmp/vstutils-5.5.0a1.tar.gz --markdown 20230620/v/vstutils/5.5.0-5.5.0a1/diff.md --exclude *.pyd
+[2023-06-20 07:44:11] INFO root fetch - processPackages [cashooo]: Remove: archive file [/home/abi/fetcher/tmp/Cashooo-1.1.1.tar.gz]
+[2023-06-20 07:44:11] INFO root fetch - processPackages [cashooo]: Remove: archive file [/home/abi/fetcher/tmp/cashooo-1.1.2.tar.gz]
+[2023-06-20 07:44:11] INFO root fetch - main [MainThread]: End processing [cashooo]: success
+[2023-06-20 07:44:11] INFO root fetch - processPackages [xenoslib]: Remove: archive file [/home/abi/fetcher/tmp/xenoslib-0.1.29.1.tar.gz]
+[2023-06-20 07:44:11] INFO root fetch - processPackages [xenoslib]: Remove: archive file [/home/abi/fetcher/tmp/xenoslib-0.1.29.2.tar.gz]
+[2023-06-20 07:44:11] INFO root fetch - main [MainThread]: End processing [xenoslib]: success
+[2023-06-20 07:44:11] INFO root fetch - processPackages [justMulti]: Remove: archive file [/home/abi/fetcher/tmp/justMulti-0.0.1.tar.gz]
+[2023-06-20 07:44:11] INFO root fetch - processPackages [justMulti]: Remove: archive file [/home/abi/fetcher/tmp/justMulti-0.0.2.tar.gz]
+[2023-06-20 07:44:11] INFO root fetch - main [MainThread]: End processing [justMulti]: success
+[2023-06-20 07:44:11] INFO root fetch - processPackages [yapf]: Remove: archive file [/home/abi/fetcher/tmp/yapf-0.8.2.tar.gz]
+[2023-06-20 07:44:11] INFO root fetch - processPackages [yapf]: Remove: archive file [/home/abi/fetcher/tmp/yapf-0.9.0.tar.gz]
+[2023-06-20 07:44:11] INFO root fetch - main [MainThread]: End processing [yapf]: success
+[2023-06-20 07:44:24] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.0.tar.gz]
+[2023-06-20 07:44:24] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.0a1.tar.gz]
+[2023-06-20 07:44:24] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-06-20 07:44:24] INFO root fetch - main [MainThread]: Store serial: [18570317]
