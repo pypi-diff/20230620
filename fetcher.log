@@ -12734,3 +12734,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 08:13:34] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev76.tar.gz]
 [2023-06-20 08:13:34] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-06-20 08:13:34] INFO root fetch - main [MainThread]: Store serial: [18570529]
+[2023-06-20 08:18:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570529]
+[2023-06-20 08:18:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-20 08:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyikarus
+[2023-06-20 08:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metlo
+[2023-06-20 08:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: itc-ekyc
+[2023-06-20 08:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gridgraph-importer
+[2023-06-20 08:18:43] WARNING root fetch - processPackages [itc-ekyc]: Skipping, unable to determine old version
+[2023-06-20 08:18:43] INFO root fetch - main [MainThread]: End processing [itc-ekyc] error
+[2023-06-20 08:18:43] INFO root fetch - processPackages [pyikarus]: New version: [0.3.3.dev20230620061559] Old Version: [0.3.3.dev20230616134912]
+[2023-06-20 08:18:43] INFO root fetch - processPackages [metlo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 08:18:43] INFO root fetch - processPackages [gridgraph-importer]: New version: [3.0] Old Version: [2.0]
+[2023-06-20 08:18:44] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/2c/0f/e61cc4d871e8868d8ad97156d024ebecdf97edf568995f05ac10d2a7d957/pyikarus-0.3.3.dev20230616134912.tar.gz
+[2023-06-20 08:18:44] INFO root fetch - processPackages [metlo]: Downloading https://files.pythonhosted.org/packages/50/25/62f0fc17a927b2a7fef8292ed0b410ce7531e95b42e9d58e34512b165d1b/metlo-0.0.8.tar.gz
+[2023-06-20 08:18:44] INFO root fetch - processPackages [gridgraph-importer]: Downloading https://files.pythonhosted.org/packages/78/4e/28fc9213b2a5917cc87142011072dceccf8fa26c76b8109fc8e41a9bc688/gridgraph_importer-2.0.tar.gz
+[2023-06-20 08:18:44] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/3e/ca/f409b1c064580f9cb7acb7f00bfcb5cf908dd101ef3867fc02be572aa71a/pyikarus-0.3.3.dev20230620061559.tar.gz
+[2023-06-20 08:18:44] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-06-20 08:18:44] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.3.dev20230616134912.tar.gz tmp/pyikarus-0.3.3.dev20230620061559.tar.gz --markdown 20230620/p/pyikarus/0.3.3.dev20230616134912-0.3.3.dev20230620061559/diff.md --exclude *.pyd
+[2023-06-20 08:18:44] INFO root fetch - processPackages [gridgraph-importer]: Downloading https://files.pythonhosted.org/packages/5d/aa/5216674a3fad9be60391f160e026de8d2c42f2c8d42aad0007b1f7d647e8/gridgraph_importer-3.0.tar.gz
+[2023-06-20 08:18:44] INFO root fetch - processPackages [gridgraph-importer]: executing diffoscope
+[2023-06-20 08:18:44] INFO root fetch - processPackages [gridgraph-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridgraph_importer-2.0.tar.gz tmp/gridgraph_importer-3.0.tar.gz --markdown 20230620/g/gridgraph-importer/2.0-3.0/diff.md --exclude *.pyd
+[2023-06-20 08:18:45] INFO root fetch - processPackages [gridgraph-importer]: Remove: archive file [/home/abi/fetcher/tmp/gridgraph_importer-2.0.tar.gz]
+[2023-06-20 08:18:45] INFO root fetch - processPackages [gridgraph-importer]: Remove: archive file [/home/abi/fetcher/tmp/gridgraph_importer-3.0.tar.gz]
+[2023-06-20 08:18:45] INFO root fetch - main [MainThread]: End processing [gridgraph-importer]: success
+[2023-06-20 08:18:46] INFO root fetch - processPackages [metlo]: Downloading https://files.pythonhosted.org/packages/fb/37/bd9301d61f36988b14776fd76cf4d52e8c60b2391e58bb876beae8d35b91/metlo-0.0.9.tar.gz
+[2023-06-20 08:18:46] INFO root fetch - processPackages [metlo]: executing diffoscope
+[2023-06-20 08:18:46] INFO root fetch - processPackages [metlo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metlo-0.0.8.tar.gz tmp/metlo-0.0.9.tar.gz --markdown 20230620/m/metlo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 08:18:47] INFO root fetch - processPackages [pyikarus]: Remove: archive file [/home/abi/fetcher/tmp/pyikarus-0.3.3.dev20230616134912.tar.gz]
+[2023-06-20 08:18:47] INFO root fetch - processPackages [pyikarus]: Remove: archive file [/home/abi/fetcher/tmp/pyikarus-0.3.3.dev20230620061559.tar.gz]
+[2023-06-20 08:18:47] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-06-20 08:18:47] INFO root fetch - processPackages [metlo]: Remove: archive file [/home/abi/fetcher/tmp/metlo-0.0.8.tar.gz]
+[2023-06-20 08:18:47] INFO root fetch - processPackages [metlo]: Remove: archive file [/home/abi/fetcher/tmp/metlo-0.0.9.tar.gz]
+[2023-06-20 08:18:47] INFO root fetch - main [MainThread]: End processing [metlo]: success
+[2023-06-20 08:18:47] INFO root fetch - main [MainThread]: Store serial: [18570542]
