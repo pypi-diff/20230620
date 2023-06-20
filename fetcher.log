@@ -18415,3 +18415,118 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 12:02:48] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.995.tar.gz]
 [2023-06-20 12:02:48] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
 [2023-06-20 12:02:48] INFO root fetch - main [MainThread]: Store serial: [18572892]
+[2023-06-20 12:07:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18572892]
+[2023-06-20 12:07:59] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-20 12:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: showroom-recorder
+[2023-06-20 12:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: showroom-recorder
+[2023-06-20 12:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EdgeGPT
+[2023-06-20 12:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-software
+[2023-06-20 12:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: app-ocr
+[2023-06-20 12:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fractal-tasks-core
+[2023-06-20 12:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: devops-auto-tools
+[2023-06-20 12:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: humlab-inidun
+[2023-06-20 12:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: 0014
+[2023-06-20 12:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: civic-scraper
+[2023-06-20 12:07:59] WARNING root fetch - processPackages [showroom-recorder]: Skipping, unable to determine old version
+[2023-06-20 12:07:59] INFO root fetch - processPackages [showroom-recorder]: Start processing: ms-general-utils
+[2023-06-20 12:07:59] INFO root fetch - main [MainThread]: End processing [showroom-recorder] error
+[2023-06-20 12:07:59] INFO root fetch - processPackages [civic-scraper]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-20 12:07:59] INFO root fetch - processPackages [humlab-inidun]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-20 12:07:59] INFO root fetch - processPackages [devops-auto-tools]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-06-20 12:07:59] INFO root fetch - processPackages [app-ocr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 12:07:59] WARNING root fetch - processPackages [showroom-recorder]: Skipping, unable to determine old version
+[2023-06-20 12:07:59] INFO root fetch - processPackages [showroom-recorder]: Start processing: githubkit
+[2023-06-20 12:07:59] INFO root fetch - processPackages [netbox-software]: New version: [0.1.3] Old Version: [0.1.0]
+[2023-06-20 12:07:59] INFO root fetch - main [MainThread]: End processing [showroom-recorder] error
+[2023-06-20 12:07:59] WARNING root fetch - processPackages [0014]: Skipping, unable to determine old version
+[2023-06-20 12:07:59] INFO root fetch - processPackages [0014]: Start processing: openai-pygenerator
+[2023-06-20 12:07:59] INFO root fetch - main [MainThread]: End processing [0014] error
+[2023-06-20 12:07:59] INFO root fetch - processPackages [fractal-tasks-core]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-20 12:07:59] INFO root fetch - processPackages [EdgeGPT]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-20 12:07:59] INFO root fetch - processPackages [ms-general-utils]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-20 12:07:59] INFO root fetch - processPackages [openai-pygenerator]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-20 12:07:59] INFO root fetch - processPackages [app-ocr]: Downloading https://files.pythonhosted.org/packages/c0/57/e9a76e727c2ee16950d57861a9575ea9c79248ca9a26cf533c1091937091/app_ocr-1.0.8.tar.gz
+[2023-06-20 12:07:59] INFO root fetch - processPackages [githubkit]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-20 12:07:59] INFO root fetch - processPackages [ms-general-utils]: Downloading https://files.pythonhosted.org/packages/3d/c9/805d0765509458564cc2095843c0206cf339f0990b66e8c6f9df4e339765/ms_general_utils-1.4.1.tar.gz
+[2023-06-20 12:07:59] INFO root fetch - processPackages [openai-pygenerator]: Downloading https://files.pythonhosted.org/packages/5c/a5/cefe0dfb209f9a132f0c7692a69a77a9d4ff62b264228c81f64c2202c902/openai-pygenerator-0.4.4.tar.gz
+[2023-06-20 12:07:59] INFO root fetch - processPackages [devops-auto-tools]: Downloading https://files.pythonhosted.org/packages/67/f2/d9c0037d4fd5696d3f86719718106937d165f8bd7ba533f8eaf7cd1597de/devops-auto-tools-1.1.3.tar.gz
+[2023-06-20 12:07:59] INFO root fetch - processPackages [humlab-inidun]: Downloading https://files.pythonhosted.org/packages/f5/54/4335f1fd2040be99f20a6f16d798afa67a56e6a947274868d5cdeaa5cdad/humlab-inidun-0.3.8.tar.gz
+[2023-06-20 12:07:59] INFO root fetch - processPackages [fractal-tasks-core]: Downloading https://files.pythonhosted.org/packages/dc/7a/c7e9ed4dcf3416a2791d6cb84bb56a4b3e7e24febd429a3d95bca296551a/fractal_tasks_core-0.9.3.tar.gz
+[2023-06-20 12:07:59] INFO root fetch - processPackages [netbox-software]: Downloading https://files.pythonhosted.org/packages/ab/f1/3cc0a3f49cd427bbb97f21e7cabd0ab357466690f7db8b3e738a64363298/netbox_software-0.1.0.tar.gz
+[2023-06-20 12:07:59] INFO root fetch - processPackages [civic-scraper]: Downloading https://files.pythonhosted.org/packages/96/e3/860df18350a1dca97e689e3bc664ee03a68761f488ad5ff8f0b710f94fae/civic-scraper-0.2.6.tar.gz
+[2023-06-20 12:07:59] INFO root fetch - processPackages [ms-general-utils]: Downloading https://files.pythonhosted.org/packages/fc/42/4df2624220535616cd5b0db5d04a89c0a15fe20ce59939ac6d49510e1774/ms_general_utils-1.4.2.tar.gz
+[2023-06-20 12:07:59] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/d7/29/f3e955f076747e360e385767e052138c8bbb1b5b8564bb0a8e3ac80aa517/EdgeGPT-0.9.1.tar.gz
+[2023-06-20 12:07:59] WARNING root fetch - processPackages [civic-scraper]: Skipping package: exceeds size limit 29175943>=10485760
+[2023-06-20 12:07:59] INFO root fetch - processPackages [civic-scraper]: Start processing: dls-bxflow
+[2023-06-20 12:07:59] INFO root fetch - main [MainThread]: End processing [civic-scraper] error
+[2023-06-20 12:07:59] INFO root fetch - processPackages [openai-pygenerator]: Downloading https://files.pythonhosted.org/packages/46/ca/b7969a505e4ce25dbf5f88082d4a64fecc886d896f799d5d9b6538d55245/openai-pygenerator-0.4.5.tar.gz
+[2023-06-20 12:07:59] INFO root fetch - processPackages [ms-general-utils]: executing diffoscope
+[2023-06-20 12:07:59] INFO root fetch - processPackages [ms-general-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_general_utils-1.4.1.tar.gz tmp/ms_general_utils-1.4.2.tar.gz --markdown 20230620/m/ms-general-utils/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-20 12:07:59] INFO root fetch - processPackages [githubkit]: Downloading https://files.pythonhosted.org/packages/8b/9d/d23a08b3bbfb5e6957ab990102aa9b2a70d454c91836714bc9f41b541616/githubkit-0.9.7.tar.gz
+[2023-06-20 12:07:59] INFO root fetch - processPackages [openai-pygenerator]: executing diffoscope
+[2023-06-20 12:07:59] INFO root fetch - processPackages [openai-pygenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-pygenerator-0.4.4.tar.gz tmp/openai-pygenerator-0.4.5.tar.gz --markdown 20230620/o/openai-pygenerator/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-20 12:07:59] INFO root fetch - processPackages [app-ocr]: Downloading https://files.pythonhosted.org/packages/38/3b/d9910a5d53b9f1798eeb4cd4ed0d423bc4d66efa304448e3a22032a1c29a/app_ocr-1.0.9.tar.gz
+[2023-06-20 12:07:59] INFO root fetch - processPackages [dls-bxflow]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-06-20 12:07:59] INFO root fetch - processPackages [fractal-tasks-core]: Downloading https://files.pythonhosted.org/packages/b7/d9/0b556d4ee7006a6c2f8d6e89d24d5bd88dea65730a992c5503f7991416e8/fractal_tasks_core-0.9.4.tar.gz
+[2023-06-20 12:07:59] INFO root fetch - processPackages [devops-auto-tools]: Downloading https://files.pythonhosted.org/packages/d0/d1/f58bd2387e8aab3722b5a6cf1525cfb62eb4918071a524e98e849431bea5/devops-auto-tools-1.2.0.tar.gz
+[2023-06-20 12:07:59] INFO root fetch - processPackages [app-ocr]: executing diffoscope
+[2023-06-20 12:07:59] INFO root fetch - processPackages [app-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app_ocr-1.0.8.tar.gz tmp/app_ocr-1.0.9.tar.gz --markdown 20230620/a/app-ocr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 12:07:59] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/cd/5b/21684fc9845465c26158f409058121cb077ae7db9cd74c4027491d8a2a42/EdgeGPT-0.9.2.tar.gz
+[2023-06-20 12:07:59] INFO root fetch - processPackages [netbox-software]: Downloading https://files.pythonhosted.org/packages/62/78/ced050674005263ed827976516b5359014b93628b643429e7f8fc3ec4a18/netbox_software-0.1.3.tar.gz
+[2023-06-20 12:07:59] INFO root fetch - processPackages [humlab-inidun]: Downloading https://files.pythonhosted.org/packages/33/6b/95f042ae1ec4383788d995c4e719f8b1a93938288dacafd86246d6b3fe0c/humlab-inidun-0.3.9.tar.gz
+[2023-06-20 12:07:59] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-06-20 12:07:59] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.9.1.tar.gz tmp/EdgeGPT-0.9.2.tar.gz --markdown 20230620/E/EdgeGPT/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-20 12:07:59] INFO root fetch - processPackages [dls-bxflow]: Downloading https://files.pythonhosted.org/packages/d1/b2/69740ce555efd3584db5d861b01b5248cb6516649ab7883e70a98904533b/dls-bxflow-2.5.0.tar.gz
+[2023-06-20 12:08:00] INFO root fetch - processPackages [devops-auto-tools]: executing diffoscope
+[2023-06-20 12:08:00] INFO root fetch - processPackages [devops-auto-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devops-auto-tools-1.1.3.tar.gz tmp/devops-auto-tools-1.2.0.tar.gz --markdown 20230620/d/devops-auto-tools/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-06-20 12:08:00] INFO root fetch - processPackages [fractal-tasks-core]: executing diffoscope
+[2023-06-20 12:08:00] INFO root fetch - processPackages [fractal-tasks-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_tasks_core-0.9.3.tar.gz tmp/fractal_tasks_core-0.9.4.tar.gz --markdown 20230620/f/fractal-tasks-core/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-20 12:08:00] INFO root fetch - processPackages [githubkit]: Downloading https://files.pythonhosted.org/packages/95/26/a95dcdc4df01641aafe3b6d5740fc26929aa7e5a5105dc8678b50783c7aa/githubkit-0.9.8.tar.gz
+[2023-06-20 12:08:00] INFO root fetch - processPackages [humlab-inidun]: executing diffoscope
+[2023-06-20 12:08:00] INFO root fetch - processPackages [netbox-software]: executing diffoscope
+[2023-06-20 12:08:00] INFO root fetch - processPackages [netbox-software]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_software-0.1.0.tar.gz tmp/netbox_software-0.1.3.tar.gz --markdown 20230620/n/netbox-software/0.1.0-0.1.3/diff.md --exclude *.pyd
+[2023-06-20 12:08:00] INFO root fetch - processPackages [humlab-inidun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humlab-inidun-0.3.8.tar.gz tmp/humlab-inidun-0.3.9.tar.gz --markdown 20230620/h/humlab-inidun/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-20 12:08:00] INFO root fetch - processPackages [githubkit]: executing diffoscope
+[2023-06-20 12:08:00] INFO root fetch - processPackages [githubkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/githubkit-0.9.7.tar.gz tmp/githubkit-0.9.8.tar.gz --markdown 20230620/g/githubkit/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-20 12:08:00] INFO root fetch - processPackages [dls-bxflow]: Downloading https://files.pythonhosted.org/packages/19/00/bb94b29a7e3b508c7b870622b2c71cd9a01762a588facde2f5196c89388f/dls-bxflow-2.6.0.tar.gz
+[2023-06-20 12:08:00] INFO root fetch - processPackages [dls-bxflow]: executing diffoscope
+[2023-06-20 12:08:00] INFO root fetch - processPackages [dls-bxflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-bxflow-2.5.0.tar.gz tmp/dls-bxflow-2.6.0.tar.gz --markdown 20230620/d/dls-bxflow/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-06-20 12:08:01] INFO root fetch - processPackages [ms-general-utils]: Remove: archive file [/home/abi/fetcher/tmp/ms_general_utils-1.4.1.tar.gz]
+[2023-06-20 12:08:01] INFO root fetch - processPackages [ms-general-utils]: Remove: archive file [/home/abi/fetcher/tmp/ms_general_utils-1.4.2.tar.gz]
+[2023-06-20 12:08:01] INFO root fetch - processPackages [ms-general-utils]: Start processing: netbox-software
+[2023-06-20 12:08:01] INFO root fetch - main [MainThread]: End processing [ms-general-utils]: success
+[2023-06-20 12:08:01] INFO root fetch - processPackages [netbox-software]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-20 12:08:01] INFO root fetch - processPackages [netbox-software]: Downloading https://files.pythonhosted.org/packages/72/f8/efe0114366e2bc28b44a57f80ed25f60b4ac3b4a92db58220fea027a651b/netbox_software-0.1.4.tar.gz
+[2023-06-20 12:08:01] INFO root fetch - processPackages [devops-auto-tools]: Remove: archive file [/home/abi/fetcher/tmp/devops-auto-tools-1.1.3.tar.gz]
+[2023-06-20 12:08:01] INFO root fetch - processPackages [devops-auto-tools]: Remove: archive file [/home/abi/fetcher/tmp/devops-auto-tools-1.2.0.tar.gz]
+[2023-06-20 12:08:01] INFO root fetch - main [MainThread]: End processing [devops-auto-tools]: success
+[2023-06-20 12:08:01] INFO root fetch - processPackages [netbox-software]: executing diffoscope
+[2023-06-20 12:08:01] INFO root fetch - processPackages [netbox-software]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_software-0.1.3.tar.gz tmp/netbox_software-0.1.4.tar.gz --markdown 20230620/n/netbox-software/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-20 12:08:01] INFO root fetch - processPackages [openai-pygenerator]: Remove: archive file [/home/abi/fetcher/tmp/openai-pygenerator-0.4.4.tar.gz]
+[2023-06-20 12:08:01] INFO root fetch - processPackages [openai-pygenerator]: Remove: archive file [/home/abi/fetcher/tmp/openai-pygenerator-0.4.5.tar.gz]
+[2023-06-20 12:08:01] INFO root fetch - main [MainThread]: End processing [openai-pygenerator]: success
+[2023-06-20 12:08:01] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.1.tar.gz]
+[2023-06-20 12:08:01] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.2.tar.gz]
+[2023-06-20 12:08:01] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-06-20 12:08:01] INFO root fetch - processPackages [humlab-inidun]: Remove: archive file [/home/abi/fetcher/tmp/humlab-inidun-0.3.8.tar.gz]
+[2023-06-20 12:08:01] INFO root fetch - processPackages [humlab-inidun]: Remove: archive file [/home/abi/fetcher/tmp/humlab-inidun-0.3.9.tar.gz]
+[2023-06-20 12:08:01] INFO root fetch - main [MainThread]: End processing [humlab-inidun]: success
+[2023-06-20 12:08:01] INFO root fetch - processPackages [fractal-tasks-core]: Remove: archive file [/home/abi/fetcher/tmp/fractal_tasks_core-0.9.3.tar.gz]
+[2023-06-20 12:08:01] INFO root fetch - processPackages [fractal-tasks-core]: Remove: archive file [/home/abi/fetcher/tmp/fractal_tasks_core-0.9.4.tar.gz]
+[2023-06-20 12:08:01] INFO root fetch - main [MainThread]: End processing [fractal-tasks-core]: success
+[2023-06-20 12:08:01] INFO root fetch - processPackages [netbox-software]: Remove: archive file [/home/abi/fetcher/tmp/netbox_software-0.1.0.tar.gz]
+[2023-06-20 12:08:01] INFO root fetch - processPackages [netbox-software]: Remove: archive file [/home/abi/fetcher/tmp/netbox_software-0.1.3.tar.gz]
+[2023-06-20 12:08:01] INFO root fetch - main [MainThread]: End processing [netbox-software]: success
+[2023-06-20 12:08:02] ERROR root fetch - processPackages [netbox-software]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/netbox_software-0.1.3.tar.gz: No such file or directory
+
+[2023-06-20 12:08:02] INFO root fetch - main [MainThread]: End processing [netbox-software] error
+[2023-06-20 12:08:03] INFO root fetch - processPackages [app-ocr]: Remove: archive file [/home/abi/fetcher/tmp/app_ocr-1.0.8.tar.gz]
+[2023-06-20 12:08:03] INFO root fetch - processPackages [app-ocr]: Remove: archive file [/home/abi/fetcher/tmp/app_ocr-1.0.9.tar.gz]
+[2023-06-20 12:08:03] INFO root fetch - main [MainThread]: End processing [app-ocr]: success
+[2023-06-20 12:08:03] INFO root fetch - processPackages [githubkit]: Remove: archive file [/home/abi/fetcher/tmp/githubkit-0.9.7.tar.gz]
+[2023-06-20 12:08:03] INFO root fetch - processPackages [githubkit]: Remove: archive file [/home/abi/fetcher/tmp/githubkit-0.9.8.tar.gz]
+[2023-06-20 12:08:03] INFO root fetch - main [MainThread]: End processing [githubkit]: success
+[2023-06-20 12:08:06] INFO root fetch - processPackages [dls-bxflow]: Remove: archive file [/home/abi/fetcher/tmp/dls-bxflow-2.5.0.tar.gz]
+[2023-06-20 12:08:06] INFO root fetch - processPackages [dls-bxflow]: Remove: archive file [/home/abi/fetcher/tmp/dls-bxflow-2.6.0.tar.gz]
+[2023-06-20 12:08:06] INFO root fetch - main [MainThread]: End processing [dls-bxflow]: success
+[2023-06-20 12:08:06] INFO root fetch - main [MainThread]: Store serial: [18572940]
