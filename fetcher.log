@@ -13207,3 +13207,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 08:34:55] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.3.1.tar.gz]
 [2023-06-20 08:34:55] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-20 08:34:55] INFO root fetch - main [MainThread]: Store serial: [18570679]
+[2023-06-20 08:39:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570679]
+[2023-06-20 08:40:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-20 08:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FHIRkit
+[2023-06-20 08:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-helper-vbot3
+[2023-06-20 08:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrappeycom
+[2023-06-20 08:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataskema
+[2023-06-20 08:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tcompress
+[2023-06-20 08:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unibox
+[2023-06-20 08:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onapsdk
+[2023-06-20 08:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scrappeycom
+[2023-06-20 08:40:04] INFO root fetch - processPackages [FHIRkit]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-20 08:40:04] WARNING root fetch - processPackages [scrappeycom]: Skipping, unable to determine old version
+[2023-06-20 08:40:04] INFO root fetch - main [MainThread]: End processing [scrappeycom] error
+[2023-06-20 08:40:04] INFO root fetch - processPackages [test-helper-vbot3]: New version: [1.5] Old Version: [1.4]
+[2023-06-20 08:40:04] WARNING root fetch - processPackages [tcompress]: Skipping, unable to determine old version
+[2023-06-20 08:40:04] INFO root fetch - main [MainThread]: End processing [tcompress] error
+[2023-06-20 08:40:04] WARNING root fetch - processPackages [scrappeycom]: Skipping, unable to determine old version
+[2023-06-20 08:40:04] INFO root fetch - main [MainThread]: End processing [scrappeycom] error
+[2023-06-20 08:40:04] INFO root fetch - processPackages [dataskema]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-20 08:40:04] INFO root fetch - processPackages [unibox]: New version: [0.1.0.1] Old Version: [0.1.0]
+[2023-06-20 08:40:04] INFO root fetch - processPackages [onapsdk]: New version: [9.6.0] Old Version: [9.5.1]
+[2023-06-20 08:40:04] INFO root fetch - processPackages [FHIRkit]: Downloading https://files.pythonhosted.org/packages/20/c5/1f50a7c9999fb0532c28fa6bea5d6e56db9c7f07340b53d80483a6cdd4f6/FHIRkit-0.1.1.tar.gz
+[2023-06-20 08:40:04] INFO root fetch - processPackages [test-helper-vbot3]: Downloading https://files.pythonhosted.org/packages/5f/70/2527439796250925bc459cf5ec51df1a350a2c833ea730d7d26e73b4ce90/test_helper_vbot3-1.4.tar.gz
+[2023-06-20 08:40:04] INFO root fetch - processPackages [unibox]: Downloading https://files.pythonhosted.org/packages/70/d7/573918c9ac98791757ed6c544d5f27d08b80693757936d9322f280d6f99e/unibox-0.1.0.tar.gz
+[2023-06-20 08:40:04] INFO root fetch - processPackages [onapsdk]: Downloading https://files.pythonhosted.org/packages/34/8d/de179917b707edfd9bb4c028c49d7efff1d14da5c21b6030c9f58ff65c7e/onapsdk-9.5.1.tar.gz
+[2023-06-20 08:40:04] INFO root fetch - processPackages [dataskema]: Downloading https://files.pythonhosted.org/packages/61/89/8ffa35785ae8635babfce9b99a3abfa85dc6e10be1aa685336dbcdc8cb8e/dataskema-1.7.0.tar.gz
+[2023-06-20 08:40:04] INFO root fetch - processPackages [FHIRkit]: Downloading https://files.pythonhosted.org/packages/26/6f/29d09257ffedc6b14ba5d94d8673b665dc48e851b89a14afd7a6af3e22d0/FHIRkit-0.1.2.tar.gz
+[2023-06-20 08:40:04] INFO root fetch - processPackages [test-helper-vbot3]: Downloading https://files.pythonhosted.org/packages/2f/a5/1959d47e63c1d80601a4b59d1e04e5267949fe65c26c575b766325cf651a/test_helper_vbot3-1.5.tar.gz
+[2023-06-20 08:40:04] INFO root fetch - processPackages [unibox]: Downloading https://files.pythonhosted.org/packages/9e/d1/654d696ac0400508b9b0af6e528d455cdd7b42ea1b65f48e060b9df4f3ac/unibox-0.1.0.1.tar.gz
+[2023-06-20 08:40:04] INFO root fetch - processPackages [dataskema]: Downloading https://files.pythonhosted.org/packages/15/44/878e4b72b540f1a5b8bfebfa31885390c3338a1d2c2e610f2b89e9a243e3/dataskema-1.7.1.tar.gz
+[2023-06-20 08:40:04] INFO root fetch - processPackages [FHIRkit]: executing diffoscope
+[2023-06-20 08:40:04] INFO root fetch - processPackages [FHIRkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FHIRkit-0.1.1.tar.gz tmp/FHIRkit-0.1.2.tar.gz --markdown 20230620/F/FHIRkit/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-20 08:40:04] INFO root fetch - processPackages [test-helper-vbot3]: executing diffoscope
+[2023-06-20 08:40:04] INFO root fetch - processPackages [test-helper-vbot3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_helper_vbot3-1.4.tar.gz tmp/test_helper_vbot3-1.5.tar.gz --markdown 20230620/t/test-helper-vbot3/1.4-1.5/diff.md --exclude *.pyd
+[2023-06-20 08:40:04] INFO root fetch - processPackages [dataskema]: executing diffoscope
+[2023-06-20 08:40:04] INFO root fetch - processPackages [dataskema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataskema-1.7.0.tar.gz tmp/dataskema-1.7.1.tar.gz --markdown 20230620/d/dataskema/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-20 08:40:04] INFO root fetch - processPackages [onapsdk]: Downloading https://files.pythonhosted.org/packages/54/d9/b0ae90c2fb352493a8e31989ab994f4540b0ae9dec8292b1372a1d01c994/onapsdk-9.6.0.tar.gz
+[2023-06-20 08:40:04] INFO root fetch - processPackages [unibox]: executing diffoscope
+[2023-06-20 08:40:04] INFO root fetch - processPackages [unibox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unibox-0.1.0.tar.gz tmp/unibox-0.1.0.1.tar.gz --markdown 20230620/u/unibox/0.1.0-0.1.0.1/diff.md --exclude *.pyd
+[2023-06-20 08:40:04] INFO root fetch - processPackages [onapsdk]: executing diffoscope
+[2023-06-20 08:40:04] INFO root fetch - processPackages [onapsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onapsdk-9.5.1.tar.gz tmp/onapsdk-9.6.0.tar.gz --markdown 20230620/o/onapsdk/9.5.1-9.6.0/diff.md --exclude *.pyd
+[2023-06-20 08:40:05] INFO root fetch - processPackages [unibox]: Remove: archive file [/home/abi/fetcher/tmp/unibox-0.1.0.tar.gz]
+[2023-06-20 08:40:05] INFO root fetch - processPackages [unibox]: Remove: archive file [/home/abi/fetcher/tmp/unibox-0.1.0.1.tar.gz]
+[2023-06-20 08:40:05] INFO root fetch - main [MainThread]: End processing [unibox]: success
+[2023-06-20 08:40:05] INFO root fetch - processPackages [dataskema]: Remove: archive file [/home/abi/fetcher/tmp/dataskema-1.7.0.tar.gz]
+[2023-06-20 08:40:05] INFO root fetch - processPackages [dataskema]: Remove: archive file [/home/abi/fetcher/tmp/dataskema-1.7.1.tar.gz]
+[2023-06-20 08:40:05] INFO root fetch - main [MainThread]: End processing [dataskema]: success
+[2023-06-20 08:40:05] INFO root fetch - processPackages [test-helper-vbot3]: Remove: archive file [/home/abi/fetcher/tmp/test_helper_vbot3-1.4.tar.gz]
+[2023-06-20 08:40:05] INFO root fetch - processPackages [test-helper-vbot3]: Remove: archive file [/home/abi/fetcher/tmp/test_helper_vbot3-1.5.tar.gz]
+[2023-06-20 08:40:05] INFO root fetch - main [MainThread]: End processing [test-helper-vbot3]: success
+[2023-06-20 08:40:06] INFO root fetch - processPackages [onapsdk]: Remove: archive file [/home/abi/fetcher/tmp/onapsdk-9.5.1.tar.gz]
+[2023-06-20 08:40:06] INFO root fetch - processPackages [onapsdk]: Remove: archive file [/home/abi/fetcher/tmp/onapsdk-9.6.0.tar.gz]
+[2023-06-20 08:40:06] INFO root fetch - main [MainThread]: End processing [onapsdk]: success
+[2023-06-20 08:40:07] INFO root fetch - processPackages [FHIRkit]: Remove: archive file [/home/abi/fetcher/tmp/FHIRkit-0.1.1.tar.gz]
+[2023-06-20 08:40:07] INFO root fetch - processPackages [FHIRkit]: Remove: archive file [/home/abi/fetcher/tmp/FHIRkit-0.1.2.tar.gz]
+[2023-06-20 08:40:07] INFO root fetch - main [MainThread]: End processing [FHIRkit]: success
+[2023-06-20 08:40:07] INFO root fetch - main [MainThread]: Store serial: [18570700]
