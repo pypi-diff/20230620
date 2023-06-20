@@ -7121,3 +7121,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 04:17:40] INFO root fetch - processPackages [zuspec-arl-dm]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_arl_dm-0.0.1.5317763846-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-20 04:17:40] INFO root fetch - main [MainThread]: End processing [zuspec-arl-dm]: success
 [2023-06-20 04:17:40] INFO root fetch - main [MainThread]: Store serial: [18568492]
+[2023-06-20 04:22:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18568492]
+[2023-06-20 04:22:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-slb
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-oss
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zuspec-fe-parser
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xiaobaisaf
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: d20-orm
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-cdn
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zuspec-parser
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-waf
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-paidswapi
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ros-cdk-emr
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ros-cdk-cdn]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:22:52] INFO root fetch - processPackages [zuspec-fe-parser]: New version: [0.0.1.5317751533] Old Version: [0.0.1.5101250238]
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ros-cdk-waf]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ros-cdk-oss]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ros-cdk-slb]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:22:52] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-20 04:22:52] INFO root fetch - processPackages [xiaobaisaf]: New version: [2.2] Old Version: [2.1]
+[2023-06-20 04:22:52] WARNING root fetch - processPackages [ros-cdk-paidswapi]: Skipping, unable to determine old version
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ros-cdk-emr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ros-cdk-paidswapi]: Start processing: ros-cdk-sag
+[2023-06-20 04:22:52] INFO root fetch - main [MainThread]: End processing [ros-cdk-paidswapi] error
+[2023-06-20 04:22:52] INFO root fetch - processPackages [zuspec-parser]: New version: [0.0.1.5317756661] Old Version: [0.0.1.5038855766]
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ros-cdk-sag]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:22:52] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-20 04:22:52] INFO root fetch - processPackages [xiaobaisaf]: Downloading https://files.pythonhosted.org/packages/22/7c/a35204a83db48f32bafbbd4402d731fbcee9fc89027172b04ab8898d8807/xiaobaisaf-2.1.tar.gz
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ros-cdk-oss]: Downloading https://files.pythonhosted.org/packages/a5/b8/c2ac5419e05c9605d2cae551c93f7db8cc980bbbcc901875c2bf6217ee41/ros-cdk-oss-1.0.8.tar.gz
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ros-cdk-emr]: Downloading https://files.pythonhosted.org/packages/50/61/202417019680bcdf94da5ef5ff605881e25813c2c7cd5b4bf0d3190d9e33/ros-cdk-emr-1.0.8.tar.gz
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ros-cdk-slb]: Downloading https://files.pythonhosted.org/packages/74/ad/5c48cd3815ba0fc1048e117d80967eae95cd1842f9ef377522e0fa5e48b4/ros-cdk-slb-1.0.8.tar.gz
+[2023-06-20 04:22:52] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-20 04:22:52] INFO root fetch - processPackages [zuspec-parser]: Downloading https://files.pythonhosted.org/packages/5d/bc/a323883a9a03784b7ad11a97c2054bb21bce0f76b7d4465b6aebdea0cc37/zuspec_parser-0.0.1.5038855766-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ros-cdk-sag]: Downloading https://files.pythonhosted.org/packages/a4/cf/1f2f8df6724976c41029e16f8ad223e35d1d77ad6d91af18b3836483b763/ros-cdk-sag-1.0.8.tar.gz
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ros-cdk-cdn]: Downloading https://files.pythonhosted.org/packages/75/8a/4c0915519cd54a8f6ff7c027146ee58512c68a78509bf3bf3c2d4d996b82/ros-cdk-cdn-1.0.8.tar.gz
+[2023-06-20 04:22:52] INFO root fetch - processPackages [zuspec-fe-parser]: Downloading https://files.pythonhosted.org/packages/d7/69/af04e590106dbe8dfaa2424716283831e82abf9e130690fede471622b743/zuspec_fe_parser-0.0.1.5101250238-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-20 04:22:52] INFO root fetch - processPackages [ros-cdk-waf]: Downloading https://files.pythonhosted.org/packages/a9/70/b12853a89bbcbb70d17ad4e181706e68e07950df8d46ede35d4033b38e82/ros-cdk-waf-1.0.8.tar.gz
+[2023-06-20 04:22:52] INFO root fetch - processPackages [xiaobaisaf]: Downloading https://files.pythonhosted.org/packages/76/3e/769a98ef93c6cdc8deb0c4de49efa9eb27393e5090acb22dd8bd426d0e80/xiaobaisaf-2.2.tar.gz
+[2023-06-20 04:22:52] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-20 04:22:52] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230620/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-20 04:22:53] INFO root fetch - processPackages [xiaobaisaf]: executing diffoscope
+[2023-06-20 04:22:53] INFO root fetch - processPackages [xiaobaisaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaobaisaf-2.1.tar.gz tmp/xiaobaisaf-2.2.tar.gz --markdown 20230620/x/xiaobaisaf/2.1-2.2/diff.md --exclude *.pyd
+[2023-06-20 04:22:53] INFO root fetch - processPackages [ros-cdk-emr]: Downloading https://files.pythonhosted.org/packages/8e/dd/a78ed513dffb3ea1146d45f0e1e11a5e14f1ba4e37217d9c7fc294a8ae85/ros-cdk-emr-1.0.9.tar.gz
+[2023-06-20 04:22:53] INFO root fetch - processPackages [ros-cdk-oss]: Downloading https://files.pythonhosted.org/packages/97/44/a47ac5301ba96430211be492cdcc79a0e95bf88b5fd492d06266fe025f2b/ros-cdk-oss-1.0.9.tar.gz
+[2023-06-20 04:22:53] INFO root fetch - processPackages [ros-cdk-cdn]: Downloading https://files.pythonhosted.org/packages/02/9b/9180dd4f5bb8d70cad58e1954218be77776bce87367bc613d3757833cec6/ros-cdk-cdn-1.0.9.tar.gz
+[2023-06-20 04:22:53] INFO root fetch - processPackages [zuspec-fe-parser]: Downloading https://files.pythonhosted.org/packages/31/9b/161b74af29092a576458b17403132136f1468c54f633a9525b5b7a41c15c/zuspec_fe_parser-0.0.1.5317751533-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-20 04:22:53] INFO root fetch - processPackages [ros-cdk-cdn]: executing diffoscope
+[2023-06-20 04:22:53] INFO root fetch - processPackages [ros-cdk-cdn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cdn-1.0.8.tar.gz tmp/ros-cdk-cdn-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-cdn/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:22:53] INFO root fetch - processPackages [ros-cdk-sag]: Downloading https://files.pythonhosted.org/packages/f1/a2/17222b86429962a14aa6fa255dd53af222cd467cb5733dc5b29058ef12e0/ros-cdk-sag-1.0.9.tar.gz
+[2023-06-20 04:22:53] INFO root fetch - processPackages [ros-cdk-emr]: executing diffoscope
+[2023-06-20 04:22:53] INFO root fetch - processPackages [ros-cdk-emr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-emr-1.0.8.tar.gz tmp/ros-cdk-emr-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-emr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:22:53] INFO root fetch - processPackages [ros-cdk-slb]: Downloading https://files.pythonhosted.org/packages/40/e3/c5f19aed2f14ba0d2dd20e09b1342b3c4297e73015c12af0b7ac24640289/ros-cdk-slb-1.0.9.tar.gz
+[2023-06-20 04:22:53] INFO root fetch - processPackages [ros-cdk-waf]: Downloading https://files.pythonhosted.org/packages/50/4b/86db9ca259d7bfef95fb333226033ce4d276df87301e9784639da81572aa/ros-cdk-waf-1.0.9.tar.gz
+[2023-06-20 04:22:53] INFO root fetch - processPackages [zuspec-parser]: Downloading https://files.pythonhosted.org/packages/2c/fe/8fda36659c3e88e4c959a6b97496eedf7c9f5ced656e24d1f267be6b4fc2/zuspec_parser-0.0.1.5317756661-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-20 04:22:53] INFO root fetch - processPackages [ros-cdk-slb]: executing diffoscope
+[2023-06-20 04:22:53] INFO root fetch - processPackages [ros-cdk-slb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-slb-1.0.8.tar.gz tmp/ros-cdk-slb-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-slb/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:22:53] INFO root fetch - processPackages [ros-cdk-sag]: executing diffoscope
+[2023-06-20 04:22:53] INFO root fetch - processPackages [ros-cdk-sag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-sag-1.0.8.tar.gz tmp/ros-cdk-sag-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-sag/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:22:53] INFO root fetch - processPackages [zuspec-fe-parser]: executing diffoscope
+[2023-06-20 04:22:53] INFO root fetch - processPackages [zuspec-fe-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuspec_fe_parser-0.0.1.5101250238-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/zuspec_fe_parser-0.0.1.5317751533-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230620/z/zuspec-fe-parser/0.0.1.5101250238-0.0.1.5317751533/diff.md --exclude *.pyd
+[2023-06-20 04:22:53] INFO root fetch - processPackages [ros-cdk-oss]: executing diffoscope
+[2023-06-20 04:22:53] INFO root fetch - processPackages [ros-cdk-oss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-oss-1.0.8.tar.gz tmp/ros-cdk-oss-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-oss/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:22:53] INFO root fetch - processPackages [zuspec-parser]: executing diffoscope
+[2023-06-20 04:22:53] INFO root fetch - processPackages [zuspec-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuspec_parser-0.0.1.5038855766-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/zuspec_parser-0.0.1.5317756661-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230620/z/zuspec-parser/0.0.1.5038855766-0.0.1.5317756661/diff.md --exclude *.pyd
+[2023-06-20 04:22:53] INFO root fetch - processPackages [ros-cdk-waf]: executing diffoscope
+[2023-06-20 04:22:53] INFO root fetch - processPackages [ros-cdk-waf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-waf-1.0.8.tar.gz tmp/ros-cdk-waf-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-waf/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:22:54] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-06-20 04:22:54] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-06-20 04:22:54] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-20 04:22:54] INFO root fetch - processPackages [ros-cdk-emr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-emr-1.0.8.tar.gz]
+[2023-06-20 04:22:54] INFO root fetch - processPackages [ros-cdk-emr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-emr-1.0.9.tar.gz]
+[2023-06-20 04:22:54] INFO root fetch - main [MainThread]: End processing [ros-cdk-emr]: success
+[2023-06-20 04:22:54] INFO root fetch - processPackages [xiaobaisaf]: Remove: archive file [/home/abi/fetcher/tmp/xiaobaisaf-2.1.tar.gz]
+[2023-06-20 04:22:54] INFO root fetch - processPackages [xiaobaisaf]: Remove: archive file [/home/abi/fetcher/tmp/xiaobaisaf-2.2.tar.gz]
+[2023-06-20 04:22:54] INFO root fetch - main [MainThread]: End processing [xiaobaisaf]: success
+[2023-06-20 04:22:54] INFO root fetch - processPackages [ros-cdk-cdn]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cdn-1.0.8.tar.gz]
+[2023-06-20 04:22:54] INFO root fetch - processPackages [ros-cdk-cdn]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cdn-1.0.9.tar.gz]
+[2023-06-20 04:22:54] INFO root fetch - main [MainThread]: End processing [ros-cdk-cdn]: success
+[2023-06-20 04:22:55] INFO root fetch - processPackages [ros-cdk-oss]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-oss-1.0.8.tar.gz]
+[2023-06-20 04:22:55] INFO root fetch - processPackages [ros-cdk-oss]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-oss-1.0.9.tar.gz]
+[2023-06-20 04:22:55] INFO root fetch - main [MainThread]: End processing [ros-cdk-oss]: success
+[2023-06-20 04:22:55] INFO root fetch - processPackages [ros-cdk-waf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-waf-1.0.8.tar.gz]
+[2023-06-20 04:22:55] INFO root fetch - processPackages [ros-cdk-waf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-waf-1.0.9.tar.gz]
+[2023-06-20 04:22:55] INFO root fetch - main [MainThread]: End processing [ros-cdk-waf]: success
+[2023-06-20 04:22:56] INFO root fetch - processPackages [ros-cdk-sag]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sag-1.0.8.tar.gz]
+[2023-06-20 04:22:56] INFO root fetch - processPackages [ros-cdk-sag]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sag-1.0.9.tar.gz]
+[2023-06-20 04:22:56] INFO root fetch - main [MainThread]: End processing [ros-cdk-sag]: success
+[2023-06-20 04:22:56] INFO root fetch - processPackages [ros-cdk-slb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-slb-1.0.8.tar.gz]
+[2023-06-20 04:22:56] INFO root fetch - processPackages [ros-cdk-slb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-slb-1.0.9.tar.gz]
+[2023-06-20 04:22:56] INFO root fetch - main [MainThread]: End processing [ros-cdk-slb]: success
+[2023-06-20 04:23:03] INFO root fetch - processPackages [zuspec-fe-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_fe_parser-0.0.1.5101250238-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-20 04:23:03] INFO root fetch - processPackages [zuspec-fe-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_fe_parser-0.0.1.5317751533-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-20 04:23:03] INFO root fetch - main [MainThread]: End processing [zuspec-fe-parser]: success
+[2023-06-20 04:23:59] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.5038855766-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-20 04:23:59] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.5317756661-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-20 04:23:59] INFO root fetch - main [MainThread]: End processing [zuspec-parser]: success
+[2023-06-20 04:23:59] INFO root fetch - main [MainThread]: Store serial: [18568524]
