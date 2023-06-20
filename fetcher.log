@@ -14348,3 +14348,215 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 09:33:11] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.5.1.tar.gz]
 [2023-06-20 09:33:11] INFO root fetch - main [MainThread]: End processing [pami]: success
 [2023-06-20 09:33:11] INFO root fetch - main [MainThread]: Store serial: [18571259]
+[2023-06-20 09:38:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18571259]
+[2023-06-20 09:38:20] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-06-20 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emailalert
+[2023-06-20 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-20 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bmw-lobster
+[2023-06-20 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bmw-lobster-tool-codebeamer
+[2023-06-20 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bmw-lobster-tool-cpp
+[2023-06-20 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bmw-lobster-tool-gtest
+[2023-06-20 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bmw-lobster-tool-json
+[2023-06-20 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bmw-lobster-tool-python
+[2023-06-20 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bmw-lobster-tool-trlc
+[2023-06-20 09:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: th2-data-services
+[2023-06-20 09:38:20] INFO root fetch - processPackages [bmw-lobster-tool-json]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-20 09:38:20] INFO root fetch - processPackages [emailalert]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-06-20 09:38:20] INFO root fetch - processPackages [bmw-lobster]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-20 09:38:20] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-20 09:38:20] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-20 09:38:20] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-20 09:38:20] INFO root fetch - processPackages [bmw-lobster-tool-python]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-20 09:38:20] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-20 09:38:20] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev5319788736] Old Version: [2.0.0.dev5310669895]
+[2023-06-20 09:38:20] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-20 09:38:20] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-20 09:38:20] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/b9/c1/967ffd7289d5bc4e6164a92cb23ea574394965979e1f3c3c78f52db4e756/emailalert-1.2.9.tar.gz
+[2023-06-20 09:38:20] INFO root fetch - processPackages [bmw-lobster-tool-json]: Downloading https://files.pythonhosted.org/packages/15/7c/4605ab62f3febc998529e393545a34d2ff3fc98ff5da5645655c92654d35/bmw-lobster-tool-json-0.9.5.tar.gz
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Downloading https://files.pythonhosted.org/packages/a1/a3/2f738655bc2d6beb73b79136eb17648e8c5e4416a17d3ca825d17d9cf047/bmw-lobster-tool-codebeamer-0.9.5.tar.gz
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Downloading https://files.pythonhosted.org/packages/ea/fc/9844dbb9add90d6a1bbc6f0e577668202d0a12bb420a85b8a61de93ce8af/bmw-lobster-tool-cpp-0.9.5.tar.gz
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-python]: Downloading https://files.pythonhosted.org/packages/da/0d/8c05db8ec014dd306e7673d06f704fa28dcd2b55d6c13ef4b9d470b6eb8f/bmw-lobster-tool-python-0.9.5.tar.gz
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster]: Downloading https://files.pythonhosted.org/packages/21/0e/5a6bcafe60ac8635bd9acaa39c0e8bc0cb9f3836d99ab441979f43a56442/bmw-lobster-0.9.5.tar.gz
+[2023-06-20 09:38:21] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/80/f9/b32330eaddc1e1fecf2b48cb5d9ea0762183a0699d0b44076e99b19a27fe/th2_data_services-2.0.0.dev5310669895.tar.gz
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Downloading https://files.pythonhosted.org/packages/17/84/e781ba8395d778d5f67242c037021c24c2a500cb9e419e53b10a66977e1a/bmw-lobster-tool-gtest-0.9.5.tar.gz
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Downloading https://files.pythonhosted.org/packages/a1/3f/0f40257948a43cf8a4fa2ee7dd9427ea09df010ca569188706b941f41897/bmw-lobster-tool-trlc-0.9.5.tar.gz
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-json]: Downloading https://files.pythonhosted.org/packages/af/2e/448d5a8d22d8c3250a7c08cc9b36110951084ad1b8cad2c63d8312f91803/bmw-lobster-tool-json-0.9.6.tar.gz
+[2023-06-20 09:38:21] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/04/89/26c9f6825f62c0065d91a7ac4a6282a98c25f62c4f9f2818e013c58add60/emailalert-1.3.0.tar.gz
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-python]: Downloading https://files.pythonhosted.org/packages/38/63/26d159b18b4e44cb0e68c2e35720a55f7ac63c284557e198aca6294f9d6a/bmw-lobster-tool-python-0.9.6.tar.gz
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Downloading https://files.pythonhosted.org/packages/8d/ba/1c32049eccb4b7a1da62622d32257071d2931a680b6df90f6c6ab9654598/bmw-lobster-tool-trlc-0.9.6.tar.gz
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-python]: executing diffoscope
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Downloading https://files.pythonhosted.org/packages/db/e0/752f4e147501e8ba3bd15a86f2afe5a5c6b36499e8a49fe8726f89d00e68/bmw-lobster-tool-codebeamer-0.9.6.tar.gz
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-python-0.9.5.tar.gz tmp/bmw-lobster-tool-python-0.9.6.tar.gz --markdown 20230620/b/bmw-lobster-tool-python/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-json]: executing diffoscope
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-json-0.9.5.tar.gz tmp/bmw-lobster-tool-json-0.9.6.tar.gz --markdown 20230620/b/bmw-lobster-tool-json/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-20 09:38:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster]: Downloading https://files.pythonhosted.org/packages/33/2c/a920339a0c198c69bc7228373d9c67b4cb7428d8d57f86743484b9cec202/bmw-lobster-0.9.6.tar.gz
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Downloading https://files.pythonhosted.org/packages/a0/3f/8970494ff20bed88c476f3c477e754438afcbff9ee69fae428ddf103f58c/bmw-lobster-tool-gtest-0.9.6.tar.gz
+[2023-06-20 09:38:21] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-20 09:38:21] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/53/80/96773e44b9f4e4b835e8d6450a4de0038e85f32cccba9df635bbf640d015/th2_data_services-2.0.0.dev5319788736.tar.gz
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Downloading https://files.pythonhosted.org/packages/b3/b9/bdb8cf3e40793ec57be05afe88dcba0123177a29f87014c9d83a28493c37/bmw-lobster-tool-cpp-0.9.6.tar.gz
+[2023-06-20 09:38:21] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.2.9.tar.gz tmp/emailalert-1.3.0.tar.gz --markdown 20230620/e/emailalert/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: executing diffoscope
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-trlc-0.9.5.tar.gz tmp/bmw-lobster-tool-trlc-0.9.6.tar.gz --markdown 20230620/b/bmw-lobster-tool-trlc/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster]: executing diffoscope
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-0.9.5.tar.gz tmp/bmw-lobster-0.9.6.tar.gz --markdown 20230620/b/bmw-lobster/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: executing diffoscope
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-cpp-0.9.5.tar.gz tmp/bmw-lobster-tool-cpp-0.9.6.tar.gz --markdown 20230620/b/bmw-lobster-tool-cpp/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: executing diffoscope
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-codebeamer-0.9.5.tar.gz tmp/bmw-lobster-tool-codebeamer-0.9.6.tar.gz --markdown 20230620/b/bmw-lobster-tool-codebeamer/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: executing diffoscope
+[2023-06-20 09:38:21] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-gtest-0.9.5.tar.gz tmp/bmw-lobster-tool-gtest-0.9.6.tar.gz --markdown 20230620/b/bmw-lobster-tool-gtest/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-20 09:38:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-20 09:38:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230620/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 09:38:21] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-06-20 09:38:21] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev5310669895.tar.gz tmp/th2_data_services-2.0.0.dev5319788736.tar.gz --markdown 20230620/t/th2-data-services/2.0.0.dev5310669895-2.0.0.dev5319788736/diff.md --exclude *.pyd
+[2023-06-20 09:38:22] INFO root fetch - processPackages [bmw-lobster-tool-python]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-python-0.9.5.tar.gz]
+[2023-06-20 09:38:22] INFO root fetch - processPackages [bmw-lobster-tool-python]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-python-0.9.6.tar.gz]
+[2023-06-20 09:38:22] INFO root fetch - processPackages [bmw-lobster-tool-python]: Start processing: pdf-docx-pic
+[2023-06-20 09:38:22] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-python]: success
+[2023-06-20 09:38:23] INFO root fetch - processPackages [pdf-docx-pic]: New version: [4.0.0.0.0.1.2023.6.20.0] Old Version: [3.1.2.2023.6.19.19.27.30]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.2.9.tar.gz]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.3.0.tar.gz]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [emailalert]: Start processing: pysvgedit
+[2023-06-20 09:38:23] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-20 09:38:23] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/8c/92/993dd45fbde49406cca8b68eaf10cbecc8b93a5a1af889513c062e4ab7a0/pdf-docx-pic-3.1.2.2023.6.19.19.27.30.tar.gz
+[2023-06-20 09:38:23] WARNING root fetch - processPackages [pysvgedit]: Skipping, unable to determine old version
+[2023-06-20 09:38:23] INFO root fetch - processPackages [pysvgedit]: Start processing: emailalert
+[2023-06-20 09:38:23] INFO root fetch - main [MainThread]: End processing [pysvgedit] error
+[2023-06-20 09:38:23] INFO root fetch - processPackages [bmw-lobster-tool-json]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-json-0.9.5.tar.gz]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [bmw-lobster-tool-json]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-json-0.9.6.tar.gz]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [bmw-lobster-tool-json]: Start processing: recon-lw
+[2023-06-20 09:38:23] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-json]: success
+[2023-06-20 09:38:23] INFO root fetch - processPackages [emailalert]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5319800909] Old Version: [2.0.0.dev5312832411]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/b9/c1/967ffd7289d5bc4e6164a92cb23ea574394965979e1f3c3c78f52db4e756/emailalert-1.2.9.tar.gz
+[2023-06-20 09:38:23] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-trlc-0.9.5.tar.gz]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-trlc-0.9.6.tar.gz]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Start processing: odoo13-addon-account-payment-term-restriction-sale
+[2023-06-20 09:38:23] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-trlc]: success
+[2023-06-20 09:38:23] WARNING root fetch - processPackages [odoo13-addon-account-payment-term-restriction-sale]: Skipping, unable to determine old version
+[2023-06-20 09:38:23] INFO root fetch - processPackages [odoo13-addon-account-payment-term-restriction-sale]: Start processing: hello2
+[2023-06-20 09:38:23] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-payment-term-restriction-sale] error
+[2023-06-20 09:38:23] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-gtest-0.9.5.tar.gz]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-gtest-0.9.6.tar.gz]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Start processing: social-blade-scraper
+[2023-06-20 09:38:23] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-gtest]: success
+[2023-06-20 09:38:23] INFO root fetch - processPackages [hello2]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/04/89/26c9f6825f62c0065d91a7ac4a6282a98c25f62c4f9f2818e013c58add60/emailalert-1.3.0.tar.gz
+[2023-06-20 09:38:23] INFO root fetch - processPackages [social-blade-scraper]: New version: [0.0.1a0] Old Version: [0.0.1]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/f0/56/af974f3eeaece719e265d9ded0c20866906da6f945ec01e7b8393ad785c1/pdf_docx_pic-4.0.0.0.0.1.2023.6.20.0.tar.gz
+[2023-06-20 09:38:23] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-codebeamer-0.9.5.tar.gz]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-codebeamer-0.9.6.tar.gz]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Start processing: odoo13-addon-account-payment-term-restriction
+[2023-06-20 09:38:23] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-codebeamer]: success
+[2023-06-20 09:38:23] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/7b/84/3f2a68fe508e3cbcf0da91853b8ea3ccfaa9d8d94a33de16939e31e08f55/recon_lw-2.0.0.dev5312832411.tar.gz
+[2023-06-20 09:38:23] INFO root fetch - processPackages [bmw-lobster]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-0.9.5.tar.gz]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [bmw-lobster]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-0.9.6.tar.gz]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [bmw-lobster]: Start processing: ipapp
+[2023-06-20 09:38:23] INFO root fetch - main [MainThread]: End processing [bmw-lobster]: success
+[2023-06-20 09:38:23] WARNING root fetch - processPackages [odoo13-addon-account-payment-term-restriction]: Skipping, unable to determine old version
+[2023-06-20 09:38:23] INFO root fetch - processPackages [odoo13-addon-account-payment-term-restriction]: Start processing: odoo13-addon-account-payment-term-restriction-purchase
+[2023-06-20 09:38:23] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-payment-term-restriction] error
+[2023-06-20 09:38:23] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/eb/e0/4a6f2a3af053b8ce8a5e6784655061cfa0963def375a743fe58d3110bdd0/hello2-2.0.2.tar.gz
+[2023-06-20 09:38:23] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-cpp-0.9.5.tar.gz]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-cpp-0.9.6.tar.gz]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Start processing: flake8-balanced-wrapping
+[2023-06-20 09:38:23] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-cpp]: success
+[2023-06-20 09:38:23] INFO root fetch - processPackages [ipapp]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-20 09:38:23] WARNING root fetch - processPackages [odoo13-addon-account-payment-term-restriction-purchase]: Skipping, unable to determine old version
+[2023-06-20 09:38:23] INFO root fetch - processPackages [odoo13-addon-account-payment-term-restriction-purchase]: Start processing: langchain-wenxin
+[2023-06-20 09:38:23] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-payment-term-restriction-purchase] error
+[2023-06-20 09:38:23] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-20 09:38:23] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.2.9.tar.gz tmp/emailalert-1.3.0.tar.gz --markdown 20230620/e/emailalert/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-06-20 09:38:23] INFO root fetch - processPackages [pdf-docx-pic]: executing diffoscope
+[2023-06-20 09:38:23] INFO root fetch - processPackages [pdf-docx-pic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf-docx-pic-3.1.2.2023.6.19.19.27.30.tar.gz tmp/pdf_docx_pic-4.0.0.0.0.1.2023.6.20.0.tar.gz --markdown 20230620/p/pdf-docx-pic/3.1.2.2023.6.19.19.27.30-4.0.0.0.0.1.2023.6.20.0/diff.md --exclude *.pyd
+[2023-06-20 09:38:23] INFO root fetch - processPackages [langchain-wenxin]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [flake8-balanced-wrapping]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [flake8-balanced-wrapping]: Downloading https://files.pythonhosted.org/packages/3b/dd/89d8a0569157ed561123e4907ac6f0d85af5be28ebd149ad1366623761db/flake8-balanced-wrapping-0.1.5.tar.gz
+[2023-06-20 09:38:23] INFO root fetch - processPackages [social-blade-scraper]: Downloading https://files.pythonhosted.org/packages/d5/ac/7e13be80360f7187520304414754deb1cc773c73cf264b2b8152f141195a/social-blade-scraper-0.0.1.tar.gz
+[2023-06-20 09:38:23] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/d1/bb/0f2044f5339534f7329f442275d3d8ab437667a2f3687271e7fa7ce6c8e9/recon_lw-2.0.0.dev5319800909.tar.gz
+[2023-06-20 09:38:23] INFO root fetch - processPackages [ipapp]: Downloading https://files.pythonhosted.org/packages/79/e3/38866c0c3841c820202e9aef4ed0743e66ea43a4f3a76385af0a46e8b474/ipapp-2.0.0.tar.gz
+[2023-06-20 09:38:23] INFO root fetch - processPackages [langchain-wenxin]: Downloading https://files.pythonhosted.org/packages/7f/9e/aa9d0c2d0ec2397f7636cf700d15262e18cc1a5e60a5d6e250365520f8b6/langchain_wenxin-0.5.0.tar.gz
+[2023-06-20 09:38:23] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/3e/11/899afabfb3b2b0e7d087f50cff104986c24f9024fee24baa47efb55a00e5/hello2-2.0.3.tar.gz
+[2023-06-20 09:38:23] INFO root fetch - processPackages [flake8-balanced-wrapping]: Downloading https://files.pythonhosted.org/packages/ad/a1/a5d826a09b1d5b5856cf650fab875a48078453a0512241b69e35b0467834/flake8-balanced-wrapping-0.1.6.tar.gz
+[2023-06-20 09:38:23] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-06-20 09:38:23] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-2.0.2.tar.gz tmp/hello2-2.0.3.tar.gz --markdown 20230620/h/hello2/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-20 09:38:23] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-06-20 09:38:23] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5312832411.tar.gz tmp/recon_lw-2.0.0.dev5319800909.tar.gz --markdown 20230620/r/recon-lw/2.0.0.dev5312832411-2.0.0.dev5319800909/diff.md --exclude *.pyd
+[2023-06-20 09:38:23] ERROR root fetch - processPackages [social-blade-scraper]: Unable to fetch info: No such project/version 'social-blade-scraper' 0.0.1a0
+[2023-06-20 09:38:23] INFO root fetch - processPackages [social-blade-scraper]: Start processing: zenoml
+[2023-06-20 09:38:23] INFO root fetch - main [MainThread]: End processing [social-blade-scraper] error
+[2023-06-20 09:38:23] INFO root fetch - processPackages [zenoml]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-20 09:38:23] INFO root fetch - processPackages [flake8-balanced-wrapping]: executing diffoscope
+[2023-06-20 09:38:23] INFO root fetch - processPackages [flake8-balanced-wrapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-balanced-wrapping-0.1.5.tar.gz tmp/flake8-balanced-wrapping-0.1.6.tar.gz --markdown 20230620/f/flake8-balanced-wrapping/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-20 09:38:23] INFO root fetch - processPackages [ipapp]: Downloading https://files.pythonhosted.org/packages/53/5b/1527ad4883120f54d3b0aedbc6264ab815c89e03a117ec74bf5c5c324dbd/ipapp-2.0.1.tar.gz
+[2023-06-20 09:38:23] INFO root fetch - processPackages [langchain-wenxin]: Downloading https://files.pythonhosted.org/packages/b0/3a/c6b81f4e6021fe6041a5a2cb57a806d5e59a10e401b42e931d8027e63b24/langchain_wenxin-0.6.0.tar.gz
+[2023-06-20 09:38:24] INFO root fetch - processPackages [ipapp]: executing diffoscope
+[2023-06-20 09:38:24] INFO root fetch - processPackages [ipapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipapp-2.0.0.tar.gz tmp/ipapp-2.0.1.tar.gz --markdown 20230620/i/ipapp/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-20 09:38:24] INFO root fetch - processPackages [langchain-wenxin]: executing diffoscope
+[2023-06-20 09:38:24] INFO root fetch - processPackages [langchain-wenxin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_wenxin-0.5.0.tar.gz tmp/langchain_wenxin-0.6.0.tar.gz --markdown 20230620/l/langchain-wenxin/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-20 09:38:24] INFO root fetch - processPackages [zenoml]: Downloading https://files.pythonhosted.org/packages/ce/4a/4286bec2fb464f6470790a745a5398a51e5fc83aab4d7a43a7a48c711a10/zenoml-0.6.1.tar.gz
+[2023-06-20 09:38:24] INFO root fetch - processPackages [zenoml]: Downloading https://files.pythonhosted.org/packages/87/7c/df559b24141678b486e6e51f6731beba807317a11f3ca2cd67b49db3fc67/zenoml-0.6.2.tar.gz
+[2023-06-20 09:38:24] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.2.9.tar.gz]
+[2023-06-20 09:38:24] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.3.0.tar.gz]
+[2023-06-20 09:38:24] INFO root fetch - processPackages [emailalert]: Start processing: nprompter
+[2023-06-20 09:38:24] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-20 09:38:24] INFO root fetch - processPackages [nprompter]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-20 09:38:24] INFO root fetch - processPackages [zenoml]: executing diffoscope
+[2023-06-20 09:38:24] INFO root fetch - processPackages [zenoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenoml-0.6.1.tar.gz tmp/zenoml-0.6.2.tar.gz --markdown 20230620/z/zenoml/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-20 09:38:24] INFO root fetch - processPackages [nprompter]: Downloading https://files.pythonhosted.org/packages/b3/b9/32b009caade8ba5da0dde5f3028ffa0697392bce4e5606994fd94cd86a15/nprompter-3.9.0.tar.gz
+[2023-06-20 09:38:24] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf-docx-pic-3.1.2.2023.6.19.19.27.30.tar.gz]
+[2023-06-20 09:38:24] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf_docx_pic-4.0.0.0.0.1.2023.6.20.0.tar.gz]
+[2023-06-20 09:38:24] INFO root fetch - processPackages [pdf-docx-pic]: Start processing: app-ocr
+[2023-06-20 09:38:24] INFO root fetch - main [MainThread]: End processing [pdf-docx-pic]: success
+[2023-06-20 09:38:24] WARNING root fetch - processPackages [app-ocr]: Skipping, unable to determine old version
+[2023-06-20 09:38:24] INFO root fetch - processPackages [app-ocr]: Start processing: hyfi
+[2023-06-20 09:38:24] INFO root fetch - main [MainThread]: End processing [app-ocr] error
+[2023-06-20 09:38:24] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5310669895.tar.gz]
+[2023-06-20 09:38:24] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5319788736.tar.gz]
+[2023-06-20 09:38:24] INFO root fetch - processPackages [th2-data-services]: Start processing: pdf-docx-pic
+[2023-06-20 09:38:24] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-06-20 09:38:24] INFO root fetch - processPackages [hyfi]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-20 09:38:24] INFO root fetch - processPackages [pdf-docx-pic]: New version: [4.0.0.0.0.1.2023.6.20.1] Old Version: [4.0.0.0.0.1.2023.6.20.0]
+[2023-06-20 09:38:24] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/f0/56/af974f3eeaece719e265d9ded0c20866906da6f945ec01e7b8393ad785c1/pdf_docx_pic-4.0.0.0.0.1.2023.6.20.0.tar.gz
+[2023-06-20 09:38:25] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/ba/ab/e5af235d7ca7ea7d893ccebc2d7973defba88408aca384a6e334c36132cc/hyfi-0.8.1.tar.gz
+[2023-06-20 09:38:25] INFO root fetch - processPackages [flake8-balanced-wrapping]: Remove: archive file [/home/abi/fetcher/tmp/flake8-balanced-wrapping-0.1.5.tar.gz]
+[2023-06-20 09:38:25] INFO root fetch - processPackages [flake8-balanced-wrapping]: Remove: archive file [/home/abi/fetcher/tmp/flake8-balanced-wrapping-0.1.6.tar.gz]
+[2023-06-20 09:38:25] INFO root fetch - main [MainThread]: End processing [flake8-balanced-wrapping]: success
+[2023-06-20 09:38:25] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/d8/f8/084eff374fdec99f3441bce2c2fd4569bd2897cb612daf4e172dd69b916e/pdf_docx_pic-4.0.0.0.0.1.2023.6.20.1.tar.gz
+[2023-06-20 09:38:25] INFO root fetch - processPackages [nprompter]: Downloading https://files.pythonhosted.org/packages/a4/be/e679a084f97bd441f2799a85618275f0362599f1cbc67474a939ca5cb59a/nprompter-3.9.1.tar.gz
+[2023-06-20 09:38:25] INFO root fetch - processPackages [nprompter]: executing diffoscope
+[2023-06-20 09:38:25] INFO root fetch - processPackages [nprompter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nprompter-3.9.0.tar.gz tmp/nprompter-3.9.1.tar.gz --markdown 20230620/n/nprompter/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-20 09:38:25] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/0a/3f/854f52b52b30826e52039f94588f5de86face858ded79b95e580f4745eeb/hyfi-0.8.2.tar.gz
+[2023-06-20 09:38:25] INFO root fetch - processPackages [langchain-wenxin]: Remove: archive file [/home/abi/fetcher/tmp/langchain_wenxin-0.5.0.tar.gz]
+[2023-06-20 09:38:25] INFO root fetch - processPackages [langchain-wenxin]: Remove: archive file [/home/abi/fetcher/tmp/langchain_wenxin-0.6.0.tar.gz]
+[2023-06-20 09:38:25] INFO root fetch - main [MainThread]: End processing [langchain-wenxin]: success
+[2023-06-20 09:38:25] INFO root fetch - processPackages [pdf-docx-pic]: executing diffoscope
+[2023-06-20 09:38:25] INFO root fetch - processPackages [pdf-docx-pic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf_docx_pic-4.0.0.0.0.1.2023.6.20.0.tar.gz tmp/pdf_docx_pic-4.0.0.0.0.1.2023.6.20.1.tar.gz --markdown 20230620/p/pdf-docx-pic/4.0.0.0.0.1.2023.6.20.0-4.0.0.0.0.1.2023.6.20.1/diff.md --exclude *.pyd
+[2023-06-20 09:38:25] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5312832411.tar.gz]
+[2023-06-20 09:38:25] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5319800909.tar.gz]
+[2023-06-20 09:38:25] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-06-20 09:38:25] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-06-20 09:38:25] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.8.1.tar.gz tmp/hyfi-0.8.2.tar.gz --markdown 20230620/h/hyfi/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-20 09:38:25] INFO root fetch - processPackages [ipapp]: Remove: archive file [/home/abi/fetcher/tmp/ipapp-2.0.0.tar.gz]
+[2023-06-20 09:38:25] INFO root fetch - processPackages [ipapp]: Remove: archive file [/home/abi/fetcher/tmp/ipapp-2.0.1.tar.gz]
+[2023-06-20 09:38:25] INFO root fetch - main [MainThread]: End processing [ipapp]: success
+[2023-06-20 09:38:26] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-20 09:38:26] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-20 09:38:26] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-20 09:38:26] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf_docx_pic-4.0.0.0.0.1.2023.6.20.0.tar.gz]
+[2023-06-20 09:38:26] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf_docx_pic-4.0.0.0.0.1.2023.6.20.1.tar.gz]
+[2023-06-20 09:38:26] INFO root fetch - main [MainThread]: End processing [pdf-docx-pic]: success
+[2023-06-20 09:38:26] INFO root fetch - processPackages [nprompter]: Remove: archive file [/home/abi/fetcher/tmp/nprompter-3.9.0.tar.gz]
+[2023-06-20 09:38:26] INFO root fetch - processPackages [nprompter]: Remove: archive file [/home/abi/fetcher/tmp/nprompter-3.9.1.tar.gz]
+[2023-06-20 09:38:26] INFO root fetch - main [MainThread]: End processing [nprompter]: success
+[2023-06-20 09:38:26] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.8.1.tar.gz]
+[2023-06-20 09:38:26] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.8.2.tar.gz]
+[2023-06-20 09:38:26] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-06-20 09:38:27] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-2.0.2.tar.gz]
+[2023-06-20 09:38:27] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-2.0.3.tar.gz]
+[2023-06-20 09:38:27] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-06-20 09:38:44] INFO root fetch - processPackages [zenoml]: Remove: archive file [/home/abi/fetcher/tmp/zenoml-0.6.1.tar.gz]
+[2023-06-20 09:38:44] INFO root fetch - processPackages [zenoml]: Remove: archive file [/home/abi/fetcher/tmp/zenoml-0.6.2.tar.gz]
+[2023-06-20 09:38:44] INFO root fetch - main [MainThread]: End processing [zenoml]: success
+[2023-06-20 09:38:44] INFO root fetch - main [MainThread]: Store serial: [18571349]
