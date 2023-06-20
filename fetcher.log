@@ -13687,3 +13687,68 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 09:06:28] INFO root fetch - processPackages [ppdiffusers]: Remove: archive file [/home/abi/fetcher/tmp/ppdiffusers-0.9.0.tar.gz]
 [2023-06-20 09:06:28] INFO root fetch - main [MainThread]: End processing [ppdiffusers]: success
 [2023-06-20 09:06:28] INFO root fetch - main [MainThread]: Store serial: [18570908]
+[2023-06-20 09:11:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570908]
+[2023-06-20 09:11:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-20 09:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DeepLogTimedelta
+[2023-06-20 09:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cbvx
+[2023-06-20 09:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: civic-scraper
+[2023-06-20 09:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-hub-nightly
+[2023-06-20 09:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-miraie-ac
+[2023-06-20 09:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-20 09:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xenoslib
+[2023-06-20 09:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydoxtools
+[2023-06-20 09:11:39] INFO root fetch - processPackages [civic-scraper]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-20 09:11:39] INFO root fetch - processPackages [DeepLogTimedelta]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-20 09:11:39] WARNING root fetch - processPackages [cbvx]: Skipping, unable to determine old version
+[2023-06-20 09:11:39] INFO root fetch - main [MainThread]: End processing [cbvx] error
+[2023-06-20 09:11:39] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-06-20 09:11:39] INFO root fetch - processPackages [xenoslib]: New version: [0.1.29.2] Old Version: [0.1.29.1]
+[2023-06-20 09:11:39] INFO root fetch - processPackages [py-miraie-ac]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-06-20 09:11:39] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-20 09:11:39] INFO root fetch - processPackages [DeepLogTimedelta]: Downloading https://files.pythonhosted.org/packages/4b/2e/5f7bcd71c57759deee717c8648704fddb9a1730bb13e6c8d633476c450a4/DeepLogTimedelta-0.1.2.tar.gz
+[2023-06-20 09:11:39] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-20 09:11:39] INFO root fetch - processPackages [pydoxtools]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-06-20 09:11:39] INFO root fetch - processPackages [py-miraie-ac]: Downloading https://files.pythonhosted.org/packages/1e/36/f81ffa5121e33436d8e5a624a9d10d3d53fe2d79675b0f285d34d1a999b7/py-miraie-ac-0.1.4.tar.gz
+[2023-06-20 09:11:39] INFO root fetch - processPackages [xenoslib]: Downloading https://files.pythonhosted.org/packages/49/85/d3558f65ad926d27eb69a38f390e64a25b75ce49188603b1a59440684fb3/xenoslib-0.1.29.1.tar.gz
+[2023-06-20 09:11:40] INFO root fetch - processPackages [civic-scraper]: Downloading https://files.pythonhosted.org/packages/a8/d8/1ee2b6f8f5fa7216a60a4f01f6921c9bcba9cff3f7ec712126e57841180e/civic-scraper-0.2.5.tar.gz
+[2023-06-20 09:11:40] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-20 09:11:40] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-06-20 09:11:40] INFO root fetch - processPackages [xenoslib]: Downloading https://files.pythonhosted.org/packages/87/d3/9f5128c7527d74873a8009dc7bbb89aab71f0d350a24a20a2ba358267ded/xenoslib-0.1.29.2.tar.gz
+[2023-06-20 09:11:40] INFO root fetch - processPackages [pydoxtools]: Downloading https://files.pythonhosted.org/packages/c2/93/332afb5882afaae96e4d3b643a52afdf9ade1f1e875737d325b9b2b15418/pydoxtools-0.6.4.tar.gz
+[2023-06-20 09:11:40] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-20 09:11:40] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230620/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-20 09:11:40] INFO root fetch - processPackages [xenoslib]: executing diffoscope
+[2023-06-20 09:11:40] INFO root fetch - processPackages [xenoslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xenoslib-0.1.29.1.tar.gz tmp/xenoslib-0.1.29.2.tar.gz --markdown 20230620/x/xenoslib/0.1.29.1-0.1.29.2/diff.md --exclude *.pyd
+[2023-06-20 09:11:40] WARNING root fetch - processPackages [civic-scraper]: Skipping package: exceeds size limit 15037935>=10485760
+[2023-06-20 09:11:40] INFO root fetch - processPackages [DeepLogTimedelta]: Downloading https://files.pythonhosted.org/packages/bf/32/54f477bf7f12a365490758a74630577ae56a078faae89f9086cb410a32a9/DeepLogTimedelta-0.2.0.tar.gz
+[2023-06-20 09:11:40] INFO root fetch - main [MainThread]: End processing [civic-scraper] error
+[2023-06-20 09:11:40] INFO root fetch - processPackages [py-miraie-ac]: Downloading https://files.pythonhosted.org/packages/d1/10/182920b2757b1f02a49d15b1b576559c9fb07d171bf365168b979601d850/py-miraie-ac-0.1.6.tar.gz
+[2023-06-20 09:11:40] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-06-20 09:11:40] INFO root fetch - processPackages [py-miraie-ac]: executing diffoscope
+[2023-06-20 09:11:40] INFO root fetch - processPackages [py-miraie-ac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-miraie-ac-0.1.4.tar.gz tmp/py-miraie-ac-0.1.6.tar.gz --markdown 20230620/p/py-miraie-ac/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-06-20 09:11:40] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-06-20 09:11:40] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230620/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-06-20 09:11:40] INFO root fetch - processPackages [DeepLogTimedelta]: executing diffoscope
+[2023-06-20 09:11:40] INFO root fetch - processPackages [DeepLogTimedelta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepLogTimedelta-0.1.2.tar.gz tmp/DeepLogTimedelta-0.2.0.tar.gz --markdown 20230620/D/DeepLogTimedelta/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-20 09:11:40] INFO root fetch - processPackages [pydoxtools]: Downloading https://files.pythonhosted.org/packages/db/14/f512aad0637e6e446d2a75cd42dcbb0db57b4ca5d19d845103c75bc5534f/pydoxtools-0.6.5.tar.gz
+[2023-06-20 09:11:40] INFO root fetch - processPackages [pydoxtools]: executing diffoscope
+[2023-06-20 09:11:40] INFO root fetch - processPackages [pydoxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoxtools-0.6.4.tar.gz tmp/pydoxtools-0.6.5.tar.gz --markdown 20230620/p/pydoxtools/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-06-20 09:11:41] INFO root fetch - processPackages [xenoslib]: Remove: archive file [/home/abi/fetcher/tmp/xenoslib-0.1.29.1.tar.gz]
+[2023-06-20 09:11:41] INFO root fetch - processPackages [xenoslib]: Remove: archive file [/home/abi/fetcher/tmp/xenoslib-0.1.29.2.tar.gz]
+[2023-06-20 09:11:41] INFO root fetch - main [MainThread]: End processing [xenoslib]: success
+[2023-06-20 09:11:41] INFO root fetch - processPackages [DeepLogTimedelta]: Remove: archive file [/home/abi/fetcher/tmp/DeepLogTimedelta-0.1.2.tar.gz]
+[2023-06-20 09:11:41] INFO root fetch - processPackages [DeepLogTimedelta]: Remove: archive file [/home/abi/fetcher/tmp/DeepLogTimedelta-0.2.0.tar.gz]
+[2023-06-20 09:11:41] INFO root fetch - main [MainThread]: End processing [DeepLogTimedelta]: success
+[2023-06-20 09:11:41] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-06-20 09:11:41] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-06-20 09:11:41] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-06-20 09:11:41] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-20 09:11:41] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-20 09:11:41] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-20 09:11:42] INFO root fetch - processPackages [pydoxtools]: Remove: archive file [/home/abi/fetcher/tmp/pydoxtools-0.6.4.tar.gz]
+[2023-06-20 09:11:42] INFO root fetch - processPackages [pydoxtools]: Remove: archive file [/home/abi/fetcher/tmp/pydoxtools-0.6.5.tar.gz]
+[2023-06-20 09:11:42] INFO root fetch - main [MainThread]: End processing [pydoxtools]: success
+[2023-06-20 09:11:42] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.1.4.tar.gz]
+[2023-06-20 09:11:42] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.1.6.tar.gz]
+[2023-06-20 09:11:42] INFO root fetch - main [MainThread]: End processing [py-miraie-ac]: success
+[2023-06-20 09:11:42] INFO root fetch - main [MainThread]: Store serial: [18571021]
