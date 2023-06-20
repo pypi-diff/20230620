@@ -10795,3 +10795,95 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 05:33:35] INFO root fetch - processPackages [turing-sdk]: Remove: archive file [/home/abi/fetcher/tmp/turing-sdk-0.9.1.tar.gz]
 [2023-06-20 05:33:35] INFO root fetch - main [MainThread]: End processing [turing-sdk]: success
 [2023-06-20 05:33:35] INFO root fetch - main [MainThread]: Store serial: [18569692]
+[2023-06-20 05:38:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18569692]
+[2023-06-20 05:38:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-20 05:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shapes-recognition
+[2023-06-20 05:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shorttext
+[2023-06-20 05:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dramatiq-kafka
+[2023-06-20 05:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stock-downloader
+[2023-06-20 05:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openshield
+[2023-06-20 05:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypomes
+[2023-06-20 05:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: d20-securityLayer
+[2023-06-20 05:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ezyquant
+[2023-06-20 05:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finx-io
+[2023-06-20 05:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hatch-project
+[2023-06-20 05:38:43] WARNING root fetch - processPackages [stock-downloader]: Skipping, unable to determine old version
+[2023-06-20 05:38:43] INFO root fetch - processPackages [stock-downloader]: Start processing: django-anorganization
+[2023-06-20 05:38:43] INFO root fetch - main [MainThread]: End processing [stock-downloader] error
+[2023-06-20 05:38:43] INFO root fetch - processPackages [shapes-recognition]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-06-20 05:38:43] INFO root fetch - processPackages [dramatiq-kafka]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-20 05:38:43] INFO root fetch - processPackages [openshield]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-20 05:38:43] INFO root fetch - processPackages [pypomes]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-20 05:38:43] INFO root fetch - processPackages [shorttext]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-06-20 05:38:43] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-06-20 05:38:43] INFO root fetch - processPackages [dramatiq-kafka]: Downloading https://files.pythonhosted.org/packages/00/28/8f4b08c33da4c7d10944311edf315d62457877a6e56ca1974e2d7db59590/dramatiq_kafka-0.1.6.tar.gz
+[2023-06-20 05:38:43] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/b5/7f/086f837981170217116052b05373bbf9ede287aa375d582b42e31e612cf5/d20-securityLayer-2.0.0a8.tar.gz
+[2023-06-20 05:38:43] INFO root fetch - processPackages [hatch-project]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-20 05:38:43] INFO root fetch - processPackages [finx-io]: New version: [1.0.3] Old Version: [0.2.5]
+[2023-06-20 05:38:43] INFO root fetch - processPackages [ezyquant]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-20 05:38:43] INFO root fetch - processPackages [django-anorganization]: New version: [0.1.0rc3] Old Version: [0.1.0rc1]
+[2023-06-20 05:38:44] INFO root fetch - processPackages [pypomes]: Downloading https://files.pythonhosted.org/packages/00/48/813cff91f7ea4e53766dd36e856c8246f33436b403845cbd7f5196709261/pypomes-0.1.1.tar.gz
+[2023-06-20 05:38:44] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/68/22/8af9cfd14db5d3c3688e3ad7ad4603ed0f6e1e428e38752db0bd7869c6f6/shapes_recognition-2.2.2.tar.gz
+[2023-06-20 05:38:44] INFO root fetch - processPackages [openshield]: Downloading https://files.pythonhosted.org/packages/c6/0b/3627b7a3c7228118fb7d06f961fdf9b1815e0d56d783e6058c91784e9664/openshield-0.1.0.tar.gz
+[2023-06-20 05:38:44] INFO root fetch - processPackages [shorttext]: Downloading https://files.pythonhosted.org/packages/0e/35/1333b0e1b688edd9e6b382cd5dbbd4abc0530ec9511b4d12a81a5ee3cdf2/shorttext-1.5.8.tar.gz
+[2023-06-20 05:38:44] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/56/46/f3ba1d8980a81e7e0579b812ea29d2c68be9c442ea0e7168a51afcd8c79e/d20-securityLayer-2.0.0a9.tar.gz
+[2023-06-20 05:38:44] INFO root fetch - processPackages [hatch-project]: Downloading https://files.pythonhosted.org/packages/f3/2e/d11fc22fad3d2e8ae82d9245a42e9d090aab0735423e7e5d4acd0732193d/hatch_project-0.1.1.tar.gz
+[2023-06-20 05:38:44] INFO root fetch - processPackages [django-anorganization]: Downloading https://files.pythonhosted.org/packages/c0/ab/350393d91250be5671f00cee693af4baf948f8c12d7dd862a2f8d9a0ecf7/django-anorganization-0.1.0rc1.tar.gz
+[2023-06-20 05:38:44] INFO root fetch - processPackages [ezyquant]: Downloading https://files.pythonhosted.org/packages/fd/fb/12490219265afbc6ed6868c8c3bd502b9a10240ac8a0a476ebf28504fad0/ezyquant-0.9.2.tar.gz
+[2023-06-20 05:38:44] INFO root fetch - processPackages [finx-io]: Downloading https://files.pythonhosted.org/packages/6b/62/8bafce0e93144c67494f26c2c8911cf114a0187d02ae4f45d60106961128/finx_io-0.2.5.tar.gz
+[2023-06-20 05:38:44] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-06-20 05:38:44] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a8.tar.gz tmp/d20-securityLayer-2.0.0a9.tar.gz --markdown 20230620/d/d20-securityLayer/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-20 05:38:44] WARNING root fetch - processPackages [ezyquant]: Skipping package: exceeds size limit 14470299>=10485760
+[2023-06-20 05:38:44] INFO root fetch - main [MainThread]: End processing [ezyquant] error
+[2023-06-20 05:38:44] INFO root fetch - processPackages [dramatiq-kafka]: Downloading https://files.pythonhosted.org/packages/cc/7f/03247fd77686e637210cd6aa3639d558f03a01d618997fe9fe5723f6ce73/dramatiq_kafka-0.1.7.tar.gz
+[2023-06-20 05:38:44] INFO root fetch - processPackages [pypomes]: Downloading https://files.pythonhosted.org/packages/c2/0d/d1448b6e631994a319886d3887faf35489e59e13664741c82a023bb0e2f7/pypomes-0.1.2.tar.gz
+[2023-06-20 05:38:44] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/d1/c4/38f645bdfab9c895c4083c3e46463553734b3ca6472765f11dd5e50cea50/shapes_recognition-2.2.3.tar.gz
+[2023-06-20 05:38:44] INFO root fetch - processPackages [openshield]: Downloading https://files.pythonhosted.org/packages/c8/83/056d4a5996a95fcff127d75b05c9bfbe437a08cde4c789a5ec93bf7a3e69/openshield-0.1.1.tar.gz
+[2023-06-20 05:38:44] INFO root fetch - processPackages [dramatiq-kafka]: executing diffoscope
+[2023-06-20 05:38:44] INFO root fetch - processPackages [dramatiq-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dramatiq_kafka-0.1.6.tar.gz tmp/dramatiq_kafka-0.1.7.tar.gz --markdown 20230620/d/dramatiq-kafka/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-20 05:38:44] INFO root fetch - processPackages [shorttext]: Downloading https://files.pythonhosted.org/packages/62/f3/20b9dd199c589578b99fe334da175f4c98a8dd483707f4ee0df856b0f993/shorttext-1.5.9.tar.gz
+[2023-06-20 05:38:44] INFO root fetch - processPackages [pypomes]: executing diffoscope
+[2023-06-20 05:38:44] INFO root fetch - processPackages [pypomes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes-0.1.1.tar.gz tmp/pypomes-0.1.2.tar.gz --markdown 20230620/p/pypomes/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-20 05:38:44] INFO root fetch - processPackages [openshield]: executing diffoscope
+[2023-06-20 05:38:44] INFO root fetch - processPackages [openshield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshield-0.1.0.tar.gz tmp/openshield-0.1.1.tar.gz --markdown 20230620/o/openshield/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-20 05:38:44] INFO root fetch - processPackages [hatch-project]: Downloading https://files.pythonhosted.org/packages/d6/a5/2c8acb5988d847a64373164b0695f8205add454390fa43b5128bf582de26/hatch_project-0.1.2.tar.gz
+[2023-06-20 05:38:44] INFO root fetch - processPackages [shapes-recognition]: executing diffoscope
+[2023-06-20 05:38:44] INFO root fetch - processPackages [shapes-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapes_recognition-2.2.2.tar.gz tmp/shapes_recognition-2.2.3.tar.gz --markdown 20230620/s/shapes-recognition/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-06-20 05:38:44] INFO root fetch - processPackages [shorttext]: executing diffoscope
+[2023-06-20 05:38:44] INFO root fetch - processPackages [shorttext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shorttext-1.5.8.tar.gz tmp/shorttext-1.5.9.tar.gz --markdown 20230620/s/shorttext/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-06-20 05:38:44] INFO root fetch - processPackages [django-anorganization]: Downloading https://files.pythonhosted.org/packages/2b/a8/36e4cab7d70a62275f712c82f63a57ac0974fccc5dec4efa4220184be241/django-anorganization-0.1.0rc3.tar.gz
+[2023-06-20 05:38:44] INFO root fetch - processPackages [finx-io]: Downloading https://files.pythonhosted.org/packages/25/2c/81062c82fe0b9f7d61c2b9840ca6adbec3153ed2e0062d6fab1f9fb28150/finx_io-1.0.3-py3-none-any.whl
+[2023-06-20 05:38:44] INFO root fetch - processPackages [finx-io]: executing diffoscope
+[2023-06-20 05:38:44] INFO root fetch - processPackages [finx-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finx_io-0.2.5.tar.gz tmp/finx_io-1.0.3-py3-none-any.whl.zip --markdown 20230620/f/finx-io/0.2.5-1.0.3/diff.md --exclude *.pyd
+[2023-06-20 05:38:44] INFO root fetch - processPackages [django-anorganization]: executing diffoscope
+[2023-06-20 05:38:44] INFO root fetch - processPackages [django-anorganization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-anorganization-0.1.0rc1.tar.gz tmp/django-anorganization-0.1.0rc3.tar.gz --markdown 20230620/d/django-anorganization/0.1.0rc1-0.1.0rc3/diff.md --exclude *.pyd
+[2023-06-20 05:38:45] INFO root fetch - processPackages [hatch-project]: executing diffoscope
+[2023-06-20 05:38:45] INFO root fetch - processPackages [hatch-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_project-0.1.1.tar.gz tmp/hatch_project-0.1.2.tar.gz --markdown 20230620/h/hatch-project/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-20 05:38:45] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a8.tar.gz]
+[2023-06-20 05:38:45] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a9.tar.gz]
+[2023-06-20 05:38:45] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-06-20 05:38:45] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.2.2.tar.gz]
+[2023-06-20 05:38:45] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.2.3.tar.gz]
+[2023-06-20 05:38:45] INFO root fetch - main [MainThread]: End processing [shapes-recognition]: success
+[2023-06-20 05:38:45] INFO root fetch - processPackages [pypomes]: Remove: archive file [/home/abi/fetcher/tmp/pypomes-0.1.1.tar.gz]
+[2023-06-20 05:38:45] INFO root fetch - processPackages [pypomes]: Remove: archive file [/home/abi/fetcher/tmp/pypomes-0.1.2.tar.gz]
+[2023-06-20 05:38:45] INFO root fetch - main [MainThread]: End processing [pypomes]: success
+[2023-06-20 05:38:45] INFO root fetch - processPackages [dramatiq-kafka]: Remove: archive file [/home/abi/fetcher/tmp/dramatiq_kafka-0.1.6.tar.gz]
+[2023-06-20 05:38:45] INFO root fetch - processPackages [dramatiq-kafka]: Remove: archive file [/home/abi/fetcher/tmp/dramatiq_kafka-0.1.7.tar.gz]
+[2023-06-20 05:38:45] INFO root fetch - main [MainThread]: End processing [dramatiq-kafka]: success
+[2023-06-20 05:38:46] INFO root fetch - processPackages [finx-io]: Remove: archive file [/home/abi/fetcher/tmp/finx_io-0.2.5.tar.gz]
+[2023-06-20 05:38:46] INFO root fetch - processPackages [finx-io]: Remove: archive file [/home/abi/fetcher/tmp/finx_io-1.0.3-py3-none-any.whl.zip]
+[2023-06-20 05:38:46] INFO root fetch - main [MainThread]: End processing [finx-io]: success
+[2023-06-20 05:38:46] INFO root fetch - processPackages [openshield]: Remove: archive file [/home/abi/fetcher/tmp/openshield-0.1.0.tar.gz]
+[2023-06-20 05:38:46] INFO root fetch - processPackages [openshield]: Remove: archive file [/home/abi/fetcher/tmp/openshield-0.1.1.tar.gz]
+[2023-06-20 05:38:46] INFO root fetch - main [MainThread]: End processing [openshield]: success
+[2023-06-20 05:38:46] INFO root fetch - processPackages [django-anorganization]: Remove: archive file [/home/abi/fetcher/tmp/django-anorganization-0.1.0rc1.tar.gz]
+[2023-06-20 05:38:46] INFO root fetch - processPackages [django-anorganization]: Remove: archive file [/home/abi/fetcher/tmp/django-anorganization-0.1.0rc3.tar.gz]
+[2023-06-20 05:38:46] INFO root fetch - main [MainThread]: End processing [django-anorganization]: success
+[2023-06-20 05:38:46] INFO root fetch - processPackages [shorttext]: Remove: archive file [/home/abi/fetcher/tmp/shorttext-1.5.8.tar.gz]
+[2023-06-20 05:38:46] INFO root fetch - processPackages [shorttext]: Remove: archive file [/home/abi/fetcher/tmp/shorttext-1.5.9.tar.gz]
+[2023-06-20 05:38:46] INFO root fetch - main [MainThread]: End processing [shorttext]: success
+[2023-06-20 05:38:49] INFO root fetch - processPackages [hatch-project]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project-0.1.1.tar.gz]
+[2023-06-20 05:38:49] INFO root fetch - processPackages [hatch-project]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project-0.1.2.tar.gz]
+[2023-06-20 05:38:49] INFO root fetch - main [MainThread]: End processing [hatch-project]: success
+[2023-06-20 05:38:49] INFO root fetch - main [MainThread]: Store serial: [18569740]
