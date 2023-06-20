@@ -18111,3 +18111,182 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 11:52:02] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.4.1.tar.gz]
 [2023-06-20 11:52:02] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-20 11:52:02] INFO root fetch - main [MainThread]: Store serial: [18572776]
+[2023-06-20 11:57:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18572776]
+[2023-06-20 11:57:13] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-20 11:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-cu-ab6459
+[2023-06-20 11:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edwh-restic-plugin
+[2023-06-20 11:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vizro
+[2023-06-20 11:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lnschema_bionty
+[2023-06-20 11:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bgpneiget
+[2023-06-20 11:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ms-general-utils
+[2023-06-20 11:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: power-grid-model-io
+[2023-06-20 11:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyjpt
+[2023-06-20 11:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: awscdk-minecraft
+[2023-06-20 11:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: suanpan-sprt
+[2023-06-20 11:57:13] INFO root fetch - processPackages [edwh-restic-plugin]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-20 11:57:13] INFO root fetch - processPackages [ms-general-utils]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-20 11:57:13] INFO root fetch - processPackages [mkdocs-cu-ab6459]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-20 11:57:13] INFO root fetch - processPackages [power-grid-model-io]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-20 11:57:13] INFO root fetch - processPackages [awscdk-minecraft]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-20 11:57:13] INFO root fetch - processPackages [suanpan-sprt]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-20 11:57:13] WARNING root fetch - processPackages [vizro]: Skipping, unable to determine old version
+[2023-06-20 11:57:13] INFO root fetch - processPackages [vizro]: Start processing: typedattr
+[2023-06-20 11:57:13] INFO root fetch - processPackages [bgpneiget]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-20 11:57:13] INFO root fetch - main [MainThread]: End processing [vizro] error
+[2023-06-20 11:57:13] INFO root fetch - processPackages [pyjpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 11:57:13] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-20 11:57:13] INFO root fetch - processPackages [typedattr]: New version: [0.2.1] Old Version: [0.1.9]
+[2023-06-20 11:57:13] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-06-20 11:57:13] INFO root fetch - processPackages [bgpneiget]: Downloading https://files.pythonhosted.org/packages/11/92/2292f92dd170d81bf38bb3c3e9e50760f843a143a743160eebb0e0852086/bgpneiget-2.0.0.tar.gz
+[2023-06-20 11:57:13] INFO root fetch - processPackages [edwh-restic-plugin]: Downloading https://files.pythonhosted.org/packages/9a/f0/c21fd9c02183e2d67e9177a434d2a19375fb436f482007cfffc0ef29927f/edwh_restic_plugin-0.3.0.tar.gz
+[2023-06-20 11:57:13] INFO root fetch - processPackages [power-grid-model-io]: Downloading https://files.pythonhosted.org/packages/f5/2d/38fd53c680170b530df74688c518af350dadfc964ac23a736dd88ee324db/power_grid_model_io-1.2.8-py3-none-any.whl
+[2023-06-20 11:57:13] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/53/ec/6aed81ad41e1a7090cbc1da9dd922ec0d687dff526363d9cddf1990bb9ff/suanpan-sprt-0.5.8.tar.gz
+[2023-06-20 11:57:13] INFO root fetch - processPackages [awscdk-minecraft]: Downloading https://files.pythonhosted.org/packages/ed/24/5a7228d043020b98221fec828985ef4c41c9e484d7f179af1eb35320f56f/awscdk_minecraft-2.0.0-py2.py3-none-any.whl
+[2023-06-20 11:57:13] INFO root fetch - processPackages [ms-general-utils]: Downloading https://files.pythonhosted.org/packages/3d/c9/805d0765509458564cc2095843c0206cf339f0990b66e8c6f9df4e339765/ms_general_utils-1.4.1.tar.gz
+[2023-06-20 11:57:13] INFO root fetch - processPackages [pyjpt]: Downloading https://files.pythonhosted.org/packages/c7/13/907cebdac0dad5d81112674adbea3b791d181e0141501a5a115b4fce12ba/pyjpt-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-20 11:57:13] INFO root fetch - processPackages [typedattr]: Downloading https://files.pythonhosted.org/packages/97/72/e46a3a122f4712981bd954b904bb6a8b37bb4e792258d9ec7453ef3543ac/typedattr-0.1.9.tar.gz
+[2023-06-20 11:57:13] INFO root fetch - processPackages [bgpneiget]: Downloading https://files.pythonhosted.org/packages/ad/53/d606e64d4bba9893e15f48c5501b21ec70f46b6aac00c909d356e70f7c2f/bgpneiget-2.0.1.tar.gz
+[2023-06-20 11:57:13] INFO root fetch - processPackages [mkdocs-cu-ab6459]: Downloading https://files.pythonhosted.org/packages/59/a3/d34423ac94bf11f512d2594cb28364490f6cd26feba9d394a32b1996f832/mkdocs_cu_ab6459-0.0.5.tar.gz
+[2023-06-20 11:57:13] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/8f/dc/0a3a0355f7e81268715d09ec36bbd8e91b78d1c0a8d6c0fb38189ae2d477/suanpan-sprt-0.5.9.tar.gz
+[2023-06-20 11:57:14] INFO root fetch - processPackages [bgpneiget]: executing diffoscope
+[2023-06-20 11:57:14] INFO root fetch - processPackages [bgpneiget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgpneiget-2.0.0.tar.gz tmp/bgpneiget-2.0.1.tar.gz --markdown 20230620/b/bgpneiget/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-20 11:57:14] INFO root fetch - processPackages [suanpan-sprt]: executing diffoscope
+[2023-06-20 11:57:14] INFO root fetch - processPackages [suanpan-sprt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suanpan-sprt-0.5.8.tar.gz tmp/suanpan-sprt-0.5.9.tar.gz --markdown 20230620/s/suanpan-sprt/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-20 11:57:14] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-06-20 11:57:14] INFO root fetch - processPackages [edwh-restic-plugin]: Downloading https://files.pythonhosted.org/packages/74/3e/b71c6b508757a1257e9599d257dafac9add6f7613ba0e5c67937e2879eb4/edwh_restic_plugin-0.3.1.tar.gz
+[2023-06-20 11:57:14] INFO root fetch - processPackages [typedattr]: Downloading https://files.pythonhosted.org/packages/bd/36/4e50a8c1be37dcd4665ad398d328f9568a08a96d961d0dda802cb73702c7/typedattr-0.2.1.tar.gz
+[2023-06-20 11:57:14] INFO root fetch - processPackages [ms-general-utils]: Downloading https://files.pythonhosted.org/packages/fc/42/4df2624220535616cd5b0db5d04a89c0a15fe20ce59939ac6d49510e1774/ms_general_utils-1.4.2.tar.gz
+[2023-06-20 11:57:14] INFO root fetch - processPackages [edwh-restic-plugin]: executing diffoscope
+[2023-06-20 11:57:14] INFO root fetch - processPackages [edwh-restic-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_restic_plugin-0.3.0.tar.gz tmp/edwh_restic_plugin-0.3.1.tar.gz --markdown 20230620/e/edwh-restic-plugin/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-20 11:57:14] INFO root fetch - processPackages [typedattr]: executing diffoscope
+[2023-06-20 11:57:14] INFO root fetch - processPackages [typedattr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedattr-0.1.9.tar.gz tmp/typedattr-0.2.1.tar.gz --markdown 20230620/t/typedattr/0.1.9-0.2.1/diff.md --exclude *.pyd
+[2023-06-20 11:57:14] INFO root fetch - processPackages [mkdocs-cu-ab6459]: Downloading https://files.pythonhosted.org/packages/3b/36/51adf73ad667a8820c9f10ee2869f67da9c4815c318d2e49c92d3aee5769/mkdocs_cu_ab6459-0.0.6.tar.gz
+[2023-06-20 11:57:14] INFO root fetch - processPackages [power-grid-model-io]: Downloading https://files.pythonhosted.org/packages/4c/cc/8eb9ed701ded84401013d806307a8c2d457f6815447f949a74b8907b664e/power_grid_model_io-1.2.9-py3-none-any.whl
+[2023-06-20 11:57:14] INFO root fetch - processPackages [awscdk-minecraft]: Downloading https://files.pythonhosted.org/packages/51/85/1fdf11c479a1754a7eb26461032c2f490fed76271dc01a3c604b6cf12ef4/awscdk_minecraft-2.1.0-py2.py3-none-any.whl
+[2023-06-20 11:57:14] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-06-20 11:57:14] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230620/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-20 11:57:14] INFO root fetch - processPackages [mkdocs-cu-ab6459]: executing diffoscope
+[2023-06-20 11:57:14] INFO root fetch - processPackages [mkdocs-cu-ab6459]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_cu_ab6459-0.0.5.tar.gz tmp/mkdocs_cu_ab6459-0.0.6.tar.gz --markdown 20230620/m/mkdocs-cu-ab6459/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-20 11:57:14] INFO root fetch - processPackages [ms-general-utils]: executing diffoscope
+[2023-06-20 11:57:14] INFO root fetch - processPackages [ms-general-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_general_utils-1.4.1.tar.gz tmp/ms_general_utils-1.4.2.tar.gz --markdown 20230620/m/ms-general-utils/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-20 11:57:14] INFO root fetch - processPackages [power-grid-model-io]: executing diffoscope
+[2023-06-20 11:57:14] INFO root fetch - processPackages [power-grid-model-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power_grid_model_io-1.2.8-py3-none-any.whl.zip tmp/power_grid_model_io-1.2.9-py3-none-any.whl.zip --markdown 20230620/p/power-grid-model-io/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-20 11:57:14] INFO root fetch - processPackages [awscdk-minecraft]: executing diffoscope
+[2023-06-20 11:57:14] INFO root fetch - processPackages [awscdk-minecraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscdk_minecraft-2.0.0-py2.py3-none-any.whl.zip tmp/awscdk_minecraft-2.1.0-py2.py3-none-any.whl.zip --markdown 20230620/a/awscdk-minecraft/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-20 11:57:15] INFO root fetch - processPackages [bgpneiget]: Remove: archive file [/home/abi/fetcher/tmp/bgpneiget-2.0.0.tar.gz]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [bgpneiget]: Remove: archive file [/home/abi/fetcher/tmp/bgpneiget-2.0.1.tar.gz]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [bgpneiget]: Start processing: network-fallback-service
+[2023-06-20 11:57:15] INFO root fetch - main [MainThread]: End processing [bgpneiget]: success
+[2023-06-20 11:57:15] WARNING root fetch - processPackages [network-fallback-service]: Skipping, unable to determine old version
+[2023-06-20 11:57:15] INFO root fetch - processPackages [network-fallback-service]: Start processing: agsi
+[2023-06-20 11:57:15] INFO root fetch - main [MainThread]: End processing [network-fallback-service] error
+[2023-06-20 11:57:15] INFO root fetch - processPackages [pyjpt]: Downloading https://files.pythonhosted.org/packages/68/d8/1cd9d8fa3a040ee3f1851f7a23274a54d62b69990c4523fe22d1c20fab64/pyjpt-0.1.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-20 11:57:15] INFO root fetch - processPackages [agsi]: New version: [2.3] Old Version: [2.2]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [typedattr]: Remove: archive file [/home/abi/fetcher/tmp/typedattr-0.1.9.tar.gz]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [typedattr]: Remove: archive file [/home/abi/fetcher/tmp/typedattr-0.2.1.tar.gz]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [typedattr]: Start processing: mkdocs-cu-ab6459
+[2023-06-20 11:57:15] INFO root fetch - main [MainThread]: End processing [typedattr]: success
+[2023-06-20 11:57:15] INFO root fetch - processPackages [mkdocs-cu-ab6459]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.5.8.tar.gz]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.5.9.tar.gz]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [suanpan-sprt]: Start processing: fastapi-standalone-docs
+[2023-06-20 11:57:15] INFO root fetch - main [MainThread]: End processing [suanpan-sprt]: success
+[2023-06-20 11:57:15] INFO root fetch - processPackages [fastapi-standalone-docs]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/f7/d4/1d871fa73e951dc781e70571a1ad8f629482c1eaa96f6b04d285dd194d8a/agsi-2.2.tar.gz
+[2023-06-20 11:57:15] INFO root fetch - processPackages [edwh-restic-plugin]: Remove: archive file [/home/abi/fetcher/tmp/edwh_restic_plugin-0.3.0.tar.gz]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [edwh-restic-plugin]: Remove: archive file [/home/abi/fetcher/tmp/edwh_restic_plugin-0.3.1.tar.gz]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [edwh-restic-plugin]: Start processing: huawei-solar
+[2023-06-20 11:57:15] INFO root fetch - main [MainThread]: End processing [edwh-restic-plugin]: success
+[2023-06-20 11:57:15] INFO root fetch - processPackages [lnschema_bionty]: Start processing: suanpan-sprt
+[2023-06-20 11:57:15] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-06-20 11:57:15] INFO root fetch - processPackages [mkdocs-cu-ab6459]: executing diffoscope
+[2023-06-20 11:57:15] INFO root fetch - processPackages [mkdocs-cu-ab6459]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_cu_ab6459-0.0.5.tar.gz tmp/mkdocs_cu_ab6459-0.0.6.tar.gz --markdown 20230620/m/mkdocs-cu-ab6459/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-20 11:57:15] INFO root fetch - processPackages [huawei-solar]: New version: [2.2.7b7] Old Version: [2.2.7b6]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [suanpan-sprt]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [ms-general-utils]: Remove: archive file [/home/abi/fetcher/tmp/ms_general_utils-1.4.1.tar.gz]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [ms-general-utils]: Remove: archive file [/home/abi/fetcher/tmp/ms_general_utils-1.4.2.tar.gz]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [ms-general-utils]: Start processing: smsmanpy
+[2023-06-20 11:57:15] INFO root fetch - main [MainThread]: End processing [ms-general-utils]: success
+[2023-06-20 11:57:15] INFO root fetch - processPackages [smsmanpy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [power-grid-model-io]: Remove: archive file [/home/abi/fetcher/tmp/power_grid_model_io-1.2.8-py3-none-any.whl.zip]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [power-grid-model-io]: Remove: archive file [/home/abi/fetcher/tmp/power_grid_model_io-1.2.9-py3-none-any.whl.zip]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [power-grid-model-io]: Start processing: typedparser
+[2023-06-20 11:57:15] INFO root fetch - main [MainThread]: End processing [power-grid-model-io]: success
+[2023-06-20 11:57:15] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/53/ec/6aed81ad41e1a7090cbc1da9dd922ec0d687dff526363d9cddf1990bb9ff/suanpan-sprt-0.5.8.tar.gz
+[2023-06-20 11:57:15] INFO root fetch - processPackages [typedparser]: New version: [0.2.1] Old Version: [0.1.19]
+[2023-06-20 11:57:15] INFO root fetch - processPackages [smsmanpy]: Downloading https://files.pythonhosted.org/packages/4f/51/4df92b48799424862370e8e527f287ea95544391492ac90a9d91336dcd73/smsmanpy-0.0.4.tar.gz
+[2023-06-20 11:57:15] INFO root fetch - processPackages [fastapi-standalone-docs]: Downloading https://files.pythonhosted.org/packages/61/4f/5881f22d3159007b9578388a404ff63baeacfed62497400793971291340e/fastapi_standalone_docs-0.0.1.tar.gz
+[2023-06-20 11:57:15] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/49/d4/ea89597932930b7e6c5e27cca8fe612596273cd883d06c807c8160c86570/agsi-2.3.tar.gz
+[2023-06-20 11:57:16] INFO root fetch - processPackages [huawei-solar]: Downloading https://files.pythonhosted.org/packages/28/af/1957a83950be1746a14e5a72e046939c3979d48c844d59192c81f1ea4256/huawei-solar-2.2.7b6.tar.gz
+[2023-06-20 11:57:16] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/8f/dc/0a3a0355f7e81268715d09ec36bbd8e91b78d1c0a8d6c0fb38189ae2d477/suanpan-sprt-0.5.9.tar.gz
+[2023-06-20 11:57:16] INFO root fetch - processPackages [agsi]: executing diffoscope
+[2023-06-20 11:57:16] INFO root fetch - processPackages [agsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsi-2.2.tar.gz tmp/agsi-2.3.tar.gz --markdown 20230620/a/agsi/2.2-2.3/diff.md --exclude *.pyd
+[2023-06-20 11:57:16] INFO root fetch - processPackages [mkdocs-cu-ab6459]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_cu_ab6459-0.0.5.tar.gz]
+[2023-06-20 11:57:16] INFO root fetch - processPackages [mkdocs-cu-ab6459]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_cu_ab6459-0.0.6.tar.gz]
+[2023-06-20 11:57:16] INFO root fetch - processPackages [mkdocs-cu-ab6459]: Start processing: tomato-cooker
+[2023-06-20 11:57:16] INFO root fetch - main [MainThread]: End processing [mkdocs-cu-ab6459]: success
+[2023-06-20 11:57:16] INFO root fetch - processPackages [suanpan-sprt]: executing diffoscope
+[2023-06-20 11:57:16] INFO root fetch - processPackages [suanpan-sprt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suanpan-sprt-0.5.8.tar.gz tmp/suanpan-sprt-0.5.9.tar.gz --markdown 20230620/s/suanpan-sprt/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-20 11:57:16] INFO root fetch - processPackages [typedparser]: Downloading https://files.pythonhosted.org/packages/a8/6d/4ac0eb0dde75d4840402353f8cd4429e1fae3ab8304d3d4427d6fa9c2b8f/typedparser-0.1.19.tar.gz
+[2023-06-20 11:57:16] INFO root fetch - processPackages [fastapi-standalone-docs]: Downloading https://files.pythonhosted.org/packages/1e/1e/6711cbed5efe4678c2a509841c779609443c62836321d39a8e6c1a5d9762/fastapi_standalone_docs-0.1.0.tar.gz
+[2023-06-20 11:57:16] INFO root fetch - processPackages [tomato-cooker]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-20 11:57:16] INFO root fetch - processPackages [smsmanpy]: Downloading https://files.pythonhosted.org/packages/1d/d0/c842367d671b0b212ed6e81e71ee8d6d0b5f2cf46ca0568aa52ef00549c6/smsmanpy-0.0.5.tar.gz
+[2023-06-20 11:57:16] INFO root fetch - processPackages [fastapi-standalone-docs]: executing diffoscope
+[2023-06-20 11:57:16] INFO root fetch - processPackages [fastapi-standalone-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_standalone_docs-0.0.1.tar.gz tmp/fastapi_standalone_docs-0.1.0.tar.gz --markdown 20230620/f/fastapi-standalone-docs/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-20 11:57:16] INFO root fetch - processPackages [huawei-solar]: Downloading https://files.pythonhosted.org/packages/52/54/8b8edd4fe7d3da59215c13a4f73cbcb21568572d1d606b6e4fead5c70c5a/huawei-solar-2.2.7b7.tar.gz
+[2023-06-20 11:57:16] INFO root fetch - processPackages [smsmanpy]: executing diffoscope
+[2023-06-20 11:57:16] INFO root fetch - processPackages [smsmanpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smsmanpy-0.0.4.tar.gz tmp/smsmanpy-0.0.5.tar.gz --markdown 20230620/s/smsmanpy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-20 11:57:16] INFO root fetch - processPackages [tomato-cooker]: Downloading https://files.pythonhosted.org/packages/7c/98/6c533671d64814a789bbbcc95e3a04240d79b76d4d2b8346a31a7e6d6f36/tomato-cooker-0.1.0.tar.gz
+[2023-06-20 11:57:16] INFO root fetch - processPackages [awscdk-minecraft]: Remove: archive file [/home/abi/fetcher/tmp/awscdk_minecraft-2.0.0-py2.py3-none-any.whl.zip]
+[2023-06-20 11:57:16] INFO root fetch - processPackages [awscdk-minecraft]: Remove: archive file [/home/abi/fetcher/tmp/awscdk_minecraft-2.1.0-py2.py3-none-any.whl.zip]
+[2023-06-20 11:57:16] INFO root fetch - processPackages [awscdk-minecraft]: Start processing: openshift-python-utilities
+[2023-06-20 11:57:16] INFO root fetch - main [MainThread]: End processing [awscdk-minecraft]: success
+[2023-06-20 11:57:16] INFO root fetch - processPackages [typedparser]: Downloading https://files.pythonhosted.org/packages/d6/5b/16efc7da6a7881c332e2cd5c37ee24d95d23de9d9527fb30cb03e95b7ff8/typedparser-0.2.1.tar.gz
+[2023-06-20 11:57:16] ERROR root fetch - processPackages [mkdocs-cu-ab6459]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/mkdocs_cu_ab6459-0.0.5.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/mkdocs_cu_ab6459-0.0.6.tar.gz: No such file or directory
+
+[2023-06-20 11:57:16] INFO root fetch - main [MainThread]: End processing [mkdocs-cu-ab6459] error
+[2023-06-20 11:57:16] INFO root fetch - processPackages [typedparser]: executing diffoscope
+[2023-06-20 11:57:16] INFO root fetch - processPackages [typedparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedparser-0.1.19.tar.gz tmp/typedparser-0.2.1.tar.gz --markdown 20230620/t/typedparser/0.1.19-0.2.1/diff.md --exclude *.pyd
+[2023-06-20 11:57:16] INFO root fetch - processPackages [huawei-solar]: executing diffoscope
+[2023-06-20 11:57:16] INFO root fetch - processPackages [huawei-solar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huawei-solar-2.2.7b6.tar.gz tmp/huawei-solar-2.2.7b7.tar.gz --markdown 20230620/h/huawei-solar/2.2.7b6-2.2.7b7/diff.md --exclude *.pyd
+[2023-06-20 11:57:16] INFO root fetch - processPackages [openshift-python-utilities]: New version: [4.14.2] Old Version: [4.14.1]
+[2023-06-20 11:57:16] INFO root fetch - processPackages [tomato-cooker]: Downloading https://files.pythonhosted.org/packages/d8/ed/1a9e8d13a46e19fecca1ec509859b01ec1859ec8e33e3d7dd52c05628a93/tomato-cooker-0.2.0.tar.gz
+[2023-06-20 11:57:16] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/29/d4/393dc9aa20b190479968963fcd1e4b5fbb0f7dbbd9ceb82befbefb36ce17/openshift-python-utilities-4.14.1.tar.gz
+[2023-06-20 11:57:16] INFO root fetch - processPackages [tomato-cooker]: executing diffoscope
+[2023-06-20 11:57:16] INFO root fetch - processPackages [tomato-cooker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomato-cooker-0.1.0.tar.gz tmp/tomato-cooker-0.2.0.tar.gz --markdown 20230620/t/tomato-cooker/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-20 11:57:16] INFO root fetch - processPackages [pyjpt]: executing diffoscope
+[2023-06-20 11:57:16] INFO root fetch - processPackages [pyjpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjpt-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyjpt-0.1.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230620/p/pyjpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 11:57:17] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/61/0c/20e29e0c161f0c776a6d004dbc407ea19f6be3c14fae74d533770d6869e8/openshift-python-utilities-4.14.2.tar.gz
+[2023-06-20 11:57:17] INFO root fetch - processPackages [openshift-python-utilities]: executing diffoscope
+[2023-06-20 11:57:17] INFO root fetch - processPackages [openshift-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-utilities-4.14.1.tar.gz tmp/openshift-python-utilities-4.14.2.tar.gz --markdown 20230620/o/openshift-python-utilities/4.14.1-4.14.2/diff.md --exclude *.pyd
+[2023-06-20 11:57:17] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.5.8.tar.gz]
+[2023-06-20 11:57:17] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.5.9.tar.gz]
+[2023-06-20 11:57:17] INFO root fetch - main [MainThread]: End processing [suanpan-sprt]: success
+[2023-06-20 11:57:17] INFO root fetch - processPackages [agsi]: Remove: archive file [/home/abi/fetcher/tmp/agsi-2.2.tar.gz]
+[2023-06-20 11:57:17] INFO root fetch - processPackages [agsi]: Remove: archive file [/home/abi/fetcher/tmp/agsi-2.3.tar.gz]
+[2023-06-20 11:57:17] INFO root fetch - main [MainThread]: End processing [agsi]: success
+[2023-06-20 11:57:17] INFO root fetch - processPackages [smsmanpy]: Remove: archive file [/home/abi/fetcher/tmp/smsmanpy-0.0.4.tar.gz]
+[2023-06-20 11:57:17] INFO root fetch - processPackages [smsmanpy]: Remove: archive file [/home/abi/fetcher/tmp/smsmanpy-0.0.5.tar.gz]
+[2023-06-20 11:57:17] INFO root fetch - main [MainThread]: End processing [smsmanpy]: success
+[2023-06-20 11:57:17] INFO root fetch - processPackages [typedparser]: Remove: archive file [/home/abi/fetcher/tmp/typedparser-0.1.19.tar.gz]
+[2023-06-20 11:57:17] INFO root fetch - processPackages [typedparser]: Remove: archive file [/home/abi/fetcher/tmp/typedparser-0.2.1.tar.gz]
+[2023-06-20 11:57:17] INFO root fetch - main [MainThread]: End processing [typedparser]: success
+[2023-06-20 11:57:17] INFO root fetch - processPackages [huawei-solar]: Remove: archive file [/home/abi/fetcher/tmp/huawei-solar-2.2.7b6.tar.gz]
+[2023-06-20 11:57:17] INFO root fetch - processPackages [huawei-solar]: Remove: archive file [/home/abi/fetcher/tmp/huawei-solar-2.2.7b7.tar.gz]
+[2023-06-20 11:57:17] INFO root fetch - main [MainThread]: End processing [huawei-solar]: success
+[2023-06-20 11:57:18] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-utilities-4.14.1.tar.gz]
+[2023-06-20 11:57:18] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-utilities-4.14.2.tar.gz]
+[2023-06-20 11:57:18] INFO root fetch - main [MainThread]: End processing [openshift-python-utilities]: success
+[2023-06-20 11:57:18] INFO root fetch - processPackages [tomato-cooker]: Remove: archive file [/home/abi/fetcher/tmp/tomato-cooker-0.1.0.tar.gz]
+[2023-06-20 11:57:18] INFO root fetch - processPackages [tomato-cooker]: Remove: archive file [/home/abi/fetcher/tmp/tomato-cooker-0.2.0.tar.gz]
+[2023-06-20 11:57:18] INFO root fetch - main [MainThread]: End processing [tomato-cooker]: success
+[2023-06-20 11:57:25] INFO root fetch - processPackages [fastapi-standalone-docs]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_standalone_docs-0.0.1.tar.gz]
+[2023-06-20 11:57:25] INFO root fetch - processPackages [fastapi-standalone-docs]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_standalone_docs-0.1.0.tar.gz]
+[2023-06-20 11:57:25] INFO root fetch - main [MainThread]: End processing [fastapi-standalone-docs]: success
+[2023-06-20 11:57:28] INFO root fetch - processPackages [pyjpt]: Remove: archive file [/home/abi/fetcher/tmp/pyjpt-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-20 11:57:28] INFO root fetch - processPackages [pyjpt]: Remove: archive file [/home/abi/fetcher/tmp/pyjpt-0.1.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-20 11:57:28] INFO root fetch - main [MainThread]: End processing [pyjpt]: success
+[2023-06-20 11:57:28] INFO root fetch - main [MainThread]: Store serial: [18572844]
