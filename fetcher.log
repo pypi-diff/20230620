@@ -7217,3 +7217,152 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 04:23:59] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.5317756661-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-20 04:23:59] INFO root fetch - main [MainThread]: End processing [zuspec-parser]: success
 [2023-06-20 04:23:59] INFO root fetch - main [MainThread]: Store serial: [18568524]
+[2023-06-20 04:29:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18568524]
+[2023-06-20 04:29:26] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-20 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentenai
+[2023-06-20 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-maxcompute
+[2023-06-20 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-edsuser
+[2023-06-20 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llamabot
+[2023-06-20 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: exaparser
+[2023-06-20 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CallingGPT
+[2023-06-20 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: esse
+[2023-06-20 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-directmail
+[2023-06-20 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: highcharts-core
+[2023-06-20 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ros-cdk-dlf
+[2023-06-20 04:29:26] INFO root fetch - processPackages [ros-cdk-maxcompute]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:29:26] INFO root fetch - processPackages [sentenai]: New version: [1.6.4.9] Old Version: [1.6.4.8]
+[2023-06-20 04:29:26] WARNING root fetch - processPackages [ros-cdk-edsuser]: Skipping, unable to determine old version
+[2023-06-20 04:29:26] INFO root fetch - processPackages [exaparser]: New version: [2023.6.20.post0] Old Version: [2023.6.16.post0]
+[2023-06-20 04:29:26] INFO root fetch - processPackages [ros-cdk-edsuser]: Start processing: ros-cdk-cms
+[2023-06-20 04:29:26] INFO root fetch - main [MainThread]: End processing [ros-cdk-edsuser] error
+[2023-06-20 04:29:26] INFO root fetch - processPackages [ros-cdk-dlf]: New version: [1.0.14] Old Version: [1.0.13]
+[2023-06-20 04:29:26] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 04:29:26] INFO root fetch - processPackages [ros-cdk-directmail]: New version: [1.0.14] Old Version: [1.0.13]
+[2023-06-20 04:29:26] INFO root fetch - processPackages [CallingGPT]: New version: [0.0.0.4] Old Version: [0.0.0.3]
+[2023-06-20 04:29:26] INFO root fetch - processPackages [highcharts-core]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-20 04:29:26] INFO root fetch - processPackages [esse]: New version: [2023.6.20.post0] Old Version: [2023.6.16.post0]
+[2023-06-20 04:29:26] INFO root fetch - processPackages [ros-cdk-cms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:29:26] INFO root fetch - processPackages [ros-cdk-maxcompute]: Downloading https://files.pythonhosted.org/packages/b2/bc/4a7b7fc2a1b0e702023e28c4af25ff30d9a517221ca40daca96f5ddb2582/ros-cdk-maxcompute-1.0.8.tar.gz
+[2023-06-20 04:29:26] INFO root fetch - processPackages [ros-cdk-dlf]: Downloading https://files.pythonhosted.org/packages/3b/88/9b5ae224ad5c23fb391f9cacb98644039dd3e54de5b7c12ee4a5b9c03e36/ros-cdk-dlf-1.0.13.tar.gz
+[2023-06-20 04:29:26] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-06-20 04:29:27] INFO root fetch - processPackages [sentenai]: Downloading https://files.pythonhosted.org/packages/1b/e7/e845c388a1004192b92286d25ba4116f6bb9f7fdf1d6c7e9e0047a49deca/sentenai-1.6.4.8.tar.gz
+[2023-06-20 04:29:27] INFO root fetch - processPackages [ros-cdk-directmail]: Downloading https://files.pythonhosted.org/packages/2e/f1/b35ce84e9358b863daace49ce4af4a3f0bf042508105770e17a313487847/ros-cdk-directmail-1.0.13.tar.gz
+[2023-06-20 04:29:27] INFO root fetch - processPackages [exaparser]: Downloading https://files.pythonhosted.org/packages/84/a4/08f0997361903d7bdc5aa1fa8d7a071a93a565bf8aa2f36f9560037e7d6d/exaparser-2023.6.16.post0.tar.gz
+[2023-06-20 04:29:27] INFO root fetch - processPackages [CallingGPT]: Downloading https://files.pythonhosted.org/packages/f4/7b/9bb79cdbac66f26dc9de30b35d504c7819d4ad0990e26580f0291545b31d/CallingGPT-0.0.0.3.tar.gz
+[2023-06-20 04:29:27] INFO root fetch - processPackages [ros-cdk-cms]: Downloading https://files.pythonhosted.org/packages/17/80/086a1bf95e4ba13c316fbcdc70533d8b8f133ff6f82a8626afff82eec572/ros-cdk-cms-1.0.8.tar.gz
+[2023-06-20 04:29:27] INFO root fetch - processPackages [esse]: Downloading https://files.pythonhosted.org/packages/89/a5/9c6fc273a5af59653bbecb14b8910302309275fa99127bbecc8ddd2f912e/esse-2023.6.16.post0.tar.gz
+[2023-06-20 04:29:27] INFO root fetch - processPackages [highcharts-core]: Downloading https://files.pythonhosted.org/packages/3a/65/c93550b8b18e472aba920da60d61940ddf4b4ad9591e2425e669be734d28/highcharts_core-1.2.2.tar.gz
+[2023-06-20 04:29:27] WARNING root fetch - processPackages [highcharts-core]: Skipping package: exceeds size limit 11566603>=10485760
+[2023-06-20 04:29:27] INFO root fetch - processPackages [highcharts-core]: Start processing: emailalert
+[2023-06-20 04:29:27] INFO root fetch - main [MainThread]: End processing [highcharts-core] error
+[2023-06-20 04:29:27] INFO root fetch - processPackages [emailalert]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-20 04:29:27] INFO root fetch - processPackages [CallingGPT]: Downloading https://files.pythonhosted.org/packages/ee/97/16c793677c9ee5bf067d259b620a175a5cd24055ad723d56a6c09350531c/CallingGPT-0.0.0.4.tar.gz
+[2023-06-20 04:29:27] INFO root fetch - processPackages [sentenai]: Downloading https://files.pythonhosted.org/packages/5a/6c/60593d2ff1b4627bd05680fe1c6ea3781de96358deefef4107deb0b64833/sentenai-1.6.4.9.tar.gz
+[2023-06-20 04:29:27] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-06-20 04:29:27] INFO root fetch - processPackages [ros-cdk-dlf]: Downloading https://files.pythonhosted.org/packages/11/3b/e943b59f764ea898cfb0960bf5a1d80837c290aeb23dba99ef450eb9e17c/ros-cdk-dlf-1.0.14.tar.gz
+[2023-06-20 04:29:27] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/4f/44/31f1969b0b7b4201c9aaa570a7af7f12d20c13dd9ef8526ab939e5a7c589/emailalert-1.2.3.tar.gz
+[2023-06-20 04:29:27] INFO root fetch - processPackages [ros-cdk-maxcompute]: Downloading https://files.pythonhosted.org/packages/cc/2c/bf8279ef66988d3e374281ed6efe68f210443379e9c02aaa15b0f74951ad/ros-cdk-maxcompute-1.0.9.tar.gz
+[2023-06-20 04:29:27] INFO root fetch - processPackages [CallingGPT]: executing diffoscope
+[2023-06-20 04:29:27] INFO root fetch - processPackages [CallingGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CallingGPT-0.0.0.3.tar.gz tmp/CallingGPT-0.0.0.4.tar.gz --markdown 20230620/C/CallingGPT/0.0.0.3-0.0.0.4/diff.md --exclude *.pyd
+[2023-06-20 04:29:27] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-06-20 04:29:27] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230620/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:29:27] INFO root fetch - processPackages [ros-cdk-directmail]: Downloading https://files.pythonhosted.org/packages/f3/08/97519b88ce51f066d6bf24b5a8fad7ca233b7694263eda9236d3a2bd085a/ros-cdk-directmail-1.0.14.tar.gz
+[2023-06-20 04:29:27] INFO root fetch - processPackages [esse]: Downloading https://files.pythonhosted.org/packages/9c/7a/9a6bbaecc8098eac89489a16d2f89ccf23f335cf397a3fde9ae1cb941c2e/esse-2023.6.20.post0.tar.gz
+[2023-06-20 04:29:27] INFO root fetch - processPackages [ros-cdk-cms]: Downloading https://files.pythonhosted.org/packages/9b/42/378ce1abf11de31005aee8a49715db281e4424ac3ddfa3ee5635dc2df741/ros-cdk-cms-1.0.9.tar.gz
+[2023-06-20 04:29:27] INFO root fetch - processPackages [exaparser]: Downloading https://files.pythonhosted.org/packages/cc/71/94c2f4b4c88bbeefba8d18c6fd89f1cf4cb46c602d5e41d663a4ebc6e2e8/exaparser-2023.6.20.post0.tar.gz
+[2023-06-20 04:29:27] INFO root fetch - processPackages [sentenai]: executing diffoscope
+[2023-06-20 04:29:27] INFO root fetch - processPackages [sentenai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentenai-1.6.4.8.tar.gz tmp/sentenai-1.6.4.9.tar.gz --markdown 20230620/s/sentenai/1.6.4.8-1.6.4.9/diff.md --exclude *.pyd
+[2023-06-20 04:29:27] INFO root fetch - processPackages [ros-cdk-dlf]: executing diffoscope
+[2023-06-20 04:29:27] INFO root fetch - processPackages [ros-cdk-dlf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dlf-1.0.13.tar.gz tmp/ros-cdk-dlf-1.0.14.tar.gz --markdown 20230620/r/ros-cdk-dlf/1.0.13-1.0.14/diff.md --exclude *.pyd
+[2023-06-20 04:29:27] INFO root fetch - processPackages [ros-cdk-maxcompute]: executing diffoscope
+[2023-06-20 04:29:27] INFO root fetch - processPackages [ros-cdk-maxcompute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-maxcompute-1.0.8.tar.gz tmp/ros-cdk-maxcompute-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-maxcompute/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:29:27] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/45/9d/59ef51d14cb305b1efa12e1916674442793d77bdb627dc55dd6661a0223c/emailalert-1.2.4.tar.gz
+[2023-06-20 04:29:27] INFO root fetch - processPackages [ros-cdk-directmail]: executing diffoscope
+[2023-06-20 04:29:27] INFO root fetch - processPackages [ros-cdk-directmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-directmail-1.0.13.tar.gz tmp/ros-cdk-directmail-1.0.14.tar.gz --markdown 20230620/r/ros-cdk-directmail/1.0.13-1.0.14/diff.md --exclude *.pyd
+[2023-06-20 04:29:27] INFO root fetch - processPackages [esse]: executing diffoscope
+[2023-06-20 04:29:27] INFO root fetch - processPackages [esse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esse-2023.6.16.post0.tar.gz tmp/esse-2023.6.20.post0.tar.gz --markdown 20230620/e/esse/2023.6.16.post0-2023.6.20.post0/diff.md --exclude *.pyd
+[2023-06-20 04:29:27] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-20 04:29:27] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.2.3.tar.gz tmp/emailalert-1.2.4.tar.gz --markdown 20230620/e/emailalert/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-20 04:29:27] INFO root fetch - processPackages [exaparser]: executing diffoscope
+[2023-06-20 04:29:27] INFO root fetch - processPackages [exaparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exaparser-2023.6.16.post0.tar.gz tmp/exaparser-2023.6.20.post0.tar.gz --markdown 20230620/e/exaparser/2023.6.16.post0-2023.6.20.post0/diff.md --exclude *.pyd
+[2023-06-20 04:29:27] INFO root fetch - processPackages [ros-cdk-cms]: executing diffoscope
+[2023-06-20 04:29:27] INFO root fetch - processPackages [ros-cdk-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cms-1.0.8.tar.gz tmp/ros-cdk-cms-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-cms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:29:28] INFO root fetch - processPackages [sentenai]: Remove: archive file [/home/abi/fetcher/tmp/sentenai-1.6.4.8.tar.gz]
+[2023-06-20 04:29:28] INFO root fetch - processPackages [sentenai]: Remove: archive file [/home/abi/fetcher/tmp/sentenai-1.6.4.9.tar.gz]
+[2023-06-20 04:29:28] INFO root fetch - processPackages [sentenai]: Start processing: ros-cdk-eais
+[2023-06-20 04:29:28] INFO root fetch - main [MainThread]: End processing [sentenai]: success
+[2023-06-20 04:29:28] WARNING root fetch - processPackages [ros-cdk-eais]: Skipping, unable to determine old version
+[2023-06-20 04:29:28] INFO root fetch - processPackages [ros-cdk-eais]: Start processing: ros-cdk-asm
+[2023-06-20 04:29:28] INFO root fetch - main [MainThread]: End processing [ros-cdk-eais] error
+[2023-06-20 04:29:28] INFO root fetch - processPackages [ros-cdk-asm]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-dlf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dlf-1.0.13.tar.gz]
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-dlf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dlf-1.0.14.tar.gz]
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-dlf]: Start processing: tox
+[2023-06-20 04:29:29] INFO root fetch - main [MainThread]: End processing [ros-cdk-dlf]: success
+[2023-06-20 04:29:29] INFO root fetch - processPackages [tox]: New version: [4.6.3] Old Version: [4.6.2]
+[2023-06-20 04:29:29] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-06-20 04:29:29] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-06-20 04:29:29] INFO root fetch - processPackages [llamabot]: Start processing: ros-cdk-cas
+[2023-06-20 04:29:29] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-cas]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-asm]: Downloading https://files.pythonhosted.org/packages/14/e7/5878fa168e4b5e5076d02feb289d0cc0c7abe835224fac5756c88c7c455e/ros-cdk-asm-1.0.8.tar.gz
+[2023-06-20 04:29:29] INFO root fetch - processPackages [CallingGPT]: Remove: archive file [/home/abi/fetcher/tmp/CallingGPT-0.0.0.3.tar.gz]
+[2023-06-20 04:29:29] INFO root fetch - processPackages [CallingGPT]: Remove: archive file [/home/abi/fetcher/tmp/CallingGPT-0.0.0.4.tar.gz]
+[2023-06-20 04:29:29] INFO root fetch - processPackages [CallingGPT]: Start processing: ros-cdk-alb
+[2023-06-20 04:29:29] INFO root fetch - main [MainThread]: End processing [CallingGPT]: success
+[2023-06-20 04:29:29] INFO root fetch - processPackages [tox]: Downloading https://files.pythonhosted.org/packages/1d/c8/965a461a5bdce62275ed274bf2acabe64f56a43bb9acedf035827eba0d84/tox-4.6.2.tar.gz
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-alb]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:29:29] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.2.3.tar.gz]
+[2023-06-20 04:29:29] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.2.4.tar.gz]
+[2023-06-20 04:29:29] INFO root fetch - processPackages [emailalert]: Start processing: nvosscript
+[2023-06-20 04:29:29] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-cas]: Downloading https://files.pythonhosted.org/packages/20/ed/e9e6a8ac49239cd3dfa897f837903d53f56293eabcf7cea3a9a9e0ba89b2/ros-cdk-cas-1.0.8.tar.gz
+[2023-06-20 04:29:29] INFO root fetch - processPackages [nvosscript]: New version: [1.3.5.2] Old Version: [1.3.5]
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-maxcompute]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-maxcompute-1.0.8.tar.gz]
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-maxcompute]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-maxcompute-1.0.9.tar.gz]
+[2023-06-20 04:29:29] INFO root fetch - main [MainThread]: End processing [ros-cdk-maxcompute]: success
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-directmail]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-directmail-1.0.13.tar.gz]
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-directmail]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-directmail-1.0.14.tar.gz]
+[2023-06-20 04:29:29] INFO root fetch - main [MainThread]: End processing [ros-cdk-directmail]: success
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-alb]: Downloading https://files.pythonhosted.org/packages/e7/c0/126c2dabaebee738d668a877343cd36c9fea4282dcfa5f17880e601a30ea/ros-cdk-alb-1.0.8.tar.gz
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-asm]: Downloading https://files.pythonhosted.org/packages/77/2e/0382bd98bdddc0b3148f6a38a5267e292d026a858707240b6bf76e705961/ros-cdk-asm-1.0.9.tar.gz
+[2023-06-20 04:29:29] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/59/db/9b21014e41eca7ccd199544c4b48df2767b8caaeaceb029d68ced667af42/nvosscript-1.3.5.tar.gz
+[2023-06-20 04:29:29] INFO root fetch - processPackages [tox]: Downloading https://files.pythonhosted.org/packages/b2/7b/6cb14ae53aa80e57e9ac07431624a83d8f5b09af1284b5a3850fb09b8d4e/tox-4.6.3.tar.gz
+[2023-06-20 04:29:29] INFO root fetch - processPackages [tox]: executing diffoscope
+[2023-06-20 04:29:29] INFO root fetch - processPackages [tox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tox-4.6.2.tar.gz tmp/tox-4.6.3.tar.gz --markdown 20230620/t/tox/4.6.2-4.6.3/diff.md --exclude *.pyd
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-asm]: executing diffoscope
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-asm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-asm-1.0.8.tar.gz tmp/ros-cdk-asm-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-asm/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:29:29] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/5b/ee/3c3d0d9848bc507020b8110be61bcd218f2bdf40420fcc06defdb8156ba6/nvosscript-1.3.5.2.tar.gz
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-cas]: Downloading https://files.pythonhosted.org/packages/0e/9e/1200a10d1e5e9ccb1920137341bb78547eda2b7c8de7bf5ef2d3af667e66/ros-cdk-cas-1.0.9.tar.gz
+[2023-06-20 04:29:29] INFO root fetch - processPackages [nvosscript]: executing diffoscope
+[2023-06-20 04:29:29] INFO root fetch - processPackages [nvosscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvosscript-1.3.5.tar.gz tmp/nvosscript-1.3.5.2.tar.gz --markdown 20230620/n/nvosscript/1.3.5-1.3.5.2/diff.md --exclude *.pyd
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-alb]: Downloading https://files.pythonhosted.org/packages/be/18/0247d322bd73070e5752769bb5dc8b918ae90ec602c044da31a81294b837/ros-cdk-alb-1.0.9.tar.gz
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-cas]: executing diffoscope
+[2023-06-20 04:29:29] INFO root fetch - processPackages [ros-cdk-cas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cas-1.0.8.tar.gz tmp/ros-cdk-cas-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-cas/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:29:30] INFO root fetch - processPackages [exaparser]: Remove: archive file [/home/abi/fetcher/tmp/exaparser-2023.6.16.post0.tar.gz]
+[2023-06-20 04:29:30] INFO root fetch - processPackages [exaparser]: Remove: archive file [/home/abi/fetcher/tmp/exaparser-2023.6.20.post0.tar.gz]
+[2023-06-20 04:29:30] INFO root fetch - main [MainThread]: End processing [exaparser]: success
+[2023-06-20 04:29:30] INFO root fetch - processPackages [ros-cdk-alb]: executing diffoscope
+[2023-06-20 04:29:30] INFO root fetch - processPackages [ros-cdk-alb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-alb-1.0.8.tar.gz tmp/ros-cdk-alb-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-alb/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:29:30] INFO root fetch - processPackages [ros-cdk-cms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cms-1.0.8.tar.gz]
+[2023-06-20 04:29:30] INFO root fetch - processPackages [ros-cdk-cms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cms-1.0.9.tar.gz]
+[2023-06-20 04:29:30] INFO root fetch - main [MainThread]: End processing [ros-cdk-cms]: success
+[2023-06-20 04:29:30] INFO root fetch - processPackages [ros-cdk-asm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-asm-1.0.8.tar.gz]
+[2023-06-20 04:29:30] INFO root fetch - processPackages [ros-cdk-asm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-asm-1.0.9.tar.gz]
+[2023-06-20 04:29:30] INFO root fetch - main [MainThread]: End processing [ros-cdk-asm]: success
+[2023-06-20 04:29:31] INFO root fetch - processPackages [ros-cdk-cas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cas-1.0.8.tar.gz]
+[2023-06-20 04:29:31] INFO root fetch - processPackages [ros-cdk-cas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cas-1.0.9.tar.gz]
+[2023-06-20 04:29:31] INFO root fetch - main [MainThread]: End processing [ros-cdk-cas]: success
+[2023-06-20 04:29:31] INFO root fetch - processPackages [nvosscript]: Remove: archive file [/home/abi/fetcher/tmp/nvosscript-1.3.5.tar.gz]
+[2023-06-20 04:29:31] INFO root fetch - processPackages [nvosscript]: Remove: archive file [/home/abi/fetcher/tmp/nvosscript-1.3.5.2.tar.gz]
+[2023-06-20 04:29:31] INFO root fetch - main [MainThread]: End processing [nvosscript]: success
+[2023-06-20 04:29:31] INFO root fetch - processPackages [ros-cdk-alb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-alb-1.0.8.tar.gz]
+[2023-06-20 04:29:31] INFO root fetch - processPackages [ros-cdk-alb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-alb-1.0.9.tar.gz]
+[2023-06-20 04:29:31] INFO root fetch - main [MainThread]: End processing [ros-cdk-alb]: success
+[2023-06-20 04:29:31] INFO root fetch - processPackages [tox]: Remove: archive file [/home/abi/fetcher/tmp/tox-4.6.2.tar.gz]
+[2023-06-20 04:29:31] INFO root fetch - processPackages [tox]: Remove: archive file [/home/abi/fetcher/tmp/tox-4.6.3.tar.gz]
+[2023-06-20 04:29:31] INFO root fetch - main [MainThread]: End processing [tox]: success
+[2023-06-20 04:29:36] INFO root fetch - processPackages [esse]: Remove: archive file [/home/abi/fetcher/tmp/esse-2023.6.16.post0.tar.gz]
+[2023-06-20 04:29:36] INFO root fetch - processPackages [esse]: Remove: archive file [/home/abi/fetcher/tmp/esse-2023.6.20.post0.tar.gz]
+[2023-06-20 04:29:36] INFO root fetch - main [MainThread]: End processing [esse]: success
+[2023-06-20 04:29:36] INFO root fetch - main [MainThread]: Store serial: [18568575]
