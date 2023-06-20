@@ -22103,3 +22103,150 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 14:01:55] INFO root fetch - processPackages [apache-airflow-providers-google]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-google-9.0.0rc2.tar.gz]
 [2023-06-20 14:01:55] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-google]: success
 [2023-06-20 14:01:55] INFO root fetch - main [MainThread]: Store serial: [18574382]
+[2023-06-20 14:07:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18574382]
+[2023-06-20 14:07:09] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-20 14:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adbc-driver-flightsql
+[2023-06-20 14:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adbc-driver-manager
+[2023-06-20 14:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adbc-driver-postgresql
+[2023-06-20 14:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: volcengine
+[2023-06-20 14:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toucan-connectors
+[2023-06-20 14:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seqnado
+[2023-06-20 14:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adbc-driver-snowflake
+[2023-06-20 14:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: run-configurations
+[2023-06-20 14:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysqream-blue
+[2023-06-20 14:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adbc-driver-sqlite
+[2023-06-20 14:07:09] INFO root fetch - processPackages [run-configurations]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-20 14:07:09] INFO root fetch - processPackages [run-configurations]: Downloading https://files.pythonhosted.org/packages/2a/0d/3be7760bb438b4d832c59d59cf5ec79f60b521f92d25621b869bf5bd325e/run_configurations-0.1.2.tar.gz
+[2023-06-20 14:07:09] INFO root fetch - processPackages [adbc-driver-flightsql]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-20 14:07:09] INFO root fetch - processPackages [adbc-driver-snowflake]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-20 14:07:09] INFO root fetch - processPackages [pysqream-blue]: New version: [1.0.3] Old Version: [1.0.27]
+[2023-06-20 14:07:09] INFO root fetch - processPackages [adbc-driver-postgresql]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-20 14:07:09] INFO root fetch - processPackages [adbc-driver-sqlite]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-20 14:07:09] INFO root fetch - processPackages [seqnado]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-20 14:07:09] INFO root fetch - processPackages [volcengine]: New version: [1.0.95] Old Version: [1.0.94]
+[2023-06-20 14:07:09] INFO root fetch - processPackages [adbc-driver-manager]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-20 14:07:09] INFO root fetch - processPackages [toucan-connectors]: New version: [4.6.0] Old Version: [4.5.1]
+[2023-06-20 14:07:09] INFO root fetch - processPackages [run-configurations]: Downloading https://files.pythonhosted.org/packages/e8/e1/0a62c68b20bfc406d2f4052cffbc2847b1f7ca81250b05fcc31184398187/run_configurations-0.1.3.tar.gz
+[2023-06-20 14:07:09] INFO root fetch - processPackages [adbc-driver-flightsql]: Downloading https://files.pythonhosted.org/packages/c3/1b/5d95cf0d6ddae6210e7cbda3062d1bef52d920d663652ab9e9fd547f9ba5/adbc_driver_flightsql-0.4.0-py3-none-win_amd64.whl
+[2023-06-20 14:07:09] INFO root fetch - processPackages [pysqream-blue]: Downloading https://files.pythonhosted.org/packages/7c/5f/00dc4c1d10fce3d03cfb2cd226f96201a10f4b0a4b1a05b45420522e712b/pysqream-blue-1.0.27.tar.gz
+[2023-06-20 14:07:10] INFO root fetch - processPackages [run-configurations]: executing diffoscope
+[2023-06-20 14:07:10] INFO root fetch - processPackages [run-configurations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/run_configurations-0.1.2.tar.gz tmp/run_configurations-0.1.3.tar.gz --markdown 20230620/r/run-configurations/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-20 14:07:10] INFO root fetch - processPackages [toucan-connectors]: Downloading https://files.pythonhosted.org/packages/84/13/cfbab5d1b408e2cbd3b8a3f0cf4bdcf1847f56a5bfd981262b9690ffc721/toucan_connectors-4.5.1.tar.gz
+[2023-06-20 14:07:10] INFO root fetch - processPackages [adbc-driver-snowflake]: Downloading https://files.pythonhosted.org/packages/3a/e3/929be176e0398b3749471bd05ed0601a093fd2d04f1d2d84e8e5870084dd/adbc_driver_snowflake-0.4.0-py3-none-win_amd64.whl
+[2023-06-20 14:07:10] INFO root fetch - processPackages [adbc-driver-sqlite]: Downloading https://files.pythonhosted.org/packages/39/db/e7a6904262567d993912a0aabe625b2459b4d74bcd1341999ee53409273b/adbc_driver_sqlite-0.4.0-py3-none-win_amd64.whl
+[2023-06-20 14:07:10] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/cf/1d/ef69e20436e90d655984d636baa0b1075652381ed1b4edb8d9cb5c041b8f/volcengine-1.0.94.tar.gz
+[2023-06-20 14:07:10] INFO root fetch - processPackages [adbc-driver-postgresql]: Downloading https://files.pythonhosted.org/packages/91/e4/580ef06f653c1948767dd2dbdf9f6a11eb1c139713e0bc87387097cc1c5c/adbc_driver_postgresql-0.4.0-py3-none-win_amd64.whl
+[2023-06-20 14:07:10] INFO root fetch - processPackages [seqnado]: Downloading https://files.pythonhosted.org/packages/f0/05/9ff7e41165c7a12ead00edb04b42bc1eae7b38d11351d99d633c5f777bcb/seqnado-0.3.1.tar.gz
+[2023-06-20 14:07:10] INFO root fetch - processPackages [adbc-driver-manager]: Downloading https://files.pythonhosted.org/packages/87/c2/4e7b0833b5ec470be0db7ca8345ab3eab150175422c481897f573f0a9e64/adbc_driver_manager-0.4.0-cp39-cp39-win_amd64.whl
+[2023-06-20 14:07:10] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/78/09/6822260fbcb29bb59da1c2a5622e5a0ac839ab62ac857130600cd6834ad3/volcengine-1.0.95.tar.gz
+[2023-06-20 14:07:10] INFO root fetch - processPackages [adbc-driver-sqlite]: Downloading https://files.pythonhosted.org/packages/8a/7d/aa7f8c10584d51887f88273c1db68af1f3489eb246cbe048ae08d049c492/adbc_driver_sqlite-0.5.0-py3-none-win_amd64.whl
+[2023-06-20 14:07:10] INFO root fetch - processPackages [pysqream-blue]: Downloading https://files.pythonhosted.org/packages/07/8a/1682c765da1564d49da4144b4c5ce03bac1d60c0379d33a352c682c9ab4c/pysqream-blue-1.0.3.tar.gz
+[2023-06-20 14:07:10] INFO root fetch - processPackages [seqnado]: Downloading https://files.pythonhosted.org/packages/41/be/4d75d0fba6f1632ed405b4965eb2dd2fbe522bbf89b08e980794aa4387ca/seqnado-0.3.2.tar.gz
+[2023-06-20 14:07:10] INFO root fetch - processPackages [adbc-driver-manager]: Downloading https://files.pythonhosted.org/packages/ce/27/83f5ac257f27627a267447d02c3847485c36b4db9ce584029bca13fee2d1/adbc_driver_manager-0.5.0-cp39-cp39-win_amd64.whl
+[2023-06-20 14:07:10] INFO root fetch - processPackages [volcengine]: executing diffoscope
+[2023-06-20 14:07:10] INFO root fetch - processPackages [volcengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-1.0.94.tar.gz tmp/volcengine-1.0.95.tar.gz --markdown 20230620/v/volcengine/1.0.94-1.0.95/diff.md --exclude *.pyd
+[2023-06-20 14:07:10] INFO root fetch - processPackages [pysqream-blue]: executing diffoscope
+[2023-06-20 14:07:10] INFO root fetch - processPackages [pysqream-blue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqream-blue-1.0.27.tar.gz tmp/pysqream-blue-1.0.3.tar.gz --markdown 20230620/p/pysqream-blue/1.0.27-1.0.3/diff.md --exclude *.pyd
+[2023-06-20 14:07:10] INFO root fetch - processPackages [adbc-driver-sqlite]: executing diffoscope
+[2023-06-20 14:07:10] INFO root fetch - processPackages [adbc-driver-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbc_driver_sqlite-0.4.0-py3-none-win_amd64.whl.zip tmp/adbc_driver_sqlite-0.5.0-py3-none-win_amd64.whl.zip --markdown 20230620/a/adbc-driver-sqlite/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-20 14:07:10] INFO root fetch - processPackages [seqnado]: executing diffoscope
+[2023-06-20 14:07:10] INFO root fetch - processPackages [seqnado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqnado-0.3.1.tar.gz tmp/seqnado-0.3.2.tar.gz --markdown 20230620/s/seqnado/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-20 14:07:10] INFO root fetch - processPackages [adbc-driver-manager]: executing diffoscope
+[2023-06-20 14:07:10] INFO root fetch - processPackages [adbc-driver-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbc_driver_manager-0.4.0-cp39-cp39-win_amd64.whl.zip tmp/adbc_driver_manager-0.5.0-cp39-cp39-win_amd64.whl.zip --markdown 20230620/a/adbc-driver-manager/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-20 14:07:10] INFO root fetch - processPackages [toucan-connectors]: Downloading https://files.pythonhosted.org/packages/a7/26/c2e440bdd9b26c932e4d958793bdae40a8e68e1ed45981fca12ba19828b1/toucan_connectors-4.6.0.tar.gz
+[2023-06-20 14:07:10] INFO root fetch - processPackages [adbc-driver-postgresql]: Downloading https://files.pythonhosted.org/packages/10/95/acc62f87610b91898fcb7e23ac5dcc8f7a6e71dd7a6f1b8570fc268b85b6/adbc_driver_postgresql-0.5.0-py3-none-win_amd64.whl
+[2023-06-20 14:07:11] INFO root fetch - processPackages [run-configurations]: Remove: archive file [/home/abi/fetcher/tmp/run_configurations-0.1.2.tar.gz]
+[2023-06-20 14:07:11] INFO root fetch - processPackages [run-configurations]: Remove: archive file [/home/abi/fetcher/tmp/run_configurations-0.1.3.tar.gz]
+[2023-06-20 14:07:11] INFO root fetch - processPackages [run-configurations]: Start processing: geant4-pybind
+[2023-06-20 14:07:11] INFO root fetch - main [MainThread]: End processing [run-configurations]: success
+[2023-06-20 14:07:11] INFO root fetch - processPackages [toucan-connectors]: executing diffoscope
+[2023-06-20 14:07:11] INFO root fetch - processPackages [toucan-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toucan_connectors-4.5.1.tar.gz tmp/toucan_connectors-4.6.0.tar.gz --markdown 20230620/t/toucan-connectors/4.5.1-4.6.0/diff.md --exclude *.pyd
+[2023-06-20 14:07:11] INFO root fetch - processPackages [geant4-pybind]: New version: [0.1.0b8] Old Version: [0.1.0b7]
+[2023-06-20 14:07:11] INFO root fetch - processPackages [adbc-driver-flightsql]: Downloading https://files.pythonhosted.org/packages/9d/5e/213845f37ddd72ad3049e2d8de3473502224a6e3ea3f554ca77a04062760/adbc_driver_flightsql-0.5.0-py3-none-win_amd64.whl
+[2023-06-20 14:07:11] INFO root fetch - processPackages [adbc-driver-postgresql]: executing diffoscope
+[2023-06-20 14:07:11] INFO root fetch - processPackages [adbc-driver-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbc_driver_postgresql-0.4.0-py3-none-win_amd64.whl.zip tmp/adbc_driver_postgresql-0.5.0-py3-none-win_amd64.whl.zip --markdown 20230620/a/adbc-driver-postgresql/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-20 14:07:11] INFO root fetch - processPackages [geant4-pybind]: Downloading https://files.pythonhosted.org/packages/22/6e/02935dbe5e567eca77c5c177104d3c2ad7d7fe61c14c0ecc94fe074e71f8/geant4_pybind-0.1.0b7.tar.gz
+[2023-06-20 14:07:11] INFO root fetch - processPackages [geant4-pybind]: Downloading https://files.pythonhosted.org/packages/91/b5/e044ae236fceb6078c25f65a6b53a6682a80650be05bae18d0ad800cb6d5/geant4_pybind-0.1.0b8.tar.gz
+[2023-06-20 14:07:12] INFO root fetch - processPackages [pysqream-blue]: Remove: archive file [/home/abi/fetcher/tmp/pysqream-blue-1.0.27.tar.gz]
+[2023-06-20 14:07:12] INFO root fetch - processPackages [pysqream-blue]: Remove: archive file [/home/abi/fetcher/tmp/pysqream-blue-1.0.3.tar.gz]
+[2023-06-20 14:07:12] INFO root fetch - processPackages [pysqream-blue]: Start processing: sourceshot
+[2023-06-20 14:07:12] INFO root fetch - main [MainThread]: End processing [pysqream-blue]: success
+[2023-06-20 14:07:12] WARNING root fetch - processPackages [sourceshot]: Skipping, unable to determine old version
+[2023-06-20 14:07:12] INFO root fetch - processPackages [sourceshot]: Start processing: DppNowe
+[2023-06-20 14:07:12] INFO root fetch - main [MainThread]: End processing [sourceshot] error
+[2023-06-20 14:07:12] INFO root fetch - processPackages [geant4-pybind]: executing diffoscope
+[2023-06-20 14:07:12] INFO root fetch - processPackages [geant4-pybind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geant4_pybind-0.1.0b7.tar.gz tmp/geant4_pybind-0.1.0b8.tar.gz --markdown 20230620/g/geant4-pybind/0.1.0b7-0.1.0b8/diff.md --exclude *.pyd
+[2023-06-20 14:07:12] INFO root fetch - processPackages [adbc-driver-snowflake]: Downloading https://files.pythonhosted.org/packages/d0/ea/cca3114454833dec545efa8e7fda10b4c435d3695505e7ac7506b6a6cbe6/adbc_driver_snowflake-0.5.0-py3-none-win_amd64.whl
+[2023-06-20 14:07:12] WARNING root fetch - processPackages [DppNowe]: Skipping, unable to determine old version
+[2023-06-20 14:07:12] INFO root fetch - processPackages [DppNowe]: Start processing: tf-agents-nightly
+[2023-06-20 14:07:12] INFO root fetch - main [MainThread]: End processing [DppNowe] error
+[2023-06-20 14:07:12] INFO root fetch - processPackages [adbc-driver-manager]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_manager-0.4.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-20 14:07:12] INFO root fetch - processPackages [adbc-driver-manager]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_manager-0.5.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-20 14:07:12] INFO root fetch - processPackages [adbc-driver-manager]: Start processing: cq23
+[2023-06-20 14:07:12] INFO root fetch - main [MainThread]: End processing [adbc-driver-manager]: success
+[2023-06-20 14:07:12] INFO root fetch - processPackages [adbc-driver-flightsql]: executing diffoscope
+[2023-06-20 14:07:12] INFO root fetch - processPackages [adbc-driver-flightsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbc_driver_flightsql-0.4.0-py3-none-win_amd64.whl.zip tmp/adbc_driver_flightsql-0.5.0-py3-none-win_amd64.whl.zip --markdown 20230620/a/adbc-driver-flightsql/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-20 14:07:12] INFO root fetch - processPackages [seqnado]: Remove: archive file [/home/abi/fetcher/tmp/seqnado-0.3.1.tar.gz]
+[2023-06-20 14:07:12] INFO root fetch - processPackages [seqnado]: Remove: archive file [/home/abi/fetcher/tmp/seqnado-0.3.2.tar.gz]
+[2023-06-20 14:07:12] INFO root fetch - processPackages [seqnado]: Start processing: aiida-pseudo
+[2023-06-20 14:07:12] INFO root fetch - main [MainThread]: End processing [seqnado]: success
+[2023-06-20 14:07:12] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-06-20 14:07:12] INFO root fetch - processPackages [cq23]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-06-20 14:07:12] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-06-20 14:07:12] INFO root fetch - processPackages [aiida-pseudo]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-20 14:07:12] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/72/eb/5cf8b7c2419f7ebee6acbc626f6b0455cfe54296f714a0582baa24c73d4c/cq23-2.0.1.tar.gz
+[2023-06-20 14:07:12] INFO root fetch - processPackages [aiida-pseudo]: Downloading https://files.pythonhosted.org/packages/3a/77/2c3e2d60cb7c1a036bc599f21ce592e9b82560265d06720ab3b5bdfb1bcb/aiida-pseudo-1.0.1.tar.gz
+[2023-06-20 14:07:12] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/99/54/8443f85bcfca16f92f43e9d1acf7a0c882af044054d22c2179593a02841d/cq23-2.1.0.tar.gz
+[2023-06-20 14:07:12] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-06-20 14:07:12] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-2.0.1.tar.gz tmp/cq23-2.1.0.tar.gz --markdown 20230620/c/cq23/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-06-20 14:07:12] INFO root fetch - processPackages [aiida-pseudo]: Downloading https://files.pythonhosted.org/packages/7b/55/ee33155db3d2e229a7ce01a7d1d4993799b204f12ff736e27c2348603e15/aiida_pseudo-1.1.0.tar.gz
+[2023-06-20 14:07:12] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-06-20 14:07:13] INFO root fetch - processPackages [aiida-pseudo]: executing diffoscope
+[2023-06-20 14:07:13] INFO root fetch - processPackages [aiida-pseudo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida-pseudo-1.0.1.tar.gz tmp/aiida_pseudo-1.1.0.tar.gz --markdown 20230620/a/aiida-pseudo/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-20 14:07:13] INFO root fetch - processPackages [adbc-driver-snowflake]: executing diffoscope
+[2023-06-20 14:07:13] INFO root fetch - processPackages [adbc-driver-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbc_driver_snowflake-0.4.0-py3-none-win_amd64.whl.zip tmp/adbc_driver_snowflake-0.5.0-py3-none-win_amd64.whl.zip --markdown 20230620/a/adbc-driver-snowflake/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-20 14:07:13] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-06-20 14:07:13] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230620/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-06-20 14:07:14] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.0.1.tar.gz]
+[2023-06-20 14:07:14] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.1.0.tar.gz]
+[2023-06-20 14:07:14] INFO root fetch - processPackages [cq23]: Start processing: 000.mod.butt
+[2023-06-20 14:07:14] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-06-20 14:07:14] WARNING root fetch - processPackages [000.mod.butt]: Skipping, unable to determine old version
+[2023-06-20 14:07:14] INFO root fetch - processPackages [000.mod.butt]: Start processing: subseq
+[2023-06-20 14:07:14] INFO root fetch - main [MainThread]: End processing [000.mod.butt] error
+[2023-06-20 14:07:14] INFO root fetch - processPackages [subseq]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-20 14:07:14] INFO root fetch - processPackages [subseq]: Downloading https://files.pythonhosted.org/packages/09/37/b818daeadf98ef53221e625a6f838d4266e0770586c3a8a440d3c5400292/subseq-1.0.3.tar.gz
+[2023-06-20 14:07:14] INFO root fetch - processPackages [aiida-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/aiida-pseudo-1.0.1.tar.gz]
+[2023-06-20 14:07:14] INFO root fetch - processPackages [aiida-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/aiida_pseudo-1.1.0.tar.gz]
+[2023-06-20 14:07:14] INFO root fetch - main [MainThread]: End processing [aiida-pseudo]: success
+[2023-06-20 14:07:14] INFO root fetch - processPackages [subseq]: Downloading https://files.pythonhosted.org/packages/6c/32/68ace8ee5a7b98ac573a38b1b1c2b0add34508b409cf5f36ecfcfb2c5be9/subseq-1.0.4-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl
+[2023-06-20 14:07:16] INFO root fetch - processPackages [subseq]: executing diffoscope
+[2023-06-20 14:07:16] INFO root fetch - processPackages [subseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subseq-1.0.3.tar.gz tmp/subseq-1.0.4-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20230620/s/subseq/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-20 14:07:16] INFO root fetch - processPackages [toucan-connectors]: Remove: archive file [/home/abi/fetcher/tmp/toucan_connectors-4.5.1.tar.gz]
+[2023-06-20 14:07:16] INFO root fetch - processPackages [toucan-connectors]: Remove: archive file [/home/abi/fetcher/tmp/toucan_connectors-4.6.0.tar.gz]
+[2023-06-20 14:07:16] INFO root fetch - main [MainThread]: End processing [toucan-connectors]: success
+[2023-06-20 14:07:17] INFO root fetch - processPackages [subseq]: Remove: archive file [/home/abi/fetcher/tmp/subseq-1.0.3.tar.gz]
+[2023-06-20 14:07:17] INFO root fetch - processPackages [subseq]: Remove: archive file [/home/abi/fetcher/tmp/subseq-1.0.4-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2023-06-20 14:07:17] INFO root fetch - main [MainThread]: End processing [subseq]: success
+[2023-06-20 14:07:19] INFO root fetch - processPackages [adbc-driver-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_sqlite-0.4.0-py3-none-win_amd64.whl.zip]
+[2023-06-20 14:07:19] INFO root fetch - processPackages [adbc-driver-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_sqlite-0.5.0-py3-none-win_amd64.whl.zip]
+[2023-06-20 14:07:19] INFO root fetch - main [MainThread]: End processing [adbc-driver-sqlite]: success
+[2023-06-20 14:07:19] INFO root fetch - processPackages [geant4-pybind]: Remove: archive file [/home/abi/fetcher/tmp/geant4_pybind-0.1.0b7.tar.gz]
+[2023-06-20 14:07:19] INFO root fetch - processPackages [geant4-pybind]: Remove: archive file [/home/abi/fetcher/tmp/geant4_pybind-0.1.0b8.tar.gz]
+[2023-06-20 14:07:19] INFO root fetch - main [MainThread]: End processing [geant4-pybind]: success
+[2023-06-20 14:07:20] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-06-20 14:07:20] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-06-20 14:07:20] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-06-20 14:07:20] INFO root fetch - processPackages [volcengine]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-1.0.94.tar.gz]
+[2023-06-20 14:07:20] INFO root fetch - processPackages [volcengine]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-1.0.95.tar.gz]
+[2023-06-20 14:07:20] INFO root fetch - main [MainThread]: End processing [volcengine]: success
+[2023-06-20 14:07:34] INFO root fetch - processPackages [adbc-driver-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_postgresql-0.4.0-py3-none-win_amd64.whl.zip]
+[2023-06-20 14:07:34] INFO root fetch - processPackages [adbc-driver-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_postgresql-0.5.0-py3-none-win_amd64.whl.zip]
+[2023-06-20 14:07:34] INFO root fetch - main [MainThread]: End processing [adbc-driver-postgresql]: success
+[2023-06-20 14:08:13] INFO root fetch - processPackages [adbc-driver-flightsql]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_flightsql-0.4.0-py3-none-win_amd64.whl.zip]
+[2023-06-20 14:08:13] INFO root fetch - processPackages [adbc-driver-flightsql]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_flightsql-0.5.0-py3-none-win_amd64.whl.zip]
+[2023-06-20 14:08:13] INFO root fetch - main [MainThread]: End processing [adbc-driver-flightsql]: success
+[2023-06-20 14:08:23] INFO root fetch - processPackages [adbc-driver-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_snowflake-0.4.0-py3-none-win_amd64.whl.zip]
+[2023-06-20 14:08:23] INFO root fetch - processPackages [adbc-driver-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_snowflake-0.5.0-py3-none-win_amd64.whl.zip]
+[2023-06-20 14:08:23] INFO root fetch - main [MainThread]: End processing [adbc-driver-snowflake]: success
+[2023-06-20 14:08:23] INFO root fetch - main [MainThread]: Store serial: [18574499]
