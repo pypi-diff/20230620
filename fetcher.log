@@ -21015,3 +21015,49 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 13:39:50] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.4a9.tar.gz]
 [2023-06-20 13:39:50] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-06-20 13:39:50] INFO root fetch - main [MainThread]: Store serial: [18573927]
+[2023-06-20 13:44:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18573927]
+[2023-06-20 13:45:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-20 13:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DppLab
+[2023-06-20 13:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oneai
+[2023-06-20 13:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iparapheur-provisioning
+[2023-06-20 13:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyre-check-nightly
+[2023-06-20 13:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: otpme
+[2023-06-20 13:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: starlette-werkzeug-debugger
+[2023-06-20 13:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rtdip-sdk
+[2023-06-20 13:45:02] INFO root fetch - processPackages [iparapheur-provisioning]: New version: [1.6.7] Old Version: [1.6.6]
+[2023-06-20 13:45:02] INFO root fetch - processPackages [iparapheur-provisioning]: Downloading https://files.pythonhosted.org/packages/84/0d/a14d9c368cb1a1be0d3854817d4684152e3148c50f817148b34072bf2523/iparapheur-provisioning-1.6.6.tar.gz
+[2023-06-20 13:45:02] WARNING root fetch - processPackages [starlette-werkzeug-debugger]: Skipping, unable to determine old version
+[2023-06-20 13:45:02] INFO root fetch - main [MainThread]: End processing [starlette-werkzeug-debugger] error
+[2023-06-20 13:45:02] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101687259548] Old Version: [0.0.101687173129]
+[2023-06-20 13:45:02] INFO root fetch - processPackages [otpme]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-06-20 13:45:02] INFO root fetch - processPackages [rtdip-sdk]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-20 13:45:02] WARNING root fetch - processPackages [DppLab]: Skipping, unable to determine old version
+[2023-06-20 13:45:02] INFO root fetch - main [MainThread]: End processing [DppLab] error
+[2023-06-20 13:45:02] INFO root fetch - processPackages [oneai]: New version: [0.9.9] Old Version: [0.9.81]
+[2023-06-20 13:45:02] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/98/1d/f05f73ea1e959973ab56f0abb892009528faf4a7f0da031af39371307de8/otpme-0.3.0a8.tar.gz
+[2023-06-20 13:45:02] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/5e/76/7d6cd98ef84651a2d6ae80c594a2d6042b46dd9e132e4c9fb26ed99cd5b8/pyre-check-nightly-0.0.101687173129.tar.gz
+[2023-06-20 13:45:02] INFO root fetch - processPackages [oneai]: Downloading https://files.pythonhosted.org/packages/5b/7c/9b6a8c311813438bddb93fc1c8a09fabb883ca9ac7c7afc8c65c6f1ba4c2/oneai-0.9.81.tar.gz
+[2023-06-20 13:45:02] INFO root fetch - processPackages [rtdip-sdk]: Downloading https://files.pythonhosted.org/packages/6a/3b/6bf132800fc8ea2afcba459c5e2790d43a4e7056a2987e99a0700b35c93a/rtdip-sdk-0.4.1.tar.gz
+[2023-06-20 13:45:02] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23507848>=10485760
+[2023-06-20 13:45:02] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-06-20 13:45:02] INFO root fetch - processPackages [iparapheur-provisioning]: Downloading https://files.pythonhosted.org/packages/dc/2f/f316820bffde5a3d626ba7cb991ae9d86922a94b0562d178674b8c881869/iparapheur-provisioning-1.6.7.tar.gz
+[2023-06-20 13:45:02] WARNING root fetch - processPackages [rtdip-sdk]: Skipping package: exceeds size limit 14335938>=10485760
+[2023-06-20 13:45:02] INFO root fetch - main [MainThread]: End processing [rtdip-sdk] error
+[2023-06-20 13:45:02] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/ec/d4/c2021c5284dad482e118317f65e7a59ea168655179a76dfae7cc25e67961/otpme-0.3.0a9.tar.gz
+[2023-06-20 13:45:02] INFO root fetch - processPackages [iparapheur-provisioning]: executing diffoscope
+[2023-06-20 13:45:02] INFO root fetch - processPackages [iparapheur-provisioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iparapheur-provisioning-1.6.6.tar.gz tmp/iparapheur-provisioning-1.6.7.tar.gz --markdown 20230620/i/iparapheur-provisioning/1.6.6-1.6.7/diff.md --exclude *.pyd
+[2023-06-20 13:45:02] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2023-06-20 13:45:02] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a8.tar.gz tmp/otpme-0.3.0a9.tar.gz --markdown 20230620/o/otpme/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-06-20 13:45:02] INFO root fetch - processPackages [oneai]: Downloading https://files.pythonhosted.org/packages/a8/be/4f8d749fd967478a2b1fff1577b187c9e85d1892517acbe16a8cdf91e094/oneai-0.9.9.tar.gz
+[2023-06-20 13:45:03] INFO root fetch - processPackages [oneai]: executing diffoscope
+[2023-06-20 13:45:03] INFO root fetch - processPackages [oneai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneai-0.9.81.tar.gz tmp/oneai-0.9.9.tar.gz --markdown 20230620/o/oneai/0.9.81-0.9.9/diff.md --exclude *.pyd
+[2023-06-20 13:45:04] INFO root fetch - processPackages [oneai]: Remove: archive file [/home/abi/fetcher/tmp/oneai-0.9.81.tar.gz]
+[2023-06-20 13:45:04] INFO root fetch - processPackages [oneai]: Remove: archive file [/home/abi/fetcher/tmp/oneai-0.9.9.tar.gz]
+[2023-06-20 13:45:04] INFO root fetch - main [MainThread]: End processing [oneai]: success
+[2023-06-20 13:45:05] INFO root fetch - processPackages [iparapheur-provisioning]: Remove: archive file [/home/abi/fetcher/tmp/iparapheur-provisioning-1.6.6.tar.gz]
+[2023-06-20 13:45:05] INFO root fetch - processPackages [iparapheur-provisioning]: Remove: archive file [/home/abi/fetcher/tmp/iparapheur-provisioning-1.6.7.tar.gz]
+[2023-06-20 13:45:05] INFO root fetch - main [MainThread]: End processing [iparapheur-provisioning]: success
+[2023-06-20 13:45:07] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a8.tar.gz]
+[2023-06-20 13:45:07] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a9.tar.gz]
+[2023-06-20 13:45:07] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2023-06-20 13:45:07] INFO root fetch - main [MainThread]: Store serial: [18573955]
