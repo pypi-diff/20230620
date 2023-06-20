@@ -20872,3 +20872,146 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 13:34:18] INFO root fetch - processPackages [macrobond-data-api]: Remove: archive file [/home/abi/fetcher/tmp/macrobond-data-api-1.0.7.tar.gz]
 [2023-06-20 13:34:18] INFO root fetch - main [MainThread]: End processing [macrobond-data-api]: success
 [2023-06-20 13:34:18] INFO root fetch - main [MainThread]: Store serial: [18573852]
+[2023-06-20 13:39:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18573852]
+[2023-06-20 13:39:30] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-20 13:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cograph
+[2023-06-20 13:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-cdn20180510
+[2023-06-20 13:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hubble-shuttle
+[2023-06-20 13:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rdfizer
+[2023-06-20 13:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: costock
+[2023-06-20 13:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shift-ip
+[2023-06-20 13:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SPLayout
+[2023-06-20 13:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coalgo
+[2023-06-20 13:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: permit-broadcaster
+[2023-06-20 13:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-nano
+[2023-06-20 13:39:30] INFO root fetch - processPackages [SPLayout]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-20 13:39:30] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230619] Old Version: [2.4.0b20230618]
+[2023-06-20 13:39:30] INFO root fetch - processPackages [SPLayout]: Downloading https://files.pythonhosted.org/packages/23/a6/f1c13403ae5570da58eb7a076526973d5a17ab1e8c1ceea55f0ad1392a7f/SPLayout-0.4.6.tar.gz
+[2023-06-20 13:39:30] WARNING root fetch - processPackages [cograph]: Skipping, unable to determine old version
+[2023-06-20 13:39:30] INFO root fetch - processPackages [cograph]: Start processing: coalg
+[2023-06-20 13:39:30] INFO root fetch - main [MainThread]: End processing [cograph] error
+[2023-06-20 13:39:30] WARNING root fetch - processPackages [coalgo]: Skipping, unable to determine old version
+[2023-06-20 13:39:30] INFO root fetch - processPackages [coalgo]: Start processing: odoo-addon-sale-tier-validation
+[2023-06-20 13:39:30] INFO root fetch - main [MainThread]: End processing [coalgo] error
+[2023-06-20 13:39:30] WARNING root fetch - processPackages [costock]: Skipping, unable to determine old version
+[2023-06-20 13:39:30] INFO root fetch - processPackages [hubble-shuttle]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-20 13:39:30] INFO root fetch - processPackages [costock]: Start processing: bfgcardplay
+[2023-06-20 13:39:30] INFO root fetch - main [MainThread]: End processing [costock] error
+[2023-06-20 13:39:30] INFO root fetch - processPackages [permit-broadcaster]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-20 13:39:30] WARNING root fetch - processPackages [shift-ip]: Skipping, unable to determine old version
+[2023-06-20 13:39:30] INFO root fetch - processPackages [shift-ip]: Start processing: rdfizer
+[2023-06-20 13:39:30] INFO root fetch - processPackages [alibabacloud-cdn20180510]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-20 13:39:30] INFO root fetch - main [MainThread]: End processing [shift-ip] error
+[2023-06-20 13:39:30] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-06-20 13:39:30] WARNING root fetch - processPackages [coalg]: Skipping, unable to determine old version
+[2023-06-20 13:39:30] INFO root fetch - processPackages [coalg]: Start processing: rdfizer
+[2023-06-20 13:39:30] INFO root fetch - main [MainThread]: End processing [coalg] error
+[2023-06-20 13:39:30] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-06-20 13:39:30] INFO root fetch - processPackages [odoo-addon-sale-tier-validation]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2023-06-20 13:39:30] INFO root fetch - processPackages [bfgcardplay]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-20 13:39:30] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/6e/1f/4f9622b71b0736af56b03d497177b9495c2c4ade83d803c27570c05417fe/bigdl_nano-2.4.0b20230618-py3-none-win_amd64.whl
+[2023-06-20 13:39:30] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-06-20 13:39:30] INFO root fetch - processPackages [SPLayout]: Downloading https://files.pythonhosted.org/packages/24/27/0aace62c669e341c80cdd7056d8ba13053ba28f6855929b25d81ce5c74bb/SPLayout-0.4.7.tar.gz
+[2023-06-20 13:39:30] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Downloading https://files.pythonhosted.org/packages/e1/95/58156658c827b8a345a1bcff7bfab978eeb3e6157a1c0fa2a91995d775c6/alibabacloud_cdn20180510-1.2.8.tar.gz
+[2023-06-20 13:39:30] INFO root fetch - processPackages [hubble-shuttle]: Downloading https://files.pythonhosted.org/packages/d1/8b/90c3920507f0214f6340398136736ad645a3d792567cabed54159da97b57/hubble_shuttle-0.2.0.tar.gz
+[2023-06-20 13:39:30] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/9c/69/f926f79050903d7181f6dd0e91e494af7ba43c4c9369205e9332f4a4db3f/rdfizer-4.7.dev1682603874.tar.gz
+[2023-06-20 13:39:30] INFO root fetch - processPackages [SPLayout]: executing diffoscope
+[2023-06-20 13:39:30] INFO root fetch - processPackages [SPLayout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPLayout-0.4.6.tar.gz tmp/SPLayout-0.4.7.tar.gz --markdown 20230620/S/SPLayout/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-20 13:39:30] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/9c/69/f926f79050903d7181f6dd0e91e494af7ba43c4c9369205e9332f4a4db3f/rdfizer-4.7.dev1682603874.tar.gz
+[2023-06-20 13:39:30] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/9c/69/f926f79050903d7181f6dd0e91e494af7ba43c4c9369205e9332f4a4db3f/rdfizer-4.7.dev1682603874.tar.gz
+[2023-06-20 13:39:30] INFO root fetch - processPackages [permit-broadcaster]: Downloading https://files.pythonhosted.org/packages/f4/dd/5d1cf5fa2b36ac6b3ecc4ab708265568e08f57b966ee804c52f8b4760309/permit-broadcaster-0.2.2.tar.gz
+[2023-06-20 13:39:30] INFO root fetch - processPackages [odoo-addon-sale-tier-validation]: Downloading https://files.pythonhosted.org/packages/ce/34/21047101153aee972bc8edaf3a019291db5e89756917c522271995fff1aa/odoo_addon_sale_tier_validation-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-20 13:39:30] INFO root fetch - processPackages [bfgcardplay]: Downloading https://files.pythonhosted.org/packages/95/52/d6a5ab73b7898f1c879071375844d641e9c9992a4f69c3e0da941888e5d5/bfgcardplay-1.0.3.tar.gz
+[2023-06-20 13:39:30] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/70/cd/8dd4da328815d460b588f71a1270cf043ce0d2cae360ce0b321d3d1255b6/rdfizer-4.7.dev1682603926.tar.gz
+[2023-06-20 13:39:30] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/70/cd/8dd4da328815d460b588f71a1270cf043ce0d2cae360ce0b321d3d1255b6/rdfizer-4.7.dev1682603926.tar.gz
+[2023-06-20 13:39:30] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/70/cd/8dd4da328815d460b588f71a1270cf043ce0d2cae360ce0b321d3d1255b6/rdfizer-4.7.dev1682603926.tar.gz
+[2023-06-20 13:39:30] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-06-20 13:39:30] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230620/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-06-20 13:39:30] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-06-20 13:39:30] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230620/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-06-20 13:39:30] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-06-20 13:39:30] INFO root fetch - processPackages [hubble-shuttle]: Downloading https://files.pythonhosted.org/packages/6d/19/f12f1cc150077ef09a370185da9459270ac4b1d63c9ea0bce8c099eb1547/hubble_shuttle-0.3.0.tar.gz
+[2023-06-20 13:39:30] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230620/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-06-20 13:39:30] INFO root fetch - processPackages [permit-broadcaster]: Downloading https://files.pythonhosted.org/packages/4b/28/6fd27871f1fa943bc300c20f61d2d23c105384b0a620d8cd524044b08ba2/permit-broadcaster-0.2.3.tar.gz
+[2023-06-20 13:39:31] INFO root fetch - processPackages [odoo-addon-sale-tier-validation]: Downloading https://files.pythonhosted.org/packages/da/12/4f7b199364ff3135c7b6b26fce4106a66a89c5ad78456abff6a1fabd268e/odoo_addon_sale_tier_validation-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-20 13:39:31] INFO root fetch - processPackages [hubble-shuttle]: executing diffoscope
+[2023-06-20 13:39:31] INFO root fetch - processPackages [hubble-shuttle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubble_shuttle-0.2.0.tar.gz tmp/hubble_shuttle-0.3.0.tar.gz --markdown 20230620/h/hubble-shuttle/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-20 13:39:31] INFO root fetch - processPackages [permit-broadcaster]: executing diffoscope
+[2023-06-20 13:39:31] INFO root fetch - processPackages [permit-broadcaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permit-broadcaster-0.2.2.tar.gz tmp/permit-broadcaster-0.2.3.tar.gz --markdown 20230620/p/permit-broadcaster/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-20 13:39:31] INFO root fetch - processPackages [bfgcardplay]: Downloading https://files.pythonhosted.org/packages/89/6f/d327d218c2866236a98791feeffd279a4bdb382b2a19e4b5d0b82a41a4e2/bfgcardplay-1.0.4.tar.gz
+[2023-06-20 13:39:31] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/69/fe/6898dc7152b5b6593e5ebddbe18a3ea9e323c537a9d70f047baa6aee3195/bigdl_nano-2.4.0b20230619-py3-none-win_amd64.whl
+[2023-06-20 13:39:31] INFO root fetch - processPackages [odoo-addon-sale-tier-validation]: executing diffoscope
+[2023-06-20 13:39:31] INFO root fetch - processPackages [odoo-addon-sale-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_tier_validation-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_tier_validation-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230620/o/odoo-addon-sale-tier-validation/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-20 13:39:31] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-20 13:39:31] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230618-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230619-py3-none-win_amd64.whl.zip --markdown 20230620/b/bigdl-nano/2.4.0b20230618-2.4.0b20230619/diff.md --exclude *.pyd
+[2023-06-20 13:39:31] INFO root fetch - processPackages [bfgcardplay]: executing diffoscope
+[2023-06-20 13:39:31] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Downloading https://files.pythonhosted.org/packages/27/ed/4efd8c76dab91dff011f164093a515b4c95ad1b26a477f6ad015a3a19599/alibabacloud_cdn20180510-1.2.9.tar.gz
+[2023-06-20 13:39:31] INFO root fetch - processPackages [bfgcardplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfgcardplay-1.0.3.tar.gz tmp/bfgcardplay-1.0.4.tar.gz --markdown 20230620/b/bfgcardplay/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-20 13:39:31] INFO root fetch - processPackages [alibabacloud-cdn20180510]: executing diffoscope
+[2023-06-20 13:39:31] INFO root fetch - processPackages [alibabacloud-cdn20180510]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cdn20180510-1.2.8.tar.gz tmp/alibabacloud_cdn20180510-1.2.9.tar.gz --markdown 20230620/a/alibabacloud-cdn20180510/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-20 13:39:33] INFO root fetch - processPackages [hubble-shuttle]: Remove: archive file [/home/abi/fetcher/tmp/hubble_shuttle-0.2.0.tar.gz]
+[2023-06-20 13:39:33] INFO root fetch - processPackages [hubble-shuttle]: Remove: archive file [/home/abi/fetcher/tmp/hubble_shuttle-0.3.0.tar.gz]
+[2023-06-20 13:39:33] INFO root fetch - processPackages [hubble-shuttle]: Start processing: tidal-per-transformers
+[2023-06-20 13:39:33] INFO root fetch - main [MainThread]: End processing [hubble-shuttle]: success
+[2023-06-20 13:39:33] INFO root fetch - processPackages [permit-broadcaster]: Remove: archive file [/home/abi/fetcher/tmp/permit-broadcaster-0.2.2.tar.gz]
+[2023-06-20 13:39:33] INFO root fetch - processPackages [permit-broadcaster]: Remove: archive file [/home/abi/fetcher/tmp/permit-broadcaster-0.2.3.tar.gz]
+[2023-06-20 13:39:33] INFO root fetch - processPackages [permit-broadcaster]: Start processing: regpredict
+[2023-06-20 13:39:33] INFO root fetch - main [MainThread]: End processing [permit-broadcaster]: success
+[2023-06-20 13:39:33] INFO root fetch - processPackages [tidal-per-transformers]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-20 13:39:34] INFO root fetch - processPackages [regpredict]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 13:39:34] INFO root fetch - processPackages [tidal-per-transformers]: Downloading https://files.pythonhosted.org/packages/d6/29/67c0d6506ea0359ab5a69b754e1b3a7606dd9cce811a94463fe2dfd8c5b0/tidal_per_transformers-0.0.1.tar.gz
+[2023-06-20 13:39:34] INFO root fetch - processPackages [odoo-addon-sale-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_tier_validation-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-20 13:39:34] INFO root fetch - processPackages [odoo-addon-sale-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_tier_validation-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-20 13:39:34] INFO root fetch - processPackages [odoo-addon-sale-tier-validation]: Start processing: fedml
+[2023-06-20 13:39:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-tier-validation]: success
+[2023-06-20 13:39:34] INFO root fetch - processPackages [regpredict]: Downloading https://files.pythonhosted.org/packages/0a/f5/db3a1fa69360930599889257d2545d57d75927c3650bf12743511ccef501/regpredict-0.0.8.tar.gz
+[2023-06-20 13:39:34] INFO root fetch - processPackages [fedml]: New version: [0.8.4a9] Old Version: [0.8.4a8]
+[2023-06-20 13:39:34] INFO root fetch - processPackages [tidal-per-transformers]: Downloading https://files.pythonhosted.org/packages/21/89/661bc390b81939ad80758742ad9f4ab3f78324148df8c96bc67a23899abb/tidal_per_transformers-0.0.2.tar.gz
+[2023-06-20 13:39:34] INFO root fetch - processPackages [SPLayout]: Remove: archive file [/home/abi/fetcher/tmp/SPLayout-0.4.6.tar.gz]
+[2023-06-20 13:39:34] INFO root fetch - processPackages [SPLayout]: Remove: archive file [/home/abi/fetcher/tmp/SPLayout-0.4.7.tar.gz]
+[2023-06-20 13:39:34] INFO root fetch - processPackages [SPLayout]: Start processing: ydata-sdk
+[2023-06-20 13:39:34] INFO root fetch - main [MainThread]: End processing [SPLayout]: success
+[2023-06-20 13:39:34] INFO root fetch - processPackages [tidal-per-transformers]: executing diffoscope
+[2023-06-20 13:39:34] INFO root fetch - processPackages [tidal-per-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidal_per_transformers-0.0.1.tar.gz tmp/tidal_per_transformers-0.0.2.tar.gz --markdown 20230620/t/tidal-per-transformers/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-20 13:39:34] INFO root fetch - processPackages [ydata-sdk]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-20 13:39:34] INFO root fetch - processPackages [regpredict]: Downloading https://files.pythonhosted.org/packages/f1/2d/99f43cff649258e263b708870c40897d0e236ed1fb5ad32bc7c7fde634ab/regpredict-0.0.9.tar.gz
+[2023-06-20 13:39:34] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/2d/89/5e240b8c4bde2ab2881929287116b110fb3b2f843b4e4943c85367ef9518/fedml-0.8.4a8.tar.gz
+[2023-06-20 13:39:35] INFO root fetch - processPackages [ydata-sdk]: Downloading https://files.pythonhosted.org/packages/57/d3/0759939fd00f84785011fc9e8e28cef09e49fd60312ce8fffc26497a175b/ydata_sdk-0.5.0-py39-none-any.whl
+[2023-06-20 13:39:35] INFO root fetch - processPackages [regpredict]: executing diffoscope
+[2023-06-20 13:39:35] INFO root fetch - processPackages [regpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regpredict-0.0.8.tar.gz tmp/regpredict-0.0.9.tar.gz --markdown 20230620/r/regpredict/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 13:39:35] INFO root fetch - processPackages [rdfizer]: Remove: archive file [/home/abi/fetcher/tmp/rdfizer-4.7.dev1682603874.tar.gz]
+[2023-06-20 13:39:35] INFO root fetch - processPackages [rdfizer]: Remove: archive file [/home/abi/fetcher/tmp/rdfizer-4.7.dev1682603926.tar.gz]
+[2023-06-20 13:39:35] INFO root fetch - processPackages [rdfizer]: Start processing: coplaniverse
+[2023-06-20 13:39:35] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-06-20 13:39:35] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/33/9b/be9e98195d0e435792d20db883ee2ae3f9b661f8bc6a8d98bb9c8a460195/fedml-0.8.4a9.tar.gz
+[2023-06-20 13:39:35] WARNING root fetch - processPackages [coplaniverse]: Skipping, unable to determine old version
+[2023-06-20 13:39:35] INFO root fetch - main [MainThread]: End processing [coplaniverse] error
+[2023-06-20 13:39:35] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-06-20 13:39:35] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.4a8.tar.gz tmp/fedml-0.8.4a9.tar.gz --markdown 20230620/f/fedml/0.8.4a8-0.8.4a9/diff.md --exclude *.pyd
+[2023-06-20 13:39:35] INFO root fetch - processPackages [ydata-sdk]: Downloading https://files.pythonhosted.org/packages/26/bb/8dad117876ff29a545952643fe8060abc8a3f9a4a95cd2b3f8d9a2bb2547/ydata_sdk-0.6.0-py39-none-any.whl
+[2023-06-20 13:39:35] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-06-20 13:39:35] INFO root fetch - processPackages [bfgcardplay]: Remove: archive file [/home/abi/fetcher/tmp/bfgcardplay-1.0.3.tar.gz]
+[2023-06-20 13:39:35] INFO root fetch - processPackages [bfgcardplay]: Remove: archive file [/home/abi/fetcher/tmp/bfgcardplay-1.0.4.tar.gz]
+[2023-06-20 13:39:35] INFO root fetch - main [MainThread]: End processing [bfgcardplay]: success
+[2023-06-20 13:39:35] INFO root fetch - processPackages [ydata-sdk]: executing diffoscope
+[2023-06-20 13:39:35] INFO root fetch - processPackages [ydata-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydata_sdk-0.5.0-py39-none-any.whl.zip tmp/ydata_sdk-0.6.0-py39-none-any.whl.zip --markdown 20230620/y/ydata-sdk/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-20 13:39:36] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-06-20 13:39:36] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cdn20180510-1.2.8.tar.gz]
+[2023-06-20 13:39:36] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cdn20180510-1.2.9.tar.gz]
+[2023-06-20 13:39:36] INFO root fetch - main [MainThread]: End processing [alibabacloud-cdn20180510]: success
+[2023-06-20 13:39:38] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230618-py3-none-win_amd64.whl.zip]
+[2023-06-20 13:39:38] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230619-py3-none-win_amd64.whl.zip]
+[2023-06-20 13:39:38] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-20 13:39:38] INFO root fetch - processPackages [tidal-per-transformers]: Remove: archive file [/home/abi/fetcher/tmp/tidal_per_transformers-0.0.1.tar.gz]
+[2023-06-20 13:39:38] INFO root fetch - processPackages [tidal-per-transformers]: Remove: archive file [/home/abi/fetcher/tmp/tidal_per_transformers-0.0.2.tar.gz]
+[2023-06-20 13:39:38] INFO root fetch - main [MainThread]: End processing [tidal-per-transformers]: success
+[2023-06-20 13:39:39] INFO root fetch - processPackages [regpredict]: Remove: archive file [/home/abi/fetcher/tmp/regpredict-0.0.8.tar.gz]
+[2023-06-20 13:39:39] INFO root fetch - processPackages [regpredict]: Remove: archive file [/home/abi/fetcher/tmp/regpredict-0.0.9.tar.gz]
+[2023-06-20 13:39:39] INFO root fetch - main [MainThread]: End processing [regpredict]: success
+[2023-06-20 13:39:40] INFO root fetch - processPackages [ydata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ydata_sdk-0.5.0-py39-none-any.whl.zip]
+[2023-06-20 13:39:40] INFO root fetch - processPackages [ydata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ydata_sdk-0.6.0-py39-none-any.whl.zip]
+[2023-06-20 13:39:40] INFO root fetch - main [MainThread]: End processing [ydata-sdk]: success
+[2023-06-20 13:39:50] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.4a8.tar.gz]
+[2023-06-20 13:39:50] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.4a9.tar.gz]
+[2023-06-20 13:39:50] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-06-20 13:39:50] INFO root fetch - main [MainThread]: Store serial: [18573927]
