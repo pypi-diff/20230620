@@ -12261,3 +12261,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 07:33:48] INFO root fetch - processPackages [vois]: Remove: archive file [/home/abi/fetcher/tmp/vois-1.0.8.tar.gz]
 [2023-06-20 07:33:48] INFO root fetch - main [MainThread]: End processing [vois]: success
 [2023-06-20 07:33:48] INFO root fetch - main [MainThread]: Store serial: [18570273]
+[2023-06-20 07:38:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570273]
+[2023-06-20 07:38:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-20 07:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adt-cache
+[2023-06-20 07:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyutils-hyutil-hoyun-lab
+[2023-06-20 07:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: surge-api
+[2023-06-20 07:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dartrig
+[2023-06-20 07:38:57] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: New version: [0.0.6.3] Old Version: [0.0.6.2]
+[2023-06-20 07:38:57] INFO root fetch - processPackages [surge-api]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-20 07:38:57] INFO root fetch - processPackages [adt-cache]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 07:38:57] INFO root fetch - processPackages [dartrig]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 07:38:57] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/05/38/ef2a5c98f78ab65878a06795a96e756baa92d73db5b73848e3a0303f6c52/hyutils-hyutil-hoyun-lab-0.0.6.2.tar.gz
+[2023-06-20 07:38:57] INFO root fetch - processPackages [surge-api]: Downloading https://files.pythonhosted.org/packages/13/06/df61331cc12a17f4c3d9fb0023dde0cfea450c11a1295ee2661063eae92a/surge_api-1.1.0-py3-none-any.whl
+[2023-06-20 07:38:57] INFO root fetch - processPackages [adt-cache]: Downloading https://files.pythonhosted.org/packages/6c/27/f41fb956d430208b9020fe1aa5ae3b1f53629e619a0f0eff81294e6d732c/adt_cache-0.0.8.tar.gz
+[2023-06-20 07:38:57] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/c3/a1/ecb0fc49702e70d469ceb63bbffe292a25022b72614b9921fb303fad5986/dartrig-0.1.8.tar.gz
+[2023-06-20 07:38:57] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/0c/58/1913d4dd187681c3ffc115e7f16a680e176032da7d897176d628eedc08af/hyutils-hyutil-hoyun-lab-0.0.6.3.tar.gz
+[2023-06-20 07:38:57] INFO root fetch - processPackages [surge-api]: Downloading https://files.pythonhosted.org/packages/e6/f0/020d40f509ab1801b4dcfdebc36bcce0ca4cd9cbf839930920861eb6d415/surge_api-1.1.1-py3-none-any.whl
+[2023-06-20 07:38:57] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: executing diffoscope
+[2023-06-20 07:38:57] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyutils-hyutil-hoyun-lab-0.0.6.2.tar.gz tmp/hyutils-hyutil-hoyun-lab-0.0.6.3.tar.gz --markdown 20230620/h/hyutils-hyutil-hoyun-lab/0.0.6.2-0.0.6.3/diff.md --exclude *.pyd
+[2023-06-20 07:38:57] INFO root fetch - processPackages [adt-cache]: Downloading https://files.pythonhosted.org/packages/99/65/5a602bb0d00239122defb6a95cdc1bca7dfffa6ee25be4cc745c56596247/adt_cache-0.0.9.tar.gz
+[2023-06-20 07:38:57] INFO root fetch - processPackages [surge-api]: executing diffoscope
+[2023-06-20 07:38:57] INFO root fetch - processPackages [surge-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surge_api-1.1.0-py3-none-any.whl.zip tmp/surge_api-1.1.1-py3-none-any.whl.zip --markdown 20230620/s/surge-api/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-20 07:38:57] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/95/93/0003c3e63e809e98d18242999380721f577baec8ccf697071faca8e8b6ec/dartrig-0.1.9.tar.gz
+[2023-06-20 07:38:58] INFO root fetch - processPackages [adt-cache]: executing diffoscope
+[2023-06-20 07:38:58] INFO root fetch - processPackages [adt-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt_cache-0.0.8.tar.gz tmp/adt_cache-0.0.9.tar.gz --markdown 20230620/a/adt-cache/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 07:38:58] INFO root fetch - processPackages [dartrig]: executing diffoscope
+[2023-06-20 07:38:58] INFO root fetch - processPackages [dartrig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dartrig-0.1.8.tar.gz tmp/dartrig-0.1.9.tar.gz --markdown 20230620/d/dartrig/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 07:38:59] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.6.2.tar.gz]
+[2023-06-20 07:38:59] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.6.3.tar.gz]
+[2023-06-20 07:38:59] INFO root fetch - main [MainThread]: End processing [hyutils-hyutil-hoyun-lab]: success
+[2023-06-20 07:38:59] INFO root fetch - processPackages [surge-api]: Remove: archive file [/home/abi/fetcher/tmp/surge_api-1.1.0-py3-none-any.whl.zip]
+[2023-06-20 07:38:59] INFO root fetch - processPackages [surge-api]: Remove: archive file [/home/abi/fetcher/tmp/surge_api-1.1.1-py3-none-any.whl.zip]
+[2023-06-20 07:38:59] INFO root fetch - main [MainThread]: End processing [surge-api]: success
+[2023-06-20 07:38:59] INFO root fetch - processPackages [adt-cache]: Remove: archive file [/home/abi/fetcher/tmp/adt_cache-0.0.8.tar.gz]
+[2023-06-20 07:38:59] INFO root fetch - processPackages [adt-cache]: Remove: archive file [/home/abi/fetcher/tmp/adt_cache-0.0.9.tar.gz]
+[2023-06-20 07:38:59] INFO root fetch - main [MainThread]: End processing [adt-cache]: success
+[2023-06-20 07:38:59] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.8.tar.gz]
+[2023-06-20 07:38:59] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.9.tar.gz]
+[2023-06-20 07:38:59] INFO root fetch - main [MainThread]: End processing [dartrig]: success
+[2023-06-20 07:38:59] INFO root fetch - main [MainThread]: Store serial: [18570288]
