@@ -13264,3 +13264,93 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 08:40:07] INFO root fetch - processPackages [FHIRkit]: Remove: archive file [/home/abi/fetcher/tmp/FHIRkit-0.1.2.tar.gz]
 [2023-06-20 08:40:07] INFO root fetch - main [MainThread]: End processing [FHIRkit]: success
 [2023-06-20 08:40:07] INFO root fetch - main [MainThread]: Store serial: [18570700]
+[2023-06-20 08:45:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570700]
+[2023-06-20 08:45:16] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-20 08:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipen-board
+[2023-06-20 08:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-miraie-ac
+[2023-06-20 08:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiovantage
+[2023-06-20 08:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dockery
+[2023-06-20 08:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: m-scheduler-partitioning
+[2023-06-20 08:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg
+[2023-06-20 08:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: JulianPy
+[2023-06-20 08:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Denoising-Diffusion-Probabilistic-Models
+[2023-06-20 08:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: animethemes-beta-batch-encoder
+[2023-06-20 08:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scrappeycom
+[2023-06-20 08:45:16] INFO root fetch - processPackages [dockery]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-06-20 08:45:16] INFO root fetch - processPackages [py-miraie-ac]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-06-20 08:45:16] INFO root fetch - processPackages [pipen-board]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-20 08:45:16] WARNING root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Skipping, unable to determine old version
+[2023-06-20 08:45:16] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Start processing: miniworldmaker
+[2023-06-20 08:45:16] INFO root fetch - main [MainThread]: End processing [Denoising-Diffusion-Probabilistic-Models] error
+[2023-06-20 08:45:16] INFO root fetch - processPackages [cg]: New version: [36.3.1] Old Version: [36.3.0]
+[2023-06-20 08:45:16] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/b1/5e/3291fa91211a2a6ca6c9b80adc4087862e629daf8db9da4cd3e8b6b53559/dockery-0.2.4.tar.gz
+[2023-06-20 08:45:16] INFO root fetch - processPackages [scrappeycom]: New version: [0.3.1] Old Version: [0.3]
+[2023-06-20 08:45:16] INFO root fetch - processPackages [aiovantage]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-20 08:45:16] INFO root fetch - processPackages [m-scheduler-partitioning]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 08:45:16] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: New version: [1.1.1] Old Version: [1.1]
+[2023-06-20 08:45:16] WARNING root fetch - processPackages [JulianPy]: Skipping, unable to determine old version
+[2023-06-20 08:45:16] INFO root fetch - main [MainThread]: End processing [JulianPy] error
+[2023-06-20 08:45:16] INFO root fetch - processPackages [miniworldmaker]: New version: [2.9.0.0] Old Version: [2.8.0.0]
+[2023-06-20 08:45:16] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/24/67/988a0c1a716f3bc09c28e4ea0bc6dfc1afcc8a25c705408087772130e75b/pipen_board-0.6.1.tar.gz
+[2023-06-20 08:45:16] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6c/05/68741d974e0cd10678b0fbd46d9153a2b50b65f4ba21eb3a3437b4ab3f24/cg-36.3.0.tar.gz
+[2023-06-20 08:45:16] INFO root fetch - processPackages [miniworldmaker]: Downloading https://files.pythonhosted.org/packages/f3/13/feb81bd15d26786614c70fa63b5049afcd9c93969921a39ab1714f36930f/miniworldmaker-2.8.0.0.tar.gz
+[2023-06-20 08:45:16] INFO root fetch - processPackages [py-miraie-ac]: Downloading https://files.pythonhosted.org/packages/6e/77/162ae0811d7070e2462ecd4aa97e0ecf0cf2619d51a6fca9b78ba6be66de/py-miraie-ac-0.1.2.tar.gz
+[2023-06-20 08:45:16] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: Downloading https://files.pythonhosted.org/packages/85/41/7387e750261788034501046a1e725f4f3b6574ad98c7825a5c7baebab21a/animethemes-beta-batch-encoder-1.1.tar.gz
+[2023-06-20 08:45:17] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/cc/cb/6065f7274171152045b8a967c608209ec82a3b42cdfc857c5177c5f813c1/dockery-0.3.0.tar.gz
+[2023-06-20 08:45:17] INFO root fetch - processPackages [scrappeycom]: Downloading https://files.pythonhosted.org/packages/d8/28/7d7f938ba384e67b8c17887a821c8b63c53a0dc062308d96238404cabf47/scrappeycom-0.3.tar.gz
+[2023-06-20 08:45:17] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/b2/4d/85f75f5267990e23b855090b7c573b17361bc8850f6a4904874938da61c0/aiovantage-0.2.1.tar.gz
+[2023-06-20 08:45:17] INFO root fetch - processPackages [dockery]: executing diffoscope
+[2023-06-20 08:45:17] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/d5/ad/e5306f13cb376f4430783b4f699d3d82300ecd68fd270260a83f320fb8b6/pipen_board-0.6.2.tar.gz
+[2023-06-20 08:45:17] INFO root fetch - processPackages [dockery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockery-0.2.4.tar.gz tmp/dockery-0.3.0.tar.gz --markdown 20230620/d/dockery/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-06-20 08:45:17] INFO root fetch - processPackages [m-scheduler-partitioning]: Downloading https://files.pythonhosted.org/packages/76/40/741ba6bdff39920818185045f088a131f520fd4033f492a031376417478d/m_scheduler_partitioning-0.1.8.tar.gz
+[2023-06-20 08:45:17] INFO root fetch - processPackages [miniworldmaker]: Downloading https://files.pythonhosted.org/packages/b9/2b/8e1c164f9e757ed512553b53cb0b2c7af2cdb34d75275dc4b4ce72b1b5ee/miniworldmaker-2.9.0.0.tar.gz
+[2023-06-20 08:45:17] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/24/3c/24330188dbbd483cc404aaf025a063ff7f1012ae45669bf7d9c1adc4764b/cg-36.3.1.tar.gz
+[2023-06-20 08:45:17] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-06-20 08:45:17] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.6.1.tar.gz tmp/pipen_board-0.6.2.tar.gz --markdown 20230620/p/pipen-board/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-20 08:45:17] INFO root fetch - processPackages [miniworldmaker]: executing diffoscope
+[2023-06-20 08:45:17] INFO root fetch - processPackages [miniworldmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniworldmaker-2.8.0.0.tar.gz tmp/miniworldmaker-2.9.0.0.tar.gz --markdown 20230620/m/miniworldmaker/2.8.0.0-2.9.0.0/diff.md --exclude *.pyd
+[2023-06-20 08:45:17] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: Downloading https://files.pythonhosted.org/packages/78/de/bdfc2b2a75118bc6e47702833efc0c21d1bda5a0b8f22156329a85190b34/animethemes-beta-batch-encoder-1.1.1.tar.gz
+[2023-06-20 08:45:17] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-20 08:45:17] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-36.3.0.tar.gz tmp/cg-36.3.1.tar.gz --markdown 20230620/c/cg/36.3.0-36.3.1/diff.md --exclude *.pyd
+[2023-06-20 08:45:17] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: executing diffoscope
+[2023-06-20 08:45:17] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animethemes-beta-batch-encoder-1.1.tar.gz tmp/animethemes-beta-batch-encoder-1.1.1.tar.gz --markdown 20230620/a/animethemes-beta-batch-encoder/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-06-20 08:45:17] INFO root fetch - processPackages [py-miraie-ac]: Downloading https://files.pythonhosted.org/packages/1e/36/f81ffa5121e33436d8e5a624a9d10d3d53fe2d79675b0f285d34d1a999b7/py-miraie-ac-0.1.4.tar.gz
+[2023-06-20 08:45:17] INFO root fetch - processPackages [scrappeycom]: Downloading https://files.pythonhosted.org/packages/5a/3f/f0bf8cd5d2faf2585c24c892a74e9fa38f79e43088c9a12c9568bdfe4bc5/scrappeycom-0.3.1.tar.gz
+[2023-06-20 08:45:17] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/33/c7/3c873a3606ce18c3b2a2504ab5986ff3c846b291cea97a4f09494cf70e16/aiovantage-0.2.2.tar.gz
+[2023-06-20 08:45:17] INFO root fetch - processPackages [py-miraie-ac]: executing diffoscope
+[2023-06-20 08:45:17] INFO root fetch - processPackages [py-miraie-ac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-miraie-ac-0.1.2.tar.gz tmp/py-miraie-ac-0.1.4.tar.gz --markdown 20230620/p/py-miraie-ac/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-06-20 08:45:17] INFO root fetch - processPackages [aiovantage]: executing diffoscope
+[2023-06-20 08:45:17] INFO root fetch - processPackages [aiovantage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiovantage-0.2.1.tar.gz tmp/aiovantage-0.2.2.tar.gz --markdown 20230620/a/aiovantage/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-20 08:45:17] INFO root fetch - processPackages [m-scheduler-partitioning]: Downloading https://files.pythonhosted.org/packages/2e/19/a5dd6830711dfd3522cce383414bde5dfa1023bfee8dfe72320d6d15e1ae/m_scheduler_partitioning-0.1.9.tar.gz
+[2023-06-20 08:45:17] INFO root fetch - processPackages [scrappeycom]: executing diffoscope
+[2023-06-20 08:45:17] INFO root fetch - processPackages [scrappeycom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrappeycom-0.3.tar.gz tmp/scrappeycom-0.3.1.tar.gz --markdown 20230620/s/scrappeycom/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-06-20 08:45:17] INFO root fetch - processPackages [m-scheduler-partitioning]: executing diffoscope
+[2023-06-20 08:45:17] INFO root fetch - processPackages [m-scheduler-partitioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m_scheduler_partitioning-0.1.8.tar.gz tmp/m_scheduler_partitioning-0.1.9.tar.gz --markdown 20230620/m/m-scheduler-partitioning/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 08:45:18] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.2.4.tar.gz]
+[2023-06-20 08:45:18] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.3.0.tar.gz]
+[2023-06-20 08:45:18] INFO root fetch - main [MainThread]: End processing [dockery]: success
+[2023-06-20 08:45:19] INFO root fetch - processPackages [m-scheduler-partitioning]: Remove: archive file [/home/abi/fetcher/tmp/m_scheduler_partitioning-0.1.8.tar.gz]
+[2023-06-20 08:45:19] INFO root fetch - processPackages [m-scheduler-partitioning]: Remove: archive file [/home/abi/fetcher/tmp/m_scheduler_partitioning-0.1.9.tar.gz]
+[2023-06-20 08:45:19] INFO root fetch - main [MainThread]: End processing [m-scheduler-partitioning]: success
+[2023-06-20 08:45:19] INFO root fetch - processPackages [scrappeycom]: Remove: archive file [/home/abi/fetcher/tmp/scrappeycom-0.3.tar.gz]
+[2023-06-20 08:45:19] INFO root fetch - processPackages [scrappeycom]: Remove: archive file [/home/abi/fetcher/tmp/scrappeycom-0.3.1.tar.gz]
+[2023-06-20 08:45:19] INFO root fetch - main [MainThread]: End processing [scrappeycom]: success
+[2023-06-20 08:45:19] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.1.2.tar.gz]
+[2023-06-20 08:45:19] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.1.4.tar.gz]
+[2023-06-20 08:45:19] INFO root fetch - main [MainThread]: End processing [py-miraie-ac]: success
+[2023-06-20 08:45:19] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: Remove: archive file [/home/abi/fetcher/tmp/animethemes-beta-batch-encoder-1.1.tar.gz]
+[2023-06-20 08:45:19] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: Remove: archive file [/home/abi/fetcher/tmp/animethemes-beta-batch-encoder-1.1.1.tar.gz]
+[2023-06-20 08:45:19] INFO root fetch - main [MainThread]: End processing [animethemes-beta-batch-encoder]: success
+[2023-06-20 08:45:19] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.2.1.tar.gz]
+[2023-06-20 08:45:19] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.2.2.tar.gz]
+[2023-06-20 08:45:19] INFO root fetch - main [MainThread]: End processing [aiovantage]: success
+[2023-06-20 08:45:21] INFO root fetch - processPackages [miniworldmaker]: Remove: archive file [/home/abi/fetcher/tmp/miniworldmaker-2.8.0.0.tar.gz]
+[2023-06-20 08:45:21] INFO root fetch - processPackages [miniworldmaker]: Remove: archive file [/home/abi/fetcher/tmp/miniworldmaker-2.9.0.0.tar.gz]
+[2023-06-20 08:45:21] INFO root fetch - main [MainThread]: End processing [miniworldmaker]: success
+[2023-06-20 08:45:26] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.6.1.tar.gz]
+[2023-06-20 08:45:26] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.6.2.tar.gz]
+[2023-06-20 08:45:26] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-06-20 08:45:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.3.0.tar.gz]
+[2023-06-20 08:45:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.3.1.tar.gz]
+[2023-06-20 08:45:30] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-20 08:45:30] INFO root fetch - main [MainThread]: Store serial: [18570733]
