@@ -20426,3 +20426,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 13:13:19] INFO root fetch - processPackages [panda-client]: Remove: archive file [/home/abi/fetcher/tmp/panda-client-1.5.9.tar.gz]
 [2023-06-20 13:13:19] INFO root fetch - main [MainThread]: End processing [panda-client]: success
 [2023-06-20 13:13:19] INFO root fetch - main [MainThread]: Store serial: [18573642]
+[2023-06-20 13:18:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18573642]
+[2023-06-20 13:18:28] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-20 13:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grad-june
+[2023-06-20 13:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bank-scrapers
+[2023-06-20 13:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-contributor-assets
+[2023-06-20 13:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cosim
+[2023-06-20 13:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cosimulation
+[2023-06-20 13:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: y2mate-api
+[2023-06-20 13:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: video-process
+[2023-06-20 13:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mltlk
+[2023-06-20 13:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coflow
+[2023-06-20 13:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: copp
+[2023-06-20 13:18:28] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post850] Old Version: [1.0.0.post848]
+[2023-06-20 13:18:28] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/2e/1a/2efbd2209956f6e8f1907360bfcec3f013779a4ddd60372ab9ed5d1c8f40/nucliadb_contributor_assets-1.0.0.post848-py3-none-any.whl
+[2023-06-20 13:18:28] INFO root fetch - processPackages [y2mate-api]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-20 13:18:28] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-20 13:18:28] WARNING root fetch - processPackages [copp]: Skipping, unable to determine old version
+[2023-06-20 13:18:28] INFO root fetch - processPackages [copp]: Start processing: wangticketyes24
+[2023-06-20 13:18:28] INFO root fetch - main [MainThread]: End processing [copp] error
+[2023-06-20 13:18:28] WARNING root fetch - processPackages [coflow]: Skipping, unable to determine old version
+[2023-06-20 13:18:28] WARNING root fetch - processPackages [cosim]: Skipping, unable to determine old version
+[2023-06-20 13:18:28] INFO root fetch - processPackages [grad-june]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-20 13:18:28] WARNING root fetch - processPackages [cosimulation]: Skipping, unable to determine old version
+[2023-06-20 13:18:28] INFO root fetch - processPackages [coflow]: Start processing: dls-bxflow-epsic
+[2023-06-20 13:18:28] INFO root fetch - processPackages [bank-scrapers]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-20 13:18:28] WARNING root fetch - processPackages [video-process]: Skipping, unable to determine old version
+[2023-06-20 13:18:28] INFO root fetch - processPackages [cosim]: Start processing: comrp
+[2023-06-20 13:18:28] INFO root fetch - main [MainThread]: End processing [coflow] error
+[2023-06-20 13:18:28] INFO root fetch - main [MainThread]: End processing [cosim] error
+[2023-06-20 13:18:28] INFO root fetch - main [MainThread]: End processing [cosimulation] error
+[2023-06-20 13:18:28] INFO root fetch - main [MainThread]: End processing [video-process] error
+[2023-06-20 13:18:28] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/f0/e8/d15025aaf2c5485b60e133b95d1c5c1617bc71ba82f37309d9eec70f5780/nucliadb_contributor_assets-1.0.0.post850-py3-none-any.whl
+[2023-06-20 13:18:28] INFO root fetch - processPackages [wangticketyes24]: New version: [1.0] Old Version: [0.95]
+[2023-06-20 13:18:28] INFO root fetch - processPackages [dls-bxflow-epsic]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-06-20 13:18:28] WARNING root fetch - processPackages [comrp]: Skipping, unable to determine old version
+[2023-06-20 13:18:28] INFO root fetch - main [MainThread]: End processing [comrp] error
+[2023-06-20 13:18:28] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-20 13:18:28] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post848-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post850-py3-none-any.whl.zip --markdown 20230620/n/nucliadb-contributor-assets/1.0.0.post848-1.0.0.post850/diff.md --exclude *.pyd
+[2023-06-20 13:18:28] INFO root fetch - processPackages [grad-june]: Downloading https://files.pythonhosted.org/packages/c2/d9/8cf16cdae6f7e623aefcbd6388d9c35b4a1ff687d468c95ab7bf43cf955b/grad_june-0.1.7.tar.gz
+[2023-06-20 13:18:28] INFO root fetch - processPackages [y2mate-api]: Downloading https://files.pythonhosted.org/packages/27/23/6324f97b6636da824ada0a7c8ff43bfb672593c7246daf1061c084c18a83/y2mate-api-0.0.3.tar.gz
+[2023-06-20 13:18:28] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/41/6b/4e30b3d3043ecd4dc33de713cc7005c3d42d2bb5ae46e48a5966591589b9/mltlk-0.1.7.tar.gz
+[2023-06-20 13:18:28] INFO root fetch - processPackages [bank-scrapers]: Downloading https://files.pythonhosted.org/packages/21/01/db4df234f723a783b0435a9c6b00b326283b9f9344bbb1d2ff8fae016cda/bank_scrapers-1.0.3.tar.gz
+[2023-06-20 13:18:28] INFO root fetch - processPackages [dls-bxflow-epsic]: Downloading https://files.pythonhosted.org/packages/ad/a5/17b15eace554e93db69b782d7b1693643559681bf87085d37c74f56de4db/dls-bxflow-epsic-1.1.3.tar.gz
+[2023-06-20 13:18:28] INFO root fetch - processPackages [wangticketyes24]: Downloading https://files.pythonhosted.org/packages/14/ee/8908e21ec356df639f16453640b6ba69f5a1c946b46ae0f93d5ecaffa21b/wangticketyes24-0.95-py3-none-any.whl
+[2023-06-20 13:18:28] INFO root fetch - processPackages [y2mate-api]: Downloading https://files.pythonhosted.org/packages/65/25/825f440d4089783232f565e13a4be7f0933b3abf962041254d9f9d0485d4/y2mate-api-0.0.4.tar.gz
+[2023-06-20 13:18:28] INFO root fetch - processPackages [grad-june]: Downloading https://files.pythonhosted.org/packages/d1/67/5f3940e818e004f805485f323a35fd426ed91c9eeb8f84bfa631a7465ba2/grad_june-0.1.8.tar.gz
+[2023-06-20 13:18:28] INFO root fetch - processPackages [bank-scrapers]: Downloading https://files.pythonhosted.org/packages/ca/cf/8fc6efdfb51f9364dfe7b475864ca82f302ff35627b05c89cdc035141502/bank_scrapers-1.0.4.tar.gz
+[2023-06-20 13:18:28] INFO root fetch - processPackages [y2mate-api]: executing diffoscope
+[2023-06-20 13:18:28] INFO root fetch - processPackages [y2mate-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/y2mate-api-0.0.3.tar.gz tmp/y2mate-api-0.0.4.tar.gz --markdown 20230620/y/y2mate-api/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-20 13:18:28] INFO root fetch - processPackages [grad-june]: executing diffoscope
+[2023-06-20 13:18:28] INFO root fetch - processPackages [grad-june]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grad_june-0.1.7.tar.gz tmp/grad_june-0.1.8.tar.gz --markdown 20230620/g/grad-june/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-20 13:18:29] INFO root fetch - processPackages [wangticketyes24]: Downloading https://files.pythonhosted.org/packages/31/e2/23a6abee8dfb7e226f46ce91fdab57e8cfa59d014ddb343b5c18f99b0ad4/wangticketyes24-1.0-py3-none-any.whl
+[2023-06-20 13:18:29] INFO root fetch - processPackages [bank-scrapers]: executing diffoscope
+[2023-06-20 13:18:29] INFO root fetch - processPackages [bank-scrapers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bank_scrapers-1.0.3.tar.gz tmp/bank_scrapers-1.0.4.tar.gz --markdown 20230620/b/bank-scrapers/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-20 13:18:29] INFO root fetch - processPackages [dls-bxflow-epsic]: Downloading https://files.pythonhosted.org/packages/f9/9a/a4e607b6f4f13ca052c8cf7cec578cad7a768e643c46e595ff12c831d885/dls-bxflow-epsic-1.2.0.tar.gz
+[2023-06-20 13:18:29] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/a3/43/9f4afc1db775be90fa51d830a740d6aa8de155b1838d1c5480c183ce1c56/mltlk-0.1.8.tar.gz
+[2023-06-20 13:18:29] INFO root fetch - processPackages [wangticketyes24]: executing diffoscope
+[2023-06-20 13:18:29] INFO root fetch - processPackages [wangticketyes24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wangticketyes24-0.95-py3-none-any.whl.zip tmp/wangticketyes24-1.0-py3-none-any.whl.zip --markdown 20230620/w/wangticketyes24/0.95-1.0/diff.md --exclude *.pyd
+[2023-06-20 13:18:29] INFO root fetch - processPackages [dls-bxflow-epsic]: executing diffoscope
+[2023-06-20 13:18:29] INFO root fetch - processPackages [dls-bxflow-epsic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-bxflow-epsic-1.1.3.tar.gz tmp/dls-bxflow-epsic-1.2.0.tar.gz --markdown 20230620/d/dls-bxflow-epsic/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-06-20 13:18:29] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-06-20 13:18:29] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230620/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-20 13:18:30] INFO root fetch - processPackages [y2mate-api]: Remove: archive file [/home/abi/fetcher/tmp/y2mate-api-0.0.3.tar.gz]
+[2023-06-20 13:18:30] INFO root fetch - processPackages [y2mate-api]: Remove: archive file [/home/abi/fetcher/tmp/y2mate-api-0.0.4.tar.gz]
+[2023-06-20 13:18:30] INFO root fetch - main [MainThread]: End processing [y2mate-api]: success
+[2023-06-20 13:18:30] INFO root fetch - processPackages [grad-june]: Remove: archive file [/home/abi/fetcher/tmp/grad_june-0.1.7.tar.gz]
+[2023-06-20 13:18:30] INFO root fetch - processPackages [grad-june]: Remove: archive file [/home/abi/fetcher/tmp/grad_june-0.1.8.tar.gz]
+[2023-06-20 13:18:30] INFO root fetch - main [MainThread]: End processing [grad-june]: success
+[2023-06-20 13:18:30] INFO root fetch - processPackages [bank-scrapers]: Remove: archive file [/home/abi/fetcher/tmp/bank_scrapers-1.0.3.tar.gz]
+[2023-06-20 13:18:30] INFO root fetch - processPackages [bank-scrapers]: Remove: archive file [/home/abi/fetcher/tmp/bank_scrapers-1.0.4.tar.gz]
+[2023-06-20 13:18:30] INFO root fetch - main [MainThread]: End processing [bank-scrapers]: success
+[2023-06-20 13:18:30] INFO root fetch - processPackages [wangticketyes24]: Remove: archive file [/home/abi/fetcher/tmp/wangticketyes24-0.95-py3-none-any.whl.zip]
+[2023-06-20 13:18:30] INFO root fetch - processPackages [wangticketyes24]: Remove: archive file [/home/abi/fetcher/tmp/wangticketyes24-1.0-py3-none-any.whl.zip]
+[2023-06-20 13:18:30] INFO root fetch - main [MainThread]: End processing [wangticketyes24]: success
+[2023-06-20 13:18:31] INFO root fetch - processPackages [dls-bxflow-epsic]: Remove: archive file [/home/abi/fetcher/tmp/dls-bxflow-epsic-1.1.3.tar.gz]
+[2023-06-20 13:18:31] INFO root fetch - processPackages [dls-bxflow-epsic]: Remove: archive file [/home/abi/fetcher/tmp/dls-bxflow-epsic-1.2.0.tar.gz]
+[2023-06-20 13:18:31] INFO root fetch - main [MainThread]: End processing [dls-bxflow-epsic]: success
+[2023-06-20 13:18:31] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post848-py3-none-any.whl.zip]
+[2023-06-20 13:18:31] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post850-py3-none-any.whl.zip]
+[2023-06-20 13:18:31] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-20 13:18:32] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.7.tar.gz]
+[2023-06-20 13:18:32] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.8.tar.gz]
+[2023-06-20 13:18:32] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-06-20 13:18:32] INFO root fetch - main [MainThread]: Store serial: [18573691]
