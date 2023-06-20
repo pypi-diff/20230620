@@ -21208,3 +21208,88 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 13:50:32] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.4.1.tar.gz]
 [2023-06-20 13:50:32] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-20 13:50:32] INFO root fetch - main [MainThread]: Store serial: [18574055]
+[2023-06-20 13:55:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18574055]
+[2023-06-20 13:55:44] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-20 13:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datawise
+[2023-06-20 13:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logfire-python
+[2023-06-20 13:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyttm
+[2023-06-20 13:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mltlk
+[2023-06-20 13:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: symbex
+[2023-06-20 13:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cowhatif
+[2023-06-20 13:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: faceid-core
+[2023-06-20 13:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bimdata-api-client
+[2023-06-20 13:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cowtif
+[2023-06-20 13:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coinsight
+[2023-06-20 13:55:44] INFO root fetch - processPackages [datawise]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-06-20 13:55:44] WARNING root fetch - processPackages [faceid-core]: Skipping, unable to determine old version
+[2023-06-20 13:55:44] INFO root fetch - processPackages [faceid-core]: Start processing: logfire-python
+[2023-06-20 13:55:44] INFO root fetch - main [MainThread]: End processing [faceid-core] error
+[2023-06-20 13:55:44] INFO root fetch - processPackages [logfire-python]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-20 13:55:44] INFO root fetch - processPackages [symbex]: New version: [0.5] Old Version: [0.4]
+[2023-06-20 13:55:44] INFO root fetch - processPackages [pyttm]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-20 13:55:44] WARNING root fetch - processPackages [cowhatif]: Skipping, unable to determine old version
+[2023-06-20 13:55:44] INFO root fetch - processPackages [cowhatif]: Start processing: fastapi-websocket-pubsub
+[2023-06-20 13:55:44] INFO root fetch - main [MainThread]: End processing [cowhatif] error
+[2023-06-20 13:55:44] INFO root fetch - processPackages [logfire-python]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-20 13:55:44] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-20 13:55:44] INFO root fetch - processPackages [bimdata-api-client]: New version: [9.9.0] Old Version: [9.8.1]
+[2023-06-20 13:55:44] INFO root fetch - processPackages [symbex]: Downloading https://files.pythonhosted.org/packages/1b/16/0423207aa81556a67056ccb8410162f57c73e660236f951fa496d332f951/symbex-0.4.tar.gz
+[2023-06-20 13:55:44] WARNING root fetch - processPackages [coinsight]: Skipping, unable to determine old version
+[2023-06-20 13:55:44] INFO root fetch - main [MainThread]: End processing [coinsight] error
+[2023-06-20 13:55:44] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/41/6b/4e30b3d3043ecd4dc33de713cc7005c3d42d2bb5ae46e48a5966591589b9/mltlk-0.1.7.tar.gz
+[2023-06-20 13:55:44] WARNING root fetch - processPackages [cowtif]: Skipping, unable to determine old version
+[2023-06-20 13:55:44] INFO root fetch - main [MainThread]: End processing [cowtif] error
+[2023-06-20 13:55:45] INFO root fetch - processPackages [fastapi-websocket-pubsub]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-20 13:55:45] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/76/05/3aa614469422e9f1b7e461dddd175b55ffcc2558031e89eafe0ed4ea13c5/datawise-0.0.15.tar.gz
+[2023-06-20 13:55:45] INFO root fetch - processPackages [logfire-python]: Downloading https://files.pythonhosted.org/packages/fa/4f/fc37dd24846a939226e8b889bad966a86c787170719734b0c71e3974e974/logfire-python-0.0.3.tar.gz
+[2023-06-20 13:55:45] INFO root fetch - processPackages [logfire-python]: Downloading https://files.pythonhosted.org/packages/fa/4f/fc37dd24846a939226e8b889bad966a86c787170719734b0c71e3974e974/logfire-python-0.0.3.tar.gz
+[2023-06-20 13:55:45] INFO root fetch - processPackages [pyttm]: Downloading https://files.pythonhosted.org/packages/7d/f3/695e9538a63d76ef8c569cbf4f842c7c1881c27cfb066757df0c5fcb3f3d/pyttm-0.0.2.tar.gz
+[2023-06-20 13:55:45] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/a3/43/9f4afc1db775be90fa51d830a740d6aa8de155b1838d1c5480c183ce1c56/mltlk-0.1.8.tar.gz
+[2023-06-20 13:55:45] INFO root fetch - processPackages [bimdata-api-client]: Downloading https://files.pythonhosted.org/packages/2f/7a/025bd38858b44925fac4abf2105445c93da1a5221e526c5a3f6388951530/bimdata-api-client-9.8.1.tar.gz
+[2023-06-20 13:55:45] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-06-20 13:55:45] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230620/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-20 13:55:45] INFO root fetch - processPackages [symbex]: Downloading https://files.pythonhosted.org/packages/ff/31/aede013b8702010b64170aa5ee08a1c7871baead3c0349bae5f8d0af71b1/symbex-0.5.tar.gz
+[2023-06-20 13:55:45] INFO root fetch - processPackages [fastapi-websocket-pubsub]: Downloading https://files.pythonhosted.org/packages/c2/54/b66288abc9df335ec6c7d2751841dbad89b45741677ee1d4940862668bb8/fastapi_websocket_pubsub-0.3.3.tar.gz
+[2023-06-20 13:55:45] INFO root fetch - processPackages [symbex]: executing diffoscope
+[2023-06-20 13:55:45] INFO root fetch - processPackages [symbex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbex-0.4.tar.gz tmp/symbex-0.5.tar.gz --markdown 20230620/s/symbex/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-20 13:55:45] INFO root fetch - processPackages [pyttm]: Downloading https://files.pythonhosted.org/packages/d8/db/89544d957193bca5862b9bc1642010264b5d1925ae45be9c705e54058813/pyttm-0.0.3.tar.gz
+[2023-06-20 13:55:45] INFO root fetch - processPackages [logfire-python]: Downloading https://files.pythonhosted.org/packages/ba/3e/99762aadee16f7bf31e2a2f607b1c479a9b04486cb7df15113db077f1248/logfire-python-0.0.4.tar.gz
+[2023-06-20 13:55:45] INFO root fetch - processPackages [logfire-python]: Downloading https://files.pythonhosted.org/packages/ba/3e/99762aadee16f7bf31e2a2f607b1c479a9b04486cb7df15113db077f1248/logfire-python-0.0.4.tar.gz
+[2023-06-20 13:55:45] INFO root fetch - processPackages [pyttm]: executing diffoscope
+[2023-06-20 13:55:45] INFO root fetch - processPackages [pyttm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyttm-0.0.2.tar.gz tmp/pyttm-0.0.3.tar.gz --markdown 20230620/p/pyttm/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-20 13:55:45] INFO root fetch - processPackages [logfire-python]: executing diffoscope
+[2023-06-20 13:55:45] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/dc/ff/81ef34985b2f809b59a17178326332d21c7ae5954bc7679748656cca4a76/datawise-0.0.16.tar.gz
+[2023-06-20 13:55:45] INFO root fetch - processPackages [logfire-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfire-python-0.0.3.tar.gz tmp/logfire-python-0.0.4.tar.gz --markdown 20230620/l/logfire-python/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-20 13:55:45] INFO root fetch - processPackages [logfire-python]: executing diffoscope
+[2023-06-20 13:55:45] INFO root fetch - processPackages [logfire-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfire-python-0.0.3.tar.gz tmp/logfire-python-0.0.4.tar.gz --markdown 20230620/l/logfire-python/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-20 13:55:45] INFO root fetch - processPackages [datawise]: executing diffoscope
+[2023-06-20 13:55:45] INFO root fetch - processPackages [datawise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawise-0.0.15.tar.gz tmp/datawise-0.0.16.tar.gz --markdown 20230620/d/datawise/0.0.15-0.0.16/diff.md --exclude *.pyd
+[2023-06-20 13:55:45] INFO root fetch - processPackages [bimdata-api-client]: Downloading https://files.pythonhosted.org/packages/04/d6/f16eeffb47cb62e83c3459330ab4b2f40e6502e16df942ccd8185cf05998/bimdata-api-client-9.9.0.tar.gz
+[2023-06-20 13:55:45] INFO root fetch - processPackages [fastapi-websocket-pubsub]: Downloading https://files.pythonhosted.org/packages/58/73/160323f92a29fe1456a5778cd0e1f9fa627d4e28d5a5f5af5b60455d7fe8/fastapi_websocket_pubsub-0.3.4.tar.gz
+[2023-06-20 13:55:45] INFO root fetch - processPackages [bimdata-api-client]: executing diffoscope
+[2023-06-20 13:55:45] INFO root fetch - processPackages [bimdata-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bimdata-api-client-9.8.1.tar.gz tmp/bimdata-api-client-9.9.0.tar.gz --markdown 20230620/b/bimdata-api-client/9.8.1-9.9.0/diff.md --exclude *.pyd
+[2023-06-20 13:55:45] INFO root fetch - processPackages [fastapi-websocket-pubsub]: executing diffoscope
+[2023-06-20 13:55:45] INFO root fetch - processPackages [fastapi-websocket-pubsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_websocket_pubsub-0.3.3.tar.gz tmp/fastapi_websocket_pubsub-0.3.4.tar.gz --markdown 20230620/f/fastapi-websocket-pubsub/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-20 13:55:47] INFO root fetch - processPackages [pyttm]: Remove: archive file [/home/abi/fetcher/tmp/pyttm-0.0.2.tar.gz]
+[2023-06-20 13:55:47] INFO root fetch - processPackages [pyttm]: Remove: archive file [/home/abi/fetcher/tmp/pyttm-0.0.3.tar.gz]
+[2023-06-20 13:55:47] INFO root fetch - main [MainThread]: End processing [pyttm]: success
+[2023-06-20 13:55:47] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.15.tar.gz]
+[2023-06-20 13:55:47] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.16.tar.gz]
+[2023-06-20 13:55:47] INFO root fetch - main [MainThread]: End processing [datawise]: success
+[2023-06-20 13:55:47] INFO root fetch - processPackages [symbex]: Remove: archive file [/home/abi/fetcher/tmp/symbex-0.4.tar.gz]
+[2023-06-20 13:55:47] INFO root fetch - processPackages [symbex]: Remove: archive file [/home/abi/fetcher/tmp/symbex-0.5.tar.gz]
+[2023-06-20 13:55:47] INFO root fetch - main [MainThread]: End processing [symbex]: success
+[2023-06-20 13:55:47] INFO root fetch - processPackages [logfire-python]: Remove: archive file [/home/abi/fetcher/tmp/logfire-python-0.0.3.tar.gz]
+[2023-06-20 13:55:47] INFO root fetch - processPackages [logfire-python]: Remove: archive file [/home/abi/fetcher/tmp/logfire-python-0.0.4.tar.gz]
+[2023-06-20 13:55:47] INFO root fetch - main [MainThread]: End processing [logfire-python]: success
+[2023-06-20 13:55:47] INFO root fetch - main [MainThread]: End processing [logfire-python]: success
+[2023-06-20 13:55:47] INFO root fetch - processPackages [fastapi-websocket-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_websocket_pubsub-0.3.3.tar.gz]
+[2023-06-20 13:55:47] INFO root fetch - processPackages [fastapi-websocket-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_websocket_pubsub-0.3.4.tar.gz]
+[2023-06-20 13:55:47] INFO root fetch - main [MainThread]: End processing [fastapi-websocket-pubsub]: success
+[2023-06-20 13:55:49] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.7.tar.gz]
+[2023-06-20 13:55:49] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.8.tar.gz]
+[2023-06-20 13:55:49] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-06-20 13:55:54] INFO root fetch - processPackages [bimdata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/bimdata-api-client-9.8.1.tar.gz]
+[2023-06-20 13:55:54] INFO root fetch - processPackages [bimdata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/bimdata-api-client-9.9.0.tar.gz]
+[2023-06-20 13:55:54] INFO root fetch - main [MainThread]: End processing [bimdata-api-client]: success
+[2023-06-20 13:55:54] INFO root fetch - main [MainThread]: Store serial: [18574099]
