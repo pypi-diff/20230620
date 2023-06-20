@@ -11155,3 +11155,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 05:49:30] INFO root fetch - processPackages [hatch-project]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project-0.2.0.tar.gz]
 [2023-06-20 05:49:30] INFO root fetch - main [MainThread]: End processing [hatch-project]: success
 [2023-06-20 05:49:30] INFO root fetch - main [MainThread]: Store serial: [18569807]
+[2023-06-20 05:54:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18569807]
+[2023-06-20 05:54:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-20 05:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plotguy
+[2023-06-20 05:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agixt
+[2023-06-20 05:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fusionauth-client
+[2023-06-20 05:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: huza
+[2023-06-20 05:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: d20-securityLayer
+[2023-06-20 05:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Vlttools
+[2023-06-20 05:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MouseTracks-Generate
+[2023-06-20 05:54:39] INFO root fetch - processPackages [huza]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-20 05:54:39] INFO root fetch - processPackages [fusionauth-client]: New version: [1.9.0] Old Version: [1.8.0rc1]
+[2023-06-20 05:54:39] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-06-20 05:54:39] INFO root fetch - processPackages [plotguy]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-20 05:54:39] INFO root fetch - processPackages [MouseTracks-Generate]: New version: [1.1] Old Version: [1.0]
+[2023-06-20 05:54:39] INFO root fetch - processPackages [agixt]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-20 05:54:39] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/b5/7f/086f837981170217116052b05373bbf9ede287aa375d582b42e31e612cf5/d20-securityLayer-2.0.0a8.tar.gz
+[2023-06-20 05:54:39] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/72/f6/05aa84da4a4a92f60509327d99757c9f44d33c306ee6f42fdbbbf0dd5b69/agixt-1.2.8.tar.gz
+[2023-06-20 05:54:39] INFO root fetch - processPackages [Vlttools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-20 05:54:39] INFO root fetch - processPackages [MouseTracks-Generate]: Downloading https://files.pythonhosted.org/packages/84/81/9cd343dd1285dd06cc9298fcbccff718f248d94e9bd6f6e07987f3723bfe/MouseTracks_Generate-1.0.tar.gz
+[2023-06-20 05:54:39] INFO root fetch - processPackages [plotguy]: Downloading https://files.pythonhosted.org/packages/0d/23/b1f9a008b6aa359fbb5e8971320ab4722cc62f64695fca49ea67f937aeaa/plotguy-1.2.3.tar.gz
+[2023-06-20 05:54:39] INFO root fetch - processPackages [huza]: Downloading https://files.pythonhosted.org/packages/4a/dc/e8dedef054a8b1138d0206a6b7324a30f569a3f30add09539aed7012c9a6/huza-0.2.8.tar.gz
+[2023-06-20 05:54:39] INFO root fetch - processPackages [fusionauth-client]: Downloading https://files.pythonhosted.org/packages/d8/84/e46ec5a1e6f80a51ebf2197fe25b9dc085e575efc040b435ba0c492e6511/fusionauth-client-1.8.0rc1.tar.gz
+[2023-06-20 05:54:39] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/56/46/f3ba1d8980a81e7e0579b812ea29d2c68be9c442ea0e7168a51afcd8c79e/d20-securityLayer-2.0.0a9.tar.gz
+[2023-06-20 05:54:39] INFO root fetch - processPackages [Vlttools]: Downloading https://files.pythonhosted.org/packages/c0/68/e1324160ad33a0678f38508f2b14bb205226f35649b66bfca4ab839ecbac/Vlttools-0.1.0.tar.gz
+[2023-06-20 05:54:39] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/ad/3a/7b239b1c21f484f09369851f21976facf1680c29f5c7c2993e0349cb6b1f/agixt-1.2.9.tar.gz
+[2023-06-20 05:54:39] INFO root fetch - processPackages [MouseTracks-Generate]: Downloading https://files.pythonhosted.org/packages/99/93/f2f72c4537e7ff1f89b61cb3fa9a92454bc0158f1d62a3c1d7d462ada7f1/MouseTracks_Generate-1.1.tar.gz
+[2023-06-20 05:54:39] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-06-20 05:54:39] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a8.tar.gz tmp/d20-securityLayer-2.0.0a9.tar.gz --markdown 20230620/d/d20-securityLayer/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-20 05:54:40] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-06-20 05:54:40] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.2.8.tar.gz tmp/agixt-1.2.9.tar.gz --markdown 20230620/a/agixt/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-20 05:54:40] INFO root fetch - processPackages [plotguy]: Downloading https://files.pythonhosted.org/packages/1d/0c/25b44fb9f3d4dab21444f9ff3210bc31a74477885cce7d15f08988350e69/plotguy-1.2.4.tar.gz
+[2023-06-20 05:54:40] INFO root fetch - processPackages [MouseTracks-Generate]: executing diffoscope
+[2023-06-20 05:54:40] INFO root fetch - processPackages [MouseTracks-Generate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MouseTracks_Generate-1.0.tar.gz tmp/MouseTracks_Generate-1.1.tar.gz --markdown 20230620/M/MouseTracks-Generate/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-20 05:54:40] INFO root fetch - processPackages [plotguy]: executing diffoscope
+[2023-06-20 05:54:40] INFO root fetch - processPackages [plotguy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotguy-1.2.3.tar.gz tmp/plotguy-1.2.4.tar.gz --markdown 20230620/p/plotguy/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-20 05:54:40] INFO root fetch - processPackages [huza]: Downloading https://files.pythonhosted.org/packages/97/6f/1f32bc0b4d50df2fe53edb286c1e75702196fe17a4417eb12400da611c09/huza-0.2.9.tar.gz
+[2023-06-20 05:54:40] INFO root fetch - processPackages [Vlttools]: Downloading https://files.pythonhosted.org/packages/aa/f8/4a4075e4cdd0a003dcc3f700c0e7c0edb10a98f4839010187b5918546b23/Vlttools-0.1.1.tar.gz
+[2023-06-20 05:54:40] INFO root fetch - processPackages [fusionauth-client]: Downloading https://files.pythonhosted.org/packages/f4/7e/f5ec80945dc807b6a48ee23f3640cc9e7c7b2341f0d9e88ff39f1ac4d4bd/fusionauth-client-1.9.0.tar.gz
+[2023-06-20 05:54:40] INFO root fetch - processPackages [Vlttools]: executing diffoscope
+[2023-06-20 05:54:40] INFO root fetch - processPackages [Vlttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Vlttools-0.1.0.tar.gz tmp/Vlttools-0.1.1.tar.gz --markdown 20230620/V/Vlttools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-20 05:54:40] INFO root fetch - processPackages [huza]: executing diffoscope
+[2023-06-20 05:54:40] INFO root fetch - processPackages [huza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huza-0.2.8.tar.gz tmp/huza-0.2.9.tar.gz --markdown 20230620/h/huza/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-20 05:54:40] INFO root fetch - processPackages [fusionauth-client]: executing diffoscope
+[2023-06-20 05:54:40] INFO root fetch - processPackages [fusionauth-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusionauth-client-1.8.0rc1.tar.gz tmp/fusionauth-client-1.9.0.tar.gz --markdown 20230620/f/fusionauth-client/1.8.0rc1-1.9.0/diff.md --exclude *.pyd
+[2023-06-20 05:54:41] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a8.tar.gz]
+[2023-06-20 05:54:41] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a9.tar.gz]
+[2023-06-20 05:54:41] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-06-20 05:54:41] INFO root fetch - processPackages [MouseTracks-Generate]: Remove: archive file [/home/abi/fetcher/tmp/MouseTracks_Generate-1.0.tar.gz]
+[2023-06-20 05:54:41] INFO root fetch - processPackages [MouseTracks-Generate]: Remove: archive file [/home/abi/fetcher/tmp/MouseTracks_Generate-1.1.tar.gz]
+[2023-06-20 05:54:41] INFO root fetch - main [MainThread]: End processing [MouseTracks-Generate]: success
+[2023-06-20 05:54:41] INFO root fetch - processPackages [Vlttools]: Remove: archive file [/home/abi/fetcher/tmp/Vlttools-0.1.0.tar.gz]
+[2023-06-20 05:54:41] INFO root fetch - processPackages [Vlttools]: Remove: archive file [/home/abi/fetcher/tmp/Vlttools-0.1.1.tar.gz]
+[2023-06-20 05:54:41] INFO root fetch - main [MainThread]: End processing [Vlttools]: success
+[2023-06-20 05:54:41] INFO root fetch - processPackages [fusionauth-client]: Remove: archive file [/home/abi/fetcher/tmp/fusionauth-client-1.8.0rc1.tar.gz]
+[2023-06-20 05:54:41] INFO root fetch - processPackages [fusionauth-client]: Remove: archive file [/home/abi/fetcher/tmp/fusionauth-client-1.9.0.tar.gz]
+[2023-06-20 05:54:41] INFO root fetch - main [MainThread]: End processing [fusionauth-client]: success
+[2023-06-20 05:54:41] INFO root fetch - processPackages [plotguy]: Remove: archive file [/home/abi/fetcher/tmp/plotguy-1.2.3.tar.gz]
+[2023-06-20 05:54:41] INFO root fetch - processPackages [plotguy]: Remove: archive file [/home/abi/fetcher/tmp/plotguy-1.2.4.tar.gz]
+[2023-06-20 05:54:41] INFO root fetch - main [MainThread]: End processing [plotguy]: success
+[2023-06-20 05:54:41] INFO root fetch - processPackages [huza]: Remove: archive file [/home/abi/fetcher/tmp/huza-0.2.8.tar.gz]
+[2023-06-20 05:54:41] INFO root fetch - processPackages [huza]: Remove: archive file [/home/abi/fetcher/tmp/huza-0.2.9.tar.gz]
+[2023-06-20 05:54:41] INFO root fetch - main [MainThread]: End processing [huza]: success
+[2023-06-20 05:54:45] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.8.tar.gz]
+[2023-06-20 05:54:45] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.9.tar.gz]
+[2023-06-20 05:54:45] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-06-20 05:54:45] INFO root fetch - main [MainThread]: Store serial: [18569831]
