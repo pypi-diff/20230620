@@ -2881,3 +2881,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 03:16:18] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-06-20 03:16:18] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-06-20 03:16:18] INFO root fetch - main [MainThread]: Store serial: [18567078]
+[2023-06-20 03:21:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18567078]
+[2023-06-20 03:21:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-20 03:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odbms
+[2023-06-20 03:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openpulse
+[2023-06-20 03:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-organizations
+[2023-06-20 03:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openi-beta
+[2023-06-20 03:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-subminute
+[2023-06-20 03:21:27] INFO root fetch - processPackages [openpulse]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-06-20 03:21:27] INFO root fetch - processPackages [odbms]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-20 03:21:27] INFO root fetch - processPackages [openi-beta]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-20 03:21:27] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-20 03:21:27] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-20 03:21:27] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-06-20 03:21:27] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/82/9c/fa6172fb82ef4910ec3152d4ab32cf1f22ce25bee27e99153f0001c0e369/openi-beta-0.1.7.tar.gz
+[2023-06-20 03:21:27] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-20 03:21:27] INFO root fetch - processPackages [odbms]: Downloading https://files.pythonhosted.org/packages/e8/a3/257a877d8fd45ec62db83efad0124a233b88006534056deb850f2676f584/odbms-0.2.2.tar.gz
+[2023-06-20 03:21:27] INFO root fetch - processPackages [openpulse]: Downloading https://files.pythonhosted.org/packages/6a/63/6db48eb9a3b43f8cb50bf7a362f98600706984c8ee0f976a8b67de7a5416/openpulse-0.4.2.tar.gz
+[2023-06-20 03:21:27] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-20 03:21:27] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-06-20 03:21:27] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-20 03:21:27] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230620/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-20 03:21:27] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/b9/39/50741c3574e1ba538b3cfe6fea11aeea7f2598eea40b5d8fd65f36a5e983/openi-beta-0.1.8.tar.gz
+[2023-06-20 03:21:27] INFO root fetch - processPackages [openi-beta]: executing diffoscope
+[2023-06-20 03:21:27] INFO root fetch - processPackages [openi-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-beta-0.1.7.tar.gz tmp/openi-beta-0.1.8.tar.gz --markdown 20230620/o/openi-beta/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-20 03:21:27] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-20 03:21:27] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230620/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-20 03:21:27] INFO root fetch - processPackages [odbms]: Downloading https://files.pythonhosted.org/packages/63/e5/39ca89a967a8384dd37b96ff97dcd000f55ce645acc4617617bdba6495e8/odbms-0.2.3.tar.gz
+[2023-06-20 03:21:27] INFO root fetch - processPackages [odbms]: executing diffoscope
+[2023-06-20 03:21:27] INFO root fetch - processPackages [odbms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbms-0.2.2.tar.gz tmp/odbms-0.2.3.tar.gz --markdown 20230620/o/odbms/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-20 03:21:28] INFO root fetch - processPackages [openpulse]: Downloading https://files.pythonhosted.org/packages/1f/03/1cf03d929740c5c83f5791f6cc13d499c5a1f4d3bddc2b448661d12d5fe4/openpulse-0.5.0.tar.gz
+[2023-06-20 03:21:28] INFO root fetch - processPackages [openpulse]: executing diffoscope
+[2023-06-20 03:21:28] INFO root fetch - processPackages [openpulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpulse-0.4.2.tar.gz tmp/openpulse-0.5.0.tar.gz --markdown 20230620/o/openpulse/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-06-20 03:21:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-20 03:21:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-20 03:21:28] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-20 03:21:28] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-0.1.7.tar.gz]
+[2023-06-20 03:21:28] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-0.1.8.tar.gz]
+[2023-06-20 03:21:28] INFO root fetch - main [MainThread]: End processing [openi-beta]: success
+[2023-06-20 03:21:28] INFO root fetch - processPackages [odbms]: Remove: archive file [/home/abi/fetcher/tmp/odbms-0.2.2.tar.gz]
+[2023-06-20 03:21:28] INFO root fetch - processPackages [odbms]: Remove: archive file [/home/abi/fetcher/tmp/odbms-0.2.3.tar.gz]
+[2023-06-20 03:21:28] INFO root fetch - main [MainThread]: End processing [odbms]: success
+[2023-06-20 03:21:29] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-06-20 03:21:29] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-06-20 03:21:29] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-20 03:21:30] INFO root fetch - processPackages [openpulse]: Remove: archive file [/home/abi/fetcher/tmp/openpulse-0.4.2.tar.gz]
+[2023-06-20 03:21:30] INFO root fetch - processPackages [openpulse]: Remove: archive file [/home/abi/fetcher/tmp/openpulse-0.5.0.tar.gz]
+[2023-06-20 03:21:30] INFO root fetch - main [MainThread]: End processing [openpulse]: success
+[2023-06-20 03:21:30] INFO root fetch - main [MainThread]: Store serial: [18567094]
