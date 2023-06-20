@@ -501,7 +501,7 @@
           
 -          45           2 BUILD_SET                0
 +          46           2 BUILD_SET                0
-                        4 LOAD_CONST               1 (frozenset({'processName', 'threadName', 'exc_text', 'thread', 'pathname', 'exc_info', 'process', 'module', 'msg', 'lineno', 'funcName', 'name', 'msecs', 'levelno', 'message', 'created', 'relativeCreated', 'asctime', 'levelname', 'args'}))
+                        4 LOAD_CONST               1 (frozenset({'lineno', 'relativeCreated', 'exc_text', 'pathname', 'created', 'processName', 'module', 'asctime', 'exc_info', 'levelno', 'process', 'levelname', 'thread', 'funcName', 'msecs', 'name', 'msg', 'args', 'threadName', 'message'}))
                         6 SET_UPDATE               1
                         8 STORE_FAST               2 (default_keys)
           
@@ -625,7 +625,7 @@
 +                     282 RETURN_VALUE
           consts
              None
-             frozenset({'processName', 'threadName', 'exc_text', 'thread', 'pathname', 'exc_info', 'process', 'module', 'msg', 'lineno', 'funcName', 'name', 'msecs', 'levelno', 'message', 'created', 'relativeCreated', 'asctime', 'levelname', 'args'})
+             frozenset({'lineno', 'relativeCreated', 'exc_text', 'pathname', 'created', 'processName', 'module', 'asctime', 'exc_info', 'levelno', 'process', 'levelname', 'thread', 'funcName', 'msecs', 'name', 'msg', 'args', 'threadName', 'message'})
              'filename'
              'stack_info'
              'extra'
