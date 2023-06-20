@@ -13495,3 +13495,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 08:55:55] INFO root fetch - processPackages [windpyutils]: Remove: archive file [/home/abi/fetcher/tmp/windpyutils-2.0.9.tar.gz]
 [2023-06-20 08:55:55] INFO root fetch - main [MainThread]: End processing [windpyutils]: success
 [2023-06-20 08:55:55] INFO root fetch - main [MainThread]: Store serial: [18570795]
+[2023-06-20 09:01:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570795]
+[2023-06-20 09:01:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-20 09:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrappeycom
+[2023-06-20 09:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecoscope
+[2023-06-20 09:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tcompress
+[2023-06-20 09:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: longbridge
+[2023-06-20 09:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: domain-admin
+[2023-06-20 09:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: baekjoonapi
+[2023-06-20 09:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyai
+[2023-06-20 09:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oxalis
+[2023-06-20 09:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unibox
+[2023-06-20 09:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: latch
+[2023-06-20 09:01:05] INFO root fetch - processPackages [tcompress]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-20 09:01:05] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-06-20 09:01:05] INFO root fetch - processPackages [domain-admin]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-20 09:01:05] INFO root fetch - processPackages [unibox]: New version: [0.1.0.1] Old Version: [0.1.0]
+[2023-06-20 09:01:05] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-06-20 09:01:05] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/81/81/bf2fcdc6508b07e04b85808415455738640bbf3b2b4ed064328b94add2d6/domain-admin-1.4.1.tar.gz
+[2023-06-20 09:01:05] INFO root fetch - processPackages [tcompress]: Downloading https://files.pythonhosted.org/packages/81/4b/1dbf6a3b84371d929bae8b7e37b0139ce34e568f338a848d87ebd1332466/tcompress-0.0.3.tar.gz
+[2023-06-20 09:01:05] INFO root fetch - processPackages [baekjoonapi]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-06-20 09:01:05] INFO root fetch - processPackages [scrappeycom]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-20 09:01:05] INFO root fetch - processPackages [ecoscope]: New version: [1.3.2] Old Version: [1.3.0]
+[2023-06-20 09:01:05] INFO root fetch - processPackages [unibox]: Downloading https://files.pythonhosted.org/packages/70/d7/573918c9ac98791757ed6c544d5f27d08b80693757936d9322f280d6f99e/unibox-0.1.0.tar.gz
+[2023-06-20 09:01:05] INFO root fetch - processPackages [oxalis]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-20 09:01:05] INFO root fetch - processPackages [assemblyai]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-20 09:01:06] INFO root fetch - processPackages [longbridge]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-20 09:01:06] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-06-20 09:01:06] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-06-20 09:01:06] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230620/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-06-20 09:01:06] INFO root fetch - processPackages [unibox]: Downloading https://files.pythonhosted.org/packages/9e/d1/654d696ac0400508b9b0af6e528d455cdd7b42ea1b65f48e060b9df4f3ac/unibox-0.1.0.1.tar.gz
+[2023-06-20 09:01:06] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/26/da/e6435f031c0f2cc7c8d992a2354b142938e42f389a3cdf31563a2319ad90/domain-admin-1.4.2.tar.gz
+[2023-06-20 09:01:06] INFO root fetch - processPackages [scrappeycom]: Downloading https://files.pythonhosted.org/packages/5a/3f/f0bf8cd5d2faf2585c24c892a74e9fa38f79e43088c9a12c9568bdfe4bc5/scrappeycom-0.3.1.tar.gz
+[2023-06-20 09:01:06] INFO root fetch - processPackages [tcompress]: Downloading https://files.pythonhosted.org/packages/aa/0f/5f04b08da36c19b2875fabc01e16bd7eb8ce69e41d8cf7c5a6c07ffe7871/tcompress-0.0.4.tar.gz
+[2023-06-20 09:01:06] INFO root fetch - processPackages [baekjoonapi]: Downloading https://files.pythonhosted.org/packages/b6/b3/bdc8d9e001bad1e3a71c2f7da8d03915748938987afa2dd8152ce24ab1e8/baekjoonapi-0.2.2.tar.gz
+[2023-06-20 09:01:06] INFO root fetch - processPackages [ecoscope]: Downloading https://files.pythonhosted.org/packages/9a/07/4d2fd1553a387eb23990d969e85365cc7df9aa2114113a9a1dd59f0c70af/ecoscope-1.3.0.tar.gz
+[2023-06-20 09:01:06] INFO root fetch - processPackages [oxalis]: Downloading https://files.pythonhosted.org/packages/28/77/aabcadeab3b3e45f8144947867046ea36a22b1a9c33c371d49cc035bbc33/oxalis-0.6.3.tar.gz
+[2023-06-20 09:01:06] INFO root fetch - processPackages [unibox]: executing diffoscope
+[2023-06-20 09:01:06] INFO root fetch - processPackages [unibox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unibox-0.1.0.tar.gz tmp/unibox-0.1.0.1.tar.gz --markdown 20230620/u/unibox/0.1.0-0.1.0.1/diff.md --exclude *.pyd
+[2023-06-20 09:01:06] INFO root fetch - processPackages [assemblyai]: Downloading https://files.pythonhosted.org/packages/7b/55/a6d0f59e51e905a5e5417e92ec8ae21b89ea6d6499807b180f4011ceadbc/assemblyai-0.8.1.tar.gz
+[2023-06-20 09:01:06] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-06-20 09:01:06] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.1.tar.gz tmp/domain-admin-1.4.2.tar.gz --markdown 20230620/d/domain-admin/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-20 09:01:06] INFO root fetch - processPackages [longbridge]: Downloading https://files.pythonhosted.org/packages/d1/a4/ddaf2c4051c174e664afcac3c6960fe3c243ee5221bbb2b7cf034444d64f/longbridge-0.2.8.tar.gz
+[2023-06-20 09:01:06] INFO root fetch - processPackages [tcompress]: executing diffoscope
+[2023-06-20 09:01:06] INFO root fetch - processPackages [tcompress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcompress-0.0.3.tar.gz tmp/tcompress-0.0.4.tar.gz --markdown 20230620/t/tcompress/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-20 09:01:06] INFO root fetch - processPackages [scrappeycom]: Downloading https://files.pythonhosted.org/packages/47/5d/9cfd748fe9e116ce89f682432971e52dc8ff8cfe144067a88fb42bffc934/scrappeycom-0.3.2.tar.gz
+[2023-06-20 09:01:06] INFO root fetch - processPackages [baekjoonapi]: Downloading https://files.pythonhosted.org/packages/50/b7/ec1044c0b1eb48c01b9e954fc5d55c06a49c18fcc4705024b9862702dfde/baekjoonapi-0.2.4.tar.gz
+[2023-06-20 09:01:06] INFO root fetch - processPackages [oxalis]: Downloading https://files.pythonhosted.org/packages/80/9a/7483837acfb766a60be04fee50be0ecdef4a0caf5a4734007eecb74ecc10/oxalis-0.6.4.tar.gz
+[2023-06-20 09:01:06] INFO root fetch - processPackages [ecoscope]: Downloading https://files.pythonhosted.org/packages/30/63/82f9ed43f8278d208b4423d13bcd7d12b56e61dce916ed95fcf74c71955d/ecoscope-1.3.2.tar.gz
+[2023-06-20 09:01:06] INFO root fetch - processPackages [scrappeycom]: executing diffoscope
+[2023-06-20 09:01:06] INFO root fetch - processPackages [scrappeycom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrappeycom-0.3.1.tar.gz tmp/scrappeycom-0.3.2.tar.gz --markdown 20230620/s/scrappeycom/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-20 09:01:06] INFO root fetch - processPackages [baekjoonapi]: executing diffoscope
+[2023-06-20 09:01:06] INFO root fetch - processPackages [baekjoonapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baekjoonapi-0.2.2.tar.gz tmp/baekjoonapi-0.2.4.tar.gz --markdown 20230620/b/baekjoonapi/0.2.2-0.2.4/diff.md --exclude *.pyd
+[2023-06-20 09:01:06] INFO root fetch - processPackages [assemblyai]: Downloading https://files.pythonhosted.org/packages/c6/f0/4abff3cb2af3f5a220945783c4d77b44f567affffb79dd2d316988c45f0b/assemblyai-0.9.0.tar.gz
+[2023-06-20 09:01:06] INFO root fetch - processPackages [oxalis]: executing diffoscope
+[2023-06-20 09:01:06] INFO root fetch - processPackages [oxalis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxalis-0.6.3.tar.gz tmp/oxalis-0.6.4.tar.gz --markdown 20230620/o/oxalis/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-20 09:01:06] INFO root fetch - processPackages [ecoscope]: executing diffoscope
+[2023-06-20 09:01:06] INFO root fetch - processPackages [ecoscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoscope-1.3.0.tar.gz tmp/ecoscope-1.3.2.tar.gz --markdown 20230620/e/ecoscope/1.3.0-1.3.2/diff.md --exclude *.pyd
+[2023-06-20 09:01:06] INFO root fetch - processPackages [assemblyai]: executing diffoscope
+[2023-06-20 09:01:06] INFO root fetch - processPackages [assemblyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyai-0.8.1.tar.gz tmp/assemblyai-0.9.0.tar.gz --markdown 20230620/a/assemblyai/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-20 09:01:07] INFO root fetch - processPackages [longbridge]: Downloading https://files.pythonhosted.org/packages/24/92/5ff3d6963889e844b0de3a7c2b3b92073bb9ecaf124bec5d587b033424e0/longbridge-0.2.9.tar.gz
+[2023-06-20 09:01:07] INFO root fetch - processPackages [longbridge]: executing diffoscope
+[2023-06-20 09:01:07] INFO root fetch - processPackages [longbridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longbridge-0.2.8.tar.gz tmp/longbridge-0.2.9.tar.gz --markdown 20230620/l/longbridge/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-20 09:01:07] INFO root fetch - processPackages [unibox]: Remove: archive file [/home/abi/fetcher/tmp/unibox-0.1.0.tar.gz]
+[2023-06-20 09:01:07] INFO root fetch - processPackages [unibox]: Remove: archive file [/home/abi/fetcher/tmp/unibox-0.1.0.1.tar.gz]
+[2023-06-20 09:01:07] INFO root fetch - main [MainThread]: End processing [unibox]: success
+[2023-06-20 09:01:08] INFO root fetch - processPackages [tcompress]: Remove: archive file [/home/abi/fetcher/tmp/tcompress-0.0.3.tar.gz]
+[2023-06-20 09:01:08] INFO root fetch - processPackages [tcompress]: Remove: archive file [/home/abi/fetcher/tmp/tcompress-0.0.4.tar.gz]
+[2023-06-20 09:01:08] INFO root fetch - main [MainThread]: End processing [tcompress]: success
+[2023-06-20 09:01:08] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2023-06-20 09:01:08] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2023-06-20 09:01:08] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-06-20 09:01:08] INFO root fetch - processPackages [baekjoonapi]: Remove: archive file [/home/abi/fetcher/tmp/baekjoonapi-0.2.2.tar.gz]
+[2023-06-20 09:01:08] INFO root fetch - processPackages [baekjoonapi]: Remove: archive file [/home/abi/fetcher/tmp/baekjoonapi-0.2.4.tar.gz]
+[2023-06-20 09:01:08] INFO root fetch - main [MainThread]: End processing [baekjoonapi]: success
+[2023-06-20 09:01:08] INFO root fetch - processPackages [scrappeycom]: Remove: archive file [/home/abi/fetcher/tmp/scrappeycom-0.3.1.tar.gz]
+[2023-06-20 09:01:08] INFO root fetch - processPackages [scrappeycom]: Remove: archive file [/home/abi/fetcher/tmp/scrappeycom-0.3.2.tar.gz]
+[2023-06-20 09:01:08] INFO root fetch - main [MainThread]: End processing [scrappeycom]: success
+[2023-06-20 09:01:08] INFO root fetch - processPackages [ecoscope]: Remove: archive file [/home/abi/fetcher/tmp/ecoscope-1.3.0.tar.gz]
+[2023-06-20 09:01:08] INFO root fetch - processPackages [ecoscope]: Remove: archive file [/home/abi/fetcher/tmp/ecoscope-1.3.2.tar.gz]
+[2023-06-20 09:01:08] INFO root fetch - main [MainThread]: End processing [ecoscope]: success
+[2023-06-20 09:01:08] INFO root fetch - processPackages [assemblyai]: Remove: archive file [/home/abi/fetcher/tmp/assemblyai-0.8.1.tar.gz]
+[2023-06-20 09:01:08] INFO root fetch - processPackages [assemblyai]: Remove: archive file [/home/abi/fetcher/tmp/assemblyai-0.9.0.tar.gz]
+[2023-06-20 09:01:08] INFO root fetch - main [MainThread]: End processing [assemblyai]: success
+[2023-06-20 09:01:08] INFO root fetch - processPackages [oxalis]: Remove: archive file [/home/abi/fetcher/tmp/oxalis-0.6.3.tar.gz]
+[2023-06-20 09:01:08] INFO root fetch - processPackages [oxalis]: Remove: archive file [/home/abi/fetcher/tmp/oxalis-0.6.4.tar.gz]
+[2023-06-20 09:01:08] INFO root fetch - main [MainThread]: End processing [oxalis]: success
+[2023-06-20 09:01:08] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.1.tar.gz]
+[2023-06-20 09:01:08] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.2.tar.gz]
+[2023-06-20 09:01:08] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-06-20 09:01:11] INFO root fetch - processPackages [longbridge]: Remove: archive file [/home/abi/fetcher/tmp/longbridge-0.2.8.tar.gz]
+[2023-06-20 09:01:11] INFO root fetch - processPackages [longbridge]: Remove: archive file [/home/abi/fetcher/tmp/longbridge-0.2.9.tar.gz]
+[2023-06-20 09:01:11] INFO root fetch - main [MainThread]: End processing [longbridge]: success
+[2023-06-20 09:01:11] INFO root fetch - main [MainThread]: Store serial: [18570852]
