@@ -11311,3 +11311,65 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 06:06:07] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
 [2023-06-20 06:06:07] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
 [2023-06-20 06:06:07] INFO root fetch - main [MainThread]: Store serial: [18569860]
+[2023-06-20 06:11:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18569860]
+[2023-06-20 06:11:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-20 06:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BYOD
+[2023-06-20 06:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyiapws
+[2023-06-20 06:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: circlecigen
+[2023-06-20 06:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foursight-core
+[2023-06-20 06:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foursight-cgap
+[2023-06-20 06:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: text2text
+[2023-06-20 06:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: foursight
+[2023-06-20 06:11:16] INFO root fetch - processPackages [BYOD]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-20 06:11:16] INFO root fetch - processPackages [pyiapws]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-20 06:11:16] INFO root fetch - processPackages [circlecigen]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-20 06:11:16] INFO root fetch - processPackages [text2text]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-20 06:11:16] INFO root fetch - processPackages [foursight]: New version: [3.5.0.1b7] Old Version: [3.5.0.1b6]
+[2023-06-20 06:11:16] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.1b9] Old Version: [4.3.0.1b8]
+[2023-06-20 06:11:16] INFO root fetch - processPackages [foursight-cgap]: New version: [3.5.0.1b9] Old Version: [3.5.0.1b8]
+[2023-06-20 06:11:16] INFO root fetch - processPackages [circlecigen]: Downloading https://files.pythonhosted.org/packages/6a/26/53987704839a49ab26769c0bf80d50ae782709f211de38d51223e333e3d1/circlecigen-0.0.4.tar.gz
+[2023-06-20 06:11:16] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/47/72/7f0ad5e76055c5ddb3931f55e51e6cb729896cb1d115200933d5969d9963/foursight-3.5.0.1b6.tar.gz
+[2023-06-20 06:11:16] INFO root fetch - processPackages [BYOD]: Downloading https://files.pythonhosted.org/packages/34/d6/ad0ac085e2de21e90c6c8186d71e6b6038753936ea8efd811612c85cec36/BYOD-0.1.0.tar.gz
+[2023-06-20 06:11:16] INFO root fetch - processPackages [pyiapws]: Downloading https://files.pythonhosted.org/packages/fe/7f/a86d5ddd56dbb424fc1339fe2b879dcabc1e10e9c42d4a6f6dd3a92cf88c/pyiapws-0.1.1.tar.gz
+[2023-06-20 06:11:16] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/86/a8/8fd72e80ebcaff6cddd875d6265c69cff4b2a232f164ebf7027c51296a4f/text2text-1.0.6.tar.gz
+[2023-06-20 06:11:16] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/4a/a2/e052d0ab361407e02717773dddb0001ad56466be700eceb31d48c8455e3e/foursight_cgap-3.5.0.1b8.tar.gz
+[2023-06-20 06:11:16] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/7f/c9/20938fceaf2a89d382499eb837317924bad591606fe2a2b9530b7d1a080f/foursight_core-4.3.0.1b8.tar.gz
+[2023-06-20 06:11:16] WARNING root fetch - processPackages [pyiapws]: Skipping package: exceeds size limit 30488669>=10485760
+[2023-06-20 06:11:16] INFO root fetch - main [MainThread]: End processing [pyiapws] error
+[2023-06-20 06:11:16] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/e3/da/681fe2629ec015ccf83f710f4559e0e91009d261b6e080df122b48329768/foursight-3.5.0.1b7.tar.gz
+[2023-06-20 06:11:16] INFO root fetch - processPackages [circlecigen]: Downloading https://files.pythonhosted.org/packages/33/bb/7d590666b2d71baa9a6ab61024d9fcdb6ccd87821c32e8e007bb25f04efa/circlecigen-0.0.5.tar.gz
+[2023-06-20 06:11:16] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-06-20 06:11:16] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.5.0.1b6.tar.gz tmp/foursight-3.5.0.1b7.tar.gz --markdown 20230620/f/foursight/3.5.0.1b6-3.5.0.1b7/diff.md --exclude *.pyd
+[2023-06-20 06:11:16] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/e3/c0/4236ad87b002a37283fc611af27aa6a1edeefb1511208f899f6c1b087494/text2text-1.0.7.tar.gz
+[2023-06-20 06:11:17] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/6f/60/5e8c0240b92c1fb3c4b66b150c13ce65622fc18b4ec19714df5a8e764fb1/foursight_cgap-3.5.0.1b9.tar.gz
+[2023-06-20 06:11:17] INFO root fetch - processPackages [BYOD]: Downloading https://files.pythonhosted.org/packages/80/8c/297ab04452cb02aff3f76ffaa7c45d28c308b385b8627be9980c3365eedd/BYOD-0.2.0.tar.gz
+[2023-06-20 06:11:17] INFO root fetch - processPackages [circlecigen]: executing diffoscope
+[2023-06-20 06:11:17] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/35/ec/238f36ca7035bc965d1716f96c1e2caafc6d31b3ab9a2475f36b2bffa6f3/foursight_core-4.3.0.1b9.tar.gz
+[2023-06-20 06:11:17] INFO root fetch - processPackages [circlecigen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circlecigen-0.0.4.tar.gz tmp/circlecigen-0.0.5.tar.gz --markdown 20230620/c/circlecigen/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-20 06:11:17] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-06-20 06:11:17] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.0.6.tar.gz tmp/text2text-1.0.7.tar.gz --markdown 20230620/t/text2text/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-20 06:11:17] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-06-20 06:11:17] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.5.0.1b8.tar.gz tmp/foursight_cgap-3.5.0.1b9.tar.gz --markdown 20230620/f/foursight-cgap/3.5.0.1b8-3.5.0.1b9/diff.md --exclude *.pyd
+[2023-06-20 06:11:17] INFO root fetch - processPackages [BYOD]: executing diffoscope
+[2023-06-20 06:11:17] INFO root fetch - processPackages [BYOD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BYOD-0.1.0.tar.gz tmp/BYOD-0.2.0.tar.gz --markdown 20230620/B/BYOD/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-20 06:11:17] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-06-20 06:11:17] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.1b8.tar.gz tmp/foursight_core-4.3.0.1b9.tar.gz --markdown 20230620/f/foursight-core/4.3.0.1b8-4.3.0.1b9/diff.md --exclude *.pyd
+[2023-06-20 06:11:18] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b6.tar.gz]
+[2023-06-20 06:11:18] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b7.tar.gz]
+[2023-06-20 06:11:18] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-06-20 06:11:18] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b8.tar.gz]
+[2023-06-20 06:11:18] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b9.tar.gz]
+[2023-06-20 06:11:18] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-06-20 06:11:18] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.0.6.tar.gz]
+[2023-06-20 06:11:18] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.0.7.tar.gz]
+[2023-06-20 06:11:18] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-06-20 06:11:20] INFO root fetch - processPackages [BYOD]: Remove: archive file [/home/abi/fetcher/tmp/BYOD-0.1.0.tar.gz]
+[2023-06-20 06:11:20] INFO root fetch - processPackages [BYOD]: Remove: archive file [/home/abi/fetcher/tmp/BYOD-0.2.0.tar.gz]
+[2023-06-20 06:11:20] INFO root fetch - main [MainThread]: End processing [BYOD]: success
+[2023-06-20 06:11:20] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b8.tar.gz]
+[2023-06-20 06:11:20] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b9.tar.gz]
+[2023-06-20 06:11:20] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-06-20 06:12:12] INFO root fetch - processPackages [circlecigen]: Remove: archive file [/home/abi/fetcher/tmp/circlecigen-0.0.4.tar.gz]
+[2023-06-20 06:12:12] INFO root fetch - processPackages [circlecigen]: Remove: archive file [/home/abi/fetcher/tmp/circlecigen-0.0.5.tar.gz]
+[2023-06-20 06:12:12] INFO root fetch - main [MainThread]: End processing [circlecigen]: success
+[2023-06-20 06:12:12] INFO root fetch - main [MainThread]: Store serial: [18569885]
