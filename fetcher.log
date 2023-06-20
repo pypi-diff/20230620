@@ -15154,3 +15154,107 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 10:05:41] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-1.2.0.tar.gz]
 [2023-06-20 10:05:41] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
 [2023-06-20 10:05:41] INFO root fetch - main [MainThread]: Store serial: [18571582]
+[2023-06-20 10:10:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18571582]
+[2023-06-20 10:10:51] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-20 10:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DXR
+[2023-06-20 10:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abc-analysis
+[2023-06-20 10:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quartical
+[2023-06-20 10:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyglove
+[2023-06-20 10:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ftw.solr
+[2023-06-20 10:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pdh
+[2023-06-20 10:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: merlin-sdk
+[2023-06-20 10:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: paddle-pipelines
+[2023-06-20 10:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reytool
+[2023-06-20 10:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rabbitmq-spider
+[2023-06-20 10:10:51] INFO root fetch - processPackages [DXR]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-20 10:10:51] INFO root fetch - processPackages [abc-analysis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 10:10:51] INFO root fetch - processPackages [quartical]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-20 10:10:51] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2023-06-20 10:10:51] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230620] Old Version: [0.3.1.dev20230619]
+[2023-06-20 10:10:51] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-06-20 10:10:51] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/99/7c/8266ef0a968f48cb56d27ab7a980e91c27471737070b00fbe8a2f004f95e/pyglove-0.3.1.dev20230619.tar.gz
+[2023-06-20 10:10:51] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-06-20 10:10:51] INFO root fetch - processPackages [pdh]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-20 10:10:51] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2023-06-20 10:10:51] INFO root fetch - processPackages [paddle-pipelines]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-20 10:10:51] INFO root fetch - processPackages [ftw.solr]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-06-20 10:10:51] WARNING root fetch - processPackages [rabbitmq-spider]: Skipping, unable to determine old version
+[2023-06-20 10:10:51] INFO root fetch - processPackages [rabbitmq-spider]: Start processing: qulacsvis
+[2023-06-20 10:10:51] INFO root fetch - main [MainThread]: End processing [rabbitmq-spider] error
+[2023-06-20 10:10:51] INFO root fetch - processPackages [abc-analysis]: Downloading https://files.pythonhosted.org/packages/5c/24/a32119295286a02244dcc2185b89a31d091d3abaf1dd30e2e6967476d7a7/abc_analysis-0.1.8.tar.gz
+[2023-06-20 10:10:51] INFO root fetch - processPackages [quartical]: Downloading https://files.pythonhosted.org/packages/f6/64/f2520c92e7dc23970b9ce1dfcb88e04f8850e0f73fc8130cac33a15fbc0a/quartical-0.1.9.tar.gz
+[2023-06-20 10:10:51] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/02/81/93bbbf84a2a89dbf29a97c92a5f4b2bb967a2217c0c73f2756ba857c822d/DXR-1.9.1.tar.gz
+[2023-06-20 10:10:51] INFO root fetch - processPackages [qulacsvis]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-20 10:10:51] INFO root fetch - processPackages [pdh]: Downloading https://files.pythonhosted.org/packages/77/da/d5d322cdb77937a81a5e6c57a9e119ee7c0a2cec7587b7aeaf301bbbcf65/pdh-0.3.8.tar.gz
+[2023-06-20 10:10:52] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2023-06-20 10:10:52] INFO root fetch - processPackages [paddle-pipelines]: Downloading https://files.pythonhosted.org/packages/7f/16/eab213a16457bca5690dcaae664106379741ac8c0e112370c5226f8bbed7/paddle-pipelines-0.5.2.tar.gz
+[2023-06-20 10:10:52] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/b1/48/4546e483896f1a24340c03eab3a82e86c595849c777d87fe97fe3dc63c43/pyglove-0.3.1.dev20230620.tar.gz
+[2023-06-20 10:10:52] WARNING root fetch - processPackages [DXR]: Skipping package: exceeds size limit 10502188>=10485760
+[2023-06-20 10:10:52] INFO root fetch - processPackages [DXR]: Start processing: gameyamlspiderandgenerator
+[2023-06-20 10:10:52] INFO root fetch - main [MainThread]: End processing [DXR] error
+[2023-06-20 10:10:52] INFO root fetch - processPackages [ftw.solr]: Downloading https://files.pythonhosted.org/packages/84/44/761a0a90d2bff3437f9eca051ad09844fb4e711b9c55b60a43e6544f3d20/ftw.solr-2.9.4.tar.gz
+[2023-06-20 10:10:52] INFO root fetch - processPackages [gameyamlspiderandgenerator]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-06-20 10:10:52] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2023-06-20 10:10:52] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20230620/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2023-06-20 10:10:52] INFO root fetch - processPackages [qulacsvis]: Downloading https://files.pythonhosted.org/packages/81/77/e203de8d2a1b595d2d5e134f66ccc73ed1049fe8f3a96be33f2a16dc7a30/qulacsvis-0.7.1.tar.gz
+[2023-06-20 10:10:52] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-20 10:10:52] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230619.tar.gz tmp/pyglove-0.3.1.dev20230620.tar.gz --markdown 20230620/p/pyglove/0.3.1.dev20230619-0.3.1.dev20230620/diff.md --exclude *.pyd
+[2023-06-20 10:10:52] INFO root fetch - processPackages [pdh]: Downloading https://files.pythonhosted.org/packages/07/57/186b6555aefed78ca93f2e9f74cd13292562c79c9ed0e66c2f4185a3f4f3/pdh-0.3.9.tar.gz
+[2023-06-20 10:10:52] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-06-20 10:10:52] INFO root fetch - processPackages [quartical]: Downloading https://files.pythonhosted.org/packages/2c/24/8d0e09c10e9bc76ab93e03ae4c5b64a5f04c1414d0c81777dd2b68854fca/quartical-0.2.0.tar.gz
+[2023-06-20 10:10:52] INFO root fetch - processPackages [abc-analysis]: Downloading https://files.pythonhosted.org/packages/5c/87/8a7ae9c81ba83b82d9ce315e70502639c8ee6cfe102ebd06dcedee0a4df6/abc_analysis-0.1.9.tar.gz
+[2023-06-20 10:10:52] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/5e/e1/379df67def54cb5103b7ce20440df843180287c9a5ff07764c87e154f5f6/gameyamlspiderandgenerator-1.6.0.tar.gz
+[2023-06-20 10:10:52] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-06-20 10:10:52] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230620/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-06-20 10:10:52] INFO root fetch - processPackages [quartical]: executing diffoscope
+[2023-06-20 10:10:52] INFO root fetch - processPackages [quartical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quartical-0.1.9.tar.gz tmp/quartical-0.2.0.tar.gz --markdown 20230620/q/quartical/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-20 10:10:52] INFO root fetch - processPackages [qulacsvis]: Downloading https://files.pythonhosted.org/packages/63/39/d003e52729089d5e668e27f258458ef55b796701aca9e5139e6356b52afd/qulacsvis-0.7.2.tar.gz
+[2023-06-20 10:10:52] INFO root fetch - processPackages [pdh]: executing diffoscope
+[2023-06-20 10:10:52] INFO root fetch - processPackages [pdh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdh-0.3.8.tar.gz tmp/pdh-0.3.9.tar.gz --markdown 20230620/p/pdh/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-20 10:10:52] INFO root fetch - processPackages [paddle-pipelines]: Downloading https://files.pythonhosted.org/packages/cf/e8/eaf4452d2e209815ee11ab8cee2cf81c7a1c4c4bb46cddffb86195e604df/paddle-pipelines-0.5.3.tar.gz
+[2023-06-20 10:10:52] INFO root fetch - processPackages [abc-analysis]: executing diffoscope
+[2023-06-20 10:10:52] INFO root fetch - processPackages [abc-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abc_analysis-0.1.8.tar.gz tmp/abc_analysis-0.1.9.tar.gz --markdown 20230620/a/abc-analysis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 10:10:52] INFO root fetch - processPackages [ftw.solr]: Downloading https://files.pythonhosted.org/packages/97/ef/8a450bdd9798a50c30edfe08290e6c56c208083fc1294bf91984bc667136/ftw.solr-2.9.5.tar.gz
+[2023-06-20 10:10:52] INFO root fetch - processPackages [qulacsvis]: executing diffoscope
+[2023-06-20 10:10:52] INFO root fetch - processPackages [qulacsvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qulacsvis-0.7.1.tar.gz tmp/qulacsvis-0.7.2.tar.gz --markdown 20230620/q/qulacsvis/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-20 10:10:52] INFO root fetch - processPackages [paddle-pipelines]: executing diffoscope
+[2023-06-20 10:10:52] INFO root fetch - processPackages [paddle-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddle-pipelines-0.5.2.tar.gz tmp/paddle-pipelines-0.5.3.tar.gz --markdown 20230620/p/paddle-pipelines/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-20 10:10:52] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/99/d4/ed4caa0ed8071aeb4e56615e0cb2947767b68198fd9ff67e079f37feb90e/gameyamlspiderandgenerator-1.6.1.tar.gz
+[2023-06-20 10:10:52] INFO root fetch - processPackages [ftw.solr]: executing diffoscope
+[2023-06-20 10:10:52] INFO root fetch - processPackages [ftw.solr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftw.solr-2.9.4.tar.gz tmp/ftw.solr-2.9.5.tar.gz --markdown 20230620/f/ftw.solr/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-06-20 10:10:52] INFO root fetch - processPackages [gameyamlspiderandgenerator]: executing diffoscope
+[2023-06-20 10:10:52] INFO root fetch - processPackages [gameyamlspiderandgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameyamlspiderandgenerator-1.6.0.tar.gz tmp/gameyamlspiderandgenerator-1.6.1.tar.gz --markdown 20230620/g/gameyamlspiderandgenerator/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-06-20 10:10:53] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-06-20 10:10:53] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-06-20 10:10:53] INFO root fetch - processPackages [reytool]: Start processing: sourceshot
+[2023-06-20 10:10:53] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-06-20 10:10:53] WARNING root fetch - processPackages [sourceshot]: Skipping, unable to determine old version
+[2023-06-20 10:10:53] INFO root fetch - main [MainThread]: End processing [sourceshot] error
+[2023-06-20 10:10:53] INFO root fetch - processPackages [abc-analysis]: Remove: archive file [/home/abi/fetcher/tmp/abc_analysis-0.1.8.tar.gz]
+[2023-06-20 10:10:53] INFO root fetch - processPackages [abc-analysis]: Remove: archive file [/home/abi/fetcher/tmp/abc_analysis-0.1.9.tar.gz]
+[2023-06-20 10:10:53] INFO root fetch - main [MainThread]: End processing [abc-analysis]: success
+[2023-06-20 10:10:54] INFO root fetch - processPackages [pdh]: Remove: archive file [/home/abi/fetcher/tmp/pdh-0.3.8.tar.gz]
+[2023-06-20 10:10:54] INFO root fetch - processPackages [pdh]: Remove: archive file [/home/abi/fetcher/tmp/pdh-0.3.9.tar.gz]
+[2023-06-20 10:10:54] INFO root fetch - main [MainThread]: End processing [pdh]: success
+[2023-06-20 10:10:54] INFO root fetch - processPackages [qulacsvis]: Remove: archive file [/home/abi/fetcher/tmp/qulacsvis-0.7.1.tar.gz]
+[2023-06-20 10:10:54] INFO root fetch - processPackages [qulacsvis]: Remove: archive file [/home/abi/fetcher/tmp/qulacsvis-0.7.2.tar.gz]
+[2023-06-20 10:10:54] INFO root fetch - main [MainThread]: End processing [qulacsvis]: success
+[2023-06-20 10:10:54] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Remove: archive file [/home/abi/fetcher/tmp/gameyamlspiderandgenerator-1.6.0.tar.gz]
+[2023-06-20 10:10:54] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Remove: archive file [/home/abi/fetcher/tmp/gameyamlspiderandgenerator-1.6.1.tar.gz]
+[2023-06-20 10:10:54] INFO root fetch - main [MainThread]: End processing [gameyamlspiderandgenerator]: success
+[2023-06-20 10:10:54] INFO root fetch - processPackages [ftw.solr]: Remove: archive file [/home/abi/fetcher/tmp/ftw.solr-2.9.4.tar.gz]
+[2023-06-20 10:10:54] INFO root fetch - processPackages [ftw.solr]: Remove: archive file [/home/abi/fetcher/tmp/ftw.solr-2.9.5.tar.gz]
+[2023-06-20 10:10:54] INFO root fetch - main [MainThread]: End processing [ftw.solr]: success
+[2023-06-20 10:10:54] INFO root fetch - processPackages [paddle-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/paddle-pipelines-0.5.2.tar.gz]
+[2023-06-20 10:10:54] INFO root fetch - processPackages [paddle-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/paddle-pipelines-0.5.3.tar.gz]
+[2023-06-20 10:10:54] INFO root fetch - main [MainThread]: End processing [paddle-pipelines]: success
+[2023-06-20 10:10:56] INFO root fetch - processPackages [quartical]: Remove: archive file [/home/abi/fetcher/tmp/quartical-0.1.9.tar.gz]
+[2023-06-20 10:10:56] INFO root fetch - processPackages [quartical]: Remove: archive file [/home/abi/fetcher/tmp/quartical-0.2.0.tar.gz]
+[2023-06-20 10:10:56] INFO root fetch - main [MainThread]: End processing [quartical]: success
+[2023-06-20 10:10:56] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230619.tar.gz]
+[2023-06-20 10:10:56] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230620.tar.gz]
+[2023-06-20 10:10:56] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-20 10:10:57] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.0.dev0.tar.gz]
+[2023-06-20 10:10:57] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
+[2023-06-20 10:10:57] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2023-06-20 10:10:57] INFO root fetch - main [MainThread]: Store serial: [18571623]
