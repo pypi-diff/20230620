@@ -11800,3 +11800,15 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 06:43:50] INFO root fetch - processPackages [trackc]: Remove: archive file [/home/abi/fetcher/tmp/trackc-0.0.9.tar.gz]
 [2023-06-20 06:43:50] INFO root fetch - main [MainThread]: End processing [trackc]: success
 [2023-06-20 06:43:50] INFO root fetch - main [MainThread]: Store serial: [18570075]
+[2023-06-20 06:48:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570075]
+[2023-06-20 06:48:59] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-20 06:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spdx-license-list
+[2023-06-20 06:48:59] INFO root fetch - processPackages [spdx-license-list]: New version: [3.21] Old Version: [3.20]
+[2023-06-20 06:48:59] INFO root fetch - processPackages [spdx-license-list]: Downloading https://files.pythonhosted.org/packages/db/65/24942ba89323ddf737c4712d64d0e063211c3dfa12d074ac46cec2d329b4/spdx_license_list-3.20.tar.gz
+[2023-06-20 06:49:00] INFO root fetch - processPackages [spdx-license-list]: Downloading https://files.pythonhosted.org/packages/4b/aa/6943c24be58261eaec0eddf7badfc0ee6b68a9125bfac702d5bac6cf136b/spdx_license_list-3.21.tar.gz
+[2023-06-20 06:49:00] INFO root fetch - processPackages [spdx-license-list]: executing diffoscope
+[2023-06-20 06:49:00] INFO root fetch - processPackages [spdx-license-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spdx_license_list-3.20.tar.gz tmp/spdx_license_list-3.21.tar.gz --markdown 20230620/s/spdx-license-list/3.20-3.21/diff.md --exclude *.pyd
+[2023-06-20 06:49:01] INFO root fetch - processPackages [spdx-license-list]: Remove: archive file [/home/abi/fetcher/tmp/spdx_license_list-3.20.tar.gz]
+[2023-06-20 06:49:01] INFO root fetch - processPackages [spdx-license-list]: Remove: archive file [/home/abi/fetcher/tmp/spdx_license_list-3.21.tar.gz]
+[2023-06-20 06:49:01] INFO root fetch - main [MainThread]: End processing [spdx-license-list]: success
+[2023-06-20 06:49:01] INFO root fetch - main [MainThread]: Store serial: [18570078]
