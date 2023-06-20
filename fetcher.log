@@ -11842,3 +11842,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 06:54:13] INFO root fetch - processPackages [dea-tools]: Remove: archive file [/home/abi/fetcher/tmp/dea-tools-0.2.8.dev97.tar.gz]
 [2023-06-20 06:54:13] INFO root fetch - main [MainThread]: End processing [dea-tools]: success
 [2023-06-20 06:54:13] INFO root fetch - main [MainThread]: Store serial: [18570086]
+[2023-06-20 06:59:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570086]
+[2023-06-20 06:59:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-20 06:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypipr
+[2023-06-20 06:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyRotd
+[2023-06-20 06:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alpha-id-py
+[2023-06-20 06:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mobio-cli
+[2023-06-20 06:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ypy-websocket
+[2023-06-20 06:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: itc-ekyc
+[2023-06-20 06:59:21] INFO root fetch - processPackages [pyRotd]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-06-20 06:59:21] INFO root fetch - processPackages [mobio-cli]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-20 06:59:21] WARNING root fetch - processPackages [alpha-id-py]: Skipping, unable to determine old version
+[2023-06-20 06:59:21] INFO root fetch - main [MainThread]: End processing [alpha-id-py] error
+[2023-06-20 06:59:21] INFO root fetch - processPackages [ypy-websocket]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-06-20 06:59:21] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 06:59:22] INFO root fetch - processPackages [ypy-websocket]: Downloading https://files.pythonhosted.org/packages/b1/0b/8e936a41e15b8a8a034c9708062ee82f18f4ca6a969c443d3ea10a54f1ea/ypy_websocket-0.8.4.tar.gz
+[2023-06-20 06:59:22] WARNING root fetch - processPackages [itc-ekyc]: Skipping, unable to determine old version
+[2023-06-20 06:59:22] INFO root fetch - main [MainThread]: End processing [itc-ekyc] error
+[2023-06-20 06:59:22] INFO root fetch - processPackages [pyRotd]: Downloading https://files.pythonhosted.org/packages/8f/88/384c8ca994a63e53f60eaf93336009ca052ed5193b663f0b5221d4903b11/pyrotd-0.5.4.tar.gz
+[2023-06-20 06:59:22] INFO root fetch - processPackages [mobio-cli]: Downloading https://files.pythonhosted.org/packages/a2/51/36c79ed762db474dea52d26c9ec666af09b777ccf7d8e0a31edb2fa437fd/mobio-cli-1.0.4.tar.gz
+[2023-06-20 06:59:22] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/15/04/d795bcb0193e0a7ac41cf9929d8e4bfb8a89b791c68addd485f4d09b2a89/pypipr-1.0.8.tar.gz
+[2023-06-20 06:59:22] INFO root fetch - processPackages [ypy-websocket]: Downloading https://files.pythonhosted.org/packages/ad/26/927616d09366d016252ce20b00e5888ab14e1af94609ddc0f2289907d98d/ypy_websocket-0.9.0.tar.gz
+[2023-06-20 06:59:22] INFO root fetch - processPackages [ypy-websocket]: executing diffoscope
+[2023-06-20 06:59:22] INFO root fetch - processPackages [ypy-websocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypy_websocket-0.8.4.tar.gz tmp/ypy_websocket-0.9.0.tar.gz --markdown 20230620/y/ypy-websocket/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-06-20 06:59:22] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2023-06-20 06:59:22] INFO root fetch - processPackages [pyRotd]: Downloading https://files.pythonhosted.org/packages/8d/f9/f6f85111c449ba7b9b1f36db9e87185450036b24892871cf7a9405f90ef0/pyRotd-0.6.0.tar.gz
+[2023-06-20 06:59:22] INFO root fetch - processPackages [mobio-cli]: Downloading https://files.pythonhosted.org/packages/ce/5d/79e9122a8080972f458e3ac15b712784247f3773365f9da52e645a32319e/mobio-cli-1.0.5.tar.gz
+[2023-06-20 06:59:22] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-06-20 06:59:22] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.8.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20230620/p/pypipr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 06:59:22] INFO root fetch - processPackages [pyRotd]: executing diffoscope
+[2023-06-20 06:59:22] INFO root fetch - processPackages [pyRotd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrotd-0.5.4.tar.gz tmp/pyRotd-0.6.0.tar.gz --markdown 20230620/p/pyRotd/0.5.4-0.6.0/diff.md --exclude *.pyd
+[2023-06-20 06:59:22] INFO root fetch - processPackages [mobio-cli]: executing diffoscope
+[2023-06-20 06:59:22] INFO root fetch - processPackages [mobio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-cli-1.0.4.tar.gz tmp/mobio-cli-1.0.5.tar.gz --markdown 20230620/m/mobio-cli/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-20 06:59:23] INFO root fetch - processPackages [ypy-websocket]: Remove: archive file [/home/abi/fetcher/tmp/ypy_websocket-0.8.4.tar.gz]
+[2023-06-20 06:59:23] INFO root fetch - processPackages [ypy-websocket]: Remove: archive file [/home/abi/fetcher/tmp/ypy_websocket-0.9.0.tar.gz]
+[2023-06-20 06:59:23] INFO root fetch - main [MainThread]: End processing [ypy-websocket]: success
+[2023-06-20 06:59:23] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.8.tar.gz]
+[2023-06-20 06:59:23] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2023-06-20 06:59:23] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-06-20 06:59:23] INFO root fetch - processPackages [mobio-cli]: Remove: archive file [/home/abi/fetcher/tmp/mobio-cli-1.0.4.tar.gz]
+[2023-06-20 06:59:23] INFO root fetch - processPackages [mobio-cli]: Remove: archive file [/home/abi/fetcher/tmp/mobio-cli-1.0.5.tar.gz]
+[2023-06-20 06:59:23] INFO root fetch - main [MainThread]: End processing [mobio-cli]: success
+[2023-06-20 06:59:23] INFO root fetch - processPackages [pyRotd]: Remove: archive file [/home/abi/fetcher/tmp/pyrotd-0.5.4.tar.gz]
+[2023-06-20 06:59:23] INFO root fetch - processPackages [pyRotd]: Remove: archive file [/home/abi/fetcher/tmp/pyRotd-0.6.0.tar.gz]
+[2023-06-20 06:59:23] INFO root fetch - main [MainThread]: End processing [pyRotd]: success
+[2023-06-20 06:59:23] INFO root fetch - main [MainThread]: Store serial: [18570110]
