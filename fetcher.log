@@ -22629,3 +22629,111 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 14:27:56] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-06-20 14:27:57] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-06-20 14:27:57] INFO root fetch - main [MainThread]: Store serial: [18574692]
+[2023-06-20 14:33:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18574692]
+[2023-06-20 14:33:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-20 14:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uploader-client
+[2023-06-20 14:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: microsoft-kiota-http
+[2023-06-20 14:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autora-experiment-runner-recruitment-manager-prolific
+[2023-06-20 14:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wakeblaster-sdk
+[2023-06-20 14:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stackviz
+[2023-06-20 14:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: invenio-oauthclient
+[2023-06-20 14:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CallingGPT
+[2023-06-20 14:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: 006.butt
+[2023-06-20 14:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aliyun-python-sdk-quickbi-public
+[2023-06-20 14:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: automatix
+[2023-06-20 14:33:06] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: New version: [1.0.0a5] Old Version: [1.0.0a4]
+[2023-06-20 14:33:06] INFO root fetch - processPackages [microsoft-kiota-http]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-20 14:33:06] WARNING root fetch - processPackages [stackviz]: Skipping, unable to determine old version
+[2023-06-20 14:33:06] INFO root fetch - processPackages [stackviz]: Start processing: markyp-html
+[2023-06-20 14:33:06] INFO root fetch - main [MainThread]: End processing [stackviz] error
+[2023-06-20 14:33:06] INFO root fetch - processPackages [uploader-client]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-20 14:33:06] INFO root fetch - processPackages [CallingGPT]: New version: [0.0.0.5] Old Version: [0.0.0.4]
+[2023-06-20 14:33:06] INFO root fetch - processPackages [aliyun-python-sdk-quickbi-public]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-06-20 14:33:06] INFO root fetch - processPackages [wakeblaster-sdk]: New version: [2.6.4] Old Version: [2.4.4]
+[2023-06-20 14:33:06] INFO root fetch - processPackages [automatix]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-06-20 14:33:06] WARNING root fetch - processPackages [006.butt]: Skipping, unable to determine old version
+[2023-06-20 14:33:06] INFO root fetch - processPackages [006.butt]: Start processing: nuclia
+[2023-06-20 14:33:06] INFO root fetch - main [MainThread]: End processing [006.butt] error
+[2023-06-20 14:33:06] INFO root fetch - processPackages [invenio-oauthclient]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-06-20 14:33:06] INFO root fetch - processPackages [markyp-html]: New version: [0.2306.2] Old Version: [0.2306.1]
+[2023-06-20 14:33:06] INFO root fetch - processPackages [nuclia]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-20 14:33:06] INFO root fetch - processPackages [CallingGPT]: Downloading https://files.pythonhosted.org/packages/ee/97/16c793677c9ee5bf067d259b620a175a5cd24055ad723d56a6c09350531c/CallingGPT-0.0.0.4.tar.gz
+[2023-06-20 14:33:06] INFO root fetch - processPackages [microsoft-kiota-http]: Downloading https://files.pythonhosted.org/packages/9f/e3/798e0f6127b6c02e0a840d40dc7aded44f676170d1ddbf9288bd786659e3/microsoft_kiota_http-0.4.3.tar.gz
+[2023-06-20 14:33:06] INFO root fetch - processPackages [uploader-client]: Downloading https://files.pythonhosted.org/packages/db/bf/d4cca97af4509e1ee622b986a367b872ab33ea2175e46d4d1b0810fcb957/uploader-client-0.1.4.tar.gz
+[2023-06-20 14:33:06] INFO root fetch - processPackages [invenio-oauthclient]: Downloading https://files.pythonhosted.org/packages/0f/b3/97063606015da4d51de09d529d990a8c52c1763d1c1a0f1a22174d68a56d/invenio-oauthclient-3.0.0.tar.gz
+[2023-06-20 14:33:06] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Downloading https://files.pythonhosted.org/packages/f1/5c/e8b8071dc4e49478ac00dbbe2f6ce883daac437dc1936b44f8e46f2a9b1e/autora-experiment-runner-recruitment-manager-prolific-1.0.0a4.tar.gz
+[2023-06-20 14:33:06] INFO root fetch - processPackages [markyp-html]: Downloading https://files.pythonhosted.org/packages/a2/bd/dac87d8cda3bd58d5c14124a609d28882227c744849424a1de3bfd3ac798/markyp-html-0.2306.1.tar.gz
+[2023-06-20 14:33:06] INFO root fetch - processPackages [wakeblaster-sdk]: Downloading https://files.pythonhosted.org/packages/73/18/1a13331302fd005334b2e8c142cd709f81786faa91b89435d423a17b1a92/wakeblaster-sdk-2.4.4.tar.gz
+[2023-06-20 14:33:06] INFO root fetch - processPackages [automatix]: Downloading https://files.pythonhosted.org/packages/f3/89/2ce617452ca92cdc65449aaf1e1b5425f553c840d76743a0057a2b12595b/automatix-1.8.2.tar.gz
+[2023-06-20 14:33:06] INFO root fetch - processPackages [aliyun-python-sdk-quickbi-public]: Downloading https://files.pythonhosted.org/packages/2f/f0/f75d96b920ccca067a473c33bfb4da8b47de4d1ab371b0b532851408becc/aliyun-python-sdk-quickbi-public-2.1.2.tar.gz
+[2023-06-20 14:33:06] INFO root fetch - processPackages [nuclia]: Downloading https://files.pythonhosted.org/packages/34/f2/84e2c794b60ffd549d758bf302dc4383d09d79c2f948645440d38552f4f3/nuclia-1.0.1.tar.gz
+[2023-06-20 14:33:06] INFO root fetch - processPackages [CallingGPT]: Downloading https://files.pythonhosted.org/packages/01/3e/b5134553c1e9972d367667478d8cfb1fec4f981d8315ed8d078f9c8a6eb8/CallingGPT-0.0.0.5.tar.gz
+[2023-06-20 14:33:06] INFO root fetch - processPackages [uploader-client]: Downloading https://files.pythonhosted.org/packages/73/87/c03d687d62d44a2bb02c2068e568c5954a8384391a2814efa46a937ffb3a/uploader-client-0.1.5.tar.gz
+[2023-06-20 14:33:06] INFO root fetch - processPackages [microsoft-kiota-http]: Downloading https://files.pythonhosted.org/packages/22/e3/9b362005b4249fd3203f8affacc2cb8cceb187cc8327a76e2005e5671e8f/microsoft_kiota_http-0.4.4.tar.gz
+[2023-06-20 14:33:06] INFO root fetch - processPackages [invenio-oauthclient]: Downloading https://files.pythonhosted.org/packages/5d/dc/d9e11c2cfe35f5b6a1b176db1095e01e4c8c78ee879c651d64e0a77602f7/invenio-oauthclient-3.1.0.tar.gz
+[2023-06-20 14:33:06] INFO root fetch - processPackages [markyp-html]: Downloading https://files.pythonhosted.org/packages/79/65/736ee94864550eeb914c26dc3b4d6eea12201e7d34a7c9db060dee2a124f/markyp-html-0.2306.2.tar.gz
+[2023-06-20 14:33:07] INFO root fetch - processPackages [wakeblaster-sdk]: Downloading https://files.pythonhosted.org/packages/b3/86/4a14bb129bd9d4802350ebabd95f242a92dc9d4334ad23f622a8def2408b/wakeblaster-sdk-2.6.4.tar.gz
+[2023-06-20 14:33:07] INFO root fetch - processPackages [nuclia]: Downloading https://files.pythonhosted.org/packages/5a/fb/28b85a608bbe55955b6a4786529008517c4ae013783ced43fce742954af4/nuclia-1.0.2.tar.gz
+[2023-06-20 14:33:07] INFO root fetch - processPackages [aliyun-python-sdk-quickbi-public]: Downloading https://files.pythonhosted.org/packages/b6/fa/1f55f1ab14aaf4c419ad24c57f2cbfdbcc2d36520a2273f497dcea395b8b/aliyun-python-sdk-quickbi-public-2.1.3.tar.gz
+[2023-06-20 14:33:07] INFO root fetch - processPackages [uploader-client]: executing diffoscope
+[2023-06-20 14:33:07] INFO root fetch - processPackages [uploader-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uploader-client-0.1.4.tar.gz tmp/uploader-client-0.1.5.tar.gz --markdown 20230620/u/uploader-client/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-20 14:33:07] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Downloading https://files.pythonhosted.org/packages/9f/75/fcac63659e1e242e8629641f19dc8eb4e89928dabac3019dfc4a370fe9f3/autora-experiment-runner-recruitment-manager-prolific-1.0.0a5.tar.gz
+[2023-06-20 14:33:07] INFO root fetch - processPackages [CallingGPT]: executing diffoscope
+[2023-06-20 14:33:07] INFO root fetch - processPackages [CallingGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CallingGPT-0.0.0.4.tar.gz tmp/CallingGPT-0.0.0.5.tar.gz --markdown 20230620/C/CallingGPT/0.0.0.4-0.0.0.5/diff.md --exclude *.pyd
+[2023-06-20 14:33:07] INFO root fetch - processPackages [invenio-oauthclient]: executing diffoscope
+[2023-06-20 14:33:07] INFO root fetch - processPackages [invenio-oauthclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-oauthclient-3.0.0.tar.gz tmp/invenio-oauthclient-3.1.0.tar.gz --markdown 20230620/i/invenio-oauthclient/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-06-20 14:33:07] INFO root fetch - processPackages [markyp-html]: executing diffoscope
+[2023-06-20 14:33:07] INFO root fetch - processPackages [markyp-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markyp-html-0.2306.1.tar.gz tmp/markyp-html-0.2306.2.tar.gz --markdown 20230620/m/markyp-html/0.2306.1-0.2306.2/diff.md --exclude *.pyd
+[2023-06-20 14:33:07] INFO root fetch - processPackages [wakeblaster-sdk]: executing diffoscope
+[2023-06-20 14:33:07] INFO root fetch - processPackages [wakeblaster-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wakeblaster-sdk-2.4.4.tar.gz tmp/wakeblaster-sdk-2.6.4.tar.gz --markdown 20230620/w/wakeblaster-sdk/2.4.4-2.6.4/diff.md --exclude *.pyd
+[2023-06-20 14:33:07] INFO root fetch - processPackages [automatix]: Downloading https://files.pythonhosted.org/packages/66/e3/733d110d6cf43c581cdaf3448c4ab371c568ab2f6287d5c9381348bc549d/automatix-1.9.0.tar.gz
+[2023-06-20 14:33:07] INFO root fetch - processPackages [microsoft-kiota-http]: executing diffoscope
+[2023-06-20 14:33:07] INFO root fetch - processPackages [microsoft-kiota-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microsoft_kiota_http-0.4.3.tar.gz tmp/microsoft_kiota_http-0.4.4.tar.gz --markdown 20230620/m/microsoft-kiota-http/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-20 14:33:07] INFO root fetch - processPackages [nuclia]: executing diffoscope
+[2023-06-20 14:33:07] INFO root fetch - processPackages [nuclia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuclia-1.0.1.tar.gz tmp/nuclia-1.0.2.tar.gz --markdown 20230620/n/nuclia/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-20 14:33:07] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: executing diffoscope
+[2023-06-20 14:33:07] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-experiment-runner-recruitment-manager-prolific-1.0.0a4.tar.gz tmp/autora-experiment-runner-recruitment-manager-prolific-1.0.0a5.tar.gz --markdown 20230620/a/autora-experiment-runner-recruitment-manager-prolific/1.0.0a4-1.0.0a5/diff.md --exclude *.pyd
+[2023-06-20 14:33:07] INFO root fetch - processPackages [aliyun-python-sdk-quickbi-public]: executing diffoscope
+[2023-06-20 14:33:07] INFO root fetch - processPackages [aliyun-python-sdk-quickbi-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-quickbi-public-2.1.2.tar.gz tmp/aliyun-python-sdk-quickbi-public-2.1.3.tar.gz --markdown 20230620/a/aliyun-python-sdk-quickbi-public/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-06-20 14:33:07] INFO root fetch - processPackages [automatix]: executing diffoscope
+[2023-06-20 14:33:07] INFO root fetch - processPackages [automatix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automatix-1.8.2.tar.gz tmp/automatix-1.9.0.tar.gz --markdown 20230620/a/automatix/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-06-20 14:33:08] INFO root fetch - processPackages [CallingGPT]: Remove: archive file [/home/abi/fetcher/tmp/CallingGPT-0.0.0.4.tar.gz]
+[2023-06-20 14:33:08] INFO root fetch - processPackages [CallingGPT]: Remove: archive file [/home/abi/fetcher/tmp/CallingGPT-0.0.0.5.tar.gz]
+[2023-06-20 14:33:08] INFO root fetch - processPackages [CallingGPT]: Start processing: gaiaFramework
+[2023-06-20 14:33:08] INFO root fetch - main [MainThread]: End processing [CallingGPT]: success
+[2023-06-20 14:33:08] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora-experiment-runner-recruitment-manager-prolific-1.0.0a4.tar.gz]
+[2023-06-20 14:33:08] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora-experiment-runner-recruitment-manager-prolific-1.0.0a5.tar.gz]
+[2023-06-20 14:33:08] INFO root fetch - main [MainThread]: End processing [autora-experiment-runner-recruitment-manager-prolific]: success
+[2023-06-20 14:33:08] INFO root fetch - processPackages [uploader-client]: Remove: archive file [/home/abi/fetcher/tmp/uploader-client-0.1.4.tar.gz]
+[2023-06-20 14:33:08] INFO root fetch - processPackages [uploader-client]: Remove: archive file [/home/abi/fetcher/tmp/uploader-client-0.1.5.tar.gz]
+[2023-06-20 14:33:08] INFO root fetch - main [MainThread]: End processing [uploader-client]: success
+[2023-06-20 14:33:08] INFO root fetch - processPackages [gaiaFramework]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 14:33:08] INFO root fetch - processPackages [markyp-html]: Remove: archive file [/home/abi/fetcher/tmp/markyp-html-0.2306.1.tar.gz]
+[2023-06-20 14:33:08] INFO root fetch - processPackages [markyp-html]: Remove: archive file [/home/abi/fetcher/tmp/markyp-html-0.2306.2.tar.gz]
+[2023-06-20 14:33:08] INFO root fetch - main [MainThread]: End processing [markyp-html]: success
+[2023-06-20 14:33:09] INFO root fetch - processPackages [automatix]: Remove: archive file [/home/abi/fetcher/tmp/automatix-1.8.2.tar.gz]
+[2023-06-20 14:33:09] INFO root fetch - processPackages [automatix]: Remove: archive file [/home/abi/fetcher/tmp/automatix-1.9.0.tar.gz]
+[2023-06-20 14:33:09] INFO root fetch - main [MainThread]: End processing [automatix]: success
+[2023-06-20 14:33:09] INFO root fetch - processPackages [gaiaFramework]: Downloading https://files.pythonhosted.org/packages/7d/31/d623b9c56c81d19a4de121c99750fbb5e7c9904c9f5bcee4b87e39922ece/gaiaFramework-1.0.8.tar.gz
+[2023-06-20 14:33:09] INFO root fetch - processPackages [wakeblaster-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wakeblaster-sdk-2.4.4.tar.gz]
+[2023-06-20 14:33:09] INFO root fetch - processPackages [wakeblaster-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wakeblaster-sdk-2.6.4.tar.gz]
+[2023-06-20 14:33:09] INFO root fetch - main [MainThread]: End processing [wakeblaster-sdk]: success
+[2023-06-20 14:33:09] INFO root fetch - processPackages [nuclia]: Remove: archive file [/home/abi/fetcher/tmp/nuclia-1.0.1.tar.gz]
+[2023-06-20 14:33:09] INFO root fetch - processPackages [nuclia]: Remove: archive file [/home/abi/fetcher/tmp/nuclia-1.0.2.tar.gz]
+[2023-06-20 14:33:09] INFO root fetch - main [MainThread]: End processing [nuclia]: success
+[2023-06-20 14:33:09] INFO root fetch - processPackages [aliyun-python-sdk-quickbi-public]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-quickbi-public-2.1.2.tar.gz]
+[2023-06-20 14:33:09] INFO root fetch - processPackages [aliyun-python-sdk-quickbi-public]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-quickbi-public-2.1.3.tar.gz]
+[2023-06-20 14:33:09] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-quickbi-public]: success
+[2023-06-20 14:33:09] INFO root fetch - processPackages [microsoft-kiota-http]: Remove: archive file [/home/abi/fetcher/tmp/microsoft_kiota_http-0.4.3.tar.gz]
+[2023-06-20 14:33:09] INFO root fetch - processPackages [microsoft-kiota-http]: Remove: archive file [/home/abi/fetcher/tmp/microsoft_kiota_http-0.4.4.tar.gz]
+[2023-06-20 14:33:09] INFO root fetch - main [MainThread]: End processing [microsoft-kiota-http]: success
+[2023-06-20 14:33:09] INFO root fetch - processPackages [gaiaFramework]: Downloading https://files.pythonhosted.org/packages/8a/6a/7e1b5292c38185a28ac09beb052442740b1217ef8bbc97a594fc4cbb0bb3/gaiaFramework-1.0.9.tar.gz
+[2023-06-20 14:33:09] INFO root fetch - processPackages [invenio-oauthclient]: Remove: archive file [/home/abi/fetcher/tmp/invenio-oauthclient-3.0.0.tar.gz]
+[2023-06-20 14:33:09] INFO root fetch - processPackages [invenio-oauthclient]: Remove: archive file [/home/abi/fetcher/tmp/invenio-oauthclient-3.1.0.tar.gz]
+[2023-06-20 14:33:09] INFO root fetch - main [MainThread]: End processing [invenio-oauthclient]: success
+[2023-06-20 14:33:09] INFO root fetch - processPackages [gaiaFramework]: executing diffoscope
+[2023-06-20 14:33:09] INFO root fetch - processPackages [gaiaFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaiaFramework-1.0.8.tar.gz tmp/gaiaFramework-1.0.9.tar.gz --markdown 20230620/g/gaiaFramework/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 14:33:10] INFO root fetch - processPackages [gaiaFramework]: Remove: archive file [/home/abi/fetcher/tmp/gaiaFramework-1.0.8.tar.gz]
+[2023-06-20 14:33:10] INFO root fetch - processPackages [gaiaFramework]: Remove: archive file [/home/abi/fetcher/tmp/gaiaFramework-1.0.9.tar.gz]
+[2023-06-20 14:33:10] INFO root fetch - main [MainThread]: End processing [gaiaFramework]: success
+[2023-06-20 14:33:10] INFO root fetch - main [MainThread]: Store serial: [18574737]
