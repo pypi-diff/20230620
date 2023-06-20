@@ -12185,3 +12185,23 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 07:23:23] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
 [2023-06-20 07:23:23] INFO root fetch - main [MainThread]: End processing [sdkit]: success
 [2023-06-20 07:23:23] INFO root fetch - main [MainThread]: Store serial: [18570223]
+[2023-06-20 07:28:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570223]
+[2023-06-20 07:28:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-20 07:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hera-cli-utils
+[2023-06-20 07:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ical
+[2023-06-20 07:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-martin-z3-lemmas-test
+[2023-06-20 07:28:33] WARNING root fetch - processPackages [hera-cli-utils]: Skipping, unable to determine old version
+[2023-06-20 07:28:33] INFO root fetch - main [MainThread]: End processing [hera-cli-utils] error
+[2023-06-20 07:28:33] INFO root fetch - processPackages [ical]: New version: [4.5.4] Old Version: [4.5.2]
+[2023-06-20 07:28:33] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: New version: [20230620.5.28.907801] Old Version: [20230614.15.41.15026]
+[2023-06-20 07:28:33] INFO root fetch - processPackages [ical]: Downloading https://files.pythonhosted.org/packages/7c/1e/c3bc2e052eb15f155f570772c64d708dae08347db22ab9d87cff2a7ac4c2/ical-4.5.2.tar.gz
+[2023-06-20 07:28:33] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Downloading https://files.pythonhosted.org/packages/11/bc/81d612e222dd7cbbfae2d521fbdff3734df4759735c6f1bc7aecd7a801a8/certora-cli-alpha-martin-z3-lemmas-test-20230614.15.41.15026.tar.gz
+[2023-06-20 07:28:33] WARNING root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Skipping package: exceeds size limit 38818228>=10485760
+[2023-06-20 07:28:33] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-martin-z3-lemmas-test] error
+[2023-06-20 07:28:33] INFO root fetch - processPackages [ical]: Downloading https://files.pythonhosted.org/packages/9a/d4/cf6f357ae081234b8a457ede52d5f84254eba9250a87fbce9e421f50912b/ical-4.5.4.tar.gz
+[2023-06-20 07:28:34] INFO root fetch - processPackages [ical]: executing diffoscope
+[2023-06-20 07:28:34] INFO root fetch - processPackages [ical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ical-4.5.2.tar.gz tmp/ical-4.5.4.tar.gz --markdown 20230620/i/ical/4.5.2-4.5.4/diff.md --exclude *.pyd
+[2023-06-20 07:28:35] INFO root fetch - processPackages [ical]: Remove: archive file [/home/abi/fetcher/tmp/ical-4.5.2.tar.gz]
+[2023-06-20 07:28:35] INFO root fetch - processPackages [ical]: Remove: archive file [/home/abi/fetcher/tmp/ical-4.5.4.tar.gz]
+[2023-06-20 07:28:35] INFO root fetch - main [MainThread]: End processing [ical]: success
+[2023-06-20 07:28:35] INFO root fetch - main [MainThread]: Store serial: [18570233]
