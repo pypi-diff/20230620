@@ -11779,3 +11779,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 06:38:36] INFO root fetch - processPackages [robotcode]: Remove: archive file [/home/abi/fetcher/tmp/robotcode-0.9.6.tar.gz]
 [2023-06-20 06:38:36] INFO root fetch - main [MainThread]: End processing [robotcode]: success
 [2023-06-20 06:38:36] INFO root fetch - main [MainThread]: Store serial: [18570064]
+[2023-06-20 06:43:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570064]
+[2023-06-20 06:43:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-20 06:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trackc
+[2023-06-20 06:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linki
+[2023-06-20 06:43:45] INFO root fetch - processPackages [linki]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 06:43:45] INFO root fetch - processPackages [trackc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 06:43:45] INFO root fetch - processPackages [linki]: Downloading https://files.pythonhosted.org/packages/1f/85/5cc91e9ba525e91d9979fdf45309b1dc543c1583960a1f3826269d8c2e78/linki-0.0.8.tar.gz
+[2023-06-20 06:43:45] INFO root fetch - processPackages [trackc]: Downloading https://files.pythonhosted.org/packages/4f/f3/57a3c404849b6d1b4f06008f3d9201a50e83b4f597de2c4a06fa5a9eb762/trackc-0.0.8.tar.gz
+[2023-06-20 06:43:45] INFO root fetch - processPackages [linki]: Downloading https://files.pythonhosted.org/packages/77/c3/ace975f260cef9236206242f89437c9d83bbafcd4ab12e568c92d930794e/linki-0.0.9.tar.gz
+[2023-06-20 06:43:46] INFO root fetch - processPackages [linki]: executing diffoscope
+[2023-06-20 06:43:46] INFO root fetch - processPackages [linki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linki-0.0.8.tar.gz tmp/linki-0.0.9.tar.gz --markdown 20230620/l/linki/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 06:43:47] INFO root fetch - processPackages [trackc]: Downloading https://files.pythonhosted.org/packages/42/1d/dc12a7f3332737d61f5c0d918c6d446cb0b707a32c07ac2101d68499d9cc/trackc-0.0.9.tar.gz
+[2023-06-20 06:43:47] INFO root fetch - processPackages [linki]: Remove: archive file [/home/abi/fetcher/tmp/linki-0.0.8.tar.gz]
+[2023-06-20 06:43:47] INFO root fetch - processPackages [linki]: Remove: archive file [/home/abi/fetcher/tmp/linki-0.0.9.tar.gz]
+[2023-06-20 06:43:47] INFO root fetch - main [MainThread]: End processing [linki]: success
+[2023-06-20 06:43:48] INFO root fetch - processPackages [trackc]: executing diffoscope
+[2023-06-20 06:43:48] INFO root fetch - processPackages [trackc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trackc-0.0.8.tar.gz tmp/trackc-0.0.9.tar.gz --markdown 20230620/t/trackc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 06:43:50] INFO root fetch - processPackages [trackc]: Remove: archive file [/home/abi/fetcher/tmp/trackc-0.0.8.tar.gz]
+[2023-06-20 06:43:50] INFO root fetch - processPackages [trackc]: Remove: archive file [/home/abi/fetcher/tmp/trackc-0.0.9.tar.gz]
+[2023-06-20 06:43:50] INFO root fetch - main [MainThread]: End processing [trackc]: success
+[2023-06-20 06:43:50] INFO root fetch - main [MainThread]: Store serial: [18570075]
