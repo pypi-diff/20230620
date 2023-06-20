@@ -17000,3 +17000,160 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 11:07:58] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
 [2023-06-20 11:07:58] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-20 11:07:58] INFO root fetch - main [MainThread]: Store serial: [18572314]
+[2023-06-20 11:13:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18572314]
+[2023-06-20 11:13:09] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-20 11:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlserver-xgboost
+[2023-06-20 11:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlserver-alibi-detect
+[2023-06-20 11:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlserver-lightgbm
+[2023-06-20 11:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlserver-alibi-explain
+[2023-06-20 11:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlserver-mllib
+[2023-06-20 11:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlserver-huggingface
+[2023-06-20 11:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlserver-sklearn
+[2023-06-20 11:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlserver-mlflow
+[2023-06-20 11:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finbourne-access-sdk
+[2023-06-20 11:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autokattis
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-lightgbm]: New version: [1.4.0.dev2] Old Version: [1.3.4rc2]
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-alibi-explain]: New version: [1.4.0.dev2] Old Version: [1.3.4rc2]
+[2023-06-20 11:13:10] INFO root fetch - processPackages [autokattis]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-alibi-detect]: New version: [1.4.0.dev2] Old Version: [1.3.4rc2]
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-mlflow]: New version: [1.4.0.dev2] Old Version: [1.3.4rc2]
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-huggingface]: New version: [1.4.0.dev2] Old Version: [1.3.4rc2]
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-xgboost]: New version: [1.4.0.dev2] Old Version: [1.3.4rc2]
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-sklearn]: New version: [1.4.0.dev2] Old Version: [1.3.4rc2]
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-mllib]: New version: [1.4.0.dev2] Old Version: [1.3.4rc2]
+[2023-06-20 11:13:10] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-alibi-explain]: Downloading https://files.pythonhosted.org/packages/cf/39/2bc320e9461d7b48b5db01fb14055e5370e4400b619869f46a027d41ea75/mlserver-alibi-explain-1.3.4rc2.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-mlflow]: Downloading https://files.pythonhosted.org/packages/d7/cc/4efa656c6ed6ef5fd654668f92803a2f140c0e8841024a6b0b78a4df4b5e/mlserver-mlflow-1.3.4rc2.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-sklearn]: Downloading https://files.pythonhosted.org/packages/05/08/f1500493063bcd400ea7a449fcd218560df82841eed5367fa7905de1e8c0/mlserver-sklearn-1.3.4rc2.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-alibi-detect]: Downloading https://files.pythonhosted.org/packages/2f/a1/5907704a246dc544785391553360ac260557af56ba97cc42f93daf787f72/mlserver-alibi-detect-1.3.4rc2.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-xgboost]: Downloading https://files.pythonhosted.org/packages/38/f7/579a8881277a6eb53722fe761bfe286d038266d2288bf2a3cd845ec493d1/mlserver-xgboost-1.3.4rc2.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-huggingface]: Downloading https://files.pythonhosted.org/packages/46/4f/b9693b798961d75e7bb4fbbfb0ea48ade4fdd915be7d501ed83fcfaeb383/mlserver-huggingface-1.3.4rc2.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-mllib]: Downloading https://files.pythonhosted.org/packages/90/13/d257353f9c9e8649a51fe4486dc2082b5dca81963c23ac7f8dbe62a61d8e/mlserver-mllib-1.3.4rc2.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [autokattis]: Downloading https://files.pythonhosted.org/packages/e7/fc/5cace639cf3d0817597985eb1d42eb2fa7bc39c0437e162cf52171a1f99a/autokattis-1.4.3.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-lightgbm]: Downloading https://files.pythonhosted.org/packages/23/63/f69430ce1cda939bd8a5542e3b5d4d988c478ccad3154f096f5a8cd08d96/mlserver-lightgbm-1.3.4rc2.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-alibi-explain]: Downloading https://files.pythonhosted.org/packages/4c/ff/8fee52bea3e7c1e8ae468fcbc17d72675b3e31f4c766303a884ef0a13022/mlserver-alibi-explain-1.4.0.dev2.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-mlflow]: Downloading https://files.pythonhosted.org/packages/30/19/1aaf2cad4df35702cdb9d097b2df2c2b58d1cbfb9df3c6f3e39b559a2264/mlserver-mlflow-1.4.0.dev2.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-sklearn]: Downloading https://files.pythonhosted.org/packages/a9/1f/259c6b8407fa04124af450e06afbcdf10587f4feada8aba9f8fd1415f8f7/mlserver-sklearn-1.4.0.dev2.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-alibi-detect]: Downloading https://files.pythonhosted.org/packages/1e/9b/d8de9dd6f90d71c11ff42051fb1c8ea4f84b45d6f1568c2847cbef247ac6/mlserver-alibi-detect-1.4.0.dev2.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-alibi-explain]: executing diffoscope
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-alibi-explain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-alibi-explain-1.3.4rc2.tar.gz tmp/mlserver-alibi-explain-1.4.0.dev2.tar.gz --markdown 20230620/m/mlserver-alibi-explain/1.3.4rc2-1.4.0.dev2/diff.md --exclude *.pyd
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-huggingface]: Downloading https://files.pythonhosted.org/packages/f0/83/2735b6f081605f7c92fa3d85a4716cadd7b0eb1a50a71cdf6ec89daf1698/mlserver-huggingface-1.4.0.dev2.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-sklearn]: executing diffoscope
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-sklearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-sklearn-1.3.4rc2.tar.gz tmp/mlserver-sklearn-1.4.0.dev2.tar.gz --markdown 20230620/m/mlserver-sklearn/1.3.4rc2-1.4.0.dev2/diff.md --exclude *.pyd
+[2023-06-20 11:13:10] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-mllib]: Downloading https://files.pythonhosted.org/packages/58/bb/f4a9f4208e47476294a4fe6e1e997c99d4884bae6544ba565f968ebcd0b4/mlserver-mllib-1.4.0.dev2.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [autokattis]: Downloading https://files.pythonhosted.org/packages/b8/63/7fd395fd4e92c0391cbece16c7ed38d4b217fa0725600b907afdee8a602b/autokattis-1.4.4.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-alibi-detect]: executing diffoscope
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-alibi-detect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-alibi-detect-1.3.4rc2.tar.gz tmp/mlserver-alibi-detect-1.4.0.dev2.tar.gz --markdown 20230620/m/mlserver-alibi-detect/1.3.4rc2-1.4.0.dev2/diff.md --exclude *.pyd
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-xgboost]: Downloading https://files.pythonhosted.org/packages/a9/4e/d37fe531858b5a0b361eadf69589e29ca81641b6d2581ebfb3010d756d63/mlserver-xgboost-1.4.0.dev2.tar.gz
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-huggingface]: executing diffoscope
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-huggingface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-huggingface-1.3.4rc2.tar.gz tmp/mlserver-huggingface-1.4.0.dev2.tar.gz --markdown 20230620/m/mlserver-huggingface/1.3.4rc2-1.4.0.dev2/diff.md --exclude *.pyd
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-mlflow]: executing diffoscope
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-mlflow-1.3.4rc2.tar.gz tmp/mlserver-mlflow-1.4.0.dev2.tar.gz --markdown 20230620/m/mlserver-mlflow/1.3.4rc2-1.4.0.dev2/diff.md --exclude *.pyd
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-xgboost]: executing diffoscope
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-xgboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-xgboost-1.3.4rc2.tar.gz tmp/mlserver-xgboost-1.4.0.dev2.tar.gz --markdown 20230620/m/mlserver-xgboost/1.3.4rc2-1.4.0.dev2/diff.md --exclude *.pyd
+[2023-06-20 11:13:10] INFO root fetch - processPackages [mlserver-lightgbm]: Downloading https://files.pythonhosted.org/packages/45/33/3f2748f79aa1b4bef981eec337edc621a424474f69062004e620da744793/mlserver-lightgbm-1.4.0.dev2.tar.gz
+[2023-06-20 11:13:11] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-06-20 11:13:11] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230620/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-06-20 11:13:11] INFO root fetch - processPackages [autokattis]: executing diffoscope
+[2023-06-20 11:13:11] INFO root fetch - processPackages [autokattis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autokattis-1.4.3.tar.gz tmp/autokattis-1.4.4.tar.gz --markdown 20230620/a/autokattis/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-06-20 11:13:11] INFO root fetch - processPackages [mlserver-mllib]: executing diffoscope
+[2023-06-20 11:13:11] INFO root fetch - processPackages [mlserver-mllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-mllib-1.3.4rc2.tar.gz tmp/mlserver-mllib-1.4.0.dev2.tar.gz --markdown 20230620/m/mlserver-mllib/1.3.4rc2-1.4.0.dev2/diff.md --exclude *.pyd
+[2023-06-20 11:13:11] INFO root fetch - processPackages [mlserver-lightgbm]: executing diffoscope
+[2023-06-20 11:13:11] INFO root fetch - processPackages [mlserver-lightgbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-lightgbm-1.3.4rc2.tar.gz tmp/mlserver-lightgbm-1.4.0.dev2.tar.gz --markdown 20230620/m/mlserver-lightgbm/1.3.4rc2-1.4.0.dev2/diff.md --exclude *.pyd
+[2023-06-20 11:13:13] INFO root fetch - processPackages [mlserver-huggingface]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-huggingface-1.3.4rc2.tar.gz]
+[2023-06-20 11:13:13] INFO root fetch - processPackages [mlserver-huggingface]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-huggingface-1.4.0.dev2.tar.gz]
+[2023-06-20 11:13:13] INFO root fetch - processPackages [mlserver-huggingface]: Start processing: pysna
+[2023-06-20 11:13:13] INFO root fetch - main [MainThread]: End processing [mlserver-huggingface]: success
+[2023-06-20 11:13:13] INFO root fetch - processPackages [autokattis]: Remove: archive file [/home/abi/fetcher/tmp/autokattis-1.4.3.tar.gz]
+[2023-06-20 11:13:13] INFO root fetch - processPackages [autokattis]: Remove: archive file [/home/abi/fetcher/tmp/autokattis-1.4.4.tar.gz]
+[2023-06-20 11:13:13] INFO root fetch - processPackages [autokattis]: Start processing: capellambse
+[2023-06-20 11:13:13] INFO root fetch - main [MainThread]: End processing [autokattis]: success
+[2023-06-20 11:13:13] INFO root fetch - processPackages [pysna]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-20 11:13:13] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-06-20 11:13:13] INFO root fetch - processPackages [mlserver-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-mlflow-1.3.4rc2.tar.gz]
+[2023-06-20 11:13:13] INFO root fetch - processPackages [mlserver-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-mlflow-1.4.0.dev2.tar.gz]
+[2023-06-20 11:13:13] INFO root fetch - processPackages [mlserver-mlflow]: Start processing: peaqevcore
+[2023-06-20 11:13:13] INFO root fetch - main [MainThread]: End processing [mlserver-mlflow]: success
+[2023-06-20 11:13:13] INFO root fetch - processPackages [mlserver-alibi-explain]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-alibi-explain-1.3.4rc2.tar.gz]
+[2023-06-20 11:13:13] INFO root fetch - processPackages [mlserver-alibi-explain]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-alibi-explain-1.4.0.dev2.tar.gz]
+[2023-06-20 11:13:13] INFO root fetch - processPackages [mlserver-alibi-explain]: Start processing: 0007
+[2023-06-20 11:13:13] INFO root fetch - main [MainThread]: End processing [mlserver-alibi-explain]: success
+[2023-06-20 11:13:13] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2023-06-20 11:13:13] INFO root fetch - processPackages [mlserver-alibi-detect]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-alibi-detect-1.3.4rc2.tar.gz]
+[2023-06-20 11:13:13] INFO root fetch - processPackages [mlserver-alibi-detect]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-alibi-detect-1.4.0.dev2.tar.gz]
+[2023-06-20 11:13:13] INFO root fetch - processPackages [mlserver-alibi-detect]: Start processing: capellambse
+[2023-06-20 11:13:13] INFO root fetch - main [MainThread]: End processing [mlserver-alibi-detect]: success
+[2023-06-20 11:13:13] INFO root fetch - processPackages [mlserver-lightgbm]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-lightgbm-1.3.4rc2.tar.gz]
+[2023-06-20 11:13:13] INFO root fetch - processPackages [mlserver-lightgbm]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-lightgbm-1.4.0.dev2.tar.gz]
+[2023-06-20 11:13:13] INFO root fetch - processPackages [mlserver-lightgbm]: Start processing: picogo
+[2023-06-20 11:13:13] INFO root fetch - main [MainThread]: End processing [mlserver-lightgbm]: success
+[2023-06-20 11:13:13] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-06-20 11:13:13] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-06-20 11:13:13] INFO root fetch - processPackages [picogo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 11:13:13] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-06-20 11:13:13] WARNING root fetch - processPackages [0007]: Skipping, unable to determine old version
+[2023-06-20 11:13:13] INFO root fetch - processPackages [0007]: Start processing: dipex
+[2023-06-20 11:13:13] INFO root fetch - main [MainThread]: End processing [0007] error
+[2023-06-20 11:13:14] INFO root fetch - processPackages [mlserver-mllib]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-mllib-1.3.4rc2.tar.gz]
+[2023-06-20 11:13:14] INFO root fetch - processPackages [pysna]: Downloading https://files.pythonhosted.org/packages/84/79/d8cc6287143acfdb7094fdb94c63124a5c33fba029abf9125163e4c0cf65/pysna-0.1.0.tar.gz
+[2023-06-20 11:13:14] INFO root fetch - processPackages [mlserver-mllib]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-mllib-1.4.0.dev2.tar.gz]
+[2023-06-20 11:13:14] INFO root fetch - processPackages [mlserver-mllib]: Start processing: altcos-common
+[2023-06-20 11:13:14] INFO root fetch - main [MainThread]: End processing [mlserver-mllib]: success
+[2023-06-20 11:13:14] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2023-06-20 11:13:14] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/e0/c6/77373684ea1f516996aac52ca016925d0213e38509750abc53603201b2ca/picogo-0.0.8.tar.gz
+[2023-06-20 11:13:14] INFO root fetch - processPackages [mlserver-xgboost]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-xgboost-1.3.4rc2.tar.gz]
+[2023-06-20 11:13:14] INFO root fetch - processPackages [mlserver-xgboost]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-xgboost-1.4.0.dev2.tar.gz]
+[2023-06-20 11:13:14] INFO root fetch - main [MainThread]: End processing [mlserver-xgboost]: success
+[2023-06-20 11:13:14] INFO root fetch - processPackages [mlserver-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-sklearn-1.3.4rc2.tar.gz]
+[2023-06-20 11:13:14] INFO root fetch - processPackages [mlserver-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-sklearn-1.4.0.dev2.tar.gz]
+[2023-06-20 11:13:14] INFO root fetch - main [MainThread]: End processing [mlserver-sklearn]: success
+[2023-06-20 11:13:14] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-06-20 11:13:14] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-06-20 11:13:14] INFO root fetch - processPackages [altcos-common]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-20 11:13:14] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/8e/0e/15b62bee1afe22a0f2411879a5c23ffe6e8cdfc8228a677dc7ce8e6bcfef/picogo-0.0.9.tar.gz
+[2023-06-20 11:13:14] INFO root fetch - processPackages [picogo]: executing diffoscope
+[2023-06-20 11:13:14] INFO root fetch - processPackages [picogo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picogo-0.0.8.tar.gz tmp/picogo-0.0.9.tar.gz --markdown 20230620/p/picogo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 11:13:14] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2023-06-20 11:13:14] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-06-20 11:13:14] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230620/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-06-20 11:13:14] INFO root fetch - processPackages [pysna]: Downloading https://files.pythonhosted.org/packages/c3/06/a1d4886452bfb423e77b1fb4c70aacfd82e8c9b0c0e03d0f1a4c987eb98f/pysna-0.1.1.tar.gz
+[2023-06-20 11:13:14] INFO root fetch - processPackages [altcos-common]: Downloading https://files.pythonhosted.org/packages/80/d6/8ef7a09b943e0cd76576e36669cf99561ed1076835cedbcc638baf1e6239/altcos-common-0.0.1.tar.gz
+[2023-06-20 11:13:14] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-06-20 11:13:14] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2023-06-20 11:13:14] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-06-20 11:13:14] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230620/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-06-20 11:13:14] INFO root fetch - processPackages [pysna]: executing diffoscope
+[2023-06-20 11:13:14] INFO root fetch - processPackages [pysna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysna-0.1.0.tar.gz tmp/pysna-0.1.1.tar.gz --markdown 20230620/p/pysna/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-20 11:13:14] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-06-20 11:13:14] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230620/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-06-20 11:13:14] INFO root fetch - processPackages [altcos-common]: Downloading https://files.pythonhosted.org/packages/9f/a2/566f138261a48458123e2f37f092ce30f2166e33ec4ac43fb7114b1a2a05/altcos-common-0.0.2.tar.gz
+[2023-06-20 11:13:14] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-06-20 11:13:14] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-06-20 11:13:14] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230620/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-06-20 11:13:14] INFO root fetch - processPackages [altcos-common]: executing diffoscope
+[2023-06-20 11:13:14] INFO root fetch - processPackages [altcos-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altcos-common-0.0.1.tar.gz tmp/altcos-common-0.0.2.tar.gz --markdown 20230620/a/altcos-common/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-20 11:13:16] INFO root fetch - processPackages [altcos-common]: Remove: archive file [/home/abi/fetcher/tmp/altcos-common-0.0.1.tar.gz]
+[2023-06-20 11:13:16] INFO root fetch - processPackages [altcos-common]: Remove: archive file [/home/abi/fetcher/tmp/altcos-common-0.0.2.tar.gz]
+[2023-06-20 11:13:16] INFO root fetch - main [MainThread]: End processing [altcos-common]: success
+[2023-06-20 11:13:16] INFO root fetch - processPackages [pysna]: Remove: archive file [/home/abi/fetcher/tmp/pysna-0.1.0.tar.gz]
+[2023-06-20 11:13:16] INFO root fetch - processPackages [pysna]: Remove: archive file [/home/abi/fetcher/tmp/pysna-0.1.1.tar.gz]
+[2023-06-20 11:13:16] INFO root fetch - main [MainThread]: End processing [pysna]: success
+[2023-06-20 11:13:16] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.8.tar.gz]
+[2023-06-20 11:13:16] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.9.tar.gz]
+[2023-06-20 11:13:16] INFO root fetch - main [MainThread]: End processing [picogo]: success
+[2023-06-20 11:13:16] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-06-20 11:13:16] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-06-20 11:13:16] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-06-20 11:13:17] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-06-20 11:13:17] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-06-20 11:13:17] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-06-20 11:13:17] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2023-06-20 11:13:17] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2023-06-20 11:13:17] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-06-20 11:13:22] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2023-06-20 11:13:22] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2023-06-20 11:13:22] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-06-20 11:13:23] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-06-20 11:13:23] INFO root fetch - main [MainThread]: Store serial: [18572376]
