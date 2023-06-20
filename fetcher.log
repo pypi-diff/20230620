@@ -22995,3 +22995,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 14:44:01] INFO root fetch - processPackages [whispercppy]: Remove: archive file [/home/abi/fetcher/tmp/whispercppy-0.0.3.tar.gz]
 [2023-06-20 14:44:01] INFO root fetch - main [MainThread]: End processing [whispercppy]: success
 [2023-06-20 14:44:01] INFO root fetch - main [MainThread]: Store serial: [18574855]
+[2023-06-20 14:49:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18574855]
+[2023-06-20 14:49:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-20 14:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bletl
+[2023-06-20 14:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: 010.butt
+[2023-06-20 14:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: voila-vuetify-tuwien
+[2023-06-20 14:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: manticore
+[2023-06-20 14:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polygphys
+[2023-06-20 14:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xtuples
+[2023-06-20 14:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sail
+[2023-06-20 14:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: d-popcorn
+[2023-06-20 14:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ecglib
+[2023-06-20 14:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nanolsap
+[2023-06-20 14:49:10] INFO root fetch - processPackages [bletl]: New version: [1.3.1] Old Version: [1.2.2]
+[2023-06-20 14:49:10] WARNING root fetch - processPackages [010.butt]: Skipping, unable to determine old version
+[2023-06-20 14:49:10] INFO root fetch - main [MainThread]: End processing [010.butt] error
+[2023-06-20 14:49:10] INFO root fetch - processPackages [nanolsap]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-20 14:49:10] INFO root fetch - processPackages [sail]: New version: [0.3.1] Old Version: [0.2.0]
+[2023-06-20 14:49:10] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230620] Old Version: [0.3.8.dev230619]
+[2023-06-20 14:49:10] INFO root fetch - processPackages [polygphys]: New version: [6.0.5] Old Version: [4.6.9]
+[2023-06-20 14:49:10] INFO root fetch - processPackages [voila-vuetify-tuwien]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-20 14:49:10] INFO root fetch - processPackages [d-popcorn]: New version: [1.1.2] Old Version: [1.1.0]
+[2023-06-20 14:49:10] INFO root fetch - processPackages [xtuples]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 14:49:10] INFO root fetch - processPackages [ecglib]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-20 14:49:11] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/3a/4a/870d913da720ae40b48b4955c5cccf6c3494be69597aeb0aac4df1ef536e/manticore-0.3.8.dev230619.tar.gz
+[2023-06-20 14:49:11] INFO root fetch - processPackages [ecglib]: Downloading https://files.pythonhosted.org/packages/43/6a/708a5455bbdb6648717c0d443ffd1acbe455b1d0a5d9a63468399d21141a/ecglib-1.1.0.tar.gz
+[2023-06-20 14:49:11] INFO root fetch - processPackages [sail]: Downloading https://files.pythonhosted.org/packages/d4/af/1e1ae565d2f01c161cd701954e9d698aec506b4d42086bcb30d93ec851fd/sail-0.2.0-py3-none-any.whl
+[2023-06-20 14:49:11] INFO root fetch - processPackages [bletl]: Downloading https://files.pythonhosted.org/packages/4b/53/4dcedc83744d29e11b5d06ffb6d78d048b75c9737443c96b181197ae4a54/bletl-1.2.2.tar.gz
+[2023-06-20 14:49:11] INFO root fetch - processPackages [voila-vuetify-tuwien]: Downloading https://files.pythonhosted.org/packages/98/1d/66ed54d672611d915eb49459a31e5e665e656fa918a886afbc7b45f3a251/voila-vuetify-tuwien-0.6.0.tar.gz
+[2023-06-20 14:49:11] INFO root fetch - processPackages [nanolsap]: Downloading https://files.pythonhosted.org/packages/22/71/c89264aedfdeee7d07bf3be4f13de0702b72ecf4f1dd8c0e2599e7f8fb0b/nanolsap-0.0.1.tar.gz
+[2023-06-20 14:49:11] INFO root fetch - processPackages [xtuples]: Downloading https://files.pythonhosted.org/packages/3d/2f/e9b7b367d5f4ec93ea6478b37af04daa3005d816fc0f4d3a9cd45dff96d4/xtuples-0.0.8.tar.gz
+[2023-06-20 14:49:11] INFO root fetch - processPackages [polygphys]: Downloading https://files.pythonhosted.org/packages/81/84/20cf4516ca53076c3dc0b1af3414842f85ddc06a86d88c0ae35c3e6bf914/polygphys-4.6.9.tar.gz
+[2023-06-20 14:49:11] INFO root fetch - processPackages [d-popcorn]: Downloading https://files.pythonhosted.org/packages/13/07/d8dfd499375cffa5a0ba2a8ea0056846a483b8b3c34d8f6f638aecffdae9/d-popcorn-1.1.0.tar.gz
+[2023-06-20 14:49:11] INFO root fetch - processPackages [ecglib]: Downloading https://files.pythonhosted.org/packages/51/b6/0128f2f49c57d93a74d63eedaf4e9fab2257f026d0c3fd80c0db601f0637/ecglib-1.1.1.tar.gz
+[2023-06-20 14:49:11] INFO root fetch - processPackages [voila-vuetify-tuwien]: Downloading https://files.pythonhosted.org/packages/4d/ba/fe0ac9a01dd6cc0c37a1fb3b978f4515d89d2963667549e83a39fef48d03/voila-vuetify-tuwien-0.6.1.tar.gz
+[2023-06-20 14:49:11] INFO root fetch - processPackages [ecglib]: executing diffoscope
+[2023-06-20 14:49:11] INFO root fetch - processPackages [ecglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecglib-1.1.0.tar.gz tmp/ecglib-1.1.1.tar.gz --markdown 20230620/e/ecglib/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-20 14:49:11] INFO root fetch - processPackages [nanolsap]: Downloading https://files.pythonhosted.org/packages/80/d0/8cc2457221b6425a2efa4b3e4c62d0be8aca4ae429ffeb10b69fe81007a3/nanolsap-0.1.0.tar.gz
+[2023-06-20 14:49:11] INFO root fetch - processPackages [sail]: Downloading https://files.pythonhosted.org/packages/9b/d2/c32e3c5acea729d8ee7e0cc26db02c0bae9a82cdb0e6e160696ca6e0bd37/sail-0.3.1.tar.gz
+[2023-06-20 14:49:11] INFO root fetch - processPackages [polygphys]: Downloading https://files.pythonhosted.org/packages/e0/55/61a7b3488ffbe1fb2a45dc05fbf7dfe2dad06ad7615dc8e635f1bd06f401/polygphys-6.0.5.tar.gz
+[2023-06-20 14:49:11] INFO root fetch - processPackages [xtuples]: Downloading https://files.pythonhosted.org/packages/81/64/c67849e48f3e6d2ffd3a7c33be342c9685e357f3748265d65df98dbb9ed4/xtuples-0.0.9.tar.gz
+[2023-06-20 14:49:11] INFO root fetch - processPackages [bletl]: Downloading https://files.pythonhosted.org/packages/28/11/e6f3324fb42dc1b3bc2dd7c3496c7ace422469a4ba7284a7fdedb329fbea/bletl-1.3.1.tar.gz
+[2023-06-20 14:49:11] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/71/c2/516baf76754d04b4708d2a797f3d38debe7906e10b68b0fba25e9fb80686/manticore-0.3.8.dev230620.tar.gz
+[2023-06-20 14:49:11] INFO root fetch - processPackages [voila-vuetify-tuwien]: executing diffoscope
+[2023-06-20 14:49:11] INFO root fetch - processPackages [voila-vuetify-tuwien]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voila-vuetify-tuwien-0.6.0.tar.gz tmp/voila-vuetify-tuwien-0.6.1.tar.gz --markdown 20230620/v/voila-vuetify-tuwien/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-20 14:49:11] INFO root fetch - processPackages [nanolsap]: executing diffoscope
+[2023-06-20 14:49:11] INFO root fetch - processPackages [nanolsap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanolsap-0.0.1.tar.gz tmp/nanolsap-0.1.0.tar.gz --markdown 20230620/n/nanolsap/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-20 14:49:11] INFO root fetch - processPackages [xtuples]: executing diffoscope
+[2023-06-20 14:49:11] INFO root fetch - processPackages [sail]: executing diffoscope
+[2023-06-20 14:49:11] INFO root fetch - processPackages [xtuples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtuples-0.0.8.tar.gz tmp/xtuples-0.0.9.tar.gz --markdown 20230620/x/xtuples/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 14:49:11] INFO root fetch - processPackages [sail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sail-0.2.0-py3-none-any.whl.zip tmp/sail-0.3.1.tar.gz --markdown 20230620/s/sail/0.2.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-20 14:49:11] INFO root fetch - processPackages [polygphys]: executing diffoscope
+[2023-06-20 14:49:11] INFO root fetch - processPackages [bletl]: executing diffoscope
+[2023-06-20 14:49:11] INFO root fetch - processPackages [polygphys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polygphys-4.6.9.tar.gz tmp/polygphys-6.0.5.tar.gz --markdown 20230620/p/polygphys/4.6.9-6.0.5/diff.md --exclude *.pyd
+[2023-06-20 14:49:11] INFO root fetch - processPackages [bletl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bletl-1.2.2.tar.gz tmp/bletl-1.3.1.tar.gz --markdown 20230620/b/bletl/1.2.2-1.3.1/diff.md --exclude *.pyd
+[2023-06-20 14:49:11] INFO root fetch - processPackages [d-popcorn]: Downloading https://files.pythonhosted.org/packages/1e/1d/31632311b92e8fc4a1ad568c840d5eb4012e54cd5a5f603980de840a8dd7/d-popcorn-1.1.2.tar.gz
+[2023-06-20 14:49:11] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-06-20 14:49:11] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230619.tar.gz tmp/manticore-0.3.8.dev230620.tar.gz --markdown 20230620/m/manticore/0.3.8.dev230619-0.3.8.dev230620/diff.md --exclude *.pyd
+[2023-06-20 14:49:11] INFO root fetch - processPackages [d-popcorn]: executing diffoscope
+[2023-06-20 14:49:11] INFO root fetch - processPackages [d-popcorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d-popcorn-1.1.0.tar.gz tmp/d-popcorn-1.1.2.tar.gz --markdown 20230620/d/d-popcorn/1.1.0-1.1.2/diff.md --exclude *.pyd
+[2023-06-20 14:49:13] INFO root fetch - processPackages [ecglib]: Remove: archive file [/home/abi/fetcher/tmp/ecglib-1.1.0.tar.gz]
+[2023-06-20 14:49:13] INFO root fetch - processPackages [ecglib]: Remove: archive file [/home/abi/fetcher/tmp/ecglib-1.1.1.tar.gz]
+[2023-06-20 14:49:13] INFO root fetch - main [MainThread]: End processing [ecglib]: success
+[2023-06-20 14:49:13] INFO root fetch - processPackages [voila-vuetify-tuwien]: Remove: archive file [/home/abi/fetcher/tmp/voila-vuetify-tuwien-0.6.0.tar.gz]
+[2023-06-20 14:49:13] INFO root fetch - processPackages [voila-vuetify-tuwien]: Remove: archive file [/home/abi/fetcher/tmp/voila-vuetify-tuwien-0.6.1.tar.gz]
+[2023-06-20 14:49:13] INFO root fetch - main [MainThread]: End processing [voila-vuetify-tuwien]: success
+[2023-06-20 14:49:13] INFO root fetch - processPackages [nanolsap]: Remove: archive file [/home/abi/fetcher/tmp/nanolsap-0.0.1.tar.gz]
+[2023-06-20 14:49:13] INFO root fetch - processPackages [nanolsap]: Remove: archive file [/home/abi/fetcher/tmp/nanolsap-0.1.0.tar.gz]
+[2023-06-20 14:49:13] INFO root fetch - main [MainThread]: End processing [nanolsap]: success
+[2023-06-20 14:49:13] INFO root fetch - processPackages [sail]: Remove: archive file [/home/abi/fetcher/tmp/sail-0.2.0-py3-none-any.whl.zip]
+[2023-06-20 14:49:13] INFO root fetch - processPackages [sail]: Remove: archive file [/home/abi/fetcher/tmp/sail-0.3.1.tar.gz]
+[2023-06-20 14:49:13] INFO root fetch - main [MainThread]: End processing [sail]: success
+[2023-06-20 14:49:13] INFO root fetch - processPackages [d-popcorn]: Remove: archive file [/home/abi/fetcher/tmp/d-popcorn-1.1.0.tar.gz]
+[2023-06-20 14:49:13] INFO root fetch - processPackages [d-popcorn]: Remove: archive file [/home/abi/fetcher/tmp/d-popcorn-1.1.2.tar.gz]
+[2023-06-20 14:49:13] INFO root fetch - main [MainThread]: End processing [d-popcorn]: success
+[2023-06-20 14:49:13] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230619.tar.gz]
+[2023-06-20 14:49:13] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230620.tar.gz]
+[2023-06-20 14:49:13] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-06-20 14:49:13] INFO root fetch - processPackages [bletl]: Remove: archive file [/home/abi/fetcher/tmp/bletl-1.2.2.tar.gz]
+[2023-06-20 14:49:13] INFO root fetch - processPackages [bletl]: Remove: archive file [/home/abi/fetcher/tmp/bletl-1.3.1.tar.gz]
+[2023-06-20 14:49:13] INFO root fetch - main [MainThread]: End processing [bletl]: success
+[2023-06-20 14:49:14] INFO root fetch - processPackages [polygphys]: Remove: archive file [/home/abi/fetcher/tmp/polygphys-4.6.9.tar.gz]
+[2023-06-20 14:49:14] INFO root fetch - processPackages [polygphys]: Remove: archive file [/home/abi/fetcher/tmp/polygphys-6.0.5.tar.gz]
+[2023-06-20 14:49:14] INFO root fetch - main [MainThread]: End processing [polygphys]: success
+[2023-06-20 14:49:14] INFO root fetch - processPackages [xtuples]: Remove: archive file [/home/abi/fetcher/tmp/xtuples-0.0.8.tar.gz]
+[2023-06-20 14:49:14] INFO root fetch - processPackages [xtuples]: Remove: archive file [/home/abi/fetcher/tmp/xtuples-0.0.9.tar.gz]
+[2023-06-20 14:49:14] INFO root fetch - main [MainThread]: End processing [xtuples]: success
+[2023-06-20 14:49:14] INFO root fetch - main [MainThread]: Store serial: [18574891]
