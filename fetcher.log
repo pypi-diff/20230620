@@ -11887,3 +11887,65 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 06:59:23] INFO root fetch - processPackages [pyRotd]: Remove: archive file [/home/abi/fetcher/tmp/pyRotd-0.6.0.tar.gz]
 [2023-06-20 06:59:23] INFO root fetch - main [MainThread]: End processing [pyRotd]: success
 [2023-06-20 06:59:23] INFO root fetch - main [MainThread]: Store serial: [18570110]
+[2023-06-20 07:04:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570110]
+[2023-06-20 07:04:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-20 07:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ahoy-dtu-webthing
+[2023-06-20 07:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-categories-plugin
+[2023-06-20 07:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-al
+[2023-06-20 07:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vcr-langchain
+[2023-06-20 07:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: preprocessing-pgp
+[2023-06-20 07:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Djblets
+[2023-06-20 07:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ane
+[2023-06-20 07:04:32] INFO root fetch - processPackages [nonebot-plugin-al]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-20 07:04:32] INFO root fetch - processPackages [ane]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-20 07:04:32] INFO root fetch - processPackages [ahoy-dtu-webthing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 07:04:32] INFO root fetch - processPackages [Djblets]: New version: [3.3] Old Version: [3.2]
+[2023-06-20 07:04:32] INFO root fetch - processPackages [mkdocs-categories-plugin]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-20 07:04:32] INFO root fetch - processPackages [vcr-langchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 07:04:32] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post9.dev7] Old Version: [0.2.9.post8.dev7]
+[2023-06-20 07:04:32] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/71/37/39931535f722c6ab0eb4b4b77e9aaba52e838d41a1ec5f3795d1cc3ecadb/nonebot_plugin_al-0.3.1.tar.gz
+[2023-06-20 07:04:32] INFO root fetch - processPackages [ahoy-dtu-webthing]: Downloading https://files.pythonhosted.org/packages/80/54/2e5ff8e3d767e8b376bd24c9b6ae7c06e3727aa9b6ec0661fd4cd8431b38/ahoy_dtu_webthing-0.0.8.tar.gz
+[2023-06-20 07:04:32] INFO root fetch - processPackages [Djblets]: Downloading https://files.pythonhosted.org/packages/2e/f9/d1fcc842dfaa4f06c912fa12d08ea4a37f8c6cbd2caf9fe7948c9a12a83d/Djblets-3.2.tar.gz
+[2023-06-20 07:04:33] INFO root fetch - processPackages [ahoy-dtu-webthing]: Downloading https://files.pythonhosted.org/packages/63/7c/6bf2d1367f715c75322425c8402ee044b85d6a04e1d1970512c487d15226/ahoy_dtu_webthing-0.0.9.tar.gz
+[2023-06-20 07:04:33] INFO root fetch - processPackages [vcr-langchain]: Downloading https://files.pythonhosted.org/packages/5f/21/7e537b7c4bd9033bb7d2e64c9b1fa8441737278706c814c0efff22c2cf5a/vcr_langchain-0.0.8.tar.gz
+[2023-06-20 07:04:33] INFO root fetch - processPackages [ane]: Downloading https://files.pythonhosted.org/packages/cd/6e/5b81285e749f1ac99ed90c8df1ae74db2afcf4fdabaa136cb2bcd2a722e5/ane-1.0.5-py3.10.egg
+[2023-06-20 07:04:33] INFO root fetch - processPackages [mkdocs-categories-plugin]: Downloading https://files.pythonhosted.org/packages/cf/18/e181f587e41a8be2ea656f73e3bc8812fab81938b987c54e4628422eb3af/mkdocs-categories-plugin-0.3.0.tar.gz
+[2023-06-20 07:04:33] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/a9/1b/319352b361b9b01f65b5b0dca86df4dc3e5f06b995022ef3976f71acd45d/preprocessing-pgp-0.2.9.post8.dev7.tar.gz
+[2023-06-20 07:04:33] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857923>=10485760
+[2023-06-20 07:04:33] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-06-20 07:04:33] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/61/20/816789fc6657586cbab07583728d6936f6db95e453930c6ef6b42be0506f/nonebot_plugin_al-0.3.2.tar.gz
+[2023-06-20 07:04:33] INFO root fetch - processPackages [ahoy-dtu-webthing]: executing diffoscope
+[2023-06-20 07:04:33] INFO root fetch - processPackages [ahoy-dtu-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahoy_dtu_webthing-0.0.8.tar.gz tmp/ahoy_dtu_webthing-0.0.9.tar.gz --markdown 20230620/a/ahoy-dtu-webthing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 07:04:33] INFO root fetch - processPackages [nonebot-plugin-al]: executing diffoscope
+[2023-06-20 07:04:33] INFO root fetch - processPackages [nonebot-plugin-al]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_al-0.3.1.tar.gz tmp/nonebot_plugin_al-0.3.2.tar.gz --markdown 20230620/n/nonebot-plugin-al/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-20 07:04:33] INFO root fetch - processPackages [vcr-langchain]: Downloading https://files.pythonhosted.org/packages/97/8f/f07337a3f46ccc9c3e3142a0c4a5070d5315476f1894d5a7003418d29249/vcr_langchain-0.0.9.tar.gz
+[2023-06-20 07:04:33] INFO root fetch - processPackages [ane]: Downloading https://files.pythonhosted.org/packages/ec/ff/d1b18f93e71bfb215014bc67c07b2761e899bcbd5e93d31a19a2839fb8dd/ane-1.0.6-py3.11.egg
+[2023-06-20 07:04:33] INFO root fetch - processPackages [mkdocs-categories-plugin]: Downloading https://files.pythonhosted.org/packages/d2/ad/03195950124d94819fb11b6bd231135ba6f73618b124198bef55b27ceed8/mkdocs-categories-plugin-0.4.0.tar.gz
+[2023-06-20 07:04:33] INFO root fetch - processPackages [ane]: executing diffoscope
+[2023-06-20 07:04:33] INFO root fetch - processPackages [ane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ane-1.0.5-py3.10.egg tmp/ane-1.0.6-py3.11.egg --markdown 20230620/a/ane/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-20 07:04:33] INFO root fetch - processPackages [Djblets]: Downloading https://files.pythonhosted.org/packages/e9/1e/5ba7fa7f19099bab22618e9633735ab92f67fb89cdfeafbaf9ee65a2ce9a/Djblets-3.3.tar.gz
+[2023-06-20 07:04:33] INFO root fetch - processPackages [vcr-langchain]: executing diffoscope
+[2023-06-20 07:04:33] INFO root fetch - processPackages [vcr-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcr_langchain-0.0.8.tar.gz tmp/vcr_langchain-0.0.9.tar.gz --markdown 20230620/v/vcr-langchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 07:04:33] INFO root fetch - processPackages [Djblets]: executing diffoscope
+[2023-06-20 07:04:33] INFO root fetch - processPackages [Djblets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Djblets-3.2.tar.gz tmp/Djblets-3.3.tar.gz --markdown 20230620/D/Djblets/3.2-3.3/diff.md --exclude *.pyd
+[2023-06-20 07:04:33] INFO root fetch - processPackages [mkdocs-categories-plugin]: executing diffoscope
+[2023-06-20 07:04:33] INFO root fetch - processPackages [mkdocs-categories-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-categories-plugin-0.3.0.tar.gz tmp/mkdocs-categories-plugin-0.4.0.tar.gz --markdown 20230620/m/mkdocs-categories-plugin/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-20 07:04:34] INFO root fetch - processPackages [ahoy-dtu-webthing]: Remove: archive file [/home/abi/fetcher/tmp/ahoy_dtu_webthing-0.0.8.tar.gz]
+[2023-06-20 07:04:34] INFO root fetch - processPackages [ahoy-dtu-webthing]: Remove: archive file [/home/abi/fetcher/tmp/ahoy_dtu_webthing-0.0.9.tar.gz]
+[2023-06-20 07:04:34] INFO root fetch - main [MainThread]: End processing [ahoy-dtu-webthing]: success
+[2023-06-20 07:04:34] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.3.1.tar.gz]
+[2023-06-20 07:04:34] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.3.2.tar.gz]
+[2023-06-20 07:04:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-al]: success
+[2023-06-20 07:04:34] INFO root fetch - processPackages [ane]: Remove: archive file [/home/abi/fetcher/tmp/ane-1.0.5-py3.10.egg]
+[2023-06-20 07:04:34] INFO root fetch - processPackages [ane]: Remove: archive file [/home/abi/fetcher/tmp/ane-1.0.6-py3.11.egg]
+[2023-06-20 07:04:34] INFO root fetch - main [MainThread]: End processing [ane]: success
+[2023-06-20 07:04:34] INFO root fetch - processPackages [mkdocs-categories-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-categories-plugin-0.3.0.tar.gz]
+[2023-06-20 07:04:34] INFO root fetch - processPackages [mkdocs-categories-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-categories-plugin-0.4.0.tar.gz]
+[2023-06-20 07:04:34] INFO root fetch - main [MainThread]: End processing [mkdocs-categories-plugin]: success
+[2023-06-20 07:04:34] INFO root fetch - processPackages [vcr-langchain]: Remove: archive file [/home/abi/fetcher/tmp/vcr_langchain-0.0.8.tar.gz]
+[2023-06-20 07:04:34] INFO root fetch - processPackages [vcr-langchain]: Remove: archive file [/home/abi/fetcher/tmp/vcr_langchain-0.0.9.tar.gz]
+[2023-06-20 07:04:34] INFO root fetch - main [MainThread]: End processing [vcr-langchain]: success
+[2023-06-20 07:04:49] INFO root fetch - processPackages [Djblets]: Remove: archive file [/home/abi/fetcher/tmp/Djblets-3.2.tar.gz]
+[2023-06-20 07:04:49] INFO root fetch - processPackages [Djblets]: Remove: archive file [/home/abi/fetcher/tmp/Djblets-3.3.tar.gz]
+[2023-06-20 07:04:49] INFO root fetch - main [MainThread]: End processing [Djblets]: success
+[2023-06-20 07:04:49] INFO root fetch - main [MainThread]: Store serial: [18570130]
