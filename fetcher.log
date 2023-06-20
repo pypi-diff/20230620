@@ -20797,3 +20797,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 13:29:04] INFO root fetch - processPackages [dvg-randomizer]: Remove: archive file [/home/abi/fetcher/tmp/dvg-randomizer-1.4.3.tar.gz]
 [2023-06-20 13:29:04] INFO root fetch - main [MainThread]: End processing [dvg-randomizer]: success
 [2023-06-20 13:29:04] INFO root fetch - main [MainThread]: Store serial: [18573812]
+[2023-06-20 13:34:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18573812]
+[2023-06-20 13:34:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-20 13:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-cards
+[2023-06-20 13:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-ecosystem-services
+[2023-06-20 13:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macrobond-data-api
+[2023-06-20 13:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: planiverse
+[2023-06-20 13:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bfgdealer
+[2023-06-20 13:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coplan
+[2023-06-20 13:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Denoising-Diffusion-Probabilistic-Models
+[2023-06-20 13:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eodc-faas-snap
+[2023-06-20 13:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cosupply
+[2023-06-20 13:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-cdn20180510-py2
+[2023-06-20 13:34:14] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: New version: [0.0.0.7] Old Version: [0.0.0.6]
+[2023-06-20 13:34:14] INFO root fetch - processPackages [django-cards]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-20 13:34:14] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Downloading https://files.pythonhosted.org/packages/5a/c0/9eb8e3ff215c983472870aa3459bb701770004d9f4b2256d5e4dec571a89/Denoising_Diffusion_Probabilistic_Models-0.0.0.6-py3-none-any.whl
+[2023-06-20 13:34:14] INFO root fetch - processPackages [django-cards]: Downloading https://files.pythonhosted.org/packages/91/cc/a233acea65731ff053ec23cb7f3136fd672a7886c6add38a0e407e943893/django-cards-0.9.2.tar.gz
+[2023-06-20 13:34:14] WARNING root fetch - processPackages [planiverse]: Skipping, unable to determine old version
+[2023-06-20 13:34:14] INFO root fetch - main [MainThread]: End processing [planiverse] error
+[2023-06-20 13:34:14] WARNING root fetch - processPackages [coplan]: Skipping, unable to determine old version
+[2023-06-20 13:34:14] INFO root fetch - processPackages [bfgdealer]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-20 13:34:14] INFO root fetch - processPackages [macrobond-data-api]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-20 13:34:14] INFO root fetch - main [MainThread]: End processing [coplan] error
+[2023-06-20 13:34:14] WARNING root fetch - processPackages [cosupply]: Skipping, unable to determine old version
+[2023-06-20 13:34:14] INFO root fetch - processPackages [eodc-faas-snap]: New version: [2023.6.2] Old Version: [2023.6.1]
+[2023-06-20 13:34:14] INFO root fetch - main [MainThread]: End processing [cosupply] error
+[2023-06-20 13:34:14] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-20 13:34:14] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.9] Old Version: [202306.0.8]
+[2023-06-20 13:34:14] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Downloading https://files.pythonhosted.org/packages/47/c1/5ca9fcbc4f18111b28f4e4eeb7267b72cba9a46187d4628a023722239836/Denoising_Diffusion_Probabilistic_Models-0.0.0.7-py3-none-any.whl
+[2023-06-20 13:34:14] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: executing diffoscope
+[2023-06-20 13:34:14] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.6-py3-none-any.whl.zip tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.7-py3-none-any.whl.zip --markdown 20230620/D/Denoising-Diffusion-Probabilistic-Models/0.0.0.6-0.0.0.7/diff.md --exclude *.pyd
+[2023-06-20 13:34:14] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/5b/e5/329ad7107804869b21f1700513b8e7aa238a41800ba93be76f705a552922/data_ecosystem_services-202306.0.8.tar.gz
+[2023-06-20 13:34:14] INFO root fetch - processPackages [bfgdealer]: Downloading https://files.pythonhosted.org/packages/61/a3/4682ba8cafa8949238be1174426795984b4eaeff6e0e97d010f9d35fa4d5/bfgdealer-0.0.6.tar.gz
+[2023-06-20 13:34:14] INFO root fetch - processPackages [macrobond-data-api]: Downloading https://files.pythonhosted.org/packages/f5/e9/6368629694f96e438321e5f0b86cbcaf5354676febba2405c6ed13810c39/macrobond-data-api-1.0.6.tar.gz
+[2023-06-20 13:34:14] INFO root fetch - processPackages [django-cards]: Downloading https://files.pythonhosted.org/packages/e6/db/fc25f3dbb28d4f7f5e6cde2cf2edc65f5b0ffa2a7da79923ebfe75197685/django-cards-0.9.3.tar.gz
+[2023-06-20 13:34:14] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Downloading https://files.pythonhosted.org/packages/35/ef/434de7cfc6944271044d56580cb478a0d5ac2d1134625c5f619618723fc4/alibabacloud_cdn20180510_py2-1.2.8.tar.gz
+[2023-06-20 13:34:14] INFO root fetch - processPackages [eodc-faas-snap]: Downloading https://files.pythonhosted.org/packages/89/42/9882cbfafaa644229931871d2981d3a1740cb81cd3fcb20f17cd722b1470/eodc_faas_snap-2023.6.1.tar.gz
+[2023-06-20 13:34:14] INFO root fetch - processPackages [django-cards]: executing diffoscope
+[2023-06-20 13:34:14] INFO root fetch - processPackages [django-cards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cards-0.9.2.tar.gz tmp/django-cards-0.9.3.tar.gz --markdown 20230620/d/django-cards/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-20 13:34:14] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/50/ac/43dfcb08ca1891fb933a120355556d4bab09da2bfb6a923d470f7628cbcf/data_ecosystem_services-202306.0.9.tar.gz
+[2023-06-20 13:34:14] INFO root fetch - processPackages [bfgdealer]: Downloading https://files.pythonhosted.org/packages/f0/7f/5ef164bd29fdae8d025e78d67556c0c88c3f331a61ac60decc455b275a0d/bfgdealer-0.0.7.tar.gz
+[2023-06-20 13:34:14] INFO root fetch - processPackages [eodc-faas-snap]: Downloading https://files.pythonhosted.org/packages/2b/01/1556217723ab5b3269b1f03f6ac8bb8d6dadd3a2d15433e39b4d34d920df/eodc_faas_snap-2023.6.2.tar.gz
+[2023-06-20 13:34:14] INFO root fetch - processPackages [macrobond-data-api]: Downloading https://files.pythonhosted.org/packages/4d/f3/55398f6b6ff43cfb55f0acc08357eaecffdb9160411d3a56979986b4ccbd/macrobond-data-api-1.0.7.tar.gz
+[2023-06-20 13:34:14] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Downloading https://files.pythonhosted.org/packages/c0/ab/4534fca9a4233612688ff128425b4cb3ed491595e204a4732512452a2096/alibabacloud_cdn20180510_py2-1.2.9.tar.gz
+[2023-06-20 13:34:14] INFO root fetch - processPackages [bfgdealer]: executing diffoscope
+[2023-06-20 13:34:14] INFO root fetch - processPackages [bfgdealer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfgdealer-0.0.6.tar.gz tmp/bfgdealer-0.0.7.tar.gz --markdown 20230620/b/bfgdealer/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-20 13:34:14] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-20 13:34:14] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.8.tar.gz tmp/data_ecosystem_services-202306.0.9.tar.gz --markdown 20230620/d/data-ecosystem-services/202306.0.8-202306.0.9/diff.md --exclude *.pyd
+[2023-06-20 13:34:15] INFO root fetch - processPackages [eodc-faas-snap]: executing diffoscope
+[2023-06-20 13:34:15] INFO root fetch - processPackages [eodc-faas-snap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_snap-2023.6.1.tar.gz tmp/eodc_faas_snap-2023.6.2.tar.gz --markdown 20230620/e/eodc-faas-snap/2023.6.1-2023.6.2/diff.md --exclude *.pyd
+[2023-06-20 13:34:15] INFO root fetch - processPackages [macrobond-data-api]: executing diffoscope
+[2023-06-20 13:34:15] INFO root fetch - processPackages [macrobond-data-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrobond-data-api-1.0.6.tar.gz tmp/macrobond-data-api-1.0.7.tar.gz --markdown 20230620/m/macrobond-data-api/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-20 13:34:15] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Remove: archive file [/home/abi/fetcher/tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.6-py3-none-any.whl.zip]
+[2023-06-20 13:34:15] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Remove: archive file [/home/abi/fetcher/tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.7-py3-none-any.whl.zip]
+[2023-06-20 13:34:15] INFO root fetch - main [MainThread]: End processing [Denoising-Diffusion-Probabilistic-Models]: success
+[2023-06-20 13:34:15] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: executing diffoscope
+[2023-06-20 13:34:15] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cdn20180510_py2-1.2.8.tar.gz tmp/alibabacloud_cdn20180510_py2-1.2.9.tar.gz --markdown 20230620/a/alibabacloud-cdn20180510-py2/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-20 13:34:16] INFO root fetch - processPackages [bfgdealer]: Remove: archive file [/home/abi/fetcher/tmp/bfgdealer-0.0.6.tar.gz]
+[2023-06-20 13:34:16] INFO root fetch - processPackages [bfgdealer]: Remove: archive file [/home/abi/fetcher/tmp/bfgdealer-0.0.7.tar.gz]
+[2023-06-20 13:34:16] INFO root fetch - main [MainThread]: End processing [bfgdealer]: success
+[2023-06-20 13:34:16] INFO root fetch - processPackages [eodc-faas-snap]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_snap-2023.6.1.tar.gz]
+[2023-06-20 13:34:16] INFO root fetch - processPackages [eodc-faas-snap]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_snap-2023.6.2.tar.gz]
+[2023-06-20 13:34:16] INFO root fetch - main [MainThread]: End processing [eodc-faas-snap]: success
+[2023-06-20 13:34:16] INFO root fetch - processPackages [django-cards]: Remove: archive file [/home/abi/fetcher/tmp/django-cards-0.9.2.tar.gz]
+[2023-06-20 13:34:16] INFO root fetch - processPackages [django-cards]: Remove: archive file [/home/abi/fetcher/tmp/django-cards-0.9.3.tar.gz]
+[2023-06-20 13:34:16] INFO root fetch - main [MainThread]: End processing [django-cards]: success
+[2023-06-20 13:34:16] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.8.tar.gz]
+[2023-06-20 13:34:16] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
+[2023-06-20 13:34:16] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-20 13:34:18] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cdn20180510_py2-1.2.8.tar.gz]
+[2023-06-20 13:34:18] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cdn20180510_py2-1.2.9.tar.gz]
+[2023-06-20 13:34:18] INFO root fetch - main [MainThread]: End processing [alibabacloud-cdn20180510-py2]: success
+[2023-06-20 13:34:18] INFO root fetch - processPackages [macrobond-data-api]: Remove: archive file [/home/abi/fetcher/tmp/macrobond-data-api-1.0.6.tar.gz]
+[2023-06-20 13:34:18] INFO root fetch - processPackages [macrobond-data-api]: Remove: archive file [/home/abi/fetcher/tmp/macrobond-data-api-1.0.7.tar.gz]
+[2023-06-20 13:34:18] INFO root fetch - main [MainThread]: End processing [macrobond-data-api]: success
+[2023-06-20 13:34:18] INFO root fetch - main [MainThread]: Store serial: [18573852]
