@@ -6446,3 +6446,128 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 03:38:50] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
 [2023-06-20 03:38:50] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
 [2023-06-20 03:38:50] INFO root fetch - main [MainThread]: Store serial: [18568254]
+[2023-06-20 03:43:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18568254]
+[2023-06-20 03:43:59] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-20 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-scipy
+[2023-06-20 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hdx-python-api
+[2023-06-20 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xenoslib
+[2023-06-20 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-sphinx
+[2023-06-20 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fuckery
+[2023-06-20 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proactive
+[2023-06-20 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bioregistry
+[2023-06-20 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-wordpress
+[2023-06-20 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proconip
+[2023-06-20 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proactive-jupyter-kernel
+[2023-06-20 03:43:59] INFO root fetch - processPackages [proconip]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-06-20 03:43:59] INFO root fetch - processPackages [fuckery]: New version: [0.7.2] Old Version: [0.6.0]
+[2023-06-20 03:43:59] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-20 03:43:59] INFO root fetch - processPackages [xenoslib]: New version: [0.1.29.1] Old Version: [0.1.29.0]
+[2023-06-20 03:43:59] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-20 03:43:59] INFO root fetch - processPackages [hdx-python-api]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-06-20 03:43:59] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-20 03:44:00] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-20 03:44:00] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-20 03:44:00] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-20 03:44:00] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-20 03:44:00] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-20 03:44:00] INFO root fetch - processPackages [hdx-python-api]: Downloading https://files.pythonhosted.org/packages/3d/5d/9f290f6c0941e3d4850556b4c10bae8e451adf02243c1b680f9a392634a1/hdx-python-api-6.0.1.tar.gz
+[2023-06-20 03:44:00] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-06-20 03:44:00] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-06-20 03:44:00] INFO root fetch - processPackages [proconip]: Downloading https://files.pythonhosted.org/packages/a8/87/f7257e1594b8fb6fa04e1f366b651464959cdbe2a620a952ecaf988bdbfb/proconip-1.2.5.tar.gz
+[2023-06-20 03:44:00] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-06-20 03:44:00] INFO root fetch - processPackages [fuckery]: Downloading https://files.pythonhosted.org/packages/b3/62/e5682664662e44af355dc3da46739165f16fef9c4fddccae100c74bd2919/fuckery-0.6.0.tar.gz
+[2023-06-20 03:44:00] INFO root fetch - processPackages [xenoslib]: Downloading https://files.pythonhosted.org/packages/22/3f/98df52def78b7b4c2700987d2a706682356f8135405eecb647eccb596195/xenoslib-0.1.29.0.tar.gz
+[2023-06-20 03:44:00] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-20 03:44:00] INFO root fetch - processPackages [proactive]: Start processing: nbdev-django
+[2023-06-20 03:44:00] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-20 03:44:00] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-06-20 03:44:00] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-20 03:44:00] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-06-20 03:44:00] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-06-20 03:44:00] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-20 03:44:00] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-06-20 03:44:00] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-20 03:44:00] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-06-20 03:44:00] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230620/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-20 03:44:00] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230620/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 03:44:00] INFO root fetch - processPackages [proconip]: Downloading https://files.pythonhosted.org/packages/01/d5/8826391be1faeebb8dfd5b1bd145d314bc6f8baceb0f53909a46c691f59c/proconip-1.2.6.tar.gz
+[2023-06-20 03:44:00] INFO root fetch - processPackages [hdx-python-api]: Downloading https://files.pythonhosted.org/packages/f2/38/bf6720078b114688879bf5c2bee64f6fa330fa66ef01ae1c6598e1ee71f1/hdx-python-api-6.0.2.tar.gz
+[2023-06-20 03:44:00] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-20 03:44:00] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230620/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 03:44:00] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-20 03:44:00] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230620/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 03:44:00] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-20 03:44:00] INFO root fetch - processPackages [proconip]: executing diffoscope
+[2023-06-20 03:44:00] INFO root fetch - processPackages [proconip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proconip-1.2.5.tar.gz tmp/proconip-1.2.6.tar.gz --markdown 20230620/p/proconip/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-06-20 03:44:00] INFO root fetch - processPackages [hdx-python-api]: executing diffoscope
+[2023-06-20 03:44:00] INFO root fetch - processPackages [hdx-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx-python-api-6.0.1.tar.gz tmp/hdx-python-api-6.0.2.tar.gz --markdown 20230620/h/hdx-python-api/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-06-20 03:44:00] INFO root fetch - processPackages [fuckery]: Downloading https://files.pythonhosted.org/packages/99/41/ecc5777bc8933f2a87634261710908b4a0c5fdb46be39e7aba5d056107d0/fuckery-0.7.2.tar.gz
+[2023-06-20 03:44:00] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-20 03:44:00] INFO root fetch - processPackages [xenoslib]: Downloading https://files.pythonhosted.org/packages/49/85/d3558f65ad926d27eb69a38f390e64a25b75ce49188603b1a59440684fb3/xenoslib-0.1.29.1.tar.gz
+[2023-06-20 03:44:00] INFO root fetch - processPackages [xenoslib]: executing diffoscope
+[2023-06-20 03:44:00] INFO root fetch - processPackages [xenoslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xenoslib-0.1.29.0.tar.gz tmp/xenoslib-0.1.29.1.tar.gz --markdown 20230620/x/xenoslib/0.1.29.0-0.1.29.1/diff.md --exclude *.pyd
+[2023-06-20 03:44:00] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-20 03:44:00] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230620/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 03:44:00] INFO root fetch - processPackages [fuckery]: executing diffoscope
+[2023-06-20 03:44:00] INFO root fetch - processPackages [fuckery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuckery-0.6.0.tar.gz tmp/fuckery-0.7.2.tar.gz --markdown 20230620/f/fuckery/0.6.0-0.7.2/diff.md --exclude *.pyd
+[2023-06-20 03:44:01] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-06-20 03:44:01] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-06-20 03:44:01] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-06-20 03:44:01] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: nselib
+[2023-06-20 03:44:01] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-20 03:44:02] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-06-20 03:44:02] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-06-20 03:44:02] INFO root fetch - processPackages [cdk-wordpress]: Start processing: hopara
+[2023-06-20 03:44:02] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-06-20 03:44:02] INFO root fetch - processPackages [nselib]: New version: [0.4] Old Version: [0.3]
+[2023-06-20 03:44:02] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-06-20 03:44:02] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-06-20 03:44:02] INFO root fetch - processPackages [proactive-jupyter-kernel]: Start processing: nbdev-apl
+[2023-06-20 03:44:02] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-20 03:44:02] INFO root fetch - processPackages [nselib]: Downloading https://files.pythonhosted.org/packages/4c/a1/88b4e53a0107e0c0692794acff788c2974d4f1d156ed07e23dc9013a6d0f/nselib-0.3.tar.gz
+[2023-06-20 03:44:02] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.844] Old Version: [0.0.843]
+[2023-06-20 03:44:02] INFO root fetch - processPackages [hopara]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-20 03:44:02] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/85/3a/4b8c5e17f8865bdb8d28107b0c12c17ce2c5600a209964acfd1f9fe81d97/nbdev-apl-0.0.843.tar.gz
+[2023-06-20 03:44:02] INFO root fetch - processPackages [proconip]: Remove: archive file [/home/abi/fetcher/tmp/proconip-1.2.5.tar.gz]
+[2023-06-20 03:44:02] INFO root fetch - processPackages [proconip]: Remove: archive file [/home/abi/fetcher/tmp/proconip-1.2.6.tar.gz]
+[2023-06-20 03:44:02] INFO root fetch - main [MainThread]: End processing [proconip]: success
+[2023-06-20 03:44:02] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-20 03:44:02] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-20 03:44:02] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-20 03:44:02] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/2d/d4/fd6281a74aa8130a3d9ef54a65c7f6889e51a8fb9ba1ea59ddb5825705da/nbdev-apl-0.0.844.tar.gz
+[2023-06-20 03:44:02] INFO root fetch - processPackages [nselib]: Downloading https://files.pythonhosted.org/packages/81/d4/3747f161275aa1f9d0acbcd017e3031459132da4f2af9c5af4963b4226e4/nselib-0.4.tar.gz
+[2023-06-20 03:44:02] INFO root fetch - processPackages [fuckery]: Remove: archive file [/home/abi/fetcher/tmp/fuckery-0.6.0.tar.gz]
+[2023-06-20 03:44:02] INFO root fetch - processPackages [hopara]: Downloading https://files.pythonhosted.org/packages/4e/42/e34f499c18abdc72f134e1ead512e2199186712cea3957b597103d453a8e/hopara-1.9.0.tar.gz
+[2023-06-20 03:44:02] INFO root fetch - processPackages [fuckery]: Remove: archive file [/home/abi/fetcher/tmp/fuckery-0.7.2.tar.gz]
+[2023-06-20 03:44:02] INFO root fetch - main [MainThread]: End processing [fuckery]: success
+[2023-06-20 03:44:02] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-20 03:44:02] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.843.tar.gz tmp/nbdev-apl-0.0.844.tar.gz --markdown 20230620/n/nbdev-apl/0.0.843-0.0.844/diff.md --exclude *.pyd
+[2023-06-20 03:44:02] INFO root fetch - processPackages [nselib]: executing diffoscope
+[2023-06-20 03:44:02] INFO root fetch - processPackages [nselib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nselib-0.3.tar.gz tmp/nselib-0.4.tar.gz --markdown 20230620/n/nselib/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-20 03:44:02] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-06-20 03:44:02] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230620/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-20 03:44:02] INFO root fetch - processPackages [xenoslib]: Remove: archive file [/home/abi/fetcher/tmp/xenoslib-0.1.29.0.tar.gz]
+[2023-06-20 03:44:02] INFO root fetch - processPackages [xenoslib]: Remove: archive file [/home/abi/fetcher/tmp/xenoslib-0.1.29.1.tar.gz]
+[2023-06-20 03:44:02] INFO root fetch - main [MainThread]: End processing [xenoslib]: success
+[2023-06-20 03:44:02] INFO root fetch - processPackages [hopara]: Downloading https://files.pythonhosted.org/packages/cd/1b/1431697e799fa081ff35944b608f738199cab875e46ab08a17ff9a56da77/hopara-1.9.1.tar.gz
+[2023-06-20 03:44:02] INFO root fetch - processPackages [hopara]: executing diffoscope
+[2023-06-20 03:44:02] INFO root fetch - processPackages [hopara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hopara-1.9.0.tar.gz tmp/hopara-1.9.1.tar.gz --markdown 20230620/h/hopara/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-20 03:44:03] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-20 03:44:03] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-20 03:44:03] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-20 03:44:03] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.843.tar.gz]
+[2023-06-20 03:44:03] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.844.tar.gz]
+[2023-06-20 03:44:03] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-20 03:44:03] INFO root fetch - processPackages [nselib]: Remove: archive file [/home/abi/fetcher/tmp/nselib-0.3.tar.gz]
+[2023-06-20 03:44:03] INFO root fetch - processPackages [nselib]: Remove: archive file [/home/abi/fetcher/tmp/nselib-0.4.tar.gz]
+[2023-06-20 03:44:03] INFO root fetch - main [MainThread]: End processing [nselib]: success
+[2023-06-20 03:44:03] INFO root fetch - processPackages [hopara]: Remove: archive file [/home/abi/fetcher/tmp/hopara-1.9.0.tar.gz]
+[2023-06-20 03:44:03] INFO root fetch - processPackages [hopara]: Remove: archive file [/home/abi/fetcher/tmp/hopara-1.9.1.tar.gz]
+[2023-06-20 03:44:03] INFO root fetch - main [MainThread]: End processing [hopara]: success
+[2023-06-20 03:44:05] INFO root fetch - processPackages [hdx-python-api]: Remove: archive file [/home/abi/fetcher/tmp/hdx-python-api-6.0.1.tar.gz]
+[2023-06-20 03:44:05] INFO root fetch - processPackages [hdx-python-api]: Remove: archive file [/home/abi/fetcher/tmp/hdx-python-api-6.0.2.tar.gz]
+[2023-06-20 03:44:05] INFO root fetch - main [MainThread]: End processing [hdx-python-api]: success
+[2023-06-20 03:46:01] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-06-20 03:46:01] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-06-20 03:46:01] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-06-20 03:46:01] INFO root fetch - main [MainThread]: Store serial: [18568295]
