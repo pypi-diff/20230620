@@ -12897,3 +12897,262 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 08:24:04] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230619.tar.gz]
 [2023-06-20 08:24:04] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-06-20 08:24:04] INFO root fetch - main [MainThread]: Store serial: [18570583]
+[2023-06-20 08:29:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570583]
+[2023-06-20 08:29:15] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-20 08:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-wheel1
+[2023-06-20 08:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llmopenai
+[2023-06-20 08:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylebai
+[2023-06-20 08:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neuroshape
+[2023-06-20 08:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gemgis
+[2023-06-20 08:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vbpdf
+[2023-06-20 08:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fake-bpy-module-latest
+[2023-06-20 08:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opensearch-orm
+[2023-06-20 08:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scmrepo
+[2023-06-20 08:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: neuroshape
+[2023-06-20 08:29:15] INFO root fetch - processPackages [vbpdf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 08:29:15] INFO root fetch - processPackages [neuroshape]: New version: [0.0.4.6.2] Old Version: [0.0.4.6.1]
+[2023-06-20 08:29:15] INFO root fetch - processPackages [opensearch-orm]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-20 08:29:15] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230619] Old Version: [20230618]
+[2023-06-20 08:29:15] INFO root fetch - processPackages [neuroshape]: New version: [0.0.4.6.2] Old Version: [0.0.4.6.1]
+[2023-06-20 08:29:15] INFO root fetch - processPackages [opensearch-orm]: Downloading https://files.pythonhosted.org/packages/aa/bb/ae556aff107f9d5ac9e54b7e5d31fbe913d03456a4636656d9de031eac0d/opensearch_orm-0.1.9.tar.gz
+[2023-06-20 08:29:15] INFO root fetch - processPackages [vbpdf]: Downloading https://files.pythonhosted.org/packages/f7/b7/a8b54186388ae145e2a39819f469e89d56bb9dab328e0026106cd5596fb9/vbpdf-0.1.8.tar.gz
+[2023-06-20 08:29:15] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/29/7a/bc92fa4c467d2e2e0c114847b9fdfa4a2f01a2f7a328d9142306c62b4b7e/neuroshape-0.0.4.6.1.tar.gz
+[2023-06-20 08:29:15] WARNING root fetch - processPackages [llmopenai]: Skipping, unable to determine old version
+[2023-06-20 08:29:15] INFO root fetch - processPackages [llmopenai]: Start processing: kuflow-rest
+[2023-06-20 08:29:15] INFO root fetch - main [MainThread]: End processing [llmopenai] error
+[2023-06-20 08:29:15] INFO root fetch - processPackages [pylebai]: New version: [1.1.6] Old Version: [1.1.4]
+[2023-06-20 08:29:15] INFO root fetch - processPackages [gemgis]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 08:29:15] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/29/7a/bc92fa4c467d2e2e0c114847b9fdfa4a2f01a2f7a328d9142306c62b4b7e/neuroshape-0.0.4.6.1.tar.gz
+[2023-06-20 08:29:15] WARNING root fetch - processPackages [test-wheel1]: Skipping, unable to determine old version
+[2023-06-20 08:29:15] INFO root fetch - processPackages [test-wheel1]: Start processing: kuflow-robotframework
+[2023-06-20 08:29:15] INFO root fetch - main [MainThread]: End processing [test-wheel1] error
+[2023-06-20 08:29:15] INFO root fetch - processPackages [scmrepo]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-20 08:29:15] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/2f/6f/6e83652916e059ac5d4254bfd9c7cd8fdf8d37b2c2e3770435e6ec8b546f/fake-bpy-module-latest-20230618.tar.gz
+[2023-06-20 08:29:15] INFO root fetch - processPackages [opensearch-orm]: Downloading https://files.pythonhosted.org/packages/be/29/a3aa1de5c4f5aa5f75838750092f088f58d2bc220329bc80a32d0606fc4e/opensearch_orm-0.2.0.tar.gz
+[2023-06-20 08:29:15] INFO root fetch - processPackages [kuflow-rest]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-20 08:29:15] INFO root fetch - processPackages [scmrepo]: Downloading https://files.pythonhosted.org/packages/4f/88/e72784ec9559927e405bd946b7564583973ac258aa39ae327e362b5927a2/scmrepo-1.0.3.tar.gz
+[2023-06-20 08:29:15] INFO root fetch - processPackages [vbpdf]: Downloading https://files.pythonhosted.org/packages/0e/4d/d337142ba717c2e1c455f5028fd42b0f2eef4e75b6bb25200cae085fba3f/vbpdf-0.1.9.tar.gz
+[2023-06-20 08:29:15] INFO root fetch - processPackages [kuflow-robotframework]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-20 08:29:15] INFO root fetch - processPackages [gemgis]: Downloading https://files.pythonhosted.org/packages/03/25/951b860376e75f938c833466f82b16768c51a6d957eb6e23ab9ff711753b/gemgis-1.0.8.tar.gz
+[2023-06-20 08:29:15] INFO root fetch - processPackages [pylebai]: Downloading https://files.pythonhosted.org/packages/6d/ba/bf619611c5766eb648575766fa29000c67044a81ccb5b4da84d505479c2a/pylebai-1.1.4-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-06-20 08:29:15] INFO root fetch - processPackages [opensearch-orm]: executing diffoscope
+[2023-06-20 08:29:15] INFO root fetch - processPackages [opensearch-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensearch_orm-0.1.9.tar.gz tmp/opensearch_orm-0.2.0.tar.gz --markdown 20230620/o/opensearch-orm/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-20 08:29:15] INFO root fetch - processPackages [vbpdf]: executing diffoscope
+[2023-06-20 08:29:15] INFO root fetch - processPackages [vbpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpdf-0.1.8.tar.gz tmp/vbpdf-0.1.9.tar.gz --markdown 20230620/v/vbpdf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 08:29:15] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/ff/2c/2a41e4ac531a4b5a3863b52c346c0fa77045913bfa0eccdb5eeb731190e1/neuroshape-0.0.4.6.2.tar.gz
+[2023-06-20 08:29:15] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/ff/2c/2a41e4ac531a4b5a3863b52c346c0fa77045913bfa0eccdb5eeb731190e1/neuroshape-0.0.4.6.2.tar.gz
+[2023-06-20 08:29:15] INFO root fetch - processPackages [kuflow-rest]: Downloading https://files.pythonhosted.org/packages/5a/64/8df5f9b02f0b51bffbef3d3be20ca6c1702d493b6149f7d55803b8e58008/kuflow_rest-0.6.1.tar.gz
+[2023-06-20 08:29:15] INFO root fetch - processPackages [kuflow-robotframework]: Downloading https://files.pythonhosted.org/packages/62/7d/3de1b6f20fd1fcdbc3ec3eef5516b2b3b13db1844c51fd96836a11da21e1/kuflow_robotframework-0.6.1.tar.gz
+[2023-06-20 08:29:15] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/8f/e6/0ba43f8b57d442e28a7775e827e7b371638d56da785cc0cd68419f84a9ed/fake-bpy-module-latest-20230619.tar.gz
+[2023-06-20 08:29:15] INFO root fetch - processPackages [neuroshape]: executing diffoscope
+[2023-06-20 08:29:15] INFO root fetch - processPackages [neuroshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroshape-0.0.4.6.1.tar.gz tmp/neuroshape-0.0.4.6.2.tar.gz --markdown 20230620/n/neuroshape/0.0.4.6.1-0.0.4.6.2/diff.md --exclude *.pyd
+[2023-06-20 08:29:15] INFO root fetch - processPackages [neuroshape]: executing diffoscope
+[2023-06-20 08:29:15] INFO root fetch - processPackages [neuroshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroshape-0.0.4.6.1.tar.gz tmp/neuroshape-0.0.4.6.2.tar.gz --markdown 20230620/n/neuroshape/0.0.4.6.1-0.0.4.6.2/diff.md --exclude *.pyd
+[2023-06-20 08:29:15] INFO root fetch - processPackages [scmrepo]: Downloading https://files.pythonhosted.org/packages/7e/cf/015e2bcbec0ecc29571642decc372cd8869367604ad773c5b4ef69e07801/scmrepo-1.0.4.tar.gz
+[2023-06-20 08:29:15] INFO root fetch - processPackages [gemgis]: Downloading https://files.pythonhosted.org/packages/70/48/da69eab6849e9e681ce17f2a33f57ad4d2098f43bcefea14d4d55f78258d/gemgis-1.0.9.tar.gz
+[2023-06-20 08:29:15] INFO root fetch - processPackages [pylebai]: Downloading https://files.pythonhosted.org/packages/0b/b4/ef315211ad9a50176b07280a79f61997277883f6e3b9186071070e0e2762/pylebai-1.1.6-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-06-20 08:29:15] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-06-20 08:29:15] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230618.tar.gz tmp/fake-bpy-module-latest-20230619.tar.gz --markdown 20230620/f/fake-bpy-module-latest/20230618-20230619/diff.md --exclude *.pyd
+[2023-06-20 08:29:15] INFO root fetch - processPackages [scmrepo]: executing diffoscope
+[2023-06-20 08:29:15] INFO root fetch - processPackages [scmrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scmrepo-1.0.3.tar.gz tmp/scmrepo-1.0.4.tar.gz --markdown 20230620/s/scmrepo/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-20 08:29:15] INFO root fetch - processPackages [gemgis]: executing diffoscope
+[2023-06-20 08:29:15] INFO root fetch - processPackages [gemgis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemgis-1.0.8.tar.gz tmp/gemgis-1.0.9.tar.gz --markdown 20230620/g/gemgis/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 08:29:15] INFO root fetch - processPackages [kuflow-rest]: Downloading https://files.pythonhosted.org/packages/53/2f/f0af9e261dd85987125585179ac2261ef3b13d88cb574af4d48a49fc2320/kuflow_rest-0.7.0.tar.gz
+[2023-06-20 08:29:15] INFO root fetch - processPackages [kuflow-robotframework]: Downloading https://files.pythonhosted.org/packages/5e/67/8a941310f3bf6eb2cc681edd5f05ffdef99490d4cb2199a2dafaf2e7d8eb/kuflow_robotframework-0.7.0.tar.gz
+[2023-06-20 08:29:15] INFO root fetch - processPackages [pylebai]: executing diffoscope
+[2023-06-20 08:29:15] INFO root fetch - processPackages [pylebai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylebai-1.1.4-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/pylebai-1.1.6-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230620/p/pylebai/1.1.4-1.1.6/diff.md --exclude *.pyd
+[2023-06-20 08:29:16] INFO root fetch - processPackages [kuflow-rest]: executing diffoscope
+[2023-06-20 08:29:16] INFO root fetch - processPackages [kuflow-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_rest-0.6.1.tar.gz tmp/kuflow_rest-0.7.0.tar.gz --markdown 20230620/k/kuflow-rest/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-20 08:29:16] INFO root fetch - processPackages [kuflow-robotframework]: executing diffoscope
+[2023-06-20 08:29:16] INFO root fetch - processPackages [kuflow-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_robotframework-0.6.1.tar.gz tmp/kuflow_robotframework-0.7.0.tar.gz --markdown 20230620/k/kuflow-robotframework/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-20 08:29:16] INFO root fetch - processPackages [opensearch-orm]: Remove: archive file [/home/abi/fetcher/tmp/opensearch_orm-0.1.9.tar.gz]
+[2023-06-20 08:29:16] INFO root fetch - processPackages [opensearch-orm]: Remove: archive file [/home/abi/fetcher/tmp/opensearch_orm-0.2.0.tar.gz]
+[2023-06-20 08:29:16] INFO root fetch - processPackages [opensearch-orm]: Start processing: kuflow-temporal-common
+[2023-06-20 08:29:16] INFO root fetch - main [MainThread]: End processing [opensearch-orm]: success
+[2023-06-20 08:29:16] INFO root fetch - processPackages [kuflow-temporal-common]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-20 08:29:17] INFO root fetch - processPackages [vbpdf]: Remove: archive file [/home/abi/fetcher/tmp/vbpdf-0.1.8.tar.gz]
+[2023-06-20 08:29:17] INFO root fetch - processPackages [vbpdf]: Remove: archive file [/home/abi/fetcher/tmp/vbpdf-0.1.9.tar.gz]
+[2023-06-20 08:29:17] INFO root fetch - processPackages [vbpdf]: Start processing: kuflow-temporal-activity-kuflow
+[2023-06-20 08:29:17] INFO root fetch - main [MainThread]: End processing [vbpdf]: success
+[2023-06-20 08:29:17] INFO root fetch - processPackages [kuflow-temporal-common]: Downloading https://files.pythonhosted.org/packages/25/c1/f7fcc49d944f4b4a2edafb1211e7ceefef331155d55a75c6a83d1849de3c/kuflow_temporal_common-0.6.1.tar.gz
+[2023-06-20 08:29:17] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-20 08:29:17] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.6.1.tar.gz]
+[2023-06-20 08:29:17] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.6.2.tar.gz]
+[2023-06-20 08:29:17] INFO root fetch - processPackages [neuroshape]: Start processing: kuflow-temporal-activity-robotframework
+[2023-06-20 08:29:17] INFO root fetch - main [MainThread]: End processing [neuroshape]: success
+[2023-06-20 08:29:17] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Downloading https://files.pythonhosted.org/packages/20/b5/6e9073549840d7a466258fa249e855551ca93ea1cd41c8923bbe626dfd7b/kuflow_temporal_activity_kuflow-0.6.1.tar.gz
+[2023-06-20 08:29:17] INFO root fetch - processPackages [kuflow-temporal-common]: Downloading https://files.pythonhosted.org/packages/6d/54/a87c0c127e03d6822816adcb62dd1dbe8a9f6d3b8c4acfbd39f5227cd896/kuflow_temporal_common-0.7.0.tar.gz
+[2023-06-20 08:29:17] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-20 08:29:17] INFO root fetch - processPackages [kuflow-temporal-common]: executing diffoscope
+[2023-06-20 08:29:17] INFO root fetch - processPackages [kuflow-temporal-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_common-0.6.1.tar.gz tmp/kuflow_temporal_common-0.7.0.tar.gz --markdown 20230620/k/kuflow-temporal-common/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-20 08:29:17] INFO root fetch - processPackages [kuflow-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_robotframework-0.6.1.tar.gz]
+[2023-06-20 08:29:17] INFO root fetch - processPackages [kuflow-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_robotframework-0.7.0.tar.gz]
+[2023-06-20 08:29:17] INFO root fetch - processPackages [kuflow-robotframework]: Start processing: tcompress
+[2023-06-20 08:29:17] INFO root fetch - main [MainThread]: End processing [kuflow-robotframework]: success
+[2023-06-20 08:29:17] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Downloading https://files.pythonhosted.org/packages/ce/92/8af5bc8f6f61d5cdd74186c9ecd4cda127cbb1384985fb59eedaa4806f64/kuflow_temporal_activity_kuflow-0.7.0.tar.gz
+[2023-06-20 08:29:17] WARNING root fetch - processPackages [tcompress]: Skipping, unable to determine old version
+[2023-06-20 08:29:17] INFO root fetch - processPackages [tcompress]: Start processing: certbot-dns-multi
+[2023-06-20 08:29:17] INFO root fetch - main [MainThread]: End processing [tcompress] error
+[2023-06-20 08:29:17] ERROR root fetch - processPackages [neuroshape]: Diffoscope failed: gzip: tmp/neuroshape-0.0.4.6.2.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/neuroshape-0.0.4.6.2.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-20 08:29:17] INFO root fetch - processPackages [neuroshape]: Start processing: CharmCord
+[2023-06-20 08:29:17] INFO root fetch - main [MainThread]: End processing [neuroshape] error
+[2023-06-20 08:29:17] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Downloading https://files.pythonhosted.org/packages/06/3e/d5c4665f21392e998e421b2f28368f34fee5f346df4135ccb892a513f0fe/kuflow_temporal_activity_robotframework-0.6.1.tar.gz
+[2023-06-20 08:29:17] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: executing diffoscope
+[2023-06-20 08:29:17] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_activity_kuflow-0.6.1.tar.gz tmp/kuflow_temporal_activity_kuflow-0.7.0.tar.gz --markdown 20230620/k/kuflow-temporal-activity-kuflow/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-20 08:29:17] INFO root fetch - processPackages [CharmCord]: New version: [0.18.3] Old Version: [0.17.0]
+[2023-06-20 08:29:17] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Downloading https://files.pythonhosted.org/packages/86/84/a93e07b2f60f1bc0b5feb9be38a121dac00d5e32d75b14c06de64cd5a27f/kuflow_temporal_activity_robotframework-0.7.0.tar.gz
+[2023-06-20 08:29:17] INFO root fetch - processPackages [certbot-dns-multi]: New version: [4.9.1.dev0] Old Version: [4.9.1]
+[2023-06-20 08:29:18] INFO root fetch - processPackages [CharmCord]: Downloading https://files.pythonhosted.org/packages/4e/2c/7998bf46de18444038093ab53a5f81ed299b09ff1515d72f863523923395/CharmCord-0.17.0-py3-none-any.whl
+[2023-06-20 08:29:18] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: executing diffoscope
+[2023-06-20 08:29:18] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_activity_robotframework-0.6.1.tar.gz tmp/kuflow_temporal_activity_robotframework-0.7.0.tar.gz --markdown 20230620/k/kuflow-temporal-activity-robotframework/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-20 08:29:18] INFO root fetch - processPackages [certbot-dns-multi]: Downloading https://files.pythonhosted.org/packages/cc/f4/18f66a710e1ecf267ee6643f474609f74951c84f127f2a7bb12646e8a3aa/certbot-dns-multi-4.9.1.tar.gz
+[2023-06-20 08:29:18] INFO root fetch - processPackages [CharmCord]: Downloading https://files.pythonhosted.org/packages/3f/fb/91fed1c5c2314fc1c2f04f7c0c1a1c3cac79db426d98f1132a39dcde2363/CharmCord-0.18.3-py3-none-any.whl
+[2023-06-20 08:29:18] INFO root fetch - processPackages [CharmCord]: executing diffoscope
+[2023-06-20 08:29:18] INFO root fetch - processPackages [CharmCord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CharmCord-0.17.0-py3-none-any.whl.zip tmp/CharmCord-0.18.3-py3-none-any.whl.zip --markdown 20230620/C/CharmCord/0.17.0-0.18.3/diff.md --exclude *.pyd
+[2023-06-20 08:29:18] INFO root fetch - processPackages [kuflow-temporal-common]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_common-0.6.1.tar.gz]
+[2023-06-20 08:29:18] INFO root fetch - processPackages [kuflow-temporal-common]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_common-0.7.0.tar.gz]
+[2023-06-20 08:29:18] INFO root fetch - processPackages [kuflow-temporal-common]: Start processing: ssakz
+[2023-06-20 08:29:18] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-common]: success
+[2023-06-20 08:29:18] INFO root fetch - processPackages [ssakz]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-20 08:29:18] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_kuflow-0.6.1.tar.gz]
+[2023-06-20 08:29:18] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_kuflow-0.7.0.tar.gz]
+[2023-06-20 08:29:18] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Start processing: vbpdf
+[2023-06-20 08:29:18] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-activity-kuflow]: success
+[2023-06-20 08:29:18] INFO root fetch - processPackages [certbot-dns-multi]: Downloading https://files.pythonhosted.org/packages/0b/db/5ad2d4770403ae3a748f7a984f6c03cb6dc95ab6f3302589fcda0d427b30/certbot-dns-multi-4.9.1.dev0.tar.gz
+[2023-06-20 08:29:18] INFO root fetch - processPackages [vbpdf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 08:29:18] INFO root fetch - processPackages [vbpdf]: Downloading https://files.pythonhosted.org/packages/f7/b7/a8b54186388ae145e2a39819f469e89d56bb9dab328e0026106cd5596fb9/vbpdf-0.1.8.tar.gz
+[2023-06-20 08:29:18] INFO root fetch - processPackages [ssakz]: Downloading https://files.pythonhosted.org/packages/9f/bc/9174d20c8a44f944cdfcb917633da2e07671b7449fe0f0d9acd7105cc2d5/ssakz-0.0.1.tar.gz
+[2023-06-20 08:29:19] INFO root fetch - processPackages [certbot-dns-multi]: executing diffoscope
+[2023-06-20 08:29:19] INFO root fetch - processPackages [certbot-dns-multi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-multi-4.9.1.tar.gz tmp/certbot-dns-multi-4.9.1.dev0.tar.gz --markdown 20230620/c/certbot-dns-multi/4.9.1-4.9.1.dev0/diff.md --exclude *.pyd
+[2023-06-20 08:29:19] INFO root fetch - processPackages [vbpdf]: Downloading https://files.pythonhosted.org/packages/0e/4d/d337142ba717c2e1c455f5028fd42b0f2eef4e75b6bb25200cae085fba3f/vbpdf-0.1.9.tar.gz
+[2023-06-20 08:29:19] INFO root fetch - processPackages [vbpdf]: executing diffoscope
+[2023-06-20 08:29:19] INFO root fetch - processPackages [vbpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpdf-0.1.8.tar.gz tmp/vbpdf-0.1.9.tar.gz --markdown 20230620/v/vbpdf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 08:29:19] INFO root fetch - processPackages [ssakz]: Downloading https://files.pythonhosted.org/packages/69/e1/0a44fc8c0d2cf90657fae18491432b8f9ae90447321032770cc389b82493/ssakz-0.1.0.tar.gz
+[2023-06-20 08:29:19] INFO root fetch - processPackages [scmrepo]: Remove: archive file [/home/abi/fetcher/tmp/scmrepo-1.0.3.tar.gz]
+[2023-06-20 08:29:19] INFO root fetch - processPackages [scmrepo]: Remove: archive file [/home/abi/fetcher/tmp/scmrepo-1.0.4.tar.gz]
+[2023-06-20 08:29:19] INFO root fetch - processPackages [scmrepo]: Start processing: pyikarus
+[2023-06-20 08:29:19] INFO root fetch - main [MainThread]: End processing [scmrepo]: success
+[2023-06-20 08:29:19] INFO root fetch - processPackages [pyikarus]: New version: [0.3.3.dev20230620061559] Old Version: [0.3.3.dev20230616134912]
+[2023-06-20 08:29:19] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_robotframework-0.6.1.tar.gz]
+[2023-06-20 08:29:19] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_robotframework-0.7.0.tar.gz]
+[2023-06-20 08:29:19] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-activity-robotframework]: success
+[2023-06-20 08:29:19] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/2c/0f/e61cc4d871e8868d8ad97156d024ebecdf97edf568995f05ac10d2a7d957/pyikarus-0.3.3.dev20230616134912.tar.gz
+[2023-06-20 08:29:19] INFO root fetch - processPackages [ssakz]: executing diffoscope
+[2023-06-20 08:29:19] INFO root fetch - processPackages [ssakz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssakz-0.0.1.tar.gz tmp/ssakz-0.1.0.tar.gz --markdown 20230620/s/ssakz/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-20 08:29:20] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/3e/ca/f409b1c064580f9cb7acb7f00bfcb5cf908dd101ef3867fc02be572aa71a/pyikarus-0.3.3.dev20230620061559.tar.gz
+[2023-06-20 08:29:20] INFO root fetch - processPackages [CharmCord]: Remove: archive file [/home/abi/fetcher/tmp/CharmCord-0.17.0-py3-none-any.whl.zip]
+[2023-06-20 08:29:20] INFO root fetch - processPackages [CharmCord]: Remove: archive file [/home/abi/fetcher/tmp/CharmCord-0.18.3-py3-none-any.whl.zip]
+[2023-06-20 08:29:20] INFO root fetch - main [MainThread]: End processing [CharmCord]: success
+[2023-06-20 08:29:20] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-06-20 08:29:20] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.3.dev20230616134912.tar.gz tmp/pyikarus-0.3.3.dev20230620061559.tar.gz --markdown 20230620/p/pyikarus/0.3.3.dev20230616134912-0.3.3.dev20230620061559/diff.md --exclude *.pyd
+[2023-06-20 08:29:20] INFO root fetch - processPackages [vbpdf]: Remove: archive file [/home/abi/fetcher/tmp/vbpdf-0.1.8.tar.gz]
+[2023-06-20 08:29:20] INFO root fetch - processPackages [vbpdf]: Remove: archive file [/home/abi/fetcher/tmp/vbpdf-0.1.9.tar.gz]
+[2023-06-20 08:29:20] INFO root fetch - main [MainThread]: End processing [vbpdf]: success
+[2023-06-20 08:29:20] INFO root fetch - processPackages [ssakz]: Remove: archive file [/home/abi/fetcher/tmp/ssakz-0.0.1.tar.gz]
+[2023-06-20 08:29:20] INFO root fetch - processPackages [ssakz]: Remove: archive file [/home/abi/fetcher/tmp/ssakz-0.1.0.tar.gz]
+[2023-06-20 08:29:20] INFO root fetch - main [MainThread]: End processing [ssakz]: success
+[2023-06-20 08:29:20] INFO root fetch - processPackages [kuflow-rest]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_rest-0.6.1.tar.gz]
+[2023-06-20 08:29:20] INFO root fetch - processPackages [kuflow-rest]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_rest-0.7.0.tar.gz]
+[2023-06-20 08:29:20] INFO root fetch - main [MainThread]: End processing [kuflow-rest]: success
+[2023-06-20 08:29:20] INFO root fetch - processPackages [gemgis]: Remove: archive file [/home/abi/fetcher/tmp/gemgis-1.0.8.tar.gz]
+[2023-06-20 08:29:20] INFO root fetch - processPackages [gemgis]: Remove: archive file [/home/abi/fetcher/tmp/gemgis-1.0.9.tar.gz]
+[2023-06-20 08:29:20] INFO root fetch - main [MainThread]: End processing [gemgis]: success
+[2023-06-20 08:29:20] INFO root fetch - processPackages [certbot-dns-multi]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-multi-4.9.1.tar.gz]
+[2023-06-20 08:29:20] INFO root fetch - processPackages [certbot-dns-multi]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-multi-4.9.1.dev0.tar.gz]
+[2023-06-20 08:29:20] INFO root fetch - main [MainThread]: End processing [certbot-dns-multi]: success
+[2023-06-20 08:29:23] INFO root fetch - processPackages [pyikarus]: Remove: archive file [/home/abi/fetcher/tmp/pyikarus-0.3.3.dev20230616134912.tar.gz]
+[2023-06-20 08:29:23] INFO root fetch - processPackages [pyikarus]: Remove: archive file [/home/abi/fetcher/tmp/pyikarus-0.3.3.dev20230620061559.tar.gz]
+[2023-06-20 08:29:23] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-06-20 08:29:24] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230618.tar.gz]
+[2023-06-20 08:29:24] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230619.tar.gz]
+[2023-06-20 08:29:24] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-06-20 08:29:32] INFO root fetch - processPackages [pylebai]: Remove: archive file [/home/abi/fetcher/tmp/pylebai-1.1.4-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-06-20 08:29:32] INFO root fetch - processPackages [pylebai]: Remove: archive file [/home/abi/fetcher/tmp/pylebai-1.1.6-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-06-20 08:29:32] INFO root fetch - main [MainThread]: End processing [pylebai]: success
+[2023-06-20 08:29:32] INFO root fetch - main [MainThread]: Store serial: [18570656]
