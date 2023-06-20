@@ -13752,3 +13752,134 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 09:11:42] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.1.6.tar.gz]
 [2023-06-20 09:11:42] INFO root fetch - main [MainThread]: End processing [py-miraie-ac]: success
 [2023-06-20 09:11:42] INFO root fetch - main [MainThread]: Store serial: [18571021]
+[2023-06-20 09:16:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18571021]
+[2023-06-20 09:16:51] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-20 09:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Denoising-Diffusion-Probabilistic-Models
+[2023-06-20 09:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: layerx-sdk-beta
+[2023-06-20 09:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: preprocessing-pgp
+[2023-06-20 09:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arranges
+[2023-06-20 09:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfq-nightly
+[2023-06-20 09:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scrappeycom
+[2023-06-20 09:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ai2-kit
+[2023-06-20 09:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cmem-plugin-kafka
+[2023-06-20 09:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stock-downloader
+[2023-06-20 09:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: preprocessing-pgp
+[2023-06-20 09:16:51] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230619] Old Version: [0.7.3.dev20230618]
+[2023-06-20 09:16:51] WARNING root fetch - processPackages [arranges]: Skipping, unable to determine old version
+[2023-06-20 09:16:51] INFO root fetch - processPackages [arranges]: Start processing: spaceone-inventory
+[2023-06-20 09:16:51] INFO root fetch - main [MainThread]: End processing [arranges] error
+[2023-06-20 09:16:51] INFO root fetch - processPackages [scrappeycom]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-20 09:16:51] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-06-20 09:16:51] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post9.dev7] Old Version: [0.2.9.post8.dev7]
+[2023-06-20 09:16:51] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post9.dev7] Old Version: [0.2.9.post8.dev7]
+[2023-06-20 09:16:51] WARNING root fetch - processPackages [stock-downloader]: Skipping, unable to determine old version
+[2023-06-20 09:16:51] INFO root fetch - processPackages [stock-downloader]: Start processing: idoctorai
+[2023-06-20 09:16:51] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-06-20 09:16:51] INFO root fetch - main [MainThread]: End processing [stock-downloader] error
+[2023-06-20 09:16:51] INFO root fetch - processPackages [idoctorai]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-20 09:16:51] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/a9/1b/319352b361b9b01f65b5b0dca86df4dc3e5f06b995022ef3976f71acd45d/preprocessing-pgp-0.2.9.post8.dev7.tar.gz
+[2023-06-20 09:16:51] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/a9/1b/319352b361b9b01f65b5b0dca86df4dc3e5f06b995022ef3976f71acd45d/preprocessing-pgp-0.2.9.post8.dev7.tar.gz
+[2023-06-20 09:16:51] INFO root fetch - processPackages [scrappeycom]: Downloading https://files.pythonhosted.org/packages/47/5d/9cfd748fe9e116ce89f682432971e52dc8ff8cfe144067a88fb42bffc934/scrappeycom-0.3.2.tar.gz
+[2023-06-20 09:16:51] INFO root fetch - processPackages [cmem-plugin-kafka]: New version: [1.3.0rc1] Old Version: [1.3.0]
+[2023-06-20 09:16:51] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-20 09:16:51] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857923>=10485760
+[2023-06-20 09:16:51] INFO root fetch - processPackages [preprocessing-pgp]: Start processing: itc-ai
+[2023-06-20 09:16:51] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857923>=10485760
+[2023-06-20 09:16:51] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-06-20 09:16:51] INFO root fetch - processPackages [preprocessing-pgp]: Start processing: mio-cli
+[2023-06-20 09:16:51] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-06-20 09:16:51] INFO root fetch - processPackages [spaceone-inventory]: New version: [1.9.7rc1] Old Version: [1.9.7.3]
+[2023-06-20 09:16:51] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Downloading https://files.pythonhosted.org/packages/a1/a7/52afba63dfb471c151f3ec935e339e544811d8746fde2647c1cc0fe502a0/Denoising_Diffusion_Probabilistic_Models-0.0.0.1-py3-none-any.whl
+[2023-06-20 09:16:51] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/30/b8/53238268fc13fd52420f6db00a45808fd41bd377b8b21da83eb167c7dd78/idoctorai-0.4.8.tar.gz
+[2023-06-20 09:16:51] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/4d/ad/7ba6a2eed7c367f5ed65ba65ebdb30af33d690f3694888580fafa899b1fa/tfq_nightly-0.7.3.dev20230618-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-20 09:16:51] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/82/30/49db849a17663ef31174e31654b943efd6d652d8fead1d082f103f9ab59e/layerx-sdk-beta-1.0.9b1.tar.gz
+[2023-06-20 09:16:51] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822716>=10485760
+[2023-06-20 09:16:51] INFO root fetch - processPackages [tfq-nightly]: Start processing: miniworldmaker
+[2023-06-20 09:16:51] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-06-20 09:16:51] INFO root fetch - processPackages [cmem-plugin-kafka]: Downloading https://files.pythonhosted.org/packages/13/6d/8b577eae64b1814c391d180f0792df72f5e85f8dba7d7efba188fe96bb77/cmem_plugin_kafka-1.3.0.tar.gz
+[2023-06-20 09:16:51] WARNING root fetch - processPackages [itc-ai]: Skipping, unable to determine old version
+[2023-06-20 09:16:51] INFO root fetch - processPackages [itc-ai]: Start processing: flake8-balanced-wrapping
+[2023-06-20 09:16:51] INFO root fetch - main [MainThread]: End processing [itc-ai] error
+[2023-06-20 09:16:51] INFO root fetch - processPackages [mio-cli]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-20 09:16:51] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/3e/ca/12f89e95d599280cf3e3fe1459cb483d3e545840f67a1f848a19272ab46d/ai2_kit-0.3.0.tar.gz
+[2023-06-20 09:16:51] INFO root fetch - processPackages [scrappeycom]: Downloading https://files.pythonhosted.org/packages/8c/37/f2a71c33fd0f2bbd3aef4b352c52b74a22994cbc162e8f1c526cfbc16a9a/scrappeycom-0.3.3.tar.gz
+[2023-06-20 09:16:51] INFO root fetch - processPackages [miniworldmaker]: New version: [2.9.0.0] Old Version: [2.8.0.0]
+[2023-06-20 09:16:51] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/a9/82/c593d30951fa8a48a0777598d6512a6f1c3d737ee4831063408619868fff/spaceone_inventory-1.9.7.3-py3-none-any.whl
+[2023-06-20 09:16:51] INFO root fetch - processPackages [flake8-balanced-wrapping]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-20 09:16:51] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/92/9c/922d41cce50c2f696449597cc6f0b108b6dac2b06eeefdcab0c3c54bbbaa/idoctorai-0.4.9.tar.gz
+[2023-06-20 09:16:51] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Downloading https://files.pythonhosted.org/packages/1a/67/fbc067b1d191db83dbd488b1c18a06cd4f7657a24dc6f6d36991e98c91b1/Denoising_Diffusion_Probabilistic_Models-0.0.0.2-py3-none-any.whl
+[2023-06-20 09:16:51] INFO root fetch - processPackages [scrappeycom]: executing diffoscope
+[2023-06-20 09:16:51] INFO root fetch - processPackages [scrappeycom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrappeycom-0.3.2.tar.gz tmp/scrappeycom-0.3.3.tar.gz --markdown 20230620/s/scrappeycom/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-20 09:16:51] INFO root fetch - processPackages [miniworldmaker]: Downloading https://files.pythonhosted.org/packages/f3/13/feb81bd15d26786614c70fa63b5049afcd9c93969921a39ab1714f36930f/miniworldmaker-2.8.0.0.tar.gz
+[2023-06-20 09:16:51] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-06-20 09:16:51] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.4.8.tar.gz tmp/idoctorai-0.4.9.tar.gz --markdown 20230620/i/idoctorai/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-20 09:16:52] INFO root fetch - processPackages [cmem-plugin-kafka]: Downloading https://files.pythonhosted.org/packages/49/88/ac92fc37e504da15ede5d713a7d4469bd25032c43f25597481d4d2040394/cmem_plugin_kafka-1.3.0rc1.tar.gz
+[2023-06-20 09:16:52] INFO root fetch - processPackages [mio-cli]: Downloading https://files.pythonhosted.org/packages/fe/53/b349397e5c5af06ee6f0e7de1f7455fe3c10e8eaf98afa9b189224cfbf0c/mio-cli-1.2.8.tar.gz
+[2023-06-20 09:16:52] INFO root fetch - processPackages [flake8-balanced-wrapping]: Downloading https://files.pythonhosted.org/packages/34/ba/b6bd3f0e0453f67d35f012d12b57934dd9dff03542dab812c9849c86201c/flake8-balanced-wrapping-0.1.4.tar.gz
+[2023-06-20 09:16:52] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/80/17/9c39f674089d0687a6ebb4bb5cb263194817e74bbf02632c5b1f95ed63ed/layerx-sdk-beta-1.0.9b2.tar.gz
+[2023-06-20 09:16:52] INFO root fetch - processPackages [miniworldmaker]: Downloading https://files.pythonhosted.org/packages/b9/2b/8e1c164f9e757ed512553b53cb0b2c7af2cdb34d75275dc4b4ce72b1b5ee/miniworldmaker-2.9.0.0.tar.gz
+[2023-06-20 09:16:52] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: executing diffoscope
+[2023-06-20 09:16:52] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.1-py3-none-any.whl.zip tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.2-py3-none-any.whl.zip --markdown 20230620/D/Denoising-Diffusion-Probabilistic-Models/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-06-20 09:16:52] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-06-20 09:16:52] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230620/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-06-20 09:16:52] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/3d/4e/5bd250836793ff10a6de54327a6f8f97a04a9341f665487f006aadc13593/ai2_kit-0.3.1.tar.gz
+[2023-06-20 09:16:52] INFO root fetch - processPackages [miniworldmaker]: executing diffoscope
+[2023-06-20 09:16:52] INFO root fetch - processPackages [miniworldmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniworldmaker-2.8.0.0.tar.gz tmp/miniworldmaker-2.9.0.0.tar.gz --markdown 20230620/m/miniworldmaker/2.8.0.0-2.9.0.0/diff.md --exclude *.pyd
+[2023-06-20 09:16:52] INFO root fetch - processPackages [cmem-plugin-kafka]: executing diffoscope
+[2023-06-20 09:16:52] INFO root fetch - processPackages [cmem-plugin-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_kafka-1.3.0.tar.gz tmp/cmem_plugin_kafka-1.3.0rc1.tar.gz --markdown 20230620/c/cmem-plugin-kafka/1.3.0-1.3.0rc1/diff.md --exclude *.pyd
+[2023-06-20 09:16:52] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-06-20 09:16:52] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.0.tar.gz tmp/ai2_kit-0.3.1.tar.gz --markdown 20230620/a/ai2-kit/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-20 09:16:52] INFO root fetch - processPackages [flake8-balanced-wrapping]: Downloading https://files.pythonhosted.org/packages/3b/dd/89d8a0569157ed561123e4907ac6f0d85af5be28ebd149ad1366623761db/flake8-balanced-wrapping-0.1.5.tar.gz
+[2023-06-20 09:16:52] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/8b/3e/9b66d8ee4c516bd667673a5577cc4743104de117a9cf1693532b741e45c4/spaceone_inventory-1.9.7rc1-py3-none-any.whl
+[2023-06-20 09:16:52] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2023-06-20 09:16:52] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip --markdown 20230620/s/spaceone-inventory/1.9.7.3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-20 09:16:52] INFO root fetch - processPackages [flake8-balanced-wrapping]: executing diffoscope
+[2023-06-20 09:16:52] INFO root fetch - processPackages [flake8-balanced-wrapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-balanced-wrapping-0.1.4.tar.gz tmp/flake8-balanced-wrapping-0.1.5.tar.gz --markdown 20230620/f/flake8-balanced-wrapping/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-20 09:16:53] INFO root fetch - processPackages [mio-cli]: Downloading https://files.pythonhosted.org/packages/9f/2c/457eec0757671d085714a9e7298804e1a3a0592acb1a231bbdd8ecf9b117/mio-cli-1.2.9.tar.gz
+[2023-06-20 09:16:53] INFO root fetch - processPackages [scrappeycom]: Remove: archive file [/home/abi/fetcher/tmp/scrappeycom-0.3.2.tar.gz]
+[2023-06-20 09:16:53] INFO root fetch - processPackages [scrappeycom]: Remove: archive file [/home/abi/fetcher/tmp/scrappeycom-0.3.3.tar.gz]
+[2023-06-20 09:16:53] INFO root fetch - processPackages [scrappeycom]: Start processing: spaceone-identity
+[2023-06-20 09:16:53] INFO root fetch - main [MainThread]: End processing [scrappeycom]: success
+[2023-06-20 09:16:53] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.8.tar.gz]
+[2023-06-20 09:16:53] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.9.tar.gz]
+[2023-06-20 09:16:53] INFO root fetch - processPackages [idoctorai]: Start processing: Zope
+[2023-06-20 09:16:53] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-06-20 09:16:53] INFO root fetch - processPackages [spaceone-identity]: New version: [1.9.7rc2] Old Version: [1.9.7rc1]
+[2023-06-20 09:16:53] INFO root fetch - processPackages [Zope]: New version: [5.8.3] Old Version: [5.8.2]
+[2023-06-20 09:16:53] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Remove: archive file [/home/abi/fetcher/tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.1-py3-none-any.whl.zip]
+[2023-06-20 09:16:53] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Remove: archive file [/home/abi/fetcher/tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.2-py3-none-any.whl.zip]
+[2023-06-20 09:16:53] INFO root fetch - main [MainThread]: End processing [Denoising-Diffusion-Probabilistic-Models]: success
+[2023-06-20 09:16:53] INFO root fetch - processPackages [cmem-plugin-kafka]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_kafka-1.3.0.tar.gz]
+[2023-06-20 09:16:53] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/60/aa/ad6f2d637740b2091883707db26053c4633dec76ccabc1af7b0ea0753106/spaceone_identity-1.9.7rc1-py3-none-any.whl
+[2023-06-20 09:16:53] INFO root fetch - processPackages [cmem-plugin-kafka]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_kafka-1.3.0rc1.tar.gz]
+[2023-06-20 09:16:53] INFO root fetch - main [MainThread]: End processing [cmem-plugin-kafka]: success
+[2023-06-20 09:16:53] INFO root fetch - processPackages [Zope]: Downloading https://files.pythonhosted.org/packages/f3/a0/e4e80f422a86cf82858f7c71888d1b595ecd80271b2556db3d23582d1dcd/Zope-5.8.2.tar.gz
+[2023-06-20 09:16:53] INFO root fetch - processPackages [flake8-balanced-wrapping]: Remove: archive file [/home/abi/fetcher/tmp/flake8-balanced-wrapping-0.1.4.tar.gz]
+[2023-06-20 09:16:53] INFO root fetch - processPackages [flake8-balanced-wrapping]: Remove: archive file [/home/abi/fetcher/tmp/flake8-balanced-wrapping-0.1.5.tar.gz]
+[2023-06-20 09:16:53] INFO root fetch - main [MainThread]: End processing [flake8-balanced-wrapping]: success
+[2023-06-20 09:16:53] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.0.tar.gz]
+[2023-06-20 09:16:53] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.1.tar.gz]
+[2023-06-20 09:16:53] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-06-20 09:16:54] WARNING root fetch - processPackages [Zope]: Skipping package: exceeds size limit 12485166>=10485760
+[2023-06-20 09:16:54] INFO root fetch - main [MainThread]: End processing [Zope] error
+[2023-06-20 09:16:54] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b1.tar.gz]
+[2023-06-20 09:16:54] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b2.tar.gz]
+[2023-06-20 09:16:54] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-06-20 09:16:54] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/50/45/8e8840de775e39139fb06889be9ab1840dd86ff941971f3ceaa2e62488c0/spaceone_identity-1.9.7rc2-py3-none-any.whl
+[2023-06-20 09:16:54] INFO root fetch - processPackages [mio-cli]: executing diffoscope
+[2023-06-20 09:16:54] INFO root fetch - processPackages [mio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mio-cli-1.2.8.tar.gz tmp/mio-cli-1.2.9.tar.gz --markdown 20230620/m/mio-cli/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-20 09:16:54] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip]
+[2023-06-20 09:16:54] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-20 09:16:54] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2023-06-20 09:16:54] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2023-06-20 09:16:54] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_identity-1.9.7rc1-py3-none-any.whl.zip tmp/spaceone_identity-1.9.7rc2-py3-none-any.whl.zip --markdown 20230620/s/spaceone-identity/1.9.7rc1-1.9.7rc2/diff.md --exclude *.pyd
+[2023-06-20 09:16:54] INFO root fetch - processPackages [miniworldmaker]: Remove: archive file [/home/abi/fetcher/tmp/miniworldmaker-2.8.0.0.tar.gz]
+[2023-06-20 09:16:54] INFO root fetch - processPackages [miniworldmaker]: Remove: archive file [/home/abi/fetcher/tmp/miniworldmaker-2.9.0.0.tar.gz]
+[2023-06-20 09:16:54] INFO root fetch - main [MainThread]: End processing [miniworldmaker]: success
+[2023-06-20 09:16:55] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_identity-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-20 09:16:55] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_identity-1.9.7rc2-py3-none-any.whl.zip]
+[2023-06-20 09:16:55] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2023-06-20 09:16:56] INFO root fetch - processPackages [mio-cli]: Remove: archive file [/home/abi/fetcher/tmp/mio-cli-1.2.8.tar.gz]
+[2023-06-20 09:16:56] INFO root fetch - processPackages [mio-cli]: Remove: archive file [/home/abi/fetcher/tmp/mio-cli-1.2.9.tar.gz]
+[2023-06-20 09:16:56] INFO root fetch - main [MainThread]: End processing [mio-cli]: success
+[2023-06-20 09:16:56] INFO root fetch - main [MainThread]: Store serial: [18571086]
