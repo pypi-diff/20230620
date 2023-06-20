@@ -20002,3 +20002,204 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 12:57:24] INFO root fetch - processPackages [prismstudio-dev]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-dev-1.1.3b0.tar.gz]
 [2023-06-20 12:57:24] INFO root fetch - main [MainThread]: End processing [prismstudio-dev]: success
 [2023-06-20 12:57:24] INFO root fetch - main [MainThread]: Store serial: [18573408]
+[2023-06-20 13:02:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18573408]
+[2023-06-20 13:02:40] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-20 13:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metricq
+[2023-06-20 13:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-board
+[2023-06-20 13:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dict2xlsx
+[2023-06-20 13:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: app-ocr
+[2023-06-20 13:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spaceone-config
+[2023-06-20 13:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spaceone-dashboard
+[2023-06-20 13:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deciphon-snap
+[2023-06-20 13:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-ditto
+[2023-06-20 13:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: example-haskell-wheel
+[2023-06-20 13:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyttm
+[2023-06-20 13:02:40] INFO root fetch - processPackages [app-ocr]: New version: [1.2.11] Old Version: [1.1.9]
+[2023-06-20 13:02:40] INFO root fetch - processPackages [django-ditto]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-06-20 13:02:40] INFO root fetch - processPackages [deciphon-snap]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-20 13:02:40] INFO root fetch - processPackages [spaceone-board]: New version: [1.9.7rc1] Old Version: [1.9.7]
+[2023-06-20 13:02:40] INFO root fetch - processPackages [example-haskell-wheel]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-20 13:02:40] WARNING root fetch - processPackages [dict2xlsx]: Skipping, unable to determine old version
+[2023-06-20 13:02:40] INFO root fetch - processPackages [spaceone-dashboard]: New version: [1.12.dev6] Old Version: [1.12.dev5]
+[2023-06-20 13:02:40] INFO root fetch - processPackages [dict2xlsx]: Start processing: martin-binance
+[2023-06-20 13:02:40] INFO root fetch - main [MainThread]: End processing [dict2xlsx] error
+[2023-06-20 13:02:40] WARNING root fetch - processPackages [pyttm]: Skipping, unable to determine old version
+[2023-06-20 13:02:40] INFO root fetch - processPackages [metricq]: New version: [5.2.0] Old Version: [5.1.0]
+[2023-06-20 13:02:40] INFO root fetch - processPackages [pyttm]: Start processing: app-ocr
+[2023-06-20 13:02:40] INFO root fetch - main [MainThread]: End processing [pyttm] error
+[2023-06-20 13:02:40] INFO root fetch - processPackages [spaceone-config]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-20 13:02:40] INFO root fetch - processPackages [app-ocr]: New version: [1.2.11] Old Version: [1.1.9]
+[2023-06-20 13:02:40] INFO root fetch - processPackages [martin-binance]: New version: [1.3.0b23] Old Version: [1.3.0b22]
+[2023-06-20 13:02:40] INFO root fetch - processPackages [martin-binance]: Downloading https://files.pythonhosted.org/packages/32/7f/21482083329194ffc44e5f108cfe23c2815c82dc76aef7fa8ec091de6452/martin-binance-1.3.0b22.tar.gz
+[2023-06-20 13:02:40] INFO root fetch - processPackages [deciphon-snap]: Downloading https://files.pythonhosted.org/packages/d7/71/3a28b66d6173cefa5ec643a51af87e52e2bfe0c9423cf26ca16687f1ac56/deciphon_snap-0.1.0.tar.gz
+[2023-06-20 13:02:40] INFO root fetch - processPackages [django-ditto]: Downloading https://files.pythonhosted.org/packages/de/73/04200ac1b0a6d372c6b59542bd6409e8c85e8aafd7d17194908ec23e1ae5/django-ditto-3.0.1.tar.gz
+[2023-06-20 13:02:40] INFO root fetch - processPackages [spaceone-config]: Downloading https://files.pythonhosted.org/packages/08/28/a6ce3345230d3f14eda6a5c108839017b971498dd9b3a4c8ff660bdd3ae7/spaceone_config-1.9.7.1-py3-none-any.whl
+[2023-06-20 13:02:40] INFO root fetch - processPackages [example-haskell-wheel]: Downloading https://files.pythonhosted.org/packages/54/53/817ac6902d748676f1618dd3e28fc45e385cf05129c99ed994484d577f3b/example_haskell_wheel-1.0.1-cp39-cp39-win_amd64.whl
+[2023-06-20 13:02:40] INFO root fetch - processPackages [spaceone-board]: Downloading https://files.pythonhosted.org/packages/f5/66/e3fde81dfecfe1b911035bf54d30137e630f2b55fefc30aa5c025d264ef6/spaceone_board-1.9.7-py3-none-any.whl
+[2023-06-20 13:02:40] INFO root fetch - processPackages [spaceone-dashboard]: Downloading https://files.pythonhosted.org/packages/d8/28/7a4ce801fa6b180ee4785094a3bbefcdb4c954a8a870d20f4d19a6d439ba/spaceone-dashboard-1.12.dev5.tar.gz
+[2023-06-20 13:02:40] INFO root fetch - processPackages [metricq]: Downloading https://files.pythonhosted.org/packages/63/b6/21d6ea9dc509ab5cdb72c0bf186438dd9eb87604d66eed0d6f10b0d1f3de/metricq-5.1.0-py3-none-any.whl
+[2023-06-20 13:02:40] INFO root fetch - processPackages [app-ocr]: Downloading https://files.pythonhosted.org/packages/83/9a/136fdbec1c74b7cbdd6d635fa4c1ecc84db97628a6ddc5081878862e8970/app_ocr-1.1.9.tar.gz
+[2023-06-20 13:02:40] INFO root fetch - processPackages [app-ocr]: Downloading https://files.pythonhosted.org/packages/83/9a/136fdbec1c74b7cbdd6d635fa4c1ecc84db97628a6ddc5081878862e8970/app_ocr-1.1.9.tar.gz
+[2023-06-20 13:02:40] INFO root fetch - processPackages [deciphon-snap]: Downloading https://files.pythonhosted.org/packages/9a/f4/d410ad582163f4c05b87932dec792cb6e332fd7e3f7d1ec73b433e76fb75/deciphon_snap-0.1.1.tar.gz
+[2023-06-20 13:02:40] INFO root fetch - processPackages [django-ditto]: Downloading https://files.pythonhosted.org/packages/0a/bc/64806f4536bd0088bd23deaca0eff99c96417daeb54e5b5f143e6d516aa2/django-ditto-3.1.0.tar.gz
+[2023-06-20 13:02:40] INFO root fetch - processPackages [spaceone-dashboard]: Downloading https://files.pythonhosted.org/packages/79/06/6fabecae4a6852b781eae1cc751bdd9cf8e334ddb920c4cfd1881fa2e218/spaceone-dashboard-1.12.dev6.tar.gz
+[2023-06-20 13:02:40] INFO root fetch - processPackages [spaceone-board]: Downloading https://files.pythonhosted.org/packages/6c/99/76c76da493b5a9ae9d6064d18ad2cc9d486b74675a1c2f37ff58337a7878/spaceone_board-1.9.7rc1-py3-none-any.whl
+[2023-06-20 13:02:40] INFO root fetch - processPackages [deciphon-snap]: executing diffoscope
+[2023-06-20 13:02:40] INFO root fetch - processPackages [deciphon-snap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deciphon_snap-0.1.0.tar.gz tmp/deciphon_snap-0.1.1.tar.gz --markdown 20230620/d/deciphon-snap/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-20 13:02:40] INFO root fetch - processPackages [spaceone-config]: Downloading https://files.pythonhosted.org/packages/2e/52/933581152a4ad53294053afa4f1e01b4306b1cc56d69a4b3b5bf10067b9a/spaceone_config-1.9.7rc1-py3-none-any.whl
+[2023-06-20 13:02:40] INFO root fetch - processPackages [metricq]: Downloading https://files.pythonhosted.org/packages/5a/c9/54d169a36424a9454927e8d85a5351ac10f7ac9b0d30a2becd09aa78357f/metricq-5.2.0-py3-none-any.whl
+[2023-06-20 13:02:40] INFO root fetch - processPackages [django-ditto]: executing diffoscope
+[2023-06-20 13:02:40] INFO root fetch - processPackages [django-ditto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ditto-3.0.1.tar.gz tmp/django-ditto-3.1.0.tar.gz --markdown 20230620/d/django-ditto/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-06-20 13:02:40] INFO root fetch - processPackages [app-ocr]: Downloading https://files.pythonhosted.org/packages/fd/b4/06e7dd9d67e00c1fc454239e41625c021c51f6469c263a2a2356d3ead2fb/app_ocr-1.2.11.tar.gz
+[2023-06-20 13:02:40] INFO root fetch - processPackages [app-ocr]: Downloading https://files.pythonhosted.org/packages/fd/b4/06e7dd9d67e00c1fc454239e41625c021c51f6469c263a2a2356d3ead2fb/app_ocr-1.2.11.tar.gz
+[2023-06-20 13:02:40] INFO root fetch - processPackages [metricq]: executing diffoscope
+[2023-06-20 13:02:40] INFO root fetch - processPackages [metricq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricq-5.1.0-py3-none-any.whl.zip tmp/metricq-5.2.0-py3-none-any.whl.zip --markdown 20230620/m/metricq/5.1.0-5.2.0/diff.md --exclude *.pyd
+[2023-06-20 13:02:40] INFO root fetch - processPackages [app-ocr]: executing diffoscope
+[2023-06-20 13:02:40] INFO root fetch - processPackages [app-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app_ocr-1.1.9.tar.gz tmp/app_ocr-1.2.11.tar.gz --markdown 20230620/a/app-ocr/1.1.9-1.2.11/diff.md --exclude *.pyd
+[2023-06-20 13:02:40] INFO root fetch - processPackages [spaceone-dashboard]: executing diffoscope
+[2023-06-20 13:02:40] INFO root fetch - processPackages [spaceone-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-dashboard-1.12.dev5.tar.gz tmp/spaceone-dashboard-1.12.dev6.tar.gz --markdown 20230620/s/spaceone-dashboard/1.12.dev5-1.12.dev6/diff.md --exclude *.pyd
+[2023-06-20 13:02:40] INFO root fetch - processPackages [spaceone-board]: executing diffoscope
+[2023-06-20 13:02:40] INFO root fetch - processPackages [spaceone-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_board-1.9.7-py3-none-any.whl.zip tmp/spaceone_board-1.9.7rc1-py3-none-any.whl.zip --markdown 20230620/s/spaceone-board/1.9.7-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-20 13:02:40] INFO root fetch - processPackages [app-ocr]: executing diffoscope
+[2023-06-20 13:02:40] INFO root fetch - processPackages [app-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app_ocr-1.1.9.tar.gz tmp/app_ocr-1.2.11.tar.gz --markdown 20230620/a/app-ocr/1.1.9-1.2.11/diff.md --exclude *.pyd
+[2023-06-20 13:02:40] INFO root fetch - processPackages [spaceone-config]: executing diffoscope
+[2023-06-20 13:02:40] INFO root fetch - processPackages [spaceone-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_config-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_config-1.9.7rc1-py3-none-any.whl.zip --markdown 20230620/s/spaceone-config/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-20 13:02:41] INFO root fetch - processPackages [martin-binance]: Downloading https://files.pythonhosted.org/packages/19/b8/ddf53e62e2d664f05b4ce7b11718e0f55cc8b02f3c2753cc425d54981254/martin-binance-1.3.0b23.tar.gz
+[2023-06-20 13:02:41] INFO root fetch - processPackages [example-haskell-wheel]: Downloading https://files.pythonhosted.org/packages/a4/8b/824742a0f25ad08d2fbcf5b7f0bc256df2a9a647ce4a2101e49d8fb68e19/example_haskell_wheel-1.1.0-cp39-cp39-win_amd64.whl
+[2023-06-20 13:02:41] INFO root fetch - processPackages [martin-binance]: executing diffoscope
+[2023-06-20 13:02:41] INFO root fetch - processPackages [martin-binance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/martin-binance-1.3.0b22.tar.gz tmp/martin-binance-1.3.0b23.tar.gz --markdown 20230620/m/martin-binance/1.3.0b22-1.3.0b23/diff.md --exclude *.pyd
+[2023-06-20 13:02:41] INFO root fetch - processPackages [example-haskell-wheel]: executing diffoscope
+[2023-06-20 13:02:41] INFO root fetch - processPackages [example-haskell-wheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example_haskell_wheel-1.0.1-cp39-cp39-win_amd64.whl.zip tmp/example_haskell_wheel-1.1.0-cp39-cp39-win_amd64.whl.zip --markdown 20230620/e/example-haskell-wheel/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-20 13:02:42] INFO root fetch - processPackages [deciphon-snap]: Remove: archive file [/home/abi/fetcher/tmp/deciphon_snap-0.1.0.tar.gz]
+[2023-06-20 13:02:42] INFO root fetch - processPackages [deciphon-snap]: Remove: archive file [/home/abi/fetcher/tmp/deciphon_snap-0.1.1.tar.gz]
+[2023-06-20 13:02:42] INFO root fetch - processPackages [deciphon-snap]: Start processing: dwclib
+[2023-06-20 13:02:42] INFO root fetch - main [MainThread]: End processing [deciphon-snap]: success
+[2023-06-20 13:02:42] INFO root fetch - processPackages [dwclib]: New version: [2023.6.7] Old Version: [2023.6.20]
+[2023-06-20 13:02:42] INFO root fetch - processPackages [dwclib]: Downloading https://files.pythonhosted.org/packages/a1/79/663de0d70d0025ee4ba43afb6c59e5fc57182e85e45db90ac2d3d9e41bce/dwclib-2023.6.20.tar.gz
+[2023-06-20 13:02:42] INFO root fetch - processPackages [spaceone-config]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_config-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-20 13:02:42] INFO root fetch - processPackages [spaceone-config]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_config-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-20 13:02:42] INFO root fetch - processPackages [spaceone-config]: Start processing: app-ocr
+[2023-06-20 13:02:42] INFO root fetch - main [MainThread]: End processing [spaceone-config]: success
+[2023-06-20 13:02:42] INFO root fetch - processPackages [app-ocr]: New version: [1.2.12] Old Version: [1.2.11]
+[2023-06-20 13:02:42] INFO root fetch - processPackages [metricq]: Remove: archive file [/home/abi/fetcher/tmp/metricq-5.1.0-py3-none-any.whl.zip]
+[2023-06-20 13:02:42] INFO root fetch - processPackages [metricq]: Remove: archive file [/home/abi/fetcher/tmp/metricq-5.2.0-py3-none-any.whl.zip]
+[2023-06-20 13:02:42] INFO root fetch - main [MainThread]: End processing [metricq]: success
+[2023-06-20 13:02:42] INFO root fetch - processPackages [spaceone-board]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_board-1.9.7-py3-none-any.whl.zip]
+[2023-06-20 13:02:42] INFO root fetch - processPackages [spaceone-board]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_board-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-20 13:02:42] INFO root fetch - main [MainThread]: End processing [spaceone-board]: success
+[2023-06-20 13:02:42] INFO root fetch - processPackages [spaceone-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-dashboard-1.12.dev5.tar.gz]
+[2023-06-20 13:02:42] INFO root fetch - processPackages [spaceone-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-dashboard-1.12.dev6.tar.gz]
+[2023-06-20 13:02:42] INFO root fetch - main [MainThread]: End processing [spaceone-dashboard]: success
+[2023-06-20 13:02:42] INFO root fetch - processPackages [dwclib]: Downloading https://files.pythonhosted.org/packages/b1/81/70cbdcfe4da0c976823713eaaa9f718ff532d4277a527b029dfd29d597eb/dwclib-2023.6.7.tar.gz
+[2023-06-20 13:02:43] INFO root fetch - processPackages [example-haskell-wheel]: Remove: archive file [/home/abi/fetcher/tmp/example_haskell_wheel-1.0.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-20 13:02:43] INFO root fetch - processPackages [example-haskell-wheel]: Remove: archive file [/home/abi/fetcher/tmp/example_haskell_wheel-1.1.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-20 13:02:43] INFO root fetch - main [MainThread]: End processing [example-haskell-wheel]: success
+[2023-06-20 13:02:43] INFO root fetch - processPackages [app-ocr]: Downloading https://files.pythonhosted.org/packages/81/d9/c16b317519d3e8a541c2993b279b60a78620e089c228cc53dcf97900e920/app_ocr-1.2.12.tar.gz
+[2023-06-20 13:02:43] INFO root fetch - processPackages [dwclib]: executing diffoscope
+[2023-06-20 13:02:43] INFO root fetch - processPackages [dwclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwclib-2023.6.20.tar.gz tmp/dwclib-2023.6.7.tar.gz --markdown 20230620/d/dwclib/2023.6.20-2023.6.7/diff.md --exclude *.pyd
+[2023-06-20 13:02:43] INFO root fetch - processPackages [app-ocr]: executing diffoscope
+[2023-06-20 13:02:43] INFO root fetch - processPackages [app-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app_ocr-1.2.11.tar.gz tmp/app_ocr-1.2.12.tar.gz --markdown 20230620/a/app-ocr/1.2.11-1.2.12/diff.md --exclude *.pyd
+[2023-06-20 13:02:43] INFO root fetch - processPackages [app-ocr]: Remove: archive file [/home/abi/fetcher/tmp/app_ocr-1.1.9.tar.gz]
+[2023-06-20 13:02:43] INFO root fetch - processPackages [app-ocr]: Remove: archive file [/home/abi/fetcher/tmp/app_ocr-1.2.11.tar.gz]
+[2023-06-20 13:02:43] INFO root fetch - main [MainThread]: End processing [app-ocr]: success
+[2023-06-20 13:02:43] ERROR root fetch - processPackages [app-ocr]: Diffoscope failed: gzip: tmp/app_ocr-1.2.11.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/app_ocr-1.2.11.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-20 13:02:43] INFO root fetch - main [MainThread]: End processing [app-ocr] error
+[2023-06-20 13:02:43] ERROR root fetch - processPackages [app-ocr]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/app_ocr-1.2.11.tar.gz: No such file or directory
+
+[2023-06-20 13:02:43] INFO root fetch - main [MainThread]: End processing [app-ocr] error
+[2023-06-20 13:02:44] INFO root fetch - processPackages [dwclib]: Remove: archive file [/home/abi/fetcher/tmp/dwclib-2023.6.20.tar.gz]
+[2023-06-20 13:02:44] INFO root fetch - processPackages [dwclib]: Remove: archive file [/home/abi/fetcher/tmp/dwclib-2023.6.7.tar.gz]
+[2023-06-20 13:02:44] INFO root fetch - main [MainThread]: End processing [dwclib]: success
+[2023-06-20 13:02:46] INFO root fetch - processPackages [django-ditto]: Remove: archive file [/home/abi/fetcher/tmp/django-ditto-3.0.1.tar.gz]
+[2023-06-20 13:02:46] INFO root fetch - processPackages [django-ditto]: Remove: archive file [/home/abi/fetcher/tmp/django-ditto-3.1.0.tar.gz]
+[2023-06-20 13:02:46] INFO root fetch - main [MainThread]: End processing [django-ditto]: success
+[2023-06-20 13:02:47] INFO root fetch - processPackages [martin-binance]: Remove: archive file [/home/abi/fetcher/tmp/martin-binance-1.3.0b22.tar.gz]
+[2023-06-20 13:02:47] INFO root fetch - processPackages [martin-binance]: Remove: archive file [/home/abi/fetcher/tmp/martin-binance-1.3.0b23.tar.gz]
+[2023-06-20 13:02:47] INFO root fetch - main [MainThread]: End processing [martin-binance]: success
+[2023-06-20 13:02:47] INFO root fetch - main [MainThread]: Store serial: [18573494]
