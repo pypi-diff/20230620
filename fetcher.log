@@ -10291,3 +10291,119 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 05:07:26] INFO root fetch - processPackages [ros-cdk-arms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-arms-1.0.9.tar.gz]
 [2023-06-20 05:07:26] INFO root fetch - main [MainThread]: End processing [ros-cdk-arms]: success
 [2023-06-20 05:07:26] INFO root fetch - main [MainThread]: Store serial: [18569519]
+[2023-06-20 05:12:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18569519]
+[2023-06-20 05:12:35] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-20 05:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-selenium-ctrl-package
+[2023-06-20 05:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py2appsigner
+[2023-06-20 05:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-bpstudio
+[2023-06-20 05:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: d20-securityLayer
+[2023-06-20 05:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-06-20 05:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-mns
+[2023-06-20 05:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-rocketmq5
+[2023-06-20 05:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nsdotpy
+[2023-06-20 05:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reaxfit
+[2023-06-20 05:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hmfs
+[2023-06-20 05:12:35] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a8] Old Version: [2.0.0a7]
+[2023-06-20 05:12:35] INFO root fetch - processPackages [ros-cdk-mns]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 05:12:35] INFO root fetch - processPackages [py2appsigner]: New version: [0.5.2] Old Version: [0.5.0]
+[2023-06-20 05:12:35] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-20 05:12:35] INFO root fetch - processPackages [nsdotpy]: New version: [2.0.0] Old Version: [1.3.4]
+[2023-06-20 05:12:35] INFO root fetch - processPackages [ros-cdk-rocketmq5]: New version: [1.0.14] Old Version: [1.0.13]
+[2023-06-20 05:12:35] INFO root fetch - processPackages [python-selenium-ctrl-package]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-20 05:12:35] INFO root fetch - processPackages [reaxfit]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-06-20 05:12:35] INFO root fetch - processPackages [hmfs]: New version: [1.1.6] Old Version: [1.1.5145]
+[2023-06-20 05:12:35] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-20 05:12:35] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/91/ad/d531c21d1036f7fad29677f51becfd3b967343d9256c6d50252be260b30e/d20-securityLayer-2.0.0a7.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [hmfs]: Downloading https://files.pythonhosted.org/packages/20/ea/956ea0ad556f009a2f75469fdf2c149867407ef6b182cd7cfa4fd2719aca/hmfs-1.1.5145.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [ros-cdk-mns]: Downloading https://files.pythonhosted.org/packages/38/f2/be11cad7338dc4cb326f6dfc85145c5d975783a07a94859ad8bbb7dc2350/ros-cdk-mns-1.0.8.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [reaxfit]: Downloading https://files.pythonhosted.org/packages/55/15/879974a6d64777d7a5bb4637c0321dfde378c8b16cf4313b9b4cc9091c08/reaxfit-0.1.4.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [nsdotpy]: Downloading https://files.pythonhosted.org/packages/11/44/abf1277b1a79ba9912ecd13fd5ead5853fd5f89856e72ac63e35960c647d/nsdotpy-1.3.4.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [ros-cdk-rocketmq5]: Downloading https://files.pythonhosted.org/packages/55/b1/68c510dcfe5b1d6d1830fc078930447cea960806c12ffd47eb8600a6b200/ros-cdk-rocketmq5-1.0.13.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [py2appsigner]: Downloading https://files.pythonhosted.org/packages/27/41/fbfa2365870baaf48916a0a9114cf9adf0aff4f07071219b86ebdc9beb12/py2appsigner-0.5.0.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [python-selenium-ctrl-package]: Downloading https://files.pythonhosted.org/packages/90/94/0529f91b7cea9383eac1c51b125e64fa1c81b8d426d0f59a11b514d8002c/python_selenium_ctrl_package-0.0.98.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: Downloading https://files.pythonhosted.org/packages/09/5c/220ad9abdd07f460acf178c2289e60b8b645c4820487e2fc180342cbb940/aliyun-python-sdk-bpstudio-1.0.2.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [hmfs]: Downloading https://files.pythonhosted.org/packages/9f/e2/2aeaa17665627542a9bcb80c17dcf663309ba83964369dd3ef9fa4ffc362/hmfs-1.1.6.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/b5/7f/086f837981170217116052b05373bbf9ede287aa375d582b42e31e612cf5/d20-securityLayer-2.0.0a8.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [nsdotpy]: Downloading https://files.pythonhosted.org/packages/b9/fe/99ea2f3d903e6c43557d16537456a785b88f5bb043f7395e6e36145d4d4a/nsdotpy-2.0.0.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [reaxfit]: Downloading https://files.pythonhosted.org/packages/53/e0/41ba95327beccdab5cd0e5a3859ffefcdf54e7c2bae81192d84b7d090045/reaxfit-0.2.0.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [ros-cdk-mns]: Downloading https://files.pythonhosted.org/packages/f1/89/ed3994e879a5ece35a169f8c88de185d989c2b09116444296b5701f6c571/ros-cdk-mns-1.0.9.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-06-20 05:12:35] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230620/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-20 05:12:35] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: Downloading https://files.pythonhosted.org/packages/79/b5/e9269734234e736032dfbaa812f0d7f2427b73d45b2fd1269cdbda58078d/aliyun-python-sdk-bpstudio-1.0.3.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [py2appsigner]: Downloading https://files.pythonhosted.org/packages/10/65/3e2e4bc742e480054b5e1c74db9a32229931a38884de39e5da08ca96c8f6/py2appsigner-0.5.2.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [python-selenium-ctrl-package]: Downloading https://files.pythonhosted.org/packages/17/bd/a72156bf8bda13c88a0737151e6ac45509dc454537576bdcc97c761ce4de/python_selenium_ctrl_package-0.0.99.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [hmfs]: executing diffoscope
+[2023-06-20 05:12:35] INFO root fetch - processPackages [hmfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmfs-1.1.5145.tar.gz tmp/hmfs-1.1.6.tar.gz --markdown 20230620/h/hmfs/1.1.5145-1.1.6/diff.md --exclude *.pyd
+[2023-06-20 05:12:35] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-06-20 05:12:35] INFO root fetch - processPackages [ros-cdk-rocketmq5]: Downloading https://files.pythonhosted.org/packages/c1/b0/f7f3f5126ccb626d044a9dc73b68e3ee03e386a9ab515db8005df2677e9d/ros-cdk-rocketmq5-1.0.14.tar.gz
+[2023-06-20 05:12:35] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a7.tar.gz tmp/d20-securityLayer-2.0.0a8.tar.gz --markdown 20230620/d/d20-securityLayer/2.0.0a7-2.0.0a8/diff.md --exclude *.pyd
+[2023-06-20 05:12:35] INFO root fetch - processPackages [reaxfit]: executing diffoscope
+[2023-06-20 05:12:35] INFO root fetch - processPackages [reaxfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaxfit-0.1.4.tar.gz tmp/reaxfit-0.2.0.tar.gz --markdown 20230620/r/reaxfit/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-06-20 05:12:35] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: executing diffoscope
+[2023-06-20 05:12:35] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-bpstudio-1.0.2.tar.gz tmp/aliyun-python-sdk-bpstudio-1.0.3.tar.gz --markdown 20230620/a/aliyun-python-sdk-bpstudio/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-20 05:12:35] INFO root fetch - processPackages [py2appsigner]: executing diffoscope
+[2023-06-20 05:12:35] INFO root fetch - processPackages [py2appsigner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2appsigner-0.5.0.tar.gz tmp/py2appsigner-0.5.2.tar.gz --markdown 20230620/p/py2appsigner/0.5.0-0.5.2/diff.md --exclude *.pyd
+[2023-06-20 05:12:35] INFO root fetch - processPackages [ros-cdk-rocketmq5]: executing diffoscope
+[2023-06-20 05:12:35] INFO root fetch - processPackages [ros-cdk-rocketmq5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-rocketmq5-1.0.13.tar.gz tmp/ros-cdk-rocketmq5-1.0.14.tar.gz --markdown 20230620/r/ros-cdk-rocketmq5/1.0.13-1.0.14/diff.md --exclude *.pyd
+[2023-06-20 05:12:35] INFO root fetch - processPackages [nsdotpy]: executing diffoscope
+[2023-06-20 05:12:35] INFO root fetch - processPackages [nsdotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsdotpy-1.3.4.tar.gz tmp/nsdotpy-2.0.0.tar.gz --markdown 20230620/n/nsdotpy/1.3.4-2.0.0/diff.md --exclude *.pyd
+[2023-06-20 05:12:36] INFO root fetch - processPackages [ros-cdk-mns]: executing diffoscope
+[2023-06-20 05:12:36] INFO root fetch - processPackages [ros-cdk-mns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-mns-1.0.8.tar.gz tmp/ros-cdk-mns-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-mns/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:12:36] INFO root fetch - processPackages [python-selenium-ctrl-package]: executing diffoscope
+[2023-06-20 05:12:36] INFO root fetch - processPackages [python-selenium-ctrl-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_selenium_ctrl_package-0.0.98.tar.gz tmp/python_selenium_ctrl_package-0.0.99.tar.gz --markdown 20230620/p/python-selenium-ctrl-package/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 05:12:37] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-06-20 05:12:37] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-06-20 05:12:37] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Start processing: ros-cdk-ecd
+[2023-06-20 05:12:37] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-06-20 05:12:37] INFO root fetch - processPackages [ros-cdk-ecd]: New version: [1.0.9] Old Version: [1.0.14]
+[2023-06-20 05:12:37] INFO root fetch - processPackages [ros-cdk-ecd]: Downloading https://files.pythonhosted.org/packages/68/09/6b9127555ea61a4209e482b7ff795d00f3ead718a8a83ad6cbccdc7d0ff4/ros-cdk-ecd-1.0.14.tar.gz
+[2023-06-20 05:12:37] INFO root fetch - processPackages [ros-cdk-rocketmq5]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rocketmq5-1.0.13.tar.gz]
+[2023-06-20 05:12:37] INFO root fetch - processPackages [ros-cdk-rocketmq5]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rocketmq5-1.0.14.tar.gz]
+[2023-06-20 05:12:37] INFO root fetch - processPackages [ros-cdk-rocketmq5]: Start processing: ros-cdk-cloudfw
+[2023-06-20 05:12:37] INFO root fetch - main [MainThread]: End processing [ros-cdk-rocketmq5]: success
+[2023-06-20 05:12:37] INFO root fetch - processPackages [ros-cdk-cloudfw]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 05:12:37] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a7.tar.gz]
+[2023-06-20 05:12:37] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a8.tar.gz]
+[2023-06-20 05:12:37] INFO root fetch - processPackages [d20-securityLayer]: Start processing: sora-sdk
+[2023-06-20 05:12:37] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-06-20 05:12:37] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-bpstudio-1.0.2.tar.gz]
+[2023-06-20 05:12:37] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-bpstudio-1.0.3.tar.gz]
+[2023-06-20 05:12:37] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-bpstudio]: success
+[2023-06-20 05:12:37] INFO root fetch - processPackages [sora-sdk]: New version: [2023.1.0.dev9] Old Version: [2023.1.0.dev8]
+[2023-06-20 05:12:37] INFO root fetch - processPackages [ros-cdk-ecd]: Downloading https://files.pythonhosted.org/packages/0e/98/7da1c1d43a4468b3e9dbfb524fea7918991d7a49b208c4dbaa04497ffc25/ros-cdk-ecd-1.0.9.tar.gz
+[2023-06-20 05:12:37] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/be/f5/9b8c007121fc24f4dc0239657ed4d292d37142046e116f958c4552a41b72/sora_sdk-2023.1.0.dev8.tar.gz
+[2023-06-20 05:12:37] INFO root fetch - processPackages [reaxfit]: Remove: archive file [/home/abi/fetcher/tmp/reaxfit-0.1.4.tar.gz]
+[2023-06-20 05:12:37] INFO root fetch - processPackages [reaxfit]: Remove: archive file [/home/abi/fetcher/tmp/reaxfit-0.2.0.tar.gz]
+[2023-06-20 05:12:37] INFO root fetch - main [MainThread]: End processing [reaxfit]: success
+[2023-06-20 05:12:37] WARNING root fetch - processPackages [sora-sdk]: Skipping package: exceeds size limit 11007321>=10485760
+[2023-06-20 05:12:37] INFO root fetch - main [MainThread]: End processing [sora-sdk] error
+[2023-06-20 05:12:37] INFO root fetch - processPackages [ros-cdk-cloudfw]: Downloading https://files.pythonhosted.org/packages/9f/2e/90746b9aac214f468e9137704d8d47af9c91c4cf5eaf11145c42fe705baf/ros-cdk-cloudfw-1.0.8.tar.gz
+[2023-06-20 05:12:37] INFO root fetch - processPackages [ros-cdk-ecd]: executing diffoscope
+[2023-06-20 05:12:37] INFO root fetch - processPackages [ros-cdk-ecd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ecd-1.0.14.tar.gz tmp/ros-cdk-ecd-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-ecd/1.0.14-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:12:38] INFO root fetch - processPackages [ros-cdk-mns]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mns-1.0.8.tar.gz]
+[2023-06-20 05:12:38] INFO root fetch - processPackages [ros-cdk-mns]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mns-1.0.9.tar.gz]
+[2023-06-20 05:12:38] INFO root fetch - main [MainThread]: End processing [ros-cdk-mns]: success
+[2023-06-20 05:12:38] INFO root fetch - processPackages [nsdotpy]: Remove: archive file [/home/abi/fetcher/tmp/nsdotpy-1.3.4.tar.gz]
+[2023-06-20 05:12:38] INFO root fetch - processPackages [nsdotpy]: Remove: archive file [/home/abi/fetcher/tmp/nsdotpy-2.0.0.tar.gz]
+[2023-06-20 05:12:38] INFO root fetch - main [MainThread]: End processing [nsdotpy]: success
+[2023-06-20 05:12:38] INFO root fetch - processPackages [python-selenium-ctrl-package]: Remove: archive file [/home/abi/fetcher/tmp/python_selenium_ctrl_package-0.0.98.tar.gz]
+[2023-06-20 05:12:38] INFO root fetch - processPackages [python-selenium-ctrl-package]: Remove: archive file [/home/abi/fetcher/tmp/python_selenium_ctrl_package-0.0.99.tar.gz]
+[2023-06-20 05:12:38] INFO root fetch - main [MainThread]: End processing [python-selenium-ctrl-package]: success
+[2023-06-20 05:12:38] INFO root fetch - processPackages [py2appsigner]: Remove: archive file [/home/abi/fetcher/tmp/py2appsigner-0.5.0.tar.gz]
+[2023-06-20 05:12:38] INFO root fetch - processPackages [py2appsigner]: Remove: archive file [/home/abi/fetcher/tmp/py2appsigner-0.5.2.tar.gz]
+[2023-06-20 05:12:38] INFO root fetch - main [MainThread]: End processing [py2appsigner]: success
+[2023-06-20 05:12:38] INFO root fetch - processPackages [ros-cdk-cloudfw]: Downloading https://files.pythonhosted.org/packages/28/cf/919a32e2a5fab8e5399647618cd1316ddbd5451996c8a30cf2cdd81a2bcd/ros-cdk-cloudfw-1.0.9.tar.gz
+[2023-06-20 05:12:38] INFO root fetch - processPackages [ros-cdk-cloudfw]: executing diffoscope
+[2023-06-20 05:12:38] INFO root fetch - processPackages [ros-cdk-cloudfw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cloudfw-1.0.8.tar.gz tmp/ros-cdk-cloudfw-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-cloudfw/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:12:39] INFO root fetch - processPackages [ros-cdk-ecd]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ecd-1.0.14.tar.gz]
+[2023-06-20 05:12:39] INFO root fetch - processPackages [ros-cdk-ecd]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ecd-1.0.9.tar.gz]
+[2023-06-20 05:12:39] INFO root fetch - main [MainThread]: End processing [ros-cdk-ecd]: success
+[2023-06-20 05:12:39] INFO root fetch - processPackages [ros-cdk-cloudfw]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudfw-1.0.8.tar.gz]
+[2023-06-20 05:12:39] INFO root fetch - processPackages [ros-cdk-cloudfw]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudfw-1.0.9.tar.gz]
+[2023-06-20 05:12:39] INFO root fetch - main [MainThread]: End processing [ros-cdk-cloudfw]: success
+[2023-06-20 05:12:40] INFO root fetch - processPackages [hmfs]: Remove: archive file [/home/abi/fetcher/tmp/hmfs-1.1.5145.tar.gz]
+[2023-06-20 05:12:40] INFO root fetch - processPackages [hmfs]: Remove: archive file [/home/abi/fetcher/tmp/hmfs-1.1.6.tar.gz]
+[2023-06-20 05:12:40] INFO root fetch - main [MainThread]: End processing [hmfs]: success
+[2023-06-20 05:12:40] INFO root fetch - main [MainThread]: Store serial: [18569564]
