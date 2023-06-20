@@ -2715,3 +2715,88 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 03:00:40] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-06-20 03:00:40] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-06-20 03:00:40] INFO root fetch - main [MainThread]: Store serial: [18567012]
+[2023-06-20 03:05:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18567012]
+[2023-06-20 03:05:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-20 03:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-06-20 03:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plemmy
+[2023-06-20 03:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantconnect-stubs
+[2023-06-20 03:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: d20-orm
+[2023-06-20 03:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aemcmc-nightly
+[2023-06-20 03:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: d20-orm
+[2023-06-20 03:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: playlisterUtil
+[2023-06-20 03:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyappauto
+[2023-06-20 03:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-lambda-layer-curl
+[2023-06-20 03:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: meilisearch-tui
+[2023-06-20 03:05:49] WARNING root fetch - processPackages [plemmy]: Skipping, unable to determine old version
+[2023-06-20 03:05:49] INFO root fetch - main [MainThread]: End processing [plemmy] error
+[2023-06-20 03:05:49] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-20 03:05:49] INFO root fetch - processPackages [pyappauto]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-20 03:05:49] INFO root fetch - processPackages [playlisterUtil]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-20 03:05:49] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-20 03:05:49] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-20 03:05:49] INFO root fetch - processPackages [meilisearch-tui]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-06-20 03:05:49] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-06-20 03:05:49] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-20 03:05:49] INFO root fetch - processPackages [playlisterUtil]: Downloading https://files.pythonhosted.org/packages/47/6b/ca57d6151e1dea80be2343ee4ee8333994561fb8d36839624e72a9ae991c/playlisterutil-2.0.3.tar.gz
+[2023-06-20 03:05:49] INFO root fetch - processPackages [pyappauto]: Downloading https://files.pythonhosted.org/packages/97/2c/46f728f726c63af6e5a30251f13464da065e4e6b4f421dd4ce499da90162/pyappauto-1.0.1.tar.gz
+[2023-06-20 03:05:49] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230620] Old Version: [0.0.8.dev20230619]
+[2023-06-20 03:05:49] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-20 03:05:49] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-20 03:05:49] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-06-20 03:05:49] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-20 03:05:49] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-06-20 03:05:49] INFO root fetch - processPackages [meilisearch-tui]: Downloading https://files.pythonhosted.org/packages/1e/65/59163e368d3d57590ab14751cc1ef760b38a0cbc34aa74059bf11b1c47c7/meilisearch_tui-0.7.3.tar.gz
+[2023-06-20 03:05:49] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-20 03:05:49] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-20 03:05:49] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-20 03:05:49] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230620/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-20 03:05:49] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-20 03:05:49] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230620/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-20 03:05:49] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/d4/89/9724c6e07eebe185e5e91f9f29350f773f529e899be7132a408c6daee342/aemcmc-nightly-0.0.8.dev20230619.tar.gz
+[2023-06-20 03:05:49] INFO root fetch - processPackages [pyappauto]: Downloading https://files.pythonhosted.org/packages/c5/47/9fc00641dcaf72e705678f208a5173608c2e78b328dd68585514bc3d4f23/pyappauto-1.0.2.tar.gz
+[2023-06-20 03:05:49] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-06-20 03:05:50] INFO root fetch - processPackages [playlisterUtil]: Downloading https://files.pythonhosted.org/packages/c0/02/2ee582ea50921fa46fe07ed116aa4a12c66e9c564a5956b5114831a4bf19/playlisterutil-2.0.4.tar.gz
+[2023-06-20 03:05:50] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-06-20 03:05:50] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230620/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-06-20 03:05:50] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-20 03:05:50] INFO root fetch - processPackages [meilisearch-tui]: Downloading https://files.pythonhosted.org/packages/cc/ec/1cfafc876bd6aa68ef50cc55efb15242861ec6afb5f77cb8b0d07783d9df/meilisearch_tui-0.7.4.tar.gz
+[2023-06-20 03:05:50] INFO root fetch - processPackages [pyappauto]: executing diffoscope
+[2023-06-20 03:05:50] INFO root fetch - processPackages [pyappauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyappauto-1.0.1.tar.gz tmp/pyappauto-1.0.2.tar.gz --markdown 20230620/p/pyappauto/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-20 03:05:50] INFO root fetch - processPackages [playlisterUtil]: executing diffoscope
+[2023-06-20 03:05:50] INFO root fetch - processPackages [playlisterUtil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playlisterutil-2.0.3.tar.gz tmp/playlisterutil-2.0.4.tar.gz --markdown 20230620/p/playlisterUtil/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-20 03:05:50] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-20 03:05:50] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230620/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-20 03:05:50] INFO root fetch - processPackages [meilisearch-tui]: executing diffoscope
+[2023-06-20 03:05:50] INFO root fetch - processPackages [meilisearch-tui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearch_tui-0.7.3.tar.gz tmp/meilisearch_tui-0.7.4.tar.gz --markdown 20230620/m/meilisearch-tui/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-06-20 03:05:50] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/28/20/80c447636214b559ff98dded14f412634067f6c33ebe1811de46b846c366/aemcmc-nightly-0.0.8.dev20230620.tar.gz
+[2023-06-20 03:05:50] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-20 03:05:50] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230619.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230620.tar.gz --markdown 20230620/a/aemcmc-nightly/0.0.8.dev20230619-0.0.8.dev20230620/diff.md --exclude *.pyd
+[2023-06-20 03:05:51] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-06-20 03:05:51] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-06-20 03:05:51] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-20 03:05:51] INFO root fetch - processPackages [playlisterUtil]: Remove: archive file [/home/abi/fetcher/tmp/playlisterutil-2.0.3.tar.gz]
+[2023-06-20 03:05:51] INFO root fetch - processPackages [playlisterUtil]: Remove: archive file [/home/abi/fetcher/tmp/playlisterutil-2.0.4.tar.gz]
+[2023-06-20 03:05:51] INFO root fetch - main [MainThread]: End processing [playlisterUtil]: success
+[2023-06-20 03:05:51] INFO root fetch - processPackages [pyappauto]: Remove: archive file [/home/abi/fetcher/tmp/pyappauto-1.0.1.tar.gz]
+[2023-06-20 03:05:51] INFO root fetch - processPackages [pyappauto]: Remove: archive file [/home/abi/fetcher/tmp/pyappauto-1.0.2.tar.gz]
+[2023-06-20 03:05:51] INFO root fetch - main [MainThread]: End processing [pyappauto]: success
+[2023-06-20 03:05:51] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-20 03:05:51] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-06-20 03:05:51] INFO root fetch - processPackages [meilisearch-tui]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch_tui-0.7.3.tar.gz]
+[2023-06-20 03:05:51] INFO root fetch - processPackages [meilisearch-tui]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch_tui-0.7.4.tar.gz]
+[2023-06-20 03:05:51] INFO root fetch - main [MainThread]: End processing [meilisearch-tui]: success
+[2023-06-20 03:05:52] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-20 03:05:52] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-20 03:05:52] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-20 03:05:52] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-06-20 03:05:52] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230620/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-20 03:05:52] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230619.tar.gz]
+[2023-06-20 03:05:52] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230620.tar.gz]
+[2023-06-20 03:05:52] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-20 03:05:53] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-06-20 03:05:53] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-06-20 03:05:53] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-06-20 03:05:54] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2023-06-20 03:05:54] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2023-06-20 03:05:54] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-06-20 03:05:54] INFO root fetch - main [MainThread]: Store serial: [18567049]
