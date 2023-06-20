@@ -11812,3 +11812,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 06:49:01] INFO root fetch - processPackages [spdx-license-list]: Remove: archive file [/home/abi/fetcher/tmp/spdx_license_list-3.21.tar.gz]
 [2023-06-20 06:49:01] INFO root fetch - main [MainThread]: End processing [spdx-license-list]: success
 [2023-06-20 06:49:01] INFO root fetch - main [MainThread]: Store serial: [18570078]
+[2023-06-20 06:54:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570078]
+[2023-06-20 06:54:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-20 06:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-b23
+[2023-06-20 06:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djlds
+[2023-06-20 06:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dea-tools
+[2023-06-20 06:54:10] INFO root fetch - processPackages [nonebot-plugin-b23]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 06:54:10] INFO root fetch - processPackages [djlds]: New version: [2023.6.20] Old Version: [2023.5.31]
+[2023-06-20 06:54:10] INFO root fetch - processPackages [dea-tools]: New version: [0.2.8.dev97] Old Version: [0.2.8.dev96]
+[2023-06-20 06:54:10] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/a5/8f/e6c38c4a30e34e27c73d390677fb69b536831fdf18ceac5323ec7e5952f2/dea-tools-0.2.8.dev96.tar.gz
+[2023-06-20 06:54:10] INFO root fetch - processPackages [nonebot-plugin-b23]: Downloading https://files.pythonhosted.org/packages/8b/ca/7dc99c61468175bc3390e482839ad1b286e88b2f4f47450986630cc81fab/nonebot-plugin-b23-0.0.8.tar.gz
+[2023-06-20 06:54:10] INFO root fetch - processPackages [djlds]: Downloading https://files.pythonhosted.org/packages/4c/34/e3e47e7246cbe6efe305e11e9c1923d4338be7b45e6e4dad2e70c0b17496/djlds-2023.5.31.tar.gz
+[2023-06-20 06:54:10] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/6c/a2/54f9080291998aff375fbdeae573a4329cd884f655a27302bbcdf010cc6d/dea-tools-0.2.8.dev97.tar.gz
+[2023-06-20 06:54:10] INFO root fetch - processPackages [dea-tools]: executing diffoscope
+[2023-06-20 06:54:10] INFO root fetch - processPackages [dea-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dea-tools-0.2.8.dev96.tar.gz tmp/dea-tools-0.2.8.dev97.tar.gz --markdown 20230620/d/dea-tools/0.2.8.dev96-0.2.8.dev97/diff.md --exclude *.pyd
+[2023-06-20 06:54:10] INFO root fetch - processPackages [nonebot-plugin-b23]: Downloading https://files.pythonhosted.org/packages/bb/0d/3fe233f7b6d2429c9ad84d8d01bebe4c37ceb4f8437e96c8f02e30856372/nonebot-plugin-b23-0.0.9.tar.gz
+[2023-06-20 06:54:10] INFO root fetch - processPackages [nonebot-plugin-b23]: executing diffoscope
+[2023-06-20 06:54:10] INFO root fetch - processPackages [nonebot-plugin-b23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-b23-0.0.8.tar.gz tmp/nonebot-plugin-b23-0.0.9.tar.gz --markdown 20230620/n/nonebot-plugin-b23/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 06:54:10] INFO root fetch - processPackages [djlds]: Downloading https://files.pythonhosted.org/packages/ab/e9/518cff33cf6678a69feae78d750fcfc901d9ada21f74c2533e68643a8bca/djlds-2023.6.20.tar.gz
+[2023-06-20 06:54:10] INFO root fetch - processPackages [djlds]: executing diffoscope
+[2023-06-20 06:54:10] INFO root fetch - processPackages [djlds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djlds-2023.5.31.tar.gz tmp/djlds-2023.6.20.tar.gz --markdown 20230620/d/djlds/2023.5.31-2023.6.20/diff.md --exclude *.pyd
+[2023-06-20 06:54:11] INFO root fetch - processPackages [nonebot-plugin-b23]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-b23-0.0.8.tar.gz]
+[2023-06-20 06:54:11] INFO root fetch - processPackages [nonebot-plugin-b23]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-b23-0.0.9.tar.gz]
+[2023-06-20 06:54:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-b23]: success
+[2023-06-20 06:54:11] INFO root fetch - processPackages [djlds]: Remove: archive file [/home/abi/fetcher/tmp/djlds-2023.5.31.tar.gz]
+[2023-06-20 06:54:11] INFO root fetch - processPackages [djlds]: Remove: archive file [/home/abi/fetcher/tmp/djlds-2023.6.20.tar.gz]
+[2023-06-20 06:54:11] INFO root fetch - main [MainThread]: End processing [djlds]: success
+[2023-06-20 06:54:13] INFO root fetch - processPackages [dea-tools]: Remove: archive file [/home/abi/fetcher/tmp/dea-tools-0.2.8.dev96.tar.gz]
+[2023-06-20 06:54:13] INFO root fetch - processPackages [dea-tools]: Remove: archive file [/home/abi/fetcher/tmp/dea-tools-0.2.8.dev97.tar.gz]
+[2023-06-20 06:54:13] INFO root fetch - main [MainThread]: End processing [dea-tools]: success
+[2023-06-20 06:54:13] INFO root fetch - main [MainThread]: Store serial: [18570086]
