@@ -12140,3 +12140,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 07:18:11] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.4.0.tar.gz]
 [2023-06-20 07:18:11] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
 [2023-06-20 07:18:11] INFO root fetch - main [MainThread]: Store serial: [18570203]
+[2023-06-20 07:23:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570203]
+[2023-06-20 07:23:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-20 07:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdkit
+[2023-06-20 07:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ConstitutionUz
+[2023-06-20 07:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: justMulti
+[2023-06-20 07:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrestoolbox
+[2023-06-20 07:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FlowAnalyzer
+[2023-06-20 07:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chanjo2
+[2023-06-20 07:23:21] WARNING root fetch - processPackages [ConstitutionUz]: Skipping, unable to determine old version
+[2023-06-20 07:23:21] INFO root fetch - main [MainThread]: End processing [ConstitutionUz] error
+[2023-06-20 07:23:21] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-20 07:23:21] WARNING root fetch - processPackages [justMulti]: Skipping, unable to determine old version
+[2023-06-20 07:23:21] INFO root fetch - main [MainThread]: End processing [justMulti] error
+[2023-06-20 07:23:21] INFO root fetch - processPackages [chanjo2]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-20 07:23:21] INFO root fetch - processPackages [FlowAnalyzer]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-20 07:23:21] INFO root fetch - processPackages [pyrestoolbox]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-20 07:23:21] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-06-20 07:23:21] INFO root fetch - processPackages [FlowAnalyzer]: Downloading https://files.pythonhosted.org/packages/0f/b7/821ec04012bc7fc43e2477824975ac09ff4a31d2679d6bfb1388e2186e95/FlowAnalyzer-0.1.0.tar.gz
+[2023-06-20 07:23:21] INFO root fetch - processPackages [chanjo2]: Downloading https://files.pythonhosted.org/packages/aa/e5/ed4767cc5ab8c90ce7b4c208e0f3dbea1597089f99f4aebc2fc3bce2b917/chanjo2-1.0.1.tar.gz
+[2023-06-20 07:23:21] INFO root fetch - processPackages [pyrestoolbox]: Downloading https://files.pythonhosted.org/packages/3c/52/235e98825f20f620bcf3d9fb3ac1a9bc69b64e747afaacc2fb5e9f81508f/pyrestoolbox-1.3.8.tar.gz
+[2023-06-20 07:23:21] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-06-20 07:23:21] INFO root fetch - processPackages [FlowAnalyzer]: Downloading https://files.pythonhosted.org/packages/89/8d/652445c764e242c616f2de2b2ba30e9188f45aceb2b88bcd45c32d106ce7/FlowAnalyzer-0.1.1.tar.gz
+[2023-06-20 07:23:21] INFO root fetch - processPackages [chanjo2]: Downloading https://files.pythonhosted.org/packages/3b/ac/f29554beba3a107f687b8a033dd381ec1c79d7043381725f97edb6065fd5/chanjo2-1.1.0.tar.gz
+[2023-06-20 07:23:21] INFO root fetch - processPackages [pyrestoolbox]: Downloading https://files.pythonhosted.org/packages/9c/2c/367b95ca44be21dd07806fa73024835d4155aedc33c0648d579ae5a64c09/pyrestoolbox-1.3.9.tar.gz
+[2023-06-20 07:23:21] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-06-20 07:23:21] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230620/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-20 07:23:22] INFO root fetch - processPackages [FlowAnalyzer]: executing diffoscope
+[2023-06-20 07:23:22] INFO root fetch - processPackages [FlowAnalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlowAnalyzer-0.1.0.tar.gz tmp/FlowAnalyzer-0.1.1.tar.gz --markdown 20230620/F/FlowAnalyzer/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-20 07:23:22] INFO root fetch - processPackages [chanjo2]: executing diffoscope
+[2023-06-20 07:23:22] INFO root fetch - processPackages [chanjo2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chanjo2-1.0.1.tar.gz tmp/chanjo2-1.1.0.tar.gz --markdown 20230620/c/chanjo2/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-20 07:23:22] INFO root fetch - processPackages [pyrestoolbox]: executing diffoscope
+[2023-06-20 07:23:22] INFO root fetch - processPackages [pyrestoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrestoolbox-1.3.8.tar.gz tmp/pyrestoolbox-1.3.9.tar.gz --markdown 20230620/p/pyrestoolbox/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-20 07:23:23] INFO root fetch - processPackages [FlowAnalyzer]: Remove: archive file [/home/abi/fetcher/tmp/FlowAnalyzer-0.1.0.tar.gz]
+[2023-06-20 07:23:23] INFO root fetch - processPackages [FlowAnalyzer]: Remove: archive file [/home/abi/fetcher/tmp/FlowAnalyzer-0.1.1.tar.gz]
+[2023-06-20 07:23:23] INFO root fetch - main [MainThread]: End processing [FlowAnalyzer]: success
+[2023-06-20 07:23:23] INFO root fetch - processPackages [chanjo2]: Remove: archive file [/home/abi/fetcher/tmp/chanjo2-1.0.1.tar.gz]
+[2023-06-20 07:23:23] INFO root fetch - processPackages [chanjo2]: Remove: archive file [/home/abi/fetcher/tmp/chanjo2-1.1.0.tar.gz]
+[2023-06-20 07:23:23] INFO root fetch - main [MainThread]: End processing [chanjo2]: success
+[2023-06-20 07:23:23] INFO root fetch - processPackages [pyrestoolbox]: Remove: archive file [/home/abi/fetcher/tmp/pyrestoolbox-1.3.8.tar.gz]
+[2023-06-20 07:23:23] INFO root fetch - processPackages [pyrestoolbox]: Remove: archive file [/home/abi/fetcher/tmp/pyrestoolbox-1.3.9.tar.gz]
+[2023-06-20 07:23:23] INFO root fetch - main [MainThread]: End processing [pyrestoolbox]: success
+[2023-06-20 07:23:23] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-06-20 07:23:23] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-06-20 07:23:23] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-06-20 07:23:23] INFO root fetch - main [MainThread]: Store serial: [18570223]
