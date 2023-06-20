@@ -16571,3 +16571,192 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 10:56:33] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev98-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-06-20 10:56:33] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
 [2023-06-20 10:56:33] INFO root fetch - main [MainThread]: Store serial: [18572151]
+[2023-06-20 11:01:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18572151]
+[2023-06-20 11:01:53] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-20 11:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volue-insight-timeseries
+[2023-06-20 11:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openicl
+[2023-06-20 11:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dtrv
+[2023-06-20 11:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-software
+[2023-06-20 11:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: 0005
+[2023-06-20 11:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastly
+[2023-06-20 11:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccxt
+[2023-06-20 11:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: th2-data-services
+[2023-06-20 11:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nrsdk
+[2023-06-20 11:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rendersrt
+[2023-06-20 11:01:53] INFO root fetch - processPackages [volue-insight-timeseries]: New version: [1.0.0b2.dev2] Old Version: [1.0.0b2.dev1]
+[2023-06-20 11:01:53] INFO root fetch - processPackages [netbox-software]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-20 11:01:53] INFO root fetch - processPackages [openicl]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-20 11:01:53] INFO root fetch - processPackages [nrsdk]: New version: [1.1.2] Old Version: [1.1.1.4]
+[2023-06-20 11:01:53] WARNING root fetch - processPackages [0005]: Skipping, unable to determine old version
+[2023-06-20 11:01:53] INFO root fetch - processPackages [0005]: Start processing: hdcms-bindings
+[2023-06-20 11:01:53] INFO root fetch - main [MainThread]: End processing [0005] error
+[2023-06-20 11:01:53] INFO root fetch - processPackages [rendersrt]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-20 11:01:53] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev5320534839] Old Version: [2.0.0.dev5320308217]
+[2023-06-20 11:01:53] INFO root fetch - processPackages [fastly]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-06-20 11:01:53] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-20 11:01:53] INFO root fetch - processPackages [hdcms-bindings]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-20 11:01:53] WARNING root fetch - processPackages [dtrv]: Skipping, unable to determine old version
+[2023-06-20 11:01:53] INFO root fetch - processPackages [dtrv]: Start processing: sliceable-dict
+[2023-06-20 11:01:53] INFO root fetch - main [MainThread]: End processing [dtrv] error
+[2023-06-20 11:01:53] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [sliceable-dict]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-20 11:01:53] INFO root fetch - processPackages [volue-insight-timeseries]: Downloading https://files.pythonhosted.org/packages/84/3a/2a24374254fad0929d371f8868217e266f11de436e40f63f3803fbafa665/volue-insight-timeseries-1.0.0b2.dev1.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/47/72/2c4f257cee16d25a472e4b52453df4043e095d17a1cef79831c1d978f355/th2_data_services-2.0.0.dev5320308217.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [sliceable-dict]: Downloading https://files.pythonhosted.org/packages/c8/4f/3dd2891ecc50f4cd6c7f3611fed7d69899809ee4d342b05c98292e168be0/sliceable_dict-0.4.0-4.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [openicl]: Downloading https://files.pythonhosted.org/packages/44/d9/1035745287f9cdb31877a41bde631adb2bc2b15dad79f5254f19005c8a34/openicl-0.1.7.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [rendersrt]: Downloading https://files.pythonhosted.org/packages/82/28/a01bdd0fbd33c490b11008f8401c6672b5eba8638a37eaf8d7d441e9cd84/rendersrt-0.0.6.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [nrsdk]: Downloading https://files.pythonhosted.org/packages/4f/d3/20f14a071f2c5e73bd055f56ceb9b2ef824fd193cb0744ff23c1e73c8eed/nrsdk-1.1.1.4.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [netbox-software]: Downloading https://files.pythonhosted.org/packages/ab/f1/3cc0a3f49cd427bbb97f21e7cabd0ab357466690f7db8b3e738a64363298/netbox_software-0.1.0.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [hdcms-bindings]: Downloading https://files.pythonhosted.org/packages/29/4e/9434e24a210e023e47d5a2567c019a9198472e36deb71a30f80742400bda/hdcms-bindings-0.1.4.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [fastly]: Downloading https://files.pythonhosted.org/packages/73/df/2414be4cbbe3026dd5be01fe6aff21b4adbef953c20eca844a28ac17252b/fastly-2.1.1.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [volue-insight-timeseries]: Downloading https://files.pythonhosted.org/packages/4a/68/0aebffe7cbbf2de3dbcb4f161cf9a918a0003af390e0026adec3a9199655/volue-insight-timeseries-1.0.0b2.dev2.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [sliceable-dict]: Downloading https://files.pythonhosted.org/packages/e9/e7/79d3fedda50d9dc94f46d08d9f8b03d3d5f50f493e61c4aa85be4039f572/sliceable_dict-0.4.1.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/eb/2c/3c8ec1852333424b124772ea4b595b75d99ef76917812dabe255fde3753a/th2_data_services-2.0.0.dev5320534839.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [openicl]: Downloading https://files.pythonhosted.org/packages/45/b9/0b41d78adad75c03a788bfab1fea3cab7aed9fcc7e250fda25d2b6796d7f/openicl-0.1.8.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [hdcms-bindings]: Downloading https://files.pythonhosted.org/packages/10/07/d262c40aed37d363fbb7ad13cb0bf76d21dc70317c1dd3502572b7d4291d/hdcms-bindings-0.1.5.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [sliceable-dict]: executing diffoscope
+[2023-06-20 11:01:53] INFO root fetch - processPackages [sliceable-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sliceable_dict-0.4.0-4.tar.gz tmp/sliceable_dict-0.4.1.tar.gz --markdown 20230620/s/sliceable-dict/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-20 11:01:53] INFO root fetch - processPackages [nrsdk]: Downloading https://files.pythonhosted.org/packages/ab/49/80fb3dc3807f0cc3b9031adfe2da550f39da9da0d8111c86a799f76673a5/nrsdk-1.1.2.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [volue-insight-timeseries]: executing diffoscope
+[2023-06-20 11:01:53] INFO root fetch - processPackages [volue-insight-timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volue-insight-timeseries-1.0.0b2.dev1.tar.gz tmp/volue-insight-timeseries-1.0.0b2.dev2.tar.gz --markdown 20230620/v/volue-insight-timeseries/1.0.0b2.dev1-1.0.0b2.dev2/diff.md --exclude *.pyd
+[2023-06-20 11:01:53] INFO root fetch - processPackages [openicl]: executing diffoscope
+[2023-06-20 11:01:53] INFO root fetch - processPackages [openicl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openicl-0.1.7.tar.gz tmp/openicl-0.1.8.tar.gz --markdown 20230620/o/openicl/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-20 11:01:53] INFO root fetch - processPackages [fastly]: Downloading https://files.pythonhosted.org/packages/ce/af/75d989006612977fa54c0c9c084e89d79a97236a0be70733596c79525ee5/fastly-2.2.0.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [netbox-software]: Downloading https://files.pythonhosted.org/packages/f2/6a/5474272584581f96efbe2c4052ece47486ca39d5c012308e9f46bc6222c4/netbox_software-0.1.1.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-06-20 11:01:53] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev5320308217.tar.gz tmp/th2_data_services-2.0.0.dev5320534839.tar.gz --markdown 20230620/t/th2-data-services/2.0.0.dev5320308217-2.0.0.dev5320534839/diff.md --exclude *.pyd
+[2023-06-20 11:01:53] INFO root fetch - processPackages [hdcms-bindings]: executing diffoscope
+[2023-06-20 11:01:53] INFO root fetch - processPackages [hdcms-bindings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdcms-bindings-0.1.4.tar.gz tmp/hdcms-bindings-0.1.5.tar.gz --markdown 20230620/h/hdcms-bindings/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-20 11:01:53] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [rendersrt]: Downloading https://files.pythonhosted.org/packages/0c/70/6e8a1d2005c98cb48ffa381aba5ad6e965f5c2753d18b5659bd4ed32d176/rendersrt-0.0.7.tar.gz
+[2023-06-20 11:01:53] INFO root fetch - processPackages [nrsdk]: executing diffoscope
+[2023-06-20 11:01:53] INFO root fetch - processPackages [nrsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrsdk-1.1.1.4.tar.gz tmp/nrsdk-1.1.2.tar.gz --markdown 20230620/n/nrsdk/1.1.1.4-1.1.2/diff.md --exclude *.pyd
+[2023-06-20 11:01:53] INFO root fetch - processPackages [netbox-software]: executing diffoscope
+[2023-06-20 11:01:53] INFO root fetch - processPackages [netbox-software]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_software-0.1.0.tar.gz tmp/netbox_software-0.1.1.tar.gz --markdown 20230620/n/netbox-software/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-20 11:01:53] INFO root fetch - processPackages [fastly]: executing diffoscope
+[2023-06-20 11:01:53] INFO root fetch - processPackages [fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastly-2.1.1.tar.gz tmp/fastly-2.2.0.tar.gz --markdown 20230620/f/fastly/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-06-20 11:01:54] INFO root fetch - processPackages [rendersrt]: executing diffoscope
+[2023-06-20 11:01:54] INFO root fetch - processPackages [rendersrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rendersrt-0.0.6.tar.gz tmp/rendersrt-0.0.7.tar.gz --markdown 20230620/r/rendersrt/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-20 11:01:54] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-20 11:01:54] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230620/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-20 11:01:56] INFO root fetch - processPackages [netbox-software]: Remove: archive file [/home/abi/fetcher/tmp/netbox_software-0.1.0.tar.gz]
+[2023-06-20 11:01:56] INFO root fetch - processPackages [netbox-software]: Remove: archive file [/home/abi/fetcher/tmp/netbox_software-0.1.1.tar.gz]
+[2023-06-20 11:01:56] INFO root fetch - processPackages [netbox-software]: Start processing: landingzone-organization
+[2023-06-20 11:01:56] INFO root fetch - main [MainThread]: End processing [netbox-software]: success
+[2023-06-20 11:01:56] INFO root fetch - processPackages [openicl]: Remove: archive file [/home/abi/fetcher/tmp/openicl-0.1.7.tar.gz]
+[2023-06-20 11:01:56] INFO root fetch - processPackages [openicl]: Remove: archive file [/home/abi/fetcher/tmp/openicl-0.1.8.tar.gz]
+[2023-06-20 11:01:56] INFO root fetch - processPackages [openicl]: Start processing: plateauutils
+[2023-06-20 11:01:56] INFO root fetch - main [MainThread]: End processing [openicl]: success
+[2023-06-20 11:01:56] INFO root fetch - processPackages [rendersrt]: Remove: archive file [/home/abi/fetcher/tmp/rendersrt-0.0.6.tar.gz]
+[2023-06-20 11:01:56] INFO root fetch - processPackages [rendersrt]: Remove: archive file [/home/abi/fetcher/tmp/rendersrt-0.0.7.tar.gz]
+[2023-06-20 11:01:56] INFO root fetch - processPackages [rendersrt]: Start processing: assisted-service-client
+[2023-06-20 11:01:56] INFO root fetch - main [MainThread]: End processing [rendersrt]: success
+[2023-06-20 11:01:56] INFO root fetch - processPackages [landingzone-organization]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-20 11:01:56] WARNING root fetch - processPackages [plateauutils]: Skipping, unable to determine old version
+[2023-06-20 11:01:56] INFO root fetch - processPackages [plateauutils]: Start processing: shortloop-python
+[2023-06-20 11:01:56] INFO root fetch - main [MainThread]: End processing [plateauutils] error
+[2023-06-20 11:01:56] INFO root fetch - processPackages [shortloop-python]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-20 11:01:56] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-06-20 11:01:56] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-06-20 11:01:56] INFO root fetch - processPackages [landingzone-organization]: Downloading https://files.pythonhosted.org/packages/fa/26/18870efb2696c1a2cf22a71b7cd4cd5706eab38e1562b58e56caadc917ce/landingzone_organization-0.4.0.tar.gz
+[2023-06-20 11:01:56] INFO root fetch - processPackages [hdcms-bindings]: Remove: archive file [/home/abi/fetcher/tmp/hdcms-bindings-0.1.4.tar.gz]
+[2023-06-20 11:01:56] INFO root fetch - processPackages [hdcms-bindings]: Remove: archive file [/home/abi/fetcher/tmp/hdcms-bindings-0.1.5.tar.gz]
+[2023-06-20 11:01:56] INFO root fetch - processPackages [hdcms-bindings]: Start processing: netbox-plugin-prometheus-sd
+[2023-06-20 11:01:56] INFO root fetch - main [MainThread]: End processing [hdcms-bindings]: success
+[2023-06-20 11:01:56] INFO root fetch - processPackages [netbox-plugin-prometheus-sd]: New version: [0.7.0rc1] Old Version: [0.6.3]
+[2023-06-20 11:01:56] INFO root fetch - processPackages [shortloop-python]: Downloading https://files.pythonhosted.org/packages/86/0a/0ec0dbd74a1e7e1a1941b66530f5df3661b451d33cca9393eeab21fac2f4/shortloop_python-0.1.2.tar.gz
+[2023-06-20 11:01:56] INFO root fetch - processPackages [sliceable-dict]: Remove: archive file [/home/abi/fetcher/tmp/sliceable_dict-0.4.0-4.tar.gz]
+[2023-06-20 11:01:56] INFO root fetch - processPackages [sliceable-dict]: Remove: archive file [/home/abi/fetcher/tmp/sliceable_dict-0.4.1.tar.gz]
+[2023-06-20 11:01:56] INFO root fetch - processPackages [sliceable-dict]: Start processing: wevision
+[2023-06-20 11:01:56] INFO root fetch - main [MainThread]: End processing [sliceable-dict]: success
+[2023-06-20 11:01:56] INFO root fetch - processPackages [volue-insight-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/volue-insight-timeseries-1.0.0b2.dev1.tar.gz]
+[2023-06-20 11:01:56] INFO root fetch - processPackages [volue-insight-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/volue-insight-timeseries-1.0.0b2.dev2.tar.gz]
+[2023-06-20 11:01:56] INFO root fetch - processPackages [volue-insight-timeseries]: Start processing: coindicator
+[2023-06-20 11:01:56] INFO root fetch - main [MainThread]: End processing [volue-insight-timeseries]: success
+[2023-06-20 11:01:56] WARNING root fetch - processPackages [wevision]: Skipping, unable to determine old version
+[2023-06-20 11:01:56] INFO root fetch - processPackages [wevision]: Start processing: easylsb
+[2023-06-20 11:01:56] INFO root fetch - main [MainThread]: End processing [wevision] error
+[2023-06-20 11:01:56] INFO root fetch - processPackages [coindicator]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-06-20 11:01:56] INFO root fetch - processPackages [easylsb]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 11:01:56] INFO root fetch - processPackages [landingzone-organization]: Downloading https://files.pythonhosted.org/packages/2f/ff/0c8a666fcaf64783dc28f7a7374444670afc06ec1c32d7782e86ebe38eda/landingzone_organization-0.5.0.tar.gz
+[2023-06-20 11:01:56] INFO root fetch - processPackages [netbox-plugin-prometheus-sd]: Downloading https://files.pythonhosted.org/packages/62/56/3fef3480177f1e5a92dc93281ce000ff6ea8024eebc9382b81da73fcc2f1/netbox_plugin_prometheus_sd-0.6.3.tar.gz
+[2023-06-20 11:01:56] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-06-20 11:01:56] INFO root fetch - processPackages [landingzone-organization]: executing diffoscope
+[2023-06-20 11:01:56] INFO root fetch - processPackages [landingzone-organization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingzone_organization-0.4.0.tar.gz tmp/landingzone_organization-0.5.0.tar.gz --markdown 20230620/l/landingzone-organization/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-20 11:01:56] INFO root fetch - processPackages [shortloop-python]: Downloading https://files.pythonhosted.org/packages/7a/19/888cf6f211c918febe96943b09f0f6cf447492831fd59627b5886be81e1d/shortloop_python-0.1.3.tar.gz
+[2023-06-20 11:01:56] INFO root fetch - processPackages [coindicator]: Downloading https://files.pythonhosted.org/packages/1b/9f/af2bf06f672b55e86d3b07ee86ccb22a9eabc73f13e2acb282310b2b4fdb/coindicator-2.1.9.tar.gz
+[2023-06-20 11:01:56] INFO root fetch - processPackages [easylsb]: Downloading https://files.pythonhosted.org/packages/01/16/b5e4f2eb55b21c05c818b087ec2663997ab848b10cf08abdd8f1390bdd7e/easylsb-1.0.8.tar.gz
+[2023-06-20 11:01:56] INFO root fetch - processPackages [shortloop-python]: executing diffoscope
+[2023-06-20 11:01:56] INFO root fetch - processPackages [shortloop-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shortloop_python-0.1.2.tar.gz tmp/shortloop_python-0.1.3.tar.gz --markdown 20230620/s/shortloop-python/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-20 11:01:56] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-06-20 11:01:56] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230620/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-06-20 11:01:56] INFO root fetch - processPackages [netbox-plugin-prometheus-sd]: Downloading https://files.pythonhosted.org/packages/99/f7/cafd51fa47d10cbe50ef6308394218e6b39cf05ede44802b5105bb2ebced/netbox_plugin_prometheus_sd-0.7.0rc1.tar.gz
+[2023-06-20 11:01:56] INFO root fetch - processPackages [coindicator]: Downloading https://files.pythonhosted.org/packages/9d/b2/3241eec5d50bc7dc418772f1d14b2409e710b54f13a1848296f4f5d55133/coindicator-2.2.0.tar.gz
+[2023-06-20 11:01:57] INFO root fetch - processPackages [netbox-plugin-prometheus-sd]: executing diffoscope
+[2023-06-20 11:01:57] INFO root fetch - processPackages [netbox-plugin-prometheus-sd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_plugin_prometheus_sd-0.6.3.tar.gz tmp/netbox_plugin_prometheus_sd-0.7.0rc1.tar.gz --markdown 20230620/n/netbox-plugin-prometheus-sd/0.6.3-0.7.0rc1/diff.md --exclude *.pyd
+[2023-06-20 11:01:57] INFO root fetch - processPackages [easylsb]: Downloading https://files.pythonhosted.org/packages/bd/43/f5900d51dab4d4ab5bee57458cebfaf6f092cc17c6f8f4c3860bf1f7ed87/easylsb-1.0.9.tar.gz
+[2023-06-20 11:01:57] INFO root fetch - processPackages [easylsb]: executing diffoscope
+[2023-06-20 11:01:57] INFO root fetch - processPackages [easylsb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easylsb-1.0.8.tar.gz tmp/easylsb-1.0.9.tar.gz --markdown 20230620/e/easylsb/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 11:01:57] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5320308217.tar.gz]
+[2023-06-20 11:01:57] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5320534839.tar.gz]
+[2023-06-20 11:01:57] INFO root fetch - processPackages [th2-data-services]: Start processing: hdcms
+[2023-06-20 11:01:57] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-06-20 11:01:57] INFO root fetch - processPackages [hdcms]: New version: [0.1.9] Old Version: [0.1.20]
+[2023-06-20 11:01:57] INFO root fetch - processPackages [coindicator]: executing diffoscope
+[2023-06-20 11:01:57] INFO root fetch - processPackages [coindicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coindicator-2.1.9.tar.gz tmp/coindicator-2.2.0.tar.gz --markdown 20230620/c/coindicator/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-06-20 11:01:57] INFO root fetch - processPackages [hdcms]: Downloading https://files.pythonhosted.org/packages/da/f9/b91c24a02cb96f9ea2c1fc727965c7a3d3575116dd31057ecebf9eb46028/hdcms-0.1.20.tar.gz
+[2023-06-20 11:01:57] INFO root fetch - processPackages [hdcms]: Downloading https://files.pythonhosted.org/packages/51/34/34ec56614830dd108a14b9d8f0c47d25fafb9b28d6da054418f54c5aadf2/hdcms-0.1.9.tar.gz
+[2023-06-20 11:01:58] INFO root fetch - processPackages [hdcms]: executing diffoscope
+[2023-06-20 11:01:58] INFO root fetch - processPackages [hdcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdcms-0.1.20.tar.gz tmp/hdcms-0.1.9.tar.gz --markdown 20230620/h/hdcms/0.1.20-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 11:01:58] INFO root fetch - processPackages [landingzone-organization]: Remove: archive file [/home/abi/fetcher/tmp/landingzone_organization-0.4.0.tar.gz]
+[2023-06-20 11:01:58] INFO root fetch - processPackages [landingzone-organization]: Remove: archive file [/home/abi/fetcher/tmp/landingzone_organization-0.5.0.tar.gz]
+[2023-06-20 11:01:58] INFO root fetch - processPackages [landingzone-organization]: Start processing: emailalert
+[2023-06-20 11:01:58] INFO root fetch - main [MainThread]: End processing [landingzone-organization]: success
+[2023-06-20 11:01:58] INFO root fetch - processPackages [emailalert]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-20 11:01:58] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/d1/01/3a7a95d264e34bdf4e02af6521966886612081d78faeb03296c98d73406e/emailalert-1.3.8.tar.gz
+[2023-06-20 11:01:58] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/b2/9e/6dc2121c67b3d4a656231185e386a8ca9707c61751441f89fafe7ee42eda/emailalert-1.3.9.tar.gz
+[2023-06-20 11:01:59] INFO root fetch - processPackages [netbox-plugin-prometheus-sd]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_prometheus_sd-0.6.3.tar.gz]
+[2023-06-20 11:01:59] INFO root fetch - processPackages [netbox-plugin-prometheus-sd]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_prometheus_sd-0.7.0rc1.tar.gz]
+[2023-06-20 11:01:59] INFO root fetch - processPackages [netbox-plugin-prometheus-sd]: Start processing: fancy-collections
+[2023-06-20 11:01:59] INFO root fetch - main [MainThread]: End processing [netbox-plugin-prometheus-sd]: success
+[2023-06-20 11:01:59] INFO root fetch - processPackages [fancy-collections]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-20 11:01:59] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-20 11:01:59] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.3.8.tar.gz tmp/emailalert-1.3.9.tar.gz --markdown 20230620/e/emailalert/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-20 11:01:59] INFO root fetch - processPackages [fancy-collections]: Downloading https://files.pythonhosted.org/packages/91/75/c84b8e2fd7a46baca8d718599e8b2e9b1261da1e88f7fe3acd18384ff909/fancy_collections-0.1.3.tar.gz
+[2023-06-20 11:01:59] INFO root fetch - processPackages [shortloop-python]: Remove: archive file [/home/abi/fetcher/tmp/shortloop_python-0.1.2.tar.gz]
+[2023-06-20 11:01:59] INFO root fetch - processPackages [shortloop-python]: Remove: archive file [/home/abi/fetcher/tmp/shortloop_python-0.1.3.tar.gz]
+[2023-06-20 11:01:59] INFO root fetch - processPackages [shortloop-python]: Start processing: blessingpdfs
+[2023-06-20 11:01:59] INFO root fetch - main [MainThread]: End processing [shortloop-python]: success
+[2023-06-20 11:01:59] INFO root fetch - processPackages [easylsb]: Remove: archive file [/home/abi/fetcher/tmp/easylsb-1.0.8.tar.gz]
+[2023-06-20 11:01:59] INFO root fetch - processPackages [easylsb]: Remove: archive file [/home/abi/fetcher/tmp/easylsb-1.0.9.tar.gz]
+[2023-06-20 11:01:59] INFO root fetch - main [MainThread]: End processing [easylsb]: success
+[2023-06-20 11:01:59] WARNING root fetch - processPackages [blessingpdfs]: Skipping, unable to determine old version
+[2023-06-20 11:01:59] INFO root fetch - main [MainThread]: End processing [blessingpdfs] error
+[2023-06-20 11:01:59] INFO root fetch - processPackages [fancy-collections]: Downloading https://files.pythonhosted.org/packages/c7/25/bc38f6943e4443c931dc4184df11b135787976953f2f44f0d4e31298d19f/fancy_collections-0.2.0-2.tar.gz
+[2023-06-20 11:01:59] INFO root fetch - processPackages [fancy-collections]: executing diffoscope
+[2023-06-20 11:01:59] INFO root fetch - processPackages [fancy-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fancy_collections-0.1.3.tar.gz tmp/fancy_collections-0.2.0-2.tar.gz --markdown 20230620/f/fancy-collections/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-20 11:02:00] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.3.8.tar.gz]
+[2023-06-20 11:02:00] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.3.9.tar.gz]
+[2023-06-20 11:02:00] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-20 11:02:00] INFO root fetch - processPackages [fancy-collections]: Remove: archive file [/home/abi/fetcher/tmp/fancy_collections-0.1.3.tar.gz]
+[2023-06-20 11:02:00] INFO root fetch - processPackages [fancy-collections]: Remove: archive file [/home/abi/fetcher/tmp/fancy_collections-0.2.0-2.tar.gz]
+[2023-06-20 11:02:00] INFO root fetch - main [MainThread]: End processing [fancy-collections]: success
+[2023-06-20 11:02:01] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-06-20 11:02:01] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-06-20 11:02:01] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-06-20 11:02:02] INFO root fetch - processPackages [coindicator]: Remove: archive file [/home/abi/fetcher/tmp/coindicator-2.1.9.tar.gz]
+[2023-06-20 11:02:02] INFO root fetch - processPackages [coindicator]: Remove: archive file [/home/abi/fetcher/tmp/coindicator-2.2.0.tar.gz]
+[2023-06-20 11:02:02] INFO root fetch - main [MainThread]: End processing [coindicator]: success
+[2023-06-20 11:02:05] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-20 11:02:05] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-20 11:02:05] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-20 11:02:06] INFO root fetch - processPackages [nrsdk]: Remove: archive file [/home/abi/fetcher/tmp/nrsdk-1.1.1.4.tar.gz]
+[2023-06-20 11:02:06] INFO root fetch - processPackages [nrsdk]: Remove: archive file [/home/abi/fetcher/tmp/nrsdk-1.1.2.tar.gz]
+[2023-06-20 11:02:06] INFO root fetch - main [MainThread]: End processing [nrsdk]: success
+[2023-06-20 11:02:07] INFO root fetch - processPackages [hdcms]: Remove: archive file [/home/abi/fetcher/tmp/hdcms-0.1.20.tar.gz]
+[2023-06-20 11:02:07] INFO root fetch - processPackages [hdcms]: Remove: archive file [/home/abi/fetcher/tmp/hdcms-0.1.9.tar.gz]
+[2023-06-20 11:02:07] INFO root fetch - main [MainThread]: End processing [hdcms]: success
+[2023-06-20 11:02:24] INFO root fetch - processPackages [fastly]: Remove: archive file [/home/abi/fetcher/tmp/fastly-2.1.1.tar.gz]
+[2023-06-20 11:02:24] INFO root fetch - processPackages [fastly]: Remove: archive file [/home/abi/fetcher/tmp/fastly-2.2.0.tar.gz]
+[2023-06-20 11:02:24] INFO root fetch - main [MainThread]: End processing [fastly]: success
+[2023-06-20 11:02:24] INFO root fetch - main [MainThread]: Store serial: [18572229]
