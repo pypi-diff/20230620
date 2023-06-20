@@ -11221,3 +11221,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 05:54:45] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.9.tar.gz]
 [2023-06-20 05:54:45] INFO root fetch - main [MainThread]: End processing [agixt]: success
 [2023-06-20 05:54:45] INFO root fetch - main [MainThread]: Store serial: [18569831]
+[2023-06-20 05:59:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18569831]
+[2023-06-20 05:59:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-20 05:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MouseTracks-Generate
+[2023-06-20 05:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text2text
+[2023-06-20 05:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cfr
+[2023-06-20 05:59:54] INFO root fetch - processPackages [MouseTracks-Generate]: New version: [1.2] Old Version: [1.1]
+[2023-06-20 05:59:54] INFO root fetch - processPackages [text2text]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-20 05:59:54] INFO root fetch - processPackages [cfr]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-20 05:59:54] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/96/f9/ca1d523c7694b9b0ecf5bf8466d1e7887fae66060af0f9d768c3165574d3/text2text-1.0.5.tar.gz
+[2023-06-20 05:59:54] INFO root fetch - processPackages [MouseTracks-Generate]: Downloading https://files.pythonhosted.org/packages/99/93/f2f72c4537e7ff1f89b61cb3fa9a92454bc0158f1d62a3c1d7d462ada7f1/MouseTracks_Generate-1.1.tar.gz
+[2023-06-20 05:59:54] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/f2/c0/8ce90b127f2101276f02287d76c0f7ddc2bd963e5ebc1c66a0c75e7602a4/cfr-0.6.0.tar.gz
+[2023-06-20 05:59:54] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/86/a8/8fd72e80ebcaff6cddd875d6265c69cff4b2a232f164ebf7027c51296a4f/text2text-1.0.6.tar.gz
+[2023-06-20 05:59:54] INFO root fetch - processPackages [MouseTracks-Generate]: Downloading https://files.pythonhosted.org/packages/ea/a7/92f0f0a9b162373f08fa7f041b74ab93468f082c3db9f12758e664e25f08/MouseTracks_Generate-1.2.tar.gz
+[2023-06-20 05:59:54] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/cc/83/1940db7dbe8980bc853f423a06ca415f853ec3a883e9517ee0c913b796f5/cfr-0.6.1.tar.gz
+[2023-06-20 05:59:54] INFO root fetch - processPackages [MouseTracks-Generate]: executing diffoscope
+[2023-06-20 05:59:54] INFO root fetch - processPackages [MouseTracks-Generate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MouseTracks_Generate-1.1.tar.gz tmp/MouseTracks_Generate-1.2.tar.gz --markdown 20230620/M/MouseTracks-Generate/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-20 05:59:54] INFO root fetch - processPackages [cfr]: executing diffoscope
+[2023-06-20 05:59:54] INFO root fetch - processPackages [cfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfr-0.6.0.tar.gz tmp/cfr-0.6.1.tar.gz --markdown 20230620/c/cfr/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-20 05:59:54] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-06-20 05:59:54] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.0.5.tar.gz tmp/text2text-1.0.6.tar.gz --markdown 20230620/t/text2text/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-20 05:59:55] INFO root fetch - processPackages [MouseTracks-Generate]: Remove: archive file [/home/abi/fetcher/tmp/MouseTracks_Generate-1.1.tar.gz]
+[2023-06-20 05:59:55] INFO root fetch - processPackages [MouseTracks-Generate]: Remove: archive file [/home/abi/fetcher/tmp/MouseTracks_Generate-1.2.tar.gz]
+[2023-06-20 05:59:55] INFO root fetch - main [MainThread]: End processing [MouseTracks-Generate]: success
+[2023-06-20 05:59:56] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.0.5.tar.gz]
+[2023-06-20 05:59:56] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.0.6.tar.gz]
+[2023-06-20 05:59:56] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-06-20 06:00:49] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-0.6.0.tar.gz]
+[2023-06-20 06:00:49] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-0.6.1.tar.gz]
+[2023-06-20 06:00:49] INFO root fetch - main [MainThread]: End processing [cfr]: success
+[2023-06-20 06:00:49] INFO root fetch - main [MainThread]: Store serial: [18569839]
