@@ -14855,3 +14855,110 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 09:55:06] INFO root fetch - processPackages [chemcat]: Remove: archive file [/home/abi/fetcher/tmp/chemcat-0.3.6.tar.gz]
 [2023-06-20 09:55:06] INFO root fetch - main [MainThread]: End processing [chemcat]: success
 [2023-06-20 09:55:06] INFO root fetch - main [MainThread]: Store serial: [18571460]
+[2023-06-20 10:00:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18571460]
+[2023-06-20 10:00:16] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-20 10:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jmcomic
+[2023-06-20 10:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biopipen
+[2023-06-20 10:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-miraie-ac
+[2023-06-20 10:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kafka-connect-api
+[2023-06-20 10:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thug
+[2023-06-20 10:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bubble-sdk
+[2023-06-20 10:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simplerabbit
+[2023-06-20 10:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ngsolve
+[2023-06-20 10:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlalchemy-celery-beat
+[2023-06-20 10:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: emailalert
+[2023-06-20 10:00:16] INFO root fetch - processPackages [thug]: New version: [5.2] Old Version: [5.1]
+[2023-06-20 10:00:16] INFO root fetch - processPackages [py-miraie-ac]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-20 10:00:16] INFO root fetch - processPackages [jmcomic]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-20 10:00:16] INFO root fetch - processPackages [sqlalchemy-celery-beat]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-06-20 10:00:16] INFO root fetch - processPackages [biopipen]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-20 10:00:16] INFO root fetch - processPackages [emailalert]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-20 10:00:16] INFO root fetch - processPackages [ngsolve]: New version: [6.2.2302.post95.dev0] Old Version: [6.2.2302.post93.dev0]
+[2023-06-20 10:00:16] INFO root fetch - processPackages [bubble-sdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-20 10:00:16] INFO root fetch - processPackages [simplerabbit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 10:00:16] INFO root fetch - processPackages [kafka-connect-api]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-06-20 10:00:16] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/f1/1c/84d0897fa130089f2f0e844dc233bd63bd9b7d8fab133b82d9f7a4e3a469/emailalert-1.3.1.tar.gz
+[2023-06-20 10:00:16] INFO root fetch - processPackages [py-miraie-ac]: Downloading https://files.pythonhosted.org/packages/35/7c/f38d1110dc73421a90925555b0ee32ecec7e593cd3ffd75cb75a8e01f5a7/py-miraie-ac-0.1.7.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [thug]: Downloading https://files.pythonhosted.org/packages/5f/2d/89f0d6996f7ec2b00465c8bf6fa34b68ccce6a07954400ca7aefe0583824/thug-5.1.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/8a/3b/02e25e3e7f9f9daca647d8775106db57f8ffc2820febd0434b4bae16c622/jmcomic-2.0.4.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [simplerabbit]: Downloading https://files.pythonhosted.org/packages/2e/83/ff9b3ec05d22a7a074f2443a809d336b5f81a0082471f187f975ce6ece2c/simplerabbit-0.0.8.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [ngsolve]: Downloading https://files.pythonhosted.org/packages/ba/b0/340f216cb193541d583f19b0407f77ba4d6d2d7e424316ff34cf8b47cd93/ngsolve-6.2.2302.post93.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-20 10:00:17] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Downloading https://files.pythonhosted.org/packages/10/23/4b7d7e927917e72405c82513964d21ecf84966d987cada1fd14741cee7f7/sqlalchemy_celery_beat-0.5.1.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [kafka-connect-api]: Downloading https://files.pythonhosted.org/packages/8d/e0/a2b656a4aba273ef05bdc9581d3e0553721c55edd3d8290f0b108f0a9a4a/kafka_connect_api-0.5.5.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [biopipen]: Downloading https://files.pythonhosted.org/packages/a5/8e/ea43c3f8b17ca2e871d77d1dbbf2e019b6aab9877410ee0c3fcd32c9204a/biopipen-0.8.0.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [bubble-sdk]: Downloading https://files.pythonhosted.org/packages/03/02/11e81efb8a7a97997c4aac353a21ec1cd1fecdb3d81c719f74fae39b15dc/bubble-sdk-0.1.7.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/90/40/fccc9dcebeb7c7c9e66020411648c4c95b75e71f31d72c817a568e172ac6/emailalert-1.3.2.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-20 10:00:17] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.3.1.tar.gz tmp/emailalert-1.3.2.tar.gz --markdown 20230620/e/emailalert/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-20 10:00:17] WARNING root fetch - processPackages [ngsolve]: Skipping package: exceeds size limit 23182996>=10485760
+[2023-06-20 10:00:17] INFO root fetch - processPackages [ngsolve]: Start processing: power-grid-model
+[2023-06-20 10:00:17] INFO root fetch - main [MainThread]: End processing [ngsolve] error
+[2023-06-20 10:00:17] INFO root fetch - processPackages [py-miraie-ac]: Downloading https://files.pythonhosted.org/packages/02/72/f9b98673aa398a18e711c6fde584297021c29020bf6221f8d3381ebfb672/py-miraie-ac-0.1.8.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Downloading https://files.pythonhosted.org/packages/38/ed/d936171f6cade1cf2918e628b375bf56535dabb64f1a98c8100af63b8c20/sqlalchemy_celery_beat-0.6.0.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [thug]: Downloading https://files.pythonhosted.org/packages/dd/5f/833c7d325197f13f5de2f2c701c0f5073cfca91d55621680c8c61f74b923/thug-5.2.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9175313495131] Old Version: [1.5.0rc9174911844893]
+[2023-06-20 10:00:17] INFO root fetch - processPackages [sqlalchemy-celery-beat]: executing diffoscope
+[2023-06-20 10:00:17] INFO root fetch - processPackages [sqlalchemy-celery-beat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_celery_beat-0.5.1.tar.gz tmp/sqlalchemy_celery_beat-0.6.0.tar.gz --markdown 20230620/s/sqlalchemy-celery-beat/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-06-20 10:00:17] INFO root fetch - processPackages [py-miraie-ac]: executing diffoscope
+[2023-06-20 10:00:17] INFO root fetch - processPackages [py-miraie-ac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-miraie-ac-0.1.7.tar.gz tmp/py-miraie-ac-0.1.8.tar.gz --markdown 20230620/p/py-miraie-ac/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-20 10:00:17] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/3d/67/0ecba185ee8a924b442dd239c5d356f03b0a7d93ac51620b0171bc272b08/power-grid-model-1.5.0rc9174911844893.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [thug]: executing diffoscope
+[2023-06-20 10:00:17] INFO root fetch - processPackages [thug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thug-5.1.tar.gz tmp/thug-5.2.tar.gz --markdown 20230620/t/thug/5.1-5.2/diff.md --exclude *.pyd
+[2023-06-20 10:00:17] INFO root fetch - processPackages [biopipen]: Downloading https://files.pythonhosted.org/packages/34/4d/fb153c9b41fa48d6d7a50c214bb186d02cafed5396271f1b0f549fd56b16/biopipen-0.9.0.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/ef/c6/d234373cf49323786a8dbc2e2c826961f68c35706f4b06bd15cb00142077/jmcomic-2.0.5.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [bubble-sdk]: Downloading https://files.pythonhosted.org/packages/c5/70/8e5a1bed3aba24ae618830d9672ca7b382f098155a7c20f9276502bb44e3/bubble-sdk-0.1.8.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [simplerabbit]: Downloading https://files.pythonhosted.org/packages/47/7a/7dc5049b920a917322132e41a0bd586312d7501a23cb4de9f30639f920f1/simplerabbit-0.0.9.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [biopipen]: executing diffoscope
+[2023-06-20 10:00:17] INFO root fetch - processPackages [biopipen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biopipen-0.8.0.tar.gz tmp/biopipen-0.9.0.tar.gz --markdown 20230620/b/biopipen/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-20 10:00:17] INFO root fetch - processPackages [kafka-connect-api]: Downloading https://files.pythonhosted.org/packages/94/06/825ac8366bd27d6b5733aaab83dd3afd47c7f8b082f38d9d0b464c966ad2/kafka_connect_api-0.5.6.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [jmcomic]: executing diffoscope
+[2023-06-20 10:00:17] INFO root fetch - processPackages [jmcomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmcomic-2.0.4.tar.gz tmp/jmcomic-2.0.5.tar.gz --markdown 20230620/j/jmcomic/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-20 10:00:17] INFO root fetch - processPackages [kafka-connect-api]: executing diffoscope
+[2023-06-20 10:00:17] INFO root fetch - processPackages [kafka-connect-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka_connect_api-0.5.5.tar.gz tmp/kafka_connect_api-0.5.6.tar.gz --markdown 20230620/k/kafka-connect-api/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-06-20 10:00:17] INFO root fetch - processPackages [bubble-sdk]: executing diffoscope
+[2023-06-20 10:00:17] INFO root fetch - processPackages [bubble-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bubble-sdk-0.1.7.tar.gz tmp/bubble-sdk-0.1.8.tar.gz --markdown 20230620/b/bubble-sdk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-20 10:00:17] INFO root fetch - processPackages [simplerabbit]: executing diffoscope
+[2023-06-20 10:00:17] INFO root fetch - processPackages [simplerabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplerabbit-0.0.8.tar.gz tmp/simplerabbit-0.0.9.tar.gz --markdown 20230620/s/simplerabbit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 10:00:17] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/09/66/1466c8a183aed2370b9de47dc0fc3c3cf5041314b524802af7a155c12872/power-grid-model-1.5.0rc9175313495131.tar.gz
+[2023-06-20 10:00:17] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-20 10:00:17] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9174911844893.tar.gz tmp/power-grid-model-1.5.0rc9175313495131.tar.gz --markdown 20230620/p/power-grid-model/1.5.0rc9174911844893-1.5.0rc9175313495131/diff.md --exclude *.pyd
+[2023-06-20 10:00:18] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.3.1.tar.gz]
+[2023-06-20 10:00:18] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.3.2.tar.gz]
+[2023-06-20 10:00:18] INFO root fetch - processPackages [emailalert]: Start processing: fourdigits-cli
+[2023-06-20 10:00:18] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-20 10:00:18] INFO root fetch - processPackages [fourdigits-cli]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-20 10:00:18] INFO root fetch - processPackages [fourdigits-cli]: Downloading https://files.pythonhosted.org/packages/3e/e1/73fa198b602ccad8af305dc20f9c6de6e688809e57d721debfeba0266f5a/fourdigits-cli-1.1.1.tar.gz
+[2023-06-20 10:00:19] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_celery_beat-0.5.1.tar.gz]
+[2023-06-20 10:00:19] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_celery_beat-0.6.0.tar.gz]
+[2023-06-20 10:00:19] INFO root fetch - main [MainThread]: End processing [sqlalchemy-celery-beat]: success
+[2023-06-20 10:00:19] INFO root fetch - processPackages [fourdigits-cli]: Downloading https://files.pythonhosted.org/packages/2c/b2/bce067ebf567b6689f4926fb565ef96fb4e6b861f923ba3614599af20bd6/fourdigits-cli-1.2.0.tar.gz
+[2023-06-20 10:00:19] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.1.7.tar.gz]
+[2023-06-20 10:00:19] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.1.8.tar.gz]
+[2023-06-20 10:00:19] INFO root fetch - main [MainThread]: End processing [py-miraie-ac]: success
+[2023-06-20 10:00:19] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.0.4.tar.gz]
+[2023-06-20 10:00:19] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.0.5.tar.gz]
+[2023-06-20 10:00:19] INFO root fetch - main [MainThread]: End processing [jmcomic]: success
+[2023-06-20 10:00:19] INFO root fetch - processPackages [fourdigits-cli]: executing diffoscope
+[2023-06-20 10:00:19] INFO root fetch - processPackages [fourdigits-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fourdigits-cli-1.1.1.tar.gz tmp/fourdigits-cli-1.2.0.tar.gz --markdown 20230620/f/fourdigits-cli/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-20 10:00:19] INFO root fetch - processPackages [kafka-connect-api]: Remove: archive file [/home/abi/fetcher/tmp/kafka_connect_api-0.5.5.tar.gz]
+[2023-06-20 10:00:19] INFO root fetch - processPackages [kafka-connect-api]: Remove: archive file [/home/abi/fetcher/tmp/kafka_connect_api-0.5.6.tar.gz]
+[2023-06-20 10:00:19] INFO root fetch - main [MainThread]: End processing [kafka-connect-api]: success
+[2023-06-20 10:00:19] INFO root fetch - processPackages [simplerabbit]: Remove: archive file [/home/abi/fetcher/tmp/simplerabbit-0.0.8.tar.gz]
+[2023-06-20 10:00:19] INFO root fetch - processPackages [simplerabbit]: Remove: archive file [/home/abi/fetcher/tmp/simplerabbit-0.0.9.tar.gz]
+[2023-06-20 10:00:19] INFO root fetch - main [MainThread]: End processing [simplerabbit]: success
+[2023-06-20 10:00:20] INFO root fetch - processPackages [biopipen]: Remove: archive file [/home/abi/fetcher/tmp/biopipen-0.8.0.tar.gz]
+[2023-06-20 10:00:20] INFO root fetch - processPackages [biopipen]: Remove: archive file [/home/abi/fetcher/tmp/biopipen-0.9.0.tar.gz]
+[2023-06-20 10:00:20] INFO root fetch - main [MainThread]: End processing [biopipen]: success
+[2023-06-20 10:00:20] INFO root fetch - processPackages [fourdigits-cli]: Remove: archive file [/home/abi/fetcher/tmp/fourdigits-cli-1.1.1.tar.gz]
+[2023-06-20 10:00:20] INFO root fetch - processPackages [fourdigits-cli]: Remove: archive file [/home/abi/fetcher/tmp/fourdigits-cli-1.2.0.tar.gz]
+[2023-06-20 10:00:20] INFO root fetch - main [MainThread]: End processing [fourdigits-cli]: success
+[2023-06-20 10:00:20] INFO root fetch - processPackages [bubble-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bubble-sdk-0.1.7.tar.gz]
+[2023-06-20 10:00:20] INFO root fetch - processPackages [bubble-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bubble-sdk-0.1.8.tar.gz]
+[2023-06-20 10:00:20] INFO root fetch - main [MainThread]: End processing [bubble-sdk]: success
+[2023-06-20 10:00:21] INFO root fetch - processPackages [thug]: Remove: archive file [/home/abi/fetcher/tmp/thug-5.1.tar.gz]
+[2023-06-20 10:00:21] INFO root fetch - processPackages [thug]: Remove: archive file [/home/abi/fetcher/tmp/thug-5.2.tar.gz]
+[2023-06-20 10:00:21] INFO root fetch - main [MainThread]: End processing [thug]: success
+[2023-06-20 10:00:24] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9174911844893.tar.gz]
+[2023-06-20 10:00:24] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9175313495131.tar.gz]
+[2023-06-20 10:00:24] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-20 10:00:24] INFO root fetch - main [MainThread]: Store serial: [18571499]
