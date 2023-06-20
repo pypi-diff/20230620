@@ -14660,3 +14660,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 09:44:00] INFO root fetch - processPackages [humlab-penelope]: Remove: archive file [/home/abi/fetcher/tmp/humlab-penelope-0.7.9.tar.gz]
 [2023-06-20 09:44:00] INFO root fetch - main [MainThread]: End processing [humlab-penelope]: success
 [2023-06-20 09:44:00] INFO root fetch - main [MainThread]: Store serial: [18571385]
+[2023-06-20 09:49:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18571385]
+[2023-06-20 09:49:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-20 09:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logwrap
+[2023-06-20 09:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NCPNet
+[2023-06-20 09:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-l10n-es-ticketbai-api
+[2023-06-20 09:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-l10n-es-ticketbai
+[2023-06-20 09:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aheadworks-deploy-manager
+[2023-06-20 09:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ftrack-ams
+[2023-06-20 09:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DeepLogTimedelta
+[2023-06-20 09:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smsmanpy
+[2023-06-20 09:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keras-nightly
+[2023-06-20 09:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: easymaker
+[2023-06-20 09:49:09] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-api]: New version: [12.0.2.3.5] Old Version: [12.0.2.3.4]
+[2023-06-20 09:49:09] WARNING root fetch - processPackages [smsmanpy]: Skipping, unable to determine old version
+[2023-06-20 09:49:09] INFO root fetch - main [MainThread]: End processing [smsmanpy] error
+[2023-06-20 09:49:09] INFO root fetch - processPackages [logwrap]: New version: [9.0.2] Old Version: [9.0.1.post0]
+[2023-06-20 09:49:09] INFO root fetch - processPackages [easymaker]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 09:49:09] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: New version: [12.0.2.7.7] Old Version: [12.0.2.7.6]
+[2023-06-20 09:49:09] INFO root fetch - processPackages [aheadworks-deploy-manager]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-20 09:49:09] INFO root fetch - processPackages [ftrack-ams]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-20 09:49:09] INFO root fetch - processPackages [DeepLogTimedelta]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-20 09:49:09] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-06-20 09:49:09] INFO root fetch - processPackages [easymaker]: Downloading https://files.pythonhosted.org/packages/98/e1/2ba6df9586cf47689b5175b2a09829447e5312d5dd38eed2c656ddcfa652/easymaker-1.0.8-py3-none-any.whl
+[2023-06-20 09:49:09] WARNING root fetch - processPackages [NCPNet]: Skipping, unable to determine old version
+[2023-06-20 09:49:09] INFO root fetch - main [MainThread]: End processing [NCPNet] error
+[2023-06-20 09:49:09] INFO root fetch - processPackages [DeepLogTimedelta]: Downloading https://files.pythonhosted.org/packages/92/17/02ce4842ad7f58fee10a5ee5209b5eff7d1e03c2597fb541e16373cb784d/DeepLogTimedelta-0.2.1.tar.gz
+[2023-06-20 09:49:09] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-06-20 09:49:09] INFO root fetch - processPackages [logwrap]: Downloading https://files.pythonhosted.org/packages/69/c4/682e5c95e61bc55b37b33ff2f695103a72e17f2d45804be812eb2714400a/logwrap-9.0.1.post0.tar.gz
+[2023-06-20 09:49:09] INFO root fetch - processPackages [ftrack-ams]: Downloading https://files.pythonhosted.org/packages/0a/f1/88ecdca7a2eb946490f33d967638f4af338c82aa3d988dbcad4a500446b9/ftrack-ams-2.0.8.tar.gz
+[2023-06-20 09:49:09] INFO root fetch - processPackages [easymaker]: Downloading https://files.pythonhosted.org/packages/0b/57/43b3478a8184079a46ab3ee4d683b9500b28c36a9cc3a37c6fce08a27f52/easymaker-1.0.9-py3-none-any.whl
+[2023-06-20 09:49:09] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-api]: Downloading https://files.pythonhosted.org/packages/ba/6b/79600daa03e221d71e65bc349153a87eb61d087d9164e7dfecb9b571d012/odoo12_addon_l10n_es_ticketbai_api-12.0.2.3.4-py3-none-any.whl
+[2023-06-20 09:49:10] INFO root fetch - processPackages [easymaker]: executing diffoscope
+[2023-06-20 09:49:10] INFO root fetch - processPackages [easymaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easymaker-1.0.8-py3-none-any.whl.zip tmp/easymaker-1.0.9-py3-none-any.whl.zip --markdown 20230620/e/easymaker/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 09:49:10] INFO root fetch - processPackages [aheadworks-deploy-manager]: Downloading https://files.pythonhosted.org/packages/a8/12/71f81e88013c286d993248a3e8753667bc491c5fb22fa884278b068c5303/aheadworks_deploy_manager-1.4.8.tar.gz
+[2023-06-20 09:49:10] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/e0/d1/b100c88cbf2fcc5eab21683e541eadd517b5108e97d13fb48f93200fcc85/odoo12_addon_l10n_es_ticketbai-12.0.2.7.6-py3-none-any.whl
+[2023-06-20 09:49:10] INFO root fetch - processPackages [DeepLogTimedelta]: Downloading https://files.pythonhosted.org/packages/e2/ff/7f511b6adc7cfde48f4dbab127641bdfc0b0ef359c64ed4a9b107fa75519/DeepLogTimedelta-0.2.2.tar.gz
+[2023-06-20 09:49:10] INFO root fetch - processPackages [DeepLogTimedelta]: executing diffoscope
+[2023-06-20 09:49:10] INFO root fetch - processPackages [DeepLogTimedelta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepLogTimedelta-0.2.1.tar.gz tmp/DeepLogTimedelta-0.2.2.tar.gz --markdown 20230620/D/DeepLogTimedelta/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-20 09:49:10] INFO root fetch - processPackages [ftrack-ams]: Downloading https://files.pythonhosted.org/packages/34/ea/861e042065368474af4e1dd5aae5c75b15e4457811a6fd86d4bc977e16fe/ftrack-ams-2.0.9.tar.gz
+[2023-06-20 09:49:10] INFO root fetch - processPackages [logwrap]: Downloading https://files.pythonhosted.org/packages/a4/00/eb39e125a366c098a3feaa713a90727a75c4a116ed2550c975b53385fd0d/logwrap-9.0.2.tar.gz
+[2023-06-20 09:49:10] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/a1/07/db5beaae98f522da999a0bf0cfa45dabf23bff1fd26865a5473e7b793fbe/odoo12_addon_l10n_es_ticketbai-12.0.2.7.7-py3-none-any.whl
+[2023-06-20 09:49:10] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-06-20 09:49:10] INFO root fetch - processPackages [ftrack-ams]: executing diffoscope
+[2023-06-20 09:49:10] INFO root fetch - processPackages [ftrack-ams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack-ams-2.0.8.tar.gz tmp/ftrack-ams-2.0.9.tar.gz --markdown 20230620/f/ftrack-ams/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-20 09:49:10] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: executing diffoscope
+[2023-06-20 09:49:10] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_es_ticketbai-12.0.2.7.6-py3-none-any.whl.zip tmp/odoo12_addon_l10n_es_ticketbai-12.0.2.7.7-py3-none-any.whl.zip --markdown 20230620/o/odoo12-addon-l10n-es-ticketbai/12.0.2.7.6-12.0.2.7.7/diff.md --exclude *.pyd
+[2023-06-20 09:49:10] INFO root fetch - processPackages [aheadworks-deploy-manager]: Downloading https://files.pythonhosted.org/packages/b8/01/5da57b9f1dbd79a13b113866cf9afb24012c894a5971947bf7d29ae2ad18/aheadworks_deploy_manager-1.4.9.tar.gz
+[2023-06-20 09:49:10] INFO root fetch - processPackages [logwrap]: executing diffoscope
+[2023-06-20 09:49:10] INFO root fetch - processPackages [logwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logwrap-9.0.1.post0.tar.gz tmp/logwrap-9.0.2.tar.gz --markdown 20230620/l/logwrap/9.0.1.post0-9.0.2/diff.md --exclude *.pyd
+[2023-06-20 09:49:10] INFO root fetch - processPackages [aheadworks-deploy-manager]: executing diffoscope
+[2023-06-20 09:49:10] INFO root fetch - processPackages [aheadworks-deploy-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aheadworks_deploy_manager-1.4.8.tar.gz tmp/aheadworks_deploy_manager-1.4.9.tar.gz --markdown 20230620/a/aheadworks-deploy-manager/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-20 09:49:10] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-06-20 09:49:10] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230620/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-06-20 09:49:11] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-api]: Downloading https://files.pythonhosted.org/packages/17/6d/61690fba1554c31aa7ad83e3eb097c508d2ac6cedd12e183ed4f6641b1b9/odoo12_addon_l10n_es_ticketbai_api-12.0.2.3.5-py3-none-any.whl
+[2023-06-20 09:49:11] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-api]: executing diffoscope
+[2023-06-20 09:49:11] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_es_ticketbai_api-12.0.2.3.4-py3-none-any.whl.zip tmp/odoo12_addon_l10n_es_ticketbai_api-12.0.2.3.5-py3-none-any.whl.zip --markdown 20230620/o/odoo12-addon-l10n-es-ticketbai-api/12.0.2.3.4-12.0.2.3.5/diff.md --exclude *.pyd
+[2023-06-20 09:49:11] INFO root fetch - processPackages [easymaker]: Remove: archive file [/home/abi/fetcher/tmp/easymaker-1.0.8-py3-none-any.whl.zip]
+[2023-06-20 09:49:11] INFO root fetch - processPackages [easymaker]: Remove: archive file [/home/abi/fetcher/tmp/easymaker-1.0.9-py3-none-any.whl.zip]
+[2023-06-20 09:49:11] INFO root fetch - main [MainThread]: End processing [easymaker]: success
+[2023-06-20 09:49:11] INFO root fetch - processPackages [DeepLogTimedelta]: Remove: archive file [/home/abi/fetcher/tmp/DeepLogTimedelta-0.2.1.tar.gz]
+[2023-06-20 09:49:11] INFO root fetch - processPackages [DeepLogTimedelta]: Remove: archive file [/home/abi/fetcher/tmp/DeepLogTimedelta-0.2.2.tar.gz]
+[2023-06-20 09:49:11] INFO root fetch - main [MainThread]: End processing [DeepLogTimedelta]: success
+[2023-06-20 09:49:11] INFO root fetch - processPackages [ftrack-ams]: Remove: archive file [/home/abi/fetcher/tmp/ftrack-ams-2.0.8.tar.gz]
+[2023-06-20 09:49:11] INFO root fetch - processPackages [ftrack-ams]: Remove: archive file [/home/abi/fetcher/tmp/ftrack-ams-2.0.9.tar.gz]
+[2023-06-20 09:49:11] INFO root fetch - main [MainThread]: End processing [ftrack-ams]: success
+[2023-06-20 09:49:11] INFO root fetch - processPackages [aheadworks-deploy-manager]: Remove: archive file [/home/abi/fetcher/tmp/aheadworks_deploy_manager-1.4.8.tar.gz]
+[2023-06-20 09:49:11] INFO root fetch - processPackages [aheadworks-deploy-manager]: Remove: archive file [/home/abi/fetcher/tmp/aheadworks_deploy_manager-1.4.9.tar.gz]
+[2023-06-20 09:49:11] INFO root fetch - main [MainThread]: End processing [aheadworks-deploy-manager]: success
+[2023-06-20 09:49:11] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_es_ticketbai-12.0.2.7.6-py3-none-any.whl.zip]
+[2023-06-20 09:49:11] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_es_ticketbai-12.0.2.7.7-py3-none-any.whl.zip]
+[2023-06-20 09:49:11] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-es-ticketbai]: success
+[2023-06-20 09:49:12] INFO root fetch - processPackages [logwrap]: Remove: archive file [/home/abi/fetcher/tmp/logwrap-9.0.1.post0.tar.gz]
+[2023-06-20 09:49:12] INFO root fetch - processPackages [logwrap]: Remove: archive file [/home/abi/fetcher/tmp/logwrap-9.0.2.tar.gz]
+[2023-06-20 09:49:12] INFO root fetch - main [MainThread]: End processing [logwrap]: success
+[2023-06-20 09:49:13] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_es_ticketbai_api-12.0.2.3.4-py3-none-any.whl.zip]
+[2023-06-20 09:49:13] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_es_ticketbai_api-12.0.2.3.5-py3-none-any.whl.zip]
+[2023-06-20 09:49:13] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-es-ticketbai-api]: success
+[2023-06-20 09:49:20] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-06-20 09:49:20] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-06-20 09:49:20] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-06-20 09:49:20] INFO root fetch - main [MainThread]: Store serial: [18571416]
