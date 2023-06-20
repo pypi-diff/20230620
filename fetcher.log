@@ -15426,3 +15426,152 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 10:16:14] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz]
 [2023-06-20 10:16:14] INFO root fetch - main [MainThread]: End processing [data-engineering-pulumi-components]: success
 [2023-06-20 10:16:14] INFO root fetch - main [MainThread]: Store serial: [18571697]
+[2023-06-20 10:21:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18571697]
+[2023-06-20 10:21:25] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-20 10:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: circular-dict
+[2023-06-20 10:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tasktiger
+[2023-06-20 10:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vai-utils
+[2023-06-20 10:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: satellitevu
+[2023-06-20 10:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emailalert
+[2023-06-20 10:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: feudalAdapter
+[2023-06-20 10:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zenroom
+[2023-06-20 10:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neulabs-cdk-constructs
+[2023-06-20 10:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: smsmanpy
+[2023-06-20 10:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vai-utils
+[2023-06-20 10:21:25] INFO root fetch - processPackages [circular-dict]: New version: [1.5] Old Version: [1.4]
+[2023-06-20 10:21:25] INFO root fetch - processPackages [tasktiger]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-20 10:21:25] INFO root fetch - processPackages [feudalAdapter]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-20 10:21:25] INFO root fetch - processPackages [vai-utils]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-20 10:21:25] INFO root fetch - processPackages [emailalert]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-06-20 10:21:25] INFO root fetch - processPackages [smsmanpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-20 10:21:25] INFO root fetch - processPackages [vai-utils]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-20 10:21:25] INFO root fetch - processPackages [neulabs-cdk-constructs]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-20 10:21:25] INFO root fetch - processPackages [zenroom]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-06-20 10:21:25] INFO root fetch - processPackages [satellitevu]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-06-20 10:21:25] INFO root fetch - processPackages [circular-dict]: Downloading https://files.pythonhosted.org/packages/1c/38/5b31485c6a583d37e5278ca5b1a08ade7e526cf4f547d1aa2bb356678fe1/circular-dict-1.4.tar.gz
+[2023-06-20 10:21:25] INFO root fetch - processPackages [vai-utils]: Downloading https://files.pythonhosted.org/packages/fb/f9/26b05a5170e297b5cc166e545a26aa3c570980e476280b2b6c44e27940bd/vai_utils-0.0.2.tar.gz
+[2023-06-20 10:21:25] INFO root fetch - processPackages [tasktiger]: Downloading https://files.pythonhosted.org/packages/ed/fe/e705e018c566994b44ef14a1466e41b66732ae3ba82aa3771b27a0a0103c/tasktiger-0.9.5.tar.gz
+[2023-06-20 10:21:25] INFO root fetch - processPackages [vai-utils]: Downloading https://files.pythonhosted.org/packages/fb/f9/26b05a5170e297b5cc166e545a26aa3c570980e476280b2b6c44e27940bd/vai_utils-0.0.2.tar.gz
+[2023-06-20 10:21:25] INFO root fetch - processPackages [feudalAdapter]: Downloading https://files.pythonhosted.org/packages/38/32/f4eb1fa0202b27e0fe1e525b0566c3ab8c14a81b092459123321f425085f/feudalAdapter-0.5.3.tar.gz
+[2023-06-20 10:21:25] INFO root fetch - processPackages [smsmanpy]: Downloading https://files.pythonhosted.org/packages/aa/43/67d6840595a26ea4e479c8e9cebbfc7c85ac3b19ad8e1a067aa89cc9ff9f/smsmanpy-0.0.1.tar.gz
+[2023-06-20 10:21:25] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/c1/6c/41dfcc28543277824f07b67dec7cbcdf18fae087be514a9c7444044a6cf7/emailalert-1.3.4.tar.gz
+[2023-06-20 10:21:25] INFO root fetch - processPackages [neulabs-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/72/a6/55ba97d1981f027454176e5b1e4ac5613d99c897ba0190e6a2ba7f3b60fd/neulabs-cdk-constructs-0.4.7.tar.gz
+[2023-06-20 10:21:25] INFO root fetch - processPackages [circular-dict]: Downloading https://files.pythonhosted.org/packages/fa/f6/6534f492bf60fc8467e9817036a9b19afc1481b9cbcaca3eb5420c062b83/circular-dict-1.5.tar.gz
+[2023-06-20 10:21:25] INFO root fetch - processPackages [zenroom]: Downloading https://files.pythonhosted.org/packages/cb/a9/3cbbb56467478343af3d4aa0a97233c4de70aae6956ccbc402ed03e55082/zenroom-3.5.0.tar.gz
+[2023-06-20 10:21:25] INFO root fetch - processPackages [satellitevu]: Downloading https://files.pythonhosted.org/packages/af/2e/ba7bc5c8e7620f48d5d1d93b30fc04f862072b56ebc1f2eb154c0c9f6bb3/satellitevu-1.6.0.tar.gz
+[2023-06-20 10:21:25] WARNING root fetch - processPackages [zenroom]: Skipping package: exceeds size limit 25647239>=10485760
+[2023-06-20 10:21:25] INFO root fetch - processPackages [zenroom]: Start processing: imerit-ango
+[2023-06-20 10:21:25] INFO root fetch - main [MainThread]: End processing [zenroom] error
+[2023-06-20 10:21:25] INFO root fetch - processPackages [imerit-ango]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-20 10:21:25] INFO root fetch - processPackages [circular-dict]: executing diffoscope
+[2023-06-20 10:21:25] INFO root fetch - processPackages [circular-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circular-dict-1.4.tar.gz tmp/circular-dict-1.5.tar.gz --markdown 20230620/c/circular-dict/1.4-1.5/diff.md --exclude *.pyd
+[2023-06-20 10:21:25] INFO root fetch - processPackages [smsmanpy]: Downloading https://files.pythonhosted.org/packages/4c/6d/9e77c67c39c493faeeed60ba97d12d73bd176e59ece314ffe93fb6266579/smsmanpy-0.0.2.tar.gz
+[2023-06-20 10:21:25] INFO root fetch - processPackages [vai-utils]: Downloading https://files.pythonhosted.org/packages/63/87/6acb398e27fb2275c7ca847dd4d1064b2ed0696d13e08a4a8f3425ddc7ce/vai_utils-0.0.3.tar.gz
+[2023-06-20 10:21:25] INFO root fetch - processPackages [vai-utils]: Downloading https://files.pythonhosted.org/packages/63/87/6acb398e27fb2275c7ca847dd4d1064b2ed0696d13e08a4a8f3425ddc7ce/vai_utils-0.0.3.tar.gz
+[2023-06-20 10:21:25] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/e8/f8/e51d25c510a03a952a075b6d54ce6c89886f739fb410b1e63f469cebc018/emailalert-1.3.5.tar.gz
+[2023-06-20 10:21:25] INFO root fetch - processPackages [feudalAdapter]: Downloading https://files.pythonhosted.org/packages/c2/a3/ebd85ad4fbd235d762ce2c68af48d4592e8e81f0f43643281fbf8d785445/feudalAdapter-0.5.4.tar.gz
+[2023-06-20 10:21:25] INFO root fetch - processPackages [neulabs-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b0/f5/cde62a14d3884e501c67927dde025541aed63cff63d8643a4f92b69b8509/neulabs-cdk-constructs-0.4.8.tar.gz
+[2023-06-20 10:21:25] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/bc/53/0e7f4fb422c6ce92afa5912bf52dbf7211344f933031530eac3988fee5c5/imerit-ango-1.1.7.tar.gz
+[2023-06-20 10:21:26] INFO root fetch - processPackages [satellitevu]: Downloading https://files.pythonhosted.org/packages/1e/e4/e221be478ec4920225125e44cab6becb2db06dcf3b03aeda772dd3e68151/satellitevu-1.7.0.tar.gz
+[2023-06-20 10:21:26] INFO root fetch - processPackages [vai-utils]: executing diffoscope
+[2023-06-20 10:21:26] INFO root fetch - processPackages [vai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vai_utils-0.0.2.tar.gz tmp/vai_utils-0.0.3.tar.gz --markdown 20230620/v/vai-utils/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-20 10:21:26] INFO root fetch - processPackages [vai-utils]: executing diffoscope
+[2023-06-20 10:21:26] INFO root fetch - processPackages [vai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vai_utils-0.0.2.tar.gz tmp/vai_utils-0.0.3.tar.gz --markdown 20230620/v/vai-utils/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-20 10:21:26] INFO root fetch - processPackages [feudalAdapter]: executing diffoscope
+[2023-06-20 10:21:26] INFO root fetch - processPackages [feudalAdapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feudalAdapter-0.5.3.tar.gz tmp/feudalAdapter-0.5.4.tar.gz --markdown 20230620/f/feudalAdapter/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-20 10:21:26] INFO root fetch - processPackages [neulabs-cdk-constructs]: executing diffoscope
+[2023-06-20 10:21:26] INFO root fetch - processPackages [neulabs-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neulabs-cdk-constructs-0.4.7.tar.gz tmp/neulabs-cdk-constructs-0.4.8.tar.gz --markdown 20230620/n/neulabs-cdk-constructs/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-20 10:21:26] INFO root fetch - processPackages [smsmanpy]: executing diffoscope
+[2023-06-20 10:21:26] INFO root fetch - processPackages [smsmanpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smsmanpy-0.0.1.tar.gz tmp/smsmanpy-0.0.2.tar.gz --markdown 20230620/s/smsmanpy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-20 10:21:26] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-20 10:21:26] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.3.4.tar.gz tmp/emailalert-1.3.5.tar.gz --markdown 20230620/e/emailalert/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-06-20 10:21:26] INFO root fetch - processPackages [satellitevu]: executing diffoscope
+[2023-06-20 10:21:26] INFO root fetch - processPackages [satellitevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satellitevu-1.6.0.tar.gz tmp/satellitevu-1.7.0.tar.gz --markdown 20230620/s/satellitevu/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-06-20 10:21:26] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/83/c4/f08fed17b4ae79d549b006a4f693fa70d9c3c7d27a1ea1f9d1da6fe90c5e/imerit-ango-1.1.8.tar.gz
+[2023-06-20 10:21:26] INFO root fetch - processPackages [tasktiger]: Downloading https://files.pythonhosted.org/packages/2c/4d/b280e11ac9cfdfb92acf2348b02eff85498fe444293a7443496f96e1e779/tasktiger-0.9.6.tar.gz
+[2023-06-20 10:21:26] INFO root fetch - processPackages [imerit-ango]: executing diffoscope
+[2023-06-20 10:21:26] INFO root fetch - processPackages [imerit-ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imerit-ango-1.1.7.tar.gz tmp/imerit-ango-1.1.8.tar.gz --markdown 20230620/i/imerit-ango/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-20 10:21:26] INFO root fetch - processPackages [tasktiger]: executing diffoscope
+[2023-06-20 10:21:26] INFO root fetch - processPackages [tasktiger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tasktiger-0.9.5.tar.gz tmp/tasktiger-0.9.6.tar.gz --markdown 20230620/t/tasktiger/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-20 10:21:27] INFO root fetch - processPackages [circular-dict]: Remove: archive file [/home/abi/fetcher/tmp/circular-dict-1.4.tar.gz]
+[2023-06-20 10:21:27] INFO root fetch - processPackages [circular-dict]: Remove: archive file [/home/abi/fetcher/tmp/circular-dict-1.5.tar.gz]
+[2023-06-20 10:21:27] INFO root fetch - processPackages [circular-dict]: Start processing: emailalert
+[2023-06-20 10:21:27] INFO root fetch - main [MainThread]: End processing [circular-dict]: success
+[2023-06-20 10:21:27] INFO root fetch - processPackages [emailalert]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-06-20 10:21:27] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/8b/ad/f9d62b09a52102f84cf827a15671bc679efc770d94981fd3e9ad8b174904/emailalert-1.3.6.tar.gz
+[2023-06-20 10:21:27] INFO root fetch - processPackages [vai-utils]: Remove: archive file [/home/abi/fetcher/tmp/vai_utils-0.0.2.tar.gz]
+[2023-06-20 10:21:27] INFO root fetch - processPackages [vai-utils]: Remove: archive file [/home/abi/fetcher/tmp/vai_utils-0.0.3.tar.gz]
+[2023-06-20 10:21:27] INFO root fetch - processPackages [vai-utils]: Start processing: kafka-connect-watcher
+[2023-06-20 10:21:27] INFO root fetch - main [MainThread]: End processing [vai-utils]: success
+[2023-06-20 10:21:27] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-20 10:21:27] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.3.5.tar.gz tmp/emailalert-1.3.6.tar.gz --markdown 20230620/e/emailalert/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-06-20 10:21:27] INFO root fetch - processPackages [vai-utils]: Start processing: ango
+[2023-06-20 10:21:27] INFO root fetch - main [MainThread]: End processing [vai-utils]: success
+[2023-06-20 10:21:27] INFO root fetch - processPackages [kafka-connect-watcher]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-20 10:21:27] INFO root fetch - processPackages [ango]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-20 10:21:27] INFO root fetch - processPackages [satellitevu]: Remove: archive file [/home/abi/fetcher/tmp/satellitevu-1.6.0.tar.gz]
+[2023-06-20 10:21:27] INFO root fetch - processPackages [satellitevu]: Remove: archive file [/home/abi/fetcher/tmp/satellitevu-1.7.0.tar.gz]
+[2023-06-20 10:21:27] INFO root fetch - processPackages [satellitevu]: Start processing: recon-lw
+[2023-06-20 10:21:27] INFO root fetch - main [MainThread]: End processing [satellitevu]: success
+[2023-06-20 10:21:27] INFO root fetch - processPackages [kafka-connect-watcher]: Downloading https://files.pythonhosted.org/packages/94/a1/71a64a491f5041594b725db1b969cdd19e91fe24e212108e8f635e8e4be9/kafka_connect_watcher-0.3.1.tar.gz
+[2023-06-20 10:21:27] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5319800909] Old Version: [2.0.0.dev5312832411]
+[2023-06-20 10:21:27] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/7b/84/3f2a68fe508e3cbcf0da91853b8ea3ccfaa9d8d94a33de16939e31e08f55/recon_lw-2.0.0.dev5312832411.tar.gz
+[2023-06-20 10:21:27] INFO root fetch - processPackages [smsmanpy]: Remove: archive file [/home/abi/fetcher/tmp/smsmanpy-0.0.1.tar.gz]
+[2023-06-20 10:21:27] INFO root fetch - processPackages [smsmanpy]: Remove: archive file [/home/abi/fetcher/tmp/smsmanpy-0.0.2.tar.gz]
+[2023-06-20 10:21:27] INFO root fetch - processPackages [smsmanpy]: Start processing: vector2dggs
+[2023-06-20 10:21:27] INFO root fetch - main [MainThread]: End processing [smsmanpy]: success
+[2023-06-20 10:21:27] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit-ango-1.1.7.tar.gz]
+[2023-06-20 10:21:27] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.3.4.tar.gz]
+[2023-06-20 10:21:27] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit-ango-1.1.8.tar.gz]
+[2023-06-20 10:21:27] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.3.5.tar.gz]
+[2023-06-20 10:21:27] INFO root fetch - processPackages [imerit-ango]: Start processing: tsfeatures
+[2023-06-20 10:21:27] INFO root fetch - main [MainThread]: End processing [imerit-ango]: success
+[2023-06-20 10:21:28] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-20 10:21:28] INFO root fetch - processPackages [ango]: Downloading https://files.pythonhosted.org/packages/ef/40/c7095ed6002734c9b9c9c9472558d4e8b7b535826b91ba75cf1f6974de31/ango-1.1.5.tar.gz
+[2023-06-20 10:21:28] INFO root fetch - processPackages [tsfeatures]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-20 10:21:28] INFO root fetch - processPackages [tsfeatures]: Downloading https://files.pythonhosted.org/packages/52/ed/a84b76fa5d6caf0aab25b791647b3910b04a612b7642a54e4b9af045fbc4/tsfeatures-0.4.3.tar.gz
+[2023-06-20 10:21:28] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/d1/bb/0f2044f5339534f7329f442275d3d8ab437667a2f3687271e7fa7ce6c8e9/recon_lw-2.0.0.dev5319800909.tar.gz
+[2023-06-20 10:21:28] INFO root fetch - processPackages [vector2dggs]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-20 10:21:28] INFO root fetch - processPackages [kafka-connect-watcher]: Downloading https://files.pythonhosted.org/packages/c1/40/679c94b0074fdd75323931a08ff3d1943a2fbc68d9c33fdeca7560530a24/kafka_connect_watcher-0.3.2.tar.gz
+[2023-06-20 10:21:28] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-06-20 10:21:28] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5312832411.tar.gz tmp/recon_lw-2.0.0.dev5319800909.tar.gz --markdown 20230620/r/recon-lw/2.0.0.dev5312832411-2.0.0.dev5319800909/diff.md --exclude *.pyd
+[2023-06-20 10:21:28] INFO root fetch - processPackages [kafka-connect-watcher]: executing diffoscope
+[2023-06-20 10:21:28] INFO root fetch - processPackages [kafka-connect-watcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka_connect_watcher-0.3.1.tar.gz tmp/kafka_connect_watcher-0.3.2.tar.gz --markdown 20230620/k/kafka-connect-watcher/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-20 10:21:28] INFO root fetch - processPackages [ango]: Downloading https://files.pythonhosted.org/packages/fd/28/24f9dd110ebc3a3953584c18f0762a8eac49ca0fb9e61f6c5ccb0ae2718e/ango-1.1.6.tar.gz
+[2023-06-20 10:21:28] INFO root fetch - processPackages [vector2dggs]: Downloading https://files.pythonhosted.org/packages/74/09/36fbfaf60bedad12c43b96e8def90610bd8f54bdbea5fd1f81e5ca43057e/vector2dggs-0.5.0.tar.gz
+[2023-06-20 10:21:28] INFO root fetch - processPackages [ango]: executing diffoscope
+[2023-06-20 10:21:28] INFO root fetch - processPackages [ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ango-1.1.5.tar.gz tmp/ango-1.1.6.tar.gz --markdown 20230620/a/ango/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-20 10:21:28] INFO root fetch - processPackages [tsfeatures]: Downloading https://files.pythonhosted.org/packages/ca/c5/06eeda4f84113b02912ddd7e161cd82c9cc4dbd6b493293e0165f91eb9f6/tsfeatures-0.4.4.tar.gz
+[2023-06-20 10:21:28] ERROR root fetch - processPackages [emailalert]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/emailalert-1.3.5.tar.gz: No such file or directory
+
+[2023-06-20 10:21:28] INFO root fetch - main [MainThread]: End processing [emailalert] error
+[2023-06-20 10:21:28] INFO root fetch - processPackages [tsfeatures]: executing diffoscope
+[2023-06-20 10:21:28] INFO root fetch - processPackages [tsfeatures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsfeatures-0.4.3.tar.gz tmp/tsfeatures-0.4.4.tar.gz --markdown 20230620/t/tsfeatures/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-20 10:21:28] INFO root fetch - processPackages [vector2dggs]: Downloading https://files.pythonhosted.org/packages/0f/11/61b17e41cff12761f620fc78ae414dabb49815b2ac7a16fa908cb213a970/vector2dggs-0.5.1.tar.gz
+[2023-06-20 10:21:28] INFO root fetch - processPackages [vector2dggs]: executing diffoscope
+[2023-06-20 10:21:28] INFO root fetch - processPackages [vector2dggs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector2dggs-0.5.0.tar.gz tmp/vector2dggs-0.5.1.tar.gz --markdown 20230620/v/vector2dggs/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-20 10:21:29] INFO root fetch - processPackages [tasktiger]: Remove: archive file [/home/abi/fetcher/tmp/tasktiger-0.9.5.tar.gz]
+[2023-06-20 10:21:29] INFO root fetch - processPackages [tasktiger]: Remove: archive file [/home/abi/fetcher/tmp/tasktiger-0.9.6.tar.gz]
+[2023-06-20 10:21:29] INFO root fetch - main [MainThread]: End processing [tasktiger]: success
+[2023-06-20 10:21:29] INFO root fetch - processPackages [neulabs-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/neulabs-cdk-constructs-0.4.7.tar.gz]
+[2023-06-20 10:21:29] INFO root fetch - processPackages [neulabs-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/neulabs-cdk-constructs-0.4.8.tar.gz]
+[2023-06-20 10:21:29] INFO root fetch - main [MainThread]: End processing [neulabs-cdk-constructs]: success
+[2023-06-20 10:21:29] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5312832411.tar.gz]
+[2023-06-20 10:21:29] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5319800909.tar.gz]
+[2023-06-20 10:21:29] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-06-20 10:21:29] INFO root fetch - processPackages [kafka-connect-watcher]: Remove: archive file [/home/abi/fetcher/tmp/kafka_connect_watcher-0.3.1.tar.gz]
+[2023-06-20 10:21:29] INFO root fetch - processPackages [kafka-connect-watcher]: Remove: archive file [/home/abi/fetcher/tmp/kafka_connect_watcher-0.3.2.tar.gz]
+[2023-06-20 10:21:29] INFO root fetch - main [MainThread]: End processing [kafka-connect-watcher]: success
+[2023-06-20 10:21:29] INFO root fetch - processPackages [feudalAdapter]: Remove: archive file [/home/abi/fetcher/tmp/feudalAdapter-0.5.3.tar.gz]
+[2023-06-20 10:21:29] INFO root fetch - processPackages [feudalAdapter]: Remove: archive file [/home/abi/fetcher/tmp/feudalAdapter-0.5.4.tar.gz]
+[2023-06-20 10:21:29] INFO root fetch - main [MainThread]: End processing [feudalAdapter]: success
+[2023-06-20 10:21:29] INFO root fetch - processPackages [ango]: Remove: archive file [/home/abi/fetcher/tmp/ango-1.1.5.tar.gz]
+[2023-06-20 10:21:29] INFO root fetch - processPackages [ango]: Remove: archive file [/home/abi/fetcher/tmp/ango-1.1.6.tar.gz]
+[2023-06-20 10:21:29] INFO root fetch - main [MainThread]: End processing [ango]: success
+[2023-06-20 10:21:30] INFO root fetch - processPackages [tsfeatures]: Remove: archive file [/home/abi/fetcher/tmp/tsfeatures-0.4.3.tar.gz]
+[2023-06-20 10:21:30] INFO root fetch - processPackages [tsfeatures]: Remove: archive file [/home/abi/fetcher/tmp/tsfeatures-0.4.4.tar.gz]
+[2023-06-20 10:21:30] INFO root fetch - main [MainThread]: End processing [tsfeatures]: success
+[2023-06-20 10:22:21] INFO root fetch - processPackages [vector2dggs]: Remove: archive file [/home/abi/fetcher/tmp/vector2dggs-0.5.0.tar.gz]
+[2023-06-20 10:22:21] INFO root fetch - processPackages [vector2dggs]: Remove: archive file [/home/abi/fetcher/tmp/vector2dggs-0.5.1.tar.gz]
+[2023-06-20 10:22:21] INFO root fetch - main [MainThread]: End processing [vector2dggs]: success
+[2023-06-20 10:22:21] INFO root fetch - main [MainThread]: Store serial: [18571768]
