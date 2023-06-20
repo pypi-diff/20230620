@@ -19799,3 +19799,115 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 12:46:50] INFO root fetch - processPackages [karton-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/karton_dashboard-1.5.0-py3-none-any.whl.zip]
 [2023-06-20 12:46:50] INFO root fetch - main [MainThread]: End processing [karton-dashboard]: success
 [2023-06-20 12:46:50] INFO root fetch - main [MainThread]: Store serial: [18573305]
+[2023-06-20 12:51:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18573305]
+[2023-06-20 12:52:00] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-20 12:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tomlize
+[2023-06-20 12:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pkgbuild-language-server
+[2023-06-20 12:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyqrack
+[2023-06-20 12:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: run-configurations
+[2023-06-20 12:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bioval
+[2023-06-20 12:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cp-version-testing
+[2023-06-20 12:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: QuNet
+[2023-06-20 12:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prismstudio-demo
+[2023-06-20 12:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ecglib
+[2023-06-20 12:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: planetmapper
+[2023-06-20 12:52:00] INFO root fetch - processPackages [run-configurations]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-20 12:52:00] INFO root fetch - processPackages [tomlize]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-20 12:52:00] INFO root fetch - processPackages [pkgbuild-language-server]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-20 12:52:00] INFO root fetch - processPackages [bioval]: New version: [0.1.1a0] Old Version: [0.1.1.5b0]
+[2023-06-20 12:52:00] INFO root fetch - processPackages [cp-version-testing]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-20 12:52:00] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-20 12:52:00] INFO root fetch - processPackages [QuNet]: New version: [0.0.91] Old Version: [0.0.90]
+[2023-06-20 12:52:00] INFO root fetch - processPackages [planetmapper]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-06-20 12:52:00] INFO root fetch - processPackages [pkgbuild-language-server]: Downloading https://files.pythonhosted.org/packages/fb/a2/4e024dd0eff9eb3e42940a245b609ca10c2b799363046ed65f737af33d8e/pkgbuild-language-server-0.0.2.tar.gz
+[2023-06-20 12:52:00] INFO root fetch - processPackages [tomlize]: Downloading https://files.pythonhosted.org/packages/26/35/efff6aa1e627c441092a616492b6c4ec60ea1373794c083315887f193fd8/tomlize-0.1.1.tar.gz
+[2023-06-20 12:52:00] INFO root fetch - processPackages [ecglib]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-20 12:52:00] INFO root fetch - processPackages [prismstudio-demo]: New version: [1.1.3b0] Old Version: [1.1.3a0]
+[2023-06-20 12:52:00] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-06-20 12:52:00] INFO root fetch - processPackages [bioval]: Downloading https://files.pythonhosted.org/packages/81/98/02ce71b9936ba307c36c4f2649b71419ac4aab4fb0c134a0b560e3ff8c03/bioval-0.1.1.5b0.tar.gz
+[2023-06-20 12:52:00] INFO root fetch - processPackages [cp-version-testing]: Downloading https://files.pythonhosted.org/packages/7b/23/a94ae6a3f8d49f8c75c1e008a8329648ea607306091ed8365cd3c2250285/cp-version-testing-1.0.4.tar.gz
+[2023-06-20 12:52:00] INFO root fetch - processPackages [run-configurations]: Downloading https://files.pythonhosted.org/packages/2a/0d/3be7760bb438b4d832c59d59cf5ec79f60b521f92d25621b869bf5bd325e/run_configurations-0.1.2.tar.gz
+[2023-06-20 12:52:00] INFO root fetch - processPackages [tomlize]: Downloading https://files.pythonhosted.org/packages/b5/06/a007860fb4fa26ab627c8aaf62e0c60b3b7a136754397866064c71b2af03/tomlize-0.2.0.tar.gz
+[2023-06-20 12:52:00] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/dd/d9/2c96d57e9cf98532d8777c4811565c0f419792b27f40b094fa4c3d03b59b/QuNet-0.0.90-py3-none-any.whl
+[2023-06-20 12:52:00] INFO root fetch - processPackages [ecglib]: Downloading https://files.pythonhosted.org/packages/79/42/af88423e0fdaa51f6bb52b899708c409bedbf701b8e0b47e8aec34ebeb8b/ecglib-1.0.1.tar.gz
+[2023-06-20 12:52:00] INFO root fetch - processPackages [pkgbuild-language-server]: Downloading https://files.pythonhosted.org/packages/76/41/bb19b63ba102eb9726d78e3c36f78b19738fb54cf39f7fa2ac9f4ba6ff17/pkgbuild-language-server-0.0.3.tar.gz
+[2023-06-20 12:52:00] INFO root fetch - processPackages [prismstudio-demo]: Downloading https://files.pythonhosted.org/packages/8c/71/fad9ac227c055dfb4ffebb045a4b181db7cb65b9b44c83f0e3be25873551/prismstudio-demo-1.1.3a0.tar.gz
+[2023-06-20 12:52:00] INFO root fetch - processPackages [tomlize]: executing diffoscope
+[2023-06-20 12:52:00] INFO root fetch - processPackages [tomlize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomlize-0.1.1.tar.gz tmp/tomlize-0.2.0.tar.gz --markdown 20230620/t/tomlize/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-20 12:52:00] INFO root fetch - processPackages [planetmapper]: Downloading https://files.pythonhosted.org/packages/62/af/07aab9a4b22673aee3f900125c360498005e9dffcdd4999c1a546c5025d8/planetmapper-1.7.3.tar.gz
+[2023-06-20 12:52:00] INFO root fetch - processPackages [pkgbuild-language-server]: executing diffoscope
+[2023-06-20 12:52:00] INFO root fetch - processPackages [pkgbuild-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgbuild-language-server-0.0.2.tar.gz tmp/pkgbuild-language-server-0.0.3.tar.gz --markdown 20230620/p/pkgbuild-language-server/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-20 12:52:00] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-06-20 12:52:00] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-06-20 12:52:00] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230620/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-20 12:52:00] INFO root fetch - processPackages [cp-version-testing]: Downloading https://files.pythonhosted.org/packages/89/2c/90f80a4bce2e4845ea5719a3748d387eb9a3aaddc607c21aa620d76dba83/cp-version-testing-1.0.5.tar.gz
+[2023-06-20 12:52:00] INFO root fetch - processPackages [cp-version-testing]: executing diffoscope
+[2023-06-20 12:52:00] INFO root fetch - processPackages [cp-version-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cp-version-testing-1.0.4.tar.gz tmp/cp-version-testing-1.0.5.tar.gz --markdown 20230620/c/cp-version-testing/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-20 12:52:00] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/52/b3/1720c137e9213785dec295cb9fc79c406f7188c99fd271b827d54fa53377/QuNet-0.0.91-py3-none-any.whl
+[2023-06-20 12:52:00] INFO root fetch - processPackages [bioval]: Downloading https://files.pythonhosted.org/packages/ec/19/db6500a367cbe0cef5d4993a66ae4dfde211e5d7b9aaa98920b3eda88ae6/bioval-0.1.1a0.tar.gz
+[2023-06-20 12:52:00] INFO root fetch - processPackages [run-configurations]: Downloading https://files.pythonhosted.org/packages/e8/e1/0a62c68b20bfc406d2f4052cffbc2847b1f7ca81250b05fcc31184398187/run_configurations-0.1.3.tar.gz
+[2023-06-20 12:52:00] INFO root fetch - processPackages [run-configurations]: executing diffoscope
+[2023-06-20 12:52:00] INFO root fetch - processPackages [run-configurations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/run_configurations-0.1.2.tar.gz tmp/run_configurations-0.1.3.tar.gz --markdown 20230620/r/run-configurations/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-20 12:52:00] INFO root fetch - processPackages [bioval]: executing diffoscope
+[2023-06-20 12:52:00] INFO root fetch - processPackages [bioval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioval-0.1.1.5b0.tar.gz tmp/bioval-0.1.1a0.tar.gz --markdown 20230620/b/bioval/0.1.1.5b0-0.1.1a0/diff.md --exclude *.pyd
+[2023-06-20 12:52:00] INFO root fetch - processPackages [ecglib]: Downloading https://files.pythonhosted.org/packages/43/6a/708a5455bbdb6648717c0d443ffd1acbe455b1d0a5d9a63468399d21141a/ecglib-1.1.0.tar.gz
+[2023-06-20 12:52:00] INFO root fetch - processPackages [planetmapper]: Downloading https://files.pythonhosted.org/packages/f2/d7/496161f3ff6e4a78d0ed6e7f7a648e0d3d1eaf8f19961f1c368d94598f47/planetmapper-1.7.4.tar.gz
+[2023-06-20 12:52:00] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-20 12:52:00] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.90-py3-none-any.whl.zip tmp/QuNet-0.0.91-py3-none-any.whl.zip --markdown 20230620/Q/QuNet/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2023-06-20 12:52:01] INFO root fetch - processPackages [ecglib]: executing diffoscope
+[2023-06-20 12:52:01] INFO root fetch - processPackages [ecglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecglib-1.0.1.tar.gz tmp/ecglib-1.1.0.tar.gz --markdown 20230620/e/ecglib/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-20 12:52:01] INFO root fetch - processPackages [prismstudio-demo]: Downloading https://files.pythonhosted.org/packages/e2/94/4a7617c74b58dc619cde45bebd20e6baa94ea1bf6a4c62bb8d1011bff43a/prismstudio-demo-1.1.3b0.tar.gz
+[2023-06-20 12:52:01] INFO root fetch - processPackages [planetmapper]: executing diffoscope
+[2023-06-20 12:52:01] INFO root fetch - processPackages [planetmapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmapper-1.7.3.tar.gz tmp/planetmapper-1.7.4.tar.gz --markdown 20230620/p/planetmapper/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2023-06-20 12:52:01] INFO root fetch - processPackages [prismstudio-demo]: executing diffoscope
+[2023-06-20 12:52:01] INFO root fetch - processPackages [prismstudio-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismstudio-demo-1.1.3a0.tar.gz tmp/prismstudio-demo-1.1.3b0.tar.gz --markdown 20230620/p/prismstudio-demo/1.1.3a0-1.1.3b0/diff.md --exclude *.pyd
+[2023-06-20 12:52:02] INFO root fetch - processPackages [tomlize]: Remove: archive file [/home/abi/fetcher/tmp/tomlize-0.1.1.tar.gz]
+[2023-06-20 12:52:02] INFO root fetch - processPackages [tomlize]: Remove: archive file [/home/abi/fetcher/tmp/tomlize-0.2.0.tar.gz]
+[2023-06-20 12:52:02] INFO root fetch - processPackages [tomlize]: Start processing: hop-file-browser
+[2023-06-20 12:52:02] INFO root fetch - main [MainThread]: End processing [tomlize]: success
+[2023-06-20 12:52:02] INFO root fetch - processPackages [hop-file-browser]: New version: [2.0.2] Old Version: [1.1.3]
+[2023-06-20 12:52:02] INFO root fetch - processPackages [cp-version-testing]: Remove: archive file [/home/abi/fetcher/tmp/cp-version-testing-1.0.4.tar.gz]
+[2023-06-20 12:52:02] INFO root fetch - processPackages [cp-version-testing]: Remove: archive file [/home/abi/fetcher/tmp/cp-version-testing-1.0.5.tar.gz]
+[2023-06-20 12:52:02] INFO root fetch - processPackages [cp-version-testing]: Start processing: pcdl
+[2023-06-20 12:52:02] INFO root fetch - main [MainThread]: End processing [cp-version-testing]: success
+[2023-06-20 12:52:02] INFO root fetch - processPackages [pcdl]: New version: [3.2.5] Old Version: [3.2.4]
+[2023-06-20 12:52:02] INFO root fetch - processPackages [pcdl]: Downloading https://files.pythonhosted.org/packages/e4/2c/eceb04eb7e3893e096d0d7aeca95766cf3763547e3ec96c5cb39cd675cad/pcdl-3.2.4.tar.gz
+[2023-06-20 12:52:02] WARNING root fetch - processPackages [pcdl]: Skipping package: exceeds size limit 16864791>=10485760
+[2023-06-20 12:52:02] INFO root fetch - processPackages [pcdl]: Start processing: e360-charting
+[2023-06-20 12:52:02] INFO root fetch - main [MainThread]: End processing [pcdl] error
+[2023-06-20 12:52:02] INFO root fetch - processPackages [run-configurations]: Remove: archive file [/home/abi/fetcher/tmp/run_configurations-0.1.2.tar.gz]
+[2023-06-20 12:52:02] INFO root fetch - processPackages [run-configurations]: Remove: archive file [/home/abi/fetcher/tmp/run_configurations-0.1.3.tar.gz]
+[2023-06-20 12:52:02] INFO root fetch - main [MainThread]: End processing [run-configurations]: success
+[2023-06-20 12:52:02] INFO root fetch - processPackages [bioval]: Remove: archive file [/home/abi/fetcher/tmp/bioval-0.1.1.5b0.tar.gz]
+[2023-06-20 12:52:02] INFO root fetch - processPackages [bioval]: Remove: archive file [/home/abi/fetcher/tmp/bioval-0.1.1a0.tar.gz]
+[2023-06-20 12:52:02] INFO root fetch - main [MainThread]: End processing [bioval]: success
+[2023-06-20 12:52:02] INFO root fetch - processPackages [e360-charting]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-06-20 12:52:02] INFO root fetch - processPackages [hop-file-browser]: Downloading https://files.pythonhosted.org/packages/e3/70/eb58c2c1e84308799fc86e3b683390c9c2d024993a41b8fc6d5fce7060e8/hop_file_browser-2.0.2.tar.gz
+[2023-06-20 12:52:02] WARNING root fetch - processPackages [hop-file-browser]: Skipping package: exceeds size limit 23945744>=10485760
+[2023-06-20 12:52:02] INFO root fetch - main [MainThread]: End processing [hop-file-browser] error
+[2023-06-20 12:52:02] INFO root fetch - processPackages [ecglib]: Remove: archive file [/home/abi/fetcher/tmp/ecglib-1.0.1.tar.gz]
+[2023-06-20 12:52:02] INFO root fetch - processPackages [ecglib]: Remove: archive file [/home/abi/fetcher/tmp/ecglib-1.1.0.tar.gz]
+[2023-06-20 12:52:02] INFO root fetch - main [MainThread]: End processing [ecglib]: success
+[2023-06-20 12:52:02] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-06-20 12:52:02] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-06-20 12:52:02] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-06-20 12:52:02] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.90-py3-none-any.whl.zip]
+[2023-06-20 12:52:02] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.91-py3-none-any.whl.zip]
+[2023-06-20 12:52:02] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-20 12:52:02] INFO root fetch - processPackages [e360-charting]: Downloading https://files.pythonhosted.org/packages/78/48/27770ffa8b44c6cbb95677561f2b20faf242b9f84b3a57e9f1499781d909/e360_charting-1.8.2-py3-none-any.whl
+[2023-06-20 12:52:02] INFO root fetch - processPackages [pkgbuild-language-server]: Remove: archive file [/home/abi/fetcher/tmp/pkgbuild-language-server-0.0.2.tar.gz]
+[2023-06-20 12:52:02] INFO root fetch - processPackages [pkgbuild-language-server]: Remove: archive file [/home/abi/fetcher/tmp/pkgbuild-language-server-0.0.3.tar.gz]
+[2023-06-20 12:52:02] INFO root fetch - main [MainThread]: End processing [pkgbuild-language-server]: success
+[2023-06-20 12:52:02] INFO root fetch - processPackages [planetmapper]: Remove: archive file [/home/abi/fetcher/tmp/planetmapper-1.7.3.tar.gz]
+[2023-06-20 12:52:02] INFO root fetch - processPackages [planetmapper]: Remove: archive file [/home/abi/fetcher/tmp/planetmapper-1.7.4.tar.gz]
+[2023-06-20 12:52:02] INFO root fetch - main [MainThread]: End processing [planetmapper]: success
+[2023-06-20 12:52:03] INFO root fetch - processPackages [e360-charting]: Downloading https://files.pythonhosted.org/packages/99/48/25236d23e4bf05a5f585c1681334c435eca390a10bad807535d0b8af0f34/e360_charting-1.9.0-py3-none-any.whl
+[2023-06-20 12:52:03] INFO root fetch - processPackages [e360-charting]: executing diffoscope
+[2023-06-20 12:52:03] INFO root fetch - processPackages [e360-charting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e360_charting-1.8.2-py3-none-any.whl.zip tmp/e360_charting-1.9.0-py3-none-any.whl.zip --markdown 20230620/e/e360-charting/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-06-20 12:52:04] INFO root fetch - processPackages [e360-charting]: Remove: archive file [/home/abi/fetcher/tmp/e360_charting-1.8.2-py3-none-any.whl.zip]
+[2023-06-20 12:52:04] INFO root fetch - processPackages [e360-charting]: Remove: archive file [/home/abi/fetcher/tmp/e360_charting-1.9.0-py3-none-any.whl.zip]
+[2023-06-20 12:52:04] INFO root fetch - main [MainThread]: End processing [e360-charting]: success
+[2023-06-20 12:52:10] INFO root fetch - processPackages [prismstudio-demo]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-demo-1.1.3a0.tar.gz]
+[2023-06-20 12:52:10] INFO root fetch - processPackages [prismstudio-demo]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-demo-1.1.3b0.tar.gz]
+[2023-06-20 12:52:10] INFO root fetch - main [MainThread]: End processing [prismstudio-demo]: success
+[2023-06-20 12:52:10] INFO root fetch - main [MainThread]: Store serial: [18573358]
