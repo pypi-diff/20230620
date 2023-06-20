@@ -19644,3 +19644,158 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 12:41:36] INFO root fetch - processPackages [cici-tools]: Remove: archive file [/home/abi/fetcher/tmp/cici-tools-0.2.0.tar.gz]
 [2023-06-20 12:41:36] INFO root fetch - main [MainThread]: End processing [cici-tools]: success
 [2023-06-20 12:41:36] INFO root fetch - main [MainThread]: Store serial: [18573243]
+[2023-06-20 12:46:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18573243]
+[2023-06-20 12:46:45] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-20 12:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cog
+[2023-06-20 12:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: playwrightcapture
+[2023-06-20 12:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iolocker
+[2023-06-20 12:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezyquant
+[2023-06-20 12:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyhyypapihawkmod
+[2023-06-20 12:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tarshim
+[2023-06-20 12:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: 0016
+[2023-06-20 12:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sumformer2
+[2023-06-20 12:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kubemarine
+[2023-06-20 12:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: msci.sdk
+[2023-06-20 12:46:46] INFO root fetch - processPackages [pyhyypapihawkmod]: New version: [1.1.5b2] Old Version: [1.1.4]
+[2023-06-20 12:46:46] INFO root fetch - processPackages [ezyquant]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-20 12:46:46] WARNING root fetch - processPackages [msci.sdk]: Skipping, unable to determine old version
+[2023-06-20 12:46:46] INFO root fetch - processPackages [msci.sdk]: Start processing: cici-tools
+[2023-06-20 12:46:46] INFO root fetch - main [MainThread]: End processing [msci.sdk] error
+[2023-06-20 12:46:46] INFO root fetch - processPackages [cog]: New version: [0.8.0b5] Old Version: [0.8.0b3]
+[2023-06-20 12:46:46] INFO root fetch - processPackages [iolocker]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-20 12:46:46] WARNING root fetch - processPackages [tarshim]: Skipping, unable to determine old version
+[2023-06-20 12:46:46] INFO root fetch - processPackages [tarshim]: Start processing: pyautosrt
+[2023-06-20 12:46:46] INFO root fetch - main [MainThread]: End processing [tarshim] error
+[2023-06-20 12:46:46] INFO root fetch - processPackages [playwrightcapture]: New version: [1.20.7] Old Version: [1.20.6]
+[2023-06-20 12:46:46] INFO root fetch - processPackages [kubemarine]: New version: [0.18.1] Old Version: [0.18.0]
+[2023-06-20 12:46:46] INFO root fetch - processPackages [sumformer2]: New version: [0.4] Old Version: [0.3.2]
+[2023-06-20 12:46:46] INFO root fetch - processPackages [cici-tools]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-20 12:46:46] INFO root fetch - processPackages [pyautosrt]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-20 12:46:46] ERROR root fetch - processPackages [0016]: Unable to get metadata: No such project '0016'
+[2023-06-20 12:46:46] INFO root fetch - processPackages [0016]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2023-06-20 12:46:46] INFO root fetch - main [MainThread]: End processing [0016] error
+[2023-06-20 12:46:46] INFO root fetch - processPackages [iolocker]: Downloading https://files.pythonhosted.org/packages/34/48/e606d333844e29f9229b41a8aedcc5a1d46c2451c1c948633752246b9a23/iolocker-1.0.0.tar.gz
+[2023-06-20 12:46:46] INFO root fetch - processPackages [cici-tools]: Downloading https://files.pythonhosted.org/packages/14/25/c3780a4f90866f5f32679503946267e108fb8b6f8e153434eff9786fc348/cici-tools-0.2.1.tar.gz
+[2023-06-20 12:46:46] INFO root fetch - processPackages [pyhyypapihawkmod]: Downloading https://files.pythonhosted.org/packages/c7/38/5d9062e71bdf129cebdba7202dbef041cf1767729759db9c002c7760fcf4/pyhyypapihawkmod-1.1.4.tar.gz
+[2023-06-20 12:46:46] INFO root fetch - processPackages [ezyquant]: Downloading https://files.pythonhosted.org/packages/f9/3a/e699fa37981e0ccb664103d0f56785ab0d557f337468339a4c9107c4fe2f/ezyquant-0.9.3.tar.gz
+[2023-06-20 12:46:46] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.28.0.dev20230620] Old Version: [1.28.0.dev20230619]
+[2023-06-20 12:46:46] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/58/9b/b304df2b006301fe1be10faffcf21f618aa83c4fdbf878992c7826acad7a/pyautosrt-0.2.6.tar.gz
+[2023-06-20 12:46:46] INFO root fetch - processPackages [playwrightcapture]: Downloading https://files.pythonhosted.org/packages/84/5a/cf6644290c46b6fc3376f2c644d45c5f07c069e71b86efda03da17e12fc1/playwrightcapture-1.20.6.tar.gz
+[2023-06-20 12:46:46] INFO root fetch - processPackages [sumformer2]: Downloading https://files.pythonhosted.org/packages/ae/c2/ee96269ee7da8787c464ce7e53ba32f6d47fc28e94cc09afe76a8a52f3ef/sumformer2-0.3.2.tar.gz
+[2023-06-20 12:46:46] INFO root fetch - processPackages [kubemarine]: Downloading https://files.pythonhosted.org/packages/c4/98/9fb4e0e5a56b5d9ed24a67dff6dbb752fa9957fc18dc39bb4ad118132715/kubemarine-0.18.0.tar.gz
+[2023-06-20 12:46:46] INFO root fetch - processPackages [cog]: Downloading https://files.pythonhosted.org/packages/8e/d8/befa293246ccc7343db8e66c3f4df514fb3c7e2363e13c9750d4f6c917dc/cog-0.8.0b3-py3-none-any.whl
+[2023-06-20 12:46:46] WARNING root fetch - processPackages [ezyquant]: Skipping package: exceeds size limit 14470293>=10485760
+[2023-06-20 12:46:46] INFO root fetch - processPackages [ezyquant]: Start processing: zensols.mednlp
+[2023-06-20 12:46:46] INFO root fetch - main [MainThread]: End processing [ezyquant] error
+[2023-06-20 12:46:46] INFO root fetch - processPackages [zensols.mednlp]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-20 12:46:46] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/37/75/488efe83d5c8a4400960165b93c571fa2cd4a589af9fcbbaebd803b0d09c/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230619.tar.gz
+[2023-06-20 12:46:46] INFO root fetch - processPackages [iolocker]: Downloading https://files.pythonhosted.org/packages/96/73/536640b1098f089871e42a0df6b9c59d4ea4e54fbd2324bddd62ac369b93/iolocker-1.0.1.tar.gz
+[2023-06-20 12:46:46] INFO root fetch - processPackages [cici-tools]: Downloading https://files.pythonhosted.org/packages/64/55/8799dc11995dd6af91c68730caedb1b6c1b187fc6cc1403540f3d703083c/cici-tools-0.2.2.tar.gz
+[2023-06-20 12:46:46] INFO root fetch - processPackages [pyhyypapihawkmod]: Downloading https://files.pythonhosted.org/packages/f0/d0/18ad7ef89399848fd455303151bab65904f3603c3645ccb7f72bf434c111/pyhyypapihawkmod-1.1.5b2.tar.gz
+[2023-06-20 12:46:46] INFO root fetch - processPackages [playwrightcapture]: Downloading https://files.pythonhosted.org/packages/ce/75/c88e8755493b109de4e7bc2f1031e6b831e3bcf6c3b24081003bd241f28f/playwrightcapture-1.20.7.tar.gz
+[2023-06-20 12:46:46] INFO root fetch - processPackages [zensols.mednlp]: Downloading https://files.pythonhosted.org/packages/17/3b/1a9980d6cbfdc41f5df1d090537e76272a6b06d7f05b07ae35e2f57ed21a/zensols.mednlp-1.2.0-py3-none-any.whl
+[2023-06-20 12:46:46] INFO root fetch - processPackages [iolocker]: executing diffoscope
+[2023-06-20 12:46:46] INFO root fetch - processPackages [iolocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iolocker-1.0.0.tar.gz tmp/iolocker-1.0.1.tar.gz --markdown 20230620/i/iolocker/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-20 12:46:46] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/09/47/950f11347f19e01afed7bf10ed04e2bfa6bd72d91f1b78900de1bcc9514f/pyautosrt-0.2.7.tar.gz
+[2023-06-20 12:46:46] INFO root fetch - processPackages [kubemarine]: Downloading https://files.pythonhosted.org/packages/5c/6a/0e580bfbf797e7e4f980a45602a5fa848ef82cb8ba970ac324a671a9c341/kubemarine-0.18.1.tar.gz
+[2023-06-20 12:46:46] INFO root fetch - processPackages [playwrightcapture]: executing diffoscope
+[2023-06-20 12:46:46] INFO root fetch - processPackages [sumformer2]: Downloading https://files.pythonhosted.org/packages/ac/3d/50418c9bec7917e1a9a2bff8786e50b873915c6e46d7e78980cb51b2a66c/sumformer2-0.4.tar.gz
+[2023-06-20 12:46:46] INFO root fetch - processPackages [playwrightcapture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playwrightcapture-1.20.6.tar.gz tmp/playwrightcapture-1.20.7.tar.gz --markdown 20230620/p/playwrightcapture/1.20.6-1.20.7/diff.md --exclude *.pyd
+[2023-06-20 12:46:46] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/d7/32/0247c2db341af7c0939ba3b43926cd8f46c896cae29421ea76bcf70115fa/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230620.tar.gz
+[2023-06-20 12:46:46] INFO root fetch - processPackages [cici-tools]: executing diffoscope
+[2023-06-20 12:46:46] INFO root fetch - processPackages [cici-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cici-tools-0.2.1.tar.gz tmp/cici-tools-0.2.2.tar.gz --markdown 20230620/c/cici-tools/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-20 12:46:46] INFO root fetch - processPackages [pyautosrt]: executing diffoscope
+[2023-06-20 12:46:46] INFO root fetch - processPackages [pyautosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautosrt-0.2.6.tar.gz tmp/pyautosrt-0.2.7.tar.gz --markdown 20230620/p/pyautosrt/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-20 12:46:46] INFO root fetch - processPackages [cog]: Downloading https://files.pythonhosted.org/packages/da/64/a076c2c908448eea4fb4fb21a52e7a21cd34ef31c390900198c4be7d54a4/cog-0.8.0b5-py3-none-any.whl
+[2023-06-20 12:46:46] INFO root fetch - processPackages [kubemarine]: executing diffoscope
+[2023-06-20 12:46:46] INFO root fetch - processPackages [kubemarine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubemarine-0.18.0.tar.gz tmp/kubemarine-0.18.1.tar.gz --markdown 20230620/k/kubemarine/0.18.0-0.18.1/diff.md --exclude *.pyd
+[2023-06-20 12:46:46] INFO root fetch - processPackages [sumformer2]: executing diffoscope
+[2023-06-20 12:46:46] INFO root fetch - processPackages [sumformer2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sumformer2-0.3.2.tar.gz tmp/sumformer2-0.4.tar.gz --markdown 20230620/s/sumformer2/0.3.2-0.4/diff.md --exclude *.pyd
+[2023-06-20 12:46:46] INFO root fetch - processPackages [pyhyypapihawkmod]: executing diffoscope
+[2023-06-20 12:46:46] INFO root fetch - processPackages [pyhyypapihawkmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhyypapihawkmod-1.1.4.tar.gz tmp/pyhyypapihawkmod-1.1.5b2.tar.gz --markdown 20230620/p/pyhyypapihawkmod/1.1.4-1.1.5b2/diff.md --exclude *.pyd
+[2023-06-20 12:46:46] INFO root fetch - processPackages [cog]: executing diffoscope
+[2023-06-20 12:46:46] INFO root fetch - processPackages [cog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cog-0.8.0b3-py3-none-any.whl.zip tmp/cog-0.8.0b5-py3-none-any.whl.zip --markdown 20230620/c/cog/0.8.0b3-0.8.0b5/diff.md --exclude *.pyd
+[2023-06-20 12:46:46] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2023-06-20 12:46:46] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230619.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230620.tar.gz --markdown 20230620/n/nvidia-dali-tf-plugin-nightly-cuda120/1.28.0.dev20230619-1.28.0.dev20230620/diff.md --exclude *.pyd
+[2023-06-20 12:46:47] INFO root fetch - processPackages [zensols.mednlp]: Downloading https://files.pythonhosted.org/packages/db/33/e754d6ceb54ab7a58627e7afed7ff77568952c4b47a872d3ccb2e6aed01a/zensols.mednlp-1.3.0-py3-none-any.whl
+[2023-06-20 12:46:47] INFO root fetch - processPackages [zensols.mednlp]: executing diffoscope
+[2023-06-20 12:46:47] INFO root fetch - processPackages [zensols.mednlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensols.mednlp-1.2.0-py3-none-any.whl.zip tmp/zensols.mednlp-1.3.0-py3-none-any.whl.zip --markdown 20230620/z/zensols.mednlp/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-20 12:46:48] INFO root fetch - processPackages [iolocker]: Remove: archive file [/home/abi/fetcher/tmp/iolocker-1.0.0.tar.gz]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [iolocker]: Remove: archive file [/home/abi/fetcher/tmp/iolocker-1.0.1.tar.gz]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [iolocker]: Start processing: nvidia-dali-nightly-cuda120
+[2023-06-20 12:46:48] INFO root fetch - main [MainThread]: End processing [iolocker]: success
+[2023-06-20 12:46:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.28.0.dev20230619] Old Version: [1.28.0.dev20230614]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/cc/34/9af5f616c1cf13b804c4a7c72da0217e45096b847f3d8552fe0b8fe7b33c/nvidia-dali-nightly-cuda120-1.28.0.dev20230614.tar.gz
+[2023-06-20 12:46:48] INFO root fetch - processPackages [playwrightcapture]: Remove: archive file [/home/abi/fetcher/tmp/playwrightcapture-1.20.6.tar.gz]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [playwrightcapture]: Remove: archive file [/home/abi/fetcher/tmp/playwrightcapture-1.20.7.tar.gz]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [playwrightcapture]: Start processing: cetl
+[2023-06-20 12:46:48] INFO root fetch - main [MainThread]: End processing [playwrightcapture]: success
+[2023-06-20 12:46:48] INFO root fetch - processPackages [cetl]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [cici-tools]: Remove: archive file [/home/abi/fetcher/tmp/cici-tools-0.2.1.tar.gz]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [cici-tools]: Remove: archive file [/home/abi/fetcher/tmp/cici-tools-0.2.2.tar.gz]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [cici-tools]: Start processing: lnschema_bionty
+[2023-06-20 12:46:48] INFO root fetch - main [MainThread]: End processing [cici-tools]: success
+[2023-06-20 12:46:48] INFO root fetch - processPackages [sumformer2]: Remove: archive file [/home/abi/fetcher/tmp/sumformer2-0.3.2.tar.gz]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [sumformer2]: Remove: archive file [/home/abi/fetcher/tmp/sumformer2-0.4.tar.gz]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [sumformer2]: Start processing: karton-dashboard
+[2023-06-20 12:46:48] INFO root fetch - main [MainThread]: End processing [sumformer2]: success
+[2023-06-20 12:46:48] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [cetl]: Downloading https://files.pythonhosted.org/packages/d3/bf/2cb2272d23697b6569cf16ffceb4111f725acd23ea1374891f23415604fb/cetl-0.2.8.tar.gz
+[2023-06-20 12:46:48] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-06-20 12:46:48] INFO root fetch - processPackages [karton-dashboard]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230619.tar.gz]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230620.tar.gz]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Start processing: pyttm
+[2023-06-20 12:46:48] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2023-06-20 12:46:48] INFO root fetch - processPackages [pyhyypapihawkmod]: Remove: archive file [/home/abi/fetcher/tmp/pyhyypapihawkmod-1.1.4.tar.gz]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [pyhyypapihawkmod]: Remove: archive file [/home/abi/fetcher/tmp/pyhyypapihawkmod-1.1.5b2.tar.gz]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [pyhyypapihawkmod]: Start processing: tomlize
+[2023-06-20 12:46:48] INFO root fetch - main [MainThread]: End processing [pyhyypapihawkmod]: success
+[2023-06-20 12:46:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/a6/2d/99f3e33d973265dd033de5dba384fd3c84284f35adfc697071f37aa055c1/nvidia-dali-nightly-cuda120-1.28.0.dev20230619.tar.gz
+[2023-06-20 12:46:48] INFO root fetch - processPackages [zensols.mednlp]: Remove: archive file [/home/abi/fetcher/tmp/zensols.mednlp-1.2.0-py3-none-any.whl.zip]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [zensols.mednlp]: Remove: archive file [/home/abi/fetcher/tmp/zensols.mednlp-1.3.0-py3-none-any.whl.zip]
+[2023-06-20 12:46:48] INFO root fetch - main [MainThread]: End processing [zensols.mednlp]: success
+[2023-06-20 12:46:48] WARNING root fetch - processPackages [pyttm]: Skipping, unable to determine old version
+[2023-06-20 12:46:48] INFO root fetch - main [MainThread]: End processing [pyttm] error
+[2023-06-20 12:46:48] INFO root fetch - processPackages [cetl]: Downloading https://files.pythonhosted.org/packages/e4/db/e536547f76541f77818cfc8e4ac51d6a4bc7668273db52e0f7219d3f1463/cetl-0.2.9.tar.gz
+[2023-06-20 12:46:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2023-06-20 12:46:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230614.tar.gz tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230619.tar.gz --markdown 20230620/n/nvidia-dali-nightly-cuda120/1.28.0.dev20230614-1.28.0.dev20230619/diff.md --exclude *.pyd
+[2023-06-20 12:46:48] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-06-20 12:46:48] INFO root fetch - processPackages [karton-dashboard]: Downloading https://files.pythonhosted.org/packages/98/e0/57baf39753d1918a0841e4291b791ffee2d18154ea51a58ee7481a08173b/karton_dashboard-1.4.0-py3-none-any.whl
+[2023-06-20 12:46:48] INFO root fetch - processPackages [tomlize]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [cog]: Remove: archive file [/home/abi/fetcher/tmp/cog-0.8.0b3-py3-none-any.whl.zip]
+[2023-06-20 12:46:48] INFO root fetch - processPackages [cog]: Remove: archive file [/home/abi/fetcher/tmp/cog-0.8.0b5-py3-none-any.whl.zip]
+[2023-06-20 12:46:48] INFO root fetch - main [MainThread]: End processing [cog]: success
+[2023-06-20 12:46:48] INFO root fetch - processPackages [cetl]: executing diffoscope
+[2023-06-20 12:46:48] INFO root fetch - processPackages [cetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cetl-0.2.8.tar.gz tmp/cetl-0.2.9.tar.gz --markdown 20230620/c/cetl/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-20 12:46:48] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-06-20 12:46:48] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230620/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-20 12:46:49] INFO root fetch - processPackages [tomlize]: Downloading https://files.pythonhosted.org/packages/26/35/efff6aa1e627c441092a616492b6c4ec60ea1373794c083315887f193fd8/tomlize-0.1.1.tar.gz
+[2023-06-20 12:46:49] INFO root fetch - processPackages [karton-dashboard]: Downloading https://files.pythonhosted.org/packages/52/9d/a60fdec060a82365da4deadcf4228e374df434653f2403217f3c1abd4cf4/karton_dashboard-1.5.0-py3-none-any.whl
+[2023-06-20 12:46:49] INFO root fetch - processPackages [karton-dashboard]: executing diffoscope
+[2023-06-20 12:46:49] INFO root fetch - processPackages [karton-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karton_dashboard-1.4.0-py3-none-any.whl.zip tmp/karton_dashboard-1.5.0-py3-none-any.whl.zip --markdown 20230620/k/karton-dashboard/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-20 12:46:49] INFO root fetch - processPackages [tomlize]: Downloading https://files.pythonhosted.org/packages/b5/06/a007860fb4fa26ab627c8aaf62e0c60b3b7a136754397866064c71b2af03/tomlize-0.2.0.tar.gz
+[2023-06-20 12:46:49] INFO root fetch - processPackages [tomlize]: executing diffoscope
+[2023-06-20 12:46:49] INFO root fetch - processPackages [tomlize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomlize-0.1.1.tar.gz tmp/tomlize-0.2.0.tar.gz --markdown 20230620/t/tomlize/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-20 12:46:49] INFO root fetch - processPackages [kubemarine]: Remove: archive file [/home/abi/fetcher/tmp/kubemarine-0.18.0.tar.gz]
+[2023-06-20 12:46:49] INFO root fetch - processPackages [kubemarine]: Remove: archive file [/home/abi/fetcher/tmp/kubemarine-0.18.1.tar.gz]
+[2023-06-20 12:46:49] INFO root fetch - main [MainThread]: End processing [kubemarine]: success
+[2023-06-20 12:46:49] INFO root fetch - processPackages [pyautosrt]: Remove: archive file [/home/abi/fetcher/tmp/pyautosrt-0.2.6.tar.gz]
+[2023-06-20 12:46:49] INFO root fetch - processPackages [pyautosrt]: Remove: archive file [/home/abi/fetcher/tmp/pyautosrt-0.2.7.tar.gz]
+[2023-06-20 12:46:49] INFO root fetch - main [MainThread]: End processing [pyautosrt]: success
+[2023-06-20 12:46:49] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230614.tar.gz]
+[2023-06-20 12:46:49] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230619.tar.gz]
+[2023-06-20 12:46:49] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2023-06-20 12:46:50] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2023-06-20 12:46:50] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2023-06-20 12:46:50] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-06-20 12:46:50] INFO root fetch - processPackages [cetl]: Remove: archive file [/home/abi/fetcher/tmp/cetl-0.2.8.tar.gz]
+[2023-06-20 12:46:50] INFO root fetch - processPackages [cetl]: Remove: archive file [/home/abi/fetcher/tmp/cetl-0.2.9.tar.gz]
+[2023-06-20 12:46:50] INFO root fetch - main [MainThread]: End processing [cetl]: success
+[2023-06-20 12:46:50] INFO root fetch - processPackages [tomlize]: Remove: archive file [/home/abi/fetcher/tmp/tomlize-0.1.1.tar.gz]
+[2023-06-20 12:46:50] INFO root fetch - processPackages [tomlize]: Remove: archive file [/home/abi/fetcher/tmp/tomlize-0.2.0.tar.gz]
+[2023-06-20 12:46:50] INFO root fetch - main [MainThread]: End processing [tomlize]: success
+[2023-06-20 12:46:50] INFO root fetch - processPackages [karton-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/karton_dashboard-1.4.0-py3-none-any.whl.zip]
+[2023-06-20 12:46:50] INFO root fetch - processPackages [karton-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/karton_dashboard-1.5.0-py3-none-any.whl.zip]
+[2023-06-20 12:46:50] INFO root fetch - main [MainThread]: End processing [karton-dashboard]: success
+[2023-06-20 12:46:50] INFO root fetch - main [MainThread]: Store serial: [18573305]
