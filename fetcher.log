@@ -2658,3 +2658,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 02:55:11] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz]
 [2023-06-20 02:55:11] INFO root fetch - main [MainThread]: End processing [cdklabs.ecs-codedeploy]: success
 [2023-06-20 02:55:11] INFO root fetch - main [MainThread]: Store serial: [18566994]
+[2023-06-20 03:00:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566994]
+[2023-06-20 03:00:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-20 03:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythonmc
+[2023-06-20 03:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heaserver-buckets
+[2023-06-20 03:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jianglab
+[2023-06-20 03:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: networkcalculator
+[2023-06-20 03:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bioversions
+[2023-06-20 03:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-sns-notify
+[2023-06-20 03:00:20] INFO root fetch - processPackages [heaserver-buckets]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-20 03:00:20] INFO root fetch - processPackages [pythonmc]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-20 03:00:20] INFO root fetch - processPackages [jianglab]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-20 03:00:20] INFO root fetch - processPackages [networkcalculator]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-20 03:00:20] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-20 03:00:20] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-20 03:00:20] INFO root fetch - processPackages [networkcalculator]: Downloading https://files.pythonhosted.org/packages/58/50/fc52c66d1a81cda23c1ab4059779599fcb4fdd7911a6e6c788e855b0e510/networkcalculator-1.0.4.tar.gz
+[2023-06-20 03:00:20] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-06-20 03:00:20] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-06-20 03:00:20] INFO root fetch - processPackages [jianglab]: Downloading https://files.pythonhosted.org/packages/92/95/1c71c7c055bc5f8bb88e858a7127f4854894ba7486451f64898a61c81470/jianglab-0.4.6.tar.gz
+[2023-06-20 03:00:20] INFO root fetch - processPackages [heaserver-buckets]: Downloading https://files.pythonhosted.org/packages/fc/d6/1c60f668061544352eaeadfb35ec125580ffa8f73089e46ceed609c855c3/heaserver-buckets-1.0.0a8.tar.gz
+[2023-06-20 03:00:20] INFO root fetch - processPackages [pythonmc]: Downloading https://files.pythonhosted.org/packages/a2/e0/a88f9624214e850bcec2356c7bd306c0e17b4b47e9a5f65e7766c932ed7c/pythonmc-1.0.0.tar.gz
+[2023-06-20 03:00:20] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-06-20 03:00:20] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-06-20 03:00:20] INFO root fetch - processPackages [networkcalculator]: Downloading https://files.pythonhosted.org/packages/5a/e8/25fd2d7c8f12935cadb16a7c3695e2bdc3edf851f198f3a1d0812acea693/networkcalculator-1.0.5.tar.gz
+[2023-06-20 03:00:20] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-06-20 03:00:20] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230620/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 03:00:20] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-06-20 03:00:20] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230620/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-20 03:00:20] INFO root fetch - processPackages [jianglab]: Downloading https://files.pythonhosted.org/packages/5c/c3/6c2d542a56d6af3e83b730f47f2aefafbf6849e77d58498da232cd03ecd2/jianglab-0.4.7.tar.gz
+[2023-06-20 03:00:20] INFO root fetch - processPackages [networkcalculator]: executing diffoscope
+[2023-06-20 03:00:20] INFO root fetch - processPackages [networkcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networkcalculator-1.0.4.tar.gz tmp/networkcalculator-1.0.5.tar.gz --markdown 20230620/n/networkcalculator/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-20 03:00:20] INFO root fetch - processPackages [jianglab]: executing diffoscope
+[2023-06-20 03:00:20] INFO root fetch - processPackages [jianglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jianglab-0.4.6.tar.gz tmp/jianglab-0.4.7.tar.gz --markdown 20230620/j/jianglab/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-20 03:00:20] INFO root fetch - processPackages [pythonmc]: Downloading https://files.pythonhosted.org/packages/06/15/805276e74bab49e6183069346047ab631dda8ba229c658b90de7f11ebf95/pythonmc-1.0.1.tar.gz
+[2023-06-20 03:00:20] INFO root fetch - processPackages [pythonmc]: executing diffoscope
+[2023-06-20 03:00:20] INFO root fetch - processPackages [pythonmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonmc-1.0.0.tar.gz tmp/pythonmc-1.0.1.tar.gz --markdown 20230620/p/pythonmc/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-20 03:00:20] INFO root fetch - processPackages [heaserver-buckets]: Downloading https://files.pythonhosted.org/packages/4d/60/7a6118e0c68cc6934cfbc2b25d3a6f5193ae5ab0d0c9b3787970dfd52e5c/heaserver-buckets-1.0.0a9.tar.gz
+[2023-06-20 03:00:21] INFO root fetch - processPackages [heaserver-buckets]: executing diffoscope
+[2023-06-20 03:00:21] INFO root fetch - processPackages [heaserver-buckets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-buckets-1.0.0a8.tar.gz tmp/heaserver-buckets-1.0.0a9.tar.gz --markdown 20230620/h/heaserver-buckets/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-20 03:00:21] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-06-20 03:00:21] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-06-20 03:00:21] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-06-20 03:00:21] INFO root fetch - processPackages [jianglab]: Remove: archive file [/home/abi/fetcher/tmp/jianglab-0.4.6.tar.gz]
+[2023-06-20 03:00:21] INFO root fetch - processPackages [jianglab]: Remove: archive file [/home/abi/fetcher/tmp/jianglab-0.4.7.tar.gz]
+[2023-06-20 03:00:21] INFO root fetch - main [MainThread]: End processing [jianglab]: success
+[2023-06-20 03:00:22] INFO root fetch - processPackages [networkcalculator]: Remove: archive file [/home/abi/fetcher/tmp/networkcalculator-1.0.4.tar.gz]
+[2023-06-20 03:00:22] INFO root fetch - processPackages [networkcalculator]: Remove: archive file [/home/abi/fetcher/tmp/networkcalculator-1.0.5.tar.gz]
+[2023-06-20 03:00:22] INFO root fetch - main [MainThread]: End processing [networkcalculator]: success
+[2023-06-20 03:00:22] INFO root fetch - processPackages [pythonmc]: Remove: archive file [/home/abi/fetcher/tmp/pythonmc-1.0.0.tar.gz]
+[2023-06-20 03:00:22] INFO root fetch - processPackages [pythonmc]: Remove: archive file [/home/abi/fetcher/tmp/pythonmc-1.0.1.tar.gz]
+[2023-06-20 03:00:22] INFO root fetch - main [MainThread]: End processing [pythonmc]: success
+[2023-06-20 03:00:22] INFO root fetch - processPackages [heaserver-buckets]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-buckets-1.0.0a8.tar.gz]
+[2023-06-20 03:00:22] INFO root fetch - processPackages [heaserver-buckets]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-buckets-1.0.0a9.tar.gz]
+[2023-06-20 03:00:22] INFO root fetch - main [MainThread]: End processing [heaserver-buckets]: success
+[2023-06-20 03:00:40] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-06-20 03:00:40] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-06-20 03:00:40] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-06-20 03:00:40] INFO root fetch - main [MainThread]: Store serial: [18567012]
