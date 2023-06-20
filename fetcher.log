@@ -18290,3 +18290,128 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 11:57:28] INFO root fetch - processPackages [pyjpt]: Remove: archive file [/home/abi/fetcher/tmp/pyjpt-0.1.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-20 11:57:28] INFO root fetch - main [MainThread]: End processing [pyjpt]: success
 [2023-06-20 11:57:28] INFO root fetch - main [MainThread]: Store serial: [18572844]
+[2023-06-20 12:02:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18572844]
+[2023-06-20 12:02:44] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-20 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scientisst-sense
+[2023-06-20 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zcbot-celery-sdk
+[2023-06-20 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openshift-python-utilities
+[2023-06-20 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hana-ml
+[2023-06-20 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: showroom-recorder
+[2023-06-20 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hayloft
+[2023-06-20 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-cooperator
+[2023-06-20 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: whisper-autosrt
+[2023-06-20 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: typedattr
+[2023-06-20 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: suanpan-sprt
+[2023-06-20 12:02:44] INFO root fetch - processPackages [scientisst-sense]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-20 12:02:44] INFO root fetch - processPackages [zcbot-celery-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 12:02:44] INFO root fetch - processPackages [openshift-python-utilities]: New version: [4.14.2] Old Version: [4.14.1]
+[2023-06-20 12:02:44] INFO root fetch - processPackages [hana-ml]: New version: [2.9.21072600] Old Version: [2.9.21070902]
+[2023-06-20 12:02:44] INFO root fetch - processPackages [typedattr]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-20 12:02:44] INFO root fetch - processPackages [whisper-autosrt]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-20 12:02:44] INFO root fetch - processPackages [odoo14-addon-cooperator]: New version: [14.0.1.6.2] Old Version: [14.0.1.6.0]
+[2023-06-20 12:02:44] INFO root fetch - processPackages [hayloft]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 12:02:44] INFO root fetch - processPackages [suanpan-sprt]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-20 12:02:44] INFO root fetch - processPackages [showroom-recorder]: New version: [0.4.3] Old Version: [0.4.1]
+[2023-06-20 12:02:44] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/29/d4/393dc9aa20b190479968963fcd1e4b5fbb0f7dbbd9ceb82befbefb36ce17/openshift-python-utilities-4.14.1.tar.gz
+[2023-06-20 12:02:44] INFO root fetch - processPackages [typedattr]: Downloading https://files.pythonhosted.org/packages/bd/36/4e50a8c1be37dcd4665ad398d328f9568a08a96d961d0dda802cb73702c7/typedattr-0.2.1.tar.gz
+[2023-06-20 12:02:45] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/67/8b/850eec450488fb4a37c505d42c39fa7df12ea9f12a430d8ad3c969361887/hayloft-0.1.8.tar.gz
+[2023-06-20 12:02:45] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/53/ec/6aed81ad41e1a7090cbc1da9dd922ec0d687dff526363d9cddf1990bb9ff/suanpan-sprt-0.5.8.tar.gz
+[2023-06-20 12:02:45] INFO root fetch - processPackages [zcbot-celery-sdk]: Downloading https://files.pythonhosted.org/packages/4c/b5/afb2bfe70b2370676ef969e320b714a06c96a1bba3cad13f5f5040450b48/zcbot-celery-sdk-0.0.8.tar.gz
+[2023-06-20 12:02:45] INFO root fetch - processPackages [scientisst-sense]: Downloading https://files.pythonhosted.org/packages/84/c9/c51f1e535acd1db1d0427e493dc755c36902d074356562647a3ef628e524/scientisst-sense-1.0.4.tar.gz
+[2023-06-20 12:02:45] INFO root fetch - processPackages [hana-ml]: Downloading https://files.pythonhosted.org/packages/bd/d0/0a066bb14a55ba8920480dd58c7e08c1decfd1102bf1b108546c61b21162/hana_ml-2.9.21070902-py3-none-any.whl
+[2023-06-20 12:02:45] INFO root fetch - processPackages [showroom-recorder]: Downloading https://files.pythonhosted.org/packages/a6/3a/172d27f7e631462155bb34dc6f02ba665764b41a8176df58f16797cb22a9/showroom-recorder-0.4.1.tar.gz
+[2023-06-20 12:02:45] INFO root fetch - processPackages [whisper-autosrt]: Downloading https://files.pythonhosted.org/packages/6b/4d/0d875753bf95936c5d9245eaaf7b5d2d1dfc74366ec6d534241dc06d48ae/whisper_autosrt-0.1.5.tar.gz
+[2023-06-20 12:02:45] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/61/0c/20e29e0c161f0c776a6d004dbc407ea19f6be3c14fae74d533770d6869e8/openshift-python-utilities-4.14.2.tar.gz
+[2023-06-20 12:02:45] INFO root fetch - processPackages [odoo14-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/60/f1/047de15d59bddff9b0eec1ec0a30b61e0270609890f2ed51d0fc78bd40b6/odoo14_addon_cooperator-14.0.1.6.0-py3-none-any.whl
+[2023-06-20 12:02:45] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/8f/dc/0a3a0355f7e81268715d09ec36bbd8e91b78d1c0a8d6c0fb38189ae2d477/suanpan-sprt-0.5.9.tar.gz
+[2023-06-20 12:02:45] INFO root fetch - processPackages [typedattr]: Downloading https://files.pythonhosted.org/packages/76/6e/4f6007882acc93c8d09448756e11aafb2c7ec7e12125777a287f04083b45/typedattr-0.2.2.tar.gz
+[2023-06-20 12:02:45] INFO root fetch - processPackages [openshift-python-utilities]: executing diffoscope
+[2023-06-20 12:02:45] INFO root fetch - processPackages [openshift-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-utilities-4.14.1.tar.gz tmp/openshift-python-utilities-4.14.2.tar.gz --markdown 20230620/o/openshift-python-utilities/4.14.1-4.14.2/diff.md --exclude *.pyd
+[2023-06-20 12:02:45] INFO root fetch - processPackages [suanpan-sprt]: executing diffoscope
+[2023-06-20 12:02:45] INFO root fetch - processPackages [suanpan-sprt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suanpan-sprt-0.5.8.tar.gz tmp/suanpan-sprt-0.5.9.tar.gz --markdown 20230620/s/suanpan-sprt/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-20 12:02:45] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/6b/b7/ed77f1cdc903cf81b9ddbb48f92df60ac84762081b7dd651d14b16a1c1eb/hayloft-0.1.9.tar.gz
+[2023-06-20 12:02:45] INFO root fetch - processPackages [typedattr]: executing diffoscope
+[2023-06-20 12:02:45] INFO root fetch - processPackages [typedattr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedattr-0.2.1.tar.gz tmp/typedattr-0.2.2.tar.gz --markdown 20230620/t/typedattr/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-20 12:02:45] INFO root fetch - processPackages [showroom-recorder]: Downloading https://files.pythonhosted.org/packages/8c/8a/58cd4dd75f008121e739f5f312b6ab266e75aa799ddfcf158f505726b4c0/showroom-recorder-0.4.3.tar.gz
+[2023-06-20 12:02:45] INFO root fetch - processPackages [hayloft]: executing diffoscope
+[2023-06-20 12:02:45] INFO root fetch - processPackages [hayloft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hayloft-0.1.8.tar.gz tmp/hayloft-0.1.9.tar.gz --markdown 20230620/h/hayloft/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 12:02:45] INFO root fetch - processPackages [showroom-recorder]: executing diffoscope
+[2023-06-20 12:02:45] INFO root fetch - processPackages [showroom-recorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/showroom-recorder-0.4.1.tar.gz tmp/showroom-recorder-0.4.3.tar.gz --markdown 20230620/s/showroom-recorder/0.4.1-0.4.3/diff.md --exclude *.pyd
+[2023-06-20 12:02:45] INFO root fetch - processPackages [whisper-autosrt]: Downloading https://files.pythonhosted.org/packages/c0/1e/629042dd0f5c86da1d77b086044aa378e386c5b0f479b64b5f6603891992/whisper_autosrt-0.1.6.tar.gz
+[2023-06-20 12:02:45] INFO root fetch - processPackages [zcbot-celery-sdk]: Downloading https://files.pythonhosted.org/packages/9a/d8/42b0d82e5095896d6ec2775f0d727ce292ea46e9948fb4aebbbd7ff44280/zcbot-celery-sdk-0.0.9.tar.gz
+[2023-06-20 12:02:45] INFO root fetch - processPackages [scientisst-sense]: Downloading https://files.pythonhosted.org/packages/1b/e8/8d6a45c6cec29d11d945d5e0481ec88b55cf7bc8e07a8dfa6242f6864e8b/scientisst-sense-1.0.5.tar.gz
+[2023-06-20 12:02:45] INFO root fetch - processPackages [hana-ml]: Downloading https://files.pythonhosted.org/packages/11/a4/1139c239a5357dfb4c7bf0d380f11f356195222a7feb2dde835c60f9d7a9/hana_ml-2.9.21072600-py3-none-any.whl
+[2023-06-20 12:02:45] INFO root fetch - processPackages [odoo14-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/4b/1d/99002535153c22e78b53ee93d37547b9c42a1da2d028ab7e532f5c183929/odoo14_addon_cooperator-14.0.1.6.2-py3-none-any.whl
+[2023-06-20 12:02:45] INFO root fetch - processPackages [scientisst-sense]: executing diffoscope
+[2023-06-20 12:02:45] INFO root fetch - processPackages [scientisst-sense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scientisst-sense-1.0.4.tar.gz tmp/scientisst-sense-1.0.5.tar.gz --markdown 20230620/s/scientisst-sense/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-20 12:02:45] INFO root fetch - processPackages [whisper-autosrt]: executing diffoscope
+[2023-06-20 12:02:45] INFO root fetch - processPackages [whisper-autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_autosrt-0.1.5.tar.gz tmp/whisper_autosrt-0.1.6.tar.gz --markdown 20230620/w/whisper-autosrt/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-20 12:02:45] INFO root fetch - processPackages [odoo14-addon-cooperator]: executing diffoscope
+[2023-06-20 12:02:45] INFO root fetch - processPackages [odoo14-addon-cooperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_cooperator-14.0.1.6.0-py3-none-any.whl.zip tmp/odoo14_addon_cooperator-14.0.1.6.2-py3-none-any.whl.zip --markdown 20230620/o/odoo14-addon-cooperator/14.0.1.6.0-14.0.1.6.2/diff.md --exclude *.pyd
+[2023-06-20 12:02:45] INFO root fetch - processPackages [zcbot-celery-sdk]: executing diffoscope
+[2023-06-20 12:02:45] INFO root fetch - processPackages [zcbot-celery-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-celery-sdk-0.0.8.tar.gz tmp/zcbot-celery-sdk-0.0.9.tar.gz --markdown 20230620/z/zcbot-celery-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 12:02:45] INFO root fetch - processPackages [hana-ml]: executing diffoscope
+[2023-06-20 12:02:45] INFO root fetch - processPackages [hana-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hana_ml-2.9.21070902-py3-none-any.whl.zip tmp/hana_ml-2.9.21072600-py3-none-any.whl.zip --markdown 20230620/h/hana-ml/2.9.21070902-2.9.21072600/diff.md --exclude *.pyd
+[2023-06-20 12:02:46] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-utilities-4.14.1.tar.gz]
+[2023-06-20 12:02:46] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-utilities-4.14.2.tar.gz]
+[2023-06-20 12:02:46] INFO root fetch - processPackages [openshift-python-utilities]: Start processing: showroom-recorder
+[2023-06-20 12:02:46] INFO root fetch - main [MainThread]: End processing [openshift-python-utilities]: success
+[2023-06-20 12:02:46] INFO root fetch - processPackages [showroom-recorder]: New version: [0.4.3] Old Version: [0.4.1]
+[2023-06-20 12:02:46] INFO root fetch - processPackages [showroom-recorder]: executing diffoscope
+[2023-06-20 12:02:46] INFO root fetch - processPackages [showroom-recorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/showroom-recorder-0.4.1.tar.gz tmp/showroom-recorder-0.4.3.tar.gz --markdown 20230620/s/showroom-recorder/0.4.1-0.4.3/diff.md --exclude *.pyd
+[2023-06-20 12:02:46] INFO root fetch - processPackages [typedattr]: Remove: archive file [/home/abi/fetcher/tmp/typedattr-0.2.1.tar.gz]
+[2023-06-20 12:02:46] INFO root fetch - processPackages [typedattr]: Remove: archive file [/home/abi/fetcher/tmp/typedattr-0.2.2.tar.gz]
+[2023-06-20 12:02:46] INFO root fetch - processPackages [typedattr]: Start processing: pybiolib
+[2023-06-20 12:02:46] INFO root fetch - main [MainThread]: End processing [typedattr]: success
+[2023-06-20 12:02:47] INFO root fetch - processPackages [pybiolib]: New version: [1.1.995] Old Version: [1.1.988]
+[2023-06-20 12:02:47] INFO root fetch - processPackages [whisper-autosrt]: Remove: archive file [/home/abi/fetcher/tmp/whisper_autosrt-0.1.5.tar.gz]
+[2023-06-20 12:02:47] INFO root fetch - processPackages [whisper-autosrt]: Remove: archive file [/home/abi/fetcher/tmp/whisper_autosrt-0.1.6.tar.gz]
+[2023-06-20 12:02:47] INFO root fetch - processPackages [whisper-autosrt]: Start processing: 0013
+[2023-06-20 12:02:47] INFO root fetch - main [MainThread]: End processing [whisper-autosrt]: success
+[2023-06-20 12:02:47] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.5.8.tar.gz]
+[2023-06-20 12:02:47] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.5.9.tar.gz]
+[2023-06-20 12:02:47] INFO root fetch - processPackages [suanpan-sprt]: Start processing: stabletrees
+[2023-06-20 12:02:47] INFO root fetch - main [MainThread]: End processing [suanpan-sprt]: success
+[2023-06-20 12:02:47] INFO root fetch - processPackages [zcbot-celery-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-celery-sdk-0.0.8.tar.gz]
+[2023-06-20 12:02:47] INFO root fetch - processPackages [zcbot-celery-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-celery-sdk-0.0.9.tar.gz]
+[2023-06-20 12:02:47] INFO root fetch - processPackages [zcbot-celery-sdk]: Start processing: netbox-software
+[2023-06-20 12:02:47] INFO root fetch - main [MainThread]: End processing [zcbot-celery-sdk]: success
+[2023-06-20 12:02:47] WARNING root fetch - processPackages [0013]: Skipping, unable to determine old version
+[2023-06-20 12:02:47] INFO root fetch - main [MainThread]: End processing [0013] error
+[2023-06-20 12:02:47] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/ea/74/eb4ed29871336f7344be8cb4c2abe6b3dc25f0929199ca6be9d59c2b9afe/pybiolib-1.1.988.tar.gz
+[2023-06-20 12:02:47] WARNING root fetch - processPackages [netbox-software]: Skipping, unable to determine old version
+[2023-06-20 12:02:47] INFO root fetch - main [MainThread]: End processing [netbox-software] error
+[2023-06-20 12:02:47] INFO root fetch - processPackages [stabletrees]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-20 12:02:47] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.1.8.tar.gz]
+[2023-06-20 12:02:47] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.1.9.tar.gz]
+[2023-06-20 12:02:47] INFO root fetch - main [MainThread]: End processing [hayloft]: success
+[2023-06-20 12:02:47] INFO root fetch - processPackages [showroom-recorder]: Remove: archive file [/home/abi/fetcher/tmp/showroom-recorder-0.4.1.tar.gz]
+[2023-06-20 12:02:47] INFO root fetch - processPackages [showroom-recorder]: Remove: archive file [/home/abi/fetcher/tmp/showroom-recorder-0.4.3.tar.gz]
+[2023-06-20 12:02:47] INFO root fetch - main [MainThread]: End processing [showroom-recorder]: success
+[2023-06-20 12:02:47] INFO root fetch - processPackages [scientisst-sense]: Remove: archive file [/home/abi/fetcher/tmp/scientisst-sense-1.0.4.tar.gz]
+[2023-06-20 12:02:47] INFO root fetch - processPackages [scientisst-sense]: Remove: archive file [/home/abi/fetcher/tmp/scientisst-sense-1.0.5.tar.gz]
+[2023-06-20 12:02:47] INFO root fetch - main [MainThread]: End processing [scientisst-sense]: success
+[2023-06-20 12:02:47] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/26/71/5a66f8f42cbfdebb0bfc1d0a1d0f891a5c565365b072fd44fdde7ff07b17/pybiolib-1.1.995.tar.gz
+[2023-06-20 12:02:47] INFO root fetch - processPackages [stabletrees]: Downloading https://files.pythonhosted.org/packages/95/5d/090d8fee577348ecc6cf3de64df23aeaa90bcfb53f0b68c1598a229c0836/stabletrees-0.1.0.tar.gz
+[2023-06-20 12:02:47] ERROR root fetch - processPackages [showroom-recorder]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/showroom-recorder-0.4.1.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/showroom-recorder-0.4.3.tar.gz: No such file or directory
+
+[2023-06-20 12:02:47] INFO root fetch - main [MainThread]: End processing [showroom-recorder] error
+[2023-06-20 12:02:47] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-06-20 12:02:47] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.988.tar.gz tmp/pybiolib-1.1.995.tar.gz --markdown 20230620/p/pybiolib/1.1.988-1.1.995/diff.md --exclude *.pyd
+[2023-06-20 12:02:47] INFO root fetch - processPackages [odoo14-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_cooperator-14.0.1.6.0-py3-none-any.whl.zip]
+[2023-06-20 12:02:47] INFO root fetch - processPackages [odoo14-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_cooperator-14.0.1.6.2-py3-none-any.whl.zip]
+[2023-06-20 12:02:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-cooperator]: success
+[2023-06-20 12:02:47] INFO root fetch - processPackages [stabletrees]: Downloading https://files.pythonhosted.org/packages/d2/58/fa64b6d349546fa8092304460b5e904ff6c9b86bfb1211c25cfd0e74671a/stabletrees-0.1.1.tar.gz
+[2023-06-20 12:02:48] INFO root fetch - processPackages [stabletrees]: executing diffoscope
+[2023-06-20 12:02:48] INFO root fetch - processPackages [stabletrees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stabletrees-0.1.0.tar.gz tmp/stabletrees-0.1.1.tar.gz --markdown 20230620/s/stabletrees/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-20 12:02:48] INFO root fetch - processPackages [hana-ml]: Remove: archive file [/home/abi/fetcher/tmp/hana_ml-2.9.21070902-py3-none-any.whl.zip]
+[2023-06-20 12:02:48] INFO root fetch - processPackages [hana-ml]: Remove: archive file [/home/abi/fetcher/tmp/hana_ml-2.9.21072600-py3-none-any.whl.zip]
+[2023-06-20 12:02:48] INFO root fetch - main [MainThread]: End processing [hana-ml]: success
+[2023-06-20 12:02:48] INFO root fetch - processPackages [stabletrees]: Remove: archive file [/home/abi/fetcher/tmp/stabletrees-0.1.0.tar.gz]
+[2023-06-20 12:02:48] INFO root fetch - processPackages [stabletrees]: Remove: archive file [/home/abi/fetcher/tmp/stabletrees-0.1.1.tar.gz]
+[2023-06-20 12:02:48] INFO root fetch - main [MainThread]: End processing [stabletrees]: success
+[2023-06-20 12:02:48] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.988.tar.gz]
+[2023-06-20 12:02:48] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.995.tar.gz]
+[2023-06-20 12:02:48] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-06-20 12:02:48] INFO root fetch - main [MainThread]: Store serial: [18572892]
