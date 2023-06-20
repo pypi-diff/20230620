@@ -10174,3 +10174,120 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 05:02:12] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
 [2023-06-20 05:02:12] INFO root fetch - main [MainThread]: End processing [vessl]: success
 [2023-06-20 05:02:12] INFO root fetch - main [MainThread]: Store serial: [18569480]
+[2023-06-20 05:07:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18569480]
+[2023-06-20 05:07:21] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-20 05:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: d20-securityLayer
+[2023-06-20 05:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-mps
+[2023-06-20 05:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gaohn-common-utils
+[2023-06-20 05:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text2text
+[2023-06-20 05:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-mongodb
+[2023-06-20 05:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nautobot-ansible-filters
+[2023-06-20 05:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: khoj-assistant
+[2023-06-20 05:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-dts
+[2023-06-20 05:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-fnf
+[2023-06-20 05:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: google-play-developer-api
+[2023-06-20 05:07:21] INFO root fetch - processPackages [ros-cdk-dts]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 05:07:21] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a7] Old Version: [2.0.0a6]
+[2023-06-20 05:07:21] WARNING root fetch - processPackages [nautobot-ansible-filters]: Skipping, unable to determine old version
+[2023-06-20 05:07:21] INFO root fetch - processPackages [nautobot-ansible-filters]: Start processing: ros-cdk-iot
+[2023-06-20 05:07:21] INFO root fetch - main [MainThread]: End processing [nautobot-ansible-filters] error
+[2023-06-20 05:07:21] INFO root fetch - processPackages [ros-cdk-mongodb]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 05:07:21] INFO root fetch - processPackages [ros-cdk-fnf]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 05:07:21] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.67] Old Version: [0.0.65]
+[2023-06-20 05:07:21] INFO root fetch - processPackages [google-play-developer-api]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-20 05:07:21] INFO root fetch - processPackages [ros-cdk-mps]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 05:07:21] INFO root fetch - processPackages [ros-cdk-iot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 05:07:21] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev75] Old Version: [0.6.3.dev74]
+[2023-06-20 05:07:21] INFO root fetch - processPackages [text2text]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-20 05:07:21] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/9a/38/6fb53b9d68d0a88c4df66ec6b855aabb02f59418226767c65f5a5b312c61/d20-securityLayer-2.0.0a6.tar.gz
+[2023-06-20 05:07:21] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/68/34/63679558f0444487e1d8533b84557c6b5147d04a282ee83908e309720a0e/khoj_assistant-0.6.3.dev74.tar.gz
+[2023-06-20 05:07:21] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/11/42/b8388d1993a1bc9672cd469b3e631e6d38d17e4c7a6474b4a3db2b1434a7/text2text-1.0.3.tar.gz
+[2023-06-20 05:07:22] INFO root fetch - processPackages [ros-cdk-dts]: Downloading https://files.pythonhosted.org/packages/ad/1d/1e2e566370b2240add5dc79509cf06173bdeb9bb430263e277bdf2eda68d/ros-cdk-dts-1.0.8.tar.gz
+[2023-06-20 05:07:22] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/de/10/1bd5581cdbe9a72f7ca378b2b95947e72805a80d12fac31612411554bf2d/gaohn-common-utils-0.0.65.tar.gz
+[2023-06-20 05:07:22] INFO root fetch - processPackages [ros-cdk-mps]: Downloading https://files.pythonhosted.org/packages/4d/2e/475d23ba8a392ba67d2adb03dfd2b0734b897fb62fbc1386caf7d2f7ff5e/ros-cdk-mps-1.0.8.tar.gz
+[2023-06-20 05:07:22] INFO root fetch - processPackages [ros-cdk-mongodb]: Downloading https://files.pythonhosted.org/packages/fd/0c/390276073f83b41522083ca8f78cc0d26e4b7d2df8bed6e4133dbf968807/ros-cdk-mongodb-1.0.8.tar.gz
+[2023-06-20 05:07:22] INFO root fetch - processPackages [google-play-developer-api]: Downloading https://files.pythonhosted.org/packages/83/80/dff43a9c50d6b61c5eca851bd25650abf7d382b0d86c29d4ede0e4f241f2/google_play_developer_api-0.1.1.tar.gz
+[2023-06-20 05:07:22] INFO root fetch - processPackages [ros-cdk-fnf]: Downloading https://files.pythonhosted.org/packages/f1/af/0962ab35b81d02279de2c615f7a67ed87ca5fc8093792b3b119ade8ac5fd/ros-cdk-fnf-1.0.8.tar.gz
+[2023-06-20 05:07:22] INFO root fetch - processPackages [ros-cdk-iot]: Downloading https://files.pythonhosted.org/packages/9a/a7/afc8d729cf01f8e1c18e4ad0d7d2962c10f67b0f335e366caaef535df179/ros-cdk-iot-1.0.8.tar.gz
+[2023-06-20 05:07:22] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/91/ad/d531c21d1036f7fad29677f51becfd3b967343d9256c6d50252be260b30e/d20-securityLayer-2.0.0a7.tar.gz
+[2023-06-20 05:07:22] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/60/95/b0a0a46abc62db79cdb6726c229a2cf668c6239c540baec498a5406bddf2/text2text-1.0.4.tar.gz
+[2023-06-20 05:07:22] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/83/8d/a2c0f79052063003a3c38f18232bbac48604ad3a34c07b4eeb3d9b4a21ad/khoj_assistant-0.6.3.dev75.tar.gz
+[2023-06-20 05:07:22] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-06-20 05:07:22] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a6.tar.gz tmp/d20-securityLayer-2.0.0a7.tar.gz --markdown 20230620/d/d20-securityLayer/2.0.0a6-2.0.0a7/diff.md --exclude *.pyd
+[2023-06-20 05:07:22] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-06-20 05:07:22] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.0.3.tar.gz tmp/text2text-1.0.4.tar.gz --markdown 20230620/t/text2text/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-20 05:07:22] INFO root fetch - processPackages [google-play-developer-api]: Downloading https://files.pythonhosted.org/packages/1f/11/9e99c93aaaf42912794e9a840461c2860cc7b34dcd384aa64cadb2265363/google_play_developer_api-0.2.0.tar.gz
+[2023-06-20 05:07:22] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-06-20 05:07:22] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev74.tar.gz tmp/khoj_assistant-0.6.3.dev75.tar.gz --markdown 20230620/k/khoj-assistant/0.6.3.dev74-0.6.3.dev75/diff.md --exclude *.pyd
+[2023-06-20 05:07:22] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/72/d5/90e046e911da8e08ac78cd2a9a81783fcec31fce69f9cfe6b0c7f6d6a444/gaohn-common-utils-0.0.67.tar.gz
+[2023-06-20 05:07:22] INFO root fetch - processPackages [ros-cdk-mps]: Downloading https://files.pythonhosted.org/packages/04/5d/3f9ced438cafe8c5350c8c169a41e55f3a32af778c9ff06c4da3ce95e64a/ros-cdk-mps-1.0.9.tar.gz
+[2023-06-20 05:07:22] INFO root fetch - processPackages [google-play-developer-api]: executing diffoscope
+[2023-06-20 05:07:22] INFO root fetch - processPackages [google-play-developer-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_play_developer_api-0.1.1.tar.gz tmp/google_play_developer_api-0.2.0.tar.gz --markdown 20230620/g/google-play-developer-api/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-20 05:07:22] INFO root fetch - processPackages [ros-cdk-fnf]: Downloading https://files.pythonhosted.org/packages/9c/8c/3cbf8686f54137fb4b7b7bd2a816b3b4e1b8720b3fcf5a9e628ac2224fea/ros-cdk-fnf-1.0.9.tar.gz
+[2023-06-20 05:07:22] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-20 05:07:22] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.65.tar.gz tmp/gaohn-common-utils-0.0.67.tar.gz --markdown 20230620/g/gaohn-common-utils/0.0.65-0.0.67/diff.md --exclude *.pyd
+[2023-06-20 05:07:22] INFO root fetch - processPackages [ros-cdk-dts]: Downloading https://files.pythonhosted.org/packages/fc/65/4c33a59a985e2867775aa568465be07c3def04d56dac36adf004d1bceefb/ros-cdk-dts-1.0.9.tar.gz
+[2023-06-20 05:07:22] INFO root fetch - processPackages [ros-cdk-iot]: Downloading https://files.pythonhosted.org/packages/20/c3/9d1c46b23ce26ca76a9a8993273ec9f333655246a215eaec7452e417c917/ros-cdk-iot-1.0.9.tar.gz
+[2023-06-20 05:07:22] INFO root fetch - processPackages [ros-cdk-fnf]: executing diffoscope
+[2023-06-20 05:07:22] INFO root fetch - processPackages [ros-cdk-fnf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-fnf-1.0.8.tar.gz tmp/ros-cdk-fnf-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-fnf/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:07:22] INFO root fetch - processPackages [ros-cdk-iot]: executing diffoscope
+[2023-06-20 05:07:22] INFO root fetch - processPackages [ros-cdk-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-iot-1.0.8.tar.gz tmp/ros-cdk-iot-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-iot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:07:22] INFO root fetch - processPackages [ros-cdk-dts]: executing diffoscope
+[2023-06-20 05:07:22] INFO root fetch - processPackages [ros-cdk-dts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dts-1.0.8.tar.gz tmp/ros-cdk-dts-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-dts/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:07:22] INFO root fetch - processPackages [ros-cdk-mongodb]: Downloading https://files.pythonhosted.org/packages/19/3d/6b5027e615ef2defc678bd8213bf4fcbead4f7c6e4c281e4e2eae4cfb27c/ros-cdk-mongodb-1.0.9.tar.gz
+[2023-06-20 05:07:22] INFO root fetch - processPackages [ros-cdk-mongodb]: executing diffoscope
+[2023-06-20 05:07:22] INFO root fetch - processPackages [ros-cdk-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-mongodb-1.0.8.tar.gz tmp/ros-cdk-mongodb-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-mongodb/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:07:23] INFO root fetch - processPackages [ros-cdk-mps]: executing diffoscope
+[2023-06-20 05:07:23] INFO root fetch - processPackages [ros-cdk-mps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-mps-1.0.8.tar.gz tmp/ros-cdk-mps-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-mps/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:07:23] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a6.tar.gz]
+[2023-06-20 05:07:23] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a7.tar.gz]
+[2023-06-20 05:07:23] INFO root fetch - processPackages [d20-securityLayer]: Start processing: winwin
+[2023-06-20 05:07:23] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-06-20 05:07:23] INFO root fetch - processPackages [winwin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 05:07:23] INFO root fetch - processPackages [winwin]: Downloading https://files.pythonhosted.org/packages/b4/c5/8cb8d299bae029bb5342ace265ce1a7a86261f33b58cb993ac7abd1f07b2/winwin-0.0.8.tar.gz
+[2023-06-20 05:07:24] INFO root fetch - processPackages [winwin]: Downloading https://files.pythonhosted.org/packages/da/47/bbe293778015f3a259a0e99a91efd6e5032b0456dce5e7582b515d851e8b/winwin-0.0.9.tar.gz
+[2023-06-20 05:07:24] INFO root fetch - processPackages [google-play-developer-api]: Remove: archive file [/home/abi/fetcher/tmp/google_play_developer_api-0.1.1.tar.gz]
+[2023-06-20 05:07:24] INFO root fetch - processPackages [google-play-developer-api]: Remove: archive file [/home/abi/fetcher/tmp/google_play_developer_api-0.2.0.tar.gz]
+[2023-06-20 05:07:24] INFO root fetch - processPackages [google-play-developer-api]: Start processing: ros-cdk-arms
+[2023-06-20 05:07:24] INFO root fetch - main [MainThread]: End processing [google-play-developer-api]: success
+[2023-06-20 05:07:24] INFO root fetch - processPackages [winwin]: executing diffoscope
+[2023-06-20 05:07:24] INFO root fetch - processPackages [winwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winwin-0.0.8.tar.gz tmp/winwin-0.0.9.tar.gz --markdown 20230620/w/winwin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:07:24] INFO root fetch - processPackages [ros-cdk-arms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 05:07:24] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.0.3.tar.gz]
+[2023-06-20 05:07:24] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.0.4.tar.gz]
+[2023-06-20 05:07:24] INFO root fetch - processPackages [text2text]: Start processing: ros-cdk-pai
+[2023-06-20 05:07:24] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-06-20 05:07:24] INFO root fetch - processPackages [ros-cdk-arms]: Downloading https://files.pythonhosted.org/packages/05/d5/556a94dd81b599d712e14c8e5e30cf5e570e55be55da1fed52df879727b2/ros-cdk-arms-1.0.8.tar.gz
+[2023-06-20 05:07:24] WARNING root fetch - processPackages [ros-cdk-pai]: Skipping, unable to determine old version
+[2023-06-20 05:07:24] INFO root fetch - main [MainThread]: End processing [ros-cdk-pai] error
+[2023-06-20 05:07:24] INFO root fetch - processPackages [ros-cdk-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mongodb-1.0.8.tar.gz]
+[2023-06-20 05:07:24] INFO root fetch - processPackages [ros-cdk-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mongodb-1.0.9.tar.gz]
+[2023-06-20 05:07:24] INFO root fetch - main [MainThread]: End processing [ros-cdk-mongodb]: success
+[2023-06-20 05:07:24] INFO root fetch - processPackages [ros-cdk-mps]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mps-1.0.8.tar.gz]
+[2023-06-20 05:07:24] INFO root fetch - processPackages [ros-cdk-mps]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mps-1.0.9.tar.gz]
+[2023-06-20 05:07:24] INFO root fetch - main [MainThread]: End processing [ros-cdk-mps]: success
+[2023-06-20 05:07:24] INFO root fetch - processPackages [ros-cdk-fnf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-fnf-1.0.8.tar.gz]
+[2023-06-20 05:07:24] INFO root fetch - processPackages [ros-cdk-fnf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-fnf-1.0.9.tar.gz]
+[2023-06-20 05:07:24] INFO root fetch - main [MainThread]: End processing [ros-cdk-fnf]: success
+[2023-06-20 05:07:24] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.65.tar.gz]
+[2023-06-20 05:07:24] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.67.tar.gz]
+[2023-06-20 05:07:24] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-20 05:07:24] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev74.tar.gz]
+[2023-06-20 05:07:24] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev75.tar.gz]
+[2023-06-20 05:07:24] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-06-20 05:07:24] INFO root fetch - processPackages [ros-cdk-arms]: Downloading https://files.pythonhosted.org/packages/0e/8f/eb220bbdd4df3638ff8d5656ad26a2eb3f90a94248ab44058eade9b49c78/ros-cdk-arms-1.0.9.tar.gz
+[2023-06-20 05:07:25] INFO root fetch - processPackages [ros-cdk-iot]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-iot-1.0.8.tar.gz]
+[2023-06-20 05:07:25] INFO root fetch - processPackages [ros-cdk-iot]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-iot-1.0.9.tar.gz]
+[2023-06-20 05:07:25] INFO root fetch - main [MainThread]: End processing [ros-cdk-iot]: success
+[2023-06-20 05:07:25] INFO root fetch - processPackages [ros-cdk-arms]: executing diffoscope
+[2023-06-20 05:07:25] INFO root fetch - processPackages [ros-cdk-arms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-arms-1.0.8.tar.gz tmp/ros-cdk-arms-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-arms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:07:25] INFO root fetch - processPackages [ros-cdk-dts]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dts-1.0.8.tar.gz]
+[2023-06-20 05:07:25] INFO root fetch - processPackages [ros-cdk-dts]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dts-1.0.9.tar.gz]
+[2023-06-20 05:07:25] INFO root fetch - main [MainThread]: End processing [ros-cdk-dts]: success
+[2023-06-20 05:07:25] INFO root fetch - processPackages [winwin]: Remove: archive file [/home/abi/fetcher/tmp/winwin-0.0.8.tar.gz]
+[2023-06-20 05:07:25] INFO root fetch - processPackages [winwin]: Remove: archive file [/home/abi/fetcher/tmp/winwin-0.0.9.tar.gz]
+[2023-06-20 05:07:25] INFO root fetch - main [MainThread]: End processing [winwin]: success
+[2023-06-20 05:07:26] INFO root fetch - processPackages [ros-cdk-arms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-arms-1.0.8.tar.gz]
+[2023-06-20 05:07:26] INFO root fetch - processPackages [ros-cdk-arms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-arms-1.0.9.tar.gz]
+[2023-06-20 05:07:26] INFO root fetch - main [MainThread]: End processing [ros-cdk-arms]: success
+[2023-06-20 05:07:26] INFO root fetch - main [MainThread]: Store serial: [18569519]
