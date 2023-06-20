@@ -6900,3 +6900,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 04:07:02] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.0a0.tar.gz]
 [2023-06-20 04:07:02] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-06-20 04:07:02] INFO root fetch - main [MainThread]: Store serial: [18568401]
+[2023-06-20 04:12:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18568401]
+[2023-06-20 04:12:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-20 04:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-polardbx
+[2023-06-20 04:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drizzutojr-vader
+[2023-06-20 04:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oes
+[2023-06-20 04:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-bastionhost
+[2023-06-20 04:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emailalert
+[2023-06-20 04:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-privatelink
+[2023-06-20 04:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-gpdb
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Constitution
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-oos
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ros-cdk-vs
+[2023-06-20 04:12:12] WARNING root fetch - processPackages [oes]: Skipping, unable to determine old version
+[2023-06-20 04:12:12] INFO root fetch - processPackages [oes]: Start processing: morser
+[2023-06-20 04:12:12] INFO root fetch - main [MainThread]: End processing [oes] error
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-oos]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-privatelink]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:12:12] INFO root fetch - processPackages [drizzutojr-vader]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-bastionhost]: New version: [1.0.14] Old Version: [1.0.13]
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-polardbx]: New version: [1.0.14] Old Version: [1.0.13]
+[2023-06-20 04:12:12] INFO root fetch - processPackages [emailalert]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-gpdb]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:12:12] WARNING root fetch - processPackages [Constitution]: Skipping, unable to determine old version
+[2023-06-20 04:12:12] INFO root fetch - processPackages [Constitution]: Start processing: ConstitutionUz
+[2023-06-20 04:12:12] INFO root fetch - main [MainThread]: End processing [Constitution] error
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-vs]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:12:12] WARNING root fetch - processPackages [morser]: Skipping, unable to determine old version
+[2023-06-20 04:12:12] INFO root fetch - main [MainThread]: End processing [morser] error
+[2023-06-20 04:12:12] WARNING root fetch - processPackages [ConstitutionUz]: Skipping, unable to determine old version
+[2023-06-20 04:12:12] INFO root fetch - main [MainThread]: End processing [ConstitutionUz] error
+[2023-06-20 04:12:12] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/d0/a9/355a065158548de35f3361a4e751553a7b91ed1a0eadd95dfdcd9366d555/drizzutojr_vader-0.0.5-py3-none-any.whl
+[2023-06-20 04:12:12] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/16/ef/98c528802b74db37e1c01a6dddac9fef4d4a7bb146ff430dcfdf13d3f404/emailalert-1.2.1.tar.gz
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-oos]: Downloading https://files.pythonhosted.org/packages/ab/ad/d2d4070a3a94ffaab2da200a16208b1b9822409a5e12289df240025ba00c/ros-cdk-oos-1.0.8.tar.gz
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-vs]: Downloading https://files.pythonhosted.org/packages/63/47/f3e83c87c7102979fc64bad872c7b2d7df605c677917442044f3f992bad2/ros-cdk-vs-1.0.8.tar.gz
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-polardbx]: Downloading https://files.pythonhosted.org/packages/b1/28/ba7b50da6299d6a13c2d1f36ff47f5c45af99580a79ad43dbe3e523de917/ros-cdk-polardbx-1.0.13.tar.gz
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-gpdb]: Downloading https://files.pythonhosted.org/packages/0d/55/52a8a0970bce608e95a31412a886c5a4255f6399d6abbd92076b383c87e6/ros-cdk-gpdb-1.0.8.tar.gz
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-privatelink]: Downloading https://files.pythonhosted.org/packages/f1/cc/2c082bbb93cb9856c65637cbe2361b71bc21a1bceef61319c59c79800795/ros-cdk-privatelink-1.0.8.tar.gz
+[2023-06-20 04:12:12] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/13/7d/42332b6ecc7cedec2c97a8ae5ef3545da8dbc64591f81bb5db0876d6a232/emailalert-1.2.2.tar.gz
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-bastionhost]: Downloading https://files.pythonhosted.org/packages/91/e5/a0140690eaa132a513014d083619d663628b41f70b198fa6cb143e9a3637/ros-cdk-bastionhost-1.0.13.tar.gz
+[2023-06-20 04:12:12] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/aa/90/3ab72fe54406486ee01ec15785f796cb3d417528ec5019d045041efb0eee/drizzutojr_vader-0.0.6-py3-none-any.whl
+[2023-06-20 04:12:12] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-20 04:12:12] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.2.1.tar.gz tmp/emailalert-1.2.2.tar.gz --markdown 20230620/e/emailalert/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-20 04:12:12] INFO root fetch - processPackages [drizzutojr-vader]: executing diffoscope
+[2023-06-20 04:12:12] INFO root fetch - processPackages [drizzutojr-vader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vader-0.0.5-py3-none-any.whl.zip tmp/drizzutojr_vader-0.0.6-py3-none-any.whl.zip --markdown 20230620/d/drizzutojr-vader/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-oos]: Downloading https://files.pythonhosted.org/packages/13/eb/43259df82c572a36bf02bb57b84906dcbce68cb095b37743193188afc3b3/ros-cdk-oos-1.0.9.tar.gz
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-vs]: Downloading https://files.pythonhosted.org/packages/43/76/f18d031c57455622c197aad71e5c0e372bfbbc2f0ff57f3c4dfb6ff20e73/ros-cdk-vs-1.0.9.tar.gz
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-bastionhost]: Downloading https://files.pythonhosted.org/packages/47/db/b4cc3bd0eca211ef08e15946cd399d5bab70a0afaf74f297bed938bee6a0/ros-cdk-bastionhost-1.0.14.tar.gz
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-polardbx]: Downloading https://files.pythonhosted.org/packages/47/90/2db5d9622dc3710cb7036ce8d9cc0697d1270b62d5c0af18ae900c3a52b3/ros-cdk-polardbx-1.0.14.tar.gz
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-gpdb]: Downloading https://files.pythonhosted.org/packages/e0/8f/37ee614c35ae949ef462e9673f2af4b97c34e35457de9b877a6dbccabd58/ros-cdk-gpdb-1.0.9.tar.gz
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-privatelink]: Downloading https://files.pythonhosted.org/packages/d2/74/5f0b9dfdf8f29683f485682ed3cf1414974936e669f394a649d975714e0e/ros-cdk-privatelink-1.0.9.tar.gz
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-oos]: executing diffoscope
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-oos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-oos-1.0.8.tar.gz tmp/ros-cdk-oos-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-oos/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-bastionhost]: executing diffoscope
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-bastionhost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-bastionhost-1.0.13.tar.gz tmp/ros-cdk-bastionhost-1.0.14.tar.gz --markdown 20230620/r/ros-cdk-bastionhost/1.0.13-1.0.14/diff.md --exclude *.pyd
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-polardbx]: executing diffoscope
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-polardbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-polardbx-1.0.13.tar.gz tmp/ros-cdk-polardbx-1.0.14.tar.gz --markdown 20230620/r/ros-cdk-polardbx/1.0.13-1.0.14/diff.md --exclude *.pyd
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-gpdb]: executing diffoscope
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-gpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-gpdb-1.0.8.tar.gz tmp/ros-cdk-gpdb-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-gpdb/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-privatelink]: executing diffoscope
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-privatelink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-privatelink-1.0.8.tar.gz tmp/ros-cdk-privatelink-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-privatelink/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-vs]: executing diffoscope
+[2023-06-20 04:12:12] INFO root fetch - processPackages [ros-cdk-vs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-vs-1.0.8.tar.gz tmp/ros-cdk-vs-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-vs/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:12:13] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.2.1.tar.gz]
+[2023-06-20 04:12:13] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.2.2.tar.gz]
+[2023-06-20 04:12:13] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-20 04:12:13] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.5-py3-none-any.whl.zip]
+[2023-06-20 04:12:13] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.6-py3-none-any.whl.zip]
+[2023-06-20 04:12:13] INFO root fetch - main [MainThread]: End processing [drizzutojr-vader]: success
+[2023-06-20 04:12:14] INFO root fetch - processPackages [ros-cdk-oos]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-oos-1.0.8.tar.gz]
+[2023-06-20 04:12:14] INFO root fetch - processPackages [ros-cdk-oos]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-oos-1.0.9.tar.gz]
+[2023-06-20 04:12:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-oos]: success
+[2023-06-20 04:12:14] INFO root fetch - processPackages [ros-cdk-gpdb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-gpdb-1.0.8.tar.gz]
+[2023-06-20 04:12:14] INFO root fetch - processPackages [ros-cdk-gpdb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-gpdb-1.0.9.tar.gz]
+[2023-06-20 04:12:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-gpdb]: success
+[2023-06-20 04:12:14] INFO root fetch - processPackages [ros-cdk-privatelink]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-privatelink-1.0.8.tar.gz]
+[2023-06-20 04:12:14] INFO root fetch - processPackages [ros-cdk-privatelink]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-privatelink-1.0.9.tar.gz]
+[2023-06-20 04:12:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-privatelink]: success
+[2023-06-20 04:12:14] INFO root fetch - processPackages [ros-cdk-bastionhost]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-bastionhost-1.0.13.tar.gz]
+[2023-06-20 04:12:14] INFO root fetch - processPackages [ros-cdk-bastionhost]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-bastionhost-1.0.14.tar.gz]
+[2023-06-20 04:12:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-bastionhost]: success
+[2023-06-20 04:12:14] INFO root fetch - processPackages [ros-cdk-vs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-vs-1.0.8.tar.gz]
+[2023-06-20 04:12:14] INFO root fetch - processPackages [ros-cdk-vs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-vs-1.0.9.tar.gz]
+[2023-06-20 04:12:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-vs]: success
+[2023-06-20 04:12:14] INFO root fetch - processPackages [ros-cdk-polardbx]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardbx-1.0.13.tar.gz]
+[2023-06-20 04:12:14] INFO root fetch - processPackages [ros-cdk-polardbx]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardbx-1.0.14.tar.gz]
+[2023-06-20 04:12:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-polardbx]: success
+[2023-06-20 04:12:14] INFO root fetch - main [MainThread]: Store serial: [18568440]
