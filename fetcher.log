@@ -13442,3 +13442,56 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 08:50:44] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.9.tar.gz]
 [2023-06-20 08:50:44] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
 [2023-06-20 08:50:44] INFO root fetch - main [MainThread]: Store serial: [18570768]
+[2023-06-20 08:55:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570768]
+[2023-06-20 08:55:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-20 08:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tistory-helper
+[2023-06-20 08:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tcompress
+[2023-06-20 08:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: windpyutils
+[2023-06-20 08:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: JulianPy
+[2023-06-20 08:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: molecule-glesys
+[2023-06-20 08:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dtrack
+[2023-06-20 08:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: preprocessing-pgp
+[2023-06-20 08:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: itc-ocr
+[2023-06-20 08:55:53] INFO root fetch - processPackages [windpyutils]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-20 08:55:53] WARNING root fetch - processPackages [JulianPy]: Skipping, unable to determine old version
+[2023-06-20 08:55:53] INFO root fetch - main [MainThread]: End processing [JulianPy] error
+[2023-06-20 08:55:53] INFO root fetch - processPackages [tistory-helper]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-20 08:55:53] INFO root fetch - processPackages [tcompress]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-20 08:55:53] WARNING root fetch - processPackages [itc-ocr]: Skipping, unable to determine old version
+[2023-06-20 08:55:53] INFO root fetch - main [MainThread]: End processing [itc-ocr] error
+[2023-06-20 08:55:53] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post9.dev7] Old Version: [0.2.9.post8.dev7]
+[2023-06-20 08:55:53] WARNING root fetch - processPackages [dtrack]: Skipping, unable to determine old version
+[2023-06-20 08:55:53] INFO root fetch - main [MainThread]: End processing [dtrack] error
+[2023-06-20 08:55:53] INFO root fetch - processPackages [molecule-glesys]: New version: [0.4] Old Version: [0.3]
+[2023-06-20 08:55:53] INFO root fetch - processPackages [tistory-helper]: Downloading https://files.pythonhosted.org/packages/c4/5b/9cc4e6e69d6eab3c5d3012a286419ec6bfe2ab5b780299b57337d56b141f/tistory-helper-0.0.2.tar.gz
+[2023-06-20 08:55:53] INFO root fetch - processPackages [tcompress]: Downloading https://files.pythonhosted.org/packages/27/7e/6ad2151535b6d2d384ad8a5effeff15b4ab5f2349e89d8dec12d1681845f/tcompress-0.0.2.tar.gz
+[2023-06-20 08:55:53] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/a9/1b/319352b361b9b01f65b5b0dca86df4dc3e5f06b995022ef3976f71acd45d/preprocessing-pgp-0.2.9.post8.dev7.tar.gz
+[2023-06-20 08:55:53] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857923>=10485760
+[2023-06-20 08:55:53] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-06-20 08:55:53] INFO root fetch - processPackages [windpyutils]: Downloading https://files.pythonhosted.org/packages/ac/8c/2614eb99a1814611752dd6b4c0cc1ee6ebbbd0e650dcc68f90c49c452609/windpyutils-2.0.8.tar.gz
+[2023-06-20 08:55:53] INFO root fetch - processPackages [tcompress]: Downloading https://files.pythonhosted.org/packages/81/4b/1dbf6a3b84371d929bae8b7e37b0139ce34e568f338a848d87ebd1332466/tcompress-0.0.3.tar.gz
+[2023-06-20 08:55:53] INFO root fetch - processPackages [molecule-glesys]: Downloading https://files.pythonhosted.org/packages/55/ab/9d5d7bf632923ddec4f1905aec762f14241022e585e5c13af8c7ead3dd0b/molecule-glesys-0.3.tar.gz
+[2023-06-20 08:55:54] INFO root fetch - processPackages [tistory-helper]: Downloading https://files.pythonhosted.org/packages/5d/4a/0278651e52ce4a1a91d49574315b424c1610640905247ec2126ae9feff52/tistory-helper-0.0.3.tar.gz
+[2023-06-20 08:55:54] INFO root fetch - processPackages [tcompress]: executing diffoscope
+[2023-06-20 08:55:54] INFO root fetch - processPackages [tcompress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcompress-0.0.2.tar.gz tmp/tcompress-0.0.3.tar.gz --markdown 20230620/t/tcompress/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-20 08:55:54] INFO root fetch - processPackages [tistory-helper]: executing diffoscope
+[2023-06-20 08:55:54] INFO root fetch - processPackages [tistory-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tistory-helper-0.0.2.tar.gz tmp/tistory-helper-0.0.3.tar.gz --markdown 20230620/t/tistory-helper/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-20 08:55:54] INFO root fetch - processPackages [windpyutils]: Downloading https://files.pythonhosted.org/packages/77/34/f29f466178be699a3a4f46c4a0a4dd2b9b6aa80dee5bc8fc08b8385515a1/windpyutils-2.0.9.tar.gz
+[2023-06-20 08:55:54] INFO root fetch - processPackages [molecule-glesys]: Downloading https://files.pythonhosted.org/packages/1c/58/534e9f45977f0f4fb32162e5c99ff4ffb7e4c89dc24762114bedc1173cc2/molecule-glesys-0.4.tar.gz
+[2023-06-20 08:55:54] INFO root fetch - processPackages [windpyutils]: executing diffoscope
+[2023-06-20 08:55:54] INFO root fetch - processPackages [windpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windpyutils-2.0.8.tar.gz tmp/windpyutils-2.0.9.tar.gz --markdown 20230620/w/windpyutils/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-20 08:55:54] INFO root fetch - processPackages [molecule-glesys]: executing diffoscope
+[2023-06-20 08:55:54] INFO root fetch - processPackages [molecule-glesys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-glesys-0.3.tar.gz tmp/molecule-glesys-0.4.tar.gz --markdown 20230620/m/molecule-glesys/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-20 08:55:55] INFO root fetch - processPackages [tcompress]: Remove: archive file [/home/abi/fetcher/tmp/tcompress-0.0.2.tar.gz]
+[2023-06-20 08:55:55] INFO root fetch - processPackages [tcompress]: Remove: archive file [/home/abi/fetcher/tmp/tcompress-0.0.3.tar.gz]
+[2023-06-20 08:55:55] INFO root fetch - main [MainThread]: End processing [tcompress]: success
+[2023-06-20 08:55:55] INFO root fetch - processPackages [tistory-helper]: Remove: archive file [/home/abi/fetcher/tmp/tistory-helper-0.0.2.tar.gz]
+[2023-06-20 08:55:55] INFO root fetch - processPackages [tistory-helper]: Remove: archive file [/home/abi/fetcher/tmp/tistory-helper-0.0.3.tar.gz]
+[2023-06-20 08:55:55] INFO root fetch - main [MainThread]: End processing [tistory-helper]: success
+[2023-06-20 08:55:55] INFO root fetch - processPackages [molecule-glesys]: Remove: archive file [/home/abi/fetcher/tmp/molecule-glesys-0.3.tar.gz]
+[2023-06-20 08:55:55] INFO root fetch - processPackages [molecule-glesys]: Remove: archive file [/home/abi/fetcher/tmp/molecule-glesys-0.4.tar.gz]
+[2023-06-20 08:55:55] INFO root fetch - main [MainThread]: End processing [molecule-glesys]: success
+[2023-06-20 08:55:55] INFO root fetch - processPackages [windpyutils]: Remove: archive file [/home/abi/fetcher/tmp/windpyutils-2.0.8.tar.gz]
+[2023-06-20 08:55:55] INFO root fetch - processPackages [windpyutils]: Remove: archive file [/home/abi/fetcher/tmp/windpyutils-2.0.9.tar.gz]
+[2023-06-20 08:55:55] INFO root fetch - main [MainThread]: End processing [windpyutils]: success
+[2023-06-20 08:55:55] INFO root fetch - main [MainThread]: Store serial: [18570795]
