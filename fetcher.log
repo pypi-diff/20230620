@@ -19394,3 +19394,102 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 
 [2023-06-20 12:30:16] INFO root fetch - main [MainThread]: End processing [junifer] error
 [2023-06-20 12:30:16] INFO root fetch - main [MainThread]: Store serial: [18573149]
+[2023-06-20 12:35:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18573149]
+[2023-06-20 12:35:25] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-20 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: junifer
+[2023-06-20 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lecore
+[2023-06-20 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autosrt
+[2023-06-20 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meta-vino
+[2023-06-20 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lite-tools
+[2023-06-20 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crawler-commons
+[2023-06-20 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: speedtab
+[2023-06-20 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ZettelKit
+[2023-06-20 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zensols.nlp
+[2023-06-20 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: grad-june
+[2023-06-20 12:35:25] INFO root fetch - processPackages [junifer]: New version: [0.0.3.dev75] Old Version: [0.0.3.dev74]
+[2023-06-20 12:35:25] INFO root fetch - processPackages [lecore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 12:35:25] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 12:35:25] WARNING root fetch - processPackages [ZettelKit]: Skipping, unable to determine old version
+[2023-06-20 12:35:25] INFO root fetch - processPackages [ZettelKit]: Start processing: odoo14-addon-purchase-advance-payment
+[2023-06-20 12:35:25] INFO root fetch - main [MainThread]: End processing [ZettelKit] error
+[2023-06-20 12:35:25] INFO root fetch - processPackages [lite-tools]: New version: [0.4.9.9] Old Version: [0.4.9.8]
+[2023-06-20 12:35:25] INFO root fetch - processPackages [speedtab]: New version: [0.1.4.4] Old Version: [0.1.4.3]
+[2023-06-20 12:35:25] INFO root fetch - processPackages [meta-vino]: New version: [3.6.20] Old Version: [3.6.10]
+[2023-06-20 12:35:25] INFO root fetch - processPackages [autosrt]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-06-20 12:35:25] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/18/ea/1732f7ad5dca51a7c6234ef2b007e3cef68429b810c4a751ec28dc6e8534/lecore-0.1.8.tar.gz
+[2023-06-20 12:35:25] INFO root fetch - processPackages [zensols.nlp]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-20 12:35:25] INFO root fetch - processPackages [grad-june]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-20 12:35:25] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/03/dd/33ec97448fff92f78b666651a9622be43433d9a7b3995326c0038bfa6783/junifer-0.0.3.dev74.tar.gz
+[2023-06-20 12:35:25] INFO root fetch - processPackages [odoo14-addon-purchase-advance-payment]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.1.dev5]
+[2023-06-20 12:35:25] INFO root fetch - processPackages [meta-vino]: Downloading https://files.pythonhosted.org/packages/7d/67/3393e974ad78cfd9fc06ea0044ef3e9e78f7e9a97eed8a19da9b2319ad5d/meta-vino-3.6.10.tar.gz
+[2023-06-20 12:35:25] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/21/6a/e496d2135470a4f7de8f5a03fc669dd28fb5b1b3ce85c28938d97988a940/speedtab-0.1.4.3.tar.gz
+[2023-06-20 12:35:25] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/2d/53/7939e5ae570216f0e01d8177aeb1bdac12c7dfa6ac9c215299c04c86a0b3/crawler_commons-0.0.8.tar.gz
+[2023-06-20 12:35:25] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/80/d5/d151970554e6582252b98c3108705d13085a7dc34245e27d8a84aa9dc7fb/lite_tools-0.4.9.8-py3-none-any.whl
+[2023-06-20 12:35:25] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/9d/db/ed0777dadbf083b47a2b9c15f7e394a098599e62c07c70523e61a19c0bdf/autosrt-1.4.2.tar.gz
+[2023-06-20 12:35:25] INFO root fetch - processPackages [zensols.nlp]: Downloading https://files.pythonhosted.org/packages/ec/58/a3db9998f3fb82f2635bb55da788744da94701716be022e48418ed554d6d/zensols.nlp-1.7.0-py3-none-any.whl
+[2023-06-20 12:35:25] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/56/da/0be3bd39ce8ddea3485ed8c701705fd8fda1ae0bef057fc39cca0f34ea92/lecore-0.1.9.tar.gz
+[2023-06-20 12:35:25] INFO root fetch - processPackages [grad-june]: Downloading https://files.pythonhosted.org/packages/1e/86/10863b373a7ae9f7f32f537c08a43eff04260ec9959018b5b416e7d3f0af/grad_june-0.1.6.tar.gz
+[2023-06-20 12:35:25] INFO root fetch - processPackages [odoo14-addon-purchase-advance-payment]: Downloading https://files.pythonhosted.org/packages/97/06/cf5b017d992ef2b77380d672a6849632b91e06686cf1bda0fca56f5c51e5/odoo14_addon_purchase_advance_payment-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-06-20 12:35:26] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/d6/47/d74516e31bf550bd413557bf2fe84012ad1c21b2a4e390624ea24404d47d/junifer-0.0.3.dev75.tar.gz
+[2023-06-20 12:35:26] INFO root fetch - processPackages [meta-vino]: Downloading https://files.pythonhosted.org/packages/5c/ba/e65706cb23f049c3e31cf6b6fdc62efd306c57c0dc8890d0687bb0d99201/meta-vino-3.6.20.tar.gz
+[2023-06-20 12:35:26] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/51/5e/ae33b5a02214f5ac906448c77174b4fc72e7039774d4eab0007f58f0677d/autosrt-1.4.3.tar.gz
+[2023-06-20 12:35:26] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/40/f4/d2d30b3a885f6e0b0f02277f2d8a7576c0bfe43201aa52c7f6eade938c55/speedtab-0.1.4.4.tar.gz
+[2023-06-20 12:35:26] INFO root fetch - processPackages [zensols.nlp]: Downloading https://files.pythonhosted.org/packages/9b/8e/032164c9264e697cfd2c9a1becdc43c2d94d6075cd0680f8f1b2de09821d/zensols.nlp-1.7.1-py3-none-any.whl
+[2023-06-20 12:35:26] INFO root fetch - processPackages [meta-vino]: executing diffoscope
+[2023-06-20 12:35:26] INFO root fetch - processPackages [meta-vino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta-vino-3.6.10.tar.gz tmp/meta-vino-3.6.20.tar.gz --markdown 20230620/m/meta-vino/3.6.10-3.6.20/diff.md --exclude *.pyd
+[2023-06-20 12:35:26] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/40/02/c8d1ce34f7fdcb6015276185ff6ef593475a639f13f131e8d0da62426dbc/lite_tools-0.4.9.9-py3-none-any.whl
+[2023-06-20 12:35:26] INFO root fetch - processPackages [grad-june]: Downloading https://files.pythonhosted.org/packages/c2/d9/8cf16cdae6f7e623aefcbd6388d9c35b4a1ff687d468c95ab7bf43cf955b/grad_june-0.1.7.tar.gz
+[2023-06-20 12:35:26] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/17/64/0de4dc4cd35a5e4bad7d4eb298d80b0a4c024c3ce105050b75c06d9668d1/crawler_commons-0.0.9.tar.gz
+[2023-06-20 12:35:26] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-06-20 12:35:26] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.4.2.tar.gz tmp/autosrt-1.4.3.tar.gz --markdown 20230620/a/autosrt/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-06-20 12:35:26] INFO root fetch - processPackages [speedtab]: executing diffoscope
+[2023-06-20 12:35:26] INFO root fetch - processPackages [speedtab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedtab-0.1.4.3.tar.gz tmp/speedtab-0.1.4.4.tar.gz --markdown 20230620/s/speedtab/0.1.4.3-0.1.4.4/diff.md --exclude *.pyd
+[2023-06-20 12:35:26] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2023-06-20 12:35:26] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.3.dev74.tar.gz tmp/junifer-0.0.3.dev75.tar.gz --markdown 20230620/j/junifer/0.0.3.dev74-0.0.3.dev75/diff.md --exclude *.pyd
+[2023-06-20 12:35:26] INFO root fetch - processPackages [lite-tools]: executing diffoscope
+[2023-06-20 12:35:26] INFO root fetch - processPackages [lite-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip --markdown 20230620/l/lite-tools/0.4.9.8-0.4.9.9/diff.md --exclude *.pyd
+[2023-06-20 12:35:26] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-06-20 12:35:26] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230620/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 12:35:26] INFO root fetch - processPackages [zensols.nlp]: executing diffoscope
+[2023-06-20 12:35:26] INFO root fetch - processPackages [zensols.nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensols.nlp-1.7.0-py3-none-any.whl.zip tmp/zensols.nlp-1.7.1-py3-none-any.whl.zip --markdown 20230620/z/zensols.nlp/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-20 12:35:26] INFO root fetch - processPackages [grad-june]: executing diffoscope
+[2023-06-20 12:35:26] INFO root fetch - processPackages [grad-june]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grad_june-0.1.6.tar.gz tmp/grad_june-0.1.7.tar.gz --markdown 20230620/g/grad-june/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-20 12:35:26] INFO root fetch - processPackages [odoo14-addon-purchase-advance-payment]: Downloading https://files.pythonhosted.org/packages/d7/ea/dca132596e15bc11897c393d681b7b6fdce10849c69395536ed6e83ee87c/odoo14_addon_purchase_advance_payment-14.0.1.1.0-py3-none-any.whl
+[2023-06-20 12:35:26] INFO root fetch - processPackages [lecore]: executing diffoscope
+[2023-06-20 12:35:26] INFO root fetch - processPackages [lecore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lecore-0.1.8.tar.gz tmp/lecore-0.1.9.tar.gz --markdown 20230620/l/lecore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 12:35:26] INFO root fetch - processPackages [odoo14-addon-purchase-advance-payment]: executing diffoscope
+[2023-06-20 12:35:26] INFO root fetch - processPackages [odoo14-addon-purchase-advance-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_advance_payment-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_purchase_advance_payment-14.0.1.1.0-py3-none-any.whl.zip --markdown 20230620/o/odoo14-addon-purchase-advance-payment/14.0.1.0.1.dev5-14.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-20 12:35:27] INFO root fetch - processPackages [meta-vino]: Remove: archive file [/home/abi/fetcher/tmp/meta-vino-3.6.10.tar.gz]
+[2023-06-20 12:35:27] INFO root fetch - processPackages [meta-vino]: Remove: archive file [/home/abi/fetcher/tmp/meta-vino-3.6.20.tar.gz]
+[2023-06-20 12:35:27] INFO root fetch - processPackages [meta-vino]: Start processing: django-tegro-money
+[2023-06-20 12:35:27] INFO root fetch - main [MainThread]: End processing [meta-vino]: success
+[2023-06-20 12:35:27] WARNING root fetch - processPackages [django-tegro-money]: Skipping, unable to determine old version
+[2023-06-20 12:35:27] INFO root fetch - main [MainThread]: End processing [django-tegro-money] error
+[2023-06-20 12:35:27] INFO root fetch - processPackages [crawler-commons]: Remove: archive file [/home/abi/fetcher/tmp/crawler_commons-0.0.8.tar.gz]
+[2023-06-20 12:35:27] INFO root fetch - processPackages [crawler-commons]: Remove: archive file [/home/abi/fetcher/tmp/crawler_commons-0.0.9.tar.gz]
+[2023-06-20 12:35:27] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-06-20 12:35:28] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.1.4.3.tar.gz]
+[2023-06-20 12:35:28] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.1.4.4.tar.gz]
+[2023-06-20 12:35:28] INFO root fetch - main [MainThread]: End processing [speedtab]: success
+[2023-06-20 12:35:28] INFO root fetch - processPackages [zensols.nlp]: Remove: archive file [/home/abi/fetcher/tmp/zensols.nlp-1.7.0-py3-none-any.whl.zip]
+[2023-06-20 12:35:28] INFO root fetch - processPackages [zensols.nlp]: Remove: archive file [/home/abi/fetcher/tmp/zensols.nlp-1.7.1-py3-none-any.whl.zip]
+[2023-06-20 12:35:28] INFO root fetch - main [MainThread]: End processing [zensols.nlp]: success
+[2023-06-20 12:35:28] INFO root fetch - processPackages [odoo14-addon-purchase-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_advance_payment-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-06-20 12:35:28] INFO root fetch - processPackages [odoo14-addon-purchase-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_advance_payment-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-20 12:35:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-advance-payment]: success
+[2023-06-20 12:35:28] INFO root fetch - processPackages [grad-june]: Remove: archive file [/home/abi/fetcher/tmp/grad_june-0.1.6.tar.gz]
+[2023-06-20 12:35:28] INFO root fetch - processPackages [grad-june]: Remove: archive file [/home/abi/fetcher/tmp/grad_june-0.1.7.tar.gz]
+[2023-06-20 12:35:28] INFO root fetch - main [MainThread]: End processing [grad-june]: success
+[2023-06-20 12:35:28] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.8.tar.gz]
+[2023-06-20 12:35:28] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.9.tar.gz]
+[2023-06-20 12:35:28] INFO root fetch - main [MainThread]: End processing [lecore]: success
+[2023-06-20 12:35:29] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.4.2.tar.gz]
+[2023-06-20 12:35:29] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.4.3.tar.gz]
+[2023-06-20 12:35:29] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-06-20 12:35:29] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip]
+[2023-06-20 12:35:29] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip]
+[2023-06-20 12:35:29] INFO root fetch - main [MainThread]: End processing [lite-tools]: success
+[2023-06-20 12:35:29] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.3.dev74.tar.gz]
+[2023-06-20 12:35:29] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.3.dev75.tar.gz]
+[2023-06-20 12:35:29] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2023-06-20 12:35:29] INFO root fetch - main [MainThread]: Store serial: [18573187]
