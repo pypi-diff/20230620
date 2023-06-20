@@ -21061,3 +21061,150 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 13:45:07] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a9.tar.gz]
 [2023-06-20 13:45:07] INFO root fetch - main [MainThread]: End processing [otpme]: success
 [2023-06-20 13:45:07] INFO root fetch - main [MainThread]: Store serial: [18573955]
+[2023-06-20 13:50:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18573955]
+[2023-06-20 13:50:17] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-20 13:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strangeworks-hybrid-optimize
+[2023-06-20 13:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vai-utils
+[2023-06-20 13:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: faceid-core
+[2023-06-20 13:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-llm
+[2023-06-20 13:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arg-services
+[2023-06-20 13:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-chronos
+[2023-06-20 13:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jijmodeling
+[2023-06-20 13:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kaliapay-modpy-beta-0.0.2
+[2023-06-20 13:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cg
+[2023-06-20 13:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyqrack
+[2023-06-20 13:50:17] INFO root fetch - processPackages [vai-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-20 13:50:17] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230619] Old Version: [2.4.0b20230618]
+[2023-06-20 13:50:17] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230619] Old Version: [2.4.0b20230618]
+[2023-06-20 13:50:17] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-20 13:50:17] INFO root fetch - processPackages [cg]: New version: [36.4.1] Old Version: [36.4.0]
+[2023-06-20 13:50:17] INFO root fetch - processPackages [vai-utils]: Downloading https://files.pythonhosted.org/packages/ed/2f/73f025e1b7ff96423d1174cd77f1e05bc4afbb633339f368fc6d31b67a43/vai_utils-0.0.4.tar.gz
+[2023-06-20 13:50:17] WARNING root fetch - processPackages [faceid-core]: Skipping, unable to determine old version
+[2023-06-20 13:50:17] INFO root fetch - processPackages [faceid-core]: Start processing: prismstudio-stg
+[2023-06-20 13:50:17] INFO root fetch - main [MainThread]: End processing [faceid-core] error
+[2023-06-20 13:50:17] WARNING root fetch - processPackages [strangeworks-hybrid-optimize]: Skipping, unable to determine old version
+[2023-06-20 13:50:17] INFO root fetch - processPackages [strangeworks-hybrid-optimize]: Start processing: readlog
+[2023-06-20 13:50:17] INFO root fetch - main [MainThread]: End processing [strangeworks-hybrid-optimize] error
+[2023-06-20 13:50:17] WARNING root fetch - processPackages [kaliapay-modpy-beta-0.0.2]: Skipping, unable to determine old version
+[2023-06-20 13:50:17] INFO root fetch - processPackages [kaliapay-modpy-beta-0.0.2]: Start processing: supertokens-python
+[2023-06-20 13:50:17] INFO root fetch - main [MainThread]: End processing [kaliapay-modpy-beta-0.0.2] error
+[2023-06-20 13:50:17] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-06-20 13:50:17] INFO root fetch - processPackages [arg-services]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-06-20 13:50:17] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6e/b2/55d62c78e1aa4a218f0a70d7af0679b6ccbf2422ae9bdc6a2270aae08e2c/cg-36.4.0.tar.gz
+[2023-06-20 13:50:17] INFO root fetch - processPackages [jijmodeling]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-20 13:50:17] INFO root fetch - processPackages [readlog]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-20 13:50:17] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/f8/55/a7a1d3c960f3e5bcbcbdc783b104cec3dee11081330008d061d0d1cfa028/bigdl_llm-2.4.0b20230618-py3-none-win_amd64.whl
+[2023-06-20 13:50:17] INFO root fetch - processPackages [prismstudio-stg]: New version: [1.1.3b0] Old Version: [1.1.3a0]
+[2023-06-20 13:50:17] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/a0/39/e7984ae14e5720dfa11adc4a72040995b10698383277e0773303545ef39f/bigdl_chronos-2.4.0b20230618-py3-none-win_amd64.whl
+[2023-06-20 13:50:17] INFO root fetch - processPackages [readlog]: Downloading https://files.pythonhosted.org/packages/c8/55/6a2a79e2ee910fed41d61e957df46f7012e8a58b17d4828441e6cba0325b/readlog-1.1.7.tar.gz
+[2023-06-20 13:50:17] INFO root fetch - processPackages [supertokens-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-20 13:50:17] INFO root fetch - processPackages [arg-services]: Downloading https://files.pythonhosted.org/packages/d6/eb/2d11afe2a9191621c3cc99fc7ea45e1f32b276c614bd9cdef3d577aa341b/arg_services-1.3.2.tar.gz
+[2023-06-20 13:50:17] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-06-20 13:50:17] INFO root fetch - processPackages [vai-utils]: Downloading https://files.pythonhosted.org/packages/5b/2f/9a0ec11ff6d4f5555c86e618e3b3748947f15235f9fd02d5cef31bd82e80/vai_utils-0.0.5.tar.gz
+[2023-06-20 13:50:18] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/7f/41/8ea50a5c11da09e05451c166633f5911e742267a9fb1ea874d26abe85b37/cg-36.4.1.tar.gz
+[2023-06-20 13:50:18] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-06-20 13:50:18] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230620/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-20 13:50:18] INFO root fetch - processPackages [prismstudio-stg]: Downloading https://files.pythonhosted.org/packages/50/30/e729e6b2fac8a5dd614feeda340a36ccb11d86f7fcdd2fee40ed6067ce4f/prismstudio-stg-1.1.3a0.tar.gz
+[2023-06-20 13:50:18] INFO root fetch - processPackages [vai-utils]: executing diffoscope
+[2023-06-20 13:50:18] INFO root fetch - processPackages [vai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vai_utils-0.0.4.tar.gz tmp/vai_utils-0.0.5.tar.gz --markdown 20230620/v/vai-utils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-20 13:50:18] INFO root fetch - processPackages [jijmodeling]: Downloading https://files.pythonhosted.org/packages/49/fc/537e863c69af7f86de4ae2f7cb3b9df507938ba8fcbd0fe6c683b76b6e75/jijmodeling-0.9.8-cp39-cp39-win_amd64.whl
+[2023-06-20 13:50:18] INFO root fetch - processPackages [supertokens-python]: Downloading https://files.pythonhosted.org/packages/41/34/31967fb29a967744e011eb91331a2937f19d9882acccbefdef89c41d48ce/supertokens_python-0.9.0.tar.gz
+[2023-06-20 13:50:18] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-20 13:50:18] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-36.4.0.tar.gz tmp/cg-36.4.1.tar.gz --markdown 20230620/c/cg/36.4.0-36.4.1/diff.md --exclude *.pyd
+[2023-06-20 13:50:18] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/25/3a/188af7f1899730ff789e215d5dd4008f834a67a0c5b63f30beb1b21bf4b2/bigdl_chronos-2.4.0b20230619-py3-none-win_amd64.whl
+[2023-06-20 13:50:18] INFO root fetch - processPackages [readlog]: Downloading https://files.pythonhosted.org/packages/99/82/7d67fbca786bb7273998757ab78850674d2052bef3b10752d734e03caab7/readlog-1.1.8.tar.gz
+[2023-06-20 13:50:18] INFO root fetch - processPackages [arg-services]: Downloading https://files.pythonhosted.org/packages/09/f6/7048d6073f28d67519ad65bc256fc3144f9d55a13ac0628624ede9d67952/arg_services-1.4.0.tar.gz
+[2023-06-20 13:50:18] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-20 13:50:18] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230618-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230619-py3-none-win_amd64.whl.zip --markdown 20230620/b/bigdl-chronos/2.4.0b20230618-2.4.0b20230619/diff.md --exclude *.pyd
+[2023-06-20 13:50:18] INFO root fetch - processPackages [readlog]: executing diffoscope
+[2023-06-20 13:50:18] INFO root fetch - processPackages [readlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readlog-1.1.7.tar.gz tmp/readlog-1.1.8.tar.gz --markdown 20230620/r/readlog/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-20 13:50:18] INFO root fetch - processPackages [arg-services]: executing diffoscope
+[2023-06-20 13:50:18] INFO root fetch - processPackages [arg-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arg_services-1.3.2.tar.gz tmp/arg_services-1.4.0.tar.gz --markdown 20230620/a/arg-services/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-06-20 13:50:18] INFO root fetch - processPackages [prismstudio-stg]: Downloading https://files.pythonhosted.org/packages/80/1b/e6f130ba1120a54e2f1eba985a5b5533250257e3988a9de1a3732e00f8da/prismstudio-stg-1.1.3b0.tar.gz
+[2023-06-20 13:50:18] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/68/d1/10e4e34e50c82b2934c4bfcabbc981136d9322fe4f284e07f3519e7cac7f/bigdl_llm-2.4.0b20230619-py3-none-win_amd64.whl
+[2023-06-20 13:50:18] INFO root fetch - processPackages [supertokens-python]: Downloading https://files.pythonhosted.org/packages/9d/b6/1579872040858340507fd930b8d80cc6f32b03fdf8a1a46b669704ba8615/supertokens_python-0.9.1.tar.gz
+[2023-06-20 13:50:18] INFO root fetch - processPackages [supertokens-python]: executing diffoscope
+[2023-06-20 13:50:18] INFO root fetch - processPackages [supertokens-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supertokens_python-0.9.0.tar.gz tmp/supertokens_python-0.9.1.tar.gz --markdown 20230620/s/supertokens-python/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-20 13:50:18] INFO root fetch - processPackages [prismstudio-stg]: executing diffoscope
+[2023-06-20 13:50:18] INFO root fetch - processPackages [prismstudio-stg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismstudio-stg-1.1.3a0.tar.gz tmp/prismstudio-stg-1.1.3b0.tar.gz --markdown 20230620/p/prismstudio-stg/1.1.3a0-1.1.3b0/diff.md --exclude *.pyd
+[2023-06-20 13:50:18] INFO root fetch - processPackages [jijmodeling]: Downloading https://files.pythonhosted.org/packages/89/d0/6cb71561aecdb852259cf24ad501a533d6d8ff22ba4e5836ab18377e567f/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl
+[2023-06-20 13:50:18] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-06-20 13:50:18] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230618-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230619-py3-none-win_amd64.whl.zip --markdown 20230620/b/bigdl-llm/2.4.0b20230618-2.4.0b20230619/diff.md --exclude *.pyd
+[2023-06-20 13:50:19] INFO root fetch - processPackages [jijmodeling]: executing diffoscope
+[2023-06-20 13:50:19] INFO root fetch - processPackages [jijmodeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijmodeling-0.9.8-cp39-cp39-win_amd64.whl.zip tmp/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl.zip --markdown 20230620/j/jijmodeling/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-20 13:50:19] INFO root fetch - processPackages [vai-utils]: Remove: archive file [/home/abi/fetcher/tmp/vai_utils-0.0.4.tar.gz]
+[2023-06-20 13:50:19] INFO root fetch - processPackages [vai-utils]: Remove: archive file [/home/abi/fetcher/tmp/vai_utils-0.0.5.tar.gz]
+[2023-06-20 13:50:19] INFO root fetch - processPackages [vai-utils]: Start processing: kappadata
+[2023-06-20 13:50:19] INFO root fetch - main [MainThread]: End processing [vai-utils]: success
+[2023-06-20 13:50:19] INFO root fetch - processPackages [kappadata]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-20 13:50:19] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/c5/80/77c18d6fe20c85e84690c356497f237d348af2b7558ce01b14c460db59e9/kappadata-1.2.8.tar.gz
+[2023-06-20 13:50:20] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/6b/25/ceb4f83c59a4447b0c7e6db154402e4159e2a5dd958e4428d855e0248515/kappadata-1.2.9.tar.gz
+[2023-06-20 13:50:20] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-06-20 13:50:20] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.2.8.tar.gz tmp/kappadata-1.2.9.tar.gz --markdown 20230620/k/kappadata/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-20 13:50:20] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-06-20 13:50:20] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-06-20 13:50:20] INFO root fetch - processPackages [pyqrack]: Start processing: djutils
+[2023-06-20 13:50:20] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-06-20 13:50:20] INFO root fetch - processPackages [djutils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 13:50:20] INFO root fetch - processPackages [djutils]: Downloading https://files.pythonhosted.org/packages/ee/e3/ea8a53140150fe89bf8ba980573650e3d55d42ea6ab24ec53a4b5c4d5ee6/djutils-1.0.8.tar.gz
+[2023-06-20 13:50:20] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230618-py3-none-win_amd64.whl.zip]
+[2023-06-20 13:50:20] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230619-py3-none-win_amd64.whl.zip]
+[2023-06-20 13:50:20] INFO root fetch - processPackages [bigdl-llm]: Start processing: fastdeploy
+[2023-06-20 13:50:20] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-06-20 13:50:20] INFO root fetch - processPackages [fastdeploy]: New version: [2.2.8] Old Version: [2.2.7rc4]
+[2023-06-20 13:50:21] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230618-py3-none-win_amd64.whl.zip]
+[2023-06-20 13:50:21] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230619-py3-none-win_amd64.whl.zip]
+[2023-06-20 13:50:21] INFO root fetch - processPackages [bigdl-chronos]: Start processing: energyid-webhooks
+[2023-06-20 13:50:21] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-20 13:50:21] INFO root fetch - processPackages [fastdeploy]: Downloading https://files.pythonhosted.org/packages/4f/6e/3ff313f214f599665c81938a412a3fdbb467ba6113d36e73f9c0ce3a6221/fastdeploy-2.2.7rc4.tar.gz
+[2023-06-20 13:50:21] INFO root fetch - processPackages [djutils]: Downloading https://files.pythonhosted.org/packages/2b/19/46b6e4f2a03928fb8754aa01c5979f0065dc24ecb8b9f9a683cd8b4a70dc/djutils-1.0.9.tar.gz
+[2023-06-20 13:50:21] INFO root fetch - processPackages [energyid-webhooks]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-20 13:50:21] INFO root fetch - processPackages [prismstudio-stg]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-stg-1.1.3a0.tar.gz]
+[2023-06-20 13:50:21] INFO root fetch - processPackages [prismstudio-stg]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-stg-1.1.3b0.tar.gz]
+[2023-06-20 13:50:21] INFO root fetch - processPackages [prismstudio-stg]: Start processing: docarray
+[2023-06-20 13:50:21] INFO root fetch - main [MainThread]: End processing [prismstudio-stg]: success
+[2023-06-20 13:50:21] INFO root fetch - processPackages [djutils]: executing diffoscope
+[2023-06-20 13:50:21] INFO root fetch - processPackages [djutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djutils-1.0.8.tar.gz tmp/djutils-1.0.9.tar.gz --markdown 20230620/d/djutils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 13:50:21] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-06-20 13:50:21] INFO root fetch - processPackages [arg-services]: Remove: archive file [/home/abi/fetcher/tmp/arg_services-1.3.2.tar.gz]
+[2023-06-20 13:50:21] INFO root fetch - processPackages [arg-services]: Remove: archive file [/home/abi/fetcher/tmp/arg_services-1.4.0.tar.gz]
+[2023-06-20 13:50:21] INFO root fetch - main [MainThread]: End processing [arg-services]: success
+[2023-06-20 13:50:21] INFO root fetch - processPackages [energyid-webhooks]: Downloading https://files.pythonhosted.org/packages/a0/a3/aa8773bfedc4e1011ec91271a5c2e296c952681c97602ce8328a16d9f624/energyid-webhooks-0.0.1.tar.gz
+[2023-06-20 13:50:21] INFO root fetch - processPackages [fastdeploy]: Downloading https://files.pythonhosted.org/packages/94/63/24eb7c1b17f12cf84be0a1bcba4aac99cdf3ccd62bf906a0d2d2f5166ac9/fastdeploy-2.2.8.tar.gz
+[2023-06-20 13:50:21] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-06-20 13:50:21] INFO root fetch - processPackages [fastdeploy]: executing diffoscope
+[2023-06-20 13:50:21] INFO root fetch - processPackages [fastdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdeploy-2.2.7rc4.tar.gz tmp/fastdeploy-2.2.8.tar.gz --markdown 20230620/f/fastdeploy/2.2.7rc4-2.2.8/diff.md --exclude *.pyd
+[2023-06-20 13:50:21] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-06-20 13:50:21] INFO root fetch - processPackages [energyid-webhooks]: Downloading https://files.pythonhosted.org/packages/67/cb/0b8be87e3969576eb7ea4e1aa47cabbf44db97292e2968d3b10d6d7dca88/energyid-webhooks-0.0.2.tar.gz
+[2023-06-20 13:50:21] INFO root fetch - processPackages [energyid-webhooks]: executing diffoscope
+[2023-06-20 13:50:21] INFO root fetch - processPackages [energyid-webhooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energyid-webhooks-0.0.1.tar.gz tmp/energyid-webhooks-0.0.2.tar.gz --markdown 20230620/e/energyid-webhooks/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-20 13:50:21] INFO root fetch - processPackages [readlog]: Remove: archive file [/home/abi/fetcher/tmp/readlog-1.1.7.tar.gz]
+[2023-06-20 13:50:21] INFO root fetch - processPackages [readlog]: Remove: archive file [/home/abi/fetcher/tmp/readlog-1.1.8.tar.gz]
+[2023-06-20 13:50:21] INFO root fetch - main [MainThread]: End processing [readlog]: success
+[2023-06-20 13:50:21] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-06-20 13:50:21] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230620/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-06-20 13:50:22] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.2.8.tar.gz]
+[2023-06-20 13:50:22] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.2.9.tar.gz]
+[2023-06-20 13:50:22] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-06-20 13:50:22] INFO root fetch - processPackages [djutils]: Remove: archive file [/home/abi/fetcher/tmp/djutils-1.0.8.tar.gz]
+[2023-06-20 13:50:22] INFO root fetch - processPackages [djutils]: Remove: archive file [/home/abi/fetcher/tmp/djutils-1.0.9.tar.gz]
+[2023-06-20 13:50:22] INFO root fetch - main [MainThread]: End processing [djutils]: success
+[2023-06-20 13:50:23] INFO root fetch - processPackages [energyid-webhooks]: Remove: archive file [/home/abi/fetcher/tmp/energyid-webhooks-0.0.1.tar.gz]
+[2023-06-20 13:50:23] INFO root fetch - processPackages [energyid-webhooks]: Remove: archive file [/home/abi/fetcher/tmp/energyid-webhooks-0.0.2.tar.gz]
+[2023-06-20 13:50:23] INFO root fetch - main [MainThread]: End processing [energyid-webhooks]: success
+[2023-06-20 13:50:23] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-06-20 13:50:23] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-06-20 13:50:23] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-06-20 13:50:24] INFO root fetch - processPackages [fastdeploy]: Remove: archive file [/home/abi/fetcher/tmp/fastdeploy-2.2.7rc4.tar.gz]
+[2023-06-20 13:50:24] INFO root fetch - processPackages [fastdeploy]: Remove: archive file [/home/abi/fetcher/tmp/fastdeploy-2.2.8.tar.gz]
+[2023-06-20 13:50:24] INFO root fetch - main [MainThread]: End processing [fastdeploy]: success
+[2023-06-20 13:50:25] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.0.tar.gz]
+[2023-06-20 13:50:25] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.1.tar.gz]
+[2023-06-20 13:50:25] INFO root fetch - main [MainThread]: End processing [supertokens-python]: success
+[2023-06-20 13:50:26] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-0.9.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-20 13:50:26] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-20 13:50:26] INFO root fetch - main [MainThread]: End processing [jijmodeling]: success
+[2023-06-20 13:50:32] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.4.0.tar.gz]
+[2023-06-20 13:50:32] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.4.1.tar.gz]
+[2023-06-20 13:50:32] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-20 13:50:32] INFO root fetch - main [MainThread]: Store serial: [18574055]
