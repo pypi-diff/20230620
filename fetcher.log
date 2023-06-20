@@ -17609,3 +17609,177 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 11:30:46] INFO root fetch - processPackages [jijbench]: Remove: archive file [/home/abi/fetcher/tmp/jijbench-0.5.5.tar.gz]
 [2023-06-20 11:30:46] INFO root fetch - main [MainThread]: End processing [jijbench]: success
 [2023-06-20 11:30:46] INFO root fetch - main [MainThread]: Store serial: [18572567]
+[2023-06-20 11:35:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18572567]
+[2023-06-20 11:35:55] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-20 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: capellambse-context-diagrams
+[2023-06-20 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DLMS-SPODES
+[2023-06-20 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gameyamlspiderandgenerator
+[2023-06-20 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: projen
+[2023-06-20 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyShowmap
+[2023-06-20 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: span-marker
+[2023-06-20 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DLMS-SPODES
+[2023-06-20 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sagemaker-inference
+[2023-06-20 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arguebuf
+[2023-06-20 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: egune
+[2023-06-20 11:35:55] INFO root fetch - processPackages [span-marker]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-20 11:35:55] INFO root fetch - processPackages [gameyamlspiderandgenerator]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-06-20 11:35:55] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-20 11:35:55] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-20 11:35:55] INFO root fetch - processPackages [capellambse-context-diagrams]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-20 11:35:55] INFO root fetch - processPackages [arguebuf]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-06-20 11:35:55] INFO root fetch - processPackages [sagemaker-inference]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-20 11:35:55] INFO root fetch - processPackages [egune]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-20 11:35:55] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-06-20 11:35:55] INFO root fetch - processPackages [span-marker]: Downloading https://files.pythonhosted.org/packages/ae/5e/ca8d4f4f3dc86af15ab7934d694f0c835fe0497fd4abae39b8a2eb9fc34a/span_marker-1.2.1.tar.gz
+[2023-06-20 11:35:55] INFO root fetch - processPackages [arguebuf]: Downloading https://files.pythonhosted.org/packages/f3/c9/2ceb71f060cb5d70fb2db5a185b04d96c1f163c317a798a41d68fead5bcc/arguebuf-2.0.0b8.tar.gz
+[2023-06-20 11:35:55] WARNING root fetch - processPackages [PyShowmap]: Skipping, unable to determine old version
+[2023-06-20 11:35:55] INFO root fetch - processPackages [PyShowmap]: Start processing: finbourne-identity-sdk
+[2023-06-20 11:35:55] INFO root fetch - main [MainThread]: End processing [PyShowmap] error
+[2023-06-20 11:35:55] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-06-20 11:35:55] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-06-20 11:35:55] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/ea/be/77fa1d20807f586c32c386f437b9558e24545ee05aff640c5436e1c3e4bb/gameyamlspiderandgenerator-1.6.4.tar.gz
+[2023-06-20 11:35:55] INFO root fetch - processPackages [egune]: Downloading https://files.pythonhosted.org/packages/97/42/7c2dd6b04736bffa890a5c34420b59d954c6102f8fa405f25d20c6f27334/egune-0.2.8.tar.gz
+[2023-06-20 11:35:55] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2454]
+[2023-06-20 11:35:55] INFO root fetch - processPackages [sagemaker-inference]: Downloading https://files.pythonhosted.org/packages/af/02/63dbc51c108c709bd3b277bc74527214abfceb858f5c20f6edbb1ba7e6e6/sagemaker_inference-1.9.2.tar.gz
+[2023-06-20 11:35:55] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-06-20 11:35:55] INFO root fetch - processPackages [arguebuf]: Downloading https://files.pythonhosted.org/packages/48/5f/745fe92b8c0d474fdfffc744780bcaa1f5f88dbca214d8595d78df2b133d/arguebuf-2.0.0b9.tar.gz
+[2023-06-20 11:35:56] INFO root fetch - processPackages [arguebuf]: executing diffoscope
+[2023-06-20 11:35:56] INFO root fetch - processPackages [arguebuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arguebuf-2.0.0b8.tar.gz tmp/arguebuf-2.0.0b9.tar.gz --markdown 20230620/a/arguebuf/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-06-20 11:35:56] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/96/1c/ec262574e4dca331e42f005b2d679e472964d3c04056fb029a3d98c5ac0b/finbourne-identity-sdk-0.0.2454.tar.gz
+[2023-06-20 11:35:56] INFO root fetch - processPackages [span-marker]: Downloading https://files.pythonhosted.org/packages/6e/14/6807d0c2e686f6f2ec5751d8ae4e9582b2d4f51c11e3f91f55dee5962fb3/span_marker-1.2.2.tar.gz
+[2023-06-20 11:35:56] INFO root fetch - processPackages [capellambse-context-diagrams]: Downloading https://files.pythonhosted.org/packages/3b/41/804ad513fea74424d89581faf8848991fbeaa741a869eb71749a5062fcb3/capellambse-context-diagrams-0.2.8.tar.gz
+[2023-06-20 11:35:56] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-06-20 11:35:56] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-06-20 11:35:56] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/7b/92/eef5cb71a2e1c16525a7d60927cfcb59ffdb3e90193bb50e053e238d4c0d/gameyamlspiderandgenerator-1.6.5.tar.gz
+[2023-06-20 11:35:56] INFO root fetch - processPackages [span-marker]: executing diffoscope
+[2023-06-20 11:35:56] INFO root fetch - processPackages [span-marker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/span_marker-1.2.1.tar.gz tmp/span_marker-1.2.2.tar.gz --markdown 20230620/s/span-marker/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-20 11:35:56] INFO root fetch - processPackages [sagemaker-inference]: Downloading https://files.pythonhosted.org/packages/e7/20/97ee2c50294b3518c0b00a484d12224b133a2eeb3764e4b84200c2c83c11/sagemaker_inference-1.9.3.tar.gz
+[2023-06-20 11:35:56] INFO root fetch - processPackages [egune]: Downloading https://files.pythonhosted.org/packages/f6/3f/63951447f046b34d9d429bbf3a8f8e46cd998e857461e5ba92c8b1a76ede/egune-0.2.9.tar.gz
+[2023-06-20 11:35:56] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-06-20 11:35:56] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230620/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-20 11:35:56] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-06-20 11:35:56] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230620/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-20 11:35:56] INFO root fetch - processPackages [sagemaker-inference]: executing diffoscope
+[2023-06-20 11:35:56] INFO root fetch - processPackages [sagemaker-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker_inference-1.9.2.tar.gz tmp/sagemaker_inference-1.9.3.tar.gz --markdown 20230620/s/sagemaker-inference/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-20 11:35:56] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-06-20 11:35:56] INFO root fetch - processPackages [egune]: executing diffoscope
+[2023-06-20 11:35:56] INFO root fetch - processPackages [egune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/egune-0.2.8.tar.gz tmp/egune-0.2.9.tar.gz --markdown 20230620/e/egune/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-20 11:35:56] INFO root fetch - processPackages [gameyamlspiderandgenerator]: executing diffoscope
+[2023-06-20 11:35:56] INFO root fetch - processPackages [gameyamlspiderandgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameyamlspiderandgenerator-1.6.4.tar.gz tmp/gameyamlspiderandgenerator-1.6.5.tar.gz --markdown 20230620/g/gameyamlspiderandgenerator/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-06-20 11:35:56] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/60/02/556fee55b1aaf556ab945658f46e9f25aae842d2790fb15aa1ad81b2ba2a/finbourne-identity-sdk-0.0.840.tar.gz
+[2023-06-20 11:35:56] INFO root fetch - processPackages [capellambse-context-diagrams]: Downloading https://files.pythonhosted.org/packages/5f/e9/32a768c40571016e33ca421423e058e28d923820700a4e745c4546d21bdb/capellambse-context-diagrams-0.2.9.tar.gz
+[2023-06-20 11:35:56] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-06-20 11:35:56] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2454.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230620/f/finbourne-identity-sdk/0.0.2454-0.0.840/diff.md --exclude *.pyd
+[2023-06-20 11:35:56] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-06-20 11:35:56] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230620/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-06-20 11:35:56] INFO root fetch - processPackages [capellambse-context-diagrams]: executing diffoscope
+[2023-06-20 11:35:56] INFO root fetch - processPackages [capellambse-context-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-context-diagrams-0.2.8.tar.gz tmp/capellambse-context-diagrams-0.2.9.tar.gz --markdown 20230620/c/capellambse-context-diagrams/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-20 11:35:58] INFO root fetch - processPackages [egune]: Remove: archive file [/home/abi/fetcher/tmp/egune-0.2.8.tar.gz]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [egune]: Remove: archive file [/home/abi/fetcher/tmp/egune-0.2.9.tar.gz]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [egune]: Start processing: showroom-recorder
+[2023-06-20 11:35:58] INFO root fetch - main [MainThread]: End processing [egune]: success
+[2023-06-20 11:35:58] WARNING root fetch - processPackages [showroom-recorder]: Skipping, unable to determine old version
+[2023-06-20 11:35:58] INFO root fetch - processPackages [showroom-recorder]: Start processing: taichu-dataflow
+[2023-06-20 11:35:58] INFO root fetch - main [MainThread]: End processing [showroom-recorder] error
+[2023-06-20 11:35:58] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Remove: archive file [/home/abi/fetcher/tmp/gameyamlspiderandgenerator-1.6.4.tar.gz]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Remove: archive file [/home/abi/fetcher/tmp/gameyamlspiderandgenerator-1.6.5.tar.gz]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Start processing: ens-sdk
+[2023-06-20 11:35:58] INFO root fetch - main [MainThread]: End processing [gameyamlspiderandgenerator]: success
+[2023-06-20 11:35:58] INFO root fetch - processPackages [taichu-dataflow]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [ens-sdk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/81/dd/e3d5b3a55c3654ec66d572cdf43ac839e88c57e6e832e3aa6c937b397b73/taichu-dataflow-1.0.7.tar.gz
+[2023-06-20 11:35:58] INFO root fetch - processPackages [ens-sdk]: Downloading https://files.pythonhosted.org/packages/8c/25/53075fa060397690c9db39411b16d6fef5be2ba1e3d39326564459c67e1d/ens_sdk-0.0.6.tar.gz
+[2023-06-20 11:35:58] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/32/93/3c3f1a53a50872a914ef7bd923957025e61d81d4c628ea5dc23a74a1701f/taichu-dataflow-1.0.8.tar.gz
+[2023-06-20 11:35:58] INFO root fetch - processPackages [sagemaker-inference]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker_inference-1.9.2.tar.gz]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [sagemaker-inference]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker_inference-1.9.3.tar.gz]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [sagemaker-inference]: Start processing: odoo12-addon-cooperator
+[2023-06-20 11:35:58] INFO root fetch - main [MainThread]: End processing [sagemaker-inference]: success
+[2023-06-20 11:35:58] INFO root fetch - processPackages [odoo12-addon-cooperator]: New version: [12.0.6.4.3] Old Version: [12.0.6.4.2.99.dev3]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [taichu-dataflow]: executing diffoscope
+[2023-06-20 11:35:58] INFO root fetch - processPackages [taichu-dataflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-dataflow-1.0.7.tar.gz tmp/taichu-dataflow-1.0.8.tar.gz --markdown 20230620/t/taichu-dataflow/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-20 11:35:58] INFO root fetch - processPackages [odoo12-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/de/1a/8cb30c29d87d3a60bdbc8a0d16651e793550b87622a58af5fd78a4e4712f/odoo12_addon_cooperator-12.0.6.4.2.99.dev3-py3-none-any.whl
+[2023-06-20 11:35:58] INFO root fetch - processPackages [ens-sdk]: Downloading https://files.pythonhosted.org/packages/80/0a/72289ff1304acfd88bd53fca512d8da5f9ef7188cd1ce90ea2349f659031/ens_sdk-0.0.7.tar.gz
+[2023-06-20 11:35:58] INFO root fetch - processPackages [arguebuf]: Remove: archive file [/home/abi/fetcher/tmp/arguebuf-2.0.0b8.tar.gz]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [arguebuf]: Remove: archive file [/home/abi/fetcher/tmp/arguebuf-2.0.0b9.tar.gz]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [arguebuf]: Start processing: meta-trt
+[2023-06-20 11:35:58] INFO root fetch - main [MainThread]: End processing [arguebuf]: success
+[2023-06-20 11:35:58] INFO root fetch - processPackages [meta-trt]: New version: [3.6.20] Old Version: [3.3.29]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [ens-sdk]: executing diffoscope
+[2023-06-20 11:35:58] INFO root fetch - processPackages [ens-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ens_sdk-0.0.6.tar.gz tmp/ens_sdk-0.0.7.tar.gz --markdown 20230620/e/ens-sdk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-20 11:35:58] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.2454.tar.gz]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.840.tar.gz]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [finbourne-identity-sdk]: Start processing: lite-tools
+[2023-06-20 11:35:58] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-06-20 11:35:58] INFO root fetch - processPackages [lite-tools]: New version: [0.4.9.9] Old Version: [0.4.9.8]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [odoo12-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/23/a4/4f5c1bf4cde12845bb15254d77440d4d3398000f6f685029f755a555b5dc/odoo12_addon_cooperator-12.0.6.4.3-py3-none-any.whl
+[2023-06-20 11:35:58] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [projen]: Start processing: teedoc-plugin-theme-default
+[2023-06-20 11:35:58] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-06-20 11:35:58] INFO root fetch - processPackages [span-marker]: Remove: archive file [/home/abi/fetcher/tmp/span_marker-1.2.1.tar.gz]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [meta-trt]: Downloading https://files.pythonhosted.org/packages/db/08/4a4d4ce3dd72889ad843e0a2a03c3645287de9bab0c36563a5be4fee78fa/meta-trt-3.3.29.tar.gz
+[2023-06-20 11:35:58] INFO root fetch - processPackages [span-marker]: Remove: archive file [/home/abi/fetcher/tmp/span_marker-1.2.2.tar.gz]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [span-marker]: Start processing: free-sample-api
+[2023-06-20 11:35:58] INFO root fetch - main [MainThread]: End processing [span-marker]: success
+[2023-06-20 11:35:58] INFO root fetch - processPackages [odoo12-addon-cooperator]: executing diffoscope
+[2023-06-20 11:35:58] INFO root fetch - processPackages [odoo12-addon-cooperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_cooperator-12.0.6.4.2.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_cooperator-12.0.6.4.3-py3-none-any.whl.zip --markdown 20230620/o/odoo12-addon-cooperator/12.0.6.4.2.99.dev3-12.0.6.4.3/diff.md --exclude *.pyd
+[2023-06-20 11:35:58] INFO root fetch - processPackages [teedoc-plugin-theme-default]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-20 11:35:58] INFO root fetch - processPackages [free-sample-api]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-20 11:35:59] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/80/d5/d151970554e6582252b98c3108705d13085a7dc34245e27d8a84aa9dc7fb/lite_tools-0.4.9.8-py3-none-any.whl
+[2023-06-20 11:35:59] INFO root fetch - processPackages [capellambse-context-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-context-diagrams-0.2.8.tar.gz]
+[2023-06-20 11:35:59] INFO root fetch - processPackages [capellambse-context-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-context-diagrams-0.2.9.tar.gz]
+[2023-06-20 11:35:59] INFO root fetch - processPackages [capellambse-context-diagrams]: Start processing: app-ocr
+[2023-06-20 11:35:59] INFO root fetch - main [MainThread]: End processing [capellambse-context-diagrams]: success
+[2023-06-20 11:35:59] INFO root fetch - processPackages [app-ocr]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-20 11:35:59] INFO root fetch - processPackages [free-sample-api]: Downloading https://files.pythonhosted.org/packages/96/c1/955af4de777405f68359d5181240c6c8285211999493e2b68e793ff43052/free-sample-api-0.1.0.tar.gz
+[2023-06-20 11:35:59] INFO root fetch - processPackages [meta-trt]: Downloading https://files.pythonhosted.org/packages/e1/4d/5c4c86ea01ea100de6daa294923f629e9e7c041dfd3aae8377e22891ddd8/meta-trt-3.6.20.tar.gz
+[2023-06-20 11:35:59] INFO root fetch - processPackages [app-ocr]: Downloading https://files.pythonhosted.org/packages/6f/b1/33d90836a67818b82496d2a8d044a0c93d4c047da661f848762843bd4363/app_ocr-1.0.7.tar.gz
+[2023-06-20 11:35:59] INFO root fetch - processPackages [teedoc-plugin-theme-default]: Downloading https://files.pythonhosted.org/packages/c1/a5/45bf9d997ee84e2b6a038bd7f618cf34628621672ff90df9fbe9c231be0e/teedoc-plugin-theme-default-1.9.5.tar.gz
+[2023-06-20 11:35:59] INFO root fetch - processPackages [meta-trt]: executing diffoscope
+[2023-06-20 11:35:59] INFO root fetch - processPackages [meta-trt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta-trt-3.3.29.tar.gz tmp/meta-trt-3.6.20.tar.gz --markdown 20230620/m/meta-trt/3.3.29-3.6.20/diff.md --exclude *.pyd
+[2023-06-20 11:35:59] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/40/02/c8d1ce34f7fdcb6015276185ff6ef593475a639f13f131e8d0da62426dbc/lite_tools-0.4.9.9-py3-none-any.whl
+[2023-06-20 11:35:59] INFO root fetch - processPackages [free-sample-api]: Downloading https://files.pythonhosted.org/packages/ab/c1/a28ed83f92c0f0b61bc782a0492e76cc91651baa786265552c8c6d941cef/free-sample-api-0.1.1.tar.gz
+[2023-06-20 11:35:59] INFO root fetch - processPackages [lite-tools]: executing diffoscope
+[2023-06-20 11:35:59] INFO root fetch - processPackages [lite-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip --markdown 20230620/l/lite-tools/0.4.9.8-0.4.9.9/diff.md --exclude *.pyd
+[2023-06-20 11:35:59] INFO root fetch - processPackages [app-ocr]: Downloading https://files.pythonhosted.org/packages/c0/57/e9a76e727c2ee16950d57861a9575ea9c79248ca9a26cf533c1091937091/app_ocr-1.0.8.tar.gz
+[2023-06-20 11:35:59] INFO root fetch - processPackages [free-sample-api]: executing diffoscope
+[2023-06-20 11:35:59] INFO root fetch - processPackages [free-sample-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/free-sample-api-0.1.0.tar.gz tmp/free-sample-api-0.1.1.tar.gz --markdown 20230620/f/free-sample-api/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-20 11:35:59] INFO root fetch - processPackages [teedoc-plugin-theme-default]: Downloading https://files.pythonhosted.org/packages/cc/fe/a7066c412ed6f734df9b58c4e9f011051b3447b6b47c3fd24d2fe917b33b/teedoc-plugin-theme-default-1.9.6.tar.gz
+[2023-06-20 11:35:59] INFO root fetch - processPackages [app-ocr]: executing diffoscope
+[2023-06-20 11:35:59] INFO root fetch - processPackages [app-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app_ocr-1.0.7.tar.gz tmp/app_ocr-1.0.8.tar.gz --markdown 20230620/a/app-ocr/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-20 11:35:59] INFO root fetch - processPackages [teedoc-plugin-theme-default]: executing diffoscope
+[2023-06-20 11:35:59] INFO root fetch - processPackages [teedoc-plugin-theme-default]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teedoc-plugin-theme-default-1.9.5.tar.gz tmp/teedoc-plugin-theme-default-1.9.6.tar.gz --markdown 20230620/t/teedoc-plugin-theme-default/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-20 11:36:00] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.7.tar.gz]
+[2023-06-20 11:36:00] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.8.tar.gz]
+[2023-06-20 11:36:00] INFO root fetch - processPackages [taichu-dataflow]: Start processing: lite-tools
+[2023-06-20 11:36:00] INFO root fetch - main [MainThread]: End processing [taichu-dataflow]: success
+[2023-06-20 11:36:00] INFO root fetch - processPackages [ens-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ens_sdk-0.0.6.tar.gz]
+[2023-06-20 11:36:00] INFO root fetch - processPackages [ens-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ens_sdk-0.0.7.tar.gz]
+[2023-06-20 11:36:00] INFO root fetch - main [MainThread]: End processing [ens-sdk]: success
+[2023-06-20 11:36:00] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2023-06-20 11:36:00] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2023-06-20 11:36:00] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-06-20 11:36:00] INFO root fetch - processPackages [lite-tools]: New version: [0.4.9.9] Old Version: [0.4.9.8]
+[2023-06-20 11:36:00] INFO root fetch - processPackages [lite-tools]: executing diffoscope
+[2023-06-20 11:36:00] INFO root fetch - processPackages [lite-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip --markdown 20230620/l/lite-tools/0.4.9.8-0.4.9.9/diff.md --exclude *.pyd
+[2023-06-20 11:36:00] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-06-20 11:36:00] INFO root fetch - processPackages [free-sample-api]: Remove: archive file [/home/abi/fetcher/tmp/free-sample-api-0.1.0.tar.gz]
+[2023-06-20 11:36:00] INFO root fetch - processPackages [free-sample-api]: Remove: archive file [/home/abi/fetcher/tmp/free-sample-api-0.1.1.tar.gz]
+[2023-06-20 11:36:00] INFO root fetch - main [MainThread]: End processing [free-sample-api]: success
+[2023-06-20 11:36:00] INFO root fetch - processPackages [meta-trt]: Remove: archive file [/home/abi/fetcher/tmp/meta-trt-3.3.29.tar.gz]
+[2023-06-20 11:36:00] INFO root fetch - processPackages [meta-trt]: Remove: archive file [/home/abi/fetcher/tmp/meta-trt-3.6.20.tar.gz]
+[2023-06-20 11:36:00] INFO root fetch - main [MainThread]: End processing [meta-trt]: success
+[2023-06-20 11:36:01] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip]
+[2023-06-20 11:36:01] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip]
+[2023-06-20 11:36:01] INFO root fetch - main [MainThread]: End processing [lite-tools]: success
+[2023-06-20 11:36:01] INFO root fetch - processPackages [teedoc-plugin-theme-default]: Remove: archive file [/home/abi/fetcher/tmp/teedoc-plugin-theme-default-1.9.5.tar.gz]
+[2023-06-20 11:36:01] INFO root fetch - processPackages [teedoc-plugin-theme-default]: Remove: archive file [/home/abi/fetcher/tmp/teedoc-plugin-theme-default-1.9.6.tar.gz]
+[2023-06-20 11:36:01] INFO root fetch - main [MainThread]: End processing [teedoc-plugin-theme-default]: success
+[2023-06-20 11:36:01] INFO root fetch - processPackages [odoo12-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_cooperator-12.0.6.4.2.99.dev3-py3-none-any.whl.zip]
+[2023-06-20 11:36:01] INFO root fetch - processPackages [odoo12-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_cooperator-12.0.6.4.3-py3-none-any.whl.zip]
+[2023-06-20 11:36:01] INFO root fetch - main [MainThread]: End processing [odoo12-addon-cooperator]: success
+[2023-06-20 11:36:01] INFO root fetch - main [MainThread]: End processing [lite-tools]: success
+[2023-06-20 11:36:03] INFO root fetch - processPackages [app-ocr]: Remove: archive file [/home/abi/fetcher/tmp/app_ocr-1.0.7.tar.gz]
+[2023-06-20 11:36:03] INFO root fetch - processPackages [app-ocr]: Remove: archive file [/home/abi/fetcher/tmp/app_ocr-1.0.8.tar.gz]
+[2023-06-20 11:36:03] INFO root fetch - main [MainThread]: End processing [app-ocr]: success
+[2023-06-20 11:36:03] INFO root fetch - main [MainThread]: Store serial: [18572635]
