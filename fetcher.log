@@ -2422,3 +2422,68 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 02:38:35] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
 [2023-06-20 02:38:35] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
 [2023-06-20 02:38:35] INFO root fetch - main [MainThread]: Store serial: [18566890]
+[2023-06-20 02:43:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566890]
+[2023-06-20 02:43:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-20 02:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: panel-jstree
+[2023-06-20 02:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: d20-orm
+[2023-06-20 02:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: useful-rdkit-utils
+[2023-06-20 02:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: headless
+[2023-06-20 02:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: databased
+[2023-06-20 02:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: heaserver-files-aws-s3
+[2023-06-20 02:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ape-etherscan
+[2023-06-20 02:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-redis
+[2023-06-20 02:43:44] WARNING root fetch - processPackages [panel-jstree]: Skipping, unable to determine old version
+[2023-06-20 02:43:44] INFO root fetch - main [MainThread]: End processing [panel-jstree] error
+[2023-06-20 02:43:44] INFO root fetch - processPackages [databased]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-06-20 02:43:44] INFO root fetch - processPackages [useful-rdkit-utils]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-20 02:43:44] INFO root fetch - processPackages [ape-etherscan]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-06-20 02:43:44] INFO root fetch - processPackages [heaserver-files-aws-s3]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-20 02:43:44] INFO root fetch - processPackages [headless]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-06-20 02:43:44] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-20 02:43:44] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-20 02:43:44] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-20 02:43:44] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2023-06-20 02:43:44] INFO root fetch - processPackages [ape-etherscan]: Downloading https://files.pythonhosted.org/packages/0f/46/9573e790f4d11d0f3d71eb03c28d5799ddbae9b9f2064ac485ceb5608164/ape-etherscan-0.6.6.tar.gz
+[2023-06-20 02:43:44] INFO root fetch - processPackages [databased]: Downloading https://files.pythonhosted.org/packages/7e/9d/c81d5d98f67d867225775e89e3e0bb4b83bfbe4d6161d9019443151e40d8/databased-2.4.0.tar.gz
+[2023-06-20 02:43:44] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/01/29/f491c1a0644d9df25cc0746859c9830d9b3f44d290ebd1e5de7b756b2490/headless-2.0.0a8.tar.gz
+[2023-06-20 02:43:44] INFO root fetch - processPackages [useful-rdkit-utils]: Downloading https://files.pythonhosted.org/packages/99/f2/7aeb9d2caea1115f389e6b76d86ac307ff282e672659c6a7bad645791979/useful_rdkit_utils-0.2.6.tar.gz
+[2023-06-20 02:43:44] INFO root fetch - processPackages [heaserver-files-aws-s3]: Downloading https://files.pythonhosted.org/packages/4b/9b/73f33a94f4aff25bff8a0100e7c9f7d239d27c6bb47e91c553f03fccfde2/heaserver-files-aws-s3-1.0.0a8.tar.gz
+[2023-06-20 02:43:44] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-20 02:43:44] WARNING root fetch - processPackages [heaserver-files-aws-s3]: Skipping package: exceeds size limit 18398734>=10485760
+[2023-06-20 02:43:44] INFO root fetch - main [MainThread]: End processing [heaserver-files-aws-s3] error
+[2023-06-20 02:43:44] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2023-06-20 02:43:44] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-20 02:43:44] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230620/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-20 02:43:45] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-06-20 02:43:45] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230620/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-20 02:43:45] INFO root fetch - processPackages [useful-rdkit-utils]: Downloading https://files.pythonhosted.org/packages/bb/04/e7acc985594ce2e4c20c2cb7d643d659c7d3f6ce7374c3ef1b90ffa3a0d2/useful_rdkit_utils-0.2.7.tar.gz
+[2023-06-20 02:43:45] INFO root fetch - processPackages [ape-etherscan]: Downloading https://files.pythonhosted.org/packages/4a/65/aa37ec07c5b5a03e4adabcadf46e72f12be4bbdede91e6bad1ef2f031c61/ape-etherscan-0.6.7.tar.gz
+[2023-06-20 02:43:45] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/db/4e/49b62296a404c0b751546e8c9091d5f19f25932fffbf24e6927b8888f3d2/headless-2.0.0a9.tar.gz
+[2023-06-20 02:43:45] INFO root fetch - processPackages [databased]: Downloading https://files.pythonhosted.org/packages/ae/5c/e0e8f92086a4a917dab30dc1abd8e815f17e562310f425e02b2362cd577c/databased-2.4.1.tar.gz
+[2023-06-20 02:43:45] INFO root fetch - processPackages [useful-rdkit-utils]: executing diffoscope
+[2023-06-20 02:43:45] INFO root fetch - processPackages [useful-rdkit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/useful_rdkit_utils-0.2.6.tar.gz tmp/useful_rdkit_utils-0.2.7.tar.gz --markdown 20230620/u/useful-rdkit-utils/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-20 02:43:45] INFO root fetch - processPackages [headless]: executing diffoscope
+[2023-06-20 02:43:45] INFO root fetch - processPackages [headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headless-2.0.0a8.tar.gz tmp/headless-2.0.0a9.tar.gz --markdown 20230620/h/headless/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-20 02:43:45] INFO root fetch - processPackages [databased]: executing diffoscope
+[2023-06-20 02:43:45] INFO root fetch - processPackages [databased]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databased-2.4.0.tar.gz tmp/databased-2.4.1.tar.gz --markdown 20230620/d/databased/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-06-20 02:43:45] INFO root fetch - processPackages [ape-etherscan]: executing diffoscope
+[2023-06-20 02:43:45] INFO root fetch - processPackages [ape-etherscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-etherscan-0.6.6.tar.gz tmp/ape-etherscan-0.6.7.tar.gz --markdown 20230620/a/ape-etherscan/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-06-20 02:43:46] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-06-20 02:43:46] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-06-20 02:43:46] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-20 02:43:46] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2023-06-20 02:43:46] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2023-06-20 02:43:46] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-06-20 02:43:46] INFO root fetch - processPackages [useful-rdkit-utils]: Remove: archive file [/home/abi/fetcher/tmp/useful_rdkit_utils-0.2.6.tar.gz]
+[2023-06-20 02:43:46] INFO root fetch - processPackages [useful-rdkit-utils]: Remove: archive file [/home/abi/fetcher/tmp/useful_rdkit_utils-0.2.7.tar.gz]
+[2023-06-20 02:43:46] INFO root fetch - main [MainThread]: End processing [useful-rdkit-utils]: success
+[2023-06-20 02:43:46] INFO root fetch - processPackages [databased]: Remove: archive file [/home/abi/fetcher/tmp/databased-2.4.0.tar.gz]
+[2023-06-20 02:43:46] INFO root fetch - processPackages [databased]: Remove: archive file [/home/abi/fetcher/tmp/databased-2.4.1.tar.gz]
+[2023-06-20 02:43:46] INFO root fetch - main [MainThread]: End processing [databased]: success
+[2023-06-20 02:43:46] INFO root fetch - processPackages [ape-etherscan]: Remove: archive file [/home/abi/fetcher/tmp/ape-etherscan-0.6.6.tar.gz]
+[2023-06-20 02:43:46] INFO root fetch - processPackages [ape-etherscan]: Remove: archive file [/home/abi/fetcher/tmp/ape-etherscan-0.6.7.tar.gz]
+[2023-06-20 02:43:46] INFO root fetch - main [MainThread]: End processing [ape-etherscan]: success
+[2023-06-20 02:43:47] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a8.tar.gz]
+[2023-06-20 02:43:47] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a9.tar.gz]
+[2023-06-20 02:43:47] INFO root fetch - main [MainThread]: End processing [headless]: success
+[2023-06-20 02:43:47] INFO root fetch - main [MainThread]: Store serial: [18566912]
