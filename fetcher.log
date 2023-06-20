@@ -10027,3 +10027,150 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 04:56:50] INFO root fetch - processPackages [ros-cdk-config]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-config-1.0.9.tar.gz]
 [2023-06-20 04:56:50] INFO root fetch - main [MainThread]: End processing [ros-cdk-config]: success
 [2023-06-20 04:56:50] INFO root fetch - main [MainThread]: Store serial: [18569440]
+[2023-06-20 05:01:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18569440]
+[2023-06-20 05:02:01] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-config
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lightdash-client-python
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domain-admin
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-polardb
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: warn-scraper
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-ens
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-market20151101-py2
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: d20-securityLayer
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-ros
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-market20151101
+[2023-06-20 05:02:01] INFO root fetch - processPackages [lightdash-client-python]: New version: [0.621.0] Old Version: [0.619.1]
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ros-cdk-ens]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ros-cdk-config]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ros-cdk-polardb]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 05:02:01] INFO root fetch - processPackages [warn-scraper]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-20 05:02:01] INFO root fetch - processPackages [domain-admin]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ros-cdk-ros]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 05:02:01] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a6] Old Version: [2.0.0a5]
+[2023-06-20 05:02:01] INFO root fetch - processPackages [alibabacloud-market20151101]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-06-20 05:02:01] INFO root fetch - processPackages [alibabacloud-market20151101-py2]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ros-cdk-config]: Downloading https://files.pythonhosted.org/packages/d4/5a/f8765303b2fd1da8b35930f4447d67f950df629159ed5c2af871ec27d784/ros-cdk-config-1.0.8.tar.gz
+[2023-06-20 05:02:01] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/39/43/ad65f458bd0db354808fab4270c79f3880bd9a40bec9a85a0dca6be5dfd5/d20-securityLayer-2.0.0a5.tar.gz
+[2023-06-20 05:02:01] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/81/81/bf2fcdc6508b07e04b85808415455738640bbf3b2b4ed064328b94add2d6/domain-admin-1.4.1.tar.gz
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ros-cdk-config]: Downloading https://files.pythonhosted.org/packages/b9/53/464bc068dd4407a594e2d5ee0e12ad8b54d6123aaf91c2ac9c7b5b848947/ros-cdk-config-1.0.9.tar.gz
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ros-cdk-ens]: Downloading https://files.pythonhosted.org/packages/a9/49/0388e72a92545a76da89ef73fc54bdb328d78c72976eaa4260901b947033/ros-cdk-ens-1.0.8.tar.gz
+[2023-06-20 05:02:01] INFO root fetch - processPackages [lightdash-client-python]: Downloading https://files.pythonhosted.org/packages/76/3b/06bdb52230d2e0a035bcb7a75f3efb45cdcd6b3e0ca112818934116488db/lightdash_client_python-0.619.1.tar.gz
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ros-cdk-config]: executing diffoscope
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ros-cdk-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-config-1.0.8.tar.gz tmp/ros-cdk-config-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-config/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ros-cdk-polardb]: Downloading https://files.pythonhosted.org/packages/0f/c8/9a5db89a18dd5f161ed58b6d586eaadf865536c6a5fe35c121bf3e0efdda/ros-cdk-polardb-1.0.8.tar.gz
+[2023-06-20 05:02:01] INFO root fetch - processPackages [ros-cdk-ros]: Downloading https://files.pythonhosted.org/packages/fe/16/3541a9dcba437e9cafd5c436b98b068d92debe86fd83d92ad7e19f6023d9/ros-cdk-ros-1.0.8.tar.gz
+[2023-06-20 05:02:01] INFO root fetch - processPackages [alibabacloud-market20151101-py2]: Downloading https://files.pythonhosted.org/packages/4b/84/5c45ba36119965e96e63e7e2fd867ec217d3ec42d8b26b2708e0472e95d6/alibabacloud_market20151101_py2-3.0.2.tar.gz
+[2023-06-20 05:02:01] INFO root fetch - processPackages [alibabacloud-market20151101]: Downloading https://files.pythonhosted.org/packages/c1/fe/e88fbc5871be628c5fec863436ff9851e0e0ab32da288b379c48deb69ff1/alibabacloud_market20151101-3.0.2.tar.gz
+[2023-06-20 05:02:01] INFO root fetch - processPackages [warn-scraper]: Downloading https://files.pythonhosted.org/packages/e0/c6/78082c84fe2db93b0ed39a71343d447443d561043cf2679e57e033dd1461/warn-scraper-1.2.8.tar.gz
+[2023-06-20 05:02:01] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/9a/38/6fb53b9d68d0a88c4df66ec6b855aabb02f59418226767c65f5a5b312c61/d20-securityLayer-2.0.0a6.tar.gz
+[2023-06-20 05:02:01] INFO root fetch - processPackages [lightdash-client-python]: Downloading https://files.pythonhosted.org/packages/51/fd/ae61d03eeaefd03ebcb2a57b757fb1d4deace43b83c3c5be78d92e141c6b/lightdash_client_python-0.621.0.tar.gz
+[2023-06-20 05:02:01] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-06-20 05:02:01] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a5.tar.gz tmp/d20-securityLayer-2.0.0a6.tar.gz --markdown 20230620/d/d20-securityLayer/2.0.0a5-2.0.0a6/diff.md --exclude *.pyd
+[2023-06-20 05:02:02] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/26/da/e6435f031c0f2cc7c8d992a2354b142938e42f389a3cdf31563a2319ad90/domain-admin-1.4.2.tar.gz
+[2023-06-20 05:02:02] INFO root fetch - processPackages [alibabacloud-market20151101-py2]: Downloading https://files.pythonhosted.org/packages/57/68/f69459c10f1f09605e92a9f8c16deaf3713114d872fd679174199f641ddb/alibabacloud_market20151101_py2-3.0.3.tar.gz
+[2023-06-20 05:02:02] INFO root fetch - processPackages [ros-cdk-ens]: Downloading https://files.pythonhosted.org/packages/43/fc/efd68838d06b21d7a3bc760aa32b8c78e27681eb8f472ebb66139331c44c/ros-cdk-ens-1.0.9.tar.gz
+[2023-06-20 05:02:02] INFO root fetch - processPackages [alibabacloud-market20151101]: Downloading https://files.pythonhosted.org/packages/1c/3e/58132028a27bc8df08eec73982441cfe7a9e61f0b48ff960a980cec88cb0/alibabacloud_market20151101-3.0.3.tar.gz
+[2023-06-20 05:02:02] INFO root fetch - processPackages [ros-cdk-ros]: Downloading https://files.pythonhosted.org/packages/29/3a/415feed176461f1bdd0022d594fe89eca09769f1755fe0752ac62bdb6c58/ros-cdk-ros-1.0.9.tar.gz
+[2023-06-20 05:02:02] INFO root fetch - processPackages [alibabacloud-market20151101]: executing diffoscope
+[2023-06-20 05:02:02] INFO root fetch - processPackages [alibabacloud-market20151101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_market20151101-3.0.2.tar.gz tmp/alibabacloud_market20151101-3.0.3.tar.gz --markdown 20230620/a/alibabacloud-market20151101/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-06-20 05:02:02] INFO root fetch - processPackages [lightdash-client-python]: executing diffoscope
+[2023-06-20 05:02:02] INFO root fetch - processPackages [lightdash-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightdash_client_python-0.619.1.tar.gz tmp/lightdash_client_python-0.621.0.tar.gz --markdown 20230620/l/lightdash-client-python/0.619.1-0.621.0/diff.md --exclude *.pyd
+[2023-06-20 05:02:02] INFO root fetch - processPackages [ros-cdk-ens]: executing diffoscope
+[2023-06-20 05:02:02] INFO root fetch - processPackages [ros-cdk-ens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ens-1.0.8.tar.gz tmp/ros-cdk-ens-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-ens/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:02:02] INFO root fetch - processPackages [ros-cdk-ros]: executing diffoscope
+[2023-06-20 05:02:02] INFO root fetch - processPackages [ros-cdk-ros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ros-1.0.8.tar.gz tmp/ros-cdk-ros-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-ros/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:02:02] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-06-20 05:02:02] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.1.tar.gz tmp/domain-admin-1.4.2.tar.gz --markdown 20230620/d/domain-admin/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-20 05:02:02] INFO root fetch - processPackages [ros-cdk-polardb]: Downloading https://files.pythonhosted.org/packages/e2/12/7039c84cbcf40b6fcc004c1438f54386d07f7d7a5964d065f39645f43348/ros-cdk-polardb-1.0.9.tar.gz
+[2023-06-20 05:02:02] INFO root fetch - processPackages [alibabacloud-market20151101-py2]: executing diffoscope
+[2023-06-20 05:02:02] INFO root fetch - processPackages [alibabacloud-market20151101-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_market20151101_py2-3.0.2.tar.gz tmp/alibabacloud_market20151101_py2-3.0.3.tar.gz --markdown 20230620/a/alibabacloud-market20151101-py2/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-06-20 05:02:02] INFO root fetch - processPackages [ros-cdk-polardb]: executing diffoscope
+[2023-06-20 05:02:02] INFO root fetch - processPackages [ros-cdk-polardb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-polardb-1.0.8.tar.gz tmp/ros-cdk-polardb-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-polardb/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:02:02] INFO root fetch - processPackages [warn-scraper]: Downloading https://files.pythonhosted.org/packages/cd/7a/bb6f3b58470f7b98476c55086b15f7e210c85f4deeb183d40b74f760c779/warn-scraper-1.2.9.tar.gz
+[2023-06-20 05:02:03] INFO root fetch - processPackages [warn-scraper]: executing diffoscope
+[2023-06-20 05:02:03] INFO root fetch - processPackages [warn-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warn-scraper-1.2.8.tar.gz tmp/warn-scraper-1.2.9.tar.gz --markdown 20230620/w/warn-scraper/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-20 05:02:03] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a5.tar.gz]
+[2023-06-20 05:02:03] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a6.tar.gz]
+[2023-06-20 05:02:03] INFO root fetch - processPackages [d20-securityLayer]: Start processing: antchain-securitytech
+[2023-06-20 05:02:03] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-06-20 05:02:03] INFO root fetch - processPackages [antchain-securitytech]: New version: [1.1.4] Old Version: [1.1.11]
+[2023-06-20 05:02:03] INFO root fetch - processPackages [ros-cdk-ens]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ens-1.0.8.tar.gz]
+[2023-06-20 05:02:03] INFO root fetch - processPackages [ros-cdk-ens]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ens-1.0.9.tar.gz]
+[2023-06-20 05:02:03] INFO root fetch - processPackages [ros-cdk-ens]: Start processing: feriados-brasileiros
+[2023-06-20 05:02:03] INFO root fetch - main [MainThread]: End processing [ros-cdk-ens]: success
+[2023-06-20 05:02:03] INFO root fetch - processPackages [feriados-brasileiros]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-20 05:02:03] INFO root fetch - processPackages [antchain-securitytech]: Downloading https://files.pythonhosted.org/packages/3e/fd/52738ed256ae162a6af6b58caec7d4291944ab5978764c4fab272d7f0f1d/antchain_securitytech-1.1.11.tar.gz
+[2023-06-20 05:02:03] INFO root fetch - processPackages [ros-cdk-ros]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ros-1.0.8.tar.gz]
+[2023-06-20 05:02:03] INFO root fetch - processPackages [ros-cdk-ros]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ros-1.0.9.tar.gz]
+[2023-06-20 05:02:03] INFO root fetch - processPackages [ros-cdk-ros]: Start processing: picogo
+[2023-06-20 05:02:03] INFO root fetch - main [MainThread]: End processing [ros-cdk-ros]: success
+[2023-06-20 05:02:03] INFO root fetch - processPackages [picogo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 05:02:03] INFO root fetch - processPackages [feriados-brasileiros]: Downloading https://files.pythonhosted.org/packages/0d/f1/21447c492d690b02e82a111bd6420bfaa81fdbcb1dae38831ddaf3456080/feriados_brasileiros-0.0.4.tar.gz
+[2023-06-20 05:02:03] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/e0/c6/77373684ea1f516996aac52ca016925d0213e38509750abc53603201b2ca/picogo-0.0.8.tar.gz
+[2023-06-20 05:02:04] INFO root fetch - processPackages [antchain-securitytech]: Downloading https://files.pythonhosted.org/packages/85/74/de63acec3536bd154310d50577fc0677035373db22935abc972e5fc92b50/antchain_securitytech-1.1.4.tar.gz
+[2023-06-20 05:02:04] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/8e/0e/15b62bee1afe22a0f2411879a5c23ffe6e8cdfc8228a677dc7ce8e6bcfef/picogo-0.0.9.tar.gz
+[2023-06-20 05:02:04] INFO root fetch - processPackages [alibabacloud-market20151101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_market20151101-3.0.2.tar.gz]
+[2023-06-20 05:02:04] INFO root fetch - processPackages [alibabacloud-market20151101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_market20151101-3.0.3.tar.gz]
+[2023-06-20 05:02:04] INFO root fetch - processPackages [alibabacloud-market20151101]: Start processing: ros-cdk-resourcemanager
+[2023-06-20 05:02:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-market20151101]: success
+[2023-06-20 05:02:04] INFO root fetch - processPackages [ros-cdk-resourcemanager]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 05:02:04] INFO root fetch - processPackages [antchain-securitytech]: executing diffoscope
+[2023-06-20 05:02:04] INFO root fetch - processPackages [antchain-securitytech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_securitytech-1.1.11.tar.gz tmp/antchain_securitytech-1.1.4.tar.gz --markdown 20230620/a/antchain-securitytech/1.1.11-1.1.4/diff.md --exclude *.pyd
+[2023-06-20 05:02:04] INFO root fetch - processPackages [picogo]: executing diffoscope
+[2023-06-20 05:02:04] INFO root fetch - processPackages [picogo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picogo-0.0.8.tar.gz tmp/picogo-0.0.9.tar.gz --markdown 20230620/p/picogo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:02:04] INFO root fetch - processPackages [feriados-brasileiros]: Downloading https://files.pythonhosted.org/packages/1a/1a/2b4794496b5d43f6c427664fbf712dacba908d66f440f9c6cf1240e6aa1a/feriados_brasileiros-0.0.5.tar.gz
+[2023-06-20 05:02:04] INFO root fetch - processPackages [ros-cdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardb-1.0.8.tar.gz]
+[2023-06-20 05:02:04] INFO root fetch - processPackages [ros-cdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardb-1.0.9.tar.gz]
+[2023-06-20 05:02:04] INFO root fetch - processPackages [ros-cdk-polardb]: Start processing: vessl
+[2023-06-20 05:02:04] INFO root fetch - main [MainThread]: End processing [ros-cdk-polardb]: success
+[2023-06-20 05:02:04] INFO root fetch - processPackages [ros-cdk-config]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-config-1.0.8.tar.gz]
+[2023-06-20 05:02:04] INFO root fetch - processPackages [ros-cdk-config]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-config-1.0.9.tar.gz]
+[2023-06-20 05:02:04] INFO root fetch - processPackages [ros-cdk-config]: Start processing: d20-securityLayer
+[2023-06-20 05:02:04] INFO root fetch - main [MainThread]: End processing [ros-cdk-config]: success
+[2023-06-20 05:02:04] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a7] Old Version: [2.0.0a6]
+[2023-06-20 05:02:04] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-20 05:02:04] INFO root fetch - processPackages [feriados-brasileiros]: executing diffoscope
+[2023-06-20 05:02:04] INFO root fetch - processPackages [feriados-brasileiros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feriados_brasileiros-0.0.4.tar.gz tmp/feriados_brasileiros-0.0.5.tar.gz --markdown 20230620/f/feriados-brasileiros/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-20 05:02:04] INFO root fetch - processPackages [ros-cdk-resourcemanager]: Downloading https://files.pythonhosted.org/packages/ea/d4/41dc4df3979387f5363b04abeac772a2dc5cad91d72d6ed239f79ae787af/ros-cdk-resourcemanager-1.0.8.tar.gz
+[2023-06-20 05:02:04] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/9a/38/6fb53b9d68d0a88c4df66ec6b855aabb02f59418226767c65f5a5b312c61/d20-securityLayer-2.0.0a6.tar.gz
+[2023-06-20 05:02:04] INFO root fetch - processPackages [alibabacloud-market20151101-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_market20151101_py2-3.0.2.tar.gz]
+[2023-06-20 05:02:04] INFO root fetch - processPackages [alibabacloud-market20151101-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_market20151101_py2-3.0.3.tar.gz]
+[2023-06-20 05:02:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-market20151101-py2]: success
+[2023-06-20 05:02:04] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2023-06-20 05:02:04] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/91/ad/d531c21d1036f7fad29677f51becfd3b967343d9256c6d50252be260b30e/d20-securityLayer-2.0.0a7.tar.gz
+[2023-06-20 05:02:04] INFO root fetch - processPackages [ros-cdk-resourcemanager]: Downloading https://files.pythonhosted.org/packages/68/d7/0f5bf4ad63980275960221fb5a538dcf1e091552a537918fdba515755016/ros-cdk-resourcemanager-1.0.9.tar.gz
+[2023-06-20 05:02:04] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-06-20 05:02:04] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a6.tar.gz tmp/d20-securityLayer-2.0.0a7.tar.gz --markdown 20230620/d/d20-securityLayer/2.0.0a6-2.0.0a7/diff.md --exclude *.pyd
+[2023-06-20 05:02:04] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2023-06-20 05:02:04] INFO root fetch - processPackages [ros-cdk-resourcemanager]: executing diffoscope
+[2023-06-20 05:02:04] INFO root fetch - processPackages [ros-cdk-resourcemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-resourcemanager-1.0.8.tar.gz tmp/ros-cdk-resourcemanager-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-resourcemanager/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:02:05] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-06-20 05:02:05] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20230620/v/vessl/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-20 05:02:05] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.1.tar.gz]
+[2023-06-20 05:02:05] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.2.tar.gz]
+[2023-06-20 05:02:05] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-06-20 05:02:05] INFO root fetch - processPackages [antchain-securitytech]: Remove: archive file [/home/abi/fetcher/tmp/antchain_securitytech-1.1.11.tar.gz]
+[2023-06-20 05:02:05] INFO root fetch - processPackages [antchain-securitytech]: Remove: archive file [/home/abi/fetcher/tmp/antchain_securitytech-1.1.4.tar.gz]
+[2023-06-20 05:02:05] INFO root fetch - main [MainThread]: End processing [antchain-securitytech]: success
+[2023-06-20 05:02:05] INFO root fetch - processPackages [warn-scraper]: Remove: archive file [/home/abi/fetcher/tmp/warn-scraper-1.2.8.tar.gz]
+[2023-06-20 05:02:05] INFO root fetch - processPackages [warn-scraper]: Remove: archive file [/home/abi/fetcher/tmp/warn-scraper-1.2.9.tar.gz]
+[2023-06-20 05:02:05] INFO root fetch - main [MainThread]: End processing [warn-scraper]: success
+[2023-06-20 05:02:05] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.8.tar.gz]
+[2023-06-20 05:02:05] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.9.tar.gz]
+[2023-06-20 05:02:05] INFO root fetch - main [MainThread]: End processing [picogo]: success
+[2023-06-20 05:02:05] INFO root fetch - processPackages [feriados-brasileiros]: Remove: archive file [/home/abi/fetcher/tmp/feriados_brasileiros-0.0.4.tar.gz]
+[2023-06-20 05:02:05] INFO root fetch - processPackages [feriados-brasileiros]: Remove: archive file [/home/abi/fetcher/tmp/feriados_brasileiros-0.0.5.tar.gz]
+[2023-06-20 05:02:05] INFO root fetch - main [MainThread]: End processing [feriados-brasileiros]: success
+[2023-06-20 05:02:06] INFO root fetch - processPackages [ros-cdk-resourcemanager]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-resourcemanager-1.0.8.tar.gz]
+[2023-06-20 05:02:06] INFO root fetch - processPackages [ros-cdk-resourcemanager]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-resourcemanager-1.0.9.tar.gz]
+[2023-06-20 05:02:06] INFO root fetch - main [MainThread]: End processing [ros-cdk-resourcemanager]: success
+[2023-06-20 05:02:06] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a6.tar.gz]
+[2023-06-20 05:02:06] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a7.tar.gz]
+[2023-06-20 05:02:06] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-06-20 05:02:11] INFO root fetch - processPackages [lightdash-client-python]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_client_python-0.619.1.tar.gz]
+[2023-06-20 05:02:11] INFO root fetch - processPackages [lightdash-client-python]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_client_python-0.621.0.tar.gz]
+[2023-06-20 05:02:11] INFO root fetch - main [MainThread]: End processing [lightdash-client-python]: success
+[2023-06-20 05:02:12] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2023-06-20 05:02:12] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2023-06-20 05:02:12] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-06-20 05:02:12] INFO root fetch - main [MainThread]: Store serial: [18569480]
