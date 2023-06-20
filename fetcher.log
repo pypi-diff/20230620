@@ -10407,3 +10407,117 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 05:12:40] INFO root fetch - processPackages [hmfs]: Remove: archive file [/home/abi/fetcher/tmp/hmfs-1.1.6.tar.gz]
 [2023-06-20 05:12:40] INFO root fetch - main [MainThread]: End processing [hmfs]: success
 [2023-06-20 05:12:40] INFO root fetch - main [MainThread]: Store serial: [18569564]
+[2023-06-20 05:17:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18569564]
+[2023-06-20 05:17:49] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-hbr
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-ehpc
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gaohn-common-utils
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GANDLF
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mouseTrackGenerate
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-ebs
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf-cdktf-provider-acme
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-ots
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: picogo
+[2023-06-20 05:17:49] INFO root fetch - processPackages [picogo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 05:17:49] WARNING root fetch - processPackages [mouseTrackGenerate]: Skipping, unable to determine old version
+[2023-06-20 05:17:49] INFO root fetch - processPackages [mouseTrackGenerate]: Start processing: dramatiq-kafka
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ros-cdk-ebs]: New version: [1.0.9] Old Version: [1.0.14]
+[2023-06-20 05:17:49] INFO root fetch - main [MainThread]: End processing [mouseTrackGenerate] error
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ros-cdk-ots]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ros-cdk-hbr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 05:17:49] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.68] Old Version: [0.0.67]
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ros-cdk-ehpc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 05:17:49] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230620] Old Version: [0.0.17.dev20230619]
+[2023-06-20 05:17:49] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-20 05:17:49] INFO root fetch - processPackages [dramatiq-kafka]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-20 05:17:49] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-20 05:17:49] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/e0/c6/77373684ea1f516996aac52ca016925d0213e38509750abc53603201b2ca/picogo-0.0.8.tar.gz
+[2023-06-20 05:17:49] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/72/d5/90e046e911da8e08ac78cd2a9a81783fcec31fce69f9cfe6b0c7f6d6a444/gaohn-common-utils-0.0.67.tar.gz
+[2023-06-20 05:17:49] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-06-20 05:17:49] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: Downloading https://files.pythonhosted.org/packages/de/39/a79b7b016a39e31aa66d73f962f62be15372218930767b3d76d3be7fb9de/cdktf-cdktf-provider-acme-7.0.0.tar.gz
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ros-cdk-ebs]: Downloading https://files.pythonhosted.org/packages/6d/d5/de8f3df978edd35ffdd175bc7ed640a59d1acd94c3ed1a08784436023919/ros-cdk-ebs-1.0.14.tar.gz
+[2023-06-20 05:17:49] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/8e/0e/15b62bee1afe22a0f2411879a5c23ffe6e8cdfc8228a677dc7ce8e6bcfef/picogo-0.0.9.tar.gz
+[2023-06-20 05:17:49] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/1a/6c/3b9203fd17651f5b0bc27e2892c2d0e863616134fa890fc90ab62e4b61e2/GANDLF-0.0.17.dev20230619.tar.gz
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ros-cdk-ehpc]: Downloading https://files.pythonhosted.org/packages/5f/fb/da450a6f4356330477bdd5c858b95f464547b579cbe4a5f9ec7d42ef528c/ros-cdk-ehpc-1.0.8.tar.gz
+[2023-06-20 05:17:49] INFO root fetch - processPackages [dramatiq-kafka]: Downloading https://files.pythonhosted.org/packages/dd/a5/ac20a693baa40938aaca2fa15de60eed96c7312bb99e6506f0b3c7f5ac0e/dramatiq_kafka-0.1.4.tar.gz
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ros-cdk-ots]: Downloading https://files.pythonhosted.org/packages/3b/93/ae1fb3cf7a5549ee4bc3b3b2230d7ce48976c5fde905db888ea3776314dc/ros-cdk-ots-1.0.8.tar.gz
+[2023-06-20 05:17:49] INFO root fetch - processPackages [picogo]: executing diffoscope
+[2023-06-20 05:17:49] INFO root fetch - processPackages [picogo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picogo-0.0.8.tar.gz tmp/picogo-0.0.9.tar.gz --markdown 20230620/p/picogo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:17:49] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-06-20 05:17:49] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-06-20 05:17:49] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230620/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-20 05:17:49] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/b2/c1/8a1a14a38cc3b653e2578c7bb8a2fce4469dc0426b552356b2bc6c4b6e8b/gaohn-common-utils-0.0.68.tar.gz
+[2023-06-20 05:17:49] INFO root fetch - processPackages [dramatiq-kafka]: Downloading https://files.pythonhosted.org/packages/b3/f6/15a20dfccdfe72695b25f74a4d31ec6ac2fc0bdd94b2298b352a2bdce8e0/dramatiq_kafka-0.1.5.tar.gz
+[2023-06-20 05:17:49] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/d9/f4/8b4fa2dad2eb0547ce3d0862346398348915eaee8e0bd206cd53010d2d86/GANDLF-0.0.17.dev20230620.tar.gz
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ros-cdk-ebs]: Downloading https://files.pythonhosted.org/packages/ac/f5/c09a1e996ab49328f3c78ec50beac2015947a84bfd2a58ea6e02c39fe905/ros-cdk-ebs-1.0.9.tar.gz
+[2023-06-20 05:17:49] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-20 05:17:49] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.67.tar.gz tmp/gaohn-common-utils-0.0.68.tar.gz --markdown 20230620/g/gaohn-common-utils/0.0.67-0.0.68/diff.md --exclude *.pyd
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ros-cdk-hbr]: Downloading https://files.pythonhosted.org/packages/49/64/279148fbb55572b78b414f302d6ce074d8ea2e0e1a80d5f9647274368573/ros-cdk-hbr-1.0.8.tar.gz
+[2023-06-20 05:17:49] INFO root fetch - processPackages [dramatiq-kafka]: executing diffoscope
+[2023-06-20 05:17:49] INFO root fetch - processPackages [dramatiq-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dramatiq_kafka-0.1.4.tar.gz tmp/dramatiq_kafka-0.1.5.tar.gz --markdown 20230620/d/dramatiq-kafka/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ros-cdk-ehpc]: Downloading https://files.pythonhosted.org/packages/95/74/ef0ec11d36690065c29a58d9f825e84280097ee058c6ea482be4acad5fc9/ros-cdk-ehpc-1.0.9.tar.gz
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ros-cdk-ebs]: executing diffoscope
+[2023-06-20 05:17:49] INFO root fetch - processPackages [ros-cdk-ebs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ebs-1.0.14.tar.gz tmp/ros-cdk-ebs-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-ebs/1.0.14-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:17:49] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-06-20 05:17:49] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230619.tar.gz tmp/GANDLF-0.0.17.dev20230620.tar.gz --markdown 20230620/G/GANDLF/0.0.17.dev20230619-0.0.17.dev20230620/diff.md --exclude *.pyd
+[2023-06-20 05:17:50] INFO root fetch - processPackages [ros-cdk-ots]: Downloading https://files.pythonhosted.org/packages/0c/41/781713882f6cd0475dfbd98ad1cea7e3afc83cbf15cae9582ca15ae23988/ros-cdk-ots-1.0.9.tar.gz
+[2023-06-20 05:17:50] INFO root fetch - processPackages [ros-cdk-ehpc]: executing diffoscope
+[2023-06-20 05:17:50] INFO root fetch - processPackages [ros-cdk-ehpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ehpc-1.0.8.tar.gz tmp/ros-cdk-ehpc-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-ehpc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:17:50] INFO root fetch - processPackages [ros-cdk-ots]: executing diffoscope
+[2023-06-20 05:17:50] INFO root fetch - processPackages [ros-cdk-ots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ots-1.0.8.tar.gz tmp/ros-cdk-ots-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-ots/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:17:50] INFO root fetch - processPackages [ros-cdk-hbr]: Downloading https://files.pythonhosted.org/packages/28/9e/4b34515ec580b138f51e6d9794b98f7420254b277417f61d68a933c4abd2/ros-cdk-hbr-1.0.9.tar.gz
+[2023-06-20 05:17:50] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: Downloading https://files.pythonhosted.org/packages/78/cd/5d6d434bbe55248d571697365169cc1ded20ed87225200d62c8941d262f1/cdktf-cdktf-provider-acme-8.0.0.tar.gz
+[2023-06-20 05:17:50] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: executing diffoscope
+[2023-06-20 05:17:50] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-acme-7.0.0.tar.gz tmp/cdktf-cdktf-provider-acme-8.0.0.tar.gz --markdown 20230620/c/cdktf-cdktf-provider-acme/7.0.0-8.0.0/diff.md --exclude *.pyd
+[2023-06-20 05:17:50] INFO root fetch - processPackages [ros-cdk-hbr]: executing diffoscope
+[2023-06-20 05:17:50] INFO root fetch - processPackages [ros-cdk-hbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-hbr-1.0.8.tar.gz tmp/ros-cdk-hbr-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-hbr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:17:51] INFO root fetch - processPackages [dramatiq-kafka]: Remove: archive file [/home/abi/fetcher/tmp/dramatiq_kafka-0.1.4.tar.gz]
+[2023-06-20 05:17:51] INFO root fetch - processPackages [dramatiq-kafka]: Remove: archive file [/home/abi/fetcher/tmp/dramatiq_kafka-0.1.5.tar.gz]
+[2023-06-20 05:17:51] INFO root fetch - processPackages [dramatiq-kafka]: Start processing: data-science-toolkit
+[2023-06-20 05:17:51] INFO root fetch - main [MainThread]: End processing [dramatiq-kafka]: success
+[2023-06-20 05:17:51] INFO root fetch - processPackages [data-science-toolkit]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-20 05:17:51] INFO root fetch - processPackages [data-science-toolkit]: Downloading https://files.pythonhosted.org/packages/38/2f/44e4cb9c1e800b0a319c8801b4913bcb954e51268d493544859da85ecfd7/data-science-toolkit-0.1.3.tar.gz
+[2023-06-20 05:17:51] INFO root fetch - processPackages [ros-cdk-ots]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ots-1.0.8.tar.gz]
+[2023-06-20 05:17:51] INFO root fetch - processPackages [ros-cdk-ots]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ots-1.0.9.tar.gz]
+[2023-06-20 05:17:51] INFO root fetch - processPackages [ros-cdk-ots]: Start processing: python-selenium-ctrl-package
+[2023-06-20 05:17:51] INFO root fetch - main [MainThread]: End processing [ros-cdk-ots]: success
+[2023-06-20 05:17:51] INFO root fetch - processPackages [ros-cdk-ehpc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ehpc-1.0.8.tar.gz]
+[2023-06-20 05:17:51] INFO root fetch - processPackages [ros-cdk-ehpc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ehpc-1.0.9.tar.gz]
+[2023-06-20 05:17:51] INFO root fetch - main [MainThread]: End processing [ros-cdk-ehpc]: success
+[2023-06-20 05:17:51] INFO root fetch - processPackages [python-selenium-ctrl-package]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-20 05:17:51] INFO root fetch - processPackages [python-selenium-ctrl-package]: Downloading https://files.pythonhosted.org/packages/90/94/0529f91b7cea9383eac1c51b125e64fa1c81b8d426d0f59a11b514d8002c/python_selenium_ctrl_package-0.0.98.tar.gz
+[2023-06-20 05:17:51] INFO root fetch - processPackages [data-science-toolkit]: Downloading https://files.pythonhosted.org/packages/18/c1/7659d90f5273ddddac11b5fab93469276c204f2a4180b4dcc99f72f8b4f6/data-science-toolkit-0.1.4.tar.gz
+[2023-06-20 05:17:51] INFO root fetch - processPackages [ros-cdk-ebs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ebs-1.0.14.tar.gz]
+[2023-06-20 05:17:51] INFO root fetch - processPackages [ros-cdk-ebs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ebs-1.0.9.tar.gz]
+[2023-06-20 05:17:51] INFO root fetch - main [MainThread]: End processing [ros-cdk-ebs]: success
+[2023-06-20 05:17:51] INFO root fetch - processPackages [python-selenium-ctrl-package]: Downloading https://files.pythonhosted.org/packages/17/bd/a72156bf8bda13c88a0737151e6ac45509dc454537576bdcc97c761ce4de/python_selenium_ctrl_package-0.0.99.tar.gz
+[2023-06-20 05:17:51] INFO root fetch - processPackages [ros-cdk-hbr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-hbr-1.0.8.tar.gz]
+[2023-06-20 05:17:51] INFO root fetch - processPackages [ros-cdk-hbr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-hbr-1.0.9.tar.gz]
+[2023-06-20 05:17:51] INFO root fetch - main [MainThread]: End processing [ros-cdk-hbr]: success
+[2023-06-20 05:17:51] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.67.tar.gz]
+[2023-06-20 05:17:51] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.68.tar.gz]
+[2023-06-20 05:17:51] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-20 05:17:52] INFO root fetch - processPackages [data-science-toolkit]: executing diffoscope
+[2023-06-20 05:17:52] INFO root fetch - processPackages [data-science-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-science-toolkit-0.1.3.tar.gz tmp/data-science-toolkit-0.1.4.tar.gz --markdown 20230620/d/data-science-toolkit/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-20 05:17:52] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-acme-7.0.0.tar.gz]
+[2023-06-20 05:17:52] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-acme-8.0.0.tar.gz]
+[2023-06-20 05:17:52] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-acme]: success
+[2023-06-20 05:17:52] INFO root fetch - processPackages [python-selenium-ctrl-package]: executing diffoscope
+[2023-06-20 05:17:52] INFO root fetch - processPackages [python-selenium-ctrl-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_selenium_ctrl_package-0.0.98.tar.gz tmp/python_selenium_ctrl_package-0.0.99.tar.gz --markdown 20230620/p/python-selenium-ctrl-package/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 05:17:52] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.8.tar.gz]
+[2023-06-20 05:17:52] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.9.tar.gz]
+[2023-06-20 05:17:52] INFO root fetch - main [MainThread]: End processing [picogo]: success
+[2023-06-20 05:17:52] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-06-20 05:17:52] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-06-20 05:17:52] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-06-20 05:17:53] INFO root fetch - processPackages [data-science-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/data-science-toolkit-0.1.3.tar.gz]
+[2023-06-20 05:17:53] INFO root fetch - processPackages [data-science-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/data-science-toolkit-0.1.4.tar.gz]
+[2023-06-20 05:17:53] INFO root fetch - main [MainThread]: End processing [data-science-toolkit]: success
+[2023-06-20 05:17:53] INFO root fetch - processPackages [python-selenium-ctrl-package]: Remove: archive file [/home/abi/fetcher/tmp/python_selenium_ctrl_package-0.0.98.tar.gz]
+[2023-06-20 05:17:53] INFO root fetch - processPackages [python-selenium-ctrl-package]: Remove: archive file [/home/abi/fetcher/tmp/python_selenium_ctrl_package-0.0.99.tar.gz]
+[2023-06-20 05:17:53] INFO root fetch - main [MainThread]: End processing [python-selenium-ctrl-package]: success
+[2023-06-20 05:17:54] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230619.tar.gz]
+[2023-06-20 05:17:54] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230620.tar.gz]
+[2023-06-20 05:17:54] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-06-20 05:17:54] INFO root fetch - main [MainThread]: Store serial: [18569601]
