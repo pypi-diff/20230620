@@ -6621,3 +6621,61 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 03:51:15] INFO root fetch - processPackages [keyring]: Remove: archive file [/home/abi/fetcher/tmp/keyring-9.3.1.tar.gz]
 [2023-06-20 03:51:15] INFO root fetch - main [MainThread]: End processing [keyring]: success
 [2023-06-20 03:51:15] INFO root fetch - main [MainThread]: Store serial: [18568319]
+[2023-06-20 03:56:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18568319]
+[2023-06-20 03:56:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-20 03:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mycoinlib
+[2023-06-20 03:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reliableGPT
+[2023-06-20 03:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-assembly-schema
+[2023-06-20 03:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-cxapi
+[2023-06-20 03:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mycoinlib
+[2023-06-20 03:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pygis
+[2023-06-20 03:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-core
+[2023-06-20 03:56:25] INFO root fetch - processPackages [mycoinlib]: New version: [0.9] Old Version: [0.8]
+[2023-06-20 03:56:25] INFO root fetch - processPackages [mycoinlib]: New version: [0.9] Old Version: [0.8]
+[2023-06-20 03:56:25] INFO root fetch - processPackages [ros-cdk-assembly-schema]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 03:56:25] INFO root fetch - processPackages [pygis]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-20 03:56:25] INFO root fetch - processPackages [ros-cdk-cxapi]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 03:56:25] WARNING root fetch - processPackages [reliableGPT]: Skipping, unable to determine old version
+[2023-06-20 03:56:25] INFO root fetch - main [MainThread]: End processing [reliableGPT] error
+[2023-06-20 03:56:25] INFO root fetch - processPackages [ros-cdk-core]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 03:56:25] INFO root fetch - processPackages [mycoinlib]: Downloading https://files.pythonhosted.org/packages/f1/44/7f3193fed1510f07497b089c906d3dffa9c36ba075adefbd93ebdfca9348/mycoinlib-0.8.tar.gz
+[2023-06-20 03:56:25] INFO root fetch - processPackages [mycoinlib]: Downloading https://files.pythonhosted.org/packages/f1/44/7f3193fed1510f07497b089c906d3dffa9c36ba075adefbd93ebdfca9348/mycoinlib-0.8.tar.gz
+[2023-06-20 03:56:25] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Downloading https://files.pythonhosted.org/packages/69/c7/844c7616a479dbd33dba633da09bb99b6647c86e91d4ebf7a7bf8e50d64a/ros-cdk-assembly-schema-1.0.8.tar.gz
+[2023-06-20 03:56:25] INFO root fetch - processPackages [pygis]: Downloading https://files.pythonhosted.org/packages/ee/61/848c6923db217fabb8586903f9b14e704db18167f4e85d85c07212174c3b/pygis-0.5.0.tar.gz
+[2023-06-20 03:56:25] INFO root fetch - processPackages [ros-cdk-cxapi]: Downloading https://files.pythonhosted.org/packages/1f/e6/dd583ddab582d1221ee1a969c71696b74f6d06ac7793da54d7549f70cf57/ros-cdk-cxapi-1.0.8.tar.gz
+[2023-06-20 03:56:25] INFO root fetch - processPackages [ros-cdk-core]: Downloading https://files.pythonhosted.org/packages/8e/b2/5b8e95b2e309ee94dc0d4001ae038e4d33f467a99ee7cd5607248d0f7b9e/ros-cdk-core-1.0.8.tar.gz
+[2023-06-20 03:56:25] INFO root fetch - processPackages [mycoinlib]: Downloading https://files.pythonhosted.org/packages/5f/12/0519962fd430dc32d9e438dfcc82b850920ac6a5669751f7e3cc31130183/mycoinlib-0.9.tar.gz
+[2023-06-20 03:56:25] INFO root fetch - processPackages [mycoinlib]: Downloading https://files.pythonhosted.org/packages/5f/12/0519962fd430dc32d9e438dfcc82b850920ac6a5669751f7e3cc31130183/mycoinlib-0.9.tar.gz
+[2023-06-20 03:56:26] INFO root fetch - processPackages [pygis]: Downloading https://files.pythonhosted.org/packages/5b/5f/be39171db50c91e3dad027788667ead656d505538527e375bc10adc4b03b/pygis-0.6.0.tar.gz
+[2023-06-20 03:56:26] INFO root fetch - processPackages [mycoinlib]: executing diffoscope
+[2023-06-20 03:56:26] INFO root fetch - processPackages [mycoinlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycoinlib-0.8.tar.gz tmp/mycoinlib-0.9.tar.gz --markdown 20230620/m/mycoinlib/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-20 03:56:26] INFO root fetch - processPackages [mycoinlib]: executing diffoscope
+[2023-06-20 03:56:26] INFO root fetch - processPackages [mycoinlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycoinlib-0.8.tar.gz tmp/mycoinlib-0.9.tar.gz --markdown 20230620/m/mycoinlib/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-20 03:56:26] INFO root fetch - processPackages [ros-cdk-cxapi]: Downloading https://files.pythonhosted.org/packages/05/55/8d7adff1d9a900e400ca314b191384110e8121856571cb39beb715207859/ros-cdk-cxapi-1.0.9.tar.gz
+[2023-06-20 03:56:26] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Downloading https://files.pythonhosted.org/packages/2b/83/1e959ec26eed4d2aa4034c97ab2977a82364f27f03651d9841a04d9defe4/ros-cdk-assembly-schema-1.0.9.tar.gz
+[2023-06-20 03:56:26] INFO root fetch - processPackages [pygis]: executing diffoscope
+[2023-06-20 03:56:26] INFO root fetch - processPackages [pygis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygis-0.5.0.tar.gz tmp/pygis-0.6.0.tar.gz --markdown 20230620/p/pygis/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-20 03:56:26] INFO root fetch - processPackages [ros-cdk-core]: Downloading https://files.pythonhosted.org/packages/3b/0f/07a63c14f29091bf122a8f24d6cca124f8b20a91fce17451b0ef6cd7b85b/ros-cdk-core-1.0.9.tar.gz
+[2023-06-20 03:56:26] INFO root fetch - processPackages [ros-cdk-assembly-schema]: executing diffoscope
+[2023-06-20 03:56:26] INFO root fetch - processPackages [ros-cdk-assembly-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-assembly-schema-1.0.8.tar.gz tmp/ros-cdk-assembly-schema-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-assembly-schema/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 03:56:26] INFO root fetch - processPackages [ros-cdk-core]: executing diffoscope
+[2023-06-20 03:56:26] INFO root fetch - processPackages [ros-cdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-core-1.0.8.tar.gz tmp/ros-cdk-core-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-core/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 03:56:26] INFO root fetch - processPackages [ros-cdk-cxapi]: executing diffoscope
+[2023-06-20 03:56:26] INFO root fetch - processPackages [ros-cdk-cxapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cxapi-1.0.8.tar.gz tmp/ros-cdk-cxapi-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-cxapi/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 03:56:27] INFO root fetch - processPackages [mycoinlib]: Remove: archive file [/home/abi/fetcher/tmp/mycoinlib-0.8.tar.gz]
+[2023-06-20 03:56:27] INFO root fetch - processPackages [mycoinlib]: Remove: archive file [/home/abi/fetcher/tmp/mycoinlib-0.9.tar.gz]
+[2023-06-20 03:56:27] INFO root fetch - main [MainThread]: End processing [mycoinlib]: success
+[2023-06-20 03:56:27] INFO root fetch - main [MainThread]: End processing [mycoinlib]: success
+[2023-06-20 03:56:27] INFO root fetch - processPackages [pygis]: Remove: archive file [/home/abi/fetcher/tmp/pygis-0.5.0.tar.gz]
+[2023-06-20 03:56:27] INFO root fetch - processPackages [pygis]: Remove: archive file [/home/abi/fetcher/tmp/pygis-0.6.0.tar.gz]
+[2023-06-20 03:56:27] INFO root fetch - main [MainThread]: End processing [pygis]: success
+[2023-06-20 03:56:27] INFO root fetch - processPackages [ros-cdk-core]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-core-1.0.8.tar.gz]
+[2023-06-20 03:56:27] INFO root fetch - processPackages [ros-cdk-core]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-core-1.0.9.tar.gz]
+[2023-06-20 03:56:27] INFO root fetch - main [MainThread]: End processing [ros-cdk-core]: success
+[2023-06-20 03:56:27] INFO root fetch - processPackages [ros-cdk-cxapi]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cxapi-1.0.8.tar.gz]
+[2023-06-20 03:56:27] INFO root fetch - processPackages [ros-cdk-cxapi]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cxapi-1.0.9.tar.gz]
+[2023-06-20 03:56:27] INFO root fetch - main [MainThread]: End processing [ros-cdk-cxapi]: success
+[2023-06-20 03:56:27] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-assembly-schema-1.0.8.tar.gz]
+[2023-06-20 03:56:27] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-assembly-schema-1.0.9.tar.gz]
+[2023-06-20 03:56:27] INFO root fetch - main [MainThread]: End processing [ros-cdk-assembly-schema]: success
+[2023-06-20 03:56:27] INFO root fetch - main [MainThread]: Store serial: [18568340]
