@@ -17783,3 +17783,122 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 11:36:03] INFO root fetch - processPackages [app-ocr]: Remove: archive file [/home/abi/fetcher/tmp/app_ocr-1.0.8.tar.gz]
 [2023-06-20 11:36:03] INFO root fetch - main [MainThread]: End processing [app-ocr]: success
 [2023-06-20 11:36:03] INFO root fetch - main [MainThread]: Store serial: [18572635]
+[2023-06-20 11:41:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18572635]
+[2023-06-20 11:41:13] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-20 11:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whiffle-client
+[2023-06-20 11:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysui
+[2023-06-20 11:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AlgorithmLib
+[2023-06-20 11:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gameyamlspiderandgenerator
+[2023-06-20 11:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smsmanpy
+[2023-06-20 11:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dearwatson
+[2023-06-20 11:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shopee-mesos-cli-service
+[2023-06-20 11:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: 0011
+[2023-06-20 11:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shopee-mesos-cli-edge-container
+[2023-06-20 11:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bkapi-plugins-py
+[2023-06-20 11:41:13] WARNING root fetch - processPackages [whiffle-client]: Skipping, unable to determine old version
+[2023-06-20 11:41:13] INFO root fetch - processPackages [whiffle-client]: Start processing: shopee-mesos-cli-eks
+[2023-06-20 11:41:13] INFO root fetch - main [MainThread]: End processing [whiffle-client] error
+[2023-06-20 11:41:13] INFO root fetch - processPackages [bkapi-plugins-py]: New version: [0.620] Old Version: [0.6140]
+[2023-06-20 11:41:13] INFO root fetch - processPackages [smsmanpy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-20 11:41:13] INFO root fetch - processPackages [pysui]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-20 11:41:13] WARNING root fetch - processPackages [0011]: Skipping, unable to determine old version
+[2023-06-20 11:41:13] INFO root fetch - processPackages [gameyamlspiderandgenerator]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-06-20 11:41:13] INFO root fetch - processPackages [AlgorithmLib]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-06-20 11:41:13] INFO root fetch - processPackages [0011]: Start processing: unitlab
+[2023-06-20 11:41:13] INFO root fetch - processPackages [dearwatson]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-06-20 11:41:13] INFO root fetch - main [MainThread]: End processing [0011] error
+[2023-06-20 11:41:13] INFO root fetch - processPackages [unitlab]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-20 11:41:13] INFO root fetch - processPackages [smsmanpy]: Downloading https://files.pythonhosted.org/packages/f3/4c/16c8d1c2dbebd3224238d86a7f39bf121b59831758f0a5da662f9158d938/smsmanpy-0.0.3.tar.gz
+[2023-06-20 11:41:13] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/7b/92/eef5cb71a2e1c16525a7d60927cfcb59ffdb3e90193bb50e053e238d4c0d/gameyamlspiderandgenerator-1.6.5.tar.gz
+[2023-06-20 11:41:13] WARNING root fetch - processPackages [shopee-mesos-cli-eks]: Skipping, unable to determine old version
+[2023-06-20 11:41:13] INFO root fetch - processPackages [shopee-mesos-cli-eks]: Start processing: Denoising-Diffusion-Probabilistic-Models
+[2023-06-20 11:41:13] WARNING root fetch - processPackages [shopee-mesos-cli-service]: Skipping, unable to determine old version
+[2023-06-20 11:41:13] INFO root fetch - main [MainThread]: End processing [shopee-mesos-cli-eks] error
+[2023-06-20 11:41:13] INFO root fetch - processPackages [shopee-mesos-cli-service]: Start processing: pymavlog
+[2023-06-20 11:41:13] INFO root fetch - main [MainThread]: End processing [shopee-mesos-cli-service] error
+[2023-06-20 11:41:13] WARNING root fetch - processPackages [shopee-mesos-cli-edge-container]: Skipping, unable to determine old version
+[2023-06-20 11:41:13] INFO root fetch - processPackages [shopee-mesos-cli-edge-container]: Start processing: all-fives-domino
+[2023-06-20 11:41:13] INFO root fetch - main [MainThread]: End processing [shopee-mesos-cli-edge-container] error
+[2023-06-20 11:41:13] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: New version: [0.0.0.6] Old Version: [0.0.0.4]
+[2023-06-20 11:41:13] INFO root fetch - processPackages [pymavlog]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-20 11:41:14] INFO root fetch - processPackages [all-fives-domino]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 11:41:14] INFO root fetch - processPackages [AlgorithmLib]: Downloading https://files.pythonhosted.org/packages/78/f1/2fbac4aa9ef115eda50059c81431330d595bbf744e9ac898466afc3a85ee/AlgorithmLib-3.9.8.tar.gz
+[2023-06-20 11:41:14] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/d0/83/273e8bd731b315bb51c3dac21452e977586a1da34f325da5bfbce8d83fbe/bkapi-plugins-py-0.6140.tar.gz
+[2023-06-20 11:41:14] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Downloading https://files.pythonhosted.org/packages/8b/02/f05e6dce370699eefdacfef50b52ec626935caca3078a21959e5923b0eee/Denoising_Diffusion_Probabilistic_Models-0.0.0.4-py3-none-any.whl
+[2023-06-20 11:41:14] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/df/fd/8060c20cdf32607400911d43fc627a8bf48fe7571dc1992ab190b3274d7b/pysui-0.8.0-py3-none-any.whl
+[2023-06-20 11:41:14] INFO root fetch - processPackages [dearwatson]: Downloading https://files.pythonhosted.org/packages/91/c5/e0e2db527f16e297732b5f11e5623bea12f5f3cbb82927f1e2d5913afa48/dearwatson-0.7.7.tar.gz
+[2023-06-20 11:41:14] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/3e/3c/3157bea07daf6e1e26fdf0f1b800236d7059f68d88274e7db5cac3550d37/unitlab-1.9.1.tar.gz
+[2023-06-20 11:41:14] INFO root fetch - processPackages [smsmanpy]: Downloading https://files.pythonhosted.org/packages/4f/51/4df92b48799424862370e8e527f287ea95544391492ac90a9d91336dcd73/smsmanpy-0.0.4.tar.gz
+[2023-06-20 11:41:14] INFO root fetch - processPackages [pymavlog]: Downloading https://files.pythonhosted.org/packages/8e/c7/a08ac96eaa920e626049e116dbfcd54391945244ced8ca8484d4112a2c3c/pymavlog-0.3.1.tar.gz
+[2023-06-20 11:41:14] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/46/da/17223e3a7cdee6d9f3f2d80b31ff8e65847cf3013f1ca22481c8402c162f/gameyamlspiderandgenerator-1.6.6.tar.gz
+[2023-06-20 11:41:14] INFO root fetch - processPackages [all-fives-domino]: Downloading https://files.pythonhosted.org/packages/b0/52/b5d4c7754d345be0028abf1388bdf34efa036ba8d8290b95d758d1c1a674/all-fives-domino-1.0.8.tar.gz
+[2023-06-20 11:41:14] WARNING root fetch - processPackages [AlgorithmLib]: Skipping package: exceeds size limit 14952675>=10485760
+[2023-06-20 11:41:14] INFO root fetch - processPackages [AlgorithmLib]: Start processing: api-inference-community
+[2023-06-20 11:41:14] INFO root fetch - main [MainThread]: End processing [AlgorithmLib] error
+[2023-06-20 11:41:14] INFO root fetch - processPackages [smsmanpy]: executing diffoscope
+[2023-06-20 11:41:14] INFO root fetch - processPackages [smsmanpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smsmanpy-0.0.3.tar.gz tmp/smsmanpy-0.0.4.tar.gz --markdown 20230620/s/smsmanpy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-20 11:41:14] INFO root fetch - processPackages [gameyamlspiderandgenerator]: executing diffoscope
+[2023-06-20 11:41:14] INFO root fetch - processPackages [gameyamlspiderandgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameyamlspiderandgenerator-1.6.5.tar.gz tmp/gameyamlspiderandgenerator-1.6.6.tar.gz --markdown 20230620/g/gameyamlspiderandgenerator/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-06-20 11:41:14] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Downloading https://files.pythonhosted.org/packages/5a/c0/9eb8e3ff215c983472870aa3459bb701770004d9f4b2256d5e4dec571a89/Denoising_Diffusion_Probabilistic_Models-0.0.0.6-py3-none-any.whl
+[2023-06-20 11:41:14] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/c4/5a/9f9357c50a4afaa4acd202005fd060eab305656a2f5461232e8c6f168d36/unitlab-1.9.2.tar.gz
+[2023-06-20 11:41:14] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/aa/e8/3b74954ed8eac37178ab28743126241081f569b6efd283c59d379866cd72/bkapi-plugins-py-0.620.tar.gz
+[2023-06-20 11:41:14] INFO root fetch - processPackages [api-inference-community]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 11:41:14] INFO root fetch - processPackages [dearwatson]: Downloading https://files.pythonhosted.org/packages/9d/37/dcc110ead9488fbe89c7cade30b859eb8781d23150b34bdfba665daec2f7/dearwatson-0.7.8.tar.gz
+[2023-06-20 11:41:14] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/d0/d5/e2108ab88d1f544ccab9554dcf4127133263950ae9c3e3912ab5bb6db12a/pysui-0.9.0-py3-none-any.whl
+[2023-06-20 11:41:14] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: executing diffoscope
+[2023-06-20 11:41:14] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.4-py3-none-any.whl.zip tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.6-py3-none-any.whl.zip --markdown 20230620/D/Denoising-Diffusion-Probabilistic-Models/0.0.0.4-0.0.0.6/diff.md --exclude *.pyd
+[2023-06-20 11:41:14] WARNING root fetch - processPackages [bkapi-plugins-py]: Skipping package: exceeds size limit 15235569>=10485760
+[2023-06-20 11:41:14] INFO root fetch - processPackages [bkapi-plugins-py]: Start processing: sftpoeb
+[2023-06-20 11:41:14] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py] error
+[2023-06-20 11:41:14] INFO root fetch - processPackages [pymavlog]: Downloading https://files.pythonhosted.org/packages/f0/f7/6ddb4ff7f2dd79af71e3d2a2c423b5de20a92cb18e8d7e88327cb6d09fce/pymavlog-0.4.0.tar.gz
+[2023-06-20 11:41:14] INFO root fetch - processPackages [unitlab]: executing diffoscope
+[2023-06-20 11:41:14] INFO root fetch - processPackages [unitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitlab-1.9.1.tar.gz tmp/unitlab-1.9.2.tar.gz --markdown 20230620/u/unitlab/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-20 11:41:14] INFO root fetch - processPackages [sftpoeb]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-20 11:41:14] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/cb/06/a57369ef1257df586fa552f833b64ccaf62e9ea408dfe1c1469759375b4d/sftpoeb-0.2.0.tar.gz
+[2023-06-20 11:41:14] INFO root fetch - processPackages [dearwatson]: executing diffoscope
+[2023-06-20 11:41:14] INFO root fetch - processPackages [dearwatson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dearwatson-0.7.7.tar.gz tmp/dearwatson-0.7.8.tar.gz --markdown 20230620/d/dearwatson/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-06-20 11:41:14] INFO root fetch - processPackages [all-fives-domino]: Downloading https://files.pythonhosted.org/packages/9e/50/f0fe8c72918b654f6e44a54594baf1c16fb9d15abcb075c2c87cf44a1d5f/all-fives-domino-1.0.9.tar.gz
+[2023-06-20 11:41:14] INFO root fetch - processPackages [api-inference-community]: Downloading https://files.pythonhosted.org/packages/f9/ea/7ed09252fc3dd3023fba74f040d74c31065759ea03b576cc5402655eaee1/api_inference_community-0.0.8.tar.gz
+[2023-06-20 11:41:14] INFO root fetch - processPackages [pysui]: executing diffoscope
+[2023-06-20 11:41:14] INFO root fetch - processPackages [pysui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-0.8.0-py3-none-any.whl.zip tmp/pysui-0.9.0-py3-none-any.whl.zip --markdown 20230620/p/pysui/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-20 11:41:14] INFO root fetch - processPackages [pymavlog]: executing diffoscope
+[2023-06-20 11:41:14] INFO root fetch - processPackages [pymavlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymavlog-0.3.1.tar.gz tmp/pymavlog-0.4.0.tar.gz --markdown 20230620/p/pymavlog/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-20 11:41:14] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/ab/e5/f608da0ab726cef26dcd750adb20b814c6350dd869d4248ecf58c1572a60/sftpoeb-0.2.1.tar.gz
+[2023-06-20 11:41:14] INFO root fetch - processPackages [all-fives-domino]: executing diffoscope
+[2023-06-20 11:41:14] INFO root fetch - processPackages [all-fives-domino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/all-fives-domino-1.0.8.tar.gz tmp/all-fives-domino-1.0.9.tar.gz --markdown 20230620/a/all-fives-domino/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 11:41:14] INFO root fetch - processPackages [sftpoeb]: executing diffoscope
+[2023-06-20 11:41:14] INFO root fetch - processPackages [sftpoeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sftpoeb-0.2.0.tar.gz tmp/sftpoeb-0.2.1.tar.gz --markdown 20230620/s/sftpoeb/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-20 11:41:15] INFO root fetch - processPackages [api-inference-community]: Downloading https://files.pythonhosted.org/packages/28/5b/c180a6b555be6644957ebd6004377e7797b273b682486fda3b95fd4899b0/api_inference_community-0.0.9.tar.gz
+[2023-06-20 11:41:15] INFO root fetch - processPackages [api-inference-community]: executing diffoscope
+[2023-06-20 11:41:15] INFO root fetch - processPackages [api-inference-community]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_inference_community-0.0.8.tar.gz tmp/api_inference_community-0.0.9.tar.gz --markdown 20230620/a/api-inference-community/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 11:41:15] INFO root fetch - processPackages [smsmanpy]: Remove: archive file [/home/abi/fetcher/tmp/smsmanpy-0.0.3.tar.gz]
+[2023-06-20 11:41:15] INFO root fetch - processPackages [smsmanpy]: Remove: archive file [/home/abi/fetcher/tmp/smsmanpy-0.0.4.tar.gz]
+[2023-06-20 11:41:15] INFO root fetch - main [MainThread]: End processing [smsmanpy]: success
+[2023-06-20 11:41:16] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Remove: archive file [/home/abi/fetcher/tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.4-py3-none-any.whl.zip]
+[2023-06-20 11:41:16] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Remove: archive file [/home/abi/fetcher/tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.6-py3-none-any.whl.zip]
+[2023-06-20 11:41:16] INFO root fetch - main [MainThread]: End processing [Denoising-Diffusion-Probabilistic-Models]: success
+[2023-06-20 11:41:16] INFO root fetch - processPackages [pymavlog]: Remove: archive file [/home/abi/fetcher/tmp/pymavlog-0.3.1.tar.gz]
+[2023-06-20 11:41:16] INFO root fetch - processPackages [pymavlog]: Remove: archive file [/home/abi/fetcher/tmp/pymavlog-0.4.0.tar.gz]
+[2023-06-20 11:41:16] INFO root fetch - main [MainThread]: End processing [pymavlog]: success
+[2023-06-20 11:41:16] INFO root fetch - processPackages [unitlab]: Remove: archive file [/home/abi/fetcher/tmp/unitlab-1.9.1.tar.gz]
+[2023-06-20 11:41:16] INFO root fetch - processPackages [unitlab]: Remove: archive file [/home/abi/fetcher/tmp/unitlab-1.9.2.tar.gz]
+[2023-06-20 11:41:16] INFO root fetch - main [MainThread]: End processing [unitlab]: success
+[2023-06-20 11:41:16] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Remove: archive file [/home/abi/fetcher/tmp/gameyamlspiderandgenerator-1.6.5.tar.gz]
+[2023-06-20 11:41:16] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Remove: archive file [/home/abi/fetcher/tmp/gameyamlspiderandgenerator-1.6.6.tar.gz]
+[2023-06-20 11:41:16] INFO root fetch - main [MainThread]: End processing [gameyamlspiderandgenerator]: success
+[2023-06-20 11:41:16] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.2.0.tar.gz]
+[2023-06-20 11:41:16] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.2.1.tar.gz]
+[2023-06-20 11:41:16] INFO root fetch - main [MainThread]: End processing [sftpoeb]: success
+[2023-06-20 11:41:16] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.8.0-py3-none-any.whl.zip]
+[2023-06-20 11:41:16] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.9.0-py3-none-any.whl.zip]
+[2023-06-20 11:41:16] INFO root fetch - main [MainThread]: End processing [pysui]: success
+[2023-06-20 11:41:16] INFO root fetch - processPackages [api-inference-community]: Remove: archive file [/home/abi/fetcher/tmp/api_inference_community-0.0.8.tar.gz]
+[2023-06-20 11:41:16] INFO root fetch - processPackages [api-inference-community]: Remove: archive file [/home/abi/fetcher/tmp/api_inference_community-0.0.9.tar.gz]
+[2023-06-20 11:41:16] INFO root fetch - main [MainThread]: End processing [api-inference-community]: success
+[2023-06-20 11:41:16] INFO root fetch - processPackages [all-fives-domino]: Remove: archive file [/home/abi/fetcher/tmp/all-fives-domino-1.0.8.tar.gz]
+[2023-06-20 11:41:16] INFO root fetch - processPackages [all-fives-domino]: Remove: archive file [/home/abi/fetcher/tmp/all-fives-domino-1.0.9.tar.gz]
+[2023-06-20 11:41:16] INFO root fetch - main [MainThread]: End processing [all-fives-domino]: success
+[2023-06-20 11:41:17] INFO root fetch - processPackages [dearwatson]: Remove: archive file [/home/abi/fetcher/tmp/dearwatson-0.7.7.tar.gz]
+[2023-06-20 11:41:17] INFO root fetch - processPackages [dearwatson]: Remove: archive file [/home/abi/fetcher/tmp/dearwatson-0.7.8.tar.gz]
+[2023-06-20 11:41:17] INFO root fetch - main [MainThread]: End processing [dearwatson]: success
+[2023-06-20 11:41:17] INFO root fetch - main [MainThread]: Store serial: [18572688]
