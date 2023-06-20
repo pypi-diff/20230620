@@ -11521,3 +11521,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 06:22:38] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
 [2023-06-20 06:22:38] INFO root fetch - main [MainThread]: End processing [latch]: success
 [2023-06-20 06:22:38] INFO root fetch - main [MainThread]: Store serial: [18569937]
+[2023-06-20 06:27:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18569937]
+[2023-06-20 06:27:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-20 06:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audiobook-tags
+[2023-06-20 06:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ebbs
+[2023-06-20 06:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2023-06-20 06:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AlgoMaster
+[2023-06-20 06:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agency
+[2023-06-20 06:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ReprTraceback
+[2023-06-20 06:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: algokit-utils
+[2023-06-20 06:27:48] INFO root fetch - processPackages [agency]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-20 06:27:48] INFO root fetch - processPackages [AlgoMaster]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 06:27:48] WARNING root fetch - processPackages [ReprTraceback]: Skipping, unable to determine old version
+[2023-06-20 06:27:48] INFO root fetch - main [MainThread]: End processing [ReprTraceback] error
+[2023-06-20 06:27:48] INFO root fetch - processPackages [ebbs]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-20 06:27:48] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.905084255.dev11599] Old Version: [0.2.903875796.dev11543]
+[2023-06-20 06:27:48] INFO root fetch - processPackages [audiobook-tags]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-20 06:27:48] INFO root fetch - processPackages [algokit-utils]: New version: [1.3.0b1] Old Version: [1.3.0]
+[2023-06-20 06:27:48] INFO root fetch - processPackages [AlgoMaster]: Downloading https://files.pythonhosted.org/packages/c3/2a/0bb9c71daa363984a8f011806462ee6da671ec2fa433119bbd0c1302f256/AlgoMaster-0.0.8.tar.gz
+[2023-06-20 06:27:49] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/d6/7a/7493aeef8519d98c4f626ac875f546010e7299d3863934b8d72dd075e8a6/algokit_utils-1.3.0-py3-none-any.whl
+[2023-06-20 06:27:49] INFO root fetch - processPackages [AlgoMaster]: Downloading https://files.pythonhosted.org/packages/24/9d/0431007f2576582ceeb13f99292423c935b36a1029262933054389aa8855/AlgoMaster-0.0.9.tar.gz
+[2023-06-20 06:27:49] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/f6/8e/0d94c7b658f44b32125e42b1be18d91a215607ed9f84fbfb4fe5576ce7cd/quickstart-vdk-0.2.903875796.dev11543.tar.gz
+[2023-06-20 06:27:49] INFO root fetch - processPackages [agency]: Downloading https://files.pythonhosted.org/packages/a1/d6/baf5a83bdb02dfac6b6d6bd296323b73dd5f5cbd40a28d331ccde0a07e1a/agency-1.0.3.tar.gz
+[2023-06-20 06:27:49] INFO root fetch - processPackages [ebbs]: Downloading https://files.pythonhosted.org/packages/e4/4d/600e9b8522cb5e4288fadbaae0e9d2b951d0b79be24416d8b78414a5efb6/ebbs-2.2.8.tar.gz
+[2023-06-20 06:27:49] INFO root fetch - processPackages [audiobook-tags]: Downloading https://files.pythonhosted.org/packages/c9/4b/6c45438837c4d9579d6890a01d8f5bf61477f56e6c6f316195a9b4d72ddb/audiobook-tags-1.1.0.tar.gz
+[2023-06-20 06:27:49] INFO root fetch - processPackages [AlgoMaster]: executing diffoscope
+[2023-06-20 06:27:49] INFO root fetch - processPackages [AlgoMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlgoMaster-0.0.8.tar.gz tmp/AlgoMaster-0.0.9.tar.gz --markdown 20230620/A/AlgoMaster/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 06:27:49] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/60/c2/417159e0cb97b8ce295eba410b3a7d6f7eaff4faf80859b97f542d6a1a79/algokit_utils-1.3.0b1-py3-none-any.whl
+[2023-06-20 06:27:49] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/31/ce/390a79fbac96a552e07b77d44044636a2467b9ec299cda9d21d35465533a/quickstart-vdk-0.2.905084255.dev11599.tar.gz
+[2023-06-20 06:27:49] INFO root fetch - processPackages [agency]: Downloading https://files.pythonhosted.org/packages/85/31/620012c24f7e7cb0e367d26bbedbf9bedde17265716c7f7e8db025289d74/agency-1.0.4.tar.gz
+[2023-06-20 06:27:49] INFO root fetch - processPackages [audiobook-tags]: Downloading https://files.pythonhosted.org/packages/8e/38/87eb4c7787f9cdc41830a843d82c332f90076b6bf07cefb32012e1453e99/audiobook-tags-1.1.1.tar.gz
+[2023-06-20 06:27:49] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-06-20 06:27:49] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.3.0-py3-none-any.whl.zip tmp/algokit_utils-1.3.0b1-py3-none-any.whl.zip --markdown 20230620/a/algokit-utils/1.3.0-1.3.0b1/diff.md --exclude *.pyd
+[2023-06-20 06:27:49] INFO root fetch - processPackages [ebbs]: Downloading https://files.pythonhosted.org/packages/a1/17/09488d6e7c260166edfebc9cb5a173db17c6d6a621677ea3280cda9da438/ebbs-2.2.9.tar.gz
+[2023-06-20 06:27:49] INFO root fetch - processPackages [agency]: executing diffoscope
+[2023-06-20 06:27:49] INFO root fetch - processPackages [agency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agency-1.0.3.tar.gz tmp/agency-1.0.4.tar.gz --markdown 20230620/a/agency/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-20 06:27:49] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-20 06:27:49] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.903875796.dev11543.tar.gz tmp/quickstart-vdk-0.2.905084255.dev11599.tar.gz --markdown 20230620/q/quickstart-vdk/0.2.903875796.dev11543-0.2.905084255.dev11599/diff.md --exclude *.pyd
+[2023-06-20 06:27:49] INFO root fetch - processPackages [audiobook-tags]: executing diffoscope
+[2023-06-20 06:27:49] INFO root fetch - processPackages [audiobook-tags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiobook-tags-1.1.0.tar.gz tmp/audiobook-tags-1.1.1.tar.gz --markdown 20230620/a/audiobook-tags/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-20 06:27:49] INFO root fetch - processPackages [ebbs]: executing diffoscope
+[2023-06-20 06:27:49] INFO root fetch - processPackages [ebbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebbs-2.2.8.tar.gz tmp/ebbs-2.2.9.tar.gz --markdown 20230620/e/ebbs/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-20 06:27:50] INFO root fetch - processPackages [AlgoMaster]: Remove: archive file [/home/abi/fetcher/tmp/AlgoMaster-0.0.8.tar.gz]
+[2023-06-20 06:27:50] INFO root fetch - processPackages [AlgoMaster]: Remove: archive file [/home/abi/fetcher/tmp/AlgoMaster-0.0.9.tar.gz]
+[2023-06-20 06:27:50] INFO root fetch - main [MainThread]: End processing [AlgoMaster]: success
+[2023-06-20 06:27:50] INFO root fetch - processPackages [agency]: Remove: archive file [/home/abi/fetcher/tmp/agency-1.0.3.tar.gz]
+[2023-06-20 06:27:50] INFO root fetch - processPackages [agency]: Remove: archive file [/home/abi/fetcher/tmp/agency-1.0.4.tar.gz]
+[2023-06-20 06:27:50] INFO root fetch - main [MainThread]: End processing [agency]: success
+[2023-06-20 06:27:51] INFO root fetch - processPackages [audiobook-tags]: Remove: archive file [/home/abi/fetcher/tmp/audiobook-tags-1.1.0.tar.gz]
+[2023-06-20 06:27:51] INFO root fetch - processPackages [audiobook-tags]: Remove: archive file [/home/abi/fetcher/tmp/audiobook-tags-1.1.1.tar.gz]
+[2023-06-20 06:27:51] INFO root fetch - main [MainThread]: End processing [audiobook-tags]: success
+[2023-06-20 06:27:51] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.903875796.dev11543.tar.gz]
+[2023-06-20 06:27:51] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.905084255.dev11599.tar.gz]
+[2023-06-20 06:27:51] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-20 06:27:51] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-1.3.0-py3-none-any.whl.zip]
+[2023-06-20 06:27:51] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-1.3.0b1-py3-none-any.whl.zip]
+[2023-06-20 06:27:51] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-06-20 06:27:51] INFO root fetch - processPackages [ebbs]: Remove: archive file [/home/abi/fetcher/tmp/ebbs-2.2.8.tar.gz]
+[2023-06-20 06:27:51] INFO root fetch - processPackages [ebbs]: Remove: archive file [/home/abi/fetcher/tmp/ebbs-2.2.9.tar.gz]
+[2023-06-20 06:27:51] INFO root fetch - main [MainThread]: End processing [ebbs]: success
+[2023-06-20 06:27:51] INFO root fetch - main [MainThread]: Store serial: [18569957]
