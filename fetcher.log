@@ -10521,3 +10521,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 05:17:54] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230620.tar.gz]
 [2023-06-20 05:17:54] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
 [2023-06-20 05:17:54] INFO root fetch - main [MainThread]: Store serial: [18569601]
+[2023-06-20 05:22:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18569601]
+[2023-06-20 05:23:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-20 05:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-helper
+[2023-06-20 05:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phasellm
+[2023-06-20 05:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: d20-securityLayer
+[2023-06-20 05:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: render-engine-youtube-embed
+[2023-06-20 05:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drizzutojr-vader
+[2023-06-20 05:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clown-sort
+[2023-06-20 05:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: basic-task-manager
+[2023-06-20 05:23:03] INFO root fetch - processPackages [phasellm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 05:23:03] INFO root fetch - processPackages [drizzutojr-vader]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-20 05:23:03] INFO root fetch - processPackages [python-helper]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-20 05:23:04] INFO root fetch - processPackages [render-engine-youtube-embed]: New version: [2023.6.2b1] Old Version: [2023.6.2a1]
+[2023-06-20 05:23:04] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-06-20 05:23:04] WARNING root fetch - processPackages [basic-task-manager]: Skipping, unable to determine old version
+[2023-06-20 05:23:04] INFO root fetch - main [MainThread]: End processing [basic-task-manager] error
+[2023-06-20 05:23:04] INFO root fetch - processPackages [clown-sort]: New version: [1.8.0] Old Version: [1.7.1]
+[2023-06-20 05:23:04] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/aa/90/3ab72fe54406486ee01ec15785f796cb3d417528ec5019d045041efb0eee/drizzutojr_vader-0.0.6-py3-none-any.whl
+[2023-06-20 05:23:04] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/b5/7f/086f837981170217116052b05373bbf9ede287aa375d582b42e31e612cf5/d20-securityLayer-2.0.0a8.tar.gz
+[2023-06-20 05:23:04] INFO root fetch - processPackages [phasellm]: Downloading https://files.pythonhosted.org/packages/58/22/764eea6278a8475eeffe45d1cdb8fb1ab241e07a4286813d00c39e410c6b/phasellm-0.0.8.tar.gz
+[2023-06-20 05:23:04] INFO root fetch - processPackages [python-helper]: Downloading https://files.pythonhosted.org/packages/85/44/8c580fd9d53648fa257036069843246325e548e8b41f90a858210ceba319/python_helper-0.3.8.tar.gz
+[2023-06-20 05:23:04] INFO root fetch - processPackages [clown-sort]: Downloading https://files.pythonhosted.org/packages/95/ea/4c6306c0486b77ccaf03971a92e8a354bb74545585455ae6153e7ac8531d/clown_sort-1.7.1.tar.gz
+[2023-06-20 05:23:04] INFO root fetch - processPackages [render-engine-youtube-embed]: Downloading https://files.pythonhosted.org/packages/50/94/5ce54882b715ec5f12689d6918ff2eb83ec31791dd29117efdfeae599d54/render_engine_youtube_embed-2023.6.2a1.tar.gz
+[2023-06-20 05:23:04] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/41/41/2a3ea5aa96482e2f2f8320f1523313f5da6cd051e1d2d9a7248fe1a140cf/drizzutojr_vader-0.0.7-py3-none-any.whl
+[2023-06-20 05:23:04] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/56/46/f3ba1d8980a81e7e0579b812ea29d2c68be9c442ea0e7168a51afcd8c79e/d20-securityLayer-2.0.0a9.tar.gz
+[2023-06-20 05:23:04] INFO root fetch - processPackages [phasellm]: Downloading https://files.pythonhosted.org/packages/a3/5d/a0c8aebdc684c4d65e8df425a9dc2e3319533fd6590e407478d53df20110/phasellm-0.0.9.tar.gz
+[2023-06-20 05:23:04] INFO root fetch - processPackages [drizzutojr-vader]: executing diffoscope
+[2023-06-20 05:23:04] INFO root fetch - processPackages [drizzutojr-vader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vader-0.0.6-py3-none-any.whl.zip tmp/drizzutojr_vader-0.0.7-py3-none-any.whl.zip --markdown 20230620/d/drizzutojr-vader/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-20 05:23:04] INFO root fetch - processPackages [clown-sort]: Downloading https://files.pythonhosted.org/packages/39/13/7bb65c971af15246b9e9ca1b209f2cb7f75990a6a138462ad65c9f5d13c9/clown_sort-1.8.0.tar.gz
+[2023-06-20 05:23:04] INFO root fetch - processPackages [python-helper]: Downloading https://files.pythonhosted.org/packages/40/88/4d8a5c4c48d9e6e3c068547183c8b883eeb3e484452538ada9f247e70448/python_helper-0.3.9.tar.gz
+[2023-06-20 05:23:04] INFO root fetch - processPackages [phasellm]: executing diffoscope
+[2023-06-20 05:23:04] INFO root fetch - processPackages [phasellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phasellm-0.0.8.tar.gz tmp/phasellm-0.0.9.tar.gz --markdown 20230620/p/phasellm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:23:04] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-06-20 05:23:04] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a8.tar.gz tmp/d20-securityLayer-2.0.0a9.tar.gz --markdown 20230620/d/d20-securityLayer/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-20 05:23:04] INFO root fetch - processPackages [clown-sort]: executing diffoscope
+[2023-06-20 05:23:04] INFO root fetch - processPackages [clown-sort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clown_sort-1.7.1.tar.gz tmp/clown_sort-1.8.0.tar.gz --markdown 20230620/c/clown-sort/1.7.1-1.8.0/diff.md --exclude *.pyd
+[2023-06-20 05:23:04] INFO root fetch - processPackages [render-engine-youtube-embed]: Downloading https://files.pythonhosted.org/packages/7f/75/b97b731a0add1e4408fb5422972bdb7a012b4cfafb9727a2e170553daf82/render_engine_youtube_embed-2023.6.2b1.tar.gz
+[2023-06-20 05:23:04] INFO root fetch - processPackages [render-engine-youtube-embed]: executing diffoscope
+[2023-06-20 05:23:04] INFO root fetch - processPackages [render-engine-youtube-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_engine_youtube_embed-2023.6.2a1.tar.gz tmp/render_engine_youtube_embed-2023.6.2b1.tar.gz --markdown 20230620/r/render-engine-youtube-embed/2023.6.2a1-2023.6.2b1/diff.md --exclude *.pyd
+[2023-06-20 05:23:04] INFO root fetch - processPackages [python-helper]: executing diffoscope
+[2023-06-20 05:23:04] INFO root fetch - processPackages [python-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_helper-0.3.8.tar.gz tmp/python_helper-0.3.9.tar.gz --markdown 20230620/p/python-helper/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-20 05:23:05] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.6-py3-none-any.whl.zip]
+[2023-06-20 05:23:05] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.7-py3-none-any.whl.zip]
+[2023-06-20 05:23:05] INFO root fetch - main [MainThread]: End processing [drizzutojr-vader]: success
+[2023-06-20 05:23:05] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a8.tar.gz]
+[2023-06-20 05:23:05] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a9.tar.gz]
+[2023-06-20 05:23:05] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-06-20 05:23:05] INFO root fetch - processPackages [phasellm]: Remove: archive file [/home/abi/fetcher/tmp/phasellm-0.0.8.tar.gz]
+[2023-06-20 05:23:05] INFO root fetch - processPackages [phasellm]: Remove: archive file [/home/abi/fetcher/tmp/phasellm-0.0.9.tar.gz]
+[2023-06-20 05:23:05] INFO root fetch - main [MainThread]: End processing [phasellm]: success
+[2023-06-20 05:23:06] INFO root fetch - processPackages [render-engine-youtube-embed]: Remove: archive file [/home/abi/fetcher/tmp/render_engine_youtube_embed-2023.6.2a1.tar.gz]
+[2023-06-20 05:23:06] INFO root fetch - processPackages [render-engine-youtube-embed]: Remove: archive file [/home/abi/fetcher/tmp/render_engine_youtube_embed-2023.6.2b1.tar.gz]
+[2023-06-20 05:23:06] INFO root fetch - main [MainThread]: End processing [render-engine-youtube-embed]: success
+[2023-06-20 05:23:06] INFO root fetch - processPackages [python-helper]: Remove: archive file [/home/abi/fetcher/tmp/python_helper-0.3.8.tar.gz]
+[2023-06-20 05:23:06] INFO root fetch - processPackages [python-helper]: Remove: archive file [/home/abi/fetcher/tmp/python_helper-0.3.9.tar.gz]
+[2023-06-20 05:23:06] INFO root fetch - main [MainThread]: End processing [python-helper]: success
+[2023-06-20 05:23:06] INFO root fetch - processPackages [clown-sort]: Remove: archive file [/home/abi/fetcher/tmp/clown_sort-1.7.1.tar.gz]
+[2023-06-20 05:23:06] INFO root fetch - processPackages [clown-sort]: Remove: archive file [/home/abi/fetcher/tmp/clown_sort-1.8.0.tar.gz]
+[2023-06-20 05:23:06] INFO root fetch - main [MainThread]: End processing [clown-sort]: success
+[2023-06-20 05:23:06] INFO root fetch - main [MainThread]: Store serial: [18569621]
