@@ -16080,3 +16080,144 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 10:38:38] INFO root fetch - processPackages [su6-plugin-demo]: Remove: archive file [/home/abi/fetcher/tmp/su6_plugin_demo-0.3.0.tar.gz]
 [2023-06-20 10:38:38] INFO root fetch - main [MainThread]: End processing [su6-plugin-demo]: success
 [2023-06-20 10:38:38] INFO root fetch - main [MainThread]: Store serial: [18571959]
+[2023-06-20 10:43:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18571959]
+[2023-06-20 10:43:48] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-20 10:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-estimator-nightly
+[2023-06-20 10:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-inventory
+[2023-06-20 10:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lamine-root
+[2023-06-20 10:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbrlabs-pulumi-scaleway
+[2023-06-20 10:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dtrv
+[2023-06-20 10:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: su6
+[2023-06-20 10:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simplerabbit
+[2023-06-20 10:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composabl-dev
+[2023-06-20 10:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: 0003
+[2023-06-20 10:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mcrs
+[2023-06-20 10:43:48] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: New version: [1.9.0a1687207630] Old Version: [1.9.0a1681291877]
+[2023-06-20 10:43:48] INFO root fetch - processPackages [simplerabbit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 10:43:48] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: Downloading https://files.pythonhosted.org/packages/ec/89/14e4684e3661747998014e4e5deedfe1569b0713798ab43cad85d8715f43/lbrlabs_pulumi_scaleway-1.9.0a1681291877.tar.gz
+[2023-06-20 10:43:48] INFO root fetch - processPackages [simplerabbit]: Downloading https://files.pythonhosted.org/packages/2e/83/ff9b3ec05d22a7a074f2443a809d336b5f81a0082471f187f975ce6ece2c/simplerabbit-0.0.8.tar.gz
+[2023-06-20 10:43:48] WARNING root fetch - processPackages [dtrv]: Skipping, unable to determine old version
+[2023-06-20 10:43:48] INFO root fetch - processPackages [dtrv]: Start processing: voprov
+[2023-06-20 10:43:48] ERROR root fetch - processPackages [lamine-root]: Unable to get metadata: No such project 'lamine-root'
+[2023-06-20 10:43:48] INFO root fetch - main [MainThread]: End processing [dtrv] error
+[2023-06-20 10:43:48] INFO root fetch - processPackages [lamine-root]: Start processing: app-ocr
+[2023-06-20 10:43:48] INFO root fetch - main [MainThread]: End processing [lamine-root] error
+[2023-06-20 10:43:48] WARNING root fetch - processPackages [0003]: Skipping, unable to determine old version
+[2023-06-20 10:43:48] INFO root fetch - processPackages [mcrs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 10:43:48] INFO root fetch - processPackages [composabl-dev]: New version: [0.2.1.dev97] Old Version: [0.2.1.dev96]
+[2023-06-20 10:43:48] INFO root fetch - processPackages [su6]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-20 10:43:48] INFO root fetch - processPackages [0003]: Start processing: gorilla-cli
+[2023-06-20 10:43:48] INFO root fetch - main [MainThread]: End processing [0003] error
+[2023-06-20 10:43:48] INFO root fetch - processPackages [app-ocr]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-20 10:43:48] INFO root fetch - processPackages [spaceone-inventory]: New version: [1.9.7rc1] Old Version: [1.9.7.3]
+[2023-06-20 10:43:48] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-06-20 10:43:48] INFO root fetch - processPackages [app-ocr]: Downloading https://files.pythonhosted.org/packages/e8/7d/3b7d104f4b8e91bb6be56836a04162a0fe3e6b3954534b99e73a0f206605/app_ocr-0.0.2.tar.gz
+[2023-06-20 10:43:48] INFO root fetch - processPackages [voprov]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-20 10:43:48] INFO root fetch - processPackages [simplerabbit]: Downloading https://files.pythonhosted.org/packages/47/7a/7dc5049b920a917322132e41a0bd586312d7501a23cb4de9f30639f920f1/simplerabbit-0.0.9.tar.gz
+[2023-06-20 10:43:48] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: Downloading https://files.pythonhosted.org/packages/bd/a6/6aa4a1cb1f745faaad77bf484b29be6117a2956a32e9ff045c9f7b276a6f/lbrlabs_pulumi_scaleway-1.9.0a1687207630.tar.gz
+[2023-06-20 10:43:48] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-06-20 10:43:48] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/67/38/ed7d9cc52ef34c6e322424d5fcaa6cb9b24f23e18d9399c3dfa2f3239bcf/composabl_dev-0.2.1.dev96-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-20 10:43:48] INFO root fetch - processPackages [simplerabbit]: executing diffoscope
+[2023-06-20 10:43:48] INFO root fetch - processPackages [simplerabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplerabbit-0.0.8.tar.gz tmp/simplerabbit-0.0.9.tar.gz --markdown 20230620/s/simplerabbit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 10:43:48] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/a9/82/c593d30951fa8a48a0777598d6512a6f1c3d737ee4831063408619868fff/spaceone_inventory-1.9.7.3-py3-none-any.whl
+[2023-06-20 10:43:48] INFO root fetch - processPackages [mcrs]: Downloading https://files.pythonhosted.org/packages/5d/97/dc4eabd3bed8e7a36879452b3c64d11528361140b80468d4e936651cbce9/mcrs-0.1.8.tar.gz
+[2023-06-20 10:43:48] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: executing diffoscope
+[2023-06-20 10:43:48] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/70/51/79026d3f4593699042f1d6030fe936ec241db588aa9d4b7afe33a814f3d5/su6-1.5.0.tar.gz
+[2023-06-20 10:43:48] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_scaleway-1.9.0a1681291877.tar.gz tmp/lbrlabs_pulumi_scaleway-1.9.0a1687207630.tar.gz --markdown 20230620/l/lbrlabs-pulumi-scaleway/1.9.0a1681291877-1.9.0a1687207630/diff.md --exclude *.pyd
+[2023-06-20 10:43:49] INFO root fetch - processPackages [gorilla-cli]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-20 10:43:49] INFO root fetch - processPackages [voprov]: Downloading https://files.pythonhosted.org/packages/69/d6/382692245a272346130f8450cae5d529ca95f0ed9a4b062b7930205a3766/voprov-0.0.3.tar.gz
+[2023-06-20 10:43:49] INFO root fetch - processPackages [app-ocr]: Downloading https://files.pythonhosted.org/packages/92/18/038f9f1e0070c5dff735194ea213ce72690b413b6cec956a481ccaae7793/app_ocr-0.0.3.tar.gz
+[2023-06-20 10:43:49] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/8b/3e/9b66d8ee4c516bd667673a5577cc4743104de117a9cf1693532b741e45c4/spaceone_inventory-1.9.7rc1-py3-none-any.whl
+[2023-06-20 10:43:49] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-06-20 10:43:49] INFO root fetch - processPackages [app-ocr]: executing diffoscope
+[2023-06-20 10:43:49] INFO root fetch - processPackages [app-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app_ocr-0.0.2.tar.gz tmp/app_ocr-0.0.3.tar.gz --markdown 20230620/a/app-ocr/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-20 10:43:49] INFO root fetch - processPackages [gorilla-cli]: Downloading https://files.pythonhosted.org/packages/1d/f2/caeef7e01a3f6e7341b8658ae28f8e7f661d1a915a478f3720db3203003a/gorilla-cli-0.0.4.tar.gz
+[2023-06-20 10:43:49] INFO root fetch - processPackages [mcrs]: Downloading https://files.pythonhosted.org/packages/79/00/9623de3a4bfd953962b1b422bd51a0d1fe3e92a4f9e4ff9bfc12c5b0b3b7/mcrs-0.1.9.tar.gz
+[2023-06-20 10:43:49] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2023-06-20 10:43:49] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip --markdown 20230620/s/spaceone-inventory/1.9.7.3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-20 10:43:49] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-06-20 10:43:49] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230620/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-06-20 10:43:49] INFO root fetch - processPackages [mcrs]: executing diffoscope
+[2023-06-20 10:43:49] INFO root fetch - processPackages [mcrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcrs-0.1.8.tar.gz tmp/mcrs-0.1.9.tar.gz --markdown 20230620/m/mcrs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 10:43:49] INFO root fetch - processPackages [voprov]: Downloading https://files.pythonhosted.org/packages/5d/c7/50d02fe036b89312412da1240caa91bfb9702b4f8d83d33f86615245d8b1/voprov-0.0.4.tar.gz
+[2023-06-20 10:43:49] INFO root fetch - processPackages [gorilla-cli]: Downloading https://files.pythonhosted.org/packages/bc/82/ca6dc0708f5cbe75f0c82afcec037525a10e45d4be5a81f817061ad5ad8f/gorilla-cli-0.0.5.tar.gz
+[2023-06-20 10:43:49] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/14/21/225fee8a179370b6990591383d0f738af7abcd68593f8bf48bd8c6bdfc92/su6-1.5.1-py3-none-any.whl
+[2023-06-20 10:43:49] INFO root fetch - processPackages [voprov]: executing diffoscope
+[2023-06-20 10:43:49] INFO root fetch - processPackages [voprov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voprov-0.0.3.tar.gz tmp/voprov-0.0.4.tar.gz --markdown 20230620/v/voprov/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-20 10:43:49] INFO root fetch - processPackages [gorilla-cli]: executing diffoscope
+[2023-06-20 10:43:49] INFO root fetch - processPackages [gorilla-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gorilla-cli-0.0.4.tar.gz tmp/gorilla-cli-0.0.5.tar.gz --markdown 20230620/g/gorilla-cli/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-20 10:43:49] INFO root fetch - processPackages [su6]: executing diffoscope
+[2023-06-20 10:43:49] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-1.5.0.tar.gz tmp/su6-1.5.1-py3-none-any.whl.zip --markdown 20230620/s/su6/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-20 10:43:49] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/bb/88/96df80ea819f1adef165ecdf65495041427462c8c9c288874111f10cb5d3/composabl_dev-0.2.1.dev97-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-20 10:43:50] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-06-20 10:43:50] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.2.1.dev96-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_dev-0.2.1.dev97-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230620/c/composabl-dev/0.2.1.dev96-0.2.1.dev97/diff.md --exclude *.pyd
+[2023-06-20 10:43:50] INFO root fetch - processPackages [simplerabbit]: Remove: archive file [/home/abi/fetcher/tmp/simplerabbit-0.0.8.tar.gz]
+[2023-06-20 10:43:50] INFO root fetch - processPackages [simplerabbit]: Remove: archive file [/home/abi/fetcher/tmp/simplerabbit-0.0.9.tar.gz]
+[2023-06-20 10:43:50] INFO root fetch - processPackages [simplerabbit]: Start processing: bytetrade-recommend-model-sdk
+[2023-06-20 10:43:50] INFO root fetch - main [MainThread]: End processing [simplerabbit]: success
+[2023-06-20 10:43:50] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-06-20 10:43:51] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/0e/f8/f50149750f66e81afb86fdca850425507e6103f5ca65b5fae3601a1cf7ee/bytetrade-recommend-model-sdk-0.0.18.tar.gz
+[2023-06-20 10:43:51] INFO root fetch - processPackages [mcrs]: Remove: archive file [/home/abi/fetcher/tmp/mcrs-0.1.8.tar.gz]
+[2023-06-20 10:43:51] INFO root fetch - processPackages [mcrs]: Remove: archive file [/home/abi/fetcher/tmp/mcrs-0.1.9.tar.gz]
+[2023-06-20 10:43:51] INFO root fetch - processPackages [mcrs]: Start processing: odoo-addon-mrp-restrict-lot
+[2023-06-20 10:43:51] INFO root fetch - main [MainThread]: End processing [mcrs]: success
+[2023-06-20 10:43:51] WARNING root fetch - processPackages [odoo-addon-mrp-restrict-lot]: Skipping, unable to determine old version
+[2023-06-20 10:43:51] INFO root fetch - processPackages [odoo-addon-mrp-restrict-lot]: Start processing: ats-case
+[2023-06-20 10:43:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-restrict-lot] error
+[2023-06-20 10:43:51] INFO root fetch - processPackages [ats-case]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-20 10:43:51] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip]
+[2023-06-20 10:43:51] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/ea/a6/adff9cad743609cd0f0810b314274f5fffd80ad92666ea82431a634fb7f0/bytetrade-recommend-model-sdk-0.0.19.tar.gz
+[2023-06-20 10:43:51] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-20 10:43:51] INFO root fetch - processPackages [spaceone-inventory]: Start processing: social-blade-scraper
+[2023-06-20 10:43:51] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2023-06-20 10:43:51] INFO root fetch - processPackages [social-blade-scraper]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-20 10:43:51] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/9b/ca/f8e3393ad79d6c303f4ce4cc9506c36b6f219e4501483dd04736a67eaccc/ats_case-0.8.8.tar.gz
+[2023-06-20 10:43:51] INFO root fetch - processPackages [social-blade-scraper]: Downloading https://files.pythonhosted.org/packages/d5/ac/7e13be80360f7187520304414754deb1cc773c73cf264b2b8152f141195a/social-blade-scraper-0.0.1.tar.gz
+[2023-06-20 10:43:51] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: executing diffoscope
+[2023-06-20 10:43:51] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytetrade-recommend-model-sdk-0.0.18.tar.gz tmp/bytetrade-recommend-model-sdk-0.0.19.tar.gz --markdown 20230620/b/bytetrade-recommend-model-sdk/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-06-20 10:43:51] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/dc/c9/202daefe59e34021fdc8219c700834d83e6c5ac1234becf8f38211f10600/ats_case-0.8.9.tar.gz
+[2023-06-20 10:43:51] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-06-20 10:43:51] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.8.8.tar.gz tmp/ats_case-0.8.9.tar.gz --markdown 20230620/a/ats-case/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-20 10:43:51] INFO root fetch - processPackages [social-blade-scraper]: Downloading https://files.pythonhosted.org/packages/29/b1/a8dd01f3b57d3c2692561895a58c6a704952cbc91c7aa20551731e65d93c/social-blade-scraper-0.0.2.tar.gz
+[2023-06-20 10:43:51] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-06-20 10:43:51] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-06-20 10:43:51] INFO root fetch - processPackages [tf-estimator-nightly]: Start processing: su6
+[2023-06-20 10:43:51] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-06-20 10:43:51] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.5.0.tar.gz]
+[2023-06-20 10:43:51] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.5.1-py3-none-any.whl.zip]
+[2023-06-20 10:43:51] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2023-06-20 10:43:51] INFO root fetch - processPackages [social-blade-scraper]: executing diffoscope
+[2023-06-20 10:43:51] INFO root fetch - processPackages [social-blade-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social-blade-scraper-0.0.1.tar.gz tmp/social-blade-scraper-0.0.2.tar.gz --markdown 20230620/s/social-blade-scraper/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-20 10:43:51] INFO root fetch - processPackages [su6]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-20 10:43:51] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/70/51/79026d3f4593699042f1d6030fe936ec241db588aa9d4b7afe33a814f3d5/su6-1.5.0.tar.gz
+[2023-06-20 10:43:52] INFO root fetch - processPackages [gorilla-cli]: Remove: archive file [/home/abi/fetcher/tmp/gorilla-cli-0.0.4.tar.gz]
+[2023-06-20 10:43:52] INFO root fetch - processPackages [gorilla-cli]: Remove: archive file [/home/abi/fetcher/tmp/gorilla-cli-0.0.5.tar.gz]
+[2023-06-20 10:43:52] INFO root fetch - main [MainThread]: End processing [gorilla-cli]: success
+[2023-06-20 10:43:52] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/14/21/225fee8a179370b6990591383d0f738af7abcd68593f8bf48bd8c6bdfc92/su6-1.5.1-py3-none-any.whl
+[2023-06-20 10:43:52] INFO root fetch - processPackages [su6]: executing diffoscope
+[2023-06-20 10:43:52] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-1.5.0.tar.gz tmp/su6-1.5.1-py3-none-any.whl.zip --markdown 20230620/s/su6/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-20 10:43:52] INFO root fetch - processPackages [voprov]: Remove: archive file [/home/abi/fetcher/tmp/voprov-0.0.3.tar.gz]
+[2023-06-20 10:43:52] INFO root fetch - processPackages [voprov]: Remove: archive file [/home/abi/fetcher/tmp/voprov-0.0.4.tar.gz]
+[2023-06-20 10:43:52] INFO root fetch - main [MainThread]: End processing [voprov]: success
+[2023-06-20 10:43:52] INFO root fetch - processPackages [app-ocr]: Remove: archive file [/home/abi/fetcher/tmp/app_ocr-0.0.2.tar.gz]
+[2023-06-20 10:43:52] INFO root fetch - processPackages [app-ocr]: Remove: archive file [/home/abi/fetcher/tmp/app_ocr-0.0.3.tar.gz]
+[2023-06-20 10:43:52] INFO root fetch - main [MainThread]: End processing [app-ocr]: success
+[2023-06-20 10:43:53] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.8.8.tar.gz]
+[2023-06-20 10:43:53] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.8.9.tar.gz]
+[2023-06-20 10:43:53] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-06-20 10:43:53] INFO root fetch - processPackages [social-blade-scraper]: Remove: archive file [/home/abi/fetcher/tmp/social-blade-scraper-0.0.1.tar.gz]
+[2023-06-20 10:43:53] INFO root fetch - processPackages [social-blade-scraper]: Remove: archive file [/home/abi/fetcher/tmp/social-blade-scraper-0.0.2.tar.gz]
+[2023-06-20 10:43:53] INFO root fetch - main [MainThread]: End processing [social-blade-scraper]: success
+[2023-06-20 10:43:53] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.18.tar.gz]
+[2023-06-20 10:43:53] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.19.tar.gz]
+[2023-06-20 10:43:53] INFO root fetch - main [MainThread]: End processing [bytetrade-recommend-model-sdk]: success
+[2023-06-20 10:43:53] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev96-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-20 10:43:53] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev97-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-20 10:43:53] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-06-20 10:43:55] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_scaleway-1.9.0a1681291877.tar.gz]
+[2023-06-20 10:43:55] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_scaleway-1.9.0a1687207630.tar.gz]
+[2023-06-20 10:43:55] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-scaleway]: success
+[2023-06-20 10:43:55] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.5.0.tar.gz]
+[2023-06-20 10:43:55] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.5.1-py3-none-any.whl.zip]
+[2023-06-20 10:43:55] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2023-06-20 10:43:55] INFO root fetch - main [MainThread]: Store serial: [18572020]
