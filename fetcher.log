@@ -12767,3 +12767,133 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 08:18:47] INFO root fetch - processPackages [metlo]: Remove: archive file [/home/abi/fetcher/tmp/metlo-0.0.9.tar.gz]
 [2023-06-20 08:18:47] INFO root fetch - main [MainThread]: End processing [metlo]: success
 [2023-06-20 08:18:47] INFO root fetch - main [MainThread]: Store serial: [18570542]
+[2023-06-20 08:23:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570542]
+[2023-06-20 08:23:57] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-20 08:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neuroshape
+[2023-06-20 08:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbmlmath
+[2023-06-20 08:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miniworldmaker
+[2023-06-20 08:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dassana
+[2023-06-20 08:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pretext
+[2023-06-20 08:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: emailalert
+[2023-06-20 08:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shapes-recognition
+[2023-06-20 08:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: creditagricole-particuliers
+[2023-06-20 08:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vllm
+[2023-06-20 08:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vbpdf
+[2023-06-20 08:23:57] INFO root fetch - processPackages [neuroshape]: New version: [0.0.4.5] Old Version: [0.0.4.4]
+[2023-06-20 08:23:57] INFO root fetch - processPackages [shapes-recognition]: New version: [2.2.5] Old Version: [2.0.0]
+[2023-06-20 08:23:57] INFO root fetch - processPackages [emailalert]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-06-20 08:23:57] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230619] Old Version: [1.6.1.dev20230618]
+[2023-06-20 08:23:57] INFO root fetch - processPackages [vbpdf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 08:23:57] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/0b/f9/256b2ee0416fe5009999f3cf82c2e70e9984d9ba83695c74e3f23a036b01/neuroshape-0.0.4.4.tar.gz
+[2023-06-20 08:23:57] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/83/36/ca8242bf4df2b6dcb9092eb06a3b5fd42adf96e24667ea53e270938277f3/emailalert-1.2.5.tar.gz
+[2023-06-20 08:23:57] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/6d/5b/cec45461cc58d3a9341a10e2a2619438e170710877a4d015ebca096e2721/pretext-1.6.1.dev20230618.tar.gz
+[2023-06-20 08:23:57] INFO root fetch - processPackages [vbpdf]: Downloading https://files.pythonhosted.org/packages/f7/b7/a8b54186388ae145e2a39819f469e89d56bb9dab328e0026106cd5596fb9/vbpdf-0.1.8.tar.gz
+[2023-06-20 08:23:57] INFO root fetch - processPackages [sbmlmath]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-20 08:23:57] INFO root fetch - processPackages [vllm]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-20 08:23:57] INFO root fetch - processPackages [miniworldmaker]: New version: [2.9.0.0] Old Version: [2.8.0.0]
+[2023-06-20 08:23:57] INFO root fetch - processPackages [dassana]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-06-20 08:23:57] INFO root fetch - processPackages [creditagricole-particuliers]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-20 08:23:57] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/ca/c8/b02c5add0616d85aa24b81636f51e61a1bd1b071a0c2aaa418f2bacfc1ea/emailalert-1.2.6.tar.gz
+[2023-06-20 08:23:57] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/9a/76/ca2947d160162dbc4f34aef4d82cee26a9d257a9fd0e719430e85956453d/shapes_recognition-2.0.0.tar.gz
+[2023-06-20 08:23:57] INFO root fetch - processPackages [vbpdf]: Downloading https://files.pythonhosted.org/packages/0e/4d/d337142ba717c2e1c455f5028fd42b0f2eef4e75b6bb25200cae085fba3f/vbpdf-0.1.9.tar.gz
+[2023-06-20 08:23:57] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/d7/d6/b54d103470dfd3e4d4a48e1b77af0ed7605913a58ec1903faac7c09972cb/neuroshape-0.0.4.5.tar.gz
+[2023-06-20 08:23:57] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-20 08:23:57] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.2.5.tar.gz tmp/emailalert-1.2.6.tar.gz --markdown 20230620/e/emailalert/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-06-20 08:23:57] INFO root fetch - processPackages [vllm]: Downloading https://files.pythonhosted.org/packages/12/6b/8e55a4fbd4e9c3caee2041f4dc732d3bf66964aebff53155e012f5bf7815/vllm-0.0.1.tar.gz
+[2023-06-20 08:23:57] INFO root fetch - processPackages [sbmlmath]: Downloading https://files.pythonhosted.org/packages/84/cf/e5e18b19ac4b46dec5bb92b479de4bf92a2e17d6213478d8643434d13a92/sbmlmath-0.0.0.tar.gz
+[2023-06-20 08:23:58] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/ac/44/4327098ba951401aab7589faff3c3c86050a34c5dfd363e13cf7d4afdd1f/pretext-1.6.1.dev20230619.tar.gz
+[2023-06-20 08:23:58] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/44/ce/b8474d5abb9a06d349d1d38ddd48b74b8d3611f0c9950542ffc992a7a8b6/dassana-0.8.6.tar.gz
+[2023-06-20 08:23:58] INFO root fetch - processPackages [vbpdf]: executing diffoscope
+[2023-06-20 08:23:58] INFO root fetch - processPackages [vbpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpdf-0.1.8.tar.gz tmp/vbpdf-0.1.9.tar.gz --markdown 20230620/v/vbpdf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 08:23:58] INFO root fetch - processPackages [creditagricole-particuliers]: Downloading https://files.pythonhosted.org/packages/1f/c5/eda87e48da90f89ebcaa21aae4ebcafca72941837ece446e3d2a722602aa/creditagricole_particuliers-0.8.0.tar.gz
+[2023-06-20 08:23:58] INFO root fetch - processPackages [neuroshape]: executing diffoscope
+[2023-06-20 08:23:58] INFO root fetch - processPackages [neuroshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroshape-0.0.4.4.tar.gz tmp/neuroshape-0.0.4.5.tar.gz --markdown 20230620/n/neuroshape/0.0.4.4-0.0.4.5/diff.md --exclude *.pyd
+[2023-06-20 08:23:58] INFO root fetch - processPackages [miniworldmaker]: Downloading https://files.pythonhosted.org/packages/f3/13/feb81bd15d26786614c70fa63b5049afcd9c93969921a39ab1714f36930f/miniworldmaker-2.8.0.0.tar.gz
+[2023-06-20 08:23:58] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-20 08:23:58] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230618.tar.gz tmp/pretext-1.6.1.dev20230619.tar.gz --markdown 20230620/p/pretext/1.6.1.dev20230618-1.6.1.dev20230619/diff.md --exclude *.pyd
+[2023-06-20 08:23:58] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/50/bc/dc8e865cbe22a3267adf560c8c52cf9c3fdc10a0a6014058f0475c82cb82/shapes_recognition-2.2.5.tar.gz
+[2023-06-20 08:23:58] INFO root fetch - processPackages [vllm]: Downloading https://files.pythonhosted.org/packages/39/a1/42e126432a166dcca8d93c430a5c733b1734f4e0f7ffbaf7cbbdb22662a1/vllm-0.1.0.tar.gz
+[2023-06-20 08:23:58] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/48/0f/6658b4d180075da60b0c3c1afafc94317c78d46c9075217264f50aa0befa/dassana-0.8.7.tar.gz
+[2023-06-20 08:23:58] INFO root fetch - processPackages [shapes-recognition]: executing diffoscope
+[2023-06-20 08:23:58] INFO root fetch - processPackages [shapes-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapes_recognition-2.0.0.tar.gz tmp/shapes_recognition-2.2.5.tar.gz --markdown 20230620/s/shapes-recognition/2.0.0-2.2.5/diff.md --exclude *.pyd
+[2023-06-20 08:23:58] INFO root fetch - processPackages [sbmlmath]: Downloading https://files.pythonhosted.org/packages/5c/c5/b408adf29433e55707789d1229f5dcff29f79b3d4ad206fce46e6d83d5f1/sbmlmath-0.0.1.tar.gz
+[2023-06-20 08:23:58] INFO root fetch - processPackages [dassana]: executing diffoscope
+[2023-06-20 08:23:58] INFO root fetch - processPackages [dassana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dassana-0.8.6.tar.gz tmp/dassana-0.8.7.tar.gz --markdown 20230620/d/dassana/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-06-20 08:23:58] INFO root fetch - processPackages [vllm]: executing diffoscope
+[2023-06-20 08:23:58] INFO root fetch - processPackages [vllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vllm-0.0.1.tar.gz tmp/vllm-0.1.0.tar.gz --markdown 20230620/v/vllm/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-20 08:23:58] INFO root fetch - processPackages [sbmlmath]: executing diffoscope
+[2023-06-20 08:23:58] INFO root fetch - processPackages [sbmlmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbmlmath-0.0.0.tar.gz tmp/sbmlmath-0.0.1.tar.gz --markdown 20230620/s/sbmlmath/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-20 08:23:58] INFO root fetch - processPackages [creditagricole-particuliers]: Downloading https://files.pythonhosted.org/packages/e0/c2/3e877cce40c2c51eb71a3a198c3fe362ee01801956d858a707f3c3da98c1/creditagricole_particuliers-0.9.0.tar.gz
+[2023-06-20 08:23:58] INFO root fetch - processPackages [miniworldmaker]: Downloading https://files.pythonhosted.org/packages/b9/2b/8e1c164f9e757ed512553b53cb0b2c7af2cdb34d75275dc4b4ce72b1b5ee/miniworldmaker-2.9.0.0.tar.gz
+[2023-06-20 08:23:58] INFO root fetch - processPackages [creditagricole-particuliers]: executing diffoscope
+[2023-06-20 08:23:58] INFO root fetch - processPackages [creditagricole-particuliers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creditagricole_particuliers-0.8.0.tar.gz tmp/creditagricole_particuliers-0.9.0.tar.gz --markdown 20230620/c/creditagricole-particuliers/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-20 08:23:58] INFO root fetch - processPackages [miniworldmaker]: executing diffoscope
+[2023-06-20 08:23:58] INFO root fetch - processPackages [miniworldmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniworldmaker-2.8.0.0.tar.gz tmp/miniworldmaker-2.9.0.0.tar.gz --markdown 20230620/m/miniworldmaker/2.8.0.0-2.9.0.0/diff.md --exclude *.pyd
+[2023-06-20 08:23:59] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.2.5.tar.gz]
+[2023-06-20 08:23:59] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.2.6.tar.gz]
+[2023-06-20 08:23:59] INFO root fetch - processPackages [emailalert]: Start processing: vedro-playwright
+[2023-06-20 08:23:59] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-20 08:23:59] INFO root fetch - processPackages [vedro-playwright]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-20 08:23:59] INFO root fetch - processPackages [vedro-playwright]: Downloading https://files.pythonhosted.org/packages/98/39/cfb6601bd66b7f572e791a1d1840f4c91cca85b88a694e76222b5172ab19/vedro-playwright-1.1.0.tar.gz
+[2023-06-20 08:23:59] INFO root fetch - processPackages [vbpdf]: Remove: archive file [/home/abi/fetcher/tmp/vbpdf-0.1.8.tar.gz]
+[2023-06-20 08:23:59] INFO root fetch - processPackages [vbpdf]: Remove: archive file [/home/abi/fetcher/tmp/vbpdf-0.1.9.tar.gz]
+[2023-06-20 08:23:59] INFO root fetch - processPackages [vbpdf]: Start processing: tistory-helper
+[2023-06-20 08:23:59] INFO root fetch - main [MainThread]: End processing [vbpdf]: success
+[2023-06-20 08:23:59] INFO root fetch - processPackages [tistory-helper]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-20 08:23:59] INFO root fetch - processPackages [tistory-helper]: Downloading https://files.pythonhosted.org/packages/bf/55/2a9cf2703b1c8898ef9f52011179b6c44fa39878a0d7c156eaccf25db001/tistory-helper-0.0.1.tar.gz
+[2023-06-20 08:23:59] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.4.tar.gz]
+[2023-06-20 08:23:59] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.5.tar.gz]
+[2023-06-20 08:23:59] INFO root fetch - processPackages [neuroshape]: Start processing: llm-lens
+[2023-06-20 08:23:59] INFO root fetch - main [MainThread]: End processing [neuroshape]: success
+[2023-06-20 08:23:59] INFO root fetch - processPackages [tistory-helper]: Downloading https://files.pythonhosted.org/packages/c4/5b/9cc4e6e69d6eab3c5d3012a286419ec6bfe2ab5b780299b57337d56b141f/tistory-helper-0.0.2.tar.gz
+[2023-06-20 08:23:59] WARNING root fetch - processPackages [llm-lens]: Skipping, unable to determine old version
+[2023-06-20 08:23:59] INFO root fetch - processPackages [llm-lens]: Start processing: neuroshape
+[2023-06-20 08:23:59] INFO root fetch - main [MainThread]: End processing [llm-lens] error
+[2023-06-20 08:23:59] INFO root fetch - processPackages [neuroshape]: New version: [0.0.4.6.2] Old Version: [0.0.4.6.1]
+[2023-06-20 08:23:59] INFO root fetch - processPackages [vedro-playwright]: Downloading https://files.pythonhosted.org/packages/62/01/2c20efcccd760122942175aecc63afc6f27c329fe5cc1b0c2c4dafcda937/vedro-playwright-1.2.0.tar.gz
+[2023-06-20 08:23:59] INFO root fetch - processPackages [tistory-helper]: executing diffoscope
+[2023-06-20 08:23:59] INFO root fetch - processPackages [tistory-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tistory-helper-0.0.1.tar.gz tmp/tistory-helper-0.0.2.tar.gz --markdown 20230620/t/tistory-helper/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-20 08:24:00] INFO root fetch - processPackages [creditagricole-particuliers]: Remove: archive file [/home/abi/fetcher/tmp/creditagricole_particuliers-0.8.0.tar.gz]
+[2023-06-20 08:24:00] INFO root fetch - processPackages [creditagricole-particuliers]: Remove: archive file [/home/abi/fetcher/tmp/creditagricole_particuliers-0.9.0.tar.gz]
+[2023-06-20 08:24:00] INFO root fetch - processPackages [creditagricole-particuliers]: Start processing: neuroshape
+[2023-06-20 08:24:00] INFO root fetch - main [MainThread]: End processing [creditagricole-particuliers]: success
+[2023-06-20 08:24:00] INFO root fetch - processPackages [vedro-playwright]: executing diffoscope
+[2023-06-20 08:24:00] INFO root fetch - processPackages [vedro-playwright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vedro-playwright-1.1.0.tar.gz tmp/vedro-playwright-1.2.0.tar.gz --markdown 20230620/v/vedro-playwright/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-20 08:24:00] INFO root fetch - processPackages [neuroshape]: New version: [0.0.4.6.2] Old Version: [0.0.4.6.1]
+[2023-06-20 08:24:00] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.8.6.tar.gz]
+[2023-06-20 08:24:00] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.8.7.tar.gz]
+[2023-06-20 08:24:00] INFO root fetch - main [MainThread]: End processing [dassana]: success
+[2023-06-20 08:24:00] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/29/7a/bc92fa4c467d2e2e0c114847b9fdfa4a2f01a2f7a328d9142306c62b4b7e/neuroshape-0.0.4.6.1.tar.gz
+[2023-06-20 08:24:00] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/29/7a/bc92fa4c467d2e2e0c114847b9fdfa4a2f01a2f7a328d9142306c62b4b7e/neuroshape-0.0.4.6.1.tar.gz
+[2023-06-20 08:24:00] INFO root fetch - processPackages [vllm]: Remove: archive file [/home/abi/fetcher/tmp/vllm-0.0.1.tar.gz]
+[2023-06-20 08:24:00] INFO root fetch - processPackages [vllm]: Remove: archive file [/home/abi/fetcher/tmp/vllm-0.1.0.tar.gz]
+[2023-06-20 08:24:00] INFO root fetch - main [MainThread]: End processing [vllm]: success
+[2023-06-20 08:24:00] INFO root fetch - processPackages [sbmlmath]: Remove: archive file [/home/abi/fetcher/tmp/sbmlmath-0.0.0.tar.gz]
+[2023-06-20 08:24:00] INFO root fetch - processPackages [sbmlmath]: Remove: archive file [/home/abi/fetcher/tmp/sbmlmath-0.0.1.tar.gz]
+[2023-06-20 08:24:00] INFO root fetch - main [MainThread]: End processing [sbmlmath]: success
+[2023-06-20 08:24:00] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/ff/2c/2a41e4ac531a4b5a3863b52c346c0fa77045913bfa0eccdb5eeb731190e1/neuroshape-0.0.4.6.2.tar.gz
+[2023-06-20 08:24:00] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/ff/2c/2a41e4ac531a4b5a3863b52c346c0fa77045913bfa0eccdb5eeb731190e1/neuroshape-0.0.4.6.2.tar.gz
+[2023-06-20 08:24:00] INFO root fetch - processPackages [neuroshape]: executing diffoscope
+[2023-06-20 08:24:00] INFO root fetch - processPackages [neuroshape]: executing diffoscope
+[2023-06-20 08:24:00] INFO root fetch - processPackages [neuroshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroshape-0.0.4.6.1.tar.gz tmp/neuroshape-0.0.4.6.2.tar.gz --markdown 20230620/n/neuroshape/0.0.4.6.1-0.0.4.6.2/diff.md --exclude *.pyd
+[2023-06-20 08:24:00] INFO root fetch - processPackages [neuroshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroshape-0.0.4.6.1.tar.gz tmp/neuroshape-0.0.4.6.2.tar.gz --markdown 20230620/n/neuroshape/0.0.4.6.1-0.0.4.6.2/diff.md --exclude *.pyd
+[2023-06-20 08:24:01] INFO root fetch - processPackages [tistory-helper]: Remove: archive file [/home/abi/fetcher/tmp/tistory-helper-0.0.1.tar.gz]
+[2023-06-20 08:24:01] INFO root fetch - processPackages [tistory-helper]: Remove: archive file [/home/abi/fetcher/tmp/tistory-helper-0.0.2.tar.gz]
+[2023-06-20 08:24:01] INFO root fetch - main [MainThread]: End processing [tistory-helper]: success
+[2023-06-20 08:24:01] INFO root fetch - processPackages [miniworldmaker]: Remove: archive file [/home/abi/fetcher/tmp/miniworldmaker-2.8.0.0.tar.gz]
+[2023-06-20 08:24:01] INFO root fetch - processPackages [miniworldmaker]: Remove: archive file [/home/abi/fetcher/tmp/miniworldmaker-2.9.0.0.tar.gz]
+[2023-06-20 08:24:01] INFO root fetch - main [MainThread]: End processing [miniworldmaker]: success
+[2023-06-20 08:24:01] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.0.0.tar.gz]
+[2023-06-20 08:24:01] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.2.5.tar.gz]
+[2023-06-20 08:24:01] INFO root fetch - main [MainThread]: End processing [shapes-recognition]: success
+[2023-06-20 08:24:01] INFO root fetch - processPackages [vedro-playwright]: Remove: archive file [/home/abi/fetcher/tmp/vedro-playwright-1.1.0.tar.gz]
+[2023-06-20 08:24:01] INFO root fetch - processPackages [vedro-playwright]: Remove: archive file [/home/abi/fetcher/tmp/vedro-playwright-1.2.0.tar.gz]
+[2023-06-20 08:24:01] INFO root fetch - main [MainThread]: End processing [vedro-playwright]: success
+[2023-06-20 08:24:01] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.6.1.tar.gz]
+[2023-06-20 08:24:01] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.6.2.tar.gz]
+[2023-06-20 08:24:01] INFO root fetch - main [MainThread]: End processing [neuroshape]: success
+[2023-06-20 08:24:01] INFO root fetch - main [MainThread]: End processing [neuroshape]: success
+[2023-06-20 08:24:04] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230618.tar.gz]
+[2023-06-20 08:24:04] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230619.tar.gz]
+[2023-06-20 08:24:04] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-20 08:24:04] INFO root fetch - main [MainThread]: Store serial: [18570583]
