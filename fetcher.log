@@ -16439,3 +16439,135 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 10:49:33] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.5.1.tar.gz]
 [2023-06-20 10:49:33] INFO root fetch - main [MainThread]: End processing [su6]: success
 [2023-06-20 10:49:33] INFO root fetch - main [MainThread]: Store serial: [18572091]
+[2023-06-20 10:54:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18572091]
+[2023-06-20 10:54:43] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-20 10:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyriemann
+[2023-06-20 10:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-model-optimization-nightly
+[2023-06-20 10:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otools-rpc
+[2023-06-20 10:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-es-aeat-sii-oca
+[2023-06-20 10:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composabl-dev
+[2023-06-20 10:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kurvy
+[2023-06-20 10:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: m1nx4s-calculator
+[2023-06-20 10:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eodc
+[2023-06-20 10:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Geode-Simplex
+[2023-06-20 10:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tfp-nightly
+[2023-06-20 10:54:43] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230620] Old Version: [0.7.5.dev20230619]
+[2023-06-20 10:54:43] INFO root fetch - processPackages [otools-rpc]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-20 10:54:43] INFO root fetch - processPackages [composabl-dev]: New version: [0.2.1.dev98] Old Version: [0.2.1.dev97]
+[2023-06-20 10:54:43] INFO root fetch - processPackages [pyriemann]: New version: [0.5] Old Version: [0.4]
+[2023-06-20 10:54:43] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-06-20 10:54:43] INFO root fetch - processPackages [m1nx4s-calculator]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-20 10:54:43] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-sii-oca]: New version: [14.0.2.8.3.dev2] Old Version: [14.0.2.8.3]
+[2023-06-20 10:54:43] INFO root fetch - processPackages [eodc]: New version: [2023.6.2] Old Version: [2023.6.1]
+[2023-06-20 10:54:43] INFO root fetch - processPackages [kurvy]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-20 10:54:43] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-20 10:54:43] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/43/3e/f8626e24aac53e63390349016c863334048d998c1b74b741247917425e8b/tf_model_optimization_nightly-0.7.5.dev20230619-py2.py3-none-any.whl
+[2023-06-20 10:54:43] INFO root fetch - processPackages [m1nx4s-calculator]: Downloading https://files.pythonhosted.org/packages/d1/01/7d39feacadd9103c41d6958c417da2e229a3f57058e9b9c9b687cad275ed/m1nx4s_calculator-1.1.0.tar.gz
+[2023-06-20 10:54:43] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/bb/88/96df80ea819f1adef165ecdf65495041427462c8c9c288874111f10cb5d3/composabl_dev-0.2.1.dev97-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-20 10:54:43] INFO root fetch - processPackages [kurvy]: Downloading https://files.pythonhosted.org/packages/9e/ca/67dda0e2dd018326946a776d07c9fad955c4887fe52347293e9d78aefe25/kurvy-1.0.1.tar.gz
+[2023-06-20 10:54:43] INFO root fetch - processPackages [pyriemann]: Downloading https://files.pythonhosted.org/packages/ee/5e/ac8347d876bb0c04498196b33fbf25f2a21eace9fe8f791292598773508a/pyriemann-0.4.tar.gz
+[2023-06-20 10:54:43] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/2d/71/93b279cc88cc75e1ff27e6eb6eb704cfbc3b35c6236a2e8c2242d0180a90/odoo14_addon_l10n_es_aeat_sii_oca-14.0.2.8.3-py3-none-any.whl
+[2023-06-20 10:54:43] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/71/fe/525adfc16647206017d2898a9f436996bc906ecd86240a5d0bac16555638/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl
+[2023-06-20 10:54:43] INFO root fetch - processPackages [otools-rpc]: Downloading https://files.pythonhosted.org/packages/83/5d/1df4d9fd1462e37dc35a65bc8a599a6b7b2621a936a4fdb120def4583ba2/otools-rpc-0.3.0.tar.gz
+[2023-06-20 10:54:43] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-20 10:54:44] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/bd/18/5df752716ccdc316e1170724ac221dbc37263190150db5dc64eebb70be01/eodc-2023.6.1.tar.gz
+[2023-06-20 10:54:44] INFO root fetch - processPackages [m1nx4s-calculator]: Downloading https://files.pythonhosted.org/packages/48/18/801e065a5e27473388bf00de3edfeaa28c5509faa0c880551c9bff1ebac6/m1nx4s_calculator-1.2.0.tar.gz
+[2023-06-20 10:54:44] INFO root fetch - processPackages [kurvy]: Downloading https://files.pythonhosted.org/packages/bd/78/ea594b91d337f9e32e889cb6bf3e5aa7360c5f469c9d4ae0f51807f5575a/kurvy-1.0.2.tar.gz
+[2023-06-20 10:54:44] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/29/0e/d21bb01a25528220df964d3e0a672d5385500f55c995c8a4caf46e780727/tf_model_optimization_nightly-0.7.5.dev20230620-py2.py3-none-any.whl
+[2023-06-20 10:54:44] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/57/ab/6272732fb619fcd2a76a6bd8d23c6da072c06dc01e4fc4bd49d891cf3d91/composabl_dev-0.2.1.dev98-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-20 10:54:44] INFO root fetch - processPackages [pyriemann]: Downloading https://files.pythonhosted.org/packages/45/50/9db91ccb209f5c8020e51186a96dc61f97cd0b7f6e83fbace1e038f303f9/pyriemann-0.5.tar.gz
+[2023-06-20 10:54:44] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/58/78/e08be979890f388139b19a59a343fe510783d294dc575b096a32ca3dc711/eodc-2023.6.2.tar.gz
+[2023-06-20 10:54:44] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/93/14/90fc6638331ae516ecb4fd45946e66dccdba960fe35c5e09edf8477027d5/odoo14_addon_l10n_es_aeat_sii_oca-14.0.2.8.3.dev2-py3-none-any.whl
+[2023-06-20 10:54:44] INFO root fetch - processPackages [kurvy]: executing diffoscope
+[2023-06-20 10:54:44] INFO root fetch - processPackages [kurvy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kurvy-1.0.1.tar.gz tmp/kurvy-1.0.2.tar.gz --markdown 20230620/k/kurvy/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-20 10:54:44] INFO root fetch - processPackages [m1nx4s-calculator]: executing diffoscope
+[2023-06-20 10:54:44] INFO root fetch - processPackages [m1nx4s-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m1nx4s_calculator-1.1.0.tar.gz tmp/m1nx4s_calculator-1.2.0.tar.gz --markdown 20230620/m/m1nx4s-calculator/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-20 10:54:44] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-20 10:54:44] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-06-20 10:54:44] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230619-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230620-py2.py3-none-any.whl.zip --markdown 20230620/t/tf-model-optimization-nightly/0.7.5.dev20230619-0.7.5.dev20230620/diff.md --exclude *.pyd
+[2023-06-20 10:54:44] INFO root fetch - processPackages [eodc]: executing diffoscope
+[2023-06-20 10:54:44] INFO root fetch - processPackages [eodc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc-2023.6.1.tar.gz tmp/eodc-2023.6.2.tar.gz --markdown 20230620/e/eodc/2023.6.1-2023.6.2/diff.md --exclude *.pyd
+[2023-06-20 10:54:44] INFO root fetch - processPackages [otools-rpc]: Downloading https://files.pythonhosted.org/packages/ba/a6/8e7dd231c5510b1b0251f2646995c938d05a12f4d6ebbf50e35a96410285/otools-rpc-0.3.1.tar.gz
+[2023-06-20 10:54:44] INFO root fetch - processPackages [pyriemann]: executing diffoscope
+[2023-06-20 10:54:44] INFO root fetch - processPackages [pyriemann]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyriemann-0.4.tar.gz tmp/pyriemann-0.5.tar.gz --markdown 20230620/p/pyriemann/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-20 10:54:44] INFO root fetch - processPackages [otools-rpc]: executing diffoscope
+[2023-06-20 10:54:44] INFO root fetch - processPackages [otools-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otools-rpc-0.3.0.tar.gz tmp/otools-rpc-0.3.1.tar.gz --markdown 20230620/o/otools-rpc/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-20 10:54:44] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-sii-oca]: executing diffoscope
+[2023-06-20 10:54:44] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-sii-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_aeat_sii_oca-14.0.2.8.3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_aeat_sii_oca-14.0.2.8.3.dev2-py3-none-any.whl.zip --markdown 20230620/o/odoo14-addon-l10n-es-aeat-sii-oca/14.0.2.8.3-14.0.2.8.3.dev2/diff.md --exclude *.pyd
+[2023-06-20 10:54:44] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/8f/99/93562b28a43421a18cd68c1a4e0a811721a99e39d3720642e78a9b79550b/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl
+[2023-06-20 10:54:45] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-06-20 10:54:45] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.2.1.dev97-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_dev-0.2.1.dev98-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230620/c/composabl-dev/0.2.1.dev97-0.2.1.dev98/diff.md --exclude *.pyd
+[2023-06-20 10:54:45] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-20 10:54:45] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230620/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-20 10:54:45] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-06-20 10:54:45] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230620/G/Geode-Simplex/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-06-20 10:54:45] INFO root fetch - processPackages [m1nx4s-calculator]: Remove: archive file [/home/abi/fetcher/tmp/m1nx4s_calculator-1.1.0.tar.gz]
+[2023-06-20 10:54:45] INFO root fetch - processPackages [m1nx4s-calculator]: Remove: archive file [/home/abi/fetcher/tmp/m1nx4s_calculator-1.2.0.tar.gz]
+[2023-06-20 10:54:45] INFO root fetch - processPackages [m1nx4s-calculator]: Start processing: spytula
+[2023-06-20 10:54:45] INFO root fetch - main [MainThread]: End processing [m1nx4s-calculator]: success
+[2023-06-20 10:54:45] INFO root fetch - processPackages [spytula]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-20 10:54:45] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2023.6.1.tar.gz]
+[2023-06-20 10:54:45] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2023.6.2.tar.gz]
+[2023-06-20 10:54:45] INFO root fetch - processPackages [eodc]: Start processing: llama-index
+[2023-06-20 10:54:45] INFO root fetch - main [MainThread]: End processing [eodc]: success
+[2023-06-20 10:54:46] INFO root fetch - processPackages [spytula]: Downloading https://files.pythonhosted.org/packages/22/5d/8b5beb77c711a947b009d8cb07d72088935402cbac7a454381513249cc5b/spytula-0.0.1.tar.gz
+[2023-06-20 10:54:46] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-20 10:54:46] INFO root fetch - processPackages [kurvy]: Remove: archive file [/home/abi/fetcher/tmp/kurvy-1.0.1.tar.gz]
+[2023-06-20 10:54:46] INFO root fetch - processPackages [kurvy]: Remove: archive file [/home/abi/fetcher/tmp/kurvy-1.0.2.tar.gz]
+[2023-06-20 10:54:46] INFO root fetch - processPackages [kurvy]: Start processing: gpt-index
+[2023-06-20 10:54:46] INFO root fetch - main [MainThread]: End processing [kurvy]: success
+[2023-06-20 10:54:46] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-20 10:54:46] INFO root fetch - processPackages [otools-rpc]: Remove: archive file [/home/abi/fetcher/tmp/otools-rpc-0.3.0.tar.gz]
+[2023-06-20 10:54:46] INFO root fetch - processPackages [otools-rpc]: Remove: archive file [/home/abi/fetcher/tmp/otools-rpc-0.3.1.tar.gz]
+[2023-06-20 10:54:46] INFO root fetch - processPackages [otools-rpc]: Start processing: arcam-fmj
+[2023-06-20 10:54:46] INFO root fetch - main [MainThread]: End processing [otools-rpc]: success
+[2023-06-20 10:54:46] INFO root fetch - processPackages [arcam-fmj]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-20 10:54:46] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/f3/a4/8fcac26c887b38aa528079ee4a511159fe89337c438c32c575ef70afe1dc/llama_index-0.6.8.tar.gz
+[2023-06-20 10:54:46] INFO root fetch - processPackages [spytula]: Downloading https://files.pythonhosted.org/packages/6a/0b/662719cb33b7d4e29a9ed6160e54f88ef8692deef29e63d094f770b450db/spytula-0.0.2.tar.gz
+[2023-06-20 10:54:46] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/39/ed/965dee00b18d04a9e723c02a028442b257e1b226780861f81ac52cd324ba/gpt_index-0.6.8.tar.gz
+[2023-06-20 10:54:46] INFO root fetch - processPackages [spytula]: executing diffoscope
+[2023-06-20 10:54:46] INFO root fetch - processPackages [spytula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spytula-0.0.1.tar.gz tmp/spytula-0.0.2.tar.gz --markdown 20230620/s/spytula/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-20 10:54:46] INFO root fetch - processPackages [arcam-fmj]: Downloading https://files.pythonhosted.org/packages/76/1b/a66a8c7b70aeac162f2c4153f720acad9b3e81b3f3f0ae46e9b1fdb2d6c7/arcam-fmj-1.3.0.tar.gz
+[2023-06-20 10:54:46] INFO root fetch - processPackages [pyriemann]: Remove: archive file [/home/abi/fetcher/tmp/pyriemann-0.4.tar.gz]
+[2023-06-20 10:54:46] INFO root fetch - processPackages [pyriemann]: Remove: archive file [/home/abi/fetcher/tmp/pyriemann-0.5.tar.gz]
+[2023-06-20 10:54:46] INFO root fetch - processPackages [pyriemann]: Start processing: lamine-root
+[2023-06-20 10:54:46] INFO root fetch - main [MainThread]: End processing [pyriemann]: success
+[2023-06-20 10:54:46] WARNING root fetch - processPackages [lamine-root]: Skipping, unable to determine old version
+[2023-06-20 10:54:46] INFO root fetch - main [MainThread]: End processing [lamine-root] error
+[2023-06-20 10:54:46] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/9c/96/62b5a23720114f0ce0f6331a1c6f89c27b66d44db7187a5632221f0d6f27/llama_index-0.6.9.tar.gz
+[2023-06-20 10:54:46] INFO root fetch - processPackages [arcam-fmj]: Downloading https://files.pythonhosted.org/packages/62/4c/b23eb292423a8b5c26cad9c906b557f8e0ac2e2811b5e5767949e627e32e/arcam-fmj-1.4.0.tar.gz
+[2023-06-20 10:54:46] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fd/af/29feddbce0290a3ddaa8adad399a5fa0c83d3d4d9637bf47751161c55d5c/gpt_index-0.6.9.tar.gz
+[2023-06-20 10:54:46] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230619-py2.py3-none-any.whl.zip]
+[2023-06-20 10:54:46] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230620-py2.py3-none-any.whl.zip]
+[2023-06-20 10:54:46] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-06-20 10:54:46] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-06-20 10:54:46] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230620/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-20 10:54:46] INFO root fetch - processPackages [arcam-fmj]: executing diffoscope
+[2023-06-20 10:54:46] INFO root fetch - processPackages [arcam-fmj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcam-fmj-1.3.0.tar.gz tmp/arcam-fmj-1.4.0.tar.gz --markdown 20230620/a/arcam-fmj/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-06-20 10:54:46] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-06-20 10:54:46] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230620/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-20 10:54:47] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_aeat_sii_oca-14.0.2.8.3-py3-none-any.whl.zip]
+[2023-06-20 10:54:47] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_aeat_sii_oca-14.0.2.8.3.dev2-py3-none-any.whl.zip]
+[2023-06-20 10:54:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-aeat-sii-oca]: success
+[2023-06-20 10:54:47] INFO root fetch - processPackages [spytula]: Remove: archive file [/home/abi/fetcher/tmp/spytula-0.0.1.tar.gz]
+[2023-06-20 10:54:47] INFO root fetch - processPackages [spytula]: Remove: archive file [/home/abi/fetcher/tmp/spytula-0.0.2.tar.gz]
+[2023-06-20 10:54:47] INFO root fetch - main [MainThread]: End processing [spytula]: success
+[2023-06-20 10:54:48] INFO root fetch - processPackages [arcam-fmj]: Remove: archive file [/home/abi/fetcher/tmp/arcam-fmj-1.3.0.tar.gz]
+[2023-06-20 10:54:48] INFO root fetch - processPackages [arcam-fmj]: Remove: archive file [/home/abi/fetcher/tmp/arcam-fmj-1.4.0.tar.gz]
+[2023-06-20 10:54:48] INFO root fetch - main [MainThread]: End processing [arcam-fmj]: success
+[2023-06-20 10:54:53] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.8.tar.gz]
+[2023-06-20 10:54:53] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.9.tar.gz]
+[2023-06-20 10:54:53] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-06-20 10:54:53] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.8.tar.gz]
+[2023-06-20 10:54:53] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.9.tar.gz]
+[2023-06-20 10:54:53] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-06-20 10:54:56] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-20 10:54:56] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-20 10:54:56] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-20 10:55:10] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-20 10:55:10] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-20 10:55:10] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-06-20 10:56:33] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev97-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-20 10:56:33] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev98-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-20 10:56:33] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-06-20 10:56:33] INFO root fetch - main [MainThread]: Store serial: [18572151]
