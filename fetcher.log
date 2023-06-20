@@ -11373,3 +11373,94 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 06:12:12] INFO root fetch - processPackages [circlecigen]: Remove: archive file [/home/abi/fetcher/tmp/circlecigen-0.0.5.tar.gz]
 [2023-06-20 06:12:12] INFO root fetch - main [MainThread]: End processing [circlecigen]: success
 [2023-06-20 06:12:12] INFO root fetch - main [MainThread]: Store serial: [18569885]
+[2023-06-20 06:17:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18569885]
+[2023-06-20 06:17:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-20 06:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hello2
+[2023-06-20 06:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypdfium2
+[2023-06-20 06:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taskr-cli
+[2023-06-20 06:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taskr-cli
+[2023-06-20 06:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datawise
+[2023-06-20 06:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graphflow
+[2023-06-20 06:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: text2text
+[2023-06-20 06:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llamabot
+[2023-06-20 06:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyds-cli
+[2023-06-20 06:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: natsort
+[2023-06-20 06:17:21] INFO root fetch - processPackages [hello2]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-20 06:17:21] INFO root fetch - processPackages [datawise]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-06-20 06:17:21] INFO root fetch - processPackages [taskr-cli]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-20 06:17:21] INFO root fetch - processPackages [pyds-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 06:17:21] INFO root fetch - processPackages [text2text]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-20 06:17:21] INFO root fetch - processPackages [graphflow]: New version: [0.5.0] Old Version: [0.4.5]
+[2023-06-20 06:17:21] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 06:17:21] INFO root fetch - processPackages [pypdfium2]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-06-20 06:17:21] INFO root fetch - processPackages [taskr-cli]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-20 06:17:21] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-06-20 06:17:21] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/e3/c0/4236ad87b002a37283fc611af27aa6a1edeefb1511208f899f6c1b087494/text2text-1.0.7.tar.gz
+[2023-06-20 06:17:21] INFO root fetch - processPackages [natsort]: New version: [8.4.0] Old Version: [8.3.1]
+[2023-06-20 06:17:21] INFO root fetch - processPackages [taskr-cli]: Downloading https://files.pythonhosted.org/packages/14/f0/97ab8a8739ddc994d6dd1875a205867da53c4f19a10ad1ad6383f5d124c2/taskr_cli-1.2.3-py3-none-any.whl
+[2023-06-20 06:17:21] INFO root fetch - processPackages [taskr-cli]: Downloading https://files.pythonhosted.org/packages/14/f0/97ab8a8739ddc994d6dd1875a205867da53c4f19a10ad1ad6383f5d124c2/taskr_cli-1.2.3-py3-none-any.whl
+[2023-06-20 06:17:21] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/10/d2/d43cf6d19ce3916c5294b85a35b822a4b0ed962fe049d881e1bd63744f00/datawise-0.0.14.tar.gz
+[2023-06-20 06:17:21] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/28/2d/562b1b249070f302b312948b1c9cdc80ee766ae1d680b0e183b0d18831e4/hello2-2.0.0.tar.gz
+[2023-06-20 06:17:21] INFO root fetch - processPackages [pyds-cli]: Downloading https://files.pythonhosted.org/packages/99/b7/25ea504023504de32b6a35c55f78fdcad948bc1fbffc2376fb5ae422e574/pyds-cli-0.1.8.tar.gz
+[2023-06-20 06:17:21] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-06-20 06:17:21] INFO root fetch - processPackages [graphflow]: Downloading https://files.pythonhosted.org/packages/7d/91/3c46db832548b6d1a7084d583cec323aaee1df5018d29aac857a94df1b1a/graphflow-0.4.5.tar.gz
+[2023-06-20 06:17:21] INFO root fetch - processPackages [pypdfium2]: Downloading https://files.pythonhosted.org/packages/1e/63/de38940b0c9273462d70d7cfa4c0b80878b1b8b1b29d317209e9014f8d2d/pypdfium2-4.8.0.tar.gz
+[2023-06-20 06:17:21] INFO root fetch - processPackages [natsort]: Downloading https://files.pythonhosted.org/packages/47/2a/bf13bfc1a51b6df2f823909c6d4f674a256e3f29401825e1d56ca2a95dc9/natsort-8.3.1.tar.gz
+[2023-06-20 06:17:21] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-06-20 06:17:21] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230620/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 06:17:21] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/04/5f/44dcf06837f1d8e2568c6798241ad298ee2f2b5f53004b61916d46a3f727/text2text-1.0.8.tar.gz
+[2023-06-20 06:17:21] INFO root fetch - processPackages [taskr-cli]: Downloading https://files.pythonhosted.org/packages/6b/11/b958a38e1733dadb13e76c31253533c418676857f79839d395747a875977/taskr_cli-1.2.4-py3-none-any.whl
+[2023-06-20 06:17:21] INFO root fetch - processPackages [taskr-cli]: Downloading https://files.pythonhosted.org/packages/6b/11/b958a38e1733dadb13e76c31253533c418676857f79839d395747a875977/taskr_cli-1.2.4-py3-none-any.whl
+[2023-06-20 06:17:21] INFO root fetch - processPackages [pyds-cli]: Downloading https://files.pythonhosted.org/packages/8e/20/ddf418ffc61e1ae87b55419849867f15354f90934dcfa3daf9ba7610a72f/pyds-cli-0.1.9.tar.gz
+[2023-06-20 06:17:21] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/76/05/3aa614469422e9f1b7e461dddd175b55ffcc2558031e89eafe0ed4ea13c5/datawise-0.0.15.tar.gz
+[2023-06-20 06:17:22] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-06-20 06:17:22] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.0.7.tar.gz tmp/text2text-1.0.8.tar.gz --markdown 20230620/t/text2text/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-20 06:17:22] INFO root fetch - processPackages [taskr-cli]: executing diffoscope
+[2023-06-20 06:17:22] INFO root fetch - processPackages [taskr-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskr_cli-1.2.3-py3-none-any.whl.zip tmp/taskr_cli-1.2.4-py3-none-any.whl.zip --markdown 20230620/t/taskr-cli/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-20 06:17:22] INFO root fetch - processPackages [taskr-cli]: executing diffoscope
+[2023-06-20 06:17:22] INFO root fetch - processPackages [taskr-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskr_cli-1.2.3-py3-none-any.whl.zip tmp/taskr_cli-1.2.4-py3-none-any.whl.zip --markdown 20230620/t/taskr-cli/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-20 06:17:22] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/c5/45/78ac464cb371d7ed2db579b6ff2bfad9f070c63c778c21e191fe80e291df/hello2-2.0.1.tar.gz
+[2023-06-20 06:17:22] INFO root fetch - processPackages [datawise]: executing diffoscope
+[2023-06-20 06:17:22] INFO root fetch - processPackages [datawise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawise-0.0.14.tar.gz tmp/datawise-0.0.15.tar.gz --markdown 20230620/d/datawise/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-06-20 06:17:22] INFO root fetch - processPackages [graphflow]: Downloading https://files.pythonhosted.org/packages/dd/f0/c20f062e8468b66710a73f6a3ad7bc76d6b24174e6d2e37b55613ef85652/graphflow-0.5.0.tar.gz
+[2023-06-20 06:17:22] INFO root fetch - processPackages [pyds-cli]: executing diffoscope
+[2023-06-20 06:17:22] INFO root fetch - processPackages [pyds-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyds-cli-0.1.8.tar.gz tmp/pyds-cli-0.1.9.tar.gz --markdown 20230620/p/pyds-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 06:17:22] INFO root fetch - processPackages [natsort]: Downloading https://files.pythonhosted.org/packages/e2/a9/a0c57aee75f77794adaf35322f8b6404cbd0f89ad45c87197a937764b7d0/natsort-8.4.0.tar.gz
+[2023-06-20 06:17:22] INFO root fetch - processPackages [pypdfium2]: Downloading https://files.pythonhosted.org/packages/4a/d0/bca4a5d0b0d7cc464934bc5eaf83745d8cd5801cebbff4195e3149cb9a2b/pypdfium2-4.9.0.tar.gz
+[2023-06-20 06:17:22] INFO root fetch - processPackages [graphflow]: executing diffoscope
+[2023-06-20 06:17:22] INFO root fetch - processPackages [graphflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphflow-0.4.5.tar.gz tmp/graphflow-0.5.0.tar.gz --markdown 20230620/g/graphflow/0.4.5-0.5.0/diff.md --exclude *.pyd
+[2023-06-20 06:17:22] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-06-20 06:17:22] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-2.0.0.tar.gz tmp/hello2-2.0.1.tar.gz --markdown 20230620/h/hello2/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-20 06:17:22] INFO root fetch - processPackages [pypdfium2]: executing diffoscope
+[2023-06-20 06:17:22] INFO root fetch - processPackages [pypdfium2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfium2-4.8.0.tar.gz tmp/pypdfium2-4.9.0.tar.gz --markdown 20230620/p/pypdfium2/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-06-20 06:17:22] INFO root fetch - processPackages [natsort]: executing diffoscope
+[2023-06-20 06:17:22] INFO root fetch - processPackages [natsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natsort-8.3.1.tar.gz tmp/natsort-8.4.0.tar.gz --markdown 20230620/n/natsort/8.3.1-8.4.0/diff.md --exclude *.pyd
+[2023-06-20 06:17:23] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-06-20 06:17:23] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-06-20 06:17:23] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-06-20 06:17:23] INFO root fetch - processPackages [taskr-cli]: Remove: archive file [/home/abi/fetcher/tmp/taskr_cli-1.2.3-py3-none-any.whl.zip]
+[2023-06-20 06:17:23] INFO root fetch - processPackages [taskr-cli]: Remove: archive file [/home/abi/fetcher/tmp/taskr_cli-1.2.4-py3-none-any.whl.zip]
+[2023-06-20 06:17:23] INFO root fetch - main [MainThread]: End processing [taskr-cli]: success
+[2023-06-20 06:17:23] INFO root fetch - main [MainThread]: End processing [taskr-cli]: success
+[2023-06-20 06:17:23] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.0.7.tar.gz]
+[2023-06-20 06:17:23] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.0.8.tar.gz]
+[2023-06-20 06:17:23] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-06-20 06:17:23] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.14.tar.gz]
+[2023-06-20 06:17:23] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.15.tar.gz]
+[2023-06-20 06:17:23] INFO root fetch - main [MainThread]: End processing [datawise]: success
+[2023-06-20 06:17:24] INFO root fetch - processPackages [pyds-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyds-cli-0.1.8.tar.gz]
+[2023-06-20 06:17:24] INFO root fetch - processPackages [pyds-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyds-cli-0.1.9.tar.gz]
+[2023-06-20 06:17:24] INFO root fetch - main [MainThread]: End processing [pyds-cli]: success
+[2023-06-20 06:17:24] INFO root fetch - processPackages [natsort]: Remove: archive file [/home/abi/fetcher/tmp/natsort-8.3.1.tar.gz]
+[2023-06-20 06:17:24] INFO root fetch - processPackages [natsort]: Remove: archive file [/home/abi/fetcher/tmp/natsort-8.4.0.tar.gz]
+[2023-06-20 06:17:24] INFO root fetch - main [MainThread]: End processing [natsort]: success
+[2023-06-20 06:17:25] INFO root fetch - processPackages [pypdfium2]: Remove: archive file [/home/abi/fetcher/tmp/pypdfium2-4.8.0.tar.gz]
+[2023-06-20 06:17:25] INFO root fetch - processPackages [pypdfium2]: Remove: archive file [/home/abi/fetcher/tmp/pypdfium2-4.9.0.tar.gz]
+[2023-06-20 06:17:25] INFO root fetch - main [MainThread]: End processing [pypdfium2]: success
+[2023-06-20 06:17:25] INFO root fetch - processPackages [graphflow]: Remove: archive file [/home/abi/fetcher/tmp/graphflow-0.4.5.tar.gz]
+[2023-06-20 06:17:25] INFO root fetch - processPackages [graphflow]: Remove: archive file [/home/abi/fetcher/tmp/graphflow-0.5.0.tar.gz]
+[2023-06-20 06:17:25] INFO root fetch - main [MainThread]: End processing [graphflow]: success
+[2023-06-20 06:17:26] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-2.0.0.tar.gz]
+[2023-06-20 06:17:26] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-2.0.1.tar.gz]
+[2023-06-20 06:17:26] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-06-20 06:17:26] INFO root fetch - main [MainThread]: Store serial: [18569919]
