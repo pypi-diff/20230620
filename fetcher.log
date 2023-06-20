@@ -15751,3 +15751,195 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 10:27:39] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
 [2023-06-20 10:27:39] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2023-06-20 10:27:39] INFO root fetch - main [MainThread]: Store serial: [18571824]
+[2023-06-20 10:32:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18571824]
+[2023-06-20 10:32:49] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-20 10:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metal-python
+[2023-06-20 10:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: textual
+[2023-06-20 10:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Marl-Factory-Grid
+[2023-06-20 10:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vector2dggs
+[2023-06-20 10:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fdk
+[2023-06-20 10:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: capellambse
+[2023-06-20 10:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: readlog
+[2023-06-20 10:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: titan-iris
+[2023-06-20 10:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: easylaser
+[2023-06-20 10:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-contributor-assets
+[2023-06-20 10:32:49] INFO root fetch - processPackages [vector2dggs]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-20 10:32:49] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post847] Old Version: [1.0.0.post846]
+[2023-06-20 10:32:49] INFO root fetch - processPackages [vector2dggs]: Downloading https://files.pythonhosted.org/packages/74/09/36fbfaf60bedad12c43b96e8def90610bd8f54bdbea5fd1f81e5ca43057e/vector2dggs-0.5.0.tar.gz
+[2023-06-20 10:32:49] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/5e/cb/1e29f974a582a096ccdfd3562acaab4427756201a7d0831821c312107216/nucliadb_contributor_assets-1.0.0.post846-py3-none-any.whl
+[2023-06-20 10:32:49] INFO root fetch - processPackages [textual]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-20 10:32:49] INFO root fetch - processPackages [titan-iris]: New version: [0.4.0a0] Old Version: [0.3.9a2]
+[2023-06-20 10:32:49] INFO root fetch - processPackages [metal-python]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-20 10:32:49] INFO root fetch - processPackages [Marl-Factory-Grid]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-20 10:32:49] INFO root fetch - processPackages [fdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-20 10:32:49] WARNING root fetch - processPackages [easylaser]: Skipping, unable to determine old version
+[2023-06-20 10:32:49] INFO root fetch - processPackages [easylaser]: Start processing: obrpy
+[2023-06-20 10:32:49] INFO root fetch - main [MainThread]: End processing [easylaser] error
+[2023-06-20 10:32:49] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-06-20 10:32:49] INFO root fetch - processPackages [obrpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 10:32:49] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/6e/81/2a91a9be26df9651b2fc3a6054ccc6fbe32f3a3f990f2ffe9f5b67799541/titan-iris-0.3.9a2.tar.gz
+[2023-06-20 10:32:49] INFO root fetch - processPackages [vector2dggs]: Downloading https://files.pythonhosted.org/packages/0f/11/61b17e41cff12761f620fc78ae414dabb49815b2ac7a16fa908cb213a970/vector2dggs-0.5.1.tar.gz
+[2023-06-20 10:32:49] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/5d/dd/469e7b138f280702c1d07a43c6635cc9f2988ba00dad8c018c74ac51e803/nucliadb_contributor_assets-1.0.0.post847-py3-none-any.whl
+[2023-06-20 10:32:49] INFO root fetch - processPackages [obrpy]: Downloading https://files.pythonhosted.org/packages/40/f5/347bc63d43e440d564764d2043680d908093794ab8b4b36a2e0a233d1b69/obrpy-0.0.8.tar.gz
+[2023-06-20 10:32:49] INFO root fetch - processPackages [vector2dggs]: executing diffoscope
+[2023-06-20 10:32:49] INFO root fetch - processPackages [vector2dggs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector2dggs-0.5.0.tar.gz tmp/vector2dggs-0.5.1.tar.gz --markdown 20230620/v/vector2dggs/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-20 10:32:49] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/17/d2/002affba91d339187f5699c26fecc3fa3bf966f17c5d08bb696c724b63ee/textual-0.9.0.tar.gz
+[2023-06-20 10:32:49] INFO root fetch - processPackages [fdk]: Downloading https://files.pythonhosted.org/packages/10/7f/f459d5a81d6d9ddbb07271dd0458bf3e0b1bd812bb9f40b6c8112a96cc47/fdk-0.1.6.tar.gz
+[2023-06-20 10:32:49] INFO root fetch - processPackages [readlog]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-20 10:32:49] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-20 10:32:49] INFO root fetch - processPackages [Marl-Factory-Grid]: Downloading https://files.pythonhosted.org/packages/54/0b/a44f8af62e02640504f82f3895f015935d54b192bc9d1ea81e8db75ae046/Marl-Factory-Grid-0.0.5.tar.gz
+[2023-06-20 10:32:49] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post846-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post847-py3-none-any.whl.zip --markdown 20230620/n/nucliadb-contributor-assets/1.0.0.post846-1.0.0.post847/diff.md --exclude *.pyd
+[2023-06-20 10:32:49] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/da/87/ea7df78e12e58839edf84e22e55f4828fa269abd4eda5b854ca1a3f2ae3c/metal_python-0.9.4.tar.gz
+[2023-06-20 10:32:49] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2023-06-20 10:32:49] INFO root fetch - processPackages [obrpy]: Downloading https://files.pythonhosted.org/packages/cc/7e/f6346192a5ffdc0e7a9a1c79105403e1656d07090c2a41efac016b7247e9/obrpy-0.0.9.tar.gz
+[2023-06-20 10:32:49] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/00/f5/04c2b82028328441503f4f7939dc1e1148ce6d647297f2137bc60e3c4d2a/titan-iris-0.4.0a0.tar.gz
+[2023-06-20 10:32:49] INFO root fetch - processPackages [readlog]: Downloading https://files.pythonhosted.org/packages/c8/55/6a2a79e2ee910fed41d61e957df46f7012e8a58b17d4828441e6cba0325b/readlog-1.1.7.tar.gz
+[2023-06-20 10:32:49] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/0e/7d/2155bf024c3bdf1dc6365e109a16bab46098e032e62666565176ebc9f84a/textual-0.9.1.tar.gz
+[2023-06-20 10:32:49] INFO root fetch - processPackages [Marl-Factory-Grid]: Downloading https://files.pythonhosted.org/packages/3c/94/03eeef3c3f3858466572ec22629c8766265c4629b76b16cd26bd24208efe/Marl-Factory-Grid-0.0.6.tar.gz
+[2023-06-20 10:32:49] INFO root fetch - processPackages [obrpy]: executing diffoscope
+[2023-06-20 10:32:49] INFO root fetch - processPackages [obrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obrpy-0.0.8.tar.gz tmp/obrpy-0.0.9.tar.gz --markdown 20230620/o/obrpy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 10:32:50] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-20 10:32:50] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a2.tar.gz tmp/titan-iris-0.4.0a0.tar.gz --markdown 20230620/t/titan-iris/0.3.9a2-0.4.0a0/diff.md --exclude *.pyd
+[2023-06-20 10:32:50] INFO root fetch - processPackages [textual]: executing diffoscope
+[2023-06-20 10:32:50] INFO root fetch - processPackages [textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-0.9.0.tar.gz tmp/textual-0.9.1.tar.gz --markdown 20230620/t/textual/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-20 10:32:50] INFO root fetch - processPackages [Marl-Factory-Grid]: executing diffoscope
+[2023-06-20 10:32:50] INFO root fetch - processPackages [Marl-Factory-Grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Marl-Factory-Grid-0.0.5.tar.gz tmp/Marl-Factory-Grid-0.0.6.tar.gz --markdown 20230620/M/Marl-Factory-Grid/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-20 10:32:50] INFO root fetch - processPackages [readlog]: Downloading https://files.pythonhosted.org/packages/99/82/7d67fbca786bb7273998757ab78850674d2052bef3b10752d734e03caab7/readlog-1.1.8.tar.gz
+[2023-06-20 10:32:50] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/d5/0e/f54a789448e772fa8f88c2a2f7da9e92cfc6a441cc42a238b2013db9901e/metal_python-0.9.5.tar.gz
+[2023-06-20 10:32:50] INFO root fetch - processPackages [fdk]: Downloading https://files.pythonhosted.org/packages/74/b2/ab2c7f832a93a09451a20012dd2e52b5b30bc10a46e67390e01ddf7a4918/fdk-0.1.7.tar.gz
+[2023-06-20 10:32:50] INFO root fetch - processPackages [fdk]: executing diffoscope
+[2023-06-20 10:32:50] INFO root fetch - processPackages [fdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdk-0.1.6.tar.gz tmp/fdk-0.1.7.tar.gz --markdown 20230620/f/fdk/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-20 10:32:50] INFO root fetch - processPackages [readlog]: executing diffoscope
+[2023-06-20 10:32:50] INFO root fetch - processPackages [readlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readlog-1.1.7.tar.gz tmp/readlog-1.1.8.tar.gz --markdown 20230620/r/readlog/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-20 10:32:50] INFO root fetch - processPackages [metal-python]: executing diffoscope
+[2023-06-20 10:32:50] INFO root fetch - processPackages [metal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metal_python-0.9.4.tar.gz tmp/metal_python-0.9.5.tar.gz --markdown 20230620/m/metal-python/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-20 10:32:51] INFO root fetch - processPackages [vector2dggs]: Remove: archive file [/home/abi/fetcher/tmp/vector2dggs-0.5.0.tar.gz]
+[2023-06-20 10:32:51] INFO root fetch - processPackages [vector2dggs]: Remove: archive file [/home/abi/fetcher/tmp/vector2dggs-0.5.1.tar.gz]
+[2023-06-20 10:32:51] INFO root fetch - processPackages [vector2dggs]: Start processing: pyppms
+[2023-06-20 10:32:51] INFO root fetch - main [MainThread]: End processing [vector2dggs]: success
+[2023-06-20 10:32:51] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2023-06-20 10:32:51] INFO root fetch - processPackages [pyppms]: New version: [2.3.0a0] Old Version: [2.3.0]
+[2023-06-20 10:32:51] INFO root fetch - processPackages [pyppms]: Downloading https://files.pythonhosted.org/packages/48/a6/65ad287107e88dded65ae58c307b963cb280f55462fd574c40c6289e15ae/pyppms-2.3.0.tar.gz
+[2023-06-20 10:32:51] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post846-py3-none-any.whl.zip]
+[2023-06-20 10:32:51] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post847-py3-none-any.whl.zip]
+[2023-06-20 10:32:51] INFO root fetch - processPackages [nucliadb-contributor-assets]: Start processing: carculator-truck
+[2023-06-20 10:32:51] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-20 10:32:51] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.3.9a2.tar.gz]
+[2023-06-20 10:32:51] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.4.0a0.tar.gz]
+[2023-06-20 10:32:51] INFO root fetch - processPackages [titan-iris]: Start processing: hotpot-zzy
+[2023-06-20 10:32:51] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-20 10:32:51] INFO root fetch - processPackages [carculator-truck]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-06-20 10:32:51] INFO root fetch - processPackages [hotpot-zzy]: New version: [0.3.0.1] Old Version: [0.3.0.0]
+[2023-06-20 10:32:51] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/03/7d/14dc72fd7bab06382a7229c5e5c6d0fc2b4242455ca64310ee1059ba7d47/hotpot-zzy-0.3.0.0.tar.gz
+[2023-06-20 10:32:51] INFO root fetch - processPackages [pyppms]: Downloading https://files.pythonhosted.org/packages/f3/67/24216b94c769fadb259f17a7adadd9aee9d409d81b64df99f237b79df9e9/pyppms-2.3.0a0.tar.gz
+[2023-06-20 10:32:51] INFO root fetch - processPackages [obrpy]: Remove: archive file [/home/abi/fetcher/tmp/obrpy-0.0.8.tar.gz]
+[2023-06-20 10:32:51] INFO root fetch - processPackages [obrpy]: Remove: archive file [/home/abi/fetcher/tmp/obrpy-0.0.9.tar.gz]
+[2023-06-20 10:32:51] INFO root fetch - processPackages [obrpy]: Start processing: dans-datastation-tools
+[2023-06-20 10:32:51] INFO root fetch - main [MainThread]: End processing [obrpy]: success
+[2023-06-20 10:32:51] INFO root fetch - processPackages [carculator-truck]: Downloading https://files.pythonhosted.org/packages/16/12/cbe0ddf9a1212dab86f2484803a7c66a24de5cd0d875bfbf3f6713bfaf1d/carculator_truck-0.3.9.tar.gz
+[2023-06-20 10:32:51] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/7c/6b/afac717c930d7abc96f231772adcdfa4de8e498a32d70b6dd983589836a5/hotpot-zzy-0.3.0.1.tar.gz
+[2023-06-20 10:32:51] INFO root fetch - processPackages [hotpot-zzy]: executing diffoscope
+[2023-06-20 10:32:51] INFO root fetch - processPackages [hotpot-zzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotpot-zzy-0.3.0.0.tar.gz tmp/hotpot-zzy-0.3.0.1.tar.gz --markdown 20230620/h/hotpot-zzy/0.3.0.0-0.3.0.1/diff.md --exclude *.pyd
+[2023-06-20 10:32:51] INFO root fetch - processPackages [dans-datastation-tools]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-20 10:32:51] INFO root fetch - processPackages [pyppms]: executing diffoscope
+[2023-06-20 10:32:51] INFO root fetch - processPackages [pyppms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyppms-2.3.0.tar.gz tmp/pyppms-2.3.0a0.tar.gz --markdown 20230620/p/pyppms/2.3.0-2.3.0a0/diff.md --exclude *.pyd
+[2023-06-20 10:32:51] INFO root fetch - processPackages [dans-datastation-tools]: Downloading https://files.pythonhosted.org/packages/08/62/4cba38c948e0fa33a69c9beca81c47287fee27036ce8c320827363d60325/dans-datastation-tools-0.8.0.tar.gz
+[2023-06-20 10:32:51] INFO root fetch - processPackages [carculator-truck]: Downloading https://files.pythonhosted.org/packages/76/d6/9d2d0d48c1fe9ea43b18cf562d94248a008e96b7e3ecf9560af1da429676/carculator_truck-0.4.0.tar.gz
+[2023-06-20 10:32:52] INFO root fetch - processPackages [carculator-truck]: executing diffoscope
+[2023-06-20 10:32:52] INFO root fetch - processPackages [carculator-truck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carculator_truck-0.3.9.tar.gz tmp/carculator_truck-0.4.0.tar.gz --markdown 20230620/c/carculator-truck/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-06-20 10:32:52] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-06-20 10:32:52] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230620/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-06-20 10:32:52] INFO root fetch - processPackages [dans-datastation-tools]: Downloading https://files.pythonhosted.org/packages/33/96/44cd919e59f5edb30e2236c9f4259f8c9e7483d1219012cbaf403482dd4d/dans-datastation-tools-0.9.0.tar.gz
+[2023-06-20 10:32:52] INFO root fetch - processPackages [dans-datastation-tools]: executing diffoscope
+[2023-06-20 10:32:52] INFO root fetch - processPackages [dans-datastation-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dans-datastation-tools-0.8.0.tar.gz tmp/dans-datastation-tools-0.9.0.tar.gz --markdown 20230620/d/dans-datastation-tools/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-20 10:32:52] INFO root fetch - processPackages [fdk]: Remove: archive file [/home/abi/fetcher/tmp/fdk-0.1.6.tar.gz]
+[2023-06-20 10:32:52] INFO root fetch - processPackages [fdk]: Remove: archive file [/home/abi/fetcher/tmp/fdk-0.1.7.tar.gz]
+[2023-06-20 10:32:52] INFO root fetch - processPackages [fdk]: Start processing: fxwarriorspdf
+[2023-06-20 10:32:52] INFO root fetch - main [MainThread]: End processing [fdk]: success
+[2023-06-20 10:32:52] WARNING root fetch - processPackages [fxwarriorspdf]: Skipping, unable to determine old version
+[2023-06-20 10:32:52] INFO root fetch - processPackages [fxwarriorspdf]: Start processing: 001modbutton
+[2023-06-20 10:32:52] INFO root fetch - main [MainThread]: End processing [fxwarriorspdf] error
+[2023-06-20 10:32:52] INFO root fetch - processPackages [pyppms]: Remove: archive file [/home/abi/fetcher/tmp/pyppms-2.3.0.tar.gz]
+[2023-06-20 10:32:52] INFO root fetch - processPackages [pyppms]: Remove: archive file [/home/abi/fetcher/tmp/pyppms-2.3.0a0.tar.gz]
+[2023-06-20 10:32:52] INFO root fetch - processPackages [pyppms]: Start processing: th2-data-services
+[2023-06-20 10:32:52] INFO root fetch - main [MainThread]: End processing [pyppms]: success
+[2023-06-20 10:32:52] WARNING root fetch - processPackages [001modbutton]: Skipping, unable to determine old version
+[2023-06-20 10:32:52] INFO root fetch - processPackages [001modbutton]: Start processing: composabl-ray-dev
+[2023-06-20 10:32:52] INFO root fetch - main [MainThread]: End processing [001modbutton] error
+[2023-06-20 10:32:52] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev5319788736] Old Version: [2.0.0.dev5310669895]
+[2023-06-20 10:32:52] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.2.1.dev97] Old Version: [0.2.1.dev96]
+[2023-06-20 10:32:52] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/80/f9/b32330eaddc1e1fecf2b48cb5d9ea0762183a0699d0b44076e99b19a27fe/th2_data_services-2.0.0.dev5310669895.tar.gz
+[2023-06-20 10:32:52] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/4b/b7/ede49e228b1f0740e6ba41e7b1e4474163720ea5aca9678c4c5f617fb58c/composabl_ray_dev-0.2.1.dev96-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-20 10:32:53] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/18/46/0a4b7d103585836d202290d4d1254d6950834af6374c6c0be8ed769ff794/composabl_ray_dev-0.2.1.dev97-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-20 10:32:53] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/53/80/96773e44b9f4e4b835e8d6450a4de0038e85f32cccba9df635bbf640d015/th2_data_services-2.0.0.dev5319788736.tar.gz
+[2023-06-20 10:32:53] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-06-20 10:32:53] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.2.1.dev96-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray_dev-0.2.1.dev97-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230620/c/composabl-ray-dev/0.2.1.dev96-0.2.1.dev97/diff.md --exclude *.pyd
+[2023-06-20 10:32:53] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-06-20 10:32:53] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev5310669895.tar.gz tmp/th2_data_services-2.0.0.dev5319788736.tar.gz --markdown 20230620/t/th2-data-services/2.0.0.dev5310669895-2.0.0.dev5319788736/diff.md --exclude *.pyd
+[2023-06-20 10:32:53] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.3.0.0.tar.gz]
+[2023-06-20 10:32:53] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.3.0.1.tar.gz]
+[2023-06-20 10:32:53] INFO root fetch - processPackages [hotpot-zzy]: Start processing: sanydata
+[2023-06-20 10:32:53] INFO root fetch - main [MainThread]: End processing [hotpot-zzy]: success
+[2023-06-20 10:32:53] INFO root fetch - processPackages [sanydata]: New version: [3.3.2] Old Version: [3.3.1]
+[2023-06-20 10:32:53] INFO root fetch - processPackages [carculator-truck]: Remove: archive file [/home/abi/fetcher/tmp/carculator_truck-0.3.9.tar.gz]
+[2023-06-20 10:32:53] INFO root fetch - processPackages [carculator-truck]: Remove: archive file [/home/abi/fetcher/tmp/carculator_truck-0.4.0.tar.gz]
+[2023-06-20 10:32:53] INFO root fetch - processPackages [carculator-truck]: Start processing: QuantumPathQSOAPySDK
+[2023-06-20 10:32:53] INFO root fetch - main [MainThread]: End processing [carculator-truck]: success
+[2023-06-20 10:32:53] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: New version: [1.5.1] Old Version: [1.5]
+[2023-06-20 10:32:53] INFO root fetch - processPackages [sanydata]: Downloading https://files.pythonhosted.org/packages/2c/6a/28c7cd3ef8d2c1d6daea62c288996bacc86c4dc3bb1a5e9ee6f8a599c5d3/sanydata-3.3.1.tar.gz
+[2023-06-20 10:32:53] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Downloading https://files.pythonhosted.org/packages/71/1f/a57dae7e5d79f0e31808859434f0e3607818ffb4f672784a9e236495b438/QuantumPathQSOAPySDK-1.5.tar.gz
+[2023-06-20 10:32:53] INFO root fetch - processPackages [Marl-Factory-Grid]: Remove: archive file [/home/abi/fetcher/tmp/Marl-Factory-Grid-0.0.5.tar.gz]
+[2023-06-20 10:32:53] INFO root fetch - processPackages [Marl-Factory-Grid]: Remove: archive file [/home/abi/fetcher/tmp/Marl-Factory-Grid-0.0.6.tar.gz]
+[2023-06-20 10:32:53] INFO root fetch - processPackages [Marl-Factory-Grid]: Start processing: ens-sdk
+[2023-06-20 10:32:53] INFO root fetch - main [MainThread]: End processing [Marl-Factory-Grid]: success
+[2023-06-20 10:32:53] INFO root fetch - processPackages [ens-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-20 10:32:53] INFO root fetch - processPackages [ens-sdk]: Downloading https://files.pythonhosted.org/packages/30/53/8337c47d357327920687b0f6a722fdd8868d656fbd18574b9ef6e5edbce7/ens_sdk-0.0.2.tar.gz
+[2023-06-20 10:32:53] INFO root fetch - processPackages [readlog]: Remove: archive file [/home/abi/fetcher/tmp/readlog-1.1.7.tar.gz]
+[2023-06-20 10:32:53] INFO root fetch - processPackages [readlog]: Remove: archive file [/home/abi/fetcher/tmp/readlog-1.1.8.tar.gz]
+[2023-06-20 10:32:53] INFO root fetch - processPackages [readlog]: Start processing: configuraptor
+[2023-06-20 10:32:53] INFO root fetch - main [MainThread]: End processing [readlog]: success
+[2023-06-20 10:32:53] INFO root fetch - processPackages [configuraptor]: New version: [1.7.1] Old Version: [1.6.0]
+[2023-06-20 10:32:54] INFO root fetch - processPackages [sanydata]: Downloading https://files.pythonhosted.org/packages/df/ac/67e4075baf7ded104258425a451b15af0f525ae7fc3d11321d1709f11990/sanydata-3.3.2.tar.gz
+[2023-06-20 10:32:54] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/13/58/5da8c49dbc3c1071a8a6d1106cfec386b72c6897cbc9230a9b19467b12ef/configuraptor-1.6.0.tar.gz
+[2023-06-20 10:32:54] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Downloading https://files.pythonhosted.org/packages/25/06/0e41704587afb44f169e3864e94719ce9e76eeb349dc1c30dfe8ab05459d/QuantumPathQSOAPySDK-1.5.1.tar.gz
+[2023-06-20 10:32:54] INFO root fetch - processPackages [dans-datastation-tools]: Remove: archive file [/home/abi/fetcher/tmp/dans-datastation-tools-0.8.0.tar.gz]
+[2023-06-20 10:32:54] INFO root fetch - processPackages [dans-datastation-tools]: Remove: archive file [/home/abi/fetcher/tmp/dans-datastation-tools-0.9.0.tar.gz]
+[2023-06-20 10:32:54] INFO root fetch - main [MainThread]: End processing [dans-datastation-tools]: success
+[2023-06-20 10:32:54] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: executing diffoscope
+[2023-06-20 10:32:54] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuantumPathQSOAPySDK-1.5.tar.gz tmp/QuantumPathQSOAPySDK-1.5.1.tar.gz --markdown 20230620/Q/QuantumPathQSOAPySDK/1.5-1.5.1/diff.md --exclude *.pyd
+[2023-06-20 10:32:54] INFO root fetch - processPackages [ens-sdk]: Downloading https://files.pythonhosted.org/packages/e6/bd/43b0f5b33b11e7bf6c9910e9e1dc34174f69aa817fd6eb6c76bc7f2c7822/ens_sdk-0.0.3.tar.gz
+[2023-06-20 10:32:54] INFO root fetch - processPackages [sanydata]: executing diffoscope
+[2023-06-20 10:32:54] INFO root fetch - processPackages [sanydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanydata-3.3.1.tar.gz tmp/sanydata-3.3.2.tar.gz --markdown 20230620/s/sanydata/3.3.1-3.3.2/diff.md --exclude *.pyd
+[2023-06-20 10:32:54] INFO root fetch - processPackages [ens-sdk]: executing diffoscope
+[2023-06-20 10:32:54] INFO root fetch - processPackages [ens-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ens_sdk-0.0.2.tar.gz tmp/ens_sdk-0.0.3.tar.gz --markdown 20230620/e/ens-sdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-20 10:32:54] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/f3/5c/8a37c65510246df945c26dcc7d7caa9a3508ed5798351779e09bb276809d/configuraptor-1.7.1.tar.gz
+[2023-06-20 10:32:54] INFO root fetch - processPackages [configuraptor]: executing diffoscope
+[2023-06-20 10:32:54] INFO root fetch - processPackages [configuraptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configuraptor-1.6.0.tar.gz tmp/configuraptor-1.7.1.tar.gz --markdown 20230620/c/configuraptor/1.6.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-20 10:32:55] INFO root fetch - processPackages [ens-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ens_sdk-0.0.2.tar.gz]
+[2023-06-20 10:32:55] INFO root fetch - processPackages [ens-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ens_sdk-0.0.3.tar.gz]
+[2023-06-20 10:32:55] INFO root fetch - main [MainThread]: End processing [ens-sdk]: success
+[2023-06-20 10:32:55] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.0.tar.gz]
+[2023-06-20 10:32:55] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.1.tar.gz]
+[2023-06-20 10:32:55] INFO root fetch - main [MainThread]: End processing [textual]: success
+[2023-06-20 10:32:55] INFO root fetch - processPackages [sanydata]: Remove: archive file [/home/abi/fetcher/tmp/sanydata-3.3.1.tar.gz]
+[2023-06-20 10:32:55] INFO root fetch - processPackages [sanydata]: Remove: archive file [/home/abi/fetcher/tmp/sanydata-3.3.2.tar.gz]
+[2023-06-20 10:32:55] INFO root fetch - main [MainThread]: End processing [sanydata]: success
+[2023-06-20 10:32:55] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Remove: archive file [/home/abi/fetcher/tmp/QuantumPathQSOAPySDK-1.5.tar.gz]
+[2023-06-20 10:32:55] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Remove: archive file [/home/abi/fetcher/tmp/QuantumPathQSOAPySDK-1.5.1.tar.gz]
+[2023-06-20 10:32:55] INFO root fetch - main [MainThread]: End processing [QuantumPathQSOAPySDK]: success
+[2023-06-20 10:32:55] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.1.dev96-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-20 10:32:55] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.1.dev97-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-20 10:32:55] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-06-20 10:32:55] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5310669895.tar.gz]
+[2023-06-20 10:32:55] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5319788736.tar.gz]
+[2023-06-20 10:32:55] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-06-20 10:32:57] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.6.0.tar.gz]
+[2023-06-20 10:32:57] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.7.1.tar.gz]
+[2023-06-20 10:32:57] INFO root fetch - main [MainThread]: End processing [configuraptor]: success
+[2023-06-20 10:32:58] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.4.tar.gz]
+[2023-06-20 10:32:58] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.5.tar.gz]
+[2023-06-20 10:32:58] INFO root fetch - main [MainThread]: End processing [metal-python]: success
+[2023-06-20 10:33:00] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2023-06-20 10:33:00] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2023-06-20 10:33:00] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-06-20 10:33:00] INFO root fetch - main [MainThread]: Store serial: [18571901]
