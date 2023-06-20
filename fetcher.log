@@ -2800,3 +2800,15 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 03:05:54] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2023-06-20 03:05:54] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-06-20 03:05:54] INFO root fetch - main [MainThread]: Store serial: [18567049]
+[2023-06-20 03:10:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18567049]
+[2023-06-20 03:11:03] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-20 03:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-runit
+[2023-06-20 03:11:03] INFO root fetch - processPackages [python-runit]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-20 03:11:04] INFO root fetch - processPackages [python-runit]: Downloading https://files.pythonhosted.org/packages/b9/96/77b2f6306659be9a71e2b3712be7f7a705c377768cf92268b595f420f439/python-runit-0.2.0.tar.gz
+[2023-06-20 03:11:04] INFO root fetch - processPackages [python-runit]: Downloading https://files.pythonhosted.org/packages/42/4d/bae2665132127f421fdb4075eff8030ad4e8477099725e973d617b48b4c9/python-runit-0.2.1.tar.gz
+[2023-06-20 03:11:04] INFO root fetch - processPackages [python-runit]: executing diffoscope
+[2023-06-20 03:11:04] INFO root fetch - processPackages [python-runit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-runit-0.2.0.tar.gz tmp/python-runit-0.2.1.tar.gz --markdown 20230620/p/python-runit/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-20 03:11:05] INFO root fetch - processPackages [python-runit]: Remove: archive file [/home/abi/fetcher/tmp/python-runit-0.2.0.tar.gz]
+[2023-06-20 03:11:05] INFO root fetch - processPackages [python-runit]: Remove: archive file [/home/abi/fetcher/tmp/python-runit-0.2.1.tar.gz]
+[2023-06-20 03:11:05] INFO root fetch - main [MainThread]: End processing [python-runit]: success
+[2023-06-20 03:11:05] INFO root fetch - main [MainThread]: Store serial: [18567053]
