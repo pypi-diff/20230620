@@ -22354,3 +22354,185 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 14:17:16] ERROR root fetch - processPackages [lino]: Timeout during execution of pkgdiff
 [2023-06-20 14:17:16] INFO root fetch - main [MainThread]: End processing [lino] error
 [2023-06-20 14:17:16] INFO root fetch - main [MainThread]: Store serial: [18574557]
+[2023-06-20 14:22:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18574557]
+[2023-06-20 14:22:25] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-20 14:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coschedule
+[2023-06-20 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roktools
+[2023-06-20 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyVLMP
+[2023-06-20 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tiledb-prompt-options
+[2023-06-20 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-dllib-spark3
+[2023-06-20 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: krx-rigger
+[2023-06-20 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qps-limit
+[2023-06-20 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: talisman-dm
+[2023-06-20 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytmlib
+[2023-06-20 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dppapidata
+[2023-06-20 14:22:26] WARNING root fetch - processPackages [coschedule]: Skipping, unable to determine old version
+[2023-06-20 14:22:26] INFO root fetch - processPackages [coschedule]: Start processing: kadaster-kikinzage-client
+[2023-06-20 14:22:26] INFO root fetch - main [MainThread]: End processing [coschedule] error
+[2023-06-20 14:22:26] INFO root fetch - processPackages [qps-limit]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-20 14:22:26] INFO root fetch - processPackages [tiledb-prompt-options]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 14:22:26] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230620] Old Version: [2.4.0b20230619]
+[2023-06-20 14:22:26] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 14:22:26] INFO root fetch - processPackages [talisman-dm]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-20 14:22:26] WARNING root fetch - processPackages [dppapidata]: Skipping, unable to determine old version
+[2023-06-20 14:22:26] INFO root fetch - processPackages [dppapidata]: Start processing: autotools
+[2023-06-20 14:22:26] INFO root fetch - processPackages [pytmlib]: New version: [1.1.0.dev8] Old Version: [1.1.0.dev7]
+[2023-06-20 14:22:26] INFO root fetch - main [MainThread]: End processing [dppapidata] error
+[2023-06-20 14:22:26] INFO root fetch - processPackages [pyVLMP]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 14:22:26] INFO root fetch - processPackages [roktools]: New version: [5.5.3.post2] Old Version: [5.5.1]
+[2023-06-20 14:22:26] INFO root fetch - processPackages [kadaster-kikinzage-client]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-20 14:22:26] WARNING root fetch - processPackages [autotools]: Skipping, unable to determine old version
+[2023-06-20 14:22:26] INFO root fetch - processPackages [autotools]: Start processing: gfagraphs
+[2023-06-20 14:22:26] INFO root fetch - main [MainThread]: End processing [autotools] error
+[2023-06-20 14:22:26] INFO root fetch - processPackages [gfagraphs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 14:22:26] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/f5/db/3e1e60a78dac55ea1c8f6e91278d097da33c504123772800e605a8ad0d16/krx_rigger-0.0.8.tar.gz
+[2023-06-20 14:22:26] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/9e/0b/9f4012cc025de658f02ee7026c195a16f552b667fc123531f9bad309603d/bigdl-dllib-spark3-2.4.0b20230619.tar.gz
+[2023-06-20 14:22:26] INFO root fetch - processPackages [talisman-dm]: Downloading https://files.pythonhosted.org/packages/ed/7b/c63dab386460cedecb16ca1a9f5dbb275583d9abb2f9852eac02dc8f1139/talisman-dm-1.0.0a8.tar.gz
+[2023-06-20 14:22:26] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/e8/a8/8ba4747764a348aab711667542e45f4cf96d72d8d1d501df79562b1442ee/qps_limit-0.1.0-py3-none-any.whl
+[2023-06-20 14:22:26] INFO root fetch - processPackages [pyVLMP]: Downloading https://files.pythonhosted.org/packages/a0/9f/de8c692e43885a1cd4df1121f56c201fa2127e8ef95a0256da68218dac3a/pyVLMP-1.0.8.tar.gz
+[2023-06-20 14:22:26] INFO root fetch - processPackages [tiledb-prompt-options]: Downloading https://files.pythonhosted.org/packages/ee/04/a6ebf347c6c596eca9dd23bb53c74cc1a98caa9abe14016f9acf504e4dec/tiledb_prompt_options-1.0.8-py2.py3-none-any.whl
+[2023-06-20 14:22:26] INFO root fetch - processPackages [kadaster-kikinzage-client]: Downloading https://files.pythonhosted.org/packages/ea/e5/4e259c8484664f6bb4dccbdcfac149c23e9055d172743e9d64b6207d330d/kadaster_kikinzage_client-0.1.5.tar.gz
+[2023-06-20 14:22:26] INFO root fetch - processPackages [pytmlib]: Downloading https://files.pythonhosted.org/packages/11/8e/cf174cabf1b520d52a7a778da9393abf0d15ba8823e8cba9f2fba8eaeb57/pytmlib-1.1.0.dev7.tar.gz
+[2023-06-20 14:22:26] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/2f/5c/c35187a8d96cbbeb56c1733085ce24c611b70f9178132f7ddbdb38a29be7/roktools-5.5.1-py2.py3-none-any.whl
+[2023-06-20 14:22:26] INFO root fetch - processPackages [gfagraphs]: Downloading https://files.pythonhosted.org/packages/c9/fd/97b27a42b719a34b94ca3c3c1a3d07be60ad58f1879c431d0332e35183ee/gfagraphs-0.1.8.tar.gz
+[2023-06-20 14:22:26] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61328827>=10485760
+[2023-06-20 14:22:26] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: pynter-defects
+[2023-06-20 14:22:26] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-06-20 14:22:26] INFO root fetch - processPackages [pynter-defects]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-20 14:22:26] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/3c/a4/9984ac189f64e5a3e8609e707c22afbc18221b6f4166ce6e2278cfe0d5a9/qps_limit-0.1.1-py3-none-any.whl
+[2023-06-20 14:22:26] INFO root fetch - processPackages [pytmlib]: Downloading https://files.pythonhosted.org/packages/f1/f6/6fbe5902899f1cf58894e65e5dd22831d89dbd78a921f72943eab0090a1b/pytmlib-1.1.0.dev8.tar.gz
+[2023-06-20 14:22:26] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/59/05/8106984d0c358e894bf27eb839baf0d02ad718ef80496d507d7e3149ab83/krx_rigger-0.0.9.tar.gz
+[2023-06-20 14:22:26] INFO root fetch - processPackages [pynter-defects]: Downloading https://files.pythonhosted.org/packages/6e/58/0d99dcc3a9685601795ff7f565d14721714ca2e652c570daff3f88d91ff9/pynter-defects-1.0.2.tar.gz
+[2023-06-20 14:22:26] INFO root fetch - processPackages [qps-limit]: executing diffoscope
+[2023-06-20 14:22:26] INFO root fetch - processPackages [qps-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qps_limit-0.1.0-py3-none-any.whl.zip tmp/qps_limit-0.1.1-py3-none-any.whl.zip --markdown 20230620/q/qps-limit/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-20 14:22:26] INFO root fetch - processPackages [kadaster-kikinzage-client]: Downloading https://files.pythonhosted.org/packages/d4/0d/e169be0b7250592024d8d9c6ca6e421fee4ff214c35338e24d9b597927fe/kadaster_kikinzage_client-0.1.6.tar.gz
+[2023-06-20 14:22:26] INFO root fetch - processPackages [tiledb-prompt-options]: Downloading https://files.pythonhosted.org/packages/f8/5f/602f99e72be1d992437d4844a28027ab4fcf344b7bead32ddef38db8a2cb/tiledb_prompt_options-1.0.9-py2.py3-none-any.whl
+[2023-06-20 14:22:26] INFO root fetch - processPackages [pyVLMP]: Downloading https://files.pythonhosted.org/packages/7c/ea/35cd69b1b58b34a0c136e11b1a7e25fb86caa2cbc27af323ca3fd6a8a95f/pyVLMP-1.0.9.tar.gz
+[2023-06-20 14:22:26] INFO root fetch - processPackages [talisman-dm]: Downloading https://files.pythonhosted.org/packages/bd/ef/0d2809d6ed2c72eee47f846077380162aecf867d99c7289e3fbcb3a223f9/talisman-dm-1.0.0a9.tar.gz
+[2023-06-20 14:22:26] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/ea/8c/bf664be2012d58c8d683cceb5f6f460c4ad2c62ddc8f3828f4a13809c6ba/roktools-5.5.3.post2-py2.py3-none-any.whl
+[2023-06-20 14:22:26] INFO root fetch - processPackages [tiledb-prompt-options]: executing diffoscope
+[2023-06-20 14:22:26] INFO root fetch - processPackages [tiledb-prompt-options]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_prompt_options-1.0.8-py2.py3-none-any.whl.zip tmp/tiledb_prompt_options-1.0.9-py2.py3-none-any.whl.zip --markdown 20230620/t/tiledb-prompt-options/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 14:22:26] INFO root fetch - processPackages [gfagraphs]: Downloading https://files.pythonhosted.org/packages/c8/42/606b46b4af06764c28adacca84d95e98f0409310d2d2d897519f046ee805/gfagraphs-0.1.9.tar.gz
+[2023-06-20 14:22:26] INFO root fetch - processPackages [pytmlib]: executing diffoscope
+[2023-06-20 14:22:26] INFO root fetch - processPackages [pytmlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytmlib-1.1.0.dev7.tar.gz tmp/pytmlib-1.1.0.dev8.tar.gz --markdown 20230620/p/pytmlib/1.1.0.dev7-1.1.0.dev8/diff.md --exclude *.pyd
+[2023-06-20 14:22:26] INFO root fetch - processPackages [roktools]: executing diffoscope
+[2023-06-20 14:22:26] INFO root fetch - processPackages [roktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roktools-5.5.1-py2.py3-none-any.whl.zip tmp/roktools-5.5.3.post2-py2.py3-none-any.whl.zip --markdown 20230620/r/roktools/5.5.1-5.5.3.post2/diff.md --exclude *.pyd
+[2023-06-20 14:22:26] INFO root fetch - processPackages [kadaster-kikinzage-client]: executing diffoscope
+[2023-06-20 14:22:26] INFO root fetch - processPackages [kadaster-kikinzage-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kadaster_kikinzage_client-0.1.5.tar.gz tmp/kadaster_kikinzage_client-0.1.6.tar.gz --markdown 20230620/k/kadaster-kikinzage-client/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-20 14:22:27] INFO root fetch - processPackages [talisman-dm]: executing diffoscope
+[2023-06-20 14:22:27] INFO root fetch - processPackages [talisman-dm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talisman-dm-1.0.0a8.tar.gz tmp/talisman-dm-1.0.0a9.tar.gz --markdown 20230620/t/talisman-dm/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-20 14:22:27] INFO root fetch - processPackages [pyVLMP]: executing diffoscope
+[2023-06-20 14:22:27] INFO root fetch - processPackages [pyVLMP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVLMP-1.0.8.tar.gz tmp/pyVLMP-1.0.9.tar.gz --markdown 20230620/p/pyVLMP/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 14:22:27] INFO root fetch - processPackages [gfagraphs]: executing diffoscope
+[2023-06-20 14:22:27] INFO root fetch - processPackages [gfagraphs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfagraphs-0.1.8.tar.gz tmp/gfagraphs-0.1.9.tar.gz --markdown 20230620/g/gfagraphs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 14:22:27] INFO root fetch - processPackages [pynter-defects]: Downloading https://files.pythonhosted.org/packages/53/53/5e77ea8db406fee8a2b7227219416bb5def4220218751b0931b3540a765e/pynter-defects-1.0.3.tar.gz
+[2023-06-20 14:22:27] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-06-20 14:22:27] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.8.tar.gz tmp/krx_rigger-0.0.9.tar.gz --markdown 20230620/k/krx-rigger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 14:22:27] INFO root fetch - processPackages [pynter-defects]: executing diffoscope
+[2023-06-20 14:22:27] INFO root fetch - processPackages [pynter-defects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynter-defects-1.0.2.tar.gz tmp/pynter-defects-1.0.3.tar.gz --markdown 20230620/p/pynter-defects/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-20 14:22:28] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-0.1.0-py3-none-any.whl.zip]
+[2023-06-20 14:22:28] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-0.1.1-py3-none-any.whl.zip]
+[2023-06-20 14:22:28] INFO root fetch - processPackages [qps-limit]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-06-20 14:22:28] INFO root fetch - main [MainThread]: End processing [qps-limit]: success
+[2023-06-20 14:22:28] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-20 14:22:28] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-06-20 14:22:28] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-5.5.1-py2.py3-none-any.whl.zip]
+[2023-06-20 14:22:28] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-5.5.3.post2-py2.py3-none-any.whl.zip]
+[2023-06-20 14:22:28] INFO root fetch - processPackages [roktools]: Start processing: bs-common-fastapi-mongodb
+[2023-06-20 14:22:28] INFO root fetch - main [MainThread]: End processing [roktools]: success
+[2023-06-20 14:22:28] INFO root fetch - processPackages [bs-common-fastapi-mongodb]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-20 14:22:28] INFO root fetch - processPackages [bs-common-fastapi-mongodb]: Downloading https://files.pythonhosted.org/packages/3a/fe/b457d5d439e05e5e1924f4d3c347c684ab91dd0dc5dfcbcb74dc258e22b7/bs_common_fastapi_mongodb-0.2.1.tar.gz
+[2023-06-20 14:22:28] INFO root fetch - processPackages [pytmlib]: Remove: archive file [/home/abi/fetcher/tmp/pytmlib-1.1.0.dev7.tar.gz]
+[2023-06-20 14:22:28] INFO root fetch - processPackages [pytmlib]: Remove: archive file [/home/abi/fetcher/tmp/pytmlib-1.1.0.dev8.tar.gz]
+[2023-06-20 14:22:28] INFO root fetch - processPackages [pytmlib]: Start processing: ovos-skill-date-time
+[2023-06-20 14:22:28] INFO root fetch - main [MainThread]: End processing [pytmlib]: success
+[2023-06-20 14:22:28] INFO root fetch - processPackages [krx-rigger]: Remove: archive file [/home/abi/fetcher/tmp/krx_rigger-0.0.8.tar.gz]
+[2023-06-20 14:22:28] INFO root fetch - processPackages [krx-rigger]: Remove: archive file [/home/abi/fetcher/tmp/krx_rigger-0.0.9.tar.gz]
+[2023-06-20 14:22:28] INFO root fetch - processPackages [krx-rigger]: Start processing: openstef-dbc
+[2023-06-20 14:22:28] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-06-20 14:22:28] INFO root fetch - processPackages [ovos-skill-date-time]: New version: [0.2.3a5] Old Version: [0.2.3a4]
+[2023-06-20 14:22:28] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-06-20 14:22:28] INFO root fetch - processPackages [openstef-dbc]: New version: [3.6.8a8] Old Version: [3.6.8a7]
+[2023-06-20 14:22:28] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-06-20 14:22:28] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230620/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 14:22:28] INFO root fetch - processPackages [bs-common-fastapi-mongodb]: Downloading https://files.pythonhosted.org/packages/d3/3f/08e49993690423e87c30a8d27e765ba8e3e8ba6468aa5a61a953a7aff923/bs_common_fastapi_mongodb-0.2.2.tar.gz
+[2023-06-20 14:22:28] INFO root fetch - processPackages [gfagraphs]: Remove: archive file [/home/abi/fetcher/tmp/gfagraphs-0.1.8.tar.gz]
+[2023-06-20 14:22:28] INFO root fetch - processPackages [gfagraphs]: Remove: archive file [/home/abi/fetcher/tmp/gfagraphs-0.1.9.tar.gz]
+[2023-06-20 14:22:28] INFO root fetch - processPackages [gfagraphs]: Start processing: sbn
+[2023-06-20 14:22:28] INFO root fetch - main [MainThread]: End processing [gfagraphs]: success
+[2023-06-20 14:22:28] INFO root fetch - processPackages [ovos-skill-date-time]: Downloading https://files.pythonhosted.org/packages/db/27/d21bc501bc878be12e8e10066c7a28da441e8d1d39fdc9d58d14b073b8de/ovos_skill_date_time-0.2.3a4-py3-none-any.whl
+[2023-06-20 14:22:28] WARNING root fetch - processPackages [sbn]: Skipping, unable to determine old version
+[2023-06-20 14:22:28] INFO root fetch - processPackages [sbn]: Start processing: dashscope
+[2023-06-20 14:22:28] INFO root fetch - main [MainThread]: End processing [sbn] error
+[2023-06-20 14:22:28] INFO root fetch - processPackages [bs-common-fastapi-mongodb]: executing diffoscope
+[2023-06-20 14:22:28] INFO root fetch - processPackages [bs-common-fastapi-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_common_fastapi_mongodb-0.2.1.tar.gz tmp/bs_common_fastapi_mongodb-0.2.2.tar.gz --markdown 20230620/b/bs-common-fastapi-mongodb/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-20 14:22:28] INFO root fetch - processPackages [dashscope]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-20 14:22:28] INFO root fetch - processPackages [openstef-dbc]: Downloading https://files.pythonhosted.org/packages/74/d2/2696bddc8d7d27b906fd53b4f2bb1d08e83dc5fa7c91cd3491eb94d3a939/openstef_dbc-3.6.8a7.tar.gz
+[2023-06-20 14:22:29] INFO root fetch - processPackages [kadaster-kikinzage-client]: Remove: archive file [/home/abi/fetcher/tmp/kadaster_kikinzage_client-0.1.5.tar.gz]
+[2023-06-20 14:22:29] INFO root fetch - processPackages [kadaster-kikinzage-client]: Remove: archive file [/home/abi/fetcher/tmp/kadaster_kikinzage_client-0.1.6.tar.gz]
+[2023-06-20 14:22:29] INFO root fetch - processPackages [kadaster-kikinzage-client]: Start processing: logfire-python
+[2023-06-20 14:22:29] INFO root fetch - main [MainThread]: End processing [kadaster-kikinzage-client]: success
+[2023-06-20 14:22:29] INFO root fetch - processPackages [dashscope]: Downloading https://files.pythonhosted.org/packages/0f/0f/7bb7c0f90200e21433d210c03a16df017559e75161deb69a65715720ed0e/dashscope-1.2.0-py3-none-any.whl
+[2023-06-20 14:22:29] INFO root fetch - processPackages [logfire-python]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-20 14:22:29] INFO root fetch - processPackages [ovos-skill-date-time]: Downloading https://files.pythonhosted.org/packages/fe/06/60b6b48343bbd6d83b463555129b641c5759ddf775e3eaf88e76f9e10322/ovos_skill_date_time-0.2.3a5-py3-none-any.whl
+[2023-06-20 14:22:29] INFO root fetch - processPackages [openstef-dbc]: Downloading https://files.pythonhosted.org/packages/dd/7e/e2f8b3080b790957f1682097a8da80658e49679bd93fb5cd32e8e4bd81e0/openstef_dbc-3.6.8a8.tar.gz
+[2023-06-20 14:22:29] INFO root fetch - processPackages [logfire-python]: Downloading https://files.pythonhosted.org/packages/bf/ba/9d95fb014e630b2a033698f5c2621c35f5633bc24f3c4576ad1c7b7558ab/logfire-python-0.0.5.tar.gz
+[2023-06-20 14:22:29] INFO root fetch - processPackages [ovos-skill-date-time]: executing diffoscope
+[2023-06-20 14:22:29] INFO root fetch - processPackages [ovos-skill-date-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_date_time-0.2.3a4-py3-none-any.whl.zip tmp/ovos_skill_date_time-0.2.3a5-py3-none-any.whl.zip --markdown 20230620/o/ovos-skill-date-time/0.2.3a4-0.2.3a5/diff.md --exclude *.pyd
+[2023-06-20 14:22:29] INFO root fetch - processPackages [openstef-dbc]: executing diffoscope
+[2023-06-20 14:22:29] INFO root fetch - processPackages [openstef-dbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstef_dbc-3.6.8a7.tar.gz tmp/openstef_dbc-3.6.8a8.tar.gz --markdown 20230620/o/openstef-dbc/3.6.8a7-3.6.8a8/diff.md --exclude *.pyd
+[2023-06-20 14:22:29] INFO root fetch - processPackages [dashscope]: Downloading https://files.pythonhosted.org/packages/5e/3f/66b86180f2bb93ab08c04ee802b36a0c7c7930eb632da8c9f62edaf60249/dashscope-1.3.0-py3-none-any.whl
+[2023-06-20 14:22:29] INFO root fetch - processPackages [dashscope]: executing diffoscope
+[2023-06-20 14:22:29] INFO root fetch - processPackages [dashscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashscope-1.2.0-py3-none-any.whl.zip tmp/dashscope-1.3.0-py3-none-any.whl.zip --markdown 20230620/d/dashscope/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-20 14:22:29] INFO root fetch - processPackages [logfire-python]: Downloading https://files.pythonhosted.org/packages/bc/ba/585bc11309a089d471c5117f9c9f36fa93ad626ad87604075b960f406360/logfire-python-0.0.6.tar.gz
+[2023-06-20 14:22:29] INFO root fetch - processPackages [logfire-python]: executing diffoscope
+[2023-06-20 14:22:29] INFO root fetch - processPackages [logfire-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfire-python-0.0.5.tar.gz tmp/logfire-python-0.0.6.tar.gz --markdown 20230620/l/logfire-python/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-20 14:22:29] INFO root fetch - processPackages [talisman-dm]: Remove: archive file [/home/abi/fetcher/tmp/talisman-dm-1.0.0a8.tar.gz]
+[2023-06-20 14:22:29] INFO root fetch - processPackages [talisman-dm]: Remove: archive file [/home/abi/fetcher/tmp/talisman-dm-1.0.0a9.tar.gz]
+[2023-06-20 14:22:29] INFO root fetch - processPackages [talisman-dm]: Start processing: djfapi
+[2023-06-20 14:22:29] INFO root fetch - main [MainThread]: End processing [talisman-dm]: success
+[2023-06-20 14:22:29] INFO root fetch - processPackages [djfapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 14:22:29] INFO root fetch - processPackages [bs-common-fastapi-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/bs_common_fastapi_mongodb-0.2.1.tar.gz]
+[2023-06-20 14:22:29] INFO root fetch - processPackages [bs-common-fastapi-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/bs_common_fastapi_mongodb-0.2.2.tar.gz]
+[2023-06-20 14:22:29] INFO root fetch - processPackages [bs-common-fastapi-mongodb]: Start processing: djdantic
+[2023-06-20 14:22:29] INFO root fetch - main [MainThread]: End processing [bs-common-fastapi-mongodb]: success
+[2023-06-20 14:22:29] INFO root fetch - processPackages [djdantic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 14:22:29] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-06-20 14:22:29] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-06-20 14:22:29] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-06-20 14:22:29] INFO root fetch - processPackages [djfapi]: Downloading https://files.pythonhosted.org/packages/ec/91/212e1a394a4b7d62bf3d3dc4739dc10a9ddedc9fe6ee1c1fd3a0c3a66f24/djfapi-0.0.8.tar.gz
+[2023-06-20 14:22:30] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/6b/01/7b99b438be3180f4c11b404a39696e894c48441b43764956dfe1c658a47e/djdantic-0.0.8.tar.gz
+[2023-06-20 14:22:30] INFO root fetch - processPackages [djfapi]: Downloading https://files.pythonhosted.org/packages/9a/84/a6710eab6739d2351d2a2585909093b9947b85cb544edc5f944e1ae1a85d/djfapi-0.0.9.tar.gz
+[2023-06-20 14:22:30] INFO root fetch - processPackages [djfapi]: executing diffoscope
+[2023-06-20 14:22:30] INFO root fetch - processPackages [djfapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djfapi-0.0.8.tar.gz tmp/djfapi-0.0.9.tar.gz --markdown 20230620/d/djfapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 14:22:30] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/88/22/c9aa0b10748408764928cf0af9f3447f06fac8c6db08ba9a54a5703619c0/djdantic-0.0.9.tar.gz
+[2023-06-20 14:22:30] INFO root fetch - processPackages [djdantic]: executing diffoscope
+[2023-06-20 14:22:30] INFO root fetch - processPackages [djdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djdantic-0.0.8.tar.gz tmp/djdantic-0.0.9.tar.gz --markdown 20230620/d/djdantic/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 14:22:30] INFO root fetch - processPackages [openstef-dbc]: Remove: archive file [/home/abi/fetcher/tmp/openstef_dbc-3.6.8a7.tar.gz]
+[2023-06-20 14:22:30] INFO root fetch - processPackages [openstef-dbc]: Remove: archive file [/home/abi/fetcher/tmp/openstef_dbc-3.6.8a8.tar.gz]
+[2023-06-20 14:22:30] INFO root fetch - main [MainThread]: End processing [openstef-dbc]: success
+[2023-06-20 14:22:30] INFO root fetch - processPackages [dashscope]: Remove: archive file [/home/abi/fetcher/tmp/dashscope-1.2.0-py3-none-any.whl.zip]
+[2023-06-20 14:22:30] INFO root fetch - processPackages [dashscope]: Remove: archive file [/home/abi/fetcher/tmp/dashscope-1.3.0-py3-none-any.whl.zip]
+[2023-06-20 14:22:30] INFO root fetch - main [MainThread]: End processing [dashscope]: success
+[2023-06-20 14:22:30] INFO root fetch - processPackages [pyVLMP]: Remove: archive file [/home/abi/fetcher/tmp/pyVLMP-1.0.8.tar.gz]
+[2023-06-20 14:22:30] INFO root fetch - processPackages [pyVLMP]: Remove: archive file [/home/abi/fetcher/tmp/pyVLMP-1.0.9.tar.gz]
+[2023-06-20 14:22:30] INFO root fetch - main [MainThread]: End processing [pyVLMP]: success
+[2023-06-20 14:22:31] INFO root fetch - processPackages [logfire-python]: Remove: archive file [/home/abi/fetcher/tmp/logfire-python-0.0.5.tar.gz]
+[2023-06-20 14:22:31] INFO root fetch - processPackages [logfire-python]: Remove: archive file [/home/abi/fetcher/tmp/logfire-python-0.0.6.tar.gz]
+[2023-06-20 14:22:31] INFO root fetch - main [MainThread]: End processing [logfire-python]: success
+[2023-06-20 14:22:31] INFO root fetch - processPackages [djfapi]: Remove: archive file [/home/abi/fetcher/tmp/djfapi-0.0.8.tar.gz]
+[2023-06-20 14:22:31] INFO root fetch - processPackages [djfapi]: Remove: archive file [/home/abi/fetcher/tmp/djfapi-0.0.9.tar.gz]
+[2023-06-20 14:22:31] INFO root fetch - main [MainThread]: End processing [djfapi]: success
+[2023-06-20 14:22:31] INFO root fetch - processPackages [pynter-defects]: Remove: archive file [/home/abi/fetcher/tmp/pynter-defects-1.0.2.tar.gz]
+[2023-06-20 14:22:31] INFO root fetch - processPackages [pynter-defects]: Remove: archive file [/home/abi/fetcher/tmp/pynter-defects-1.0.3.tar.gz]
+[2023-06-20 14:22:31] INFO root fetch - main [MainThread]: End processing [pynter-defects]: success
+[2023-06-20 14:22:31] INFO root fetch - processPackages [djdantic]: Remove: archive file [/home/abi/fetcher/tmp/djdantic-0.0.8.tar.gz]
+[2023-06-20 14:22:31] INFO root fetch - processPackages [djdantic]: Remove: archive file [/home/abi/fetcher/tmp/djdantic-0.0.9.tar.gz]
+[2023-06-20 14:22:31] INFO root fetch - main [MainThread]: End processing [djdantic]: success
+[2023-06-20 14:22:35] INFO root fetch - processPackages [ovos-skill-date-time]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_date_time-0.2.3a4-py3-none-any.whl.zip]
+[2023-06-20 14:22:35] INFO root fetch - processPackages [ovos-skill-date-time]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_date_time-0.2.3a5-py3-none-any.whl.zip]
+[2023-06-20 14:22:35] INFO root fetch - main [MainThread]: End processing [ovos-skill-date-time]: success
+[2023-06-20 14:22:38] INFO root fetch - processPackages [tiledb-prompt-options]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_prompt_options-1.0.8-py2.py3-none-any.whl.zip]
+[2023-06-20 14:22:38] INFO root fetch - processPackages [tiledb-prompt-options]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_prompt_options-1.0.9-py2.py3-none-any.whl.zip]
+[2023-06-20 14:22:38] INFO root fetch - main [MainThread]: End processing [tiledb-prompt-options]: success
+[2023-06-20 14:22:38] INFO root fetch - main [MainThread]: Store serial: [18574640]
