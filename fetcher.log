@@ -12610,3 +12610,97 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 08:03:05] ERROR root fetch - processPackages [accelbyte-py-sdk]: Timeout during execution of pkgdiff
 [2023-06-20 08:03:05] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk] error
 [2023-06-20 08:03:05] INFO root fetch - main [MainThread]: Store serial: [18570468]
+[2023-06-20 08:08:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570468]
+[2023-06-20 08:08:15] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-20 08:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xklb
+[2023-06-20 08:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ypy-websocket
+[2023-06-20 08:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-bpstudio20210931
+[2023-06-20 08:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm-lens
+[2023-06-20 08:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vbpdf
+[2023-06-20 08:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rltest
+[2023-06-20 08:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vbpdf
+[2023-06-20 08:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cashooo
+[2023-06-20 08:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: laftel
+[2023-06-20 08:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langchain
+[2023-06-20 08:08:15] INFO root fetch - processPackages [ypy-websocket]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-06-20 08:08:15] INFO root fetch - processPackages [vbpdf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 08:08:15] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: New version: [2.0.0] Old Version: [1.0.9]
+[2023-06-20 08:08:15] INFO root fetch - processPackages [cashooo]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-20 08:08:15] WARNING root fetch - processPackages [llm-lens]: Skipping, unable to determine old version
+[2023-06-20 08:08:15] INFO root fetch - processPackages [llm-lens]: Start processing: pyg-nightly
+[2023-06-20 08:08:15] INFO root fetch - main [MainThread]: End processing [llm-lens] error
+[2023-06-20 08:08:15] INFO root fetch - processPackages [rltest]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-20 08:08:15] INFO root fetch - processPackages [vbpdf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 08:08:15] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-06-20 08:08:15] INFO root fetch - processPackages [laftel]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-06-20 08:08:15] INFO root fetch - processPackages [xklb]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-06-20 08:08:15] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230619] Old Version: [2.4.0.dev20230618]
+[2023-06-20 08:08:15] INFO root fetch - processPackages [cashooo]: Downloading https://files.pythonhosted.org/packages/e6/d3/f4a1958d14fa9792137d99fe3bcab146dd3729d735d9d7c114200adf6aef/cashooo-1.1.2.tar.gz
+[2023-06-20 08:08:15] INFO root fetch - processPackages [laftel]: Downloading https://files.pythonhosted.org/packages/47/ff/a165c6bed3ab4e90b3971dcf0fcf4ac204a8d25e066359bae8ef1ec6b944/laftel-1.2.2-py3-none-any.whl
+[2023-06-20 08:08:15] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-06-20 08:08:15] INFO root fetch - processPackages [ypy-websocket]: Downloading https://files.pythonhosted.org/packages/b1/0b/8e936a41e15b8a8a034c9708062ee82f18f4ca6a969c443d3ea10a54f1ea/ypy_websocket-0.8.4.tar.gz
+[2023-06-20 08:08:15] INFO root fetch - processPackages [rltest]: Downloading https://files.pythonhosted.org/packages/19/15/37f355db763bad386258cdf5dde6e73a0991bd16e286942de83c0a379d1c/rltest-0.7.0.tar.gz
+[2023-06-20 08:08:15] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: Downloading https://files.pythonhosted.org/packages/1e/a8/1fb11774830b24f784d796c7aa6896b7722a6af43d3ce562bdf7984bff8a/alibabacloud_bpstudio20210931-1.0.9.tar.gz
+[2023-06-20 08:08:15] INFO root fetch - processPackages [vbpdf]: Downloading https://files.pythonhosted.org/packages/f7/b7/a8b54186388ae145e2a39819f469e89d56bb9dab328e0026106cd5596fb9/vbpdf-0.1.8.tar.gz
+[2023-06-20 08:08:15] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-06-20 08:08:15] INFO root fetch - processPackages [vbpdf]: Downloading https://files.pythonhosted.org/packages/f7/b7/a8b54186388ae145e2a39819f469e89d56bb9dab328e0026106cd5596fb9/vbpdf-0.1.8.tar.gz
+[2023-06-20 08:08:15] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/c0/07/b86835568e9e97b0891ca5cee6f3933d047bd1517a7c5afa3220037c4931/xklb-2.1.5.tar.gz
+[2023-06-20 08:08:16] INFO root fetch - processPackages [laftel]: Downloading https://files.pythonhosted.org/packages/16/ad/b464a4ca02e29a888fd79dfe302c746c17925b57dc99248af651dba6a956/laftel-1.3.0-py3-none-any.whl
+[2023-06-20 08:08:16] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/40/68/84a0148276f02174c49ee69458e41678cd5406b9292f12bad7c2cad3f725/pyg_nightly-2.4.0.dev20230618.tar.gz
+[2023-06-20 08:08:16] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-06-20 08:08:16] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230620/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-06-20 08:08:16] INFO root fetch - processPackages [cashooo]: Downloading https://files.pythonhosted.org/packages/4e/81/dacf74f1aab66c64a4e03a0846a40581e2eb4188093fe25334a214982afd/cashooo-1.1.3.tar.gz
+[2023-06-20 08:08:16] INFO root fetch - processPackages [cashooo]: executing diffoscope
+[2023-06-20 08:08:16] INFO root fetch - processPackages [cashooo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashooo-1.1.2.tar.gz tmp/cashooo-1.1.3.tar.gz --markdown 20230620/c/cashooo/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-20 08:08:16] INFO root fetch - processPackages [laftel]: executing diffoscope
+[2023-06-20 08:08:16] INFO root fetch - processPackages [laftel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laftel-1.2.2-py3-none-any.whl.zip tmp/laftel-1.3.0-py3-none-any.whl.zip --markdown 20230620/l/laftel/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-06-20 08:08:16] INFO root fetch - processPackages [rltest]: Downloading https://files.pythonhosted.org/packages/55/c7/84cb4d258c15a1e0109fa1ecf2ed1000be46412858132c955753be212a7d/rltest-0.7.1.tar.gz
+[2023-06-20 08:08:16] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/bc/ff/f0d25090c6d29c85d96be705fe5276ba40c9b18a7d14ddf83859d32e2a66/xklb-2.1.6.tar.gz
+[2023-06-20 08:08:16] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: Downloading https://files.pythonhosted.org/packages/fc/c8/d1a6f5429ef3afcac2bffbcec3500befe70557995e82e1d0be62e38e86d0/alibabacloud_bpstudio20210931-2.0.0.tar.gz
+[2023-06-20 08:08:16] INFO root fetch - processPackages [ypy-websocket]: Downloading https://files.pythonhosted.org/packages/ad/26/927616d09366d016252ce20b00e5888ab14e1af94609ddc0f2289907d98d/ypy_websocket-0.9.0.tar.gz
+[2023-06-20 08:08:16] INFO root fetch - processPackages [vbpdf]: Downloading https://files.pythonhosted.org/packages/0e/4d/d337142ba717c2e1c455f5028fd42b0f2eef4e75b6bb25200cae085fba3f/vbpdf-0.1.9.tar.gz
+[2023-06-20 08:08:16] INFO root fetch - processPackages [rltest]: executing diffoscope
+[2023-06-20 08:08:16] INFO root fetch - processPackages [rltest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rltest-0.7.0.tar.gz tmp/rltest-0.7.1.tar.gz --markdown 20230620/r/rltest/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-20 08:08:16] INFO root fetch - processPackages [ypy-websocket]: executing diffoscope
+[2023-06-20 08:08:16] INFO root fetch - processPackages [ypy-websocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypy_websocket-0.8.4.tar.gz tmp/ypy_websocket-0.9.0.tar.gz --markdown 20230620/y/ypy-websocket/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-06-20 08:08:16] INFO root fetch - processPackages [vbpdf]: Downloading https://files.pythonhosted.org/packages/0e/4d/d337142ba717c2e1c455f5028fd42b0f2eef4e75b6bb25200cae085fba3f/vbpdf-0.1.9.tar.gz
+[2023-06-20 08:08:16] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: executing diffoscope
+[2023-06-20 08:08:16] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_bpstudio20210931-1.0.9.tar.gz tmp/alibabacloud_bpstudio20210931-2.0.0.tar.gz --markdown 20230620/a/alibabacloud-bpstudio20210931/1.0.9-2.0.0/diff.md --exclude *.pyd
+[2023-06-20 08:08:16] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-20 08:08:16] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.1.5.tar.gz tmp/xklb-2.1.6.tar.gz --markdown 20230620/x/xklb/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-06-20 08:08:16] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/af/ca/e6a43197150aea2d8984631950ad5664d9dac2b784a8145f4927a261c36d/pyg_nightly-2.4.0.dev20230619.tar.gz
+[2023-06-20 08:08:16] INFO root fetch - processPackages [vbpdf]: executing diffoscope
+[2023-06-20 08:08:16] INFO root fetch - processPackages [vbpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpdf-0.1.8.tar.gz tmp/vbpdf-0.1.9.tar.gz --markdown 20230620/v/vbpdf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 08:08:16] INFO root fetch - processPackages [vbpdf]: executing diffoscope
+[2023-06-20 08:08:16] INFO root fetch - processPackages [vbpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpdf-0.1.8.tar.gz tmp/vbpdf-0.1.9.tar.gz --markdown 20230620/v/vbpdf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 08:08:16] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-20 08:08:16] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230618.tar.gz tmp/pyg_nightly-2.4.0.dev20230619.tar.gz --markdown 20230620/p/pyg-nightly/2.4.0.dev20230618-2.4.0.dev20230619/diff.md --exclude *.pyd
+[2023-06-20 08:08:17] INFO root fetch - processPackages [cashooo]: Remove: archive file [/home/abi/fetcher/tmp/cashooo-1.1.2.tar.gz]
+[2023-06-20 08:08:17] INFO root fetch - processPackages [cashooo]: Remove: archive file [/home/abi/fetcher/tmp/cashooo-1.1.3.tar.gz]
+[2023-06-20 08:08:17] INFO root fetch - main [MainThread]: End processing [cashooo]: success
+[2023-06-20 08:08:17] INFO root fetch - processPackages [laftel]: Remove: archive file [/home/abi/fetcher/tmp/laftel-1.2.2-py3-none-any.whl.zip]
+[2023-06-20 08:08:17] INFO root fetch - processPackages [laftel]: Remove: archive file [/home/abi/fetcher/tmp/laftel-1.3.0-py3-none-any.whl.zip]
+[2023-06-20 08:08:17] INFO root fetch - main [MainThread]: End processing [laftel]: success
+[2023-06-20 08:08:17] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_bpstudio20210931-1.0.9.tar.gz]
+[2023-06-20 08:08:17] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_bpstudio20210931-2.0.0.tar.gz]
+[2023-06-20 08:08:17] INFO root fetch - main [MainThread]: End processing [alibabacloud-bpstudio20210931]: success
+[2023-06-20 08:08:18] INFO root fetch - processPackages [rltest]: Remove: archive file [/home/abi/fetcher/tmp/rltest-0.7.0.tar.gz]
+[2023-06-20 08:08:18] INFO root fetch - processPackages [rltest]: Remove: archive file [/home/abi/fetcher/tmp/rltest-0.7.1.tar.gz]
+[2023-06-20 08:08:18] INFO root fetch - main [MainThread]: End processing [rltest]: success
+[2023-06-20 08:08:18] INFO root fetch - processPackages [ypy-websocket]: Remove: archive file [/home/abi/fetcher/tmp/ypy_websocket-0.8.4.tar.gz]
+[2023-06-20 08:08:18] INFO root fetch - processPackages [ypy-websocket]: Remove: archive file [/home/abi/fetcher/tmp/ypy_websocket-0.9.0.tar.gz]
+[2023-06-20 08:08:18] INFO root fetch - main [MainThread]: End processing [ypy-websocket]: success
+[2023-06-20 08:08:18] INFO root fetch - processPackages [vbpdf]: Remove: archive file [/home/abi/fetcher/tmp/vbpdf-0.1.8.tar.gz]
+[2023-06-20 08:08:18] INFO root fetch - processPackages [vbpdf]: Remove: archive file [/home/abi/fetcher/tmp/vbpdf-0.1.9.tar.gz]
+[2023-06-20 08:08:18] INFO root fetch - main [MainThread]: End processing [vbpdf]: success
+[2023-06-20 08:08:18] INFO root fetch - main [MainThread]: End processing [vbpdf]: success
+[2023-06-20 08:08:18] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.5.tar.gz]
+[2023-06-20 08:08:18] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.6.tar.gz]
+[2023-06-20 08:08:18] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-06-20 08:08:21] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-06-20 08:08:21] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-06-20 08:08:21] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-06-20 08:08:22] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230618.tar.gz]
+[2023-06-20 08:08:22] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230619.tar.gz]
+[2023-06-20 08:08:22] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-20 08:08:22] INFO root fetch - main [MainThread]: Store serial: [18570506]
