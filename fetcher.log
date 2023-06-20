@@ -1389,3 +1389,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 01:56:18] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.4.6-cp311-none-macosx_10_9_universal2.whl.zip]
 [2023-06-20 01:56:18] INFO root fetch - main [MainThread]: End processing [anyon]: success
 [2023-06-20 01:56:18] INFO root fetch - main [MainThread]: Store serial: [18566478]
+[2023-06-20 02:01:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18566478]
+[2023-06-20 02:01:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-20 02:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: d20-orm
+[2023-06-20 02:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tan
+[2023-06-20 02:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bs-common-fastapi-mongodb
+[2023-06-20 02:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sagemaker
+[2023-06-20 02:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PySide1-Customized-Window
+[2023-06-20 02:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PySide2-Customized-Window
+[2023-06-20 02:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PySide6-Customized-Window
+[2023-06-20 02:01:27] INFO root fetch - processPackages [PySide1-Customized-Window]: New version: [1.9] Old Version: [1.8]
+[2023-06-20 02:01:27] WARNING root fetch - processPackages [bs-common-fastapi-mongodb]: Skipping, unable to determine old version
+[2023-06-20 02:01:27] INFO root fetch - main [MainThread]: End processing [bs-common-fastapi-mongodb] error
+[2023-06-20 02:01:27] INFO root fetch - processPackages [tan]: New version: [23.3.0] Old Version: [22.8.0]
+[2023-06-20 02:01:27] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-20 02:01:27] INFO root fetch - processPackages [PySide2-Customized-Window]: New version: [1.9] Old Version: [1.8]
+[2023-06-20 02:01:27] INFO root fetch - processPackages [sagemaker]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-06-20 02:01:27] INFO root fetch - processPackages [PySide6-Customized-Window]: New version: [1.9] Old Version: [1.8]
+[2023-06-20 02:01:28] INFO root fetch - processPackages [PySide1-Customized-Window]: Downloading https://files.pythonhosted.org/packages/8d/14/747b854a87311339615c911fa672daea628696cd659cea1f6ab4cdbce16c/PySide1_Customized_Window-1.8-py3-none-any.whl
+[2023-06-20 02:01:28] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-20 02:01:28] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/22/dd/adc439c8040ceb2a14d8d72110638d79775925a88e7e3925ee7a87333551/sagemaker-2.98.0.tar.gz
+[2023-06-20 02:01:28] INFO root fetch - processPackages [PySide6-Customized-Window]: Downloading https://files.pythonhosted.org/packages/3d/67/3179e08d7869ba40a0f37b0554bb02eaeb211f33015fa80a5650c10390fd/PySide6_Customized_Window-1.8-py3-none-any.whl
+[2023-06-20 02:01:28] INFO root fetch - processPackages [PySide2-Customized-Window]: Downloading https://files.pythonhosted.org/packages/b5/30/7e66a07b6ee06c69e436b1ed9fd45e41dc55f233094bfa2dc927cece4fd1/PySide2_Customized_Window-1.8-py3-none-any.whl
+[2023-06-20 02:01:28] INFO root fetch - processPackages [tan]: Downloading https://files.pythonhosted.org/packages/b3/e0/8970dbf09b69505ceaf3f6652bed448e64f4fc7ab54ed119855c34439ad8/tan-22.8.0.tar.gz
+[2023-06-20 02:01:28] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-20 02:01:28] INFO root fetch - processPackages [PySide1-Customized-Window]: Downloading https://files.pythonhosted.org/packages/47/f0/a290eb50822cb8c5ccbb1be060a6a3edc2ddd2bddd9a21c61c4f56ce967a/PySide1_Customized_Window-1.9-py3-none-any.whl
+[2023-06-20 02:01:28] INFO root fetch - processPackages [PySide2-Customized-Window]: Downloading https://files.pythonhosted.org/packages/a3/d2/a5e891b6bdc1f570fc0d3aced001205f1495c34d1a740364666b5ea884c3/PySide2_Customized_Window-1.9-py3-none-any.whl
+[2023-06-20 02:01:28] INFO root fetch - processPackages [PySide6-Customized-Window]: Downloading https://files.pythonhosted.org/packages/d3/0e/bbda0a82404582ed90b8237cb08ec92968baef2773899ad398c29eb118a3/PySide6_Customized_Window-1.9-py3-none-any.whl
+[2023-06-20 02:01:28] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/a1/4b/c6dcd8ae0e0f163c7938e1fee17da72be71aac4347c044a5a52f21a850a6/sagemaker-2.99.0.tar.gz
+[2023-06-20 02:01:28] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-20 02:01:28] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230620/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-20 02:01:28] INFO root fetch - processPackages [PySide1-Customized-Window]: executing diffoscope
+[2023-06-20 02:01:28] INFO root fetch - processPackages [PySide1-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide1_Customized_Window-1.8-py3-none-any.whl.zip tmp/PySide1_Customized_Window-1.9-py3-none-any.whl.zip --markdown 20230620/P/PySide1-Customized-Window/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-20 02:01:28] INFO root fetch - processPackages [tan]: Downloading https://files.pythonhosted.org/packages/77/1f/be692d5cd57520b1f460bafc4341f9e5e66ca85d2432514e0ec4c8203a45/tan-23.3.0.tar.gz
+[2023-06-20 02:01:28] INFO root fetch - processPackages [PySide2-Customized-Window]: executing diffoscope
+[2023-06-20 02:01:28] INFO root fetch - processPackages [PySide2-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2_Customized_Window-1.8-py3-none-any.whl.zip tmp/PySide2_Customized_Window-1.9-py3-none-any.whl.zip --markdown 20230620/P/PySide2-Customized-Window/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-20 02:01:28] INFO root fetch - processPackages [sagemaker]: executing diffoscope
+[2023-06-20 02:01:28] INFO root fetch - processPackages [sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-2.98.0.tar.gz tmp/sagemaker-2.99.0.tar.gz --markdown 20230620/s/sagemaker/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-06-20 02:01:28] INFO root fetch - processPackages [PySide6-Customized-Window]: executing diffoscope
+[2023-06-20 02:01:28] INFO root fetch - processPackages [PySide6-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6_Customized_Window-1.8-py3-none-any.whl.zip tmp/PySide6_Customized_Window-1.9-py3-none-any.whl.zip --markdown 20230620/P/PySide6-Customized-Window/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-20 02:01:28] INFO root fetch - processPackages [tan]: executing diffoscope
+[2023-06-20 02:01:28] INFO root fetch - processPackages [tan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tan-22.8.0.tar.gz tmp/tan-23.3.0.tar.gz --markdown 20230620/t/tan/22.8.0-23.3.0/diff.md --exclude *.pyd
+[2023-06-20 02:01:29] INFO root fetch - processPackages [PySide1-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide1_Customized_Window-1.8-py3-none-any.whl.zip]
+[2023-06-20 02:01:29] INFO root fetch - processPackages [PySide1-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide1_Customized_Window-1.9-py3-none-any.whl.zip]
+[2023-06-20 02:01:29] INFO root fetch - main [MainThread]: End processing [PySide1-Customized-Window]: success
+[2023-06-20 02:01:29] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-06-20 02:01:29] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-06-20 02:01:29] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-20 02:01:29] INFO root fetch - processPackages [PySide2-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide2_Customized_Window-1.8-py3-none-any.whl.zip]
+[2023-06-20 02:01:29] INFO root fetch - processPackages [PySide2-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide2_Customized_Window-1.9-py3-none-any.whl.zip]
+[2023-06-20 02:01:29] INFO root fetch - main [MainThread]: End processing [PySide2-Customized-Window]: success
+[2023-06-20 02:01:29] INFO root fetch - processPackages [PySide6-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide6_Customized_Window-1.8-py3-none-any.whl.zip]
+[2023-06-20 02:01:29] INFO root fetch - processPackages [PySide6-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide6_Customized_Window-1.9-py3-none-any.whl.zip]
+[2023-06-20 02:01:29] INFO root fetch - main [MainThread]: End processing [PySide6-Customized-Window]: success
+[2023-06-20 02:01:32] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.98.0.tar.gz]
+[2023-06-20 02:01:32] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.99.0.tar.gz]
+[2023-06-20 02:01:32] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
+[2023-06-20 02:01:33] INFO root fetch - processPackages [tan]: Remove: archive file [/home/abi/fetcher/tmp/tan-22.8.0.tar.gz]
+[2023-06-20 02:01:33] INFO root fetch - processPackages [tan]: Remove: archive file [/home/abi/fetcher/tmp/tan-23.3.0.tar.gz]
+[2023-06-20 02:01:33] INFO root fetch - main [MainThread]: End processing [tan]: success
+[2023-06-20 02:01:33] INFO root fetch - main [MainThread]: Store serial: [18566501]
