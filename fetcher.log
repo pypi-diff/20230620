@@ -11464,3 +11464,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 06:17:26] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-2.0.1.tar.gz]
 [2023-06-20 06:17:26] INFO root fetch - main [MainThread]: End processing [hello2]: success
 [2023-06-20 06:17:26] INFO root fetch - main [MainThread]: Store serial: [18569919]
+[2023-06-20 06:22:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18569919]
+[2023-06-20 06:22:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-20 06:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: natsort
+[2023-06-20 06:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: latch
+[2023-06-20 06:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tsfeatures
+[2023-06-20 06:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dramatiq-kafka
+[2023-06-20 06:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kong-pdk
+[2023-06-20 06:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eons
+[2023-06-20 06:22:35] INFO root fetch - processPackages [kong-pdk]: New version: [0.34] Old Version: [0.33]
+[2023-06-20 06:22:35] INFO root fetch - processPackages [tsfeatures]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-20 06:22:35] INFO root fetch - processPackages [natsort]: New version: [8.4.0] Old Version: [8.3.1]
+[2023-06-20 06:22:35] INFO root fetch - processPackages [eons]: New version: [2.6.4] Old Version: [2.6.3]
+[2023-06-20 06:22:35] INFO root fetch - processPackages [dramatiq-kafka]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-20 06:22:35] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-06-20 06:22:35] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/bf/cd/116ea211914d4c703878b57aedd3e6eea72741e837c733e7f1144861ff18/eons-2.6.3.tar.gz
+[2023-06-20 06:22:35] INFO root fetch - processPackages [tsfeatures]: Downloading https://files.pythonhosted.org/packages/c7/f3/ae07d86f675198af15ce69643f4d45bf7f83051296823730a49f3b72119b/tsfeatures-0.4.2.tar.gz
+[2023-06-20 06:22:35] INFO root fetch - processPackages [dramatiq-kafka]: Downloading https://files.pythonhosted.org/packages/cc/7f/03247fd77686e637210cd6aa3639d558f03a01d618997fe9fe5723f6ce73/dramatiq_kafka-0.1.7.tar.gz
+[2023-06-20 06:22:35] INFO root fetch - processPackages [natsort]: Downloading https://files.pythonhosted.org/packages/47/2a/bf13bfc1a51b6df2f823909c6d4f674a256e3f29401825e1d56ca2a95dc9/natsort-8.3.1.tar.gz
+[2023-06-20 06:22:35] INFO root fetch - processPackages [kong-pdk]: Downloading https://files.pythonhosted.org/packages/51/29/37b5bb57582609e49b8a83f5b83ce5ce4404be207d47af7c4fb3c2ff4c58/kong_pdk-0.33.tar.gz
+[2023-06-20 06:22:35] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-06-20 06:22:35] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/dd/f7/74d905a2706756fd23cb19d4abe85d19479cb4690d117a68b9cf65a6122e/eons-2.6.4.tar.gz
+[2023-06-20 06:22:35] INFO root fetch - processPackages [tsfeatures]: Downloading https://files.pythonhosted.org/packages/52/ed/a84b76fa5d6caf0aab25b791647b3910b04a612b7642a54e4b9af045fbc4/tsfeatures-0.4.3.tar.gz
+[2023-06-20 06:22:35] INFO root fetch - processPackages [eons]: executing diffoscope
+[2023-06-20 06:22:35] INFO root fetch - processPackages [eons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eons-2.6.3.tar.gz tmp/eons-2.6.4.tar.gz --markdown 20230620/e/eons/2.6.3-2.6.4/diff.md --exclude *.pyd
+[2023-06-20 06:22:35] INFO root fetch - processPackages [tsfeatures]: executing diffoscope
+[2023-06-20 06:22:35] INFO root fetch - processPackages [tsfeatures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsfeatures-0.4.2.tar.gz tmp/tsfeatures-0.4.3.tar.gz --markdown 20230620/t/tsfeatures/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-20 06:22:35] INFO root fetch - processPackages [dramatiq-kafka]: Downloading https://files.pythonhosted.org/packages/fa/29/7e683376ec86831bf0424680a8b13d4d3b8ea8f3a9b02ce7db5e263b9257/dramatiq_kafka-0.1.8.tar.gz
+[2023-06-20 06:22:35] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-06-20 06:22:35] INFO root fetch - processPackages [kong-pdk]: Downloading https://files.pythonhosted.org/packages/d4/76/ad14a6b26f36dea1df5894d346e4673323a21128bb997c8d0a3d97d80ca5/kong_pdk-0.34.tar.gz
+[2023-06-20 06:22:35] INFO root fetch - processPackages [natsort]: Downloading https://files.pythonhosted.org/packages/e2/a9/a0c57aee75f77794adaf35322f8b6404cbd0f89ad45c87197a937764b7d0/natsort-8.4.0.tar.gz
+[2023-06-20 06:22:35] INFO root fetch - processPackages [dramatiq-kafka]: executing diffoscope
+[2023-06-20 06:22:35] INFO root fetch - processPackages [dramatiq-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dramatiq_kafka-0.1.7.tar.gz tmp/dramatiq_kafka-0.1.8.tar.gz --markdown 20230620/d/dramatiq-kafka/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-20 06:22:35] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-06-20 06:22:35] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230620/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-06-20 06:22:35] INFO root fetch - processPackages [kong-pdk]: executing diffoscope
+[2023-06-20 06:22:35] INFO root fetch - processPackages [kong-pdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kong_pdk-0.33.tar.gz tmp/kong_pdk-0.34.tar.gz --markdown 20230620/k/kong-pdk/0.33-0.34/diff.md --exclude *.pyd
+[2023-06-20 06:22:36] INFO root fetch - processPackages [natsort]: executing diffoscope
+[2023-06-20 06:22:36] INFO root fetch - processPackages [natsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natsort-8.3.1.tar.gz tmp/natsort-8.4.0.tar.gz --markdown 20230620/n/natsort/8.3.1-8.4.0/diff.md --exclude *.pyd
+[2023-06-20 06:22:37] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.6.3.tar.gz]
+[2023-06-20 06:22:37] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.6.4.tar.gz]
+[2023-06-20 06:22:37] INFO root fetch - main [MainThread]: End processing [eons]: success
+[2023-06-20 06:22:37] INFO root fetch - processPackages [tsfeatures]: Remove: archive file [/home/abi/fetcher/tmp/tsfeatures-0.4.2.tar.gz]
+[2023-06-20 06:22:37] INFO root fetch - processPackages [tsfeatures]: Remove: archive file [/home/abi/fetcher/tmp/tsfeatures-0.4.3.tar.gz]
+[2023-06-20 06:22:37] INFO root fetch - main [MainThread]: End processing [tsfeatures]: success
+[2023-06-20 06:22:37] INFO root fetch - processPackages [dramatiq-kafka]: Remove: archive file [/home/abi/fetcher/tmp/dramatiq_kafka-0.1.7.tar.gz]
+[2023-06-20 06:22:37] INFO root fetch - processPackages [dramatiq-kafka]: Remove: archive file [/home/abi/fetcher/tmp/dramatiq_kafka-0.1.8.tar.gz]
+[2023-06-20 06:22:37] INFO root fetch - main [MainThread]: End processing [dramatiq-kafka]: success
+[2023-06-20 06:22:37] INFO root fetch - processPackages [kong-pdk]: Remove: archive file [/home/abi/fetcher/tmp/kong_pdk-0.33.tar.gz]
+[2023-06-20 06:22:37] INFO root fetch - processPackages [kong-pdk]: Remove: archive file [/home/abi/fetcher/tmp/kong_pdk-0.34.tar.gz]
+[2023-06-20 06:22:37] INFO root fetch - main [MainThread]: End processing [kong-pdk]: success
+[2023-06-20 06:22:37] INFO root fetch - processPackages [natsort]: Remove: archive file [/home/abi/fetcher/tmp/natsort-8.3.1.tar.gz]
+[2023-06-20 06:22:37] INFO root fetch - processPackages [natsort]: Remove: archive file [/home/abi/fetcher/tmp/natsort-8.4.0.tar.gz]
+[2023-06-20 06:22:37] INFO root fetch - main [MainThread]: End processing [natsort]: success
+[2023-06-20 06:22:38] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2023-06-20 06:22:38] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2023-06-20 06:22:38] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-06-20 06:22:38] INFO root fetch - main [MainThread]: Store serial: [18569937]
