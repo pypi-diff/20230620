@@ -18735,3 +18735,100 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 12:14:14] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-20 12:14:14] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-06-20 12:14:14] INFO root fetch - main [MainThread]: Store serial: [18572984]
+[2023-06-20 12:19:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18572984]
+[2023-06-20 12:19:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-20 12:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: suanpan-sprt
+[2023-06-20 12:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vosk-autosrt
+[2023-06-20 12:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hgtools
+[2023-06-20 12:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skmetpy
+[2023-06-20 12:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lanablas
+[2023-06-20 12:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skmetpy
+[2023-06-20 12:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amazon-scraper-toolkit
+[2023-06-20 12:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: encord-active
+[2023-06-20 12:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abl-quantconnect-stubs
+[2023-06-20 12:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: whiffle-client
+[2023-06-20 12:19:24] INFO root fetch - processPackages [whiffle-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-20 12:19:24] INFO root fetch - processPackages [suanpan-sprt]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-20 12:19:24] INFO root fetch - processPackages [vosk-autosrt]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-20 12:19:24] INFO root fetch - processPackages [hgtools]: New version: [9.2.0] Old Version: [9.1.0]
+[2023-06-20 12:19:24] INFO root fetch - processPackages [encord-active]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 12:19:24] INFO root fetch - processPackages [amazon-scraper-toolkit]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-20 12:19:24] WARNING root fetch - processPackages [lanablas]: Skipping, unable to determine old version
+[2023-06-20 12:19:24] INFO root fetch - processPackages [lanablas]: Start processing: skmetpy
+[2023-06-20 12:19:24] INFO root fetch - main [MainThread]: End processing [lanablas] error
+[2023-06-20 12:19:24] INFO root fetch - processPackages [skmetpy]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-20 12:19:24] INFO root fetch - processPackages [abl-quantconnect-stubs]: New version: [13987.2] Old Version: [13987.1]
+[2023-06-20 12:19:24] INFO root fetch - processPackages [skmetpy]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-20 12:19:24] INFO root fetch - processPackages [skmetpy]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-20 12:19:24] INFO root fetch - processPackages [amazon-scraper-toolkit]: Downloading https://files.pythonhosted.org/packages/f4/fa/789ad3b19b8926f00a1f1edc5feeee993f641de0c97d1daef130e706c128/amazon-scraper-toolkit-1.0.0.tar.gz
+[2023-06-20 12:19:24] INFO root fetch - processPackages [whiffle-client]: Downloading https://files.pythonhosted.org/packages/2f/48/b7edef76dd58c7f0a786a27c51103874deeaf13a9f382637a419d1712c3c/whiffle_client-0.1.1.tar.gz
+[2023-06-20 12:19:24] INFO root fetch - processPackages [vosk-autosrt]: Downloading https://files.pythonhosted.org/packages/e9/b2/bb397beeebe1192f41f27c0e15ec27ac241795aa0b9cb6fd5641e32ae8f2/vosk_autosrt-0.0.7.tar.gz
+[2023-06-20 12:19:24] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/54/a6/9ce734bbe5ecd1eb53109c7278dcac0028f38d1da90e5c5e4a27c9965b98/skmetpy-0.2.5.tar.gz
+[2023-06-20 12:19:24] INFO root fetch - processPackages [hgtools]: Downloading https://files.pythonhosted.org/packages/a5/75/a28cb03c9f1c8b718b850a4a92715bf95b94b6c41e2778dc04e094d7e56e/hgtools-9.1.0.tar.gz
+[2023-06-20 12:19:24] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/53/ec/6aed81ad41e1a7090cbc1da9dd922ec0d687dff526363d9cddf1990bb9ff/suanpan-sprt-0.5.8.tar.gz
+[2023-06-20 12:19:24] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/54/a6/9ce734bbe5ecd1eb53109c7278dcac0028f38d1da90e5c5e4a27c9965b98/skmetpy-0.2.5.tar.gz
+[2023-06-20 12:19:24] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/54/a6/9ce734bbe5ecd1eb53109c7278dcac0028f38d1da90e5c5e4a27c9965b98/skmetpy-0.2.5.tar.gz
+[2023-06-20 12:19:24] INFO root fetch - processPackages [encord-active]: Downloading https://files.pythonhosted.org/packages/14/53/4cb3529f62b21b97e90761ad702d4e864b643e4772935fb9c464f8ab6758/encord-active-0.1.8.tar.gz
+[2023-06-20 12:19:24] INFO root fetch - processPackages [abl-quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/e0/15/d731d9ef0571629aad6b88c178b85fe7fa5ffb0559bc7a8698755c65d2b9/abl-quantconnect-stubs-13987.1.tar.gz
+[2023-06-20 12:19:24] WARNING root fetch - processPackages [vosk-autosrt]: Skipping package: exceeds size limit 21466418>=10485760
+[2023-06-20 12:19:24] INFO root fetch - processPackages [vosk-autosrt]: Start processing: typedattr
+[2023-06-20 12:19:24] INFO root fetch - main [MainThread]: End processing [vosk-autosrt] error
+[2023-06-20 12:19:24] INFO root fetch - processPackages [whiffle-client]: Downloading https://files.pythonhosted.org/packages/ec/ae/da2ecb587d344654c5ecb7e72de930e32acb4e95b14de0efd505b4cffed7/whiffle_client-0.1.2.tar.gz
+[2023-06-20 12:19:24] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/8f/dc/0a3a0355f7e81268715d09ec36bbd8e91b78d1c0a8d6c0fb38189ae2d477/suanpan-sprt-0.5.9.tar.gz
+[2023-06-20 12:19:24] INFO root fetch - processPackages [typedattr]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-06-20 12:19:24] INFO root fetch - processPackages [amazon-scraper-toolkit]: Downloading https://files.pythonhosted.org/packages/75/8d/14009621c03cffdfd679e217082295e7b528d9302101cd585324528fd7fa/amazon-scraper-toolkit-1.0.1.tar.gz
+[2023-06-20 12:19:24] INFO root fetch - processPackages [suanpan-sprt]: executing diffoscope
+[2023-06-20 12:19:24] INFO root fetch - processPackages [whiffle-client]: executing diffoscope
+[2023-06-20 12:19:24] INFO root fetch - processPackages [suanpan-sprt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suanpan-sprt-0.5.8.tar.gz tmp/suanpan-sprt-0.5.9.tar.gz --markdown 20230620/s/suanpan-sprt/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-20 12:19:24] INFO root fetch - processPackages [whiffle-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whiffle_client-0.1.1.tar.gz tmp/whiffle_client-0.1.2.tar.gz --markdown 20230620/w/whiffle-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-20 12:19:24] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/59/a3/b1dbe7075d666ac141a2861bee138d8a181a0671846a5d131e7650abd09e/skmetpy-0.2.6.tar.gz
+[2023-06-20 12:19:24] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/59/a3/b1dbe7075d666ac141a2861bee138d8a181a0671846a5d131e7650abd09e/skmetpy-0.2.6.tar.gz
+[2023-06-20 12:19:24] INFO root fetch - processPackages [typedattr]: Downloading https://files.pythonhosted.org/packages/76/6e/4f6007882acc93c8d09448756e11aafb2c7ec7e12125777a287f04083b45/typedattr-0.2.2.tar.gz
+[2023-06-20 12:19:24] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/59/a3/b1dbe7075d666ac141a2861bee138d8a181a0671846a5d131e7650abd09e/skmetpy-0.2.6.tar.gz
+[2023-06-20 12:19:24] INFO root fetch - processPackages [hgtools]: Downloading https://files.pythonhosted.org/packages/78/ba/48e8df1402be5c40b49fb0ed76ae72e9343ab33e47feac0d0015a4f21e57/hgtools-9.2.0.tar.gz
+[2023-06-20 12:19:24] INFO root fetch - processPackages [skmetpy]: executing diffoscope
+[2023-06-20 12:19:24] INFO root fetch - processPackages [skmetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skmetpy-0.2.5.tar.gz tmp/skmetpy-0.2.6.tar.gz --markdown 20230620/s/skmetpy/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-20 12:19:24] INFO root fetch - processPackages [skmetpy]: executing diffoscope
+[2023-06-20 12:19:24] INFO root fetch - processPackages [skmetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skmetpy-0.2.5.tar.gz tmp/skmetpy-0.2.6.tar.gz --markdown 20230620/s/skmetpy/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-20 12:19:24] INFO root fetch - processPackages [skmetpy]: executing diffoscope
+[2023-06-20 12:19:24] INFO root fetch - processPackages [encord-active]: Downloading https://files.pythonhosted.org/packages/c3/14/4bad612dc1f21c818799f76b076d38fbaeeaedf2288d7c41c915b0cdce4d/encord-active-0.1.9.tar.gz
+[2023-06-20 12:19:24] INFO root fetch - processPackages [skmetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skmetpy-0.2.5.tar.gz tmp/skmetpy-0.2.6.tar.gz --markdown 20230620/s/skmetpy/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-20 12:19:24] INFO root fetch - processPackages [amazon-scraper-toolkit]: executing diffoscope
+[2023-06-20 12:19:24] INFO root fetch - processPackages [amazon-scraper-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-scraper-toolkit-1.0.0.tar.gz tmp/amazon-scraper-toolkit-1.0.1.tar.gz --markdown 20230620/a/amazon-scraper-toolkit/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-20 12:19:24] INFO root fetch - processPackages [hgtools]: executing diffoscope
+[2023-06-20 12:19:24] INFO root fetch - processPackages [hgtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgtools-9.1.0.tar.gz tmp/hgtools-9.2.0.tar.gz --markdown 20230620/h/hgtools/9.1.0-9.2.0/diff.md --exclude *.pyd
+[2023-06-20 12:19:25] INFO root fetch - processPackages [typedattr]: Downloading https://files.pythonhosted.org/packages/ab/ff/f21c8d49a0d309034dd0c5ae960dbc2f958e4d42e09d3c634135aa06ed5c/typedattr-0.2.4.tar.gz
+[2023-06-20 12:19:25] INFO root fetch - processPackages [abl-quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/da/12/a8c4ec7516ad8971b599dcd6f47575d83f1b51653636b6e7e47af20901c0/abl-quantconnect-stubs-13987.2.tar.gz
+[2023-06-20 12:19:25] INFO root fetch - processPackages [encord-active]: executing diffoscope
+[2023-06-20 12:19:25] INFO root fetch - processPackages [encord-active]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-active-0.1.8.tar.gz tmp/encord-active-0.1.9.tar.gz --markdown 20230620/e/encord-active/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 12:19:25] INFO root fetch - processPackages [typedattr]: executing diffoscope
+[2023-06-20 12:19:25] INFO root fetch - processPackages [typedattr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedattr-0.2.2.tar.gz tmp/typedattr-0.2.4.tar.gz --markdown 20230620/t/typedattr/0.2.2-0.2.4/diff.md --exclude *.pyd
+[2023-06-20 12:19:25] INFO root fetch - processPackages [abl-quantconnect-stubs]: executing diffoscope
+[2023-06-20 12:19:25] INFO root fetch - processPackages [abl-quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abl-quantconnect-stubs-13987.1.tar.gz tmp/abl-quantconnect-stubs-13987.2.tar.gz --markdown 20230620/a/abl-quantconnect-stubs/13987.1-13987.2/diff.md --exclude *.pyd
+[2023-06-20 12:19:27] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.5.8.tar.gz]
+[2023-06-20 12:19:27] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.5.9.tar.gz]
+[2023-06-20 12:19:27] INFO root fetch - main [MainThread]: End processing [suanpan-sprt]: success
+[2023-06-20 12:19:27] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.2.5.tar.gz]
+[2023-06-20 12:19:27] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.2.6.tar.gz]
+[2023-06-20 12:19:27] INFO root fetch - main [MainThread]: End processing [skmetpy]: success
+[2023-06-20 12:19:27] INFO root fetch - main [MainThread]: End processing [skmetpy]: success
+[2023-06-20 12:19:27] INFO root fetch - main [MainThread]: End processing [skmetpy]: success
+[2023-06-20 12:19:28] INFO root fetch - processPackages [whiffle-client]: Remove: archive file [/home/abi/fetcher/tmp/whiffle_client-0.1.1.tar.gz]
+[2023-06-20 12:19:28] INFO root fetch - processPackages [whiffle-client]: Remove: archive file [/home/abi/fetcher/tmp/whiffle_client-0.1.2.tar.gz]
+[2023-06-20 12:19:28] INFO root fetch - main [MainThread]: End processing [whiffle-client]: success
+[2023-06-20 12:19:28] INFO root fetch - processPackages [amazon-scraper-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/amazon-scraper-toolkit-1.0.0.tar.gz]
+[2023-06-20 12:19:28] INFO root fetch - processPackages [amazon-scraper-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/amazon-scraper-toolkit-1.0.1.tar.gz]
+[2023-06-20 12:19:28] INFO root fetch - main [MainThread]: End processing [amazon-scraper-toolkit]: success
+[2023-06-20 12:19:28] INFO root fetch - processPackages [typedattr]: Remove: archive file [/home/abi/fetcher/tmp/typedattr-0.2.2.tar.gz]
+[2023-06-20 12:19:28] INFO root fetch - processPackages [typedattr]: Remove: archive file [/home/abi/fetcher/tmp/typedattr-0.2.4.tar.gz]
+[2023-06-20 12:19:28] INFO root fetch - main [MainThread]: End processing [typedattr]: success
+[2023-06-20 12:19:28] INFO root fetch - processPackages [hgtools]: Remove: archive file [/home/abi/fetcher/tmp/hgtools-9.1.0.tar.gz]
+[2023-06-20 12:19:28] INFO root fetch - processPackages [hgtools]: Remove: archive file [/home/abi/fetcher/tmp/hgtools-9.2.0.tar.gz]
+[2023-06-20 12:19:28] INFO root fetch - main [MainThread]: End processing [hgtools]: success
+[2023-06-20 12:19:29] INFO root fetch - processPackages [encord-active]: Remove: archive file [/home/abi/fetcher/tmp/encord-active-0.1.8.tar.gz]
+[2023-06-20 12:19:29] INFO root fetch - processPackages [encord-active]: Remove: archive file [/home/abi/fetcher/tmp/encord-active-0.1.9.tar.gz]
+[2023-06-20 12:19:29] INFO root fetch - main [MainThread]: End processing [encord-active]: success
+[2023-06-20 12:19:36] INFO root fetch - processPackages [abl-quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/abl-quantconnect-stubs-13987.1.tar.gz]
+[2023-06-20 12:19:36] INFO root fetch - processPackages [abl-quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/abl-quantconnect-stubs-13987.2.tar.gz]
+[2023-06-20 12:19:36] INFO root fetch - main [MainThread]: End processing [abl-quantconnect-stubs]: success
+[2023-06-20 12:19:36] INFO root fetch - main [MainThread]: Store serial: [18573025]
