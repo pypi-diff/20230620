@@ -13354,3 +13354,91 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 08:45:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.3.1.tar.gz]
 [2023-06-20 08:45:30] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-20 08:45:30] INFO root fetch - main [MainThread]: Store serial: [18570733]
+[2023-06-20 08:50:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18570733]
+[2023-06-20 08:50:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-20 08:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: itc-ocr
+[2023-06-20 08:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emailalert
+[2023-06-20 08:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tcompress
+[2023-06-20 08:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nyckel
+[2023-06-20 08:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arguebuf
+[2023-06-20 08:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ssh-remote-control
+[2023-06-20 08:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: renderg-sdk
+[2023-06-20 08:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reliableGPT
+[2023-06-20 08:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reliableGPT
+[2023-06-20 08:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openAIInsight
+[2023-06-20 08:50:41] INFO root fetch - processPackages [nyckel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 08:50:41] INFO root fetch - processPackages [emailalert]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-20 08:50:41] INFO root fetch - processPackages [ssh-remote-control]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-20 08:50:41] INFO root fetch - processPackages [tcompress]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-20 08:50:41] WARNING root fetch - processPackages [itc-ocr]: Skipping, unable to determine old version
+[2023-06-20 08:50:41] INFO root fetch - processPackages [itc-ocr]: Start processing: hrin-msb
+[2023-06-20 08:50:41] INFO root fetch - main [MainThread]: End processing [itc-ocr] error
+[2023-06-20 08:50:41] INFO root fetch - processPackages [arguebuf]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-06-20 08:50:41] INFO root fetch - processPackages [openAIInsight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 08:50:41] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.83]
+[2023-06-20 08:50:41] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/84/16/921be5721a1bf9aaa52ee17c5a3877a7fb5eee5fffba36999ff2ce374379/nyckel-0.0.8.tar.gz
+[2023-06-20 08:50:41] INFO root fetch - processPackages [ssh-remote-control]: Downloading https://files.pythonhosted.org/packages/fa/5a/bc049e74f12dbb1a812951759c1ca36ecbd38ebc1a71b1d69cfb811efa6c/ssh_remote_control-0.1.1.tar.gz
+[2023-06-20 08:50:41] INFO root fetch - processPackages [openAIInsight]: Downloading https://files.pythonhosted.org/packages/ae/06/fa51b5dcb39e8e6a7a8a823499d9504e6c1e9251753ad6524ae82bbb466e/openAIInsight-0.0.8-py3-none-any.whl
+[2023-06-20 08:50:41] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/cf/7b/a706571a39afab025e3144119d824924096039c2faccfbc8f67a0a518e61/hrin_msb-0.2.83.tar.gz
+[2023-06-20 08:50:41] INFO root fetch - processPackages [reliableGPT]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-20 08:50:41] INFO root fetch - processPackages [reliableGPT]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-20 08:50:41] WARNING root fetch - processPackages [renderg-sdk]: Skipping, unable to determine old version
+[2023-06-20 08:50:41] INFO root fetch - main [MainThread]: End processing [renderg-sdk] error
+[2023-06-20 08:50:41] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/fe/8d/2074709e4af006f4d5c226f73caa65a6516c759fd2733e4f5544d72bb54c/emailalert-1.2.7.tar.gz
+[2023-06-20 08:50:41] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/44/be/18126ac7e7be3b6db5916e37529641b2aa83b85ad3076f23a737bac70bf7/nyckel-0.0.9.tar.gz
+[2023-06-20 08:50:41] INFO root fetch - processPackages [tcompress]: Downloading https://files.pythonhosted.org/packages/27/7e/6ad2151535b6d2d384ad8a5effeff15b4ab5f2349e89d8dec12d1681845f/tcompress-0.0.2.tar.gz
+[2023-06-20 08:50:41] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/f7/94/d59c8a5b3bee420117fc2d467d62317feecd19b8b1d838107abbbf1f5528/hrin_msb-0.2.9.tar.gz
+[2023-06-20 08:50:41] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2023-06-20 08:50:41] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.0.8.tar.gz tmp/nyckel-0.0.9.tar.gz --markdown 20230620/n/nyckel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 08:50:41] INFO root fetch - processPackages [arguebuf]: Downloading https://files.pythonhosted.org/packages/f3/c9/2ceb71f060cb5d70fb2db5a185b04d96c1f163c317a798a41d68fead5bcc/arguebuf-2.0.0b8.tar.gz
+[2023-06-20 08:50:41] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/d7/c8/5b4e7bbd7d0bb4a245c808131e8f95642845c65b7830fc78648869d3eda2/reliableGPT-0.1.5.tar.gz
+[2023-06-20 08:50:41] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/d7/c8/5b4e7bbd7d0bb4a245c808131e8f95642845c65b7830fc78648869d3eda2/reliableGPT-0.1.5.tar.gz
+[2023-06-20 08:50:41] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-06-20 08:50:41] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.83.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230620/h/hrin-msb/0.2.83-0.2.9/diff.md --exclude *.pyd
+[2023-06-20 08:50:41] INFO root fetch - processPackages [openAIInsight]: Downloading https://files.pythonhosted.org/packages/1e/33/a70a124292be5c9d2c37167928812a80dc68e36910e94f3ba08cba349c03/openAIInsight-0.0.9-py3-none-any.whl
+[2023-06-20 08:50:41] INFO root fetch - processPackages [ssh-remote-control]: Downloading https://files.pythonhosted.org/packages/42/96/a8f4450bdf779c09846215723cb517199fed02311c567e5779b7d78144eb/ssh_remote_control-0.1.2.tar.gz
+[2023-06-20 08:50:41] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/2a/55/6c5d4d48a70410954439af3065965f1a15ad8e24054883ca1cbc134c0865/emailalert-1.2.8.tar.gz
+[2023-06-20 08:50:41] INFO root fetch - processPackages [ssh-remote-control]: executing diffoscope
+[2023-06-20 08:50:41] INFO root fetch - processPackages [ssh-remote-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_remote_control-0.1.1.tar.gz tmp/ssh_remote_control-0.1.2.tar.gz --markdown 20230620/s/ssh-remote-control/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-20 08:50:41] INFO root fetch - processPackages [tcompress]: Downloading https://files.pythonhosted.org/packages/81/4b/1dbf6a3b84371d929bae8b7e37b0139ce34e568f338a848d87ebd1332466/tcompress-0.0.3.tar.gz
+[2023-06-20 08:50:42] INFO root fetch - processPackages [openAIInsight]: executing diffoscope
+[2023-06-20 08:50:42] INFO root fetch - processPackages [openAIInsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openAIInsight-0.0.8-py3-none-any.whl.zip tmp/openAIInsight-0.0.9-py3-none-any.whl.zip --markdown 20230620/o/openAIInsight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 08:50:42] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-20 08:50:42] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.2.7.tar.gz tmp/emailalert-1.2.8.tar.gz --markdown 20230620/e/emailalert/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-20 08:50:42] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/36/c0/e3dcc8aa0a1fc190e1155b6debdb46fa42ee423593df16a4c80d3fe63005/reliableGPT-0.1.6.tar.gz
+[2023-06-20 08:50:42] INFO root fetch - processPackages [tcompress]: executing diffoscope
+[2023-06-20 08:50:42] INFO root fetch - processPackages [tcompress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcompress-0.0.2.tar.gz tmp/tcompress-0.0.3.tar.gz --markdown 20230620/t/tcompress/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-20 08:50:42] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/36/c0/e3dcc8aa0a1fc190e1155b6debdb46fa42ee423593df16a4c80d3fe63005/reliableGPT-0.1.6.tar.gz
+[2023-06-20 08:50:42] INFO root fetch - processPackages [arguebuf]: Downloading https://files.pythonhosted.org/packages/48/5f/745fe92b8c0d474fdfffc744780bcaa1f5f88dbca214d8595d78df2b133d/arguebuf-2.0.0b9.tar.gz
+[2023-06-20 08:50:42] INFO root fetch - processPackages [arguebuf]: executing diffoscope
+[2023-06-20 08:50:42] INFO root fetch - processPackages [arguebuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arguebuf-2.0.0b8.tar.gz tmp/arguebuf-2.0.0b9.tar.gz --markdown 20230620/a/arguebuf/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-06-20 08:50:42] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-06-20 08:50:42] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.1.5.tar.gz tmp/reliableGPT-0.1.6.tar.gz --markdown 20230620/r/reliableGPT/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-20 08:50:42] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-06-20 08:50:42] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.1.5.tar.gz tmp/reliableGPT-0.1.6.tar.gz --markdown 20230620/r/reliableGPT/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-20 08:50:43] INFO root fetch - processPackages [nyckel]: Remove: archive file [/home/abi/fetcher/tmp/nyckel-0.0.8.tar.gz]
+[2023-06-20 08:50:43] INFO root fetch - processPackages [nyckel]: Remove: archive file [/home/abi/fetcher/tmp/nyckel-0.0.9.tar.gz]
+[2023-06-20 08:50:43] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2023-06-20 08:50:43] INFO root fetch - processPackages [ssh-remote-control]: Remove: archive file [/home/abi/fetcher/tmp/ssh_remote_control-0.1.1.tar.gz]
+[2023-06-20 08:50:43] INFO root fetch - processPackages [ssh-remote-control]: Remove: archive file [/home/abi/fetcher/tmp/ssh_remote_control-0.1.2.tar.gz]
+[2023-06-20 08:50:43] INFO root fetch - main [MainThread]: End processing [ssh-remote-control]: success
+[2023-06-20 08:50:43] INFO root fetch - processPackages [openAIInsight]: Remove: archive file [/home/abi/fetcher/tmp/openAIInsight-0.0.8-py3-none-any.whl.zip]
+[2023-06-20 08:50:43] INFO root fetch - processPackages [openAIInsight]: Remove: archive file [/home/abi/fetcher/tmp/openAIInsight-0.0.9-py3-none-any.whl.zip]
+[2023-06-20 08:50:43] INFO root fetch - main [MainThread]: End processing [openAIInsight]: success
+[2023-06-20 08:50:43] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.2.7.tar.gz]
+[2023-06-20 08:50:43] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.2.8.tar.gz]
+[2023-06-20 08:50:43] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-20 08:50:43] INFO root fetch - processPackages [tcompress]: Remove: archive file [/home/abi/fetcher/tmp/tcompress-0.0.2.tar.gz]
+[2023-06-20 08:50:43] INFO root fetch - processPackages [tcompress]: Remove: archive file [/home/abi/fetcher/tmp/tcompress-0.0.3.tar.gz]
+[2023-06-20 08:50:43] INFO root fetch - main [MainThread]: End processing [tcompress]: success
+[2023-06-20 08:50:43] INFO root fetch - processPackages [arguebuf]: Remove: archive file [/home/abi/fetcher/tmp/arguebuf-2.0.0b8.tar.gz]
+[2023-06-20 08:50:43] INFO root fetch - processPackages [arguebuf]: Remove: archive file [/home/abi/fetcher/tmp/arguebuf-2.0.0b9.tar.gz]
+[2023-06-20 08:50:43] INFO root fetch - main [MainThread]: End processing [arguebuf]: success
+[2023-06-20 08:50:43] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.1.5.tar.gz]
+[2023-06-20 08:50:43] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.1.6.tar.gz]
+[2023-06-20 08:50:43] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-06-20 08:50:43] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-06-20 08:50:44] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.83.tar.gz]
+[2023-06-20 08:50:44] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.9.tar.gz]
+[2023-06-20 08:50:44] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-06-20 08:50:44] INFO root fetch - main [MainThread]: Store serial: [18570768]
