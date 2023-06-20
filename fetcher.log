@@ -11251,3 +11251,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 06:00:49] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-0.6.1.tar.gz]
 [2023-06-20 06:00:49] INFO root fetch - main [MainThread]: End processing [cfr]: success
 [2023-06-20 06:00:49] INFO root fetch - main [MainThread]: Store serial: [18569839]
+[2023-06-20 06:05:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18569839]
+[2023-06-20 06:05:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-20 06:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evals-nightly
+[2023-06-20 06:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyramm
+[2023-06-20 06:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drizzutojr-vapi
+[2023-06-20 06:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yandexcloud
+[2023-06-20 06:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hrbot
+[2023-06-20 06:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhijiang
+[2023-06-20 06:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BYOD
+[2023-06-20 06:05:59] INFO root fetch - processPackages [hrbot]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-20 06:05:59] INFO root fetch - processPackages [zhijiang]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-20 06:05:59] INFO root fetch - processPackages [drizzutojr-vapi]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-20 06:05:59] WARNING root fetch - processPackages [BYOD]: Skipping, unable to determine old version
+[2023-06-20 06:05:59] INFO root fetch - main [MainThread]: End processing [BYOD] error
+[2023-06-20 06:05:59] INFO root fetch - processPackages [pyramm]: New version: [1.9] Old Version: [1.8]
+[2023-06-20 06:05:59] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-20 06:05:59] INFO root fetch - processPackages [hrbot]: Downloading https://files.pythonhosted.org/packages/3c/3c/207cfb290d6e690559e44dba381dcc3c883a43c2fa45e9fdfcecd1e900ef/hrbot-0.1.1.tar.gz
+[2023-06-20 06:05:59] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230619] Old Version: [1.0.3.dev20230618]
+[2023-06-20 06:05:59] INFO root fetch - processPackages [drizzutojr-vapi]: Downloading https://files.pythonhosted.org/packages/60/e0/55038a07d0f8091905862fdd7a55f36d35a8d544f5691379f1bc700621ab/drizzutojr_vapi-0.0.4-py3-none-any.whl
+[2023-06-20 06:05:59] INFO root fetch - processPackages [pyramm]: Downloading https://files.pythonhosted.org/packages/82/cd/1d0c354eb8064c45f667bd48772162211e74c58e262a17c03835deeea0e1/pyramm-1.8.tar.gz
+[2023-06-20 06:05:59] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/09/7c/31352eefe7150f484715d82ecc51f2ddf0937f1a55167ea96f47b00c1c5c/zhijiang-0.2.4-py3-none-any.whl
+[2023-06-20 06:05:59] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/6b/7e/47f9afe302b7aa7e6db12cff231fba3b86cc67aedf9a7748cdf544f6c2c6/evals-nightly-1.0.3.dev20230618.tar.gz
+[2023-06-20 06:05:59] INFO root fetch - processPackages [hrbot]: Downloading https://files.pythonhosted.org/packages/d4/d1/d851187a99917097ad3e718d7b218f0a538bbe6c40f090c01d740c29256a/hrbot-0.1.2.tar.gz
+[2023-06-20 06:05:59] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2023-06-20 06:05:59] INFO root fetch - processPackages [hrbot]: executing diffoscope
+[2023-06-20 06:05:59] INFO root fetch - processPackages [hrbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrbot-0.1.1.tar.gz tmp/hrbot-0.1.2.tar.gz --markdown 20230620/h/hrbot/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-20 06:05:59] INFO root fetch - processPackages [drizzutojr-vapi]: Downloading https://files.pythonhosted.org/packages/4c/7b/404e1ccbc10ee48533e002515734a36d59e802f099aa04319fba30498ddb/drizzutojr_vapi-0.0.5-py3-none-any.whl
+[2023-06-20 06:05:59] INFO root fetch - processPackages [pyramm]: Downloading https://files.pythonhosted.org/packages/48/d2/4a266da41f00068ddb8d5ab01903309a2d8653ce863390db6972605a93c6/pyramm-1.9.tar.gz
+[2023-06-20 06:05:59] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/2c/1a/8d5f84181b68929dfc88a32c5db6c45db4fcb34eee20b8a86ac6090c3bb1/zhijiang-0.2.5-py3-none-any.whl
+[2023-06-20 06:05:59] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/5d/fa/ecdef9bde6b3a5b2b9df91cf025d70ea8c0138410947e455e4e4c5ef37a1/evals-nightly-1.0.3.dev20230619.tar.gz
+[2023-06-20 06:05:59] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2023-06-20 06:05:59] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.2.4-py3-none-any.whl.zip tmp/zhijiang-0.2.5-py3-none-any.whl.zip --markdown 20230620/z/zhijiang/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-20 06:05:59] INFO root fetch - processPackages [pyramm]: executing diffoscope
+[2023-06-20 06:05:59] INFO root fetch - processPackages [pyramm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyramm-1.8.tar.gz tmp/pyramm-1.9.tar.gz --markdown 20230620/p/pyramm/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-20 06:05:59] INFO root fetch - processPackages [drizzutojr-vapi]: executing diffoscope
+[2023-06-20 06:05:59] INFO root fetch - processPackages [drizzutojr-vapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vapi-0.0.4-py3-none-any.whl.zip tmp/drizzutojr_vapi-0.0.5-py3-none-any.whl.zip --markdown 20230620/d/drizzutojr-vapi/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-20 06:06:00] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-06-20 06:06:00] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230618.tar.gz tmp/evals-nightly-1.0.3.dev20230619.tar.gz --markdown 20230620/e/evals-nightly/1.0.3.dev20230618-1.0.3.dev20230619/diff.md --exclude *.pyd
+[2023-06-20 06:06:00] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2023-06-20 06:06:00] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2023-06-20 06:06:00] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20230620/y/yandexcloud/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-20 06:06:00] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.2.4-py3-none-any.whl.zip]
+[2023-06-20 06:06:00] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.2.5-py3-none-any.whl.zip]
+[2023-06-20 06:06:00] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2023-06-20 06:06:01] INFO root fetch - processPackages [drizzutojr-vapi]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vapi-0.0.4-py3-none-any.whl.zip]
+[2023-06-20 06:06:01] INFO root fetch - processPackages [drizzutojr-vapi]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vapi-0.0.5-py3-none-any.whl.zip]
+[2023-06-20 06:06:01] INFO root fetch - main [MainThread]: End processing [drizzutojr-vapi]: success
+[2023-06-20 06:06:01] INFO root fetch - processPackages [hrbot]: Remove: archive file [/home/abi/fetcher/tmp/hrbot-0.1.1.tar.gz]
+[2023-06-20 06:06:01] INFO root fetch - processPackages [hrbot]: Remove: archive file [/home/abi/fetcher/tmp/hrbot-0.1.2.tar.gz]
+[2023-06-20 06:06:01] INFO root fetch - main [MainThread]: End processing [hrbot]: success
+[2023-06-20 06:06:01] INFO root fetch - processPackages [pyramm]: Remove: archive file [/home/abi/fetcher/tmp/pyramm-1.8.tar.gz]
+[2023-06-20 06:06:01] INFO root fetch - processPackages [pyramm]: Remove: archive file [/home/abi/fetcher/tmp/pyramm-1.9.tar.gz]
+[2023-06-20 06:06:01] INFO root fetch - main [MainThread]: End processing [pyramm]: success
+[2023-06-20 06:06:02] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230618.tar.gz]
+[2023-06-20 06:06:02] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230619.tar.gz]
+[2023-06-20 06:06:02] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-06-20 06:06:07] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2023-06-20 06:06:07] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2023-06-20 06:06:07] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2023-06-20 06:06:07] INFO root fetch - main [MainThread]: Store serial: [18569860]
