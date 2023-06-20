@@ -20618,3 +20618,182 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 13:23:48] INFO root fetch - processPackages [vng-api-common]: Remove: archive file [/home/abi/fetcher/tmp/vng-api-common-2.0.5.tar.gz]
 [2023-06-20 13:23:48] INFO root fetch - main [MainThread]: End processing [vng-api-common]: success
 [2023-06-20 13:23:48] INFO root fetch - main [MainThread]: Store serial: [18573738]
+[2023-06-20 13:28:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18573738]
+[2023-06-20 13:28:57] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-20 13:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-spectator
+[2023-06-20 13:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vai-utils
+[2023-06-20 13:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-dcdn20180115-py2
+[2023-06-20 13:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-dcdn20180115
+[2023-06-20 13:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: troubadix
+[2023-06-20 13:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchserve-nightly
+[2023-06-20 13:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-eks-karpenter
+[2023-06-20 13:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torch-model-archiver-nightly
+[2023-06-20 13:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch-workflow-archiver-nightly
+[2023-06-20 13:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Denoising-Diffusion-Probabilistic-Models
+[2023-06-20 13:28:57] INFO root fetch - processPackages [django-spectator]: New version: [9.1.0] Old Version: [9.0.1]
+[2023-06-20 13:28:57] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-20 13:28:57] INFO root fetch - processPackages [cdk-eks-karpenter]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-20 13:28:57] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: New version: [0.0.0.7] Old Version: [0.0.0.6]
+[2023-06-20 13:28:57] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-20 13:28:57] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-20 13:28:57] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-20 13:28:57] INFO root fetch - processPackages [troubadix]: New version: [23.6.1] Old Version: [23.6.0]
+[2023-06-20 13:28:57] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-20 13:28:57] INFO root fetch - processPackages [vai-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-20 13:28:57] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Downloading https://files.pythonhosted.org/packages/5a/c0/9eb8e3ff215c983472870aa3459bb701770004d9f4b2256d5e4dec571a89/Denoising_Diffusion_Probabilistic_Models-0.0.0.6-py3-none-any.whl
+[2023-06-20 13:28:57] INFO root fetch - processPackages [django-spectator]: Downloading https://files.pythonhosted.org/packages/25/2a/8ca927e4f4589de0c3f30cc3091caa2291a919a3bd6864746617c48aa3b9/django-spectator-9.0.1.tar.gz
+[2023-06-20 13:28:57] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/56/b6/048d65207c6147185cedfdfe7821bba7a9b4dcbe0872a2ea7bf026469542/torchserve_nightly-2023.6.8-py3-none-any.whl
+[2023-06-20 13:28:57] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Downloading https://files.pythonhosted.org/packages/2f/88/fe6cfb73e7d5c72f5860767276a2df606b63ca558583a27a818b60598985/alibabacloud_dcdn20180115-1.1.8.tar.gz
+[2023-06-20 13:28:57] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/2d/32/4e894d3be8e8e9434a6a981f3753ef5962d2361cf8b1882e7b00802b9794/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-20 13:28:57] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23719695>=10485760
+[2023-06-20 13:28:57] INFO root fetch - processPackages [torchserve-nightly]: Start processing: bfgbidding
+[2023-06-20 13:28:57] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-06-20 13:28:57] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/58/08/6bd66402224a471c454adc10633f09131eac241ee17fbd16cac60786503f/troubadix-23.6.0.tar.gz
+[2023-06-20 13:28:57] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f5/2a/88193e82d25d79119cc3ada46f444a1b21b3f7e2c788642590d33eac95e9/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-20 13:28:57] INFO root fetch - processPackages [cdk-eks-karpenter]: Downloading https://files.pythonhosted.org/packages/25/22/3cd0001147dde7e28df6625053eead4e2cd59fcc37d39100dd51a87604a6/cdk-eks-karpenter-0.0.7.tar.gz
+[2023-06-20 13:28:57] INFO root fetch - processPackages [bfgbidding]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 13:28:57] INFO root fetch - processPackages [vai-utils]: Downloading https://files.pythonhosted.org/packages/ed/2f/73f025e1b7ff96423d1174cd77f1e05bc4afbb633339f368fc6d31b67a43/vai_utils-0.0.4.tar.gz
+[2023-06-20 13:28:57] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Downloading https://files.pythonhosted.org/packages/eb/ef/06e095ffd858068c82d2589cae84966d4d2ac3e73812d62968e16dea80a1/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz
+[2023-06-20 13:28:58] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Downloading https://files.pythonhosted.org/packages/47/c1/5ca9fcbc4f18111b28f4e4eeb7267b72cba9a46187d4628a023722239836/Denoising_Diffusion_Probabilistic_Models-0.0.0.7-py3-none-any.whl
+[2023-06-20 13:28:58] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f1/30/b2bda61c7beb66124a778454c53b13e6e3368a1964be094e7a260aafb8a7/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-20 13:28:58] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5f/39/ae38721c2532ed03ae71497a6d5158695daf882cb31dff90ce342e46ef32/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-20 13:28:58] INFO root fetch - processPackages [bfgbidding]: Downloading https://files.pythonhosted.org/packages/4b/e1/3f788d94544a2d3f9719450dbdce555999e80a45eaabc860b144c92c7193/bfgbidding-0.0.8.tar.gz
+[2023-06-20 13:28:58] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: executing diffoscope
+[2023-06-20 13:28:58] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.6-py3-none-any.whl.zip tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.7-py3-none-any.whl.zip --markdown 20230620/D/Denoising-Diffusion-Probabilistic-Models/0.0.0.6-0.0.0.7/diff.md --exclude *.pyd
+[2023-06-20 13:28:58] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/f7/bd/420662ebaae92db44ba1a745cbc06bede1d0a5e9ce3d05eddecaf66ab530/troubadix-23.6.1.tar.gz
+[2023-06-20 13:28:58] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-06-20 13:28:58] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230620/t/torch-workflow-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-20 13:28:58] INFO root fetch - processPackages [django-spectator]: Downloading https://files.pythonhosted.org/packages/c9/61/e153dd2c84255f9082fcc4e70f7723485132ce7573fdb33a62615bb37852/django-spectator-9.1.0.tar.gz
+[2023-06-20 13:28:58] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-06-20 13:28:58] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230620/t/torch-model-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-20 13:28:58] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Downloading https://files.pythonhosted.org/packages/25/a0/92e29300ed677fe50a0f0ce94c85630438f1d94f4fd30b950a9a0b4c2777/alibabacloud_dcdn20180115-1.1.9.tar.gz
+[2023-06-20 13:28:58] INFO root fetch - processPackages [vai-utils]: Downloading https://files.pythonhosted.org/packages/5b/2f/9a0ec11ff6d4f5555c86e618e3b3748947f15235f9fd02d5cef31bd82e80/vai_utils-0.0.5.tar.gz
+[2023-06-20 13:28:58] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Downloading https://files.pythonhosted.org/packages/7b/3b/d2e5e5872bff482675c6c8fb178b95174b8780c80e367084d17a3bc9ccb1/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz
+[2023-06-20 13:28:58] INFO root fetch - processPackages [cdk-eks-karpenter]: Downloading https://files.pythonhosted.org/packages/f0/f5/e0e7d6df216e8c13dd208a660f9c67d945ce533f249211e96610b87c1c67/cdk-eks-karpenter-0.0.8.tar.gz
+[2023-06-20 13:28:58] INFO root fetch - processPackages [troubadix]: executing diffoscope
+[2023-06-20 13:28:58] INFO root fetch - processPackages [troubadix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troubadix-23.6.0.tar.gz tmp/troubadix-23.6.1.tar.gz --markdown 20230620/t/troubadix/23.6.0-23.6.1/diff.md --exclude *.pyd
+[2023-06-20 13:28:58] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: executing diffoscope
+[2023-06-20 13:28:58] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz tmp/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz --markdown 20230620/a/alibabacloud-dcdn20180115-py2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-20 13:28:58] INFO root fetch - processPackages [django-spectator]: executing diffoscope
+[2023-06-20 13:28:58] INFO root fetch - processPackages [django-spectator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-spectator-9.0.1.tar.gz tmp/django-spectator-9.1.0.tar.gz --markdown 20230620/d/django-spectator/9.0.1-9.1.0/diff.md --exclude *.pyd
+[2023-06-20 13:28:58] INFO root fetch - processPackages [vai-utils]: executing diffoscope
+[2023-06-20 13:28:58] INFO root fetch - processPackages [vai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vai_utils-0.0.4.tar.gz tmp/vai_utils-0.0.5.tar.gz --markdown 20230620/v/vai-utils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-20 13:28:58] INFO root fetch - processPackages [bfgbidding]: Downloading https://files.pythonhosted.org/packages/e6/22/bbf47a6073b57de0e140f4642debe2039c751ecc75f7e98ce065c9fed972/bfgbidding-0.0.9.tar.gz
+[2023-06-20 13:28:58] INFO root fetch - processPackages [cdk-eks-karpenter]: executing diffoscope
+[2023-06-20 13:28:58] INFO root fetch - processPackages [cdk-eks-karpenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-eks-karpenter-0.0.7.tar.gz tmp/cdk-eks-karpenter-0.0.8.tar.gz --markdown 20230620/c/cdk-eks-karpenter/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-20 13:28:58] INFO root fetch - processPackages [bfgbidding]: executing diffoscope
+[2023-06-20 13:28:58] INFO root fetch - processPackages [bfgbidding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfgbidding-0.0.8.tar.gz tmp/bfgbidding-0.0.9.tar.gz --markdown 20230620/b/bfgbidding/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 13:28:59] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: executing diffoscope
+[2023-06-20 13:28:59] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dcdn20180115-1.1.8.tar.gz tmp/alibabacloud_dcdn20180115-1.1.9.tar.gz --markdown 20230620/a/alibabacloud-dcdn20180115/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-20 13:28:59] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Remove: archive file [/home/abi/fetcher/tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.6-py3-none-any.whl.zip]
+[2023-06-20 13:28:59] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Remove: archive file [/home/abi/fetcher/tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.7-py3-none-any.whl.zip]
+[2023-06-20 13:28:59] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Start processing: boxtec
+[2023-06-20 13:28:59] INFO root fetch - main [MainThread]: End processing [Denoising-Diffusion-Probabilistic-Models]: success
+[2023-06-20 13:28:59] INFO root fetch - processPackages [boxtec]: New version: [2.9] Old Version: [2.8]
+[2023-06-20 13:28:59] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-20 13:28:59] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-20 13:28:59] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: kaliapay-modpy-beta-0.0.1
+[2023-06-20 13:28:59] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-06-20 13:28:59] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-20 13:28:59] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-20 13:28:59] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: odoo-addon-sale-report-margin
+[2023-06-20 13:28:59] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-06-20 13:28:59] WARNING root fetch - processPackages [kaliapay-modpy-beta-0.0.1]: Skipping, unable to determine old version
+[2023-06-20 13:28:59] INFO root fetch - processPackages [kaliapay-modpy-beta-0.0.1]: Start processing: lamindb_setup
+[2023-06-20 13:28:59] INFO root fetch - main [MainThread]: End processing [kaliapay-modpy-beta-0.0.1] error
+[2023-06-20 13:28:59] INFO root fetch - processPackages [odoo-addon-sale-report-margin]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.2]
+[2023-06-20 13:28:59] INFO root fetch - processPackages [lamindb_setup]: New version: [0.47.9] Old Version: [0.47.8]
+[2023-06-20 13:28:59] INFO root fetch - processPackages [boxtec]: Downloading https://files.pythonhosted.org/packages/5a/36/d50c5bf16d61d4d8b7859703fd4107645d64251368a1be2ded4418dcd069/boxtec-2.8.tar.gz
+[2023-06-20 13:29:00] INFO root fetch - processPackages [odoo-addon-sale-report-margin]: Downloading https://files.pythonhosted.org/packages/3c/fd/37eb3c34618dc84b0f19c6e504a6a10164b971e5d2a2082abcae222d27af/odoo_addon_sale_report_margin-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-20 13:29:00] INFO root fetch - processPackages [vai-utils]: Remove: archive file [/home/abi/fetcher/tmp/vai_utils-0.0.4.tar.gz]
+[2023-06-20 13:29:00] INFO root fetch - processPackages [vai-utils]: Remove: archive file [/home/abi/fetcher/tmp/vai_utils-0.0.5.tar.gz]
+[2023-06-20 13:29:00] INFO root fetch - processPackages [vai-utils]: Start processing: torchrl-nightly
+[2023-06-20 13:29:00] INFO root fetch - main [MainThread]: End processing [vai-utils]: success
+[2023-06-20 13:29:00] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/7d/8a/955687771eae260db1e4e3d2c97ce6aa7eecf105f12e197311424e73eb34/lamindb_setup-0.47.8.tar.gz
+[2023-06-20 13:29:00] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/91/8d/c5571bc83bbcc08295c0e157cb8fa4a6a3ab5991a802816b85abae6cac44/lamindb_setup-0.47.9.tar.gz
+[2023-06-20 13:29:00] INFO root fetch - processPackages [cdk-eks-karpenter]: Remove: archive file [/home/abi/fetcher/tmp/cdk-eks-karpenter-0.0.7.tar.gz]
+[2023-06-20 13:29:00] INFO root fetch - processPackages [cdk-eks-karpenter]: Remove: archive file [/home/abi/fetcher/tmp/cdk-eks-karpenter-0.0.8.tar.gz]
+[2023-06-20 13:29:00] INFO root fetch - processPackages [cdk-eks-karpenter]: Start processing: comatrix
+[2023-06-20 13:29:00] INFO root fetch - main [MainThread]: End processing [cdk-eks-karpenter]: success
+[2023-06-20 13:29:00] INFO root fetch - processPackages [boxtec]: Downloading https://files.pythonhosted.org/packages/e9/ca/c0f81cd2eaf093be31da712532fe1c5f0b24f5b049faaadb8c81af79b2bd/boxtec-2.9.tar.gz
+[2023-06-20 13:29:00] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2023-06-20 13:29:00] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.47.8.tar.gz tmp/lamindb_setup-0.47.9.tar.gz --markdown 20230620/l/lamindb_setup/0.47.8-0.47.9/diff.md --exclude *.pyd
+[2023-06-20 13:29:00] WARNING root fetch - processPackages [comatrix]: Skipping, unable to determine old version
+[2023-06-20 13:29:00] INFO root fetch - processPackages [comatrix]: Start processing: dvg-randomizer
+[2023-06-20 13:29:00] INFO root fetch - main [MainThread]: End processing [comatrix] error
+[2023-06-20 13:29:00] INFO root fetch - processPackages [odoo-addon-sale-report-margin]: Downloading https://files.pythonhosted.org/packages/88/03/ad2c549626dea96ed3384ddf07133aa9019bbd77d245132ab5d4063b2a31/odoo_addon_sale_report_margin-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-20 13:29:00] INFO root fetch - processPackages [dvg-randomizer]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-06-20 13:29:00] INFO root fetch - processPackages [boxtec]: executing diffoscope
+[2023-06-20 13:29:00] INFO root fetch - processPackages [boxtec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxtec-2.8.tar.gz tmp/boxtec-2.9.tar.gz --markdown 20230620/b/boxtec/2.8-2.9/diff.md --exclude *.pyd
+[2023-06-20 13:29:00] INFO root fetch - processPackages [odoo-addon-sale-report-margin]: executing diffoscope
+[2023-06-20 13:29:00] INFO root fetch - processPackages [odoo-addon-sale-report-margin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_report_margin-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_report_margin-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230620/o/odoo-addon-sale-report-margin/15.0.1.0.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-20 13:29:00] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-20 13:29:00] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115-1.1.8.tar.gz]
+[2023-06-20 13:29:00] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115-1.1.9.tar.gz]
+[2023-06-20 13:29:00] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Start processing: vai-utils
+[2023-06-20 13:29:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-dcdn20180115]: success
+[2023-06-20 13:29:00] INFO root fetch - processPackages [dvg-randomizer]: Downloading https://files.pythonhosted.org/packages/43/2d/1a7428fc010c0dfb5805806e6805d664fb588e6fa936fff3895adf5f8208/dvg-randomizer-1.4.2.tar.gz
+[2023-06-20 13:29:00] INFO root fetch - processPackages [vai-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-20 13:29:00] INFO root fetch - processPackages [vai-utils]: Downloading https://files.pythonhosted.org/packages/ed/2f/73f025e1b7ff96423d1174cd77f1e05bc4afbb633339f368fc6d31b67a43/vai_utils-0.0.4.tar.gz
+[2023-06-20 13:29:00] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/3b/88/101e7c87a8d056c43a8fc2343ea5a24020bd6c62819390407e19c2e58b84/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl
+[2023-06-20 13:29:00] INFO root fetch - processPackages [vai-utils]: Downloading https://files.pythonhosted.org/packages/5b/2f/9a0ec11ff6d4f5555c86e618e3b3748947f15235f9fd02d5cef31bd82e80/vai_utils-0.0.5.tar.gz
+[2023-06-20 13:29:01] INFO root fetch - processPackages [vai-utils]: executing diffoscope
+[2023-06-20 13:29:01] INFO root fetch - processPackages [vai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vai_utils-0.0.4.tar.gz tmp/vai_utils-0.0.5.tar.gz --markdown 20230620/v/vai-utils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-20 13:29:01] INFO root fetch - processPackages [dvg-randomizer]: Downloading https://files.pythonhosted.org/packages/01/ca/a3c26d23f66b30a056b8d45181cbef8c032979510393326ba4790a30c394/dvg-randomizer-1.4.3.tar.gz
+[2023-06-20 13:29:01] INFO root fetch - processPackages [dvg-randomizer]: executing diffoscope
+[2023-06-20 13:29:01] INFO root fetch - processPackages [dvg-randomizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvg-randomizer-1.4.2.tar.gz tmp/dvg-randomizer-1.4.3.tar.gz --markdown 20230620/d/dvg-randomizer/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-06-20 13:29:01] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/b9/46/ce016b773818b01f9d3047ba111687f8b14fc64ca46b82b77f62c661e902/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl
+[2023-06-20 13:29:01] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-06-20 13:29:01] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip --markdown 20230620/t/torchrl-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-20 13:29:01] INFO root fetch - processPackages [odoo-addon-sale-report-margin]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_report_margin-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-20 13:29:01] INFO root fetch - processPackages [odoo-addon-sale-report-margin]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_report_margin-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-20 13:29:01] INFO root fetch - processPackages [odoo-addon-sale-report-margin]: Start processing: torchrec-nightly
+[2023-06-20 13:29:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-report-margin]: success
+[2023-06-20 13:29:01] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-20 13:29:01] INFO root fetch - processPackages [boxtec]: Remove: archive file [/home/abi/fetcher/tmp/boxtec-2.8.tar.gz]
+[2023-06-20 13:29:01] INFO root fetch - processPackages [boxtec]: Remove: archive file [/home/abi/fetcher/tmp/boxtec-2.9.tar.gz]
+[2023-06-20 13:29:01] INFO root fetch - processPackages [boxtec]: Start processing: Api-dpp
+[2023-06-20 13:29:01] INFO root fetch - main [MainThread]: End processing [boxtec]: success
+[2023-06-20 13:29:01] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.47.8.tar.gz]
+[2023-06-20 13:29:01] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.47.9.tar.gz]
+[2023-06-20 13:29:01] INFO root fetch - processPackages [lamindb_setup]: Start processing: django-cards
+[2023-06-20 13:29:01] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2023-06-20 13:29:01] INFO root fetch - processPackages [django-cards]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-20 13:29:01] WARNING root fetch - processPackages [Api-dpp]: Skipping, unable to determine old version
+[2023-06-20 13:29:01] INFO root fetch - main [MainThread]: End processing [Api-dpp] error
+[2023-06-20 13:29:01] INFO root fetch - processPackages [django-cards]: Downloading https://files.pythonhosted.org/packages/f8/9c/26d652906f34b18c4e3da83ded778f2a486a1f22289b8b7a26fbaaca856d/django-cards-0.9.1.tar.gz
+[2023-06-20 13:29:01] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/91/c6/d57c712eef951e5889cc42cba904e3b4623c3618eea80e54f3153275a070/torchrec_nightly-2023.6.8-py39-none-any.whl
+[2023-06-20 13:29:02] INFO root fetch - processPackages [django-cards]: Downloading https://files.pythonhosted.org/packages/91/cc/a233acea65731ff053ec23cb7f3136fd672a7886c6add38a0e407e943893/django-cards-0.9.2.tar.gz
+[2023-06-20 13:29:02] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/04/c2/8bc2408f10b66a9f096323e663a67f541486c62d4a69e7cc8052175447e1/torchrec_nightly-2023.6.9-py39-none-any.whl
+[2023-06-20 13:29:02] INFO root fetch - processPackages [bfgbidding]: Remove: archive file [/home/abi/fetcher/tmp/bfgbidding-0.0.8.tar.gz]
+[2023-06-20 13:29:02] INFO root fetch - processPackages [bfgbidding]: Remove: archive file [/home/abi/fetcher/tmp/bfgbidding-0.0.9.tar.gz]
+[2023-06-20 13:29:02] INFO root fetch - main [MainThread]: End processing [bfgbidding]: success
+[2023-06-20 13:29:02] INFO root fetch - processPackages [vai-utils]: Remove: archive file [/home/abi/fetcher/tmp/vai_utils-0.0.4.tar.gz]
+[2023-06-20 13:29:02] INFO root fetch - processPackages [vai-utils]: Remove: archive file [/home/abi/fetcher/tmp/vai_utils-0.0.5.tar.gz]
+[2023-06-20 13:29:02] INFO root fetch - main [MainThread]: End processing [vai-utils]: success
+[2023-06-20 13:29:02] INFO root fetch - processPackages [django-cards]: executing diffoscope
+[2023-06-20 13:29:02] INFO root fetch - processPackages [django-cards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cards-0.9.1.tar.gz tmp/django-cards-0.9.2.tar.gz --markdown 20230620/d/django-cards/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-20 13:29:02] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-06-20 13:29:02] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.6.8-py39-none-any.whl.zip tmp/torchrec_nightly-2023.6.9-py39-none-any.whl.zip --markdown 20230620/t/torchrec-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-20 13:29:02] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz]
+[2023-06-20 13:29:02] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz]
+[2023-06-20 13:29:02] INFO root fetch - main [MainThread]: End processing [alibabacloud-dcdn20180115-py2]: success
+[2023-06-20 13:29:03] INFO root fetch - processPackages [django-cards]: Remove: archive file [/home/abi/fetcher/tmp/django-cards-0.9.1.tar.gz]
+[2023-06-20 13:29:03] INFO root fetch - processPackages [django-cards]: Remove: archive file [/home/abi/fetcher/tmp/django-cards-0.9.2.tar.gz]
+[2023-06-20 13:29:03] INFO root fetch - main [MainThread]: End processing [django-cards]: success
+[2023-06-20 13:29:03] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-20 13:29:03] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-20 13:29:03] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-06-20 13:29:03] INFO root fetch - processPackages [django-spectator]: Remove: archive file [/home/abi/fetcher/tmp/django-spectator-9.0.1.tar.gz]
+[2023-06-20 13:29:03] INFO root fetch - processPackages [django-spectator]: Remove: archive file [/home/abi/fetcher/tmp/django-spectator-9.1.0.tar.gz]
+[2023-06-20 13:29:03] INFO root fetch - main [MainThread]: End processing [django-spectator]: success
+[2023-06-20 13:29:03] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-23.6.0.tar.gz]
+[2023-06-20 13:29:03] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-23.6.1.tar.gz]
+[2023-06-20 13:29:03] INFO root fetch - main [MainThread]: End processing [troubadix]: success
+[2023-06-20 13:29:04] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.6.8-py39-none-any.whl.zip]
+[2023-06-20 13:29:04] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.6.9-py39-none-any.whl.zip]
+[2023-06-20 13:29:04] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-06-20 13:29:04] INFO root fetch - processPackages [dvg-randomizer]: Remove: archive file [/home/abi/fetcher/tmp/dvg-randomizer-1.4.2.tar.gz]
+[2023-06-20 13:29:04] INFO root fetch - processPackages [dvg-randomizer]: Remove: archive file [/home/abi/fetcher/tmp/dvg-randomizer-1.4.3.tar.gz]
+[2023-06-20 13:29:04] INFO root fetch - main [MainThread]: End processing [dvg-randomizer]: success
+[2023-06-20 13:29:04] INFO root fetch - main [MainThread]: Store serial: [18573812]
