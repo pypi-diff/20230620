@@ -22536,3 +22536,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 14:22:38] INFO root fetch - processPackages [tiledb-prompt-options]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_prompt_options-1.0.9-py2.py3-none-any.whl.zip]
 [2023-06-20 14:22:38] INFO root fetch - main [MainThread]: End processing [tiledb-prompt-options]: success
 [2023-06-20 14:22:38] INFO root fetch - main [MainThread]: Store serial: [18574640]
+[2023-06-20 14:27:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18574640]
+[2023-06-20 14:27:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-20 14:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: 003.mod.butt
+[2023-06-20 14:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybelt
+[2023-06-20 14:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: almavik
+[2023-06-20 14:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datawise
+[2023-06-20 14:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pkgbuild-language-server
+[2023-06-20 14:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c2cciutils
+[2023-06-20 14:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edc-glucose
+[2023-06-20 14:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: c2cciutils
+[2023-06-20 14:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: 004.butt
+[2023-06-20 14:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: reliably-cli
+[2023-06-20 14:27:47] WARNING root fetch - processPackages [003.mod.butt]: Skipping, unable to determine old version
+[2023-06-20 14:27:47] INFO root fetch - processPackages [003.mod.butt]: Start processing: pynter-defects
+[2023-06-20 14:27:47] INFO root fetch - main [MainThread]: End processing [003.mod.butt] error
+[2023-06-20 14:27:47] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-20 14:27:47] INFO root fetch - processPackages [datawise]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-06-20 14:27:47] INFO root fetch - processPackages [almavik]: New version: [4.1] Old Version: [3.9]
+[2023-06-20 14:27:47] INFO root fetch - processPackages [pybelt]: New version: [1.1b1] Old Version: [1.1.0]
+[2023-06-20 14:27:47] INFO root fetch - processPackages [pkgbuild-language-server]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-20 14:27:47] WARNING root fetch - processPackages [004.butt]: Skipping, unable to determine old version
+[2023-06-20 14:27:47] INFO root fetch - processPackages [004.butt]: Start processing: DeepLogTimedelta
+[2023-06-20 14:27:47] INFO root fetch - main [MainThread]: End processing [004.butt] error
+[2023-06-20 14:27:47] INFO root fetch - processPackages [pynter-defects]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-20 14:27:47] INFO root fetch - processPackages [edc-glucose]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 14:27:47] INFO root fetch - processPackages [reliably-cli]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-20 14:27:48] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-20 14:27:48] INFO root fetch - processPackages [DeepLogTimedelta]: New version: [0.3.0] Old Version: [0.2.2.2]
+[2023-06-20 14:27:48] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/dc/ff/81ef34985b2f809b59a17178326332d21c7ae5954bc7679748656cca4a76/datawise-0.0.16.tar.gz
+[2023-06-20 14:27:48] INFO root fetch - processPackages [pynter-defects]: Downloading https://files.pythonhosted.org/packages/53/53/5e77ea8db406fee8a2b7227219416bb5def4220218751b0931b3540a765e/pynter-defects-1.0.3.tar.gz
+[2023-06-20 14:27:48] INFO root fetch - processPackages [pkgbuild-language-server]: Downloading https://files.pythonhosted.org/packages/76/41/bb19b63ba102eb9726d78e3c36f78b19738fb54cf39f7fa2ac9f4ba6ff17/pkgbuild-language-server-0.0.3.tar.gz
+[2023-06-20 14:27:48] INFO root fetch - processPackages [pybelt]: Downloading https://files.pythonhosted.org/packages/cd/08/e97dc06c90ebf383fbc3ba71023be5578c98143bc23743668110d21456e6/pybelt-1.1.0.tar.gz
+[2023-06-20 14:27:48] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-06-20 14:27:48] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-06-20 14:27:48] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/17/7c/fc48186f6d75448b72548fe58913e3e09c0889095d341a0fb5f4544131fd/almavik-3.9.tar.gz
+[2023-06-20 14:27:48] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/aa/1e/a68d93c6932086bda6d3e2d8ad3ede7b1e3a80cbb4ec42b515691188ba08/reliably_cli-0.7.0.tar.gz
+[2023-06-20 14:27:48] INFO root fetch - processPackages [DeepLogTimedelta]: Downloading https://files.pythonhosted.org/packages/fa/73/2d94cd678c9a1ddc491e87e2e055ecfe8245ca2b3ee3f8d959f31806ce09/DeepLogTimedelta-0.2.2.2.tar.gz
+[2023-06-20 14:27:48] INFO root fetch - processPackages [edc-glucose]: Downloading https://files.pythonhosted.org/packages/5c/c4/7c8c7a40ebfe9a901238b2489fcb461c3c439bd10382d8c50533aee9cf3e/edc_glucose-0.1.8-py3-none-any.whl
+[2023-06-20 14:27:48] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 88374063>=10485760
+[2023-06-20 14:27:48] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-20 14:27:48] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/ba/b8/25c119b9e5750be1116b46968679be90cc48a23bacd088ae513c1c6107f1/datawise-0.0.17.tar.gz
+[2023-06-20 14:27:48] INFO root fetch - processPackages [pynter-defects]: Downloading https://files.pythonhosted.org/packages/6e/53/782ccb2290d51bf677c453afa63b6d9db39ae2a89de305021ee3750688c7/pynter-defects-1.0.4.tar.gz
+[2023-06-20 14:27:48] INFO root fetch - processPackages [pkgbuild-language-server]: Downloading https://files.pythonhosted.org/packages/9b/fa/f4bdc745e1f1164e2caf388a9336d45a1d38b92217831cdd2b976077ba45/pkgbuild-language-server-0.0.4.tar.gz
+[2023-06-20 14:27:48] INFO root fetch - processPackages [pybelt]: Downloading https://files.pythonhosted.org/packages/db/a7/fa70ed67f75d2eb3144fa65981c09895327d795759196cc776387f3e5884/pybelt-1.1b1.tar.gz
+[2023-06-20 14:27:48] INFO root fetch - processPackages [datawise]: executing diffoscope
+[2023-06-20 14:27:48] INFO root fetch - processPackages [datawise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawise-0.0.16.tar.gz tmp/datawise-0.0.17.tar.gz --markdown 20230620/d/datawise/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-06-20 14:27:48] INFO root fetch - processPackages [pynter-defects]: executing diffoscope
+[2023-06-20 14:27:48] INFO root fetch - processPackages [pynter-defects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynter-defects-1.0.3.tar.gz tmp/pynter-defects-1.0.4.tar.gz --markdown 20230620/p/pynter-defects/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-20 14:27:48] INFO root fetch - processPackages [DeepLogTimedelta]: Downloading https://files.pythonhosted.org/packages/80/83/87902993a15211aa15d1640e505100a3cdb9691c8f9601cdc061ee1b1b35/DeepLogTimedelta-0.3.0.tar.gz
+[2023-06-20 14:27:48] INFO root fetch - processPackages [edc-glucose]: Downloading https://files.pythonhosted.org/packages/e7/01/7d35231023cd75dcd885278afa69e716fc5c7993f8c77eab3963f0319481/edc_glucose-0.1.9-py3-none-any.whl
+[2023-06-20 14:27:48] INFO root fetch - processPackages [pkgbuild-language-server]: executing diffoscope
+[2023-06-20 14:27:48] INFO root fetch - processPackages [pkgbuild-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgbuild-language-server-0.0.3.tar.gz tmp/pkgbuild-language-server-0.0.4.tar.gz --markdown 20230620/p/pkgbuild-language-server/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-20 14:27:48] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/5c/f2/a3aed8f4d5985029fc2cfa208fbc5900bf1a46fa2bd7f0e0536b5fb11882/reliably_cli-0.8.0.tar.gz
+[2023-06-20 14:27:48] INFO root fetch - processPackages [DeepLogTimedelta]: executing diffoscope
+[2023-06-20 14:27:48] INFO root fetch - processPackages [DeepLogTimedelta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepLogTimedelta-0.2.2.2.tar.gz tmp/DeepLogTimedelta-0.3.0.tar.gz --markdown 20230620/D/DeepLogTimedelta/0.2.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-20 14:27:48] INFO root fetch - processPackages [pybelt]: executing diffoscope
+[2023-06-20 14:27:48] INFO root fetch - processPackages [pybelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybelt-1.1.0.tar.gz tmp/pybelt-1.1b1.tar.gz --markdown 20230620/p/pybelt/1.1.0-1.1b1/diff.md --exclude *.pyd
+[2023-06-20 14:27:48] INFO root fetch - processPackages [edc-glucose]: executing diffoscope
+[2023-06-20 14:27:48] INFO root fetch - processPackages [edc-glucose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_glucose-0.1.8-py3-none-any.whl.zip tmp/edc_glucose-0.1.9-py3-none-any.whl.zip --markdown 20230620/e/edc-glucose/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 14:27:48] INFO root fetch - processPackages [reliably-cli]: executing diffoscope
+[2023-06-20 14:27:48] INFO root fetch - processPackages [reliably-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliably_cli-0.7.0.tar.gz tmp/reliably_cli-0.8.0.tar.gz --markdown 20230620/r/reliably-cli/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-20 14:27:49] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-06-20 14:27:49] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-06-20 14:27:49] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.16.tar.gz]
+[2023-06-20 14:27:49] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.17.tar.gz]
+[2023-06-20 14:27:49] INFO root fetch - main [MainThread]: End processing [datawise]: success
+[2023-06-20 14:27:49] INFO root fetch - processPackages [DeepLogTimedelta]: Remove: archive file [/home/abi/fetcher/tmp/DeepLogTimedelta-0.2.2.2.tar.gz]
+[2023-06-20 14:27:49] INFO root fetch - processPackages [DeepLogTimedelta]: Remove: archive file [/home/abi/fetcher/tmp/DeepLogTimedelta-0.3.0.tar.gz]
+[2023-06-20 14:27:49] INFO root fetch - main [MainThread]: End processing [DeepLogTimedelta]: success
+[2023-06-20 14:27:50] INFO root fetch - processPackages [edc-glucose]: Remove: archive file [/home/abi/fetcher/tmp/edc_glucose-0.1.8-py3-none-any.whl.zip]
+[2023-06-20 14:27:50] INFO root fetch - processPackages [edc-glucose]: Remove: archive file [/home/abi/fetcher/tmp/edc_glucose-0.1.9-py3-none-any.whl.zip]
+[2023-06-20 14:27:50] INFO root fetch - main [MainThread]: End processing [edc-glucose]: success
+[2023-06-20 14:27:50] INFO root fetch - processPackages [pybelt]: Remove: archive file [/home/abi/fetcher/tmp/pybelt-1.1.0.tar.gz]
+[2023-06-20 14:27:50] INFO root fetch - processPackages [pybelt]: Remove: archive file [/home/abi/fetcher/tmp/pybelt-1.1b1.tar.gz]
+[2023-06-20 14:27:50] INFO root fetch - main [MainThread]: End processing [pybelt]: success
+[2023-06-20 14:27:50] INFO root fetch - processPackages [pynter-defects]: Remove: archive file [/home/abi/fetcher/tmp/pynter-defects-1.0.3.tar.gz]
+[2023-06-20 14:27:50] INFO root fetch - processPackages [pynter-defects]: Remove: archive file [/home/abi/fetcher/tmp/pynter-defects-1.0.4.tar.gz]
+[2023-06-20 14:27:50] INFO root fetch - main [MainThread]: End processing [pynter-defects]: success
+[2023-06-20 14:27:50] INFO root fetch - processPackages [reliably-cli]: Remove: archive file [/home/abi/fetcher/tmp/reliably_cli-0.7.0.tar.gz]
+[2023-06-20 14:27:50] INFO root fetch - processPackages [reliably-cli]: Remove: archive file [/home/abi/fetcher/tmp/reliably_cli-0.8.0.tar.gz]
+[2023-06-20 14:27:50] INFO root fetch - main [MainThread]: End processing [reliably-cli]: success
+[2023-06-20 14:27:50] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-20 14:27:50] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230620/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-20 14:27:50] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-20 14:27:50] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230620/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-20 14:27:50] INFO root fetch - processPackages [pkgbuild-language-server]: Remove: archive file [/home/abi/fetcher/tmp/pkgbuild-language-server-0.0.3.tar.gz]
+[2023-06-20 14:27:50] INFO root fetch - processPackages [pkgbuild-language-server]: Remove: archive file [/home/abi/fetcher/tmp/pkgbuild-language-server-0.0.4.tar.gz]
+[2023-06-20 14:27:50] INFO root fetch - main [MainThread]: End processing [pkgbuild-language-server]: success
+[2023-06-20 14:27:56] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-06-20 14:27:56] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-06-20 14:27:56] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-20 14:27:57] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-20 14:27:57] INFO root fetch - main [MainThread]: Store serial: [18574692]
