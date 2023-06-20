@@ -17157,3 +17157,138 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 11:13:22] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2023-06-20 11:13:23] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2023-06-20 11:13:23] INFO root fetch - main [MainThread]: Store serial: [18572376]
+[2023-06-20 11:18:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18572376]
+[2023-06-20 11:18:33] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-20 11:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skmetpy
+[2023-06-20 11:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: embedsrt
+[2023-06-20 11:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QuantumPathQSOAPySDK
+[2023-06-20 11:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytmlib
+[2023-06-20 11:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-pygenerator
+[2023-06-20 11:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hello2
+[2023-06-20 11:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spytula
+[2023-06-20 11:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mads-datasets
+[2023-06-20 11:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: capellambse
+[2023-06-20 11:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: algocash-sdk
+[2023-06-20 11:18:33] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-20 11:18:33] INFO root fetch - processPackages [pytmlib]: New version: [1.1.0.dev4] Old Version: [1.1.0.dev3]
+[2023-06-20 11:18:33] INFO root fetch - processPackages [hello2]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-20 11:18:33] INFO root fetch - processPackages [spytula]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-06-20 11:18:33] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-06-20 11:18:33] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Downloading https://files.pythonhosted.org/packages/25/06/0e41704587afb44f169e3864e94719ce9e76eeb349dc1c30dfe8ab05459d/QuantumPathQSOAPySDK-1.5.1.tar.gz
+[2023-06-20 11:18:33] INFO root fetch - processPackages [pytmlib]: Downloading https://files.pythonhosted.org/packages/a7/c5/69d3d44904cfe0df882b8210fdbeba79d314635a227c916a5bfb989f6441/pytmlib-1.1.0.dev3.tar.gz
+[2023-06-20 11:18:33] INFO root fetch - processPackages [skmetpy]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-20 11:18:33] INFO root fetch - processPackages [openai-pygenerator]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-20 11:18:33] INFO root fetch - processPackages [mads-datasets]: New version: [0.1.5.3] Old Version: [0.1.5.2]
+[2023-06-20 11:18:33] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/3e/11/899afabfb3b2b0e7d087f50cff104986c24f9024fee24baa47efb55a00e5/hello2-2.0.3.tar.gz
+[2023-06-20 11:18:33] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2023-06-20 11:18:33] INFO root fetch - processPackages [algocash-sdk]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-20 11:18:33] INFO root fetch - processPackages [embedsrt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-20 11:18:33] INFO root fetch - processPackages [openai-pygenerator]: Downloading https://files.pythonhosted.org/packages/5c/a5/cefe0dfb209f9a132f0c7692a69a77a9d4ff62b264228c81f64c2202c902/openai-pygenerator-0.4.4.tar.gz
+[2023-06-20 11:18:33] INFO root fetch - processPackages [algocash-sdk]: Downloading https://files.pythonhosted.org/packages/b7/4d/d3b635c2e9924dfd7333c2dbd4a6b8d2739be55339028c02df8c4cddd7a5/algocash-sdk-1.1.1.tar.gz
+[2023-06-20 11:18:33] INFO root fetch - processPackages [spytula]: Downloading https://files.pythonhosted.org/packages/2c/a0/04660ed58e93bdf87c279a81374dc84168f2bb3ba599f9b85f426e65334f/spytula-0.0.0.tar.gz
+[2023-06-20 11:18:33] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/da/45/ee1674434c927e53028133d514a15611d6964c5cdd7a6e1cd9da89fdd875/skmetpy-0.2.0.tar.gz
+[2023-06-20 11:18:33] INFO root fetch - processPackages [mads-datasets]: Downloading https://files.pythonhosted.org/packages/fd/9d/288ffdbc123faa46178e32137df18710c84bdd31a1a0a649658c0c0e2051/mads_datasets-0.1.5.2.tar.gz
+[2023-06-20 11:18:33] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/cf/58/ef1b8fde3cadaaced8795fba121f2b30e792bbbf8e2c742780a9110255e2/hello2-2.0.4.tar.gz
+[2023-06-20 11:18:33] INFO root fetch - processPackages [embedsrt]: Downloading https://files.pythonhosted.org/packages/d5/a2/f88a97eb33f599dcd77c0b71ce8cc487da0e70f0bc8f20fa4cd79c534544/embedsrt-0.0.1.tar.gz
+[2023-06-20 11:18:33] INFO root fetch - processPackages [pytmlib]: Downloading https://files.pythonhosted.org/packages/4e/2d/d1504b66c83b72443b69c322829f571069d367ddb75de3e83207f75ccd5f/pytmlib-1.1.0.dev4.tar.gz
+[2023-06-20 11:18:33] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Downloading https://files.pythonhosted.org/packages/01/23/c58a3c3bbb46b5ad7f21c3fea8874efa2a781b52183c72bb50c38c9f0154/QuantumPathQSOAPySDK-1.5.2.tar.gz
+[2023-06-20 11:18:33] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-06-20 11:18:33] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-2.0.3.tar.gz tmp/hello2-2.0.4.tar.gz --markdown 20230620/h/hello2/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-20 11:18:33] INFO root fetch - processPackages [openai-pygenerator]: Downloading https://files.pythonhosted.org/packages/46/ca/b7969a505e4ce25dbf5f88082d4a64fecc886d896f799d5d9b6538d55245/openai-pygenerator-0.4.5.tar.gz
+[2023-06-20 11:18:33] INFO root fetch - processPackages [algocash-sdk]: Downloading https://files.pythonhosted.org/packages/8b/81/ce3a72edd1a45cb74bafd65a099af6a7370860e4a2d929e2c19249810589/algocash-sdk-1.2.0.tar.gz
+[2023-06-20 11:18:33] INFO root fetch - processPackages [pytmlib]: executing diffoscope
+[2023-06-20 11:18:33] INFO root fetch - processPackages [pytmlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytmlib-1.1.0.dev3.tar.gz tmp/pytmlib-1.1.0.dev4.tar.gz --markdown 20230620/p/pytmlib/1.1.0.dev3-1.1.0.dev4/diff.md --exclude *.pyd
+[2023-06-20 11:18:33] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: executing diffoscope
+[2023-06-20 11:18:33] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuantumPathQSOAPySDK-1.5.1.tar.gz tmp/QuantumPathQSOAPySDK-1.5.2.tar.gz --markdown 20230620/Q/QuantumPathQSOAPySDK/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-20 11:18:33] INFO root fetch - processPackages [openai-pygenerator]: executing diffoscope
+[2023-06-20 11:18:33] INFO root fetch - processPackages [openai-pygenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-pygenerator-0.4.4.tar.gz tmp/openai-pygenerator-0.4.5.tar.gz --markdown 20230620/o/openai-pygenerator/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-20 11:18:33] INFO root fetch - processPackages [mads-datasets]: Downloading https://files.pythonhosted.org/packages/5c/3e/9cc67a097b425d021e2feff6c22a1e0fbca8dc969764dfb4b5490ba96c88/mads_datasets-0.1.5.3.tar.gz
+[2023-06-20 11:18:34] INFO root fetch - processPackages [spytula]: Downloading https://files.pythonhosted.org/packages/6a/0b/662719cb33b7d4e29a9ed6160e54f88ef8692deef29e63d094f770b450db/spytula-0.0.2.tar.gz
+[2023-06-20 11:18:34] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/47/0f/f1dcb0b8debf1f00a1c0440ff200f2a643375947a2c7c93942babfc278bd/skmetpy-0.2.1.tar.gz
+[2023-06-20 11:18:34] INFO root fetch - processPackages [algocash-sdk]: executing diffoscope
+[2023-06-20 11:18:34] INFO root fetch - processPackages [algocash-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algocash-sdk-1.1.1.tar.gz tmp/algocash-sdk-1.2.0.tar.gz --markdown 20230620/a/algocash-sdk/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-20 11:18:34] INFO root fetch - processPackages [mads-datasets]: executing diffoscope
+[2023-06-20 11:18:34] INFO root fetch - processPackages [mads-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mads_datasets-0.1.5.2.tar.gz tmp/mads_datasets-0.1.5.3.tar.gz --markdown 20230620/m/mads-datasets/0.1.5.2-0.1.5.3/diff.md --exclude *.pyd
+[2023-06-20 11:18:34] INFO root fetch - processPackages [spytula]: executing diffoscope
+[2023-06-20 11:18:34] INFO root fetch - processPackages [spytula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spytula-0.0.0.tar.gz tmp/spytula-0.0.2.tar.gz --markdown 20230620/s/spytula/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-06-20 11:18:34] INFO root fetch - processPackages [embedsrt]: Downloading https://files.pythonhosted.org/packages/07/f2/0e86630389b7b86681003aa25c172d1a77504ef6941994c133926f402881/embedsrt-0.0.2.tar.gz
+[2023-06-20 11:18:34] INFO root fetch - processPackages [skmetpy]: executing diffoscope
+[2023-06-20 11:18:34] INFO root fetch - processPackages [skmetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skmetpy-0.2.0.tar.gz tmp/skmetpy-0.2.1.tar.gz --markdown 20230620/s/skmetpy/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-20 11:18:34] INFO root fetch - processPackages [embedsrt]: executing diffoscope
+[2023-06-20 11:18:34] INFO root fetch - processPackages [embedsrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedsrt-0.0.1.tar.gz tmp/embedsrt-0.0.2.tar.gz --markdown 20230620/e/embedsrt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-20 11:18:34] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2023-06-20 11:18:35] INFO root fetch - processPackages [spytula]: Remove: archive file [/home/abi/fetcher/tmp/spytula-0.0.0.tar.gz]
+[2023-06-20 11:18:35] INFO root fetch - processPackages [spytula]: Remove: archive file [/home/abi/fetcher/tmp/spytula-0.0.2.tar.gz]
+[2023-06-20 11:18:35] INFO root fetch - processPackages [spytula]: Start processing: webbits
+[2023-06-20 11:18:35] INFO root fetch - main [MainThread]: End processing [spytula]: success
+[2023-06-20 11:18:35] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.2.0.tar.gz]
+[2023-06-20 11:18:35] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.2.1.tar.gz]
+[2023-06-20 11:18:35] INFO root fetch - processPackages [skmetpy]: Start processing: h5py
+[2023-06-20 11:18:35] INFO root fetch - main [MainThread]: End processing [skmetpy]: success
+[2023-06-20 11:18:35] INFO root fetch - processPackages [h5py]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-06-20 11:18:35] INFO root fetch - processPackages [mads-datasets]: Remove: archive file [/home/abi/fetcher/tmp/mads_datasets-0.1.5.2.tar.gz]
+[2023-06-20 11:18:35] INFO root fetch - processPackages [mads-datasets]: Remove: archive file [/home/abi/fetcher/tmp/mads_datasets-0.1.5.3.tar.gz]
+[2023-06-20 11:18:35] INFO root fetch - processPackages [mads-datasets]: Start processing: nonebot-plugin-grouplock
+[2023-06-20 11:18:35] INFO root fetch - main [MainThread]: End processing [mads-datasets]: success
+[2023-06-20 11:18:35] INFO root fetch - processPackages [webbits]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-20 11:18:36] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-06-20 11:18:36] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230620/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-06-20 11:18:36] INFO root fetch - processPackages [nonebot-plugin-grouplock]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-20 11:18:36] INFO root fetch - processPackages [embedsrt]: Remove: archive file [/home/abi/fetcher/tmp/embedsrt-0.0.1.tar.gz]
+[2023-06-20 11:18:36] INFO root fetch - processPackages [embedsrt]: Remove: archive file [/home/abi/fetcher/tmp/embedsrt-0.0.2.tar.gz]
+[2023-06-20 11:18:36] INFO root fetch - processPackages [embedsrt]: Start processing: 0009
+[2023-06-20 11:18:36] INFO root fetch - main [MainThread]: End processing [embedsrt]: success
+[2023-06-20 11:18:36] INFO root fetch - processPackages [h5py]: Downloading https://files.pythonhosted.org/packages/c5/40/7cf58e6230f0e76699f011c6d293dd47755997709a303a4e644823f3a753/h5py-3.7.0.tar.gz
+[2023-06-20 11:18:36] INFO root fetch - processPackages [webbits]: Downloading https://files.pythonhosted.org/packages/5b/cd/8bfc1e75336e092998758b77f1832ebb474a10af8c7625805f8432cdb77a/webbits-0.1.0.tar.gz
+[2023-06-20 11:18:36] WARNING root fetch - processPackages [0009]: Skipping, unable to determine old version
+[2023-06-20 11:18:36] INFO root fetch - processPackages [0009]: Start processing: viocr
+[2023-06-20 11:18:36] INFO root fetch - main [MainThread]: End processing [0009] error
+[2023-06-20 11:18:36] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Remove: archive file [/home/abi/fetcher/tmp/QuantumPathQSOAPySDK-1.5.1.tar.gz]
+[2023-06-20 11:18:36] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Remove: archive file [/home/abi/fetcher/tmp/QuantumPathQSOAPySDK-1.5.2.tar.gz]
+[2023-06-20 11:18:36] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Start processing: ens-sdk
+[2023-06-20 11:18:36] INFO root fetch - main [MainThread]: End processing [QuantumPathQSOAPySDK]: success
+[2023-06-20 11:18:36] INFO root fetch - processPackages [nonebot-plugin-grouplock]: Downloading https://files.pythonhosted.org/packages/76/94/792692e3702f016c36c72371bc5c0417cbe27d3e660dd929476e178ab244/nonebot-plugin-grouplock-0.0.2.tar.gz
+[2023-06-20 11:18:36] INFO root fetch - processPackages [ens-sdk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-20 11:18:36] WARNING root fetch - processPackages [viocr]: Skipping, unable to determine old version
+[2023-06-20 11:18:36] INFO root fetch - main [MainThread]: End processing [viocr] error
+[2023-06-20 11:18:36] INFO root fetch - processPackages [pytmlib]: Remove: archive file [/home/abi/fetcher/tmp/pytmlib-1.1.0.dev3.tar.gz]
+[2023-06-20 11:18:36] INFO root fetch - processPackages [pytmlib]: Remove: archive file [/home/abi/fetcher/tmp/pytmlib-1.1.0.dev4.tar.gz]
+[2023-06-20 11:18:36] INFO root fetch - main [MainThread]: End processing [pytmlib]: success
+[2023-06-20 11:18:36] INFO root fetch - processPackages [ens-sdk]: Downloading https://files.pythonhosted.org/packages/06/e7/706f59e94a965321b7d62fae0887288cfca50878303cebb2442068f5f33b/ens_sdk-0.0.4.tar.gz
+[2023-06-20 11:18:36] INFO root fetch - processPackages [openai-pygenerator]: Remove: archive file [/home/abi/fetcher/tmp/openai-pygenerator-0.4.4.tar.gz]
+[2023-06-20 11:18:36] INFO root fetch - processPackages [openai-pygenerator]: Remove: archive file [/home/abi/fetcher/tmp/openai-pygenerator-0.4.5.tar.gz]
+[2023-06-20 11:18:36] INFO root fetch - main [MainThread]: End processing [openai-pygenerator]: success
+[2023-06-20 11:18:36] INFO root fetch - processPackages [h5py]: Downloading https://files.pythonhosted.org/packages/69/f4/3172bb63d3c57e24aec42bb93fcf1da4102752701ab5ad10b3ded00d0c5b/h5py-3.8.0.tar.gz
+[2023-06-20 11:18:36] INFO root fetch - processPackages [webbits]: Downloading https://files.pythonhosted.org/packages/37/41/5c62b35488963f803ac8c2ad181551b7dff272be6ef3addefaf640420115/webbits-0.1.1.tar.gz
+[2023-06-20 11:18:36] INFO root fetch - processPackages [nonebot-plugin-grouplock]: Downloading https://files.pythonhosted.org/packages/c7/3f/0835e048c9b9b21b1a31c09e6614885c1f74dcd95e8c8d04fc2b5216004f/nonebot-plugin-grouplock-0.0.3.tar.gz
+[2023-06-20 11:18:36] INFO root fetch - processPackages [webbits]: executing diffoscope
+[2023-06-20 11:18:36] INFO root fetch - processPackages [webbits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webbits-0.1.0.tar.gz tmp/webbits-0.1.1.tar.gz --markdown 20230620/w/webbits/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-20 11:18:36] INFO root fetch - processPackages [ens-sdk]: Downloading https://files.pythonhosted.org/packages/93/eb/ffa89270f9677c12eb19e34f386e718edd64b08b587d2bbb1cf1ae040ddb/ens_sdk-0.0.5.tar.gz
+[2023-06-20 11:18:36] INFO root fetch - processPackages [h5py]: executing diffoscope
+[2023-06-20 11:18:36] INFO root fetch - processPackages [h5py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5py-3.7.0.tar.gz tmp/h5py-3.8.0.tar.gz --markdown 20230620/h/h5py/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-06-20 11:18:36] INFO root fetch - processPackages [algocash-sdk]: Remove: archive file [/home/abi/fetcher/tmp/algocash-sdk-1.1.1.tar.gz]
+[2023-06-20 11:18:36] INFO root fetch - processPackages [algocash-sdk]: Remove: archive file [/home/abi/fetcher/tmp/algocash-sdk-1.2.0.tar.gz]
+[2023-06-20 11:18:36] INFO root fetch - main [MainThread]: End processing [algocash-sdk]: success
+[2023-06-20 11:18:36] INFO root fetch - processPackages [ens-sdk]: executing diffoscope
+[2023-06-20 11:18:36] INFO root fetch - processPackages [ens-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ens_sdk-0.0.4.tar.gz tmp/ens_sdk-0.0.5.tar.gz --markdown 20230620/e/ens-sdk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-20 11:18:36] INFO root fetch - processPackages [nonebot-plugin-grouplock]: executing diffoscope
+[2023-06-20 11:18:36] INFO root fetch - processPackages [nonebot-plugin-grouplock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-grouplock-0.0.2.tar.gz tmp/nonebot-plugin-grouplock-0.0.3.tar.gz --markdown 20230620/n/nonebot-plugin-grouplock/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-20 11:18:36] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-2.0.3.tar.gz]
+[2023-06-20 11:18:36] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-2.0.4.tar.gz]
+[2023-06-20 11:18:36] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-06-20 11:18:37] INFO root fetch - processPackages [webbits]: Remove: archive file [/home/abi/fetcher/tmp/webbits-0.1.0.tar.gz]
+[2023-06-20 11:18:37] INFO root fetch - processPackages [webbits]: Remove: archive file [/home/abi/fetcher/tmp/webbits-0.1.1.tar.gz]
+[2023-06-20 11:18:37] INFO root fetch - main [MainThread]: End processing [webbits]: success
+[2023-06-20 11:18:37] INFO root fetch - processPackages [nonebot-plugin-grouplock]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-grouplock-0.0.2.tar.gz]
+[2023-06-20 11:18:37] INFO root fetch - processPackages [nonebot-plugin-grouplock]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-grouplock-0.0.3.tar.gz]
+[2023-06-20 11:18:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-grouplock]: success
+[2023-06-20 11:18:37] INFO root fetch - processPackages [ens-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ens_sdk-0.0.4.tar.gz]
+[2023-06-20 11:18:37] INFO root fetch - processPackages [ens-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ens_sdk-0.0.5.tar.gz]
+[2023-06-20 11:18:37] INFO root fetch - main [MainThread]: End processing [ens-sdk]: success
+[2023-06-20 11:18:40] INFO root fetch - processPackages [h5py]: Remove: archive file [/home/abi/fetcher/tmp/h5py-3.7.0.tar.gz]
+[2023-06-20 11:18:40] INFO root fetch - processPackages [h5py]: Remove: archive file [/home/abi/fetcher/tmp/h5py-3.8.0.tar.gz]
+[2023-06-20 11:18:40] INFO root fetch - main [MainThread]: End processing [h5py]: success
+[2023-06-20 11:18:45] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2023-06-20 11:18:45] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2023-06-20 11:18:45] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-06-20 11:18:45] INFO root fetch - main [MainThread]: Store serial: [18572457]
