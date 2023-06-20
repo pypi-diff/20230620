@@ -14560,3 +14560,103 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 09:38:44] INFO root fetch - processPackages [zenoml]: Remove: archive file [/home/abi/fetcher/tmp/zenoml-0.6.2.tar.gz]
 [2023-06-20 09:38:44] INFO root fetch - main [MainThread]: End processing [zenoml]: success
 [2023-06-20 09:38:44] INFO root fetch - main [MainThread]: Store serial: [18571349]
+[2023-06-20 09:43:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18571349]
+[2023-06-20 09:43:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-20 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: app-ocr
+[2023-06-20 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: humlab-penelope
+[2023-06-20 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prometheus-summary
+[2023-06-20 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygwalker
+[2023-06-20 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arranges
+[2023-06-20 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-unacceptable-events
+[2023-06-20 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdf-docx-pic
+[2023-06-20 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: target-s3-delta
+[2023-06-20 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: target-s3-delta
+[2023-06-20 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vision-datasets
+[2023-06-20 09:43:54] INFO root fetch - processPackages [app-ocr]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-20 09:43:54] INFO root fetch - processPackages [prometheus-summary]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-20 09:43:54] INFO root fetch - processPackages [target-s3-delta]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-20 09:43:54] INFO root fetch - processPackages [target-s3-delta]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-20 09:43:54] INFO root fetch - processPackages [netbox-unacceptable-events]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-20 09:43:54] INFO root fetch - processPackages [arranges]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-20 09:43:54] INFO root fetch - processPackages [pygwalker]: New version: [0.1.9.1] Old Version: [0.1.9]
+[2023-06-20 09:43:54] INFO root fetch - processPackages [vision-datasets]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-20 09:43:54] INFO root fetch - processPackages [humlab-penelope]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-20 09:43:54] INFO root fetch - processPackages [pdf-docx-pic]: New version: [4.0.0.0.0.1.2023.6.20.2] Old Version: [4.0.0.0.0.1.2023.6.20.1]
+[2023-06-20 09:43:54] INFO root fetch - processPackages [arranges]: Downloading https://files.pythonhosted.org/packages/31/f0/df5b2ea5c4499fd889521139b6f0bba40c07104f5f653f5bf495e05da741/arranges-0.0.4.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [humlab-penelope]: Downloading https://files.pythonhosted.org/packages/d8/ca/dedea523957beaa5dab86604ac3a1877a34c4a4036306f5610f37f3eeb10/humlab-penelope-0.7.8.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/d8/f8/084eff374fdec99f3441bce2c2fd4569bd2897cb612daf4e172dd69b916e/pdf_docx_pic-4.0.0.0.0.1.2023.6.20.1.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [app-ocr]: Downloading https://files.pythonhosted.org/packages/91/ba/f033eb3b1ca06971c843942543d20b8b01ba8eded5d5c7296c819724dc72/app_ocr-0.0.1.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [prometheus-summary]: Downloading https://files.pythonhosted.org/packages/94/c5/0d833771cfa97c7b7ae4bf20eeff87fbea058a3892d6b4883407ec90c8b2/prometheus-summary-0.1.1.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/02/d3/e3a44bbbfa566e4e7e7d7c06c785f601e5ac817a3aa567ffd2ea16998a9e/target_s3_delta-0.0.2.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/02/d3/e3a44bbbfa566e4e7e7d7c06c785f601e5ac817a3aa567ffd2ea16998a9e/target_s3_delta-0.0.2.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [netbox-unacceptable-events]: Downloading https://files.pythonhosted.org/packages/a8/ac/9c21bb51eb9ec7595b6d34b94ca55e5035b96889e3f6d61dcbeedc315dec/netbox-unacceptable-events-0.1.4.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/81/21/bc06b8f3dbf8d5b9017591b5349506e228c0fb9664575af86d418282bbe4/pygwalker-0.1.9.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [vision-datasets]: Downloading https://files.pythonhosted.org/packages/cf/59/93f150f8c678390e29176da116b34a9e68aeb315e13b2568b3c7aff73011/vision_datasets-0.2.8.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [arranges]: Downloading https://files.pythonhosted.org/packages/01/57/005521b78295d2ecd72dcbfdf69dd1e92cb1ee1d366e5ac80abc52c42187/arranges-0.0.5.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [humlab-penelope]: Downloading https://files.pythonhosted.org/packages/cd/64/b400304bb580cd93a392737813c0281428d325fb97fce6726ec5b53a4fd3/humlab-penelope-0.7.9.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/a7/f4/ee1e2a7c426bffe18a294adf141a7af95f79d97ce426bd86ca52d818d049/pdf_docx_pic-4.0.0.0.0.1.2023.6.20.2.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [arranges]: executing diffoscope
+[2023-06-20 09:43:54] INFO root fetch - processPackages [arranges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arranges-0.0.4.tar.gz tmp/arranges-0.0.5.tar.gz --markdown 20230620/a/arranges/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-20 09:43:54] INFO root fetch - processPackages [app-ocr]: Downloading https://files.pythonhosted.org/packages/e8/7d/3b7d104f4b8e91bb6be56836a04162a0fe3e6b3954534b99e73a0f206605/app_ocr-0.0.2.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [pdf-docx-pic]: executing diffoscope
+[2023-06-20 09:43:54] INFO root fetch - processPackages [pdf-docx-pic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf_docx_pic-4.0.0.0.0.1.2023.6.20.1.tar.gz tmp/pdf_docx_pic-4.0.0.0.0.1.2023.6.20.2.tar.gz --markdown 20230620/p/pdf-docx-pic/4.0.0.0.0.1.2023.6.20.1-4.0.0.0.0.1.2023.6.20.2/diff.md --exclude *.pyd
+[2023-06-20 09:43:54] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/c8/6e/7ddf797498d1da26807c75ddc802882d8b8bfac651fb924fe3787195e2f4/target_s3_delta-0.0.3.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/c8/6e/7ddf797498d1da26807c75ddc802882d8b8bfac651fb924fe3787195e2f4/target_s3_delta-0.0.3.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [prometheus-summary]: Downloading https://files.pythonhosted.org/packages/f9/09/8536ece445fec09a7d3b15aba11cd9a4b6f88b6a38b7185724a0c4a58fc3/prometheus-summary-0.1.2.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [netbox-unacceptable-events]: Downloading https://files.pythonhosted.org/packages/ed/4e/9727e84df6293c8b34eb911c27d8dd84490dc62dbbf3e600afa079cbd720/netbox-unacceptable-events-0.1.5.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [target-s3-delta]: executing diffoscope
+[2023-06-20 09:43:54] INFO root fetch - processPackages [target-s3-delta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_s3_delta-0.0.2.tar.gz tmp/target_s3_delta-0.0.3.tar.gz --markdown 20230620/t/target-s3-delta/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-20 09:43:54] INFO root fetch - processPackages [target-s3-delta]: executing diffoscope
+[2023-06-20 09:43:54] INFO root fetch - processPackages [target-s3-delta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_s3_delta-0.0.2.tar.gz tmp/target_s3_delta-0.0.3.tar.gz --markdown 20230620/t/target-s3-delta/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-20 09:43:54] INFO root fetch - processPackages [netbox-unacceptable-events]: executing diffoscope
+[2023-06-20 09:43:54] INFO root fetch - processPackages [netbox-unacceptable-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-unacceptable-events-0.1.4.tar.gz tmp/netbox-unacceptable-events-0.1.5.tar.gz --markdown 20230620/n/netbox-unacceptable-events/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-20 09:43:54] INFO root fetch - processPackages [humlab-penelope]: executing diffoscope
+[2023-06-20 09:43:54] INFO root fetch - processPackages [humlab-penelope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humlab-penelope-0.7.8.tar.gz tmp/humlab-penelope-0.7.9.tar.gz --markdown 20230620/h/humlab-penelope/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-20 09:43:54] INFO root fetch - processPackages [prometheus-summary]: executing diffoscope
+[2023-06-20 09:43:54] INFO root fetch - processPackages [vision-datasets]: Downloading https://files.pythonhosted.org/packages/b3/ae/c5c5ac2d9bb2baff02b3feb3edf3240d498dc61566b6e99ad1e5dea6fc3d/vision_datasets-0.2.9.tar.gz
+[2023-06-20 09:43:54] INFO root fetch - processPackages [prometheus-summary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus-summary-0.1.1.tar.gz tmp/prometheus-summary-0.1.2.tar.gz --markdown 20230620/p/prometheus-summary/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-20 09:43:54] INFO root fetch - processPackages [app-ocr]: executing diffoscope
+[2023-06-20 09:43:54] INFO root fetch - processPackages [app-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app_ocr-0.0.1.tar.gz tmp/app_ocr-0.0.2.tar.gz --markdown 20230620/a/app-ocr/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-20 09:43:55] INFO root fetch - processPackages [vision-datasets]: executing diffoscope
+[2023-06-20 09:43:55] INFO root fetch - processPackages [vision-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_datasets-0.2.8.tar.gz tmp/vision_datasets-0.2.9.tar.gz --markdown 20230620/v/vision-datasets/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-20 09:43:55] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/31/8c/e8da2569902cccf2ec59dca0a2c1d8f83b94c75fdcbe705dd7903deb25e3/pygwalker-0.1.9.1.tar.gz
+[2023-06-20 09:43:55] INFO root fetch - processPackages [pygwalker]: executing diffoscope
+[2023-06-20 09:43:55] INFO root fetch - processPackages [pygwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwalker-0.1.9.tar.gz tmp/pygwalker-0.1.9.1.tar.gz --markdown 20230620/p/pygwalker/0.1.9-0.1.9.1/diff.md --exclude *.pyd
+[2023-06-20 09:43:56] INFO root fetch - processPackages [arranges]: Remove: archive file [/home/abi/fetcher/tmp/arranges-0.0.4.tar.gz]
+[2023-06-20 09:43:56] INFO root fetch - processPackages [arranges]: Remove: archive file [/home/abi/fetcher/tmp/arranges-0.0.5.tar.gz]
+[2023-06-20 09:43:56] INFO root fetch - processPackages [arranges]: Start processing: ansys-grantami-recordlists
+[2023-06-20 09:43:56] INFO root fetch - main [MainThread]: End processing [arranges]: success
+[2023-06-20 09:43:56] INFO root fetch - processPackages [ansys-grantami-recordlists]: New version: [1.0.0.post0] Old Version: [1.0.0]
+[2023-06-20 09:43:56] INFO root fetch - processPackages [ansys-grantami-recordlists]: Downloading https://files.pythonhosted.org/packages/85/b7/a4790ce3f5f851d3480935b60c6458a8f263dbd70633fb109418be4e47ae/ansys_grantami_recordlists-1.0.0.tar.gz
+[2023-06-20 09:43:56] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf_docx_pic-4.0.0.0.0.1.2023.6.20.1.tar.gz]
+[2023-06-20 09:43:56] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf_docx_pic-4.0.0.0.0.1.2023.6.20.2.tar.gz]
+[2023-06-20 09:43:56] INFO root fetch - main [MainThread]: End processing [pdf-docx-pic]: success
+[2023-06-20 09:43:56] INFO root fetch - processPackages [ansys-grantami-recordlists]: Downloading https://files.pythonhosted.org/packages/62/dd/39edd783266c312c568473183ddbb3af2d14a7474c5097b9e0bf384cf045/ansys_grantami_recordlists-1.0.0.post0.tar.gz
+[2023-06-20 09:43:56] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.2.tar.gz]
+[2023-06-20 09:43:56] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.3.tar.gz]
+[2023-06-20 09:43:56] INFO root fetch - main [MainThread]: End processing [target-s3-delta]: success
+[2023-06-20 09:43:56] INFO root fetch - main [MainThread]: End processing [target-s3-delta]: success
+[2023-06-20 09:43:56] INFO root fetch - processPackages [ansys-grantami-recordlists]: executing diffoscope
+[2023-06-20 09:43:56] INFO root fetch - processPackages [ansys-grantami-recordlists]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_grantami_recordlists-1.0.0.tar.gz tmp/ansys_grantami_recordlists-1.0.0.post0.tar.gz --markdown 20230620/a/ansys-grantami-recordlists/1.0.0-1.0.0.post0/diff.md --exclude *.pyd
+[2023-06-20 09:43:56] INFO root fetch - processPackages [netbox-unacceptable-events]: Remove: archive file [/home/abi/fetcher/tmp/netbox-unacceptable-events-0.1.4.tar.gz]
+[2023-06-20 09:43:56] INFO root fetch - processPackages [netbox-unacceptable-events]: Remove: archive file [/home/abi/fetcher/tmp/netbox-unacceptable-events-0.1.5.tar.gz]
+[2023-06-20 09:43:56] INFO root fetch - main [MainThread]: End processing [netbox-unacceptable-events]: success
+[2023-06-20 09:43:56] INFO root fetch - processPackages [prometheus-summary]: Remove: archive file [/home/abi/fetcher/tmp/prometheus-summary-0.1.1.tar.gz]
+[2023-06-20 09:43:56] INFO root fetch - processPackages [prometheus-summary]: Remove: archive file [/home/abi/fetcher/tmp/prometheus-summary-0.1.2.tar.gz]
+[2023-06-20 09:43:56] INFO root fetch - main [MainThread]: End processing [prometheus-summary]: success
+[2023-06-20 09:43:56] INFO root fetch - processPackages [vision-datasets]: Remove: archive file [/home/abi/fetcher/tmp/vision_datasets-0.2.8.tar.gz]
+[2023-06-20 09:43:56] INFO root fetch - processPackages [vision-datasets]: Remove: archive file [/home/abi/fetcher/tmp/vision_datasets-0.2.9.tar.gz]
+[2023-06-20 09:43:56] INFO root fetch - main [MainThread]: End processing [vision-datasets]: success
+[2023-06-20 09:43:57] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.1.9.tar.gz]
+[2023-06-20 09:43:57] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.1.9.1.tar.gz]
+[2023-06-20 09:43:57] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
+[2023-06-20 09:43:57] INFO root fetch - processPackages [ansys-grantami-recordlists]: Remove: archive file [/home/abi/fetcher/tmp/ansys_grantami_recordlists-1.0.0.tar.gz]
+[2023-06-20 09:43:57] INFO root fetch - processPackages [ansys-grantami-recordlists]: Remove: archive file [/home/abi/fetcher/tmp/ansys_grantami_recordlists-1.0.0.post0.tar.gz]
+[2023-06-20 09:43:57] INFO root fetch - main [MainThread]: End processing [ansys-grantami-recordlists]: success
+[2023-06-20 09:43:57] INFO root fetch - processPackages [app-ocr]: Remove: archive file [/home/abi/fetcher/tmp/app_ocr-0.0.1.tar.gz]
+[2023-06-20 09:43:57] INFO root fetch - processPackages [app-ocr]: Remove: archive file [/home/abi/fetcher/tmp/app_ocr-0.0.2.tar.gz]
+[2023-06-20 09:43:57] INFO root fetch - main [MainThread]: End processing [app-ocr]: success
+[2023-06-20 09:44:00] INFO root fetch - processPackages [humlab-penelope]: Remove: archive file [/home/abi/fetcher/tmp/humlab-penelope-0.7.8.tar.gz]
+[2023-06-20 09:44:00] INFO root fetch - processPackages [humlab-penelope]: Remove: archive file [/home/abi/fetcher/tmp/humlab-penelope-0.7.9.tar.gz]
+[2023-06-20 09:44:00] INFO root fetch - main [MainThread]: End processing [humlab-penelope]: success
+[2023-06-20 09:44:00] INFO root fetch - main [MainThread]: Store serial: [18571385]
