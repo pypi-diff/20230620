@@ -20203,3 +20203,80 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 13:02:47] INFO root fetch - processPackages [martin-binance]: Remove: archive file [/home/abi/fetcher/tmp/martin-binance-1.3.0b23.tar.gz]
 [2023-06-20 13:02:47] INFO root fetch - main [MainThread]: End processing [martin-binance]: success
 [2023-06-20 13:02:47] INFO root fetch - main [MainThread]: Store serial: [18573494]
+[2023-06-20 13:07:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18573494]
+[2023-06-20 13:07:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-20 13:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xformers
+[2023-06-20 13:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-standalone-docs
+[2023-06-20 13:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: example-haskell-wheel
+[2023-06-20 13:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-06-20 13:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metldata
+[2023-06-20 13:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyttm
+[2023-06-20 13:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: app-ocr
+[2023-06-20 13:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: power-user-tools
+[2023-06-20 13:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geopyv
+[2023-06-20 13:07:56] INFO root fetch - processPackages [example-haskell-wheel]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-20 13:07:56] INFO root fetch - processPackages [app-ocr]: New version: [1.2.12] Old Version: [1.2.11]
+[2023-06-20 13:07:56] WARNING root fetch - processPackages [pyttm]: Skipping, unable to determine old version
+[2023-06-20 13:07:56] INFO root fetch - processPackages [fastapi-standalone-docs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-20 13:07:56] INFO root fetch - main [MainThread]: End processing [pyttm] error
+[2023-06-20 13:07:56] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-20 13:07:56] INFO root fetch - processPackages [xformers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 13:07:56] INFO root fetch - processPackages [geopyv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 13:07:56] INFO root fetch - processPackages [example-haskell-wheel]: Downloading https://files.pythonhosted.org/packages/a4/8b/824742a0f25ad08d2fbcf5b7f0bc256df2a9a647ce4a2101e49d8fb68e19/example_haskell_wheel-1.1.0-cp39-cp39-win_amd64.whl
+[2023-06-20 13:07:56] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-06-20 13:07:56] INFO root fetch - processPackages [fastapi-standalone-docs]: Downloading https://files.pythonhosted.org/packages/1e/1e/6711cbed5efe4678c2a509841c779609443c62836321d39a8e6c1a5d9762/fastapi_standalone_docs-0.1.0.tar.gz
+[2023-06-20 13:07:56] INFO root fetch - processPackages [metldata]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-20 13:07:56] INFO root fetch - processPackages [app-ocr]: Downloading https://files.pythonhosted.org/packages/fd/b4/06e7dd9d67e00c1fc454239e41625c021c51f6469c263a2a2356d3ead2fb/app_ocr-1.2.11.tar.gz
+[2023-06-20 13:07:56] INFO root fetch - processPackages [power-user-tools]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-20 13:07:57] INFO root fetch - processPackages [app-ocr]: executing diffoscope
+[2023-06-20 13:07:57] INFO root fetch - processPackages [app-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app_ocr-1.2.11.tar.gz tmp/app_ocr-1.2.12.tar.gz --markdown 20230620/a/app-ocr/1.2.11-1.2.12/diff.md --exclude *.pyd
+[2023-06-20 13:07:57] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/81/d6/709a1f765f8ecb6217ecd010e71f23c871a6cacdf837e1186c057eb0372f/xformers-0.0.8.tar.gz
+[2023-06-20 13:07:57] INFO root fetch - processPackages [geopyv]: Downloading https://files.pythonhosted.org/packages/59/cd/5c2cb6799fbf4df8b4ca611d25994ac3d2b2ef9ce0eb5cb7fe5555b1f774/geopyv-0.0.8.tar.gz
+[2023-06-20 13:07:57] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-06-20 13:07:57] INFO root fetch - processPackages [metldata]: Downloading https://files.pythonhosted.org/packages/2b/f0/bb381ff55c88f8823bdd91851f7c0cd48c16c7ee3a96fc28b974a4ad9863/metldata-0.3.0.tar.gz
+[2023-06-20 13:07:57] INFO root fetch - processPackages [fastapi-standalone-docs]: Downloading https://files.pythonhosted.org/packages/95/39/0117f5898f8bdef4747e069c7eb2e50c66ece9b2b142a3fcf24f45f3a933/fastapi_standalone_docs-0.1.1.tar.gz
+[2023-06-20 13:07:57] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-06-20 13:07:57] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230620/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 13:07:57] INFO root fetch - processPackages [power-user-tools]: Downloading https://files.pythonhosted.org/packages/e8/a0/0f0ba266c994dfa878dad5bab02b5dc3f06081ec359a4f2d0e44cc4710c3/power-user-tools-0.1.1.tar.gz
+[2023-06-20 13:07:57] INFO root fetch - processPackages [example-haskell-wheel]: Downloading https://files.pythonhosted.org/packages/b2/61/76a61b973d6f32faca8c4184c517f643439712e883662e84ae07ba94eca6/example_haskell_wheel-1.2.0-cp39-cp39-win_amd64.whl
+[2023-06-20 13:07:57] INFO root fetch - processPackages [fastapi-standalone-docs]: executing diffoscope
+[2023-06-20 13:07:57] INFO root fetch - processPackages [fastapi-standalone-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_standalone_docs-0.1.0.tar.gz tmp/fastapi_standalone_docs-0.1.1.tar.gz --markdown 20230620/f/fastapi-standalone-docs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-20 13:07:57] INFO root fetch - processPackages [geopyv]: Downloading https://files.pythonhosted.org/packages/76/fd/888bc0b2bd9d5003b90a509494f1d527befc7101dc39ed5d07d6f7ba03d0/geopyv-0.0.9.tar.gz
+[2023-06-20 13:07:57] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/8f/c2/9cfed3bb83e46be252b4a2e9a75ebb4c8a0f9df6cbb228b3646048a7d3c4/xformers-0.0.9.tar.gz
+[2023-06-20 13:07:57] INFO root fetch - processPackages [geopyv]: executing diffoscope
+[2023-06-20 13:07:57] INFO root fetch - processPackages [geopyv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopyv-0.0.8.tar.gz tmp/geopyv-0.0.9.tar.gz --markdown 20230620/g/geopyv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 13:07:57] INFO root fetch - processPackages [xformers]: executing diffoscope
+[2023-06-20 13:07:57] INFO root fetch - processPackages [xformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xformers-0.0.8.tar.gz tmp/xformers-0.0.9.tar.gz --markdown 20230620/x/xformers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 13:07:57] INFO root fetch - processPackages [power-user-tools]: Downloading https://files.pythonhosted.org/packages/27/77/a81a342144c8565b8790ee9c30505874c24f1a5dc2882b5b982a8d14e372/power-user-tools-0.1.3.tar.gz
+[2023-06-20 13:07:57] INFO root fetch - processPackages [metldata]: Downloading https://files.pythonhosted.org/packages/2d/5d/d1622bb38d1d3c908d3f12b74af5fba59c9ec5eabfe94956593f3684a3ce/metldata-0.3.1.tar.gz
+[2023-06-20 13:07:57] INFO root fetch - processPackages [example-haskell-wheel]: executing diffoscope
+[2023-06-20 13:07:57] INFO root fetch - processPackages [example-haskell-wheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example_haskell_wheel-1.1.0-cp39-cp39-win_amd64.whl.zip tmp/example_haskell_wheel-1.2.0-cp39-cp39-win_amd64.whl.zip --markdown 20230620/e/example-haskell-wheel/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-20 13:07:57] INFO root fetch - processPackages [power-user-tools]: executing diffoscope
+[2023-06-20 13:07:57] INFO root fetch - processPackages [power-user-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-user-tools-0.1.1.tar.gz tmp/power-user-tools-0.1.3.tar.gz --markdown 20230620/p/power-user-tools/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-20 13:07:57] INFO root fetch - processPackages [metldata]: executing diffoscope
+[2023-06-20 13:07:57] INFO root fetch - processPackages [metldata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metldata-0.3.0.tar.gz tmp/metldata-0.3.1.tar.gz --markdown 20230620/m/metldata/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-20 13:07:58] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-06-20 13:07:58] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-06-20 13:07:58] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-06-20 13:07:58] INFO root fetch - processPackages [fastapi-standalone-docs]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_standalone_docs-0.1.0.tar.gz]
+[2023-06-20 13:07:58] INFO root fetch - processPackages [fastapi-standalone-docs]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_standalone_docs-0.1.1.tar.gz]
+[2023-06-20 13:07:58] INFO root fetch - main [MainThread]: End processing [fastapi-standalone-docs]: success
+[2023-06-20 13:07:58] INFO root fetch - processPackages [example-haskell-wheel]: Remove: archive file [/home/abi/fetcher/tmp/example_haskell_wheel-1.1.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-20 13:07:58] INFO root fetch - processPackages [example-haskell-wheel]: Remove: archive file [/home/abi/fetcher/tmp/example_haskell_wheel-1.2.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-20 13:07:58] INFO root fetch - main [MainThread]: End processing [example-haskell-wheel]: success
+[2023-06-20 13:07:58] INFO root fetch - processPackages [app-ocr]: Remove: archive file [/home/abi/fetcher/tmp/app_ocr-1.2.11.tar.gz]
+[2023-06-20 13:07:58] INFO root fetch - processPackages [app-ocr]: Remove: archive file [/home/abi/fetcher/tmp/app_ocr-1.2.12.tar.gz]
+[2023-06-20 13:07:58] INFO root fetch - main [MainThread]: End processing [app-ocr]: success
+[2023-06-20 13:07:59] INFO root fetch - processPackages [power-user-tools]: Remove: archive file [/home/abi/fetcher/tmp/power-user-tools-0.1.1.tar.gz]
+[2023-06-20 13:07:59] INFO root fetch - processPackages [power-user-tools]: Remove: archive file [/home/abi/fetcher/tmp/power-user-tools-0.1.3.tar.gz]
+[2023-06-20 13:07:59] INFO root fetch - main [MainThread]: End processing [power-user-tools]: success
+[2023-06-20 13:07:59] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.8.tar.gz]
+[2023-06-20 13:07:59] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.9.tar.gz]
+[2023-06-20 13:07:59] INFO root fetch - main [MainThread]: End processing [xformers]: success
+[2023-06-20 13:08:00] INFO root fetch - processPackages [geopyv]: Remove: archive file [/home/abi/fetcher/tmp/geopyv-0.0.8.tar.gz]
+[2023-06-20 13:08:00] INFO root fetch - processPackages [geopyv]: Remove: archive file [/home/abi/fetcher/tmp/geopyv-0.0.9.tar.gz]
+[2023-06-20 13:08:00] INFO root fetch - main [MainThread]: End processing [geopyv]: success
+[2023-06-20 13:08:02] INFO root fetch - processPackages [metldata]: Remove: archive file [/home/abi/fetcher/tmp/metldata-0.3.0.tar.gz]
+[2023-06-20 13:08:02] INFO root fetch - processPackages [metldata]: Remove: archive file [/home/abi/fetcher/tmp/metldata-0.3.1.tar.gz]
+[2023-06-20 13:08:02] INFO root fetch - main [MainThread]: End processing [metldata]: success
+[2023-06-20 13:08:02] INFO root fetch - main [MainThread]: Store serial: [18573546]
