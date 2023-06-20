@@ -10581,3 +10581,133 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 05:23:06] INFO root fetch - processPackages [clown-sort]: Remove: archive file [/home/abi/fetcher/tmp/clown_sort-1.8.0.tar.gz]
 [2023-06-20 05:23:06] INFO root fetch - main [MainThread]: End processing [clown-sort]: success
 [2023-06-20 05:23:06] INFO root fetch - main [MainThread]: Store serial: [18569621]
+[2023-06-20 05:28:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18569621]
+[2023-06-20 05:28:15] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-20 05:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unigbsa
+[2023-06-20 05:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sourcery-nightly
+[2023-06-20 05:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-dytnsapi20230101-py2
+[2023-06-20 05:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mouseTrackGenerate
+[2023-06-20 05:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-dytnsapi20230101
+[2023-06-20 05:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tccli-intl-en
+[2023-06-20 05:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: konfuzio-sdk
+[2023-06-20 05:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: easymaker
+[2023-06-20 05:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gaohn-common-utils
+[2023-06-20 05:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: picogo
+[2023-06-20 05:28:15] INFO root fetch - processPackages [alibabacloud-dytnsapi20230101]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-20 05:28:15] INFO root fetch - processPackages [unigbsa]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-20 05:28:15] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.69] Old Version: [0.0.68]
+[2023-06-20 05:28:15] INFO root fetch - processPackages [alibabacloud-dytnsapi20230101-py2]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-20 05:28:15] INFO root fetch - processPackages [easymaker]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 05:28:15] INFO root fetch - processPackages [picogo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 05:28:15] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.3.1b9] Old Version: [1.3.1b8]
+[2023-06-20 05:28:15] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-06-20 05:28:15] INFO root fetch - processPackages [mouseTrackGenerate]: New version: [1.0.1] Old Version: [1.0]
+[2023-06-20 05:28:15] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-06-20 05:28:15] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/b2/c1/8a1a14a38cc3b653e2578c7bb8a2fce4469dc0426b552356b2bc6c4b6e8b/gaohn-common-utils-0.0.68.tar.gz
+[2023-06-20 05:28:15] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-06-20 05:28:15] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/e0/c6/77373684ea1f516996aac52ca016925d0213e38509750abc53603201b2ca/picogo-0.0.8.tar.gz
+[2023-06-20 05:28:15] INFO root fetch - processPackages [alibabacloud-dytnsapi20230101]: Downloading https://files.pythonhosted.org/packages/64/40/bfbe0e063fe4d7fd9d3e801ff7b7cc9304fea3c7ff8c7041a6398c48cb1f/alibabacloud_dytnsapi20230101-1.0.0.tar.gz
+[2023-06-20 05:28:15] INFO root fetch - processPackages [alibabacloud-dytnsapi20230101-py2]: Downloading https://files.pythonhosted.org/packages/41/45/89dd90413019119191ef600f5bf71081fb03f45598aa1936011f6f87a7ec/alibabacloud_dytnsapi20230101_py2-1.0.0.tar.gz
+[2023-06-20 05:28:15] INFO root fetch - processPackages [mouseTrackGenerate]: Downloading https://files.pythonhosted.org/packages/71/42/937a71d0081c8659e12be958ad95d6fb2e0c49dbb336de2662178aeefbe3/mouseTrackGenerate-1.0.tar.gz
+[2023-06-20 05:28:15] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/29/18/ad9b7cf71f4ed9e14c12d1e096d050d07b94bd4dfb90329e967254028ab4/sourcery_nightly-1.3.1b8-py2.py3-none-win_amd64.whl
+[2023-06-20 05:28:15] INFO root fetch - processPackages [easymaker]: Downloading https://files.pythonhosted.org/packages/98/e1/2ba6df9586cf47689b5175b2a09829447e5312d5dd38eed2c656ddcfa652/easymaker-1.0.8-py3-none-any.whl
+[2023-06-20 05:28:15] INFO root fetch - processPackages [unigbsa]: Downloading https://files.pythonhosted.org/packages/a3/5d/22b49759dde1b1118def377885e89b572d20e75d5908b4fe586d65f6a3ec/unigbsa-0.1.4.tar.gz
+[2023-06-20 05:28:15] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/8e/0e/15b62bee1afe22a0f2411879a5c23ffe6e8cdfc8228a677dc7ce8e6bcfef/picogo-0.0.9.tar.gz
+[2023-06-20 05:28:15] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/f1/30/41af4d3a9dae71d94a6518cc57186cc8cf5a5b38d29a6a50861712b42078/tccli-intl-en-3.0.98.1.tar.gz
+[2023-06-20 05:28:15] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/14/9b/9df213c762ab5ebf58a364fce9a93af100c69b2e673375dfe61a97ee0e21/gaohn-common-utils-0.0.69.tar.gz
+[2023-06-20 05:28:15] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-06-20 05:28:15] INFO root fetch - processPackages [picogo]: executing diffoscope
+[2023-06-20 05:28:15] INFO root fetch - processPackages [picogo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picogo-0.0.8.tar.gz tmp/picogo-0.0.9.tar.gz --markdown 20230620/p/picogo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:28:15] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-20 05:28:15] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.68.tar.gz tmp/gaohn-common-utils-0.0.69.tar.gz --markdown 20230620/g/gaohn-common-utils/0.0.68-0.0.69/diff.md --exclude *.pyd
+[2023-06-20 05:28:15] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 58876457>=10485760
+[2023-06-20 05:28:15] INFO root fetch - processPackages [sourcery-nightly]: Start processing: llamabot
+[2023-06-20 05:28:15] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-06-20 05:28:15] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-06-20 05:28:15] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230620/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-06-20 05:28:15] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 05:28:15] INFO root fetch - processPackages [alibabacloud-dytnsapi20230101-py2]: Downloading https://files.pythonhosted.org/packages/6d/c5/5902031b12ba297ef417baa12aa875ffb16db1067e1911e42bf0f960ff46/alibabacloud_dytnsapi20230101_py2-1.0.1.tar.gz
+[2023-06-20 05:28:15] ERROR root fetch - processPackages [mouseTrackGenerate]: Unable to fetch info: No such project/version 'mouseTrackGenerate' 1.0.1
+[2023-06-20 05:28:15] INFO root fetch - processPackages [mouseTrackGenerate]: Start processing: easy-spider-tool
+[2023-06-20 05:28:15] INFO root fetch - main [MainThread]: End processing [mouseTrackGenerate] error
+[2023-06-20 05:28:15] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-06-20 05:28:15] INFO root fetch - processPackages [easy-spider-tool]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-20 05:28:15] INFO root fetch - processPackages [alibabacloud-dytnsapi20230101]: Downloading https://files.pythonhosted.org/packages/3a/ee/071a196d71a0cf154a479f9d97ca7ee94651fd71d6023746535dbb68be24/alibabacloud_dytnsapi20230101-1.0.1.tar.gz
+[2023-06-20 05:28:15] INFO root fetch - processPackages [alibabacloud-dytnsapi20230101-py2]: executing diffoscope
+[2023-06-20 05:28:15] INFO root fetch - processPackages [alibabacloud-dytnsapi20230101-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dytnsapi20230101_py2-1.0.0.tar.gz tmp/alibabacloud_dytnsapi20230101_py2-1.0.1.tar.gz --markdown 20230620/a/alibabacloud-dytnsapi20230101-py2/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-20 05:28:15] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-06-20 05:28:15] INFO root fetch - processPackages [unigbsa]: Downloading https://files.pythonhosted.org/packages/6a/5b/bbaf72a6067f4e6ebd4dac6cb84ffe12373baff345081079bb78f65f9fae/unigbsa-0.1.5.tar.gz
+[2023-06-20 05:28:15] INFO root fetch - processPackages [easymaker]: Downloading https://files.pythonhosted.org/packages/0b/57/43b3478a8184079a46ab3ee4d683b9500b28c36a9cc3a37c6fce08a27f52/easymaker-1.0.9-py3-none-any.whl
+[2023-06-20 05:28:15] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-06-20 05:28:15] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230620/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:28:15] INFO root fetch - processPackages [alibabacloud-dytnsapi20230101]: executing diffoscope
+[2023-06-20 05:28:15] INFO root fetch - processPackages [alibabacloud-dytnsapi20230101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dytnsapi20230101-1.0.0.tar.gz tmp/alibabacloud_dytnsapi20230101-1.0.1.tar.gz --markdown 20230620/a/alibabacloud-dytnsapi20230101/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-20 05:28:15] INFO root fetch - processPackages [easy-spider-tool]: Downloading https://files.pythonhosted.org/packages/84/1e/081e3bdf278b6ee8987723062e001c2addbd1a2e87b572803ee29a44dfa9/easy_spider_tool-0.0.3.tar.gz
+[2023-06-20 05:28:15] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/08/e0/99b129dd2c25cb88719c0b1692fbc03b299057b179a6c33831623b44d96b/tccli-intl-en-3.0.99.1.tar.gz
+[2023-06-20 05:28:15] INFO root fetch - processPackages [unigbsa]: executing diffoscope
+[2023-06-20 05:28:15] INFO root fetch - processPackages [unigbsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigbsa-0.1.4.tar.gz tmp/unigbsa-0.1.5.tar.gz --markdown 20230620/u/unigbsa/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-20 05:28:15] INFO root fetch - processPackages [easymaker]: executing diffoscope
+[2023-06-20 05:28:15] INFO root fetch - processPackages [easymaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easymaker-1.0.8-py3-none-any.whl.zip tmp/easymaker-1.0.9-py3-none-any.whl.zip --markdown 20230620/e/easymaker/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:28:16] INFO root fetch - processPackages [easy-spider-tool]: Downloading https://files.pythonhosted.org/packages/71/0f/2dc79205ad19ec0359c2b3d2326909e8aff9e79bebd4dee19ca945089127/easy_spider_tool-0.0.4.tar.gz
+[2023-06-20 05:28:16] INFO root fetch - processPackages [easy-spider-tool]: executing diffoscope
+[2023-06-20 05:28:16] INFO root fetch - processPackages [easy-spider-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_spider_tool-0.0.3.tar.gz tmp/easy_spider_tool-0.0.4.tar.gz --markdown 20230620/e/easy-spider-tool/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-20 05:28:16] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-06-20 05:28:16] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230620/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-06-20 05:28:17] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.8.tar.gz]
+[2023-06-20 05:28:17] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.9.tar.gz]
+[2023-06-20 05:28:17] INFO root fetch - processPackages [picogo]: Start processing: metlo-python-agent-bindings-common
+[2023-06-20 05:28:17] INFO root fetch - main [MainThread]: End processing [picogo]: success
+[2023-06-20 05:28:17] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.68.tar.gz]
+[2023-06-20 05:28:17] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.69.tar.gz]
+[2023-06-20 05:28:17] INFO root fetch - processPackages [gaohn-common-utils]: Start processing: dramatiq-kafka
+[2023-06-20 05:28:17] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-20 05:28:17] INFO root fetch - processPackages [metlo-python-agent-bindings-common]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-20 05:28:17] INFO root fetch - processPackages [dramatiq-kafka]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-20 05:28:17] INFO root fetch - processPackages [dramatiq-kafka]: Downloading https://files.pythonhosted.org/packages/b3/f6/15a20dfccdfe72695b25f74a4d31ec6ac2fc0bdd94b2298b352a2bdce8e0/dramatiq_kafka-0.1.5.tar.gz
+[2023-06-20 05:28:17] INFO root fetch - processPackages [alibabacloud-dytnsapi20230101-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dytnsapi20230101_py2-1.0.0.tar.gz]
+[2023-06-20 05:28:17] INFO root fetch - processPackages [alibabacloud-dytnsapi20230101-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dytnsapi20230101_py2-1.0.1.tar.gz]
+[2023-06-20 05:28:17] INFO root fetch - processPackages [alibabacloud-dytnsapi20230101-py2]: Start processing: promptrix
+[2023-06-20 05:28:17] INFO root fetch - main [MainThread]: End processing [alibabacloud-dytnsapi20230101-py2]: success
+[2023-06-20 05:28:17] INFO root fetch - processPackages [metlo-python-agent-bindings-common]: Downloading https://files.pythonhosted.org/packages/e2/3e/a9ac0a8aa8ed9525bd0fa271e1f4a26bb292cac38c32ac6d9911e6f2774f/metlo_python_agent_bindings_common-0.0.1-cp37-none-win_amd64.whl
+[2023-06-20 05:28:17] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-06-20 05:28:17] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-06-20 05:28:17] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-06-20 05:28:17] INFO root fetch - processPackages [promptrix]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-20 05:28:17] INFO root fetch - processPackages [dramatiq-kafka]: Downloading https://files.pythonhosted.org/packages/00/28/8f4b08c33da4c7d10944311edf315d62457877a6e56ca1974e2d7db59590/dramatiq_kafka-0.1.6.tar.gz
+[2023-06-20 05:28:17] INFO root fetch - processPackages [alibabacloud-dytnsapi20230101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dytnsapi20230101-1.0.0.tar.gz]
+[2023-06-20 05:28:17] INFO root fetch - processPackages [alibabacloud-dytnsapi20230101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dytnsapi20230101-1.0.1.tar.gz]
+[2023-06-20 05:28:17] INFO root fetch - main [MainThread]: End processing [alibabacloud-dytnsapi20230101]: success
+[2023-06-20 05:28:17] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-06-20 05:28:17] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-06-20 05:28:17] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-06-20 05:28:17] INFO root fetch - processPackages [dramatiq-kafka]: executing diffoscope
+[2023-06-20 05:28:17] INFO root fetch - processPackages [dramatiq-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dramatiq_kafka-0.1.5.tar.gz tmp/dramatiq_kafka-0.1.6.tar.gz --markdown 20230620/d/dramatiq-kafka/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-20 05:28:17] INFO root fetch - processPackages [easymaker]: Remove: archive file [/home/abi/fetcher/tmp/easymaker-1.0.8-py3-none-any.whl.zip]
+[2023-06-20 05:28:17] INFO root fetch - processPackages [easymaker]: Remove: archive file [/home/abi/fetcher/tmp/easymaker-1.0.9-py3-none-any.whl.zip]
+[2023-06-20 05:28:17] INFO root fetch - main [MainThread]: End processing [easymaker]: success
+[2023-06-20 05:28:17] INFO root fetch - processPackages [promptrix]: Downloading https://files.pythonhosted.org/packages/0e/93/1826a30bf43ef5ded4b03fd40f9903ddc5541b3ef462a79a7051b5dd01ae/promptrix-0.2.5.tar.gz
+[2023-06-20 05:28:17] INFO root fetch - processPackages [metlo-python-agent-bindings-common]: Downloading https://files.pythonhosted.org/packages/ca/71/07dcabb81e394ad05944c2c035a900f316bc717ed625a2f8eeb76674fba7/metlo_python_agent_bindings_common-0.0.2-cp37-abi3-macosx_11_0_arm64.whl
+[2023-06-20 05:28:17] INFO root fetch - processPackages [unigbsa]: Remove: archive file [/home/abi/fetcher/tmp/unigbsa-0.1.4.tar.gz]
+[2023-06-20 05:28:17] INFO root fetch - processPackages [unigbsa]: Remove: archive file [/home/abi/fetcher/tmp/unigbsa-0.1.5.tar.gz]
+[2023-06-20 05:28:17] INFO root fetch - main [MainThread]: End processing [unigbsa]: success
+[2023-06-20 05:28:17] INFO root fetch - processPackages [easy-spider-tool]: Remove: archive file [/home/abi/fetcher/tmp/easy_spider_tool-0.0.3.tar.gz]
+[2023-06-20 05:28:17] INFO root fetch - processPackages [easy-spider-tool]: Remove: archive file [/home/abi/fetcher/tmp/easy_spider_tool-0.0.4.tar.gz]
+[2023-06-20 05:28:17] INFO root fetch - main [MainThread]: End processing [easy-spider-tool]: success
+[2023-06-20 05:28:18] INFO root fetch - processPackages [promptrix]: Downloading https://files.pythonhosted.org/packages/72/c8/698fc878a363cf0d88e0b5fb6fa002076b988c48e2cbbd72a617f03bfed2/promptrix-0.2.6.tar.gz
+[2023-06-20 05:28:18] INFO root fetch - processPackages [promptrix]: executing diffoscope
+[2023-06-20 05:28:18] INFO root fetch - processPackages [promptrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptrix-0.2.5.tar.gz tmp/promptrix-0.2.6.tar.gz --markdown 20230620/p/promptrix/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-20 05:28:18] INFO root fetch - processPackages [dramatiq-kafka]: Remove: archive file [/home/abi/fetcher/tmp/dramatiq_kafka-0.1.5.tar.gz]
+[2023-06-20 05:28:18] INFO root fetch - processPackages [dramatiq-kafka]: Remove: archive file [/home/abi/fetcher/tmp/dramatiq_kafka-0.1.6.tar.gz]
+[2023-06-20 05:28:18] INFO root fetch - main [MainThread]: End processing [dramatiq-kafka]: success
+[2023-06-20 05:28:18] INFO root fetch - processPackages [metlo-python-agent-bindings-common]: executing diffoscope
+[2023-06-20 05:28:18] INFO root fetch - processPackages [metlo-python-agent-bindings-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metlo_python_agent_bindings_common-0.0.1-cp37-none-win_amd64.whl.zip tmp/metlo_python_agent_bindings_common-0.0.2-cp37-abi3-macosx_11_0_arm64.whl.zip --markdown 20230620/m/metlo-python-agent-bindings-common/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-20 05:28:19] INFO root fetch - processPackages [promptrix]: Remove: archive file [/home/abi/fetcher/tmp/promptrix-0.2.5.tar.gz]
+[2023-06-20 05:28:19] INFO root fetch - processPackages [promptrix]: Remove: archive file [/home/abi/fetcher/tmp/promptrix-0.2.6.tar.gz]
+[2023-06-20 05:28:19] INFO root fetch - main [MainThread]: End processing [promptrix]: success
+[2023-06-20 05:28:19] INFO root fetch - processPackages [metlo-python-agent-bindings-common]: Remove: archive file [/home/abi/fetcher/tmp/metlo_python_agent_bindings_common-0.0.1-cp37-none-win_amd64.whl.zip]
+[2023-06-20 05:28:19] INFO root fetch - processPackages [metlo-python-agent-bindings-common]: Remove: archive file [/home/abi/fetcher/tmp/metlo_python_agent_bindings_common-0.0.2-cp37-abi3-macosx_11_0_arm64.whl.zip]
+[2023-06-20 05:28:19] INFO root fetch - main [MainThread]: End processing [metlo-python-agent-bindings-common]: success
+[2023-06-20 05:28:20] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.98.1.tar.gz]
+[2023-06-20 05:28:20] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
+[2023-06-20 05:28:20] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-06-20 05:28:20] INFO root fetch - main [MainThread]: Store serial: [18569662]
