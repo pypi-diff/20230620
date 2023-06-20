@@ -6679,3 +6679,119 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 03:56:27] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-assembly-schema-1.0.9.tar.gz]
 [2023-06-20 03:56:27] INFO root fetch - main [MainThread]: End processing [ros-cdk-assembly-schema]: success
 [2023-06-20 03:56:27] INFO root fetch - main [MainThread]: Store serial: [18568340]
+[2023-06-20 04:01:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18568340]
+[2023-06-20 04:01:36] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vitruvi-sdk
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: always-updates
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: always-updates
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-cr
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-lindorm
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: always-updates
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-kms
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-dns
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cc12703-uiautomator2
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ros-cdk-dfs
+[2023-06-20 04:01:36] INFO root fetch - processPackages [vitruvi-sdk]: New version: [0.0.9] Old Version: [0.0.10]
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ros-cdk-lindorm]: New version: [1.0.14] Old Version: [1.0.13]
+[2023-06-20 04:01:36] INFO root fetch - processPackages [cc12703-uiautomator2]: New version: [2.7.3] Old Version: [2.7.2]
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ros-cdk-kms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ros-cdk-dfs]: New version: [1.0.9] Old Version: [1.0.14]
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ros-cdk-cr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ros-cdk-dns]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:01:36] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-20 04:01:36] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-20 04:01:36] INFO root fetch - processPackages [cc12703-uiautomator2]: Downloading https://files.pythonhosted.org/packages/e5/c7/dbed380730b958e75509fbba0a678b38fe2e70776cfee3c4507795f56da9/cc12703_uiautomator2-2.7.2.tar.gz
+[2023-06-20 04:01:36] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-20 04:01:36] INFO root fetch - processPackages [vitruvi-sdk]: Downloading https://files.pythonhosted.org/packages/f9/4e/0078e8d290c4d4d63eab954a716d2f15c94e8643a072db0e3d47b484fa22/vitruvi_sdk-0.0.10.tar.gz
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ros-cdk-dfs]: Downloading https://files.pythonhosted.org/packages/03/1a/a294886358e5b1000fc886e77f10a2a6f62439b632417afa2a6e78f84915/ros-cdk-dfs-1.0.14.tar.gz
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ros-cdk-lindorm]: Downloading https://files.pythonhosted.org/packages/1c/e0/ed646245ad2a89115f497040e8e3754195e2467b3888bc080e80694347dd/ros-cdk-lindorm-1.0.13.tar.gz
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ros-cdk-kms]: Downloading https://files.pythonhosted.org/packages/f9/78/de3d2ca9c71d76cda04df469c7175f92f3c6809ca6966d2d788303799313/ros-cdk-kms-1.0.8.tar.gz
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ros-cdk-dns]: Downloading https://files.pythonhosted.org/packages/65/9c/8740b671f845ac41997a0166fa362d2b2f0beb586ce5ac7857d77e9fe587/ros-cdk-dns-1.0.8.tar.gz
+[2023-06-20 04:01:36] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-20 04:01:36] INFO root fetch - processPackages [ros-cdk-cr]: Downloading https://files.pythonhosted.org/packages/7d/c4/755e652b18955bdee20092f2424fc5ceda0b439c35beb45fac063923e6d8/ros-cdk-cr-1.0.8.tar.gz
+[2023-06-20 04:01:36] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-20 04:01:36] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-20 04:01:36] INFO root fetch - processPackages [vitruvi-sdk]: Downloading https://files.pythonhosted.org/packages/33/80/605c4020801633017ae76a181e947e4087a7dc0426e3362c66257da9a04a/vitruvi_sdk-0.0.9.tar.gz
+[2023-06-20 04:01:37] INFO root fetch - processPackages [ros-cdk-dfs]: Downloading https://files.pythonhosted.org/packages/46/3d/9ce7da7ffa65d1a4e891fb205d146db05f2c729bae5edbbd338def78d151/ros-cdk-dfs-1.0.9.tar.gz
+[2023-06-20 04:01:37] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-20 04:01:37] INFO root fetch - processPackages [vitruvi-sdk]: executing diffoscope
+[2023-06-20 04:01:37] INFO root fetch - processPackages [vitruvi-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vitruvi_sdk-0.0.10.tar.gz tmp/vitruvi_sdk-0.0.9.tar.gz --markdown 20230620/v/vitruvi-sdk/0.0.10-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:01:37] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-20 04:01:37] INFO root fetch - processPackages [ros-cdk-lindorm]: Downloading https://files.pythonhosted.org/packages/79/2d/9a3ef96410fc1cdff44251afc19b05584732b69452ab3c19b16bfeaa9383/ros-cdk-lindorm-1.0.14.tar.gz
+[2023-06-20 04:01:37] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-20 04:01:37] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-20 04:01:37] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230620/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-20 04:01:37] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-20 04:01:37] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230620/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-20 04:01:37] INFO root fetch - processPackages [ros-cdk-kms]: Downloading https://files.pythonhosted.org/packages/55/e0/a1eae5bf20ed18e5f126aff92593f81ef210cca34a71e1a986ab2f04ce0b/ros-cdk-kms-1.0.9.tar.gz
+[2023-06-20 04:01:37] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-20 04:01:37] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230620/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-20 04:01:37] INFO root fetch - processPackages [ros-cdk-lindorm]: executing diffoscope
+[2023-06-20 04:01:37] INFO root fetch - processPackages [ros-cdk-lindorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-lindorm-1.0.13.tar.gz tmp/ros-cdk-lindorm-1.0.14.tar.gz --markdown 20230620/r/ros-cdk-lindorm/1.0.13-1.0.14/diff.md --exclude *.pyd
+[2023-06-20 04:01:37] INFO root fetch - processPackages [ros-cdk-dfs]: executing diffoscope
+[2023-06-20 04:01:37] INFO root fetch - processPackages [ros-cdk-dfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dfs-1.0.14.tar.gz tmp/ros-cdk-dfs-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-dfs/1.0.14-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:01:37] INFO root fetch - processPackages [ros-cdk-cr]: Downloading https://files.pythonhosted.org/packages/fb/d3/b158f6f997c5806b15bec9baef9080f722987971552408b7790d0a1efa8a/ros-cdk-cr-1.0.9.tar.gz
+[2023-06-20 04:01:37] INFO root fetch - processPackages [cc12703-uiautomator2]: Downloading https://files.pythonhosted.org/packages/ad/57/53a120ba6ca4129b83a299a1d405ac408c0a23f150b548436d61e2148c5b/cc12703_uiautomator2-2.7.3.tar.gz
+[2023-06-20 04:01:37] INFO root fetch - processPackages [ros-cdk-kms]: executing diffoscope
+[2023-06-20 04:01:37] INFO root fetch - processPackages [ros-cdk-kms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-kms-1.0.8.tar.gz tmp/ros-cdk-kms-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-kms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:01:37] INFO root fetch - processPackages [ros-cdk-cr]: executing diffoscope
+[2023-06-20 04:01:37] INFO root fetch - processPackages [ros-cdk-cr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cr-1.0.8.tar.gz tmp/ros-cdk-cr-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-cr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:01:37] INFO root fetch - processPackages [cc12703-uiautomator2]: executing diffoscope
+[2023-06-20 04:01:37] INFO root fetch - processPackages [cc12703-uiautomator2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc12703_uiautomator2-2.7.2.tar.gz tmp/cc12703_uiautomator2-2.7.3.tar.gz --markdown 20230620/c/cc12703-uiautomator2/2.7.2-2.7.3/diff.md --exclude *.pyd
+[2023-06-20 04:01:37] INFO root fetch - processPackages [ros-cdk-dns]: Downloading https://files.pythonhosted.org/packages/50/56/09060daa5e7de7d1001bdaf2f93173125ff62691fb8962c12ab789b6de3f/ros-cdk-dns-1.0.9.tar.gz
+[2023-06-20 04:01:37] INFO root fetch - processPackages [ros-cdk-dns]: executing diffoscope
+[2023-06-20 04:01:37] INFO root fetch - processPackages [ros-cdk-dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dns-1.0.8.tar.gz tmp/ros-cdk-dns-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-dns/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:01:38] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-20 04:01:38] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-20 04:01:38] INFO root fetch - processPackages [always-updates]: Start processing: ros-cdk-ram
+[2023-06-20 04:01:38] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-20 04:01:38] INFO root fetch - processPackages [ros-cdk-ram]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:01:38] INFO root fetch - processPackages [always-updates]: Start processing: reasoner-validator
+[2023-06-20 04:01:38] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-20 04:01:38] INFO root fetch - processPackages [always-updates]: Start processing: ros-cdk-ga
+[2023-06-20 04:01:38] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-20 04:01:38] INFO root fetch - processPackages [ros-cdk-ram]: Downloading https://files.pythonhosted.org/packages/72/1c/1dd143ca0b5dbde3c0227f0effa0e20ec8e19e4d87115a3c00dd4fff8639/ros-cdk-ram-1.0.8.tar.gz
+[2023-06-20 04:01:38] INFO root fetch - processPackages [reasoner-validator]: New version: [3.6.0] Old Version: [3.5.9]
+[2023-06-20 04:01:38] INFO root fetch - processPackages [vitruvi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/vitruvi_sdk-0.0.10.tar.gz]
+[2023-06-20 04:01:38] INFO root fetch - processPackages [vitruvi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/vitruvi_sdk-0.0.9.tar.gz]
+[2023-06-20 04:01:38] INFO root fetch - main [MainThread]: End processing [vitruvi-sdk]: success
+[2023-06-20 04:01:38] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/fa/b9/e69dd29ab69970d89dd38884491c20a8e9221ab2acf98d0c9453344a77e3/reasoner_validator-3.5.9.tar.gz
+[2023-06-20 04:01:38] INFO root fetch - processPackages [ros-cdk-ga]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-20 04:01:39] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/2e/df/034c1991fb1240c8af1f4242e53303e2125653ea1f551a6697f29d80aa3c/reasoner_validator-3.6.0.tar.gz
+[2023-06-20 04:01:39] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2023-06-20 04:01:39] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-3.5.9.tar.gz tmp/reasoner_validator-3.6.0.tar.gz --markdown 20230620/r/reasoner-validator/3.5.9-3.6.0/diff.md --exclude *.pyd
+[2023-06-20 04:01:39] INFO root fetch - processPackages [ros-cdk-ga]: Downloading https://files.pythonhosted.org/packages/63/34/0794037ac3fc2e12c914e10f29527ee05b48c77a1431e8fb8e550044b8bc/ros-cdk-ga-1.0.8.tar.gz
+[2023-06-20 04:01:39] INFO root fetch - processPackages [ros-cdk-ram]: Downloading https://files.pythonhosted.org/packages/01/77/29a2ece550d18a242fa77432a9ade1af180f7a002d1dd1548235638e66b7/ros-cdk-ram-1.0.9.tar.gz
+[2023-06-20 04:01:39] INFO root fetch - processPackages [ros-cdk-dns]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dns-1.0.8.tar.gz]
+[2023-06-20 04:01:39] INFO root fetch - processPackages [ros-cdk-dns]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dns-1.0.9.tar.gz]
+[2023-06-20 04:01:39] INFO root fetch - main [MainThread]: End processing [ros-cdk-dns]: success
+[2023-06-20 04:01:39] INFO root fetch - processPackages [ros-cdk-ram]: executing diffoscope
+[2023-06-20 04:01:39] INFO root fetch - processPackages [ros-cdk-ram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ram-1.0.8.tar.gz tmp/ros-cdk-ram-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-ram/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:01:39] INFO root fetch - processPackages [cc12703-uiautomator2]: Remove: archive file [/home/abi/fetcher/tmp/cc12703_uiautomator2-2.7.2.tar.gz]
+[2023-06-20 04:01:39] INFO root fetch - processPackages [cc12703-uiautomator2]: Remove: archive file [/home/abi/fetcher/tmp/cc12703_uiautomator2-2.7.3.tar.gz]
+[2023-06-20 04:01:39] INFO root fetch - main [MainThread]: End processing [cc12703-uiautomator2]: success
+[2023-06-20 04:01:39] INFO root fetch - processPackages [ros-cdk-ga]: Downloading https://files.pythonhosted.org/packages/28/43/2ddcf58171b93a8942c1bccabf97b30dd841ca999dc1494ca45d2b26b90d/ros-cdk-ga-1.0.9.tar.gz
+[2023-06-20 04:01:39] INFO root fetch - processPackages [ros-cdk-kms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-kms-1.0.8.tar.gz]
+[2023-06-20 04:01:39] INFO root fetch - processPackages [ros-cdk-kms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-kms-1.0.9.tar.gz]
+[2023-06-20 04:01:39] INFO root fetch - main [MainThread]: End processing [ros-cdk-kms]: success
+[2023-06-20 04:01:39] INFO root fetch - processPackages [ros-cdk-ga]: executing diffoscope
+[2023-06-20 04:01:39] INFO root fetch - processPackages [ros-cdk-ga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ga-1.0.8.tar.gz tmp/ros-cdk-ga-1.0.9.tar.gz --markdown 20230620/r/ros-cdk-ga/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-20 04:01:39] INFO root fetch - processPackages [ros-cdk-cr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cr-1.0.8.tar.gz]
+[2023-06-20 04:01:39] INFO root fetch - processPackages [ros-cdk-cr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cr-1.0.9.tar.gz]
+[2023-06-20 04:01:39] INFO root fetch - main [MainThread]: End processing [ros-cdk-cr]: success
+[2023-06-20 04:01:39] INFO root fetch - processPackages [ros-cdk-lindorm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-lindorm-1.0.13.tar.gz]
+[2023-06-20 04:01:39] INFO root fetch - processPackages [ros-cdk-lindorm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-lindorm-1.0.14.tar.gz]
+[2023-06-20 04:01:39] INFO root fetch - main [MainThread]: End processing [ros-cdk-lindorm]: success
+[2023-06-20 04:01:39] INFO root fetch - processPackages [ros-cdk-dfs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dfs-1.0.14.tar.gz]
+[2023-06-20 04:01:39] INFO root fetch - processPackages [ros-cdk-dfs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dfs-1.0.9.tar.gz]
+[2023-06-20 04:01:39] INFO root fetch - main [MainThread]: End processing [ros-cdk-dfs]: success
+[2023-06-20 04:01:40] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.5.9.tar.gz]
+[2023-06-20 04:01:40] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.6.0.tar.gz]
+[2023-06-20 04:01:40] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2023-06-20 04:01:40] INFO root fetch - processPackages [ros-cdk-ga]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ga-1.0.8.tar.gz]
+[2023-06-20 04:01:40] INFO root fetch - processPackages [ros-cdk-ga]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ga-1.0.9.tar.gz]
+[2023-06-20 04:01:40] INFO root fetch - main [MainThread]: End processing [ros-cdk-ga]: success
+[2023-06-20 04:01:40] INFO root fetch - processPackages [ros-cdk-ram]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ram-1.0.8.tar.gz]
+[2023-06-20 04:01:40] INFO root fetch - processPackages [ros-cdk-ram]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ram-1.0.9.tar.gz]
+[2023-06-20 04:01:40] INFO root fetch - main [MainThread]: End processing [ros-cdk-ram]: success
+[2023-06-20 04:01:40] INFO root fetch - main [MainThread]: Store serial: [18568372]
