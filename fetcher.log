@@ -22250,3 +22250,107 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 14:08:23] INFO root fetch - processPackages [adbc-driver-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_snowflake-0.5.0-py3-none-win_amd64.whl.zip]
 [2023-06-20 14:08:23] INFO root fetch - main [MainThread]: End processing [adbc-driver-snowflake]: success
 [2023-06-20 14:08:23] INFO root fetch - main [MainThread]: Store serial: [18574499]
+[2023-06-20 14:14:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18574499]
+[2023-06-20 14:14:15] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-20 14:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: udps
+[2023-06-20 14:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: 001.mod.butt
+[2023-06-20 14:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: browserstack-sdk
+[2023-06-20 14:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dartrig
+[2023-06-20 14:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lino
+[2023-06-20 14:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lino-welfare
+[2023-06-20 14:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-06-20 14:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-cqrs
+[2023-06-20 14:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: 002.mod.butt
+[2023-06-20 14:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MouseTracks-Generate
+[2023-06-20 14:14:15] INFO root fetch - processPackages [browserstack-sdk]: New version: [1.9.2] Old Version: [1.8.1]
+[2023-06-20 14:14:15] WARNING root fetch - processPackages [001.mod.butt]: Skipping, unable to determine old version
+[2023-06-20 14:14:15] INFO root fetch - processPackages [001.mod.butt]: Start processing: lino-welcht
+[2023-06-20 14:14:15] INFO root fetch - main [MainThread]: End processing [001.mod.butt] error
+[2023-06-20 14:14:15] INFO root fetch - processPackages [dartrig]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-20 14:14:15] INFO root fetch - processPackages [MouseTracks-Generate]: New version: [1.5] Old Version: [1.4]
+[2023-06-20 14:14:15] INFO root fetch - processPackages [lino-welfare]: New version: [23.6.0] Old Version: [23.1.0]
+[2023-06-20 14:14:15] INFO root fetch - processPackages [udps]: New version: [0.1.19] Old Version: [0.1.17]
+[2023-06-20 14:14:15] WARNING root fetch - processPackages [002.mod.butt]: Skipping, unable to determine old version
+[2023-06-20 14:14:15] INFO root fetch - processPackages [django-cqrs]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-06-20 14:14:15] INFO root fetch - processPackages [002.mod.butt]: Start processing: ansys-api-dyna
+[2023-06-20 14:14:15] INFO root fetch - main [MainThread]: End processing [002.mod.butt] error
+[2023-06-20 14:14:15] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-20 14:14:15] INFO root fetch - processPackages [lino]: New version: [23.6.0] Old Version: [23.5.3]
+[2023-06-20 14:14:15] INFO root fetch - processPackages [lino-welcht]: New version: [23.6.0] Old Version: [22.9.0]
+[2023-06-20 14:14:15] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-06-20 14:14:15] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/c3/a1/ecb0fc49702e70d469ceb63bbffe292a25022b72614b9921fb303fad5986/dartrig-0.1.8.tar.gz
+[2023-06-20 14:14:15] INFO root fetch - processPackages [MouseTracks-Generate]: Downloading https://files.pythonhosted.org/packages/c3/3a/30fd25928ed5e8ed99c86ad97858a587f2995246c9841106c2a8b624230d/MouseTracks_Generate-1.4.tar.gz
+[2023-06-20 14:14:15] WARNING root fetch - processPackages [ansys-api-dyna]: Skipping, unable to determine old version
+[2023-06-20 14:14:15] INFO root fetch - processPackages [ansys-api-dyna]: Start processing: customtkinterx
+[2023-06-20 14:14:15] INFO root fetch - main [MainThread]: End processing [ansys-api-dyna] error
+[2023-06-20 14:14:15] INFO root fetch - processPackages [udps]: Downloading https://files.pythonhosted.org/packages/57/c5/18401826910f820e62fcf3744724fe85f344fb13e5aa5c3fb35f6f64a36b/udps-0.1.17.tar.gz
+[2023-06-20 14:14:15] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/8f/f6/ebeb5204570d76f86be6985afe10789f1b21d91816239c06b11f19bfbb72/browserstack_sdk-1.8.1.tar.gz
+[2023-06-20 14:14:15] INFO root fetch - processPackages [django-cqrs]: Downloading https://files.pythonhosted.org/packages/8a/9f/77c0c7bdb00a2b0cf6358af12d72d8406ec0c51e2b3f5cccaf5fc3f503c4/django_cqrs-2.7.0.tar.gz
+[2023-06-20 14:14:15] INFO root fetch - processPackages [lino-welcht]: Downloading https://files.pythonhosted.org/packages/dd/ff/4b7f8c77ffea441af30687ed1edd17634074d62c3e0287ee7bb973215fac/lino-welcht-22.9.0.tar.gz
+[2023-06-20 14:14:15] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/95/93/0003c3e63e809e98d18242999380721f577baec8ccf697071faca8e8b6ec/dartrig-0.1.9.tar.gz
+[2023-06-20 14:14:15] INFO root fetch - processPackages [lino-welfare]: Downloading https://files.pythonhosted.org/packages/c4/b1/953501068fad5e6708e42a760eba3bf72eab9ffd28b6b161b43c9c8470cf/lino-welfare-23.1.0.tar.gz
+[2023-06-20 14:14:15] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-06-20 14:14:15] INFO root fetch - processPackages [lino]: Downloading https://files.pythonhosted.org/packages/57/61/a554b4c3458acccccba2af32a386fed9385f53b49a03bf3c88a19cf2a38b/lino-23.5.3.tar.gz
+[2023-06-20 14:14:15] INFO root fetch - processPackages [customtkinterx]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-20 14:14:15] INFO root fetch - processPackages [dartrig]: executing diffoscope
+[2023-06-20 14:14:15] INFO root fetch - processPackages [dartrig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dartrig-0.1.8.tar.gz tmp/dartrig-0.1.9.tar.gz --markdown 20230620/d/dartrig/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-20 14:14:15] INFO root fetch - processPackages [MouseTracks-Generate]: Downloading https://files.pythonhosted.org/packages/f5/88/06514c32f33c02e47b7ec14adb65d3f8f48aa033bcd794a365cc1748ff0e/MouseTracks_Generate-1.5.tar.gz
+[2023-06-20 14:14:15] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-06-20 14:14:15] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230620/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-20 14:14:15] INFO root fetch - processPackages [django-cqrs]: Downloading https://files.pythonhosted.org/packages/4a/d0/10ae6c5d9293e22d6e56c9191b1eca00af53645e3ff0df848eca7dd11615/django_cqrs-2.7.1.tar.gz
+[2023-06-20 14:14:15] INFO root fetch - processPackages [customtkinterx]: Downloading https://files.pythonhosted.org/packages/fa/8f/d759e57280e08127cd79d9ea938ba4dab94d27a663babea888dd442ba8f3/customtkinterx-0.4.0.tar.gz
+[2023-06-20 14:14:15] INFO root fetch - processPackages [udps]: Downloading https://files.pythonhosted.org/packages/e1/c1/d87dc4125d50460ebf35ac769ff20a61bdf2435287cdcb05c83fb9270f49/udps-0.1.19.tar.gz
+[2023-06-20 14:14:15] INFO root fetch - processPackages [lino-welcht]: Downloading https://files.pythonhosted.org/packages/ef/c1/1e1e7bb23f12ef8ae7e090372c79ffd40bc7c10fdd6e2c587481a1765e84/lino-welcht-23.6.0.tar.gz
+[2023-06-20 14:14:15] INFO root fetch - processPackages [django-cqrs]: executing diffoscope
+[2023-06-20 14:14:15] INFO root fetch - processPackages [django-cqrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cqrs-2.7.0.tar.gz tmp/django_cqrs-2.7.1.tar.gz --markdown 20230620/d/django-cqrs/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-06-20 14:14:15] INFO root fetch - processPackages [MouseTracks-Generate]: executing diffoscope
+[2023-06-20 14:14:15] INFO root fetch - processPackages [MouseTracks-Generate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MouseTracks_Generate-1.4.tar.gz tmp/MouseTracks_Generate-1.5.tar.gz --markdown 20230620/M/MouseTracks-Generate/1.4-1.5/diff.md --exclude *.pyd
+[2023-06-20 14:14:15] INFO root fetch - processPackages [lino-welcht]: executing diffoscope
+[2023-06-20 14:14:15] INFO root fetch - processPackages [lino-welcht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-welcht-22.9.0.tar.gz tmp/lino-welcht-23.6.0.tar.gz --markdown 20230620/l/lino-welcht/22.9.0-23.6.0/diff.md --exclude *.pyd
+[2023-06-20 14:14:15] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/bf/46/3ee8b5068073adc3791ac682b7a8c14bc7a10d24e6da05a093fbf74efc9b/browserstack_sdk-1.9.2.tar.gz
+[2023-06-20 14:14:15] INFO root fetch - processPackages [udps]: executing diffoscope
+[2023-06-20 14:14:15] INFO root fetch - processPackages [udps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udps-0.1.17.tar.gz tmp/udps-0.1.19.tar.gz --markdown 20230620/u/udps/0.1.17-0.1.19/diff.md --exclude *.pyd
+[2023-06-20 14:14:15] INFO root fetch - processPackages [lino]: Downloading https://files.pythonhosted.org/packages/be/0d/d9d10b41e6fa47acfb67b5e49e7b4c0cda88be2d5e1e464077933db38528/lino-23.6.0.tar.gz
+[2023-06-20 14:14:16] INFO root fetch - processPackages [customtkinterx]: Downloading https://files.pythonhosted.org/packages/2e/b0/dd8fe6748e4bcaba160afe55b119095c82fa8c78f30b5f00390e1e76ed74/customtkinterx-0.4.1.tar.gz
+[2023-06-20 14:14:16] INFO root fetch - processPackages [lino-welfare]: Downloading https://files.pythonhosted.org/packages/84/4d/9851d638305f85507fbb79c5599f6c0790311dfbf329c9815845a711c1f1/lino-welfare-23.6.0.tar.gz
+[2023-06-20 14:14:16] INFO root fetch - processPackages [browserstack-sdk]: executing diffoscope
+[2023-06-20 14:14:16] INFO root fetch - processPackages [browserstack-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserstack_sdk-1.8.1.tar.gz tmp/browserstack_sdk-1.9.2.tar.gz --markdown 20230620/b/browserstack-sdk/1.8.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-20 14:14:16] INFO root fetch - processPackages [customtkinterx]: executing diffoscope
+[2023-06-20 14:14:16] INFO root fetch - processPackages [customtkinterx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customtkinterx-0.4.0.tar.gz tmp/customtkinterx-0.4.1.tar.gz --markdown 20230620/c/customtkinterx/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-20 14:14:16] INFO root fetch - processPackages [lino]: executing diffoscope
+[2023-06-20 14:14:16] INFO root fetch - processPackages [lino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-23.5.3.tar.gz tmp/lino-23.6.0.tar.gz --markdown 20230620/l/lino/23.5.3-23.6.0/diff.md --exclude *.pyd
+[2023-06-20 14:14:16] INFO root fetch - processPackages [lino-welfare]: executing diffoscope
+[2023-06-20 14:14:16] INFO root fetch - processPackages [lino-welfare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-welfare-23.1.0.tar.gz tmp/lino-welfare-23.6.0.tar.gz --markdown 20230620/l/lino-welfare/23.1.0-23.6.0/diff.md --exclude *.pyd
+[2023-06-20 14:14:17] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.8.tar.gz]
+[2023-06-20 14:14:17] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.9.tar.gz]
+[2023-06-20 14:14:17] INFO root fetch - processPackages [dartrig]: Start processing: cosched
+[2023-06-20 14:14:17] INFO root fetch - main [MainThread]: End processing [dartrig]: success
+[2023-06-20 14:14:17] WARNING root fetch - processPackages [cosched]: Skipping, unable to determine old version
+[2023-06-20 14:14:17] INFO root fetch - main [MainThread]: End processing [cosched] error
+[2023-06-20 14:14:17] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-06-20 14:14:17] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-06-20 14:14:17] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-06-20 14:14:17] INFO root fetch - processPackages [django-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/django_cqrs-2.7.0.tar.gz]
+[2023-06-20 14:14:17] INFO root fetch - processPackages [django-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/django_cqrs-2.7.1.tar.gz]
+[2023-06-20 14:14:17] INFO root fetch - main [MainThread]: End processing [django-cqrs]: success
+[2023-06-20 14:14:17] INFO root fetch - processPackages [lino-welcht]: Remove: archive file [/home/abi/fetcher/tmp/lino-welcht-22.9.0.tar.gz]
+[2023-06-20 14:14:17] INFO root fetch - processPackages [lino-welcht]: Remove: archive file [/home/abi/fetcher/tmp/lino-welcht-23.6.0.tar.gz]
+[2023-06-20 14:14:17] INFO root fetch - main [MainThread]: End processing [lino-welcht]: success
+[2023-06-20 14:14:17] INFO root fetch - processPackages [MouseTracks-Generate]: Remove: archive file [/home/abi/fetcher/tmp/MouseTracks_Generate-1.4.tar.gz]
+[2023-06-20 14:14:17] INFO root fetch - processPackages [MouseTracks-Generate]: Remove: archive file [/home/abi/fetcher/tmp/MouseTracks_Generate-1.5.tar.gz]
+[2023-06-20 14:14:17] INFO root fetch - main [MainThread]: End processing [MouseTracks-Generate]: success
+[2023-06-20 14:14:18] INFO root fetch - processPackages [browserstack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/browserstack_sdk-1.8.1.tar.gz]
+[2023-06-20 14:14:18] INFO root fetch - processPackages [browserstack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/browserstack_sdk-1.9.2.tar.gz]
+[2023-06-20 14:14:18] INFO root fetch - main [MainThread]: End processing [browserstack-sdk]: success
+[2023-06-20 14:14:18] INFO root fetch - processPackages [customtkinterx]: Remove: archive file [/home/abi/fetcher/tmp/customtkinterx-0.4.0.tar.gz]
+[2023-06-20 14:14:18] INFO root fetch - processPackages [customtkinterx]: Remove: archive file [/home/abi/fetcher/tmp/customtkinterx-0.4.1.tar.gz]
+[2023-06-20 14:14:18] INFO root fetch - main [MainThread]: End processing [customtkinterx]: success
+[2023-06-20 14:14:20] INFO root fetch - processPackages [lino-welfare]: Remove: archive file [/home/abi/fetcher/tmp/lino-welfare-23.1.0.tar.gz]
+[2023-06-20 14:14:20] INFO root fetch - processPackages [lino-welfare]: Remove: archive file [/home/abi/fetcher/tmp/lino-welfare-23.6.0.tar.gz]
+[2023-06-20 14:14:20] INFO root fetch - main [MainThread]: End processing [lino-welfare]: success
+[2023-06-20 14:14:21] INFO root fetch - processPackages [udps]: Remove: archive file [/home/abi/fetcher/tmp/udps-0.1.17.tar.gz]
+[2023-06-20 14:14:21] INFO root fetch - processPackages [udps]: Remove: archive file [/home/abi/fetcher/tmp/udps-0.1.19.tar.gz]
+[2023-06-20 14:14:21] INFO root fetch - main [MainThread]: End processing [udps]: success
+[2023-06-20 14:17:16] ERROR root fetch - processPackages [lino]: Timeout during execution of pkgdiff
+[2023-06-20 14:17:16] INFO root fetch - main [MainThread]: End processing [lino] error
+[2023-06-20 14:17:16] INFO root fetch - main [MainThread]: Store serial: [18574557]
