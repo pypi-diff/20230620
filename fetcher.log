@@ -10711,3 +10711,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-20 05:28:20] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
 [2023-06-20 05:28:20] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
 [2023-06-20 05:28:20] INFO root fetch - main [MainThread]: Store serial: [18569662]
+[2023-06-20 05:33:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18569662]
+[2023-06-20 05:33:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-20 05:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promptrix
+[2023-06-20 05:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-spider-tool
+[2023-06-20 05:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-06-20 05:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alphawave
+[2023-06-20 05:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gaohn-common-utils
+[2023-06-20 05:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: turing-sdk
+[2023-06-20 05:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reaxfit
+[2023-06-20 05:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llamabot
+[2023-06-20 05:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shapes-recognition
+[2023-06-20 05:33:30] INFO root fetch - processPackages [easy-spider-tool]: New version: [1.0.4] Old Version: [0.0.4]
+[2023-06-20 05:33:30] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-06-20 05:33:30] INFO root fetch - processPackages [promptrix]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-20 05:33:30] INFO root fetch - processPackages [shapes-recognition]: New version: [2.2.2] Old Version: [2.0.0]
+[2023-06-20 05:33:30] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.70] Old Version: [0.0.69]
+[2023-06-20 05:33:30] INFO root fetch - processPackages [turing-sdk]: New version: [0.9.1] Old Version: [0.9.0rc1]
+[2023-06-20 05:33:30] INFO root fetch - processPackages [reaxfit]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-20 05:33:30] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-20 05:33:30] INFO root fetch - processPackages [alphawave]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-20 05:33:30] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-06-20 05:33:30] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/14/9b/9df213c762ab5ebf58a364fce9a93af100c69b2e673375dfe61a97ee0e21/gaohn-common-utils-0.0.69.tar.gz
+[2023-06-20 05:33:30] INFO root fetch - processPackages [easy-spider-tool]: Downloading https://files.pythonhosted.org/packages/71/0f/2dc79205ad19ec0359c2b3d2326909e8aff9e79bebd4dee19ca945089127/easy_spider_tool-0.0.4.tar.gz
+[2023-06-20 05:33:30] INFO root fetch - processPackages [turing-sdk]: Downloading https://files.pythonhosted.org/packages/26/36/2ac15f8049170e515149e0b51fbf0316d875cdb2d73ecbc60270ff767a87/turing-sdk-0.9.0rc1.tar.gz
+[2023-06-20 05:33:30] INFO root fetch - processPackages [reaxfit]: Downloading https://files.pythonhosted.org/packages/53/e0/41ba95327beccdab5cd0e5a3859ffefcdf54e7c2bae81192d84b7d090045/reaxfit-0.2.0.tar.gz
+[2023-06-20 05:33:30] INFO root fetch - processPackages [promptrix]: Downloading https://files.pythonhosted.org/packages/0e/93/1826a30bf43ef5ded4b03fd40f9903ddc5541b3ef462a79a7051b5dd01ae/promptrix-0.2.5.tar.gz
+[2023-06-20 05:33:30] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/90/ca/f5d3c957c9f84e43cc4dc7c9038c982d3cc13e86e8435c34160cb1831333/alphawave-0.2.5.tar.gz
+[2023-06-20 05:33:30] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-06-20 05:33:30] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/9a/76/ca2947d160162dbc4f34aef4d82cee26a9d257a9fd0e719430e85956453d/shapes_recognition-2.0.0.tar.gz
+[2023-06-20 05:33:30] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-06-20 05:33:30] INFO root fetch - processPackages [turing-sdk]: Downloading https://files.pythonhosted.org/packages/2d/ff/d3b618586eb0ac11d36e9027ecbd3201b2a991a6f9504008ee0f7cac19c0/turing-sdk-0.9.1.tar.gz
+[2023-06-20 05:33:30] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-06-20 05:33:30] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230620/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-20 05:33:30] INFO root fetch - processPackages [easy-spider-tool]: Downloading https://files.pythonhosted.org/packages/ef/13/ad97510ad78f01e75719b8b4f7b801521375212006e57765c4a868fe1f92/easy_spider_tool-1.0.4.tar.gz
+[2023-06-20 05:33:30] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/61/5b/30f49aa6cb677ce4d524fa9538750dc116509241fbb5aff2d7b30f19727d/gaohn-common-utils-0.0.70.tar.gz
+[2023-06-20 05:33:30] INFO root fetch - processPackages [turing-sdk]: executing diffoscope
+[2023-06-20 05:33:30] INFO root fetch - processPackages [turing-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turing-sdk-0.9.0rc1.tar.gz tmp/turing-sdk-0.9.1.tar.gz --markdown 20230620/t/turing-sdk/0.9.0rc1-0.9.1/diff.md --exclude *.pyd
+[2023-06-20 05:33:30] INFO root fetch - processPackages [promptrix]: Downloading https://files.pythonhosted.org/packages/72/c8/698fc878a363cf0d88e0b5fb6fa002076b988c48e2cbbd72a617f03bfed2/promptrix-0.2.6.tar.gz
+[2023-06-20 05:33:30] INFO root fetch - processPackages [reaxfit]: Downloading https://files.pythonhosted.org/packages/38/0e/7f643a6bfadc9b96e40caa86a05f47de3276b172a0ad660fed0f83dff5ca/reaxfit-0.2.1.tar.gz
+[2023-06-20 05:33:30] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/93/01/9accd9247eb9a72abf494e3b04122a9f2c15289e9e05a9faefe7d7f398b6/alphawave-0.2.6.tar.gz
+[2023-06-20 05:33:30] INFO root fetch - processPackages [promptrix]: executing diffoscope
+[2023-06-20 05:33:30] INFO root fetch - processPackages [promptrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptrix-0.2.5.tar.gz tmp/promptrix-0.2.6.tar.gz --markdown 20230620/p/promptrix/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-20 05:33:30] INFO root fetch - processPackages [easy-spider-tool]: executing diffoscope
+[2023-06-20 05:33:30] INFO root fetch - processPackages [easy-spider-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_spider_tool-0.0.4.tar.gz tmp/easy_spider_tool-1.0.4.tar.gz --markdown 20230620/e/easy-spider-tool/0.0.4-1.0.4/diff.md --exclude *.pyd
+[2023-06-20 05:33:30] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-20 05:33:30] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.69.tar.gz tmp/gaohn-common-utils-0.0.70.tar.gz --markdown 20230620/g/gaohn-common-utils/0.0.69-0.0.70/diff.md --exclude *.pyd
+[2023-06-20 05:33:30] INFO root fetch - processPackages [alphawave]: executing diffoscope
+[2023-06-20 05:33:30] INFO root fetch - processPackages [alphawave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphawave-0.2.5.tar.gz tmp/alphawave-0.2.6.tar.gz --markdown 20230620/a/alphawave/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-20 05:33:31] INFO root fetch - processPackages [reaxfit]: executing diffoscope
+[2023-06-20 05:33:31] INFO root fetch - processPackages [reaxfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaxfit-0.2.0.tar.gz tmp/reaxfit-0.2.1.tar.gz --markdown 20230620/r/reaxfit/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-20 05:33:31] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/68/22/8af9cfd14db5d3c3688e3ad7ad4603ed0f6e1e428e38752db0bd7869c6f6/shapes_recognition-2.2.2.tar.gz
+[2023-06-20 05:33:31] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-06-20 05:33:31] INFO root fetch - processPackages [shapes-recognition]: executing diffoscope
+[2023-06-20 05:33:31] INFO root fetch - processPackages [shapes-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapes_recognition-2.0.0.tar.gz tmp/shapes_recognition-2.2.2.tar.gz --markdown 20230620/s/shapes-recognition/2.0.0-2.2.2/diff.md --exclude *.pyd
+[2023-06-20 05:33:31] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-06-20 05:33:31] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230620:/home/abi/fetcher/20230620:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230620/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-06-20 05:33:32] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-06-20 05:33:32] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-06-20 05:33:32] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-06-20 05:33:32] INFO root fetch - processPackages [promptrix]: Remove: archive file [/home/abi/fetcher/tmp/promptrix-0.2.5.tar.gz]
+[2023-06-20 05:33:32] INFO root fetch - processPackages [promptrix]: Remove: archive file [/home/abi/fetcher/tmp/promptrix-0.2.6.tar.gz]
+[2023-06-20 05:33:32] INFO root fetch - main [MainThread]: End processing [promptrix]: success
+[2023-06-20 05:33:32] INFO root fetch - processPackages [easy-spider-tool]: Remove: archive file [/home/abi/fetcher/tmp/easy_spider_tool-0.0.4.tar.gz]
+[2023-06-20 05:33:32] INFO root fetch - processPackages [easy-spider-tool]: Remove: archive file [/home/abi/fetcher/tmp/easy_spider_tool-1.0.4.tar.gz]
+[2023-06-20 05:33:32] INFO root fetch - main [MainThread]: End processing [easy-spider-tool]: success
+[2023-06-20 05:33:32] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.0.0.tar.gz]
+[2023-06-20 05:33:32] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.2.2.tar.gz]
+[2023-06-20 05:33:32] INFO root fetch - main [MainThread]: End processing [shapes-recognition]: success
+[2023-06-20 05:33:32] INFO root fetch - processPackages [reaxfit]: Remove: archive file [/home/abi/fetcher/tmp/reaxfit-0.2.0.tar.gz]
+[2023-06-20 05:33:32] INFO root fetch - processPackages [reaxfit]: Remove: archive file [/home/abi/fetcher/tmp/reaxfit-0.2.1.tar.gz]
+[2023-06-20 05:33:32] INFO root fetch - main [MainThread]: End processing [reaxfit]: success
+[2023-06-20 05:33:32] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.2.5.tar.gz]
+[2023-06-20 05:33:32] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.2.6.tar.gz]
+[2023-06-20 05:33:32] INFO root fetch - main [MainThread]: End processing [alphawave]: success
+[2023-06-20 05:33:32] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.69.tar.gz]
+[2023-06-20 05:33:32] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.70.tar.gz]
+[2023-06-20 05:33:32] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-20 05:33:34] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-06-20 05:33:34] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-06-20 05:33:34] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-06-20 05:33:35] INFO root fetch - processPackages [turing-sdk]: Remove: archive file [/home/abi/fetcher/tmp/turing-sdk-0.9.0rc1.tar.gz]
+[2023-06-20 05:33:35] INFO root fetch - processPackages [turing-sdk]: Remove: archive file [/home/abi/fetcher/tmp/turing-sdk-0.9.1.tar.gz]
+[2023-06-20 05:33:35] INFO root fetch - main [MainThread]: End processing [turing-sdk]: success
+[2023-06-20 05:33:35] INFO root fetch - main [MainThread]: Store serial: [18569692]
